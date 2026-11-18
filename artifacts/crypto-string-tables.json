@@ -1,0 +1,154 @@
+{
+  "generatedFrom": "C:/Users/chank616/AppData/Roaming/QQEX/miniapp/temps/miniapp_src/1112386029_3_3443f89042dffbf93d20ced1d652d031/game.js",
+  "tableShapes": {
+    "J": {
+      "length": 42172
+    },
+    "f": {
+      "length": 42172
+    },
+    "q": {
+      "length": 42172
+    },
+    "T": {
+      "length": 42172
+    },
+    "M": {
+      "length": 42172
+    },
+    "g": {
+      "length": 42172
+    },
+    "c": {
+      "length": 42172
+    },
+    "l": {
+      "length": 42172
+    },
+    "v": {
+      "length": 42172
+    },
+    "Y": {
+      "length": 42172
+    },
+    "S": {
+      "length": 42172
+    },
+    "D": {
+      "length": 42172
+    },
+    "L": {
+      "length": 42172
+    },
+    "k": {
+      "length": 42172
+    },
+    "o": {
+      "length": 42172
+    },
+    "a": {
+      "length": 42172
+    },
+    "y": {
+      "length": 42172
+    },
+    "R": {
+      "length": 42172
+    },
+    "Q": {
+      "length": 42172
+    },
+    "z": {
+      "type": "function"
+    },
+    "H": {
+      "type": "function"
+    },
+    "P": {
+      "type": "function"
+    },
+    "C": {
+      "type": "function"
+    },
+    "m": {
+      "type": "function"
+    },
+    "F": {
+      "type": "function"
+    }
+  },
+  "resolved": {
+    "GcmCrypto": {
+      "v17375": "encryptToBase64",
+      "Q10356": "seqToAad",
+      "T9709": "bytesToBase64",
+      "J17866": "setUint32",
+      "D5783": "byteLength",
+      "S5783": "byteLength",
+      "q5783": "byteLength",
+      "J30281": "[GcmCrypto] key length must be 16/24/32, got ",
+      "c5783": "byteLength",
+      "J36177": "[GcmCrypto] nonce length must be 12, got ",
+      "Q5783": "byteLength",
+      "k1785": "encrypt",
+      "o5783": "byteLength",
+      "q29": "set",
+      "o29": "set",
+      "J5783": "byteLength",
+      "o38833": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/",
+      "R38833": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/",
+      "g103": "undefined",
+      "l29756": "base64ToArrayBuffer",
+      "R29756": "base64ToArrayBuffer",
+      "M7": "length",
+      "D7": "length",
+      "v7": "length",
+      "a7": "length",
+      "Y734": "indexOf",
+      "J734": "indexOf",
+      "Q734": "indexOf",
+      "T734": "indexOf",
+      "D739": "floor",
+      "T10394": "subarray",
+      "R7": "length",
+      "S7": "length",
+      "L7": "length",
+      "k975": "charCodeAt",
+      "v30163": "asciiToBytes",
+      "f74": "_RF",
+      "R27": "pop",
+      "T82": "setters",
+      "k61": "cclegacy",
+      "L20517": "gcm",
+      "D91": "execute",
+      "g74": "_RF",
+      "y20008": "1120eLl8sVIsJYT2/mM1RP1",
+      "k18007": "GcmCrypto",
+      "D19": "push"
+    },
+    "UserCryptoManager": {
+      "J17375": "encryptToBase64",
+      "f30163": "asciiToBytes",
+      "M6873": "encryptKey",
+      "Q11522": "base64ToBytes",
+      "Q3066": "expireTime",
+      "J35829": "refreshKey",
+      "R36412": "refillNoncePool",
+      "Q18720": "LEAD_TIME_MS",
+      "D25969": "NONCE_LOW_WATER",
+      "L41201": "NONCE_BATCH",
+      "L15530": "BACKOFF_BASE_MS",
+      "v34381": "BACKOFF_MAX_MS",
+      "l7": "length",
+      "D676": "config",
+      "f342": "game",
+      "f14636": "jiami",
+      "Q21142": "ensureKeyForSend",
+      "l9505": "isReady",
+      "Y8534": "noncePool",
+      "o19755": "takeNonce",
+      "Q29080": "getKeyData",
+      "o646": "commonClose"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "mode": "auth",
+  "pid": 3888,
+  "qqStarted": false,
+  "farmStarted": false,
+  "diagnostics": [
+    {
+      "state": "runtime-metadata",
+      "pid": 3888,
+      "value": {
+        "state": "sso-reply-shape",
+        "wasPromise": false,
+        "replyType": "undefined",
+        "keys": []
+      }
+    },
+    {
+      "state": "sso-callback-statistics",
+      "value": {
+        "matches": 0,
+        "callbacks": {
+          "set": 21,
+          "fire": 15,
+          "onUpdateGeneralFlag": 3,
+          "dispatchCall": 5
+        }
+      }
+    }
+  ]
+}

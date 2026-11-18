@@ -1,0 +1,17 @@
+{
+  "mode": "objects",
+  "pid": 3888,
+  "qqStarted": false,
+  "farmStarted": false,
+  "diagnostics": [
+    {
+      "state": "observation-finished",
+      "pid": 3888,
+      "calls": 44,
+      "hasThis": 44,
+      "names": {
+        "NodeIKernelNodeMiscService": 44
+      }
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "mode": "frontend",
+  "pid": 3888,
+  "qqStarted": false,
+  "farmStarted": false,
+  "diagnostics": [
+    {
+      "state": "runtime-metadata",
+      "pid": 3888,
+      "value": {
+        "pid": 3888,
+        "requireProperties": [
+          "length",
+          "name",
+          "prototype",
+          "m",
+          "amdO",
+          "O",
+          "n",
+          "t",
+          "d",
+          "f",
+          "e",
+          "u",
+          "miniCssF",
+          "g",
+          "hmd",
+          "o",
+          "embedLoadScript",
+          "l",
+          "r",
+          "nmd",
+          "j",
+          "S",
+          "I",
+          "p",
+          "b"
+        ],
+        "moduleCount": 1802,
+        "samples": [
+          {
+            "id": "37",
+            "text": "function 37() { [native code] }"
+          },
+          {
+            "id": "39",
+            "text": "function 39() { [native code] }"
+          },
+          {
+            "id": "45",
+            "text": "function 45() { [native code] }"
+          },
+          {
+            "id": "60",
+            "text": "function 60() { [native code] }"
+          },
+          {
+            "id": "104",
+            "text": "function 104() { [native code] }"
+          }
+        ],
+        "cachedModules": null,
+        "modules": []
+      }
+    }
+  ]
+}

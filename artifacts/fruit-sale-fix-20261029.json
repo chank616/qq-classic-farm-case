@@ -1,0 +1,47 @@
+{
+  "checkedAt": "2026-10-29T18:33:12.4018001+08:00",
+  "policy": "全部普通及变异果实自动出售；保留种子、化肥及其他道具",
+  "serverVerified": true,
+  "fruitSold": 1014022,
+  "goldAdded": 144646848,
+  "goldBalance": 510494186,
+  "fruitSales": [
+    {
+      "phase": "before-harvest",
+      "stacks": 22,
+      "count": 1000022,
+      "includesVariants": true,
+      "goldAdded": 142446048
+    },
+    {
+      "phase": "after-harvest",
+      "stacks": 4,
+      "count": 14000,
+      "includesVariants": true,
+      "goldAdded": 2200800
+    }
+  ],
+  "harvest": {
+    "attempted": 24,
+    "verified": 24
+  },
+  "saleReport": "E:\\workspace\\QQ经典农场案例\\artifacts\\reports\\farm-csharp-2026-10-29T10-26-22-101Z-a243644e.json",
+  "currentReport": "E:\\workspace\\QQ经典农场案例\\deploy-csharp\\artifacts\\reports\\farm-csharp-2026-10-29T10-32-30-459Z-98a6f183.json",
+  "status": "verified",
+  "trayPid": 26324,
+  "qqPid": 35756,
+  "qqStart": "2026-10-29T12:47:26.734828+08:00",
+  "qqStarted": false,
+  "farmStarted": false,
+  "businessChecks": 45,
+  "schedulerChecks": 15,
+  "uiPreviewExit": 0,
+  "remainingGrowing": 17,
+  "waitingForWholeBatchCleanup": 7,
+  "nextDue": "2026-10-29T19:15:50+08:00",
+  "retryNeeded": false,
+  "packagedExeSha256": "334E0149595DB30A521B1409938D0F6D6B05C92F0FD5EEC99D24C3E1A210F965",
+  "packageBytes": 9233760,
+  "realNextSeasonCleanupAndReplantObserved": false,
+  "note": "真实验证已清仓、收获24地并卖出全部新果实；续季后的整批重置等待下次到期，连续多季流程已通过模拟检查。"
+}

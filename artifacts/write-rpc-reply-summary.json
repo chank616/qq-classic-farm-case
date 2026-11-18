@@ -1,0 +1,49 @@
+{
+  "source": "wsframes-analysis.json",
+  "scope": "Write-like RPCs only. Requests/replies are paired by BOOT-delimited connection, method, and client sequence. Duplicate identical reply-hook records are collapsed.",
+  "perMethod": {
+    "gamepb.plantpb.PlantService/Fertilize": {
+      "requests": 6,
+      "requestEvents": 6,
+      "pairedRequests": 6,
+      "rpcReplies": 6,
+      "gatewayZeroRpcReplies": 5,
+      "otherMessageTypeReplies": 0,
+      "otherMessageTypes": {},
+      "nonzeroErrorCodes": {
+        "1001025": 1
+      }
+    },
+    "gamepb.plantpb.PlantService/Farming": {
+      "requests": 2,
+      "requestEvents": 2,
+      "pairedRequests": 2,
+      "rpcReplies": 2,
+      "gatewayZeroRpcReplies": 2,
+      "otherMessageTypeReplies": 0,
+      "otherMessageTypes": {},
+      "nonzeroErrorCodes": {}
+    },
+    "gamepb.plantpb.PlantService/Harvest": {
+      "requests": 1,
+      "requestEvents": 1,
+      "pairedRequests": 1,
+      "rpcReplies": 1,
+      "gatewayZeroRpcReplies": 1,
+      "otherMessageTypeReplies": 0,
+      "otherMessageTypes": {},
+      "nonzeroErrorCodes": {}
+    },
+    "gamepb.plantpb.PlantService/Plant": {
+      "requests": 24,
+      "requestEvents": 24,
+      "pairedRequests": 24,
+      "rpcReplies": 24,
+      "gatewayZeroRpcReplies": 24,
+      "otherMessageTypeReplies": 0,
+      "otherMessageTypes": {},
+      "nonzeroErrorCodes": {}
+    }
+  },
+  "interpretation": "Message type 2 is treated as the direct RPC reply; other message types are reported separately. An absent/zero Meta.error_code is only a gateway/RPC-level non-error. The response body remains encrypted in this analysis, so this is not proof of the requested business state change."
+}

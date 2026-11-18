@@ -1,0 +1,31 @@
+systems 1445
+milo setters 1
+GET root cclegacy
+GET root.cclegacy _RF
+GET root.cclegacy._RF push
+APPLY root.cclegacy._RF.push {}|"cf220Q7qH5Gm6MsB7tUHt8n"|"milo"|
+GET root.cclegacy _RF
+GET root.cclegacy._RF pop
+APPLY root.cclegacy._RF.pop 
+milo keys [
+  'length',
+  'name',
+  'prototype',
+  'init',
+  'checkLogin',
+  'getQQUserOpenid',
+  'getWXUserOpenid'
+]
+qqerr TypeError: n[J[3027]][R[4871]] is not a function
+wxerr TypeError: n[J[3027]][R[4871]] is not a function
+milo static [
+  'length',
+  'name',
+  'prototype',
+  'init',
+  'checkLogin',
+  'getQQUserOpenid',
+  'getWXUserOpenid'
+]
+milo proto [ 'constructor' ]
+decoded {}

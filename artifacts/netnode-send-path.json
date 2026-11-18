@@ -1,0 +1,284 @@
+{
+  "source": "latest cached game.js; isolated VM; all imports and socket are stubs; no host API or network is invoked",
+  "dependencies": [
+    "./rollupPluginModLoBabelHelpers.js",
+    "cc",
+    "./InitGlobal.ts",
+    "./AceManager.ts",
+    "./Oops.ts",
+    "./GameState.ts",
+    "./TipsManager.ts",
+    "./GcmCrypto.ts",
+    "./UserCryptoManager.ts",
+    "./mygamepb.ts",
+    "./BaseService.ts",
+    "./ServiceConfig.ts"
+  ],
+  "events": [
+    {
+      "kind": "get",
+      "path": "dep:./rollupPluginModLoBabelHelpers.js.createClass"
+    },
+    {
+      "kind": "get",
+      "path": "dep:cc.cclegacy"
+    },
+    {
+      "kind": "get",
+      "path": "dep:./InitGlobal.ts.InitGlobal"
+    },
+    {
+      "kind": "get",
+      "path": "dep:./AceManager.ts.AceManager"
+    },
+    {
+      "kind": "get",
+      "path": "dep:./Oops.ts.oops"
+    },
+    {
+      "kind": "get",
+      "path": "dep:./GameState.ts.GameStateType"
+    },
+    {
+      "kind": "get",
+      "path": "dep:./TipsManager.ts.tips"
+    },
+    {
+      "kind": "get",
+      "path": "dep:./GcmCrypto.ts.GcmCrypto"
+    },
+    {
+      "kind": "get",
+      "path": "dep:./UserCryptoManager.ts.UserCryptoManager"
+    },
+    {
+      "kind": "get",
+      "path": "dep:./mygamepb.ts.gatepb"
+    },
+    {
+      "kind": "get",
+      "path": "dep:./mygamepb.ts.gamepb"
+    },
+    {
+      "kind": "get",
+      "path": "dep:./BaseService.ts.BaseService"
+    },
+    {
+      "kind": "get",
+      "path": "dep:./ServiceConfig.ts.ServiceConfig"
+    },
+    {
+      "kind": "get",
+      "path": "dep:cc.cclegacy._RF"
+    },
+    {
+      "kind": "get",
+      "path": "dep:cc.cclegacy._RF.push"
+    },
+    {
+      "kind": "call",
+      "path": "dep:cc.cclegacy._RF.push",
+      "args": [
+        {
+          "type": "Object",
+          "keys": []
+        },
+        "08173oNC+xI87dONlI1CXNE",
+        "NetNode",
+        "undefined"
+      ]
+    },
+    {
+      "kind": "call",
+      "path": "dep:./rollupPluginModLoBabelHelpers.js.createClass",
+      "args": [
+        "function i(){this[D[3085]]=null,this[o[351]]=void 0,this[c[4305]]=void 0,this[M[",
+        {
+          "type": "Array",
+          "keys": [
+            "0"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "get",
+      "path": "dep:cc.cclegacy._RF"
+    },
+    {
+      "kind": "get",
+      "path": "dep:cc.cclegacy._RF.pop"
+    },
+    {
+      "kind": "call",
+      "path": "dep:cc.cclegacy._RF.pop",
+      "args": []
+    },
+    {
+      "kind": "get",
+      "path": "logger.log"
+    },
+    {
+      "kind": "call",
+      "path": "logger.log",
+      "args": [
+        "NetNode init socket"
+      ]
+    },
+    {
+      "kind": "get",
+      "path": "dep:./UserCryptoManager.ts.UserCryptoManager.ins"
+    },
+    {
+      "kind": "get",
+      "path": "dep:./UserCryptoManager.ts.UserCryptoManager.ins.isEnabled"
+    },
+    {
+      "kind": "get",
+      "path": "dep:./UserCryptoManager.ts.UserCryptoManager.ins.encryptData"
+    },
+    {
+      "kind": "call",
+      "path": "dep:./UserCryptoManager.ts.UserCryptoManager.ins.encryptData",
+      "args": [
+        {
+          "type": "Uint8Array",
+          "length": 2
+        },
+        "1"
+      ]
+    },
+    {
+      "kind": "get",
+      "path": "dep:./UserCryptoManager.ts.UserCryptoManager.ins.version"
+    },
+    {
+      "kind": "get",
+      "path": "logger.log"
+    },
+    {
+      "kind": "call",
+      "path": "logger.log",
+      "args": [
+        "net send encrypt scheme switched: ace, funName:",
+        "Heartbeat"
+      ]
+    },
+    {
+      "kind": "get",
+      "path": "dep:./AceManager.ts.AceManager.gamePackInfo"
+    },
+    {
+      "kind": "get",
+      "path": "dep:./AceManager.ts.AceManager.gamePackInfoUsed"
+    },
+    {
+      "kind": "get",
+      "path": "dep:./AceManager.ts.AceManager.ins"
+    },
+    {
+      "kind": "get",
+      "path": "dep:./AceManager.ts.AceManager.ins.randomStr"
+    },
+    {
+      "kind": "call",
+      "path": "dep:./AceManager.ts.AceManager.ins.randomStr",
+      "args": []
+    },
+    {
+      "kind": "get",
+      "path": "dep:./mygamepb.ts.gatepb.Meta"
+    },
+    {
+      "kind": "get",
+      "path": "dep:./mygamepb.ts.gatepb.Meta.Type"
+    },
+    {
+      "kind": "get",
+      "path": "dep:./mygamepb.ts.gatepb.Meta.Type.Request"
+    },
+    {
+      "kind": "get",
+      "path": "dep:./mygamepb.ts.gatepb.Message"
+    },
+    {
+      "kind": "get",
+      "path": "dep:./mygamepb.ts.gatepb.Message.create"
+    },
+    {
+      "kind": "call",
+      "path": "dep:./mygamepb.ts.gatepb.Message.create",
+      "args": [
+        {
+          "type": "Object",
+          "keys": [
+            "meta",
+            "body",
+            "token"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "envelope.shape",
+      "meta": {
+        "service_name": "gamepb.userpb.UserService",
+        "method_name": "Heartbeat",
+        "message_type": "0",
+        "client_seq": "1",
+        "server_seq": "0"
+      },
+      "body": "0",
+      "tokenType": "function"
+    },
+    {
+      "kind": "get",
+      "path": "dep:./mygamepb.ts.gatepb.Message"
+    },
+    {
+      "kind": "get",
+      "path": "dep:./mygamepb.ts.gatepb.Message.encode"
+    },
+    {
+      "kind": "call",
+      "path": "dep:./mygamepb.ts.gatepb.Message.encode",
+      "args": [
+        "0"
+      ]
+    },
+    {
+      "kind": "get",
+      "path": "dep:./mygamepb.ts.gatepb.Message.encode().finish"
+    },
+    {
+      "kind": "call",
+      "path": "dep:./mygamepb.ts.gatepb.Message.encode().finish",
+      "args": []
+    },
+    {
+      "kind": "get",
+      "path": "dep:./mygamepb.ts.gatepb.Message.encode().finish().byteLength"
+    },
+    {
+      "kind": "get",
+      "path": "dep:./mygamepb.ts.gatepb.Message.encode().finish().byteLength"
+    },
+    {
+      "kind": "socket.send",
+      "length": 0
+    },
+    {
+      "kind": "get",
+      "path": "logger.log"
+    },
+    {
+      "kind": "call",
+      "path": "logger.log",
+      "args": [
+        "net send msg",
+        "Heartbeat"
+      ]
+    }
+  ],
+  "interpretation": "This is an execution trace of the cached send control flow against inert stubs. It is not a live protocol request, does not contain session material, and does not prove server acceptance."
+}

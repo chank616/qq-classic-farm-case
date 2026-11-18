@@ -1,0 +1,759 @@
+{
+  "schemaVersion": 1,
+  "day": "2026-10-17",
+  "mode": "execute",
+  "startedAt": "2026-10-17T12:52:05.007Z",
+  "account": {
+    "gid": "1079370412",
+    "name": "露露大神",
+    "level": 149
+  },
+  "checks": [
+    {
+      "id": "login",
+      "status": "passed",
+      "detail": "Login and PlayerLogin accepted by server"
+    },
+    {
+      "id": "care-WeedOut",
+      "status": "passed",
+      "detail": {
+        "attempted": 2
+      }
+    },
+    {
+      "id": "care-Insecticide",
+      "status": "passed",
+      "detail": {
+        "attempted": 1
+      }
+    },
+    {
+      "id": "fertilizer-unpack",
+      "status": "passed",
+      "detail": "Fertilizer boxes opened and inventory re-read"
+    },
+    {
+      "id": "seed-selection",
+      "status": "passed",
+      "detail": {
+        "id": 20102,
+        "goodsId": 158,
+        "requiredLevel": 148
+      }
+    },
+    {
+      "id": "fertilize",
+      "status": "not-due",
+      "detail": {
+        "reason": "wait-for-whole-batch-final-stage",
+        "needSec": 414058,
+        "ownedSec": 748382,
+        "pointsCost": 0,
+        "batchFertilizeAt": 1792264391
+      }
+    },
+    {
+      "id": "harvest",
+      "status": "not-due",
+      "detail": "Waiting for the entire batch to mature"
+    },
+    {
+      "id": "replant",
+      "status": "not-due",
+      "detail": "Waiting for the whole batch to be harvested"
+    },
+    {
+      "id": "task-friend",
+      "status": "passed",
+      "detail": {
+        "id": "200021",
+        "desc": "在1个好友农场进行互动",
+        "cond": 18,
+        "progress": 1,
+        "total": 1,
+        "claimed": true,
+        "unlocked": true
+      }
+    },
+    {
+      "id": "task-login",
+      "status": "passed",
+      "detail": {
+        "id": "200019",
+        "desc": "每日登录游戏",
+        "cond": 16,
+        "progress": 1,
+        "total": 1,
+        "claimed": true,
+        "unlocked": true
+      }
+    },
+    {
+      "id": "task-harvest",
+      "status": "passed",
+      "detail": {
+        "id": "200020",
+        "desc": "采摘1次果实",
+        "cond": 17,
+        "progress": 1,
+        "total": 1,
+        "claimed": true,
+        "unlocked": true
+      }
+    },
+    {
+      "id": "daily-tasks",
+      "status": "passed",
+      "detail": [
+        {
+          "id": "200021",
+          "desc": "在1个好友农场进行互动",
+          "cond": 18,
+          "progress": 1,
+          "total": 1,
+          "claimed": true,
+          "unlocked": true
+        },
+        {
+          "id": "200019",
+          "desc": "每日登录游戏",
+          "cond": 16,
+          "progress": 1,
+          "total": 1,
+          "claimed": true,
+          "unlocked": true
+        },
+        {
+          "id": "200020",
+          "desc": "采摘1次果实",
+          "cond": 17,
+          "progress": 1,
+          "total": 1,
+          "claimed": true,
+          "unlocked": true
+        }
+      ]
+    },
+    {
+      "id": "vip-daily",
+      "status": "passed",
+      "detail": "Server confirms claimed_today"
+    },
+    {
+      "id": "vip-rewards",
+      "status": "passed",
+      "detail": "Server confirms claimed_today"
+    },
+    {
+      "id": "free-fertilizer",
+      "status": "passed",
+      "detail": {
+        "reason": "product-and-limit-recheck",
+        "products": [
+          {
+            "id": 1001,
+            "name": "每日福利",
+            "fertilizer": true,
+            "available": false,
+            "purchased": false,
+            "exhausted": true,
+            "verified": true,
+            "items": [
+              {
+                "mutant_types": [],
+                "id": 80001,
+                "count": 1
+              }
+            ]
+          },
+          {
+            "id": 1064,
+            "name": "奶茶分享礼包",
+            "fertilizer": false,
+            "available": false,
+            "purchased": false,
+            "exhausted": false,
+            "verified": false,
+            "items": [
+              {
+                "mutant_types": [],
+                "id": 29005,
+                "count": 1
+              }
+            ]
+          },
+          {
+            "id": 1053,
+            "name": "SVIP商城每日免费",
+            "fertilizer": true,
+            "available": false,
+            "purchased": false,
+            "exhausted": true,
+            "verified": true,
+            "items": [
+              {
+                "mutant_types": [],
+                "id": 80001,
+                "count": 1
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "free-benefits",
+      "status": "passed",
+      "detail": [
+        {
+          "id": 1001,
+          "name": "每日福利",
+          "fertilizer": true,
+          "available": false,
+          "purchased": false,
+          "exhausted": true,
+          "verified": true,
+          "items": [
+            {
+              "mutant_types": [],
+              "id": 80001,
+              "count": 1
+            }
+          ]
+        },
+        {
+          "id": 1053,
+          "name": "SVIP商城每日免费",
+          "fertilizer": true,
+          "available": false,
+          "purchased": false,
+          "exhausted": true,
+          "verified": true,
+          "items": [
+            {
+              "mutant_types": [],
+              "id": 80001,
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "final-state",
+      "status": "passed",
+      "detail": {
+        "total": 24,
+        "planted": 24,
+        "matureRemaining": 0
+      }
+    }
+  ],
+  "operations": [
+    {
+      "method": "WeedOut",
+      "err": 0,
+      "status": "server-accepted",
+      "msg": ""
+    },
+    {
+      "method": "Insecticide",
+      "err": 0,
+      "status": "server-accepted",
+      "msg": ""
+    },
+    {
+      "method": "Use",
+      "err": 0,
+      "status": "server-accepted",
+      "msg": "",
+      "itemId": 100003,
+      "count": 1
+    }
+  ],
+  "allRequiredComplete": true,
+  "completed": true,
+  "tasksBefore": [
+    {
+      "id": "101056",
+      "desc": "升级20块紫晶土地",
+      "cond": 22,
+      "progress": 19,
+      "total": 20,
+      "claimed": false,
+      "unlocked": true
+    },
+    {
+      "id": "200021",
+      "desc": "在1个好友农场进行互动",
+      "cond": 18,
+      "progress": 1,
+      "total": 1,
+      "claimed": true,
+      "unlocked": true
+    },
+    {
+      "id": "200019",
+      "desc": "每日登录游戏",
+      "cond": 16,
+      "progress": 1,
+      "total": 1,
+      "claimed": true,
+      "unlocked": true
+    },
+    {
+      "id": "200020",
+      "desc": "采摘1次果实",
+      "cond": 17,
+      "progress": 1,
+      "total": 1,
+      "claimed": true,
+      "unlocked": true
+    }
+  ],
+  "selectedSeed": {
+    "id": 20102,
+    "goodsId": 158,
+    "requiredLevel": 148
+  },
+  "fertilizerDecision": {
+    "needSec": 414058,
+    "phaseAt": 1792264391,
+    "ready": false,
+    "sufficient": true,
+    "batchFertilizeAt": 1792264391,
+    "pointsCost": 0,
+    "purchases": [],
+    "groups": [
+      {
+        "fertilizerId": 1011,
+        "landIds": [
+          8,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24
+        ],
+        "needSec": 276405
+      },
+      {
+        "fertilizerId": 1012,
+        "landIds": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          9
+        ],
+        "needSec": 137653
+      }
+    ],
+    "normalBucketSec": 289739,
+    "organicBucketSec": 296643,
+    "normalBagSec": 39600,
+    "organicBagSec": 122400,
+    "points": 11428,
+    "ownedTotalSec": 748382,
+    "unresolvedBoxes": 0,
+    "offers": [
+      {
+        "id": 1002,
+        "price": 42,
+        "normalSec": 0,
+        "organicSec": 36000,
+        "slot": 1,
+        "remaining": null
+      },
+      {
+        "id": 1003,
+        "price": 34,
+        "normalSec": 36000,
+        "organicSec": 0,
+        "slot": 1,
+        "remaining": null
+      }
+    ]
+  },
+  "farm": {
+    "mode": "whole-farm",
+    "harvest": {
+      "attempted": 0,
+      "verified": 0
+    },
+    "planted": {
+      "attempted": 0,
+      "verified": 0
+    },
+    "totalLands": 24,
+    "occupied": 24
+  },
+  "tasksAfter": [
+    {
+      "id": "101056",
+      "desc": "升级20块紫晶土地",
+      "cond": 22,
+      "progress": 19,
+      "total": 20,
+      "claimed": false,
+      "unlocked": true
+    },
+    {
+      "id": "200021",
+      "desc": "在1个好友农场进行互动",
+      "cond": 18,
+      "progress": 1,
+      "total": 1,
+      "claimed": true,
+      "unlocked": true
+    },
+    {
+      "id": "200019",
+      "desc": "每日登录游戏",
+      "cond": 16,
+      "progress": 1,
+      "total": 1,
+      "claimed": true,
+      "unlocked": true
+    },
+    {
+      "id": "200020",
+      "desc": "采摘1次果实",
+      "cond": 17,
+      "progress": 1,
+      "total": 1,
+      "claimed": true,
+      "unlocked": true
+    }
+  ],
+  "daily": {
+    "observed": 3,
+    "claimed": 3,
+    "complete": true,
+    "tasks": [
+      {
+        "id": "200021",
+        "desc": "在1个好友农场进行互动",
+        "cond": 18,
+        "progress": 1,
+        "total": 1,
+        "claimed": true,
+        "unlocked": true
+      },
+      {
+        "id": "200019",
+        "desc": "每日登录游戏",
+        "cond": 16,
+        "progress": 1,
+        "total": 1,
+        "claimed": true,
+        "unlocked": true
+      },
+      {
+        "id": "200020",
+        "desc": "采摘1次果实",
+        "cond": 17,
+        "progress": 1,
+        "total": 1,
+        "claimed": true,
+        "unlocked": true
+      }
+    ]
+  },
+  "freeProducts": [
+    {
+      "id": 1001,
+      "name": "每日福利",
+      "fertilizer": true,
+      "available": false,
+      "purchased": false,
+      "exhausted": true,
+      "verified": true,
+      "items": [
+        {
+          "mutant_types": [],
+          "id": 80001,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 1064,
+      "name": "奶茶分享礼包",
+      "fertilizer": false,
+      "available": false,
+      "purchased": false,
+      "exhausted": false,
+      "verified": false,
+      "items": [
+        {
+          "mutant_types": [],
+          "id": 29005,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 1053,
+      "name": "SVIP商城每日免费",
+      "fertilizer": true,
+      "available": false,
+      "purchased": false,
+      "exhausted": true,
+      "verified": true,
+      "items": [
+        {
+          "mutant_types": [],
+          "id": 80001,
+          "count": 1
+        }
+      ]
+    }
+  ],
+  "fertilizer": {
+    "needSec": 414058,
+    "phaseAt": 1792264391,
+    "ready": false,
+    "sufficient": true,
+    "batchFertilizeAt": 1792264391,
+    "pointsCost": 0,
+    "purchases": [],
+    "groups": [
+      {
+        "fertilizerId": 1011,
+        "landIds": [
+          8,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24
+        ],
+        "needSec": 276405
+      },
+      {
+        "fertilizerId": 1012,
+        "landIds": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          9
+        ],
+        "needSec": 137653
+      }
+    ],
+    "normalBucketSec": 289739,
+    "organicBucketSec": 296643,
+    "normalBagSec": 39600,
+    "organicBagSec": 122400,
+    "points": 11428,
+    "ownedTotalSec": 748382,
+    "unresolvedBoxes": 0,
+    "offers": [
+      {
+        "id": 1002,
+        "price": 42,
+        "normalSec": 0,
+        "organicSec": 36000,
+        "slot": 1,
+        "remaining": null
+      },
+      {
+        "id": 1003,
+        "price": 34,
+        "normalSec": 36000,
+        "organicSec": 0,
+        "slot": 1,
+        "remaining": null
+      }
+    ]
+  },
+  "fertilizerDecisionState": null,
+  "cropClock": {
+    "minMatureAt": 1792281422,
+    "lastGrowAt": 1792264142,
+    "planted": 24,
+    "lands": [
+      {
+        "id": 1,
+        "crop": "马蹄莲",
+        "matureAt": 1792281422,
+        "growAt": 1792264142
+      },
+      {
+        "id": 2,
+        "crop": "马蹄莲",
+        "matureAt": 1792281496,
+        "growAt": 1792264216
+      },
+      {
+        "id": 3,
+        "crop": "马蹄莲",
+        "matureAt": 1792281566,
+        "growAt": 1792264286
+      },
+      {
+        "id": 4,
+        "crop": "马蹄莲",
+        "matureAt": 1792281658,
+        "growAt": 1792264378
+      },
+      {
+        "id": 5,
+        "crop": "马蹄莲",
+        "matureAt": 1792281659,
+        "growAt": 1792264379
+      },
+      {
+        "id": 6,
+        "crop": "马蹄莲",
+        "matureAt": 1792281659,
+        "growAt": 1792264379
+      },
+      {
+        "id": 7,
+        "crop": "马蹄莲",
+        "matureAt": 1792281660,
+        "growAt": 1792264380
+      },
+      {
+        "id": 8,
+        "crop": "马蹄莲",
+        "matureAt": 1792281661,
+        "growAt": 1792264381
+      },
+      {
+        "id": 9,
+        "crop": "马蹄莲",
+        "matureAt": 1792281661,
+        "growAt": 1792264381
+      },
+      {
+        "id": 10,
+        "crop": "马蹄莲",
+        "matureAt": 1792281662,
+        "growAt": 1792264382
+      },
+      {
+        "id": 11,
+        "crop": "马蹄莲",
+        "matureAt": 1792281663,
+        "growAt": 1792264383
+      },
+      {
+        "id": 12,
+        "crop": "马蹄莲",
+        "matureAt": 1792281663,
+        "growAt": 1792264383
+      },
+      {
+        "id": 13,
+        "crop": "马蹄莲",
+        "matureAt": 1792281664,
+        "growAt": 1792264384
+      },
+      {
+        "id": 14,
+        "crop": "马蹄莲",
+        "matureAt": 1792281665,
+        "growAt": 1792264385
+      },
+      {
+        "id": 15,
+        "crop": "马蹄莲",
+        "matureAt": 1792281665,
+        "growAt": 1792264385
+      },
+      {
+        "id": 16,
+        "crop": "马蹄莲",
+        "matureAt": 1792281666,
+        "growAt": 1792264386
+      },
+      {
+        "id": 17,
+        "crop": "马蹄莲",
+        "matureAt": 1792281667,
+        "growAt": 1792264387
+      },
+      {
+        "id": 18,
+        "crop": "马蹄莲",
+        "matureAt": 1792281667,
+        "growAt": 1792264387
+      },
+      {
+        "id": 19,
+        "crop": "马蹄莲",
+        "matureAt": 1792281668,
+        "growAt": 1792264388
+      },
+      {
+        "id": 20,
+        "crop": "马蹄莲",
+        "matureAt": 1792281669,
+        "growAt": 1792264389
+      },
+      {
+        "id": 21,
+        "crop": "马蹄莲",
+        "matureAt": 1792281669,
+        "growAt": 1792264389
+      },
+      {
+        "id": 22,
+        "crop": "马蹄莲",
+        "matureAt": 1792281670,
+        "growAt": 1792264390
+      },
+      {
+        "id": 23,
+        "crop": "马蹄莲",
+        "matureAt": 1792281671,
+        "growAt": 1792264391
+      },
+      {
+        "id": 24,
+        "crop": "马蹄莲",
+        "matureAt": 1792281671,
+        "growAt": 1792264391
+      }
+    ],
+    "batchMatureAt": 1792281671,
+    "batchFertilizeAt": 1792264391,
+    "mode": "whole-farm",
+    "fertilizerNeedSec": 414058
+  },
+  "finishedAt": "2026-10-17T12:52:17.438Z",
+  "status": "verified",
+  "runId": "4d146507-61b1-4f0a-a0ca-1581f5ae2b02",
+  "serverClockOffsetMs": 289
+}

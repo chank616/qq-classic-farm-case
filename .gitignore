@@ -1,0 +1,49 @@
+# ---- 依赖与虚拟环境 ----
+node_modules/
+.venv/
+.venv-ida/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# ---- .NET 构建产物 ----
+[Bb]in/
+[Oo]bj/
+*.user
+*.suo
+*.cache
+
+# ---- 大体积二进制 / 原生库 / 打包产物（不入库） ----
+*.dll
+*.so
+*.dylib
+*.node
+*.exe
+*.pdb
+*.wasm
+*.asar
+*.zip
+*.7z
+*.tar
+*.gz
+
+# ---- IDA / 反编译数据库 ----
+*.i64
+*.id0
+*.id1
+*.id2
+*.nam
+*.til
+*.sym
+*.rep
+
+# ---- 运行期日志与本地会话 ----
+*.log
+logs/
+
+# ---- 编辑器 / 系统 ----
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini

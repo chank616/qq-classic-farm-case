@@ -1,0 +1,454 @@
+{
+  "chunks:///_virtual/ServiceMethodName.ts": {
+    "UserMethodName": {
+      "Login": "Login",
+      "Heartbeat": "Heartbeat",
+      "SetDisplayInfo": "SetDisplayInfo",
+      "ReportArkClick": "ReportArkClick",
+      "AllLands": "AllLands",
+      "Plant": "Plant",
+      "Harvest": "Harvest",
+      "Erase": "RemovePlant",
+      "Water": "WaterLand",
+      "KillBug": "Insecticide",
+      "EraseGrass": "WeedOut",
+      "Farming": "Farming",
+      "IgniteFirework": "IgniteFirework",
+      "Fertilize": "Fertilize",
+      "AddBug": "PutInsects",
+      "AddGrass": "PutWeeds",
+      "UpgradeLand": "UpgradeLand",
+      "ClientReportFlow": "ClientReportFlow",
+      "BatchClientReportFlow": "BatchClientReportFlow",
+      "CheckCanOperate": "CheckCanOperate",
+      "ClaimRedPacket": "ClaimRedPacket",
+      "GetTodayClaimStatus": "GetTodayClaimStatus",
+      "SetSubscribeMessageStatus": "SetSubscribeMessageStatus",
+      "GetSubscribeMessageStatus": "GetSubscribeMessageStatus",
+      "Report": "Report",
+      "DeleteAccount": "DeleteAccount",
+      "SetQQFriendRecommendAuthorized": "SetQQFriendRecommendAuthorized",
+      "GetDailyGiftStatus": "GetDailyGiftStatus",
+      "GetQQVipRewardsStatus": "GetQQVipRewardsStatus",
+      "MarkQQVipRedpointViewed": "MarkQQVipRedpointViewed",
+      "ClaimDailyGift": "ClaimDailyGift",
+      "ClaimQQVipRewards": "ClaimQQVipRewards",
+      "RefreshVipInfo": "RefreshVipInfo",
+      "GetConfig": "GetConfig",
+      "GetActivityInfo": "GetActivityInfo",
+      "SetPosterShown": "SetPosterShown",
+      "GetPlayerData": "GetPlayerData",
+      "GetUserSettings": "GetUserSettings",
+      "SetUserSettings": "SetUserSettings",
+      "BatchGetBasicInfo": "BatchGetBasicInfo",
+      "ReportForeground": "ReportForeground",
+      "DecryptOpenData": "DecryptOpenData",
+      "RefreshLands": "RefreshLands",
+      "AntiData": "AntiData",
+      "PlayerLogin": "PlayerLogin"
+    },
+    "RankMethodName": {
+      "GlobalRank": "GlobalRank"
+    },
+    "VisitMethodName": {
+      "Enter": "Enter",
+      "Leave": "Leave",
+      "Keep": "Keep"
+    },
+    "ItemMethodName": {
+      "Bag": "Bag",
+      "Sell": "Sell",
+      "Use": "Use",
+      "BatchUse": "BatchUse",
+      "CannelNew": "CannelNew",
+      "LockItems": "LockItems",
+      "UnlockItems": "UnlockItems",
+      "GetBag": "GetBag",
+      "GetBagTab": "GetBagTab"
+    },
+    "ShopMethodName": {
+      "ShopInfo": "ShopInfo",
+      "BuyGoods": "BuyGoods"
+    },
+    "UserInfoMethodName": {
+      "InteractRecords": "InteractRecords",
+      "CareerInfoGet": "CareerInfoGet",
+      "GetInteractInfo": "GetInteractInfo",
+      "GetInteractSummary": "GetInteractSummary",
+      "DismissInteractPopup": "DismissInteractPopup"
+    },
+    "BulletinBoardMethodName": {
+      "GetBulletinList": "GetBulletinList",
+      "GetBulletinDetail": "GetBulletinDetail"
+    },
+    "MarqueeMethodName": {
+      "GetMarquee": "GetMarquee"
+    },
+    "AvatarFrameMethodName": {
+      "AvatarFramesOwned": "AvatarFramesOwned",
+      "Equip": "Equip",
+      "UpdateEquip": "UpdateEquip",
+      "Unequip": "Unequip",
+      "MarkAsViewed": "MarkAsViewed"
+    },
+    "ServiceName": {
+      "userService": "gamepb.userpb.UserService",
+      "GlobalSceneService": "gamepb.globalscenepb.GlobalSceneService",
+      "PlantService": "gamepb.plantpb.PlantService",
+      "RankService": "gamepb.rankpb.RankService",
+      "VisitService": "gamepb.visitpb.VisitService",
+      "ItemService": "gamepb.itempb.ItemService",
+      "ShopService": "gamepb.shoppb.ShopService",
+      "UserInfoService": "gamepb.interactpb.InteractService",
+      "FriendService": "gamepb.friendpb.FriendService",
+      "GuideService": "gamepb.guidepb.GuideService",
+      "ShareService": "gamepb.sharepb.ShareService",
+      "CareerService": "gamepb.careerpb.CareerService",
+      "DogService": "gamepb.dogpb.DogService",
+      "TaskService": "gamepb.taskpb.TaskService",
+      "BulletinBoardService": "gamepb.bulletinboardpb.BulletinBoardService",
+      "MarqueeService": "gamepb.marqueepb.MarqueeService",
+      "PayService": "gamepb.paypb.PayService",
+      "MallService": "gamepb.mallpb.MallService",
+      "UicproxyService": "gamepb.uicproxypb.UicprotoxyService",
+      "EmailService": "gamepb.emailpb.EmailService",
+      "IllustratedService": "gamepb.illustratedpb.IllustratedService",
+      "WeatherService": "gamepb.weatherpb.WeatherService",
+      "RedPacketService": "gamepb.redpacketpb.RedPacketService",
+      "OpenPlatformSettingService": "gamepb.subscribewxmsg.OpenPlatformSettingService",
+      "NudgeService": "gamepb.nudgepb.NudgeService",
+      "QQVipService": "gamepb.qqvippb.QQVipService",
+      "RechargeBonusService": "gamepb.rechargebonuspb.RechargeBonusService",
+      "RandomDropService": "gamepb.randomdroppb.RandomDropService",
+      "AvatarFrameService": "gamepb.avatarframepb.AvatarFrameService",
+      "MsgBoardService": "msgboardpb.MsgBoardService",
+      "ActivityService": "gamepb.activitypb.ActivityService",
+      "SkinService": "gamepb.skinpb.SkinService",
+      "SubscribeQQService": "gamepb.subscribeqqmsg.QQSubscribeService",
+      "QQGroupService": "gamepb.qqgrouppb.QQGroupService",
+      "AceService": "gamepb.acepb.AceService",
+      "MutantService": "gamepb.mutantpb.MutantService",
+      "MysteryShopService": "gamepb.mysteryshoppb.MysteryShopService",
+      "SeasonService": "gamepb.seasonpb.SeasonService",
+      "SolarTermService": "gamepb.solartermspb.SolarTermsService",
+      "SolarTermsV2Service": "gamepb.solartermspb.SolarTermsV2Service",
+      "AchieveService": "gamepb.achievepb.AchieveService",
+      "MiscService": "gamepb.miscpb.MiscService",
+      "IaaService": "gamepb.iaapb.IaaService"
+    },
+    "ServiceNotifyMessageType": {
+      "ItemNotify": "gamepb.itempb.ItemNotify",
+      "KickoutNotify": "gatepb.KickoutNotify",
+      "LandsNotify": "gamepb.plantpb.LandsNotify",
+      "BasicNotify": "gamepb.userpb.BasicNotify",
+      "BulletinNotify": "gamepb.bulletinboardpb.BulletinListChangedNTF",
+      "TaskInfoNotify": "gamepb.taskpb.TaskInfoNotify",
+      "MarqueeNotify": "gamepb.marqueepb.MarqueeNotify",
+      "NewProtectLogNotify": "gamepb.dogpb.NewProtectLogNotify",
+      "SkillTriggerNotify": "gamepb.dogpb.SkillTriggerNotify",
+      "NewEmailNotify": "gamepb.emailpb.NewEmailNotify",
+      "DogStatusNotify": "gamepb.dogpb.DogStatusNotify",
+      "DogSkinChangeNotify": "gamepb.dogpb.DogSkinChangeNotify",
+      "DogSkinNewNotify": "gamepb.dogpb.DogSkinNewNotify",
+      "DogProtectionNotify": "gamepb.illustratedpb.DogProtectionNotify",
+      "StealBonusNotify": "gamepb.illustratedpb.StealBonusNotify",
+      "HarvestBonusNotify": "gamepb.illustratedpb.HarvestBonusNotify",
+      "IllustratedChangeNotifyV2": "gamepb.illustratedpb.IllustratedChangeNotifyV2",
+      "IllustratedRewardRedDotNotifyV2": "gamepb.illustratedpb.IllustratedRewardRedDotNotifyV2",
+      "GoodsUnlockNotify": "gamepb.shoppb.GoodsUnlockNotify",
+      "SystemUnlockNotify": "gamepb.systemopenpb.SystemUnlockNotify",
+      "FriendApplicationReceivedNotify": "gamepb.friendpb.FriendApplicationReceivedNotify",
+      "FriendAddedNotify": "gamepb.friendpb.FriendAddedNotify",
+      "TodayclaimstatusNotify": "gamepb.redpacketpb.GetTodayClaimStatusNotify",
+      "ActivityStatusChangeNotify": "gamepb.randomdroppb.ActivityStatusChangeNotify",
+      "GlobalSceneUnlockNotify": "gamepb.globalscenepb.GlobalSceneUnlockNotify",
+      "NeedNotify": "gamepb.mallpb.NeedNotify",
+      "MonthCardInfoNTF": "gamepb.mallpb.MonthCardInfoNTF",
+      "RechargeInfoNotify": "gamepb.paypb.RechargeInfoNotify",
+      "ProductsHasChangedNotify": "gamepb.mallpb.ProductsHasChangedNotify",
+      "DailyGiftStatusChangedNTF": "gamepb.qqvippb.DailyGiftStatusChangedNTF",
+      "InteractNewRecordNotify": "gamepb.interactpb.InteractNewRecordNotify",
+      "DelFriendNotify": "gamepb.friendpb.DelFriendNotify",
+      "BlockedByFriendNotify": "gamepb.friendpb.BlockedByFriendNotify",
+      "AvatarFrameRedDotNotify": "gamepb.avatarframepb.AvatarFrameRedDotNotify",
+      "AvatarFrameObtainedNotify": "gamepb.avatarframepb.AvatarFrameObtainedNotify",
+      "ActivityChange": "gamepb.activitypb.ActiviesChangeNotify",
+      "ShareRewardResolveArkNotify": "gamepb.activitypb.ShareRewardResolveArkNotify",
+      "SubscribeAuthPromptNotify": "gamepb.subscribewxmsg.SubscribeAuthPromptNotify",
+      "QQSubscribeJumpNotify": "gamepb.subscribeqqmsg.QQSubscribeJumpNotify",
+      "CommunityAuthRevokedNotify": "gamepb.qqgrouppb.CommunityAuthRevokedNotify",
+      "SkinChangeNotify": "gamepb.skinpb.SkinChangeNotify",
+      "SkinNewNotify": "gamepb.skinpb.SkinNewNotify",
+      "SkinInvalidNotify": "gamepb.skinpb.SkinInvalidNotify",
+      "VipInfoUpdatedNTF": "gamepb.qqvippb.VipInfoUpdatedNTF",
+      "TipsNotify": "gamepb.tipspb.TipsNotify",
+      "HostAtHomeNotify": "gamepb.visitpb.HostAtHomeNotify",
+      "SeasonChangeNotify": "gamepb.seasonpb.SeasonChangeNotify",
+      "BattlePassChangeNotify": "gamepb.seasonpb.BattlePassChangeNotify",
+      "AchieveRedDotNotify": "gamepb.achievepb.AchieveRedDotNotify",
+      "ShareInviteeAddNotify": "gamepb.sharepb.ShareInviteeAddNotify",
+      "SolarTermsStatusNotify": "gamepb.solartermspb.SolarTermsStatusNotify",
+      "WeatherChangeNotify": "gamepb.weatherpb.WeatherChangeNotify",
+      "MysteryShopNotify": "gamepb.mysteryshoppb.MysteryShopNotify",
+      "FarmSocialEventsNotify": "gamepb.plantpb.FarmSocialEventsNotify",
+      "NewMessageNotify": "msgboardpb.NewMessageNotify",
+      "NewLikeNotify": "msgboardpb.NewLikeNotify",
+      "NewReplyNotify": "msgboardpb.NewReplyNotify",
+      "ItemUseDailyNotify": "gamepb.itempb.ItemUseDailyNotify",
+      "AdPurchasedNotify": "gamepb.mallpb.AdPurchasedNotify",
+      "ShareFreeCountNotify": "gamepb.mallpb.ShareFreeCountNotify",
+      "SolarTermsV2StatusNotify": "gamepb.solartermspb.SolarTermsV2StatusNotify"
+    },
+    "FriendMethodName": {
+      "GetAll": "GetAll",
+      "SyncAll": "SyncAll",
+      "SetTags": "SetTags",
+      "GetGameFriends": "GetGameFriends",
+      "ReportInvitation": "ReportInvitation",
+      "GetIntimacyDetail": "GetIntimacyDetail",
+      "AcceptFriends": "AcceptFriends",
+      "RejectFriends": "RejectFriends",
+      "GetApplications": "GetApplications",
+      "SetBlockApplications": "SetBlockApplications",
+      "GetFriendRecommend": "GetFriendRecommend",
+      "DelFriend": "DelFriend",
+      "GetBriefInfo": "GetBriefInfo",
+      "BlockFriend": "BlockFriend",
+      "UnblockFriend": "UnblockFriend",
+      "GetBlockList": "GetBlockList",
+      "GetShareKey": "GetShareKey",
+      "GetWXRecommendations": "GetWXRecommendations",
+      "GetWXRecommendationsPage": "GetWXRecommendationsPage",
+      "ApplyWXFriends": "ApplyWXFriends",
+      "ApplyFriend": "ApplyFriend"
+    },
+    "GuideMethodName": {
+      "SetCurrNode": "SetCurrNode",
+      "GetInfo": "GetInfo",
+      "SetWeakGuideNodeComplete": "SetWeakGuideNodeComplete",
+      "ClaimWeakGuideReward": "ClaimWeakGuideReward"
+    },
+    "ShareMethonName": {
+      "ReportShare": "ReportShare",
+      "ClaimShareReward": "ClaimShareReward",
+      "CheckCanShare": "CheckCanShare",
+      "GetInviteInfo": "GetInviteInfo",
+      "GetInviteAward": "GetInviteAward"
+    },
+    "DogMethodName": {
+      "GetDogInfo": "GetDogInfo",
+      "BuyAndActivateDog": "BuyAndActivateDog",
+      "ActivateDog": "ActivateDog",
+      "DeployDog": "DeployDog",
+      "WithdrawDog": "WithdrawDog",
+      "GetProtectLogs": "GetProtectLogs",
+      "AddFood": "AddFood",
+      "GetFriendFeedInfo": "GetFriendFeedInfo",
+      "FeedFriendDog": "FeedFriendDog",
+      "ClaimSkillGifts": "ClaimSkillGifts",
+      "SetDogCustomName": "SetDogCustomName",
+      "EquipDogSkin": "EquipDogSkin",
+      "MarkDogSkinViewed": "MarkDogSkinViewed",
+      "ViewDog": "ViewDog"
+    },
+    "TaskMethodName": {
+      "TaskInfo": "TaskInfo",
+      "ClaimTaskReward": "ClaimTaskReward",
+      "ClientReportProgress": "ClientReportProgress",
+      "ClaimDailyReward": "ClaimDailyReward",
+      "BatchClaimTaskReward": "BatchClaimTaskReward"
+    },
+    "PayMethodName": {
+      "GetRechargeInfo": "GetRechargeInfo",
+      "GetDiamondItems": "GetDiamondItems",
+      "PayDiamond": "PayDiamond",
+      "PayDirectBuy": "PayDirectBuy",
+      "GetMallProfiles": "GetMallProfiles",
+      "GetMallListBySlotType": "GetMallListBySlotType",
+      "Purchase": "Purchase",
+      "ClaimMonthCardReward": "ClaimMonthCardReward",
+      "GetMonthCardInfos": "GetMonthCardInfos"
+    },
+    "UicproxyMethodName": {
+      "ModerateText": "ModerateText",
+      "BatchModerateText": "BatchModerateText"
+    },
+    "EmailMethodName": {
+      "GetEmailList": "GetEmailList",
+      "ReadEmail": "ReadEmail",
+      "ClaimEmail": "ClaimEmail",
+      "BatchDeleteEmail": "BatchDeleteEmail",
+      "BatchReadEmail": "BatchReadEmail",
+      "BatchClaimEmail": "BatchClaimEmail"
+    },
+    "IllustratedMethodName": {
+      "GetIllustratedList": "GetIllustratedList",
+      "UpgradeIllustrated": "UpgradeIllustrated",
+      "BatchUpgrade": "BatchUpgrade",
+      "GetCollectorInfo": "GetCollectorInfo",
+      "ClaimCollectorReward": "ClaimCollectorReward",
+      "GetIllustratedRedDot": "GetIllustratedRedDot",
+      "GetIllustratedListV2": "GetIllustratedListV2",
+      "GetIllustratedLevelListV2": "GetIllustratedLevelListV2",
+      "ClaimAllRewardsV2": "ClaimAllRewardsV2",
+      "ClearNewUnlockedFruitsV2": "ClearNewUnlockedFruitsV2"
+    },
+    "WeatherMethodName": {
+      "GetTodayWeather": "GetTodayWeather",
+      "GetCurrentWeather": "GetCurrentWeather",
+      "GetWeatherStatus": "GetWeatherStatus"
+    },
+    "NudgeMethodName": {
+      "HandleNudgeResponse": "HandleNudgeResponse"
+    },
+    "MsgBoardMethodName": {
+      "PostMessage": "PostMessage",
+      "GetMessageList": "GetMessageList",
+      "DeleteEntry": "DeleteEntry",
+      "LikeEntry": "LikeEntry",
+      "LikeWelcomeHistory": "LikeWelcomeHistory",
+      "ReportEntry": "ReportEntry",
+      "GetInteractions": "GetInteractions",
+      "MarkInteractions": "MarkInteractions",
+      "GetMsgBoardProfile": "GetMsgBoardProfile",
+      "SetMsgBoardProfile": "SetMsgBoardProfile",
+      "SetMsgBoardClosed": "SetMsgBoardClosed",
+      "PinEntry": "PinEntry",
+      "PostReply": "PostReply"
+    },
+    "ActivityMethodName": {
+      "List": "List",
+      "Operate": "Operate",
+      "GetGroup": "GetGroup",
+      "SetSplashed": "SetSplashed"
+    },
+    "SkinMethodName": {
+      "Equip": "Equip",
+      "SkinsOwned": "SkinsOwned",
+      "SkinsEquipped": "SkinsEquipped",
+      "MarkAsViewed": "MarkAsViewed",
+      "SetSkinSetEffect": "SetSkinSetEffect",
+      "EquipSkinSet": "EquipSkinSet",
+      "GetSkinEffectTypeParams": "GetSkinEffectTypeParams",
+      "EquipSkinPart": "EquipSkinPart"
+    },
+    "MutantMethodName": {
+      "ReadMutantBook": "ReadMutantBook",
+      "GetSystemOpenInfo": "GetSystemOpenInfo"
+    },
+    "SubscribeQQMethodName": {
+      "GetQQSubscribeStatus": "GetQQSubscribeStatus"
+    },
+    "QQGroupMethodName": {
+      "GetMyAuthGroups": "GetMyAuthGroups",
+      "GetRecommendGroups": "GetRecommendGroups",
+      "BindCommunity": "BindCommunity",
+      "LeaveCommunity": "LeaveCommunity",
+      "GetBindInfo": "GetBindInfo",
+      "GetCommunityInfo": "GetCommunityInfo",
+      "ClaimCommunityReward": "ClaimCommunityReward"
+    },
+    "SeasonMethodName": {
+      "GetSeasonInfo": "GetSeasonInfo",
+      "ClaimBattlePassRewards": "ClaimBattlePassRewards",
+      "BuyPremiumBattlePass": "BuyPremiumBattlePass",
+      "MarkSeasonOpeningShown": "MarkSeasonOpeningShown"
+    },
+    "SolarTermsMethodName": {
+      "GetSolarTerms": "GetSolarTerms",
+      "ClaimSolarTerms": "ClaimSolarTerms",
+      "GetSolarTermsRedDot": "GetSolarTermsRedDot",
+      "GetSolarTermsV2": "GetSolarTermsV2",
+      "ClaimSolarTermsV2": "ClaimSolarTermsV2",
+      "AnswerSolarTerms": "AnswerSolarTerms",
+      "ClaimSolarSeason": "ClaimSolarSeason",
+      "GetSolarTermsV2RedDot": "GetSolarTermsV2RedDot"
+    },
+    "AchieveMethodName": {
+      "GetScopeView": "GetScopeView",
+      "ClaimScopeLevel": "ClaimScopeLevel",
+      "ClaimGoalReward": "ClaimGoalReward"
+    },
+    "MysteryShopMethodName": {
+      "GetActiveNPC": "GetActiveNPC",
+      "Buy": "Buy",
+      "Abandon": "Abandon"
+    },
+    "InviteredPocketMethodName": {
+      "GetInviteRedpacketInfo": "GetInviteRedpacketInfo",
+      "ClaimInviterReward": "ClaimInviterReward",
+      "ClaimNewcomerReward": "ClaimNewcomerReward",
+      "GetInvitees": "GetInvitees"
+    },
+    "MiscMethodName": {
+      "GetFollowGiftStatus": "GetFollowGiftStatus",
+      "SetFollowGiftStatus": "SetFollowGiftStatus",
+      "ClaimFollowGift": "ClaimFollowGift",
+      "MarkFollowGiftViewed": "MarkFollowGiftViewed"
+    },
+    "GlobalSceneMethodName": {
+      "PlayerSceneLogin": "PlayerSceneLogin",
+      "GetPlayerSceneInfo": "GetPlayerSceneInfo",
+      "SetDefaultScene": "SetDefaultScene"
+    },
+    "AdMethodName": {
+      "RequestAd": "RequestAd",
+      "ReportAd": "ReportAd",
+      "GetAdUnits": "GetAdUnits"
+    }
+  },
+  "chunks:///_virtual/UserCryptoManager.ts": {
+    "UserCryptoManager": {
+      "type": "Function",
+      "source": "function i(){this[k[226]]=!1,this[Y[3177]]=null,this[J[42102]]=0,this[k[8126]]=null,this[Q[1644]]=0,this[d[8443]]=0,this[S[8534]]=[],this[y[1296]]=!1,this[L[5919]]=0,this[c[3858]]=0}"
+    }
+  },
+  "chunks:///_virtual/WxPlatformUtil.ts": {
+    "WxPlatformUtil": {
+      "type": "Function",
+      "source": "function u(){for(var t,n=arguments[J[7]],r=new(gi())(n),e=0;e<n;e++)r[e]=arguments[e];return(t=i[D[5]][o[60]](i,[this][R[28]](r))||this)[a[9280]]=void 0,t[M[4462]]=void 0,t[a[8052]]=!1,t[Q[4070]]=[],t[f[1110]]=[],t[y[13758]]=!0,t[g[21152]]=!1,t[Y[3409]]=void 0,t[S[9290]]=void 0,t[v[5221]]=void 0,t[Q[1147]]=void 0,t[l[8220]]=0,t[T[31186]]=[D[36190]],t}"
+    }
+  },
+  "chunks:///_virtual/TaskManager.ts": {
+    "TaskManager": {
+      "type": "Function",
+      "source": "function e(){var t;return(t=i[c[5]](this)||this)[c[288]]=void 0,t[R[20316]]=!1,t[S[3600]]=null,t[Y[21222]]=new(Pi()),t[S[22683]]=new(Pi()),t[S[7116]]=null,t[T[5075]]=!1,t[d[6173]]=!1,t[l[288]]=new E,t[q[897]](),t}"
+    }
+  },
+  "chunks:///_virtual/MainMgr.ts": {
+    "MainMgr": {
+      "type": "Function",
+      "source": "function u(){for(var t,n=arguments[l[7]],r=new(gi())(n),e=0;e<n;e++)r[e]=arguments[e];return(t=i[a[5]][S[60]](i,[this][M[28]](r))||this)[T[2963]]=122,t[J[36104]]=180,t[R[41467]]=void 0,t[l[37614]]=[],t[o[2445]]=!1,t[J[6663]]=!1,t[D[5961]]=!1,t[Q[7956]]=!1,t}"
+    }
+  },
+  "chunks:///_virtual/milo.ts": {
+    "milo": {
+      "type": "Function",
+      "source": "function i(){}"
+    }
+  },
+  "chunks:///_virtual/plantpb.ts": {
+    "error": "TypeError: setter is not a function",
+    "stack": "TypeError: setter is not a function\n    at Object.<anonymous> (E:\\workspace\\QQ经典农场案例\\tools\\inspect_pb_exec.js:31:155)\n    at Module._compile (node:internal/modules/cjs/loader:1871:14)\n    at Object..js (node:internal/modules/cjs/loader:2002:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)\n    at node:internal/main/run_main_module:33:47"
+  },
+  "chunks:///_virtual/userpb.ts": {
+    "error": "TypeError: setter is not a function",
+    "stack": "TypeError: setter is not a function\n    at Object.<anonymous> (E:\\workspace\\QQ经典农场案例\\tools\\inspect_pb_exec.js:31:155)\n    at Module._compile (node:internal/modules/cjs/loader:1871:14)\n    at Object..js (node:internal/modules/cjs/loader:2002:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)\n    at node:internal/main/run_main_module:33:47"
+  },
+  "chunks:///_virtual/taskpb.ts": {
+    "error": "TypeError: setter is not a function",
+    "stack": "TypeError: setter is not a function\n    at Object.<anonymous> (E:\\workspace\\QQ经典农场案例\\tools\\inspect_pb_exec.js:31:155)\n    at Module._compile (node:internal/modules/cjs/loader:1871:14)\n    at Object..js (node:internal/modules/cjs/loader:2002:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)\n    at node:internal/main/run_main_module:33:47"
+  },
+  "chunks:///_virtual/shoppb.ts": {
+    "error": "TypeError: setter is not a function",
+    "stack": "TypeError: setter is not a function\n    at Object.<anonymous> (E:\\workspace\\QQ经典农场案例\\tools\\inspect_pb_exec.js:31:155)\n    at Module._compile (node:internal/modules/cjs/loader:1871:14)\n    at Object..js (node:internal/modules/cjs/loader:2002:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)\n    at node:internal/main/run_main_module:33:47"
+  },
+  "chunks:///_virtual/mallpb.ts": {
+    "error": "TypeError: setter is not a function",
+    "stack": "TypeError: setter is not a function\n    at Object.<anonymous> (E:\\workspace\\QQ经典农场案例\\tools\\inspect_pb_exec.js:31:155)\n    at Module._compile (node:internal/modules/cjs/loader:1871:14)\n    at Object..js (node:internal/modules/cjs/loader:2002:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)\n    at node:internal/main/run_main_module:33:47"
+  },
+  "chunks:///_virtual/qqvippb.ts": {
+    "error": "TypeError: setter is not a function",
+    "stack": "TypeError: setter is not a function\n    at Object.<anonymous> (E:\\workspace\\QQ经典农场案例\\tools\\inspect_pb_exec.js:31:155)\n    at Module._compile (node:internal/modules/cjs/loader:1871:14)\n    at Object..js (node:internal/modules/cjs/loader:2002:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)\n    at node:internal/main/run_main_module:33:47"
+  }
+}

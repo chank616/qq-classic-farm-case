@@ -1,0 +1,91 @@
+{
+  "observedAt": "2026-10-16T22:34:53.8972967Z",
+  "method": "read-only Get-NetTCPConnection snapshot",
+  "qqProcesses": [
+    {
+      "pid": 680,
+      "path": "D:\\Program Files\\Tencent\\QQNT\\QQ.exe",
+      "mainWindowTitle": "",
+      "established": []
+    },
+    {
+      "pid": 684,
+      "path": "D:\\Program Files\\Tencent\\QQNT\\QQ.exe",
+      "mainWindowTitle": "",
+      "established": []
+    },
+    {
+      "pid": 2308,
+      "path": "D:\\Program Files\\Tencent\\QQNT\\QQ.exe",
+      "mainWindowTitle": "QQ(窗口)",
+      "established": [
+        {
+          "OwningProcess": 2308,
+          "LocalAddress": "198.18.0.1",
+          "LocalPort": 50274,
+          "RemoteAddress": "198.18.0.234",
+          "RemotePort": 14000,
+          "State": 5
+        }
+      ]
+    },
+    {
+      "pid": 3420,
+      "path": "D:\\Program Files\\Tencent\\QQNT\\QQ.exe",
+      "mainWindowTitle": "",
+      "established": [
+        {
+          "OwningProcess": 3420,
+          "LocalAddress": "198.18.0.1",
+          "LocalPort": 50806,
+          "RemoteAddress": "198.18.0.232",
+          "RemotePort": 443,
+          "State": 5
+        }
+      ]
+    },
+    {
+      "pid": 7332,
+      "path": "D:\\Program Files\\Tencent\\QQNT\\QQ.exe",
+      "mainWindowTitle": "",
+      "established": []
+    },
+    {
+      "pid": 8772,
+      "path": "D:\\Program Files\\Tencent\\QQNT\\QQ.exe",
+      "mainWindowTitle": "",
+      "established": []
+    },
+    {
+      "pid": 10216,
+      "path": "D:\\Program Files\\Tencent\\QQNT\\QQ.exe",
+      "mainWindowTitle": "",
+      "established": []
+    },
+    {
+      "pid": 13804,
+      "path": "D:\\Program Files\\Tencent\\QQNT\\QQ.exe",
+      "mainWindowTitle": "",
+      "established": []
+    },
+    {
+      "pid": 15236,
+      "path": "D:\\Program Files\\Tencent\\QQNT\\QQ.exe",
+      "mainWindowTitle": "",
+      "established": []
+    },
+    {
+      "pid": 28712,
+      "path": "D:\\Program Files\\Tencent\\QQNT\\QQ.exe",
+      "mainWindowTitle": "",
+      "established": []
+    },
+    {
+      "pid": 29616,
+      "path": "D:\\Program Files\\Tencent\\QQNT\\QQ.exe",
+      "mainWindowTitle": "",
+      "established": []
+    }
+  ],
+  "interpretation": "Transient process/network observation only. No AppID, game method, login code, or server acceptance was observed; do not use as online farm verification."
+}

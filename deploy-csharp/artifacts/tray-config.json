@@ -1,0 +1,6 @@
+{
+  "AutoStartQq": true,
+  "MinIntervalMinutes": 5,
+  "BufferSeconds": 90,
+  "PassTimeoutMinutes": 15
+}

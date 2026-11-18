@@ -1,0 +1,692 @@
+[
+  {
+    "file": "C:\\Users\\chank616\\AppData\\Roaming\\QQEX\\miniapp\\fs\\2351686624\\1112386029\\usr\\gamecaches\\cacheList.json",
+    "bytes": 1478220,
+    "hits": [
+      "https://"
+    ],
+    "sample": "{\"files\":{\"https://cdn-resource.nqf.qq.com/release/remote/mainscene/config.873a2.json\":{\"bundle\":\"mainscene\",\"url\":\"qqfile://usr/gamecaches/mainscene/17826382062870.json\",\"lastTime\":\"1782638206435\"},\"https://cdn-resource.nqf.qq.com/release/remote/extraRes/config.9e999.json\":{\"bundle\":\"extraRes\",\"url"
+  },
+  {
+    "file": "C:\\Users\\chank616\\AppData\\Roaming\\QQEX\\miniapp\\fs\\2351686624\\1112386029\\usr\\gamecaches\\delayRes\\1782638208135161.json",
+    "bytes": 122274,
+    "hits": [
+      "Plant"
+    ],
+    "sample": "{\"importBase\":\"import\",\"nativeBase\":\"native\",\"name\":\"delayRes\",\"deps\":[\"extraRes\",\"resources\"],\"uuids\":[\"012WVnoAlKq6hdFNoO9xdX\",\"02J10rVHtCA6MhEgywKmFv\",\"02Qo9FhC9EvoMN78NYhHzT\",\"02xti5NXdFPbMrDZzVKl7b\",\"026bkj8UJAHoIOZbcqcFTM\",\"03CuWSVxlKOLqh8/AXWjXC\",\"04KbsjA5RHlIxiqe5oAwn5\",\"04xU2qExJJGK3JaApPx/"
+  },
+  {
+    "file": "C:\\Users\\chank616\\AppData\\Roaming\\QQEX\\miniapp\\fs\\2351686624\\1112386029\\usr\\gamecaches\\delayRes\\17826581789833.json",
+    "bytes": 122274,
+    "hits": [
+      "Plant"
+    ],
+    "sample": "{\"importBase\":\"import\",\"nativeBase\":\"native\",\"name\":\"delayRes\",\"deps\":[\"extraRes\",\"resources\"],\"uuids\":[\"012WVnoAlKq6hdFNoO9xdX\",\"02J10rVHtCA6MhEgywKmFv\",\"02Qo9FhC9EvoMN78NYhHzT\",\"02xti5NXdFPbMrDZzVKl7b\",\"026bkj8UJAHoIOZbcqcFTM\",\"03CuWSVxlKOLqh8/AXWjXC\",\"04KbsjA5RHlIxiqe5oAwn5\",\"04xU2qExJJGK3JaApPx/"
+  },
+  {
+    "file": "C:\\Users\\chank616\\AppData\\Roaming\\QQEX\\miniapp\\fs\\2351686624\\1112386029\\usr\\gamecaches\\delayRes\\178323902657839.json",
+    "bytes": 124036,
+    "hits": [
+      "Plant"
+    ],
+    "sample": "{\"importBase\":\"import\",\"nativeBase\":\"native\",\"name\":\"delayRes\",\"deps\":[\"extraRes\",\"resources\"],\"uuids\":[\"01n0mZVmFM77CeybbUmEFU\",\"012WVnoAlKq6hdFNoO9xdX\",\"02J10rVHtCA6MhEgywKmFv\",\"02Qo9FhC9EvoMN78NYhHzT\",\"02xti5NXdFPbMrDZzVKl7b\",\"026bkj8UJAHoIOZbcqcFTM\",\"03CuWSVxlKOLqh8/AXWjXC\",\"04KbsjA5RHlIxiqe5oAw"
+  },
+  {
+    "file": "C:\\Users\\chank616\\AppData\\Roaming\\QQEX\\miniapp\\fs\\2351686624\\1112386029\\usr\\gamecaches\\delayRes\\178402498569025.json",
+    "bytes": 127045,
+    "hits": [
+      "Plant"
+    ],
+    "sample": "{\"importBase\":\"import\",\"nativeBase\":\"native\",\"name\":\"delayRes\",\"deps\":[\"extraRes\",\"resources\"],\"uuids\":[\"e2TFJ/1ytCULmffPQF++OC\",\"01n0mZVmFM77CeybbUmEFU\",\"012WVnoAlKq6hdFNoO9xdX\",\"02J10rVHtCA6MhEgywKmFv\",\"02Qo9FhC9EvoMN78NYhHzT\",\"02xti5NXdFPbMrDZzVKl7b\",\"026bkj8UJAHoIOZbcqcFTM\",\"03CuWSVxlKOLqh8/AXWj"
+  },
+  {
+    "file": "C:\\Users\\chank616\\AppData\\Roaming\\QQEX\\miniapp\\fs\\2351686624\\1112386029\\usr\\gamecaches\\delayRes\\178462648856719.json",
+    "bytes": 127052,
+    "hits": [
+      "Plant"
+    ],
+    "sample": "{\"importBase\":\"import\",\"nativeBase\":\"native\",\"name\":\"delayRes\",\"deps\":[\"extraRes\",\"resources\"],\"uuids\":[\"e2TFJ/1ytCULmffPQF++OC\",\"01n0mZVmFM77CeybbUmEFU\",\"012WVnoAlKq6hdFNoO9xdX\",\"02J10rVHtCA6MhEgywKmFv\",\"02Qo9FhC9EvoMN78NYhHzT\",\"02xti5NXdFPbMrDZzVKl7b\",\"026bkj8UJAHoIOZbcqcFTM\",\"03CuWSVxlKOLqh8/AXWj"
+  },
+  {
+    "file": "C:\\Users\\chank616\\AppData\\Roaming\\QQEX\\miniapp\\fs\\2351686624\\1112386029\\usr\\gamecaches\\delayRes\\178462653448310.json",
+    "bytes": 127052,
+    "hits": [
+      "Plant"
+    ],
+    "sample": "{\"importBase\":\"import\",\"nativeBase\":\"native\",\"name\":\"delayRes\",\"deps\":[\"extraRes\",\"resources\"],\"uuids\":[\"e2TFJ/1ytCULmffPQF++OC\",\"01n0mZVmFM77CeybbUmEFU\",\"012WVnoAlKq6hdFNoO9xdX\",\"02J10rVHtCA6MhEgywKmFv\",\"02Qo9FhC9EvoMN78NYhHzT\",\"02xti5NXdFPbMrDZzVKl7b\",\"026bkj8UJAHoIOZbcqcFTM\",\"03CuWSVxlKOLqh8/AXWj"
+  },
+  {
+    "file": "C:\\Users\\chank616\\AppData\\Roaming\\QQEX\\miniapp\\fs\\2351686624\\1112386029\\usr\\gamecaches\\delayRes\\1785306178387103.json",
+    "bytes": 187104,
+    "hits": [
+      "Plant"
+    ],
+    "sample": "{\"importBase\":\"import\",\"nativeBase\":\"native\",\"name\":\"delayRes\",\"deps\":[\"extraRes\",\"resources\"],\"uuids\":[\"e2TFJ/1ytCULmffPQF++OC\",\"00k09nRPdMfpSSuDvljRpw\",\"01n0mZVmFM77CeybbUmEFU\",\"012WVnoAlKq6hdFNoO9xdX\",\"02J10rVHtCA6MhEgywKmFv\",\"02NGUa//JGQoBAMO9LaQeV\",\"02Qo9FhC9EvoMN78NYhHzT\",\"02xti5NXdFPbMrDZzVKl"
+  },
+  {
+    "file": "C:\\Users\\chank616\\AppData\\Roaming\\QQEX\\miniapp\\fs\\2351686624\\1112386029\\usr\\gamecaches\\delayRes\\17853399735523.json",
+    "bytes": 187104,
+    "hits": [
+      "Plant"
+    ],
+    "sample": "{\"importBase\":\"import\",\"nativeBase\":\"native\",\"name\":\"delayRes\",\"deps\":[\"extraRes\",\"resources\"],\"uuids\":[\"e2TFJ/1ytCULmffPQF++OC\",\"00k09nRPdMfpSSuDvljRpw\",\"01n0mZVmFM77CeybbUmEFU\",\"012WVnoAlKq6hdFNoO9xdX\",\"02J10rVHtCA6MhEgywKmFv\",\"02NGUa//JGQoBAMO9LaQeV\",\"02Qo9FhC9EvoMN78NYhHzT\",\"02xti5NXdFPbMrDZzVKl"
+  },
+  {
+    "file": "C:\\Users\\chank616\\AppData\\Roaming\\QQEX\\miniapp\\fs\\2351686624\\1112386029\\usr\\gamecaches\\delayRes\\178655382562542.json",
+    "bytes": 201468,
+    "hits": [
+      "Plant"
+    ],
+    "sample": "{\"importBase\":\"import\",\"nativeBase\":\"native\",\"name\":\"delayRes\",\"deps\":[\"extraRes\",\"resources\"],\"uuids\":[\"e2TFJ/1ytCULmffPQF++OC\",\"00k09nRPdMfpSSuDvljRpw\",\"01n0mZVmFM77CeybbUmEFU\",\"012WVnoAlKq6hdFNoO9xdX\",\"02J10rVHtCA6MhEgywKmFv\",\"02NGUa//JGQoBAMO9LaQeV\",\"02Qo9FhC9EvoMN78NYhHzT\",\"02xti5NXdFPbMrDZzVKl"
+  },
+  {
+    "file": "C:\\Users\\chank616\\AppData\\Roaming\\QQEX\\miniapp\\fs\\2351686624\\1112386029\\usr\\gamecaches\\delayRes\\178697430088214.json",
+    "bytes": 206715,
+    "hits": [
+      "Plant"
+    ],
+    "sample": "{\"importBase\":\"import\",\"nativeBase\":\"native\",\"name\":\"delayRes\",\"deps\":[\"extraRes\",\"resources\"],\"uuids\":[\"e2TFJ/1ytCULmffPQF++OC\",\"00k09nRPdMfpSSuDvljRpw\",\"01n0mZVmFM77CeybbUmEFU\",\"012WVnoAlKq6hdFNoO9xdX\",\"02J10rVHtCA6MhEgywKmFv\",\"02NGUa//JGQoBAMO9LaQeV\",\"02Qo9FhC9EvoMN78NYhHzT\",\"02xti5NXdFPbMrDZzVKl"
+  },
+  {
+    "file": "C:\\Users\\chank616\\AppData\\Roaming\\QQEX\\miniapp\\fs\\2351686624\\1112386029\\usr\\gamecaches\\delayRes\\178819548777645.json",
+    "bytes": 221202,
+    "hits": [
+      "Plant"
+    ],
+    "sample": "{\"importBase\":\"import\",\"nativeBase\":\"native\",\"name\":\"delayRes\",\"deps\":[\"extraRes\",\"resources\"],\"uuids\":[\"e2TFJ/1ytCULmffPQF++OC\",\"00k09nRPdMfpSSuDvljRpw\",\"01n0mZVmFM77CeybbUmEFU\",\"012WVnoAlKq6hdFNoO9xdX\",\"02J10rVHtCA6MhEgywKmFv\",\"02NGUa//JGQoBAMO9LaQeV\",\"02Qo9FhC9EvoMN78NYhHzT\",\"02xti5NXdFPbMrDZzVKl"
+  },
+  {
+    "file": "C:\\Users\\chank616\\AppData\\Roaming\\QQEX\\miniapp\\fs\\2351686624\\1112386029\\usr\\gamecaches\\delayRes\\1788195523538119.json",
+    "bytes": 6287,
+    "hits": [
+      "https://"
+    ],
+    "sample": "[1,[\"3d2zRZmCBEmIh0ig6mCuIF\",\"9c66Mc9h5ID7Ov/G7K2o/Y@f9941\",\"9dc8vsyQdMCKW72iSVAMT7\",\"6armoPtv1D9IkiCNn6UgDJ@f9941\",\"fdb6Ylw9tKV6eIcJyY7jxh@f9941\",\"a9Zq8hFulEMbtyBoDE3pyo@f9941\",\"1aN8C+tBVN1qnWmZ08ZSKO@f9941\",\"f905eJNvRLeLiwHcL8HEaW@f9941\",\"1dVeDkhBxF1YPBetlcGL2f\",\"aaATbYbmhJyI/gHvsWEt2p\",\"21Cckug/x"
+  },
+  {
+    "file": "C:\\Users\\chank616\\AppData\\Roaming\\QQEX\\miniapp\\fs\\2351686624\\1112386029\\usr\\gamecaches\\delayRes\\17885794822242.json",
+    "bytes": 221202,
+    "hits": [
+      "Plant"
+    ],
+    "sample": "{\"importBase\":\"import\",\"nativeBase\":\"native\",\"name\":\"delayRes\",\"deps\":[\"extraRes\",\"resources\"],\"uuids\":[\"e2TFJ/1ytCULmffPQF++OC\",\"00k09nRPdMfpSSuDvljRpw\",\"01n0mZVmFM77CeybbUmEFU\",\"012WVnoAlKq6hdFNoO9xdX\",\"02J10rVHtCA6MhEgywKmFv\",\"02NGUa//JGQoBAMO9LaQeV\",\"02Qo9FhC9EvoMN78NYhHzT\",\"02xti5NXdFPbMrDZzVKl"
+  },
+  {
+    "file": "C:\\Users\\chank616\\AppData\\Roaming\\QQEX\\miniapp\\fs\\2351686624\\1112386029\\usr\\gamecaches\\delayRes\\178920307762271.json",
+    "bytes": 310015,
+    "hits": [
+      "Plant"
+    ],
+    "sample": "{\"importBase\":\"import\",\"nativeBase\":\"native\",\"name\":\"delayRes\",\"deps\":[\"extraRes\",\"resources\"],\"uuids\":[\"d0U3TDckFNWppUFhT9BcLx\",\"b75QYkpPBPO6y/H9wip8by\",\"d0mPnA8ytO+aSs+EHh06/J\",\"e2TFJ/1ytCULmffPQF++OC\",\"e57A/xeuBBna1a8x0Imide\",\"00k09nRPdMfpSSuDvljRpw\",\"01n0mZVmFM77CeybbUmEFU\",\"012WVnoAlKq6hdFNoO9x"
+  },
+  {
+    "file": "C:\\Users\\chank616\\AppData\\Roaming\\QQEX\\miniapp\\fs\\2351686624\\1112386029\\usr\\gamecaches\\delayRes\\178965476234310.json",
+    "bytes": 316552,
+    "hits": [
+      "Plant"
+    ],
+    "sample": "{\"importBase\":\"import\",\"nativeBase\":\"native\",\"name\":\"delayRes\",\"deps\":[\"extraRes\",\"resources\"],\"uuids\":[\"d0U3TDckFNWppUFhT9BcLx\",\"b75QYkpPBPO6y/H9wip8by\",\"d0mPnA8ytO+aSs+EHh06/J\",\"e2TFJ/1ytCULmffPQF++OC\",\"00k09nRPdMfpSSuDvljRpw\",\"01n0mZVmFM77CeybbUmEFU\",\"012WVnoAlKq6hdFNoO9xdX\",\"02J10rVHtCA6MhEgywKm"
+  },
+  {
+    "file": "C:\\Users\\chank616\\AppData\\Roaming\\QQEX\\miniapp\\fs\\2351686624\\1112386029\\usr\\gamecaches\\delayRes\\179034416840637.json",
+    "bytes": 347647,
+    "hits": [
+      "Plant"
+    ],
+    "sample": "{\"importBase\":\"import\",\"nativeBase\":\"native\",\"name\":\"delayRes\",\"deps\":[\"extraRes\",\"resources\"],\"uuids\":[\"d0U3TDckFNWppUFhT9BcLx\",\"b75QYkpPBPO6y/H9wip8by\",\"d0mPnA8ytO+aSs+EHh06/J\",\"e2TFJ/1ytCULmffPQF++OC\",\"00k09nRPdMfpSSuDvljRpw\",\"000XmsTj1JRaaaV1ExYQb+\",\"01YqEfX7NBSKquDI9SgQpu\",\"01chpMiZNCILOqczZCdB"
+  },
+  {
+    "file": "C:\\Users\\chank616\\AppData\\Roaming\\QQEX\\miniapp\\fs\\2351686624\\1112386029\\usr\\gamecaches\\delayRes\\17904404747984.json",
+    "bytes": 347647,
+    "hits": [
+      "Plant"
+    ],
+    "sample": "{\"importBase\":\"import\",\"nativeBase\":\"native\",\"name\":\"delayRes\",\"deps\":[\"extraRes\",\"resources\"],\"uuids\":[\"d0U3TDckFNWppUFhT9BcLx\",\"b75QYkpPBPO6y/H9wip8by\",\"d0mPnA8ytO+aSs+EHh06/J\",\"e2TFJ/1ytCULmffPQF++OC\",\"00k09nRPdMfpSSuDvljRpw\",\"000XmsTj1JRaaaV1ExYQb+\",\"01YqEfX7NBSKquDI9SgQpu\",\"01chpMiZNCILOqczZCdB"
+  },
+  {
+    "file": "C:\\Users\\chank616\\AppData\\Roaming\\QQEX\\miniapp\\fs\\2351686624\\1112386029\\usr\\gamecaches\\delayRes\\1792078009348171.json",
+    "bytes": 475771,
+    "hits": [
+      "Plant",
+      "token"
+    ],
+    "sample": "{\"importBase\":\"import\",\"nativeBase\":\"native\",\"name\":\"delayRes\",\"deps\":[\"extraRes\",\"internal\",\"resources\"],\"uuids\":[\"d0U3TDckFNWppUFhT9BcLx\",\"3bgKTUCddPO6/HpyHKTGfr\",\"b75QYkpPBPO6y/H9wip8by\",\"d0mPnA8ytO+aSs+EHh06/J\",\"e2TFJ/1ytCULmffPQF++OC\",\"00k09nRPdMfpSSuDvljRpw\",\"000XmsTj1JRaaaV1ExYQb+\",\"01XjtxPKF"
+  },
+  {
+    "file": "C:\\Users\\chank616\\AppData\\Roaming\\QQEX\\miniapp\\fs\\2351686624\\1112386029\\usr\\gamecaches\\extraRes\\17826382063361.json",
+    "bytes": 516644,
+    "hits": [
+      "Harvest"
+    ],
+    "sample": "{\"importBase\":\"import\",\"nativeBase\":\"native\",\"name\":\"extraRes\",\"deps\":[\"internal\",\"resources\"],\"uuids\":[\"770181kydFFq2pe/SpKlIQ\",\"deyWoWEJ5LKZ5mHIQ2XHPI\",\"00QT6NZbJIBYOuitSqWVvo\",\"01Mx1DUJJOerNdxNvdOhUy\",\"01Rgqxw+VE86hRH5hDqrZP\",\"01STFxjYtGwLUhV9e3scqS\",\"01ZHtJh3FBTra4Q5jgmMwN\",\"01dqtzyQBMbKCYPuKaMt"
+  },
+  {
+    "file": "C:\\Users\\chank616\\AppData\\Roaming\\QQEX\\miniapp\\fs\\2351686624\\1112386029\\usr\\gamecaches\\extraRes\\17826382064703.json",
+    "bytes": 45387,
+    "hits": [
+      "Plant"
+    ],
+    "sample": "[1,[\"9774PAmJlNsZJuuif6bJa+\",\"dfLKzX9GFJ46UOLoqL92AA@6c48a\",\"db4Ef02SpKvrfdyft7eEV3@f9941\",\"53lpDmNTFPB5K5HcB1Tdl3\",\"d9GY0fNc9PKLx7a/5uB0Wx\",\"1aCfle4rZHDIi2tM9aleWJ@f9941\",\"f3gmIZkfFDsp+nLFBFQ67g@f9941\",\"db4Ef02SpKvrfdyft7eEV3@6c48a\",\"f3gmIZkfFDsp+nLFBFQ67g@6c48a\"],[\"node\",\"_parent\",\"_skeletonData\","
+  },
+  {
+    "file": "C:\\Users\\chank616\\AppData\\Roaming\\QQEX\\miniapp\\fs\\2351686624\\1112386029\\usr\\gamecaches\\extraRes\\17826382065035.json",
+    "bytes": 37186,
+    "hits": [
+      "Plant"
+    ],
+    "sample": "[1,[\"1aCfle4rZHDIi2tM9aleWJ@f9941\",\"06jpXfNPBCVoTABxlcJOn0\",\"4dO/VQ35NKP6rLnFWm27WT@f9941\",\"53lpDmNTFPB5K5HcB1Tdl3\",\"d9GY0fNc9PKLx7a/5uB0Wx\",\"1aCfle4rZHDIi2tM9aleWJ@6c48a\",\"b6qspnJjxBBqYtdaCNeJwk@f9941\",\"4bsEYWtxhLnab3IZSUKACq\",\"4dO/VQ35NKP6rLnFWm27WT@6c48a\",\"43ZbW8kihOaJz7DLbwJ1uv\",\"8e+Oa/I+xA84cYH"
+  },
+  {
+    "file": "C:\\Users\\chank616\\AppData\\Roaming\\QQEX\\miniapp\\fs\\2351686624\\1112386029\\usr\\gamecaches\\extraRes\\178263820683621.json",
+    "bytes": 189586,
+    "hits": [
+      "Harvest",
+      "service"
+    ],
+    "sample": "[1,[\"4bsEYWtxhLnab3IZSUKACq\",\"65vTqxu5ZGoIxFLY2ex+KV\",\"43ZbW8kihOaJz7DLbwJ1uv\",\"58CvXA1BJGFZj7u66p6BQ/\",\"2fLIRtix9Fs6ctpXPebpZV\",\"b6qspnJjxBBqYtdaCNeJwk@f9941\",\"63szeb7l1CArgbIqSigN05@f9941\",\"71/7vmnfFBYpgZ4AiQsbQf@f9941\",\"30KWf0J91Dhal2RtO0+7CP\",\"61AyOxSAxAYrGqUvmCGLVh\",\"de0pv/JoVOkKLXq3JRXp30@f994"
+  },
+  {
+    "file": "C:\\Users\\chank616\\AppData\\Roaming\\QQEX\\miniapp\\fs\\2351686624\\1112386029\\usr\\gamecaches\\extraRes\\178263820700147.json",
+    "bytes": 33709,
+    "hits": [
+      "Harvest"
+    ],
+    "sample": "{\"version\":1,\"document\":[{\"__type__\":\"cc.AnimationClip\",\"_name\":\"ui_anim_into\",\"_objFlags\":0,\"__editorExtras__\":{\"embeddedPlayerGroups\":[]},\"_native\":\"\",\"sample\":60,\"speed\":1,\"wrapMode\":1,\"enableTrsBlending\":false,\"_duration\":0.7,\"_hash\":500763545,\"_tracks\":[{\"__id__\":1},{\"__id__\":13},{\"__id__\":25},"
+  },
+  {
+    "file": "C:\\Users\\chank616\\AppData\\Roaming\\QQEX\\miniapp\\fs\\2351686624\\1112386029\\usr\\gamecaches\\extraRes\\17832390248931.json",
+    "bytes": 531088,
+    "hits": [
+      "Harvest"
+    ],
+    "sample": "{\"importBase\":\"import\",\"nativeBase\":\"native\",\"name\":\"extraRes\",\"deps\":[\"internal\",\"resources\"],\"uuids\":[\"4bsEYWtxhLnab3IZSUKACq\",\"770181kydFFq2pe/SpKlIQ\",\"deyWoWEJ5LKZ5mHIQ2XHPI\",\"00QT6NZbJIBYOuitSqWVvo\",\"01Mx1DUJJOerNdxNvdOhUy\",\"01Rgqxw+VE86hRH5hDqrZP\",\"01STFxjYtGwLUhV9e3scqS\",\"01ZHtJh3FBTra4Q5jgmM"
+  },
+  {
+    "file": "C:\\Users\\chank616\\AppData\\Roaming\\QQEX\\miniapp\\fs\\2351686624\\1112386029\\usr\\gamecaches\\extraRes\\178323902539710.json",
+    "bytes": 193378,
+    "hits": [
+      "Harvest",
+      "service"
+    ],
+    "sample": "[1,[\"4bsEYWtxhLnab3IZSUKACq\",\"43ZbW8kihOaJz7DLbwJ1uv\",\"65vTqxu5ZGoIxFLY2ex+KV\",\"b6qspnJjxBBqYtdaCNeJwk@f9941\",\"58CvXA1BJGFZj7u66p6BQ/\",\"16YDTOb95PzbcLICkVI9O5\",\"2fLIRtix9Fs6ctpXPebpZV\",\"63szeb7l1CArgbIqSigN05@f9941\",\"71/7vmnfFBYpgZ4AiQsbQf@f9941\",\"30KWf0J91Dhal2RtO0+7CP\",\"23kZOperBL54YTpvz1S0vt\",\"61"
+  },
+  {
+    "file": "C:\\Users\\chank616\\AppData\\Roaming\\QQEX\\miniapp\\fs\\2351686624\\1112386029\\usr\\gamecaches\\extraRes\\17840249842141.json",
+    "bytes": 538494,
+    "hits": [
+      "Harvest"
+    ],
+    "sample": "{\"importBase\":\"import\",\"nativeBase\":\"native\",\"name\":\"extraRes\",\"deps\":[\"internal\",\"resources\"],\"uuids\":[\"4bsEYWtxhLnab3IZSUKACq\",\"770181kydFFq2pe/SpKlIQ\",\"deyWoWEJ5LKZ5mHIQ2XHPI\",\"00QT6NZbJIBYOuitSqWVvo\",\"01Mx1DUJJOerNdxNvdOhUy\",\"01Rgqxw+VE86hRH5hDqrZP\",\"01STFxjYtGwLUhV9e3scqS\",\"01ZHtJh3FBTra4Q5jgmM"
+  },
+  {
+    "file": "C:\\Users\\chank616\\AppData\\Roaming\\QQEX\\miniapp\\fs\\2351686624\\1112386029\\usr\\gamecaches\\extraRes\\17840249844033.json",
+    "bytes": 45362,
+    "hits": [
+      "Plant"
+    ],
+    "sample": "[1,[\"9774PAmJlNsZJuuif6bJa+\",\"dfLKzX9GFJ46UOLoqL92AA@6c48a\",\"db4Ef02SpKvrfdyft7eEV3@f9941\",\"53lpDmNTFPB5K5HcB1Tdl3\",\"d9GY0fNc9PKLx7a/5uB0Wx\",\"1aCfle4rZHDIi2tM9aleWJ@f9941\",\"f3gmIZkfFDsp+nLFBFQ67g@f9941\",\"db4Ef02SpKvrfdyft7eEV3@6c48a\",\"f3gmIZkfFDsp+nLFBFQ67g@6c48a\"],[\"node\",\"_parent\",\"_skeletonData\","
+  },
+  {
+    "file": "C:\\Users\\chank616\\AppData\\Roaming\\QQEX\\miniapp\\fs\\2351686624\\1112386029\\usr\\gamecaches\\extraRes\\178402498489512.json",
+    "bytes": 195004,
+    "hits": [
+      "Harvest",
+      "service"
+    ],
+    "sample": "[1,[\"4bsEYWtxhLnab3IZSUKACq\",\"43ZbW8kihOaJz7DLbwJ1uv\",\"65vTqxu5ZGoIxFLY2ex+KV\",\"b6qspnJjxBBqYtdaCNeJwk@f9941\",\"58CvXA1BJGFZj7u66p6BQ/\",\"16YDTOb95PzbcLICkVI9O5\",\"2fLIRtix9Fs6ctpXPebpZV\",\"23kZOperBL54YTpvz1S0vt\",\"63szeb7l1CArgbIqSigN05@f9941\",\"71/7vmnfFBYpgZ4AiQsbQf@f9941\",\"30KWf0J91Dhal2RtO0+7CP\",\"61"
+  },
+  {
+    "file": "C:\\Users\\chank616\\AppData\\Roaming\\QQEX\\miniapp\\fs\\2351686624\\1112386029\\usr\\gamecaches\\extraRes\\178402498781129.json",
+    "bytes": 119571,
+    "hits": [
+      "Plant"
+    ],
+    "sample": "[1,[\"09n/saDeJLh6w2K1/+a22k\",\"08xdvcUk9CVZjJ96zSoVuN@f9941\",\"ednQtlMYxIoJRk1JEj5wYS@f9941\",\"6dhYzK/QNPzY9HxmUl+vBK@f9941\",\"3fcVESnuhOBp3uizKPr05q\",\"c9PeMozKRI/4w/6zFjNJ8O@f9941\",\"5b8IxoPlNB2YhmBVh6uPW5\",\"71KbG+AjVP459dXZDc/uLz\",\"e5hf91SmVM1ofxX36mgxNi@f9941\",\"1b2vdmm2dB+Jabgfcttqt5@f9941\",\"25tyLJ6cF"
+  },
+  {
+    "file": "C:\\Users\\chank616\\AppData\\Roaming\\QQEX\\miniapp\\fs\\2351686624\\1112386029\\usr\\gamecaches\\extraRes\\17846264842511.json",
+    "bytes": 540135,
+    "hits": [
+      "Harvest"
+    ],
+    "sample": "{\"importBase\":\"import\",\"nativeBase\":\"native\",\"name\":\"extraRes\",\"deps\":[\"internal\",\"resources\"],\"uuids\":[\"4bsEYWtxhLnab3IZSUKACq\",\"770181kydFFq2pe/SpKlIQ\",\"deyWoWEJ5LKZ5mHIQ2XHPI\",\"00QT6NZbJIBYOuitSqWVvo\",\"01Mx1DUJJOerNdxNvdOhUy\",\"01Rgqxw+VE86hRH5hDqrZP\",\"01STFxjYtGwLUhV9e3scqS\",\"01ZHtJh3FBTra4Q5jgmM"
+  },
+  {
+    "file": "C:\\Users\\chank616\\AppData\\Roaming\\QQEX\\miniapp\\fs\\2351686624\\1112386029\\usr\\gamecaches\\extraRes\\17846264846092.json",
+    "bytes": 45730,
+    "hits": [
+      "Plant"
+    ],
+    "sample": "[1,[\"9774PAmJlNsZJuuif6bJa+\",\"dfLKzX9GFJ46UOLoqL92AA@6c48a\",\"db4Ef02SpKvrfdyft7eEV3@f9941\",\"53lpDmNTFPB5K5HcB1Tdl3\",\"d9GY0fNc9PKLx7a/5uB0Wx\",\"1aCfle4rZHDIi2tM9aleWJ@f9941\",\"f3gmIZkfFDsp+nLFBFQ67g@f9941\",\"db4Ef02SpKvrfdyft7eEV3@6c48a\",\"f3gmIZkfFDsp+nLFBFQ67g@6c48a\"],[\"node\",\"_parent\",\"_skeletonData\","
+  },
+  {
+    "file": "C:\\Users\\chank616\\AppData\\Roaming\\QQEX\\miniapp\\fs\\2351686624\\1112386029\\usr\\gamecaches\\extraRes\\178462648696810.json",
+    "bytes": 195965,
+    "hits": [
+      "Harvest",
+      "service"
+    ],
+    "sample": "[1,[\"4bsEYWtxhLnab3IZSUKACq\",\"43ZbW8kihOaJz7DLbwJ1uv\",\"65vTqxu5ZGoIxFLY2ex+KV\",\"b6qspnJjxBBqYtdaCNeJwk@f9941\",\"58CvXA1BJGFZj7u66p6BQ/\",\"16YDTOb95PzbcLICkVI9O5\",\"2fLIRtix9Fs6ctpXPebpZV\",\"23kZOperBL54YTpvz1S0vt\",\"63szeb7l1CArgbIqSigN05@f9941\",\"71/7vmnfFBYpgZ4AiQsbQf@f9941\",\"30KWf0J91Dhal2RtO0+7CP\",\"61"
+  },
+  {
+    "file": "C:\\Users\\chank616\\AppData\\Roaming\\QQEX\\miniapp\\fs\\2351686624\\1112386029\\usr\\gamecaches\\extraRes\\17846265333121.json",
+    "bytes": 195965,
+    "hits": [
+      "Harvest",
+      "service"
+    ],
+    "sample": "[1,[\"4bsEYWtxhLnab3IZSUKACq\",\"43ZbW8kihOaJz7DLbwJ1uv\",\"65vTqxu5ZGoIxFLY2ex+KV\",\"b6qspnJjxBBqYtdaCNeJwk@f9941\",\"58CvXA1BJGFZj7u66p6BQ/\",\"16YDTOb95PzbcLICkVI9O5\",\"2fLIRtix9Fs6ctpXPebpZV\",\"23kZOperBL54YTpvz1S0vt\",\"63szeb7l1CArgbIqSigN05@f9941\",\"71/7vmnfFBYpgZ4AiQsbQf@f9941\",\"30KWf0J91Dhal2RtO0+7CP\",\"61"
+  },
+  {
+    "file": "C:\\Users\\chank616\\AppData\\Roaming\\QQEX\\miniapp\\fs\\2351686624\\1112386029\\usr\\gamecaches\\extraRes\\178462653553312.json",
+    "bytes": 124011,
+    "hits": [
+      "Plant"
+    ],
+    "sample": "[1,[\"09n/saDeJLh6w2K1/+a22k\",\"08xdvcUk9CVZjJ96zSoVuN@f9941\",\"ednQtlMYxIoJRk1JEj5wYS@f9941\",\"25tyLJ6cFBd7HSuI4afpnW@f9941\",\"6dhYzK/QNPzY9HxmUl+vBK@f9941\",\"3fcVESnuhOBp3uizKPr05q\",\"c9PeMozKRI/4w/6zFjNJ8O@f9941\",\"5b8IxoPlNB2YhmBVh6uPW5\",\"71KbG+AjVP459dXZDc/uLz\",\"e5hf91SmVM1ofxX36mgxNi@f9941\",\"1b2vdmm2d"
+  },
+  {
+    "file": "C:\\Users\\chank616\\AppData\\Roaming\\QQEX\\miniapp\\fs\\2351686624\\1112386029\\usr\\gamecaches\\extraRes\\17853061758881.json",
+    "bytes": 601587,
+    "hits": [
+      "Harvest"
+    ],
+    "sample": "{\"importBase\":\"import\",\"nativeBase\":\"native\",\"name\":\"extraRes\",\"deps\":[\"internal\",\"resources\"],\"uuids\":[\"deyWoWEJ5LKZ5mHIQ2XHPI\",\"00QT6NZbJIBYOuitSqWVvo\",\"01Mx1DUJJOerNdxNvdOhUy\",\"01Rgqxw+VE86hRH5hDqrZP\",\"01STFxjYtGwLUhV9e3scqS\",\"01ZHtJh3FBTra4Q5jgmMwN\",\"01dqtzyQBMbKCYPuKaMtbO\",\"01rw3XkHlD5oDvlIgRa4"
+  },
+  {
+    "file": "C:\\Users\\chank616\\AppData\\Roaming\\QQEX\\miniapp\\fs\\2351686624\\1112386029\\usr\\gamecaches\\extraRes\\17853061760733.json",
+    "bytes": 45996,
+    "hits": [
+      "Plant"
+    ],
+    "sample": "[1,[\"9774PAmJlNsZJuuif6bJa+\",\"dfLKzX9GFJ46UOLoqL92AA@6c48a\",\"db4Ef02SpKvrfdyft7eEV3@f9941\",\"f3gmIZkfFDsp+nLFBFQ67g@f9941\",\"53lpDmNTFPB5K5HcB1Tdl3\",\"1aCfle4rZHDIi2tM9aleWJ@f9941\",\"db4Ef02SpKvrfdyft7eEV3@6c48a\",\"f3gmIZkfFDsp+nLFBFQ67g@6c48a\"],[\"node\",\"_parent\",\"_skeletonData\",\"root\",\"_spriteFrame\",\"_t"
+  },
+  {
+    "file": "C:\\Users\\chank616\\AppData\\Roaming\\QQEX\\miniapp\\fs\\2351686624\\1112386029\\usr\\gamecaches\\extraRes\\17853061764239.json",
+    "bytes": 81023,
+    "hits": [
+      "Harvest",
+      "service"
+    ],
+    "sample": "[1,[\"4bsEYWtxhLnab3IZSUKACq\",\"43ZbW8kihOaJz7DLbwJ1uv\",\"65vTqxu5ZGoIxFLY2ex+KV\",\"b6qspnJjxBBqYtdaCNeJwk@f9941\",\"58CvXA1BJGFZj7u66p6BQ/\",\"63szeb7l1CArgbIqSigN05@f9941\",\"16YDTOb95PzbcLICkVI9O5\",\"95jxOu5ZpJIL6Ge1nTFFo5@f9941\",\"2fLIRtix9Fs6ctpXPebpZV\",\"71/7vmnfFBYpgZ4AiQsbQf@f9941\",\"30KWf0J91Dhal2RtO0+7C"
+  },
+  {
+    "file": "C:\\Users\\chank616\\AppData\\Roaming\\QQEX\\miniapp\\fs\\2351686624\\1112386029\\usr\\gamecaches\\extraRes\\178530617652015.json",
+    "bytes": 27951,
+    "hits": [
+      "Harvest"
+    ],
+    "sample": "{\"version\":1,\"document\":[{\"__type__\":\"cc.AnimationClip\",\"_name\":\"ui_anim_into\",\"_objFlags\":0,\"__editorExtras__\":{\"embeddedPlayerGroups\":[]},\"_native\":\"\",\"sample\":60,\"speed\":1,\"wrapMode\":1,\"enableTrsBlending\":false,\"_duration\":0.7,\"_hash\":500763545,\"_tracks\":[{\"__id__\":1},{\"__id__\":13},{\"__id__\":25},"
+  },
+  {
+    "file": "C:\\Users\\chank616\\AppData\\Roaming\\QQEX\\miniapp\\fs\\2351686624\\1112386029\\usr\\gamecaches\\extraRes\\178530617770078.json",
+    "bytes": 124502,
+    "hits": [
+      "Plant"
+    ],
+    "sample": "[1,[\"09n/saDeJLh6w2K1/+a22k\",\"08xdvcUk9CVZjJ96zSoVuN@f9941\",\"ednQtlMYxIoJRk1JEj5wYS@f9941\",\"6dhYzK/QNPzY9HxmUl+vBK@f9941\",\"3fcVESnuhOBp3uizKPr05q\",\"c9PeMozKRI/4w/6zFjNJ8O@f9941\",\"5b8IxoPlNB2YhmBVh6uPW5\",\"71KbG+AjVP459dXZDc/uLz\",\"e5hf91SmVM1ofxX36mgxNi@f9941\",\"1b2vdmm2dB+Jabgfcttqt5@f9941\",\"25tyLJ6cF"
+  },
+  {
+    "file": "C:\\Users\\chank616\\AppData\\Roaming\\QQEX\\miniapp\\fs\\2351686624\\1112386029\\usr\\gamecaches\\extraRes\\17865538238961.json",
+    "bytes": 635448,
+    "hits": [
+      "Harvest"
+    ],
+    "sample": "{\"importBase\":\"import\",\"nativeBase\":\"native\",\"name\":\"extraRes\",\"deps\":[\"internal\",\"resources\"],\"uuids\":[\"deyWoWEJ5LKZ5mHIQ2XHPI\",\"00QT6NZbJIBYOuitSqWVvo\",\"01Mx1DUJJOerNdxNvdOhUy\",\"01Rgqxw+VE86hRH5hDqrZP\",\"01STFxjYtGwLUhV9e3scqS\",\"01ZHtJh3FBTra4Q5jgmMwN\",\"01dqtzyQBMbKCYPuKaMtbO\",\"01rw3XkHlD5oDvlIgRa4"
+  },
+  {
+    "file": "C:\\Users\\chank616\\AppData\\Roaming\\QQEX\\miniapp\\fs\\2351686624\\1112386029\\usr\\gamecaches\\extraRes\\17865538240493.json",
+    "bytes": 46895,
+    "hits": [
+      "Plant"
+    ],
+    "sample": "[1,[\"9774PAmJlNsZJuuif6bJa+\",\"dfLKzX9GFJ46UOLoqL92AA@6c48a\",\"db4Ef02SpKvrfdyft7eEV3@f9941\",\"f3gmIZkfFDsp+nLFBFQ67g@f9941\",\"53lpDmNTFPB5K5HcB1Tdl3\",\"1aCfle4rZHDIi2tM9aleWJ@f9941\",\"db4Ef02SpKvrfdyft7eEV3@6c48a\",\"f3gmIZkfFDsp+nLFBFQ67g@6c48a\"],[\"node\",\"_parent\",\"_skeletonData\",\"root\",\"_spriteFrame\",\"_t"
+  },
+  {
+    "file": "C:\\Users\\chank616\\AppData\\Roaming\\QQEX\\miniapp\\fs\\2351686624\\1112386029\\usr\\gamecaches\\extraRes\\17865538245118.json",
+    "bytes": 82590,
+    "hits": [
+      "Harvest",
+      "service"
+    ],
+    "sample": "[1,[\"4bsEYWtxhLnab3IZSUKACq\",\"43ZbW8kihOaJz7DLbwJ1uv\",\"65vTqxu5ZGoIxFLY2ex+KV\",\"58CvXA1BJGFZj7u66p6BQ/\",\"63szeb7l1CArgbIqSigN05@f9941\",\"b6qspnJjxBBqYtdaCNeJwk@f9941\",\"16YDTOb95PzbcLICkVI9O5\",\"95jxOu5ZpJIL6Ge1nTFFo5@f9941\",\"2fLIRtix9Fs6ctpXPebpZV\",\"71/7vmnfFBYpgZ4AiQsbQf@f9941\",\"30KWf0J91Dhal2RtO0+7C"
+  },
+  {
+    "file": "C:\\Users\\chank616\\AppData\\Roaming\\QQEX\\miniapp\\fs\\2351686624\\1112386029\\usr\\gamecaches\\extraRes\\17869742998461.json",
+    "bytes": 639505,
+    "hits": [
+      "Harvest"
+    ],
+    "sample": "{\"importBase\":\"import\",\"nativeBase\":\"native\",\"name\":\"extraRes\",\"deps\":[\"internal\",\"resources\"],\"uuids\":[\"deyWoWEJ5LKZ5mHIQ2XHPI\",\"00QT6NZbJIBYOuitSqWVvo\",\"01Mx1DUJJOerNdxNvdOhUy\",\"01Rgqxw+VE86hRH5hDqrZP\",\"01STFxjYtGwLUhV9e3scqS\",\"01ZHtJh3FBTra4Q5jgmMwN\",\"01dqtzyQBMbKCYPuKaMtbO\",\"01rw3XkHlD5oDvlIgRa4"
+  },
+  {
+    "file": "C:\\Users\\chank616\\AppData\\Roaming\\QQEX\\miniapp\\fs\\2351686624\\1112386029\\usr\\gamecaches\\extraRes\\17869743002124.json",
+    "bytes": 82459,
+    "hits": [
+      "Harvest",
+      "service"
+    ],
+    "sample": "[1,[\"4bsEYWtxhLnab3IZSUKACq\",\"43ZbW8kihOaJz7DLbwJ1uv\",\"65vTqxu5ZGoIxFLY2ex+KV\",\"58CvXA1BJGFZj7u66p6BQ/\",\"63szeb7l1CArgbIqSigN05@f9941\",\"b6qspnJjxBBqYtdaCNeJwk@f9941\",\"16YDTOb95PzbcLICkVI9O5\",\"95jxOu5ZpJIL6Ge1nTFFo5@f9941\",\"2fLIRtix9Fs6ctpXPebpZV\",\"71/7vmnfFBYpgZ4AiQsbQf@f9941\",\"30KWf0J91Dhal2RtO0+7C"
+  },
+  {
+    "file": "C:\\Users\\chank616\\AppData\\Roaming\\QQEX\\miniapp\\fs\\2351686624\\1112386029\\usr\\gamecaches\\extraRes\\17881954863601.json",
+    "bytes": 646163,
+    "hits": [
+      "Harvest",
+      "service"
+    ],
+    "sample": "{\"importBase\":\"import\",\"nativeBase\":\"native\",\"name\":\"extraRes\",\"deps\":[\"internal\",\"resources\"],\"uuids\":[\"deyWoWEJ5LKZ5mHIQ2XHPI\",\"00QT6NZbJIBYOuitSqWVvo\",\"01Mx1DUJJOerNdxNvdOhUy\",\"01Rgqxw+VE86hRH5hDqrZP\",\"01STFxjYtGwLUhV9e3scqS\",\"01ZHtJh3FBTra4Q5jgmMwN\",\"01dqtzyQBMbKCYPuKaMtbO\",\"01rw3XkHlD5oDvlIgRa4"
+  },
+  {
+    "file": "C:\\Users\\chank616\\AppData\\Roaming\\QQEX\\miniapp\\fs\\2351686624\\1112386029\\usr\\gamecaches\\extraRes\\17881954869437.json",
+    "bytes": 83626,
+    "hits": [
+      "Harvest",
+      "service"
+    ],
+    "sample": "[1,[\"4bsEYWtxhLnab3IZSUKACq\",\"43ZbW8kihOaJz7DLbwJ1uv\",\"65vTqxu5ZGoIxFLY2ex+KV\",\"58CvXA1BJGFZj7u66p6BQ/\",\"63szeb7l1CArgbIqSigN05@f9941\",\"b6qspnJjxBBqYtdaCNeJwk@f9941\",\"16YDTOb95PzbcLICkVI9O5\",\"95jxOu5ZpJIL6Ge1nTFFo5@f9941\",\"2fLIRtix9Fs6ctpXPebpZV\",\"71/7vmnfFBYpgZ4AiQsbQf@f9941\",\"30KWf0J91Dhal2RtO0+7C"
+  },
+  {
+    "file": "C:\\Users\\chank616\\AppData\\Roaming\\QQEX\\miniapp\\fs\\2351686624\\1112386029\\usr\\gamecaches\\extraRes\\178819549524770.json",
+    "bytes": 128106,
+    "hits": [
+      "Plant"
+    ],
+    "sample": "[1,[\"09n/saDeJLh6w2K1/+a22k\",\"08xdvcUk9CVZjJ96zSoVuN@f9941\",\"ednQtlMYxIoJRk1JEj5wYS@f9941\",\"6dhYzK/QNPzY9HxmUl+vBK@f9941\",\"3fcVESnuhOBp3uizKPr05q\",\"c9PeMozKRI/4w/6zFjNJ8O@f9941\",\"5b8IxoPlNB2YhmBVh6uPW5\",\"71KbG+AjVP459dXZDc/uLz\",\"e5hf91SmVM1ofxX36mgxNi@f9941\",\"1b2vdmm2dB+Jabgfcttqt5@f9941\",\"25tyLJ6cF"
+  },
+  {
+    "file": "C:\\Users\\chank616\\AppData\\Roaming\\QQEX\\miniapp\\fs\\2351686624\\1112386029\\usr\\gamecaches\\extraRes\\17892030748761.json",
+    "bytes": 683869,
+    "hits": [
+      "Harvest",
+      "service"
+    ],
+    "sample": "{\"importBase\":\"import\",\"nativeBase\":\"native\",\"name\":\"extraRes\",\"deps\":[\"internal\",\"resources\"],\"uuids\":[\"deyWoWEJ5LKZ5mHIQ2XHPI\",\"00QT6NZbJIBYOuitSqWVvo\",\"00bOF7OCdOi5+adfx5Frdu\",\"01Mx1DUJJOerNdxNvdOhUy\",\"01Rgqxw+VE86hRH5hDqrZP\",\"01STFxjYtGwLUhV9e3scqS\",\"01ZHtJh3FBTra4Q5jgmMwN\",\"01bru+505L/Iq02evXUw"
+  },
+  {
+    "file": "C:\\Users\\chank616\\AppData\\Roaming\\QQEX\\miniapp\\fs\\2351686624\\1112386029\\usr\\gamecaches\\extraRes\\17892030752483.json",
+    "bytes": 46867,
+    "hits": [
+      "Plant"
+    ],
+    "sample": "[1,[\"9774PAmJlNsZJuuif6bJa+\",\"dfLKzX9GFJ46UOLoqL92AA@6c48a\",\"db4Ef02SpKvrfdyft7eEV3@f9941\",\"f3gmIZkfFDsp+nLFBFQ67g@f9941\",\"53lpDmNTFPB5K5HcB1Tdl3\",\"1aCfle4rZHDIi2tM9aleWJ@f9941\",\"db4Ef02SpKvrfdyft7eEV3@6c48a\",\"f3gmIZkfFDsp+nLFBFQ67g@6c48a\"],[\"node\",\"_parent\",\"_skeletonData\",\"root\",\"_spriteFrame\",\"_t"
+  },
+  {
+    "file": "C:\\Users\\chank616\\AppData\\Roaming\\QQEX\\miniapp\\fs\\2351686624\\1112386029\\usr\\gamecaches\\extraRes\\178920307620713.json",
+    "bytes": 87421,
+    "hits": [
+      "Harvest",
+      "service"
+    ],
+    "sample": "[1,[\"4bsEYWtxhLnab3IZSUKACq\",\"43ZbW8kihOaJz7DLbwJ1uv\",\"65vTqxu5ZGoIxFLY2ex+KV\",\"58CvXA1BJGFZj7u66p6BQ/\",\"63szeb7l1CArgbIqSigN05@f9941\",\"b6qspnJjxBBqYtdaCNeJwk@f9941\",\"16YDTOb95PzbcLICkVI9O5\",\"95jxOu5ZpJIL6Ge1nTFFo5@f9941\",\"2fLIRtix9Fs6ctpXPebpZV\",\"71/7vmnfFBYpgZ4AiQsbQf@f9941\",\"30KWf0J91Dhal2RtO0+7C"
+  },
+  {
+    "file": "C:\\Users\\chank616\\AppData\\Roaming\\QQEX\\miniapp\\fs\\2351686624\\1112386029\\usr\\gamecaches\\extraRes\\178920307748266.json",
+    "bytes": 128109,
+    "hits": [
+      "Plant"
+    ],
+    "sample": "[1,[\"09n/saDeJLh6w2K1/+a22k\",\"08xdvcUk9CVZjJ96zSoVuN@f9941\",\"ednQtlMYxIoJRk1JEj5wYS@f9941\",\"6dhYzK/QNPzY9HxmUl+vBK@f9941\",\"3fcVESnuhOBp3uizKPr05q\",\"c9PeMozKRI/4w/6zFjNJ8O@f9941\",\"5b8IxoPlNB2YhmBVh6uPW5\",\"71KbG+AjVP459dXZDc/uLz\",\"e5hf91SmVM1ofxX36mgxNi@f9941\",\"1b2vdmm2dB+Jabgfcttqt5@f9941\",\"25tyLJ6cF"
+  },
+  {
+    "file": "C:\\Users\\chank616\\AppData\\Roaming\\QQEX\\miniapp\\fs\\2351686624\\1112386029\\usr\\gamecaches\\extraRes\\17896547610061.json",
+    "bytes": 686107,
+    "hits": [
+      "Harvest",
+      "service"
+    ],
+    "sample": "{\"importBase\":\"import\",\"nativeBase\":\"native\",\"name\":\"extraRes\",\"deps\":[\"internal\",\"resources\"],\"uuids\":[\"deyWoWEJ5LKZ5mHIQ2XHPI\",\"00QT6NZbJIBYOuitSqWVvo\",\"00Za5L4pREApDV1Q1IfO3i\",\"00bOF7OCdOi5+adfx5Frdu\",\"01Mx1DUJJOerNdxNvdOhUy\",\"01Rgqxw+VE86hRH5hDqrZP\",\"01STFxjYtGwLUhV9e3scqS\",\"01ZHtJh3FBTra4Q5jgmM"
+  },
+  {
+    "file": "C:\\Users\\chank616\\AppData\\Roaming\\QQEX\\miniapp\\fs\\2351686624\\1112386029\\usr\\gamecaches\\extraRes\\17903441656041.json",
+    "bytes": 729141,
+    "hits": [
+      "Harvest",
+      "service"
+    ],
+    "sample": "{\"importBase\":\"import\",\"nativeBase\":\"native\",\"name\":\"extraRes\",\"deps\":[\"internal\",\"resources\"],\"uuids\":[\"deyWoWEJ5LKZ5mHIQ2XHPI\",\"00QT6NZbJIBYOuitSqWVvo\",\"00Za5L4pREApDV1Q1IfO3i\",\"00bOF7OCdOi5+adfx5Frdu\",\"01Mx1DUJJOerNdxNvdOhUy\",\"01Rgqxw+VE86hRH5hDqrZP\",\"01STFxjYtGwLUhV9e3scqS\",\"01ZHtJh3FBTra4Q5jgmM"
+  },
+  {
+    "file": "C:\\Users\\chank616\\AppData\\Roaming\\QQEX\\miniapp\\fs\\2351686624\\1112386029\\usr\\gamecaches\\extraRes\\17903441666093.json",
+    "bytes": 47166,
+    "hits": [
+      "Plant"
+    ],
+    "sample": "[1,[\"9774PAmJlNsZJuuif6bJa+\",\"dfLKzX9GFJ46UOLoqL92AA@6c48a\",\"db4Ef02SpKvrfdyft7eEV3@f9941\",\"f3gmIZkfFDsp+nLFBFQ67g@f9941\",\"53lpDmNTFPB5K5HcB1Tdl3\",\"1aCfle4rZHDIi2tM9aleWJ@f9941\",\"db4Ef02SpKvrfdyft7eEV3@6c48a\",\"f3gmIZkfFDsp+nLFBFQ67g@6c48a\"],[\"node\",\"_parent\",\"_skeletonData\",\"root\",\"_spriteFrame\",\"_t"
+  },
+  {
+    "file": "C:\\Users\\chank616\\AppData\\Roaming\\QQEX\\miniapp\\fs\\2351686624\\1112386029\\usr\\gamecaches\\extraRes\\17903441675278.json",
+    "bytes": 87531,
+    "hits": [
+      "Harvest",
+      "service"
+    ],
+    "sample": "[1,[\"4bsEYWtxhLnab3IZSUKACq\",\"43ZbW8kihOaJz7DLbwJ1uv\",\"65vTqxu5ZGoIxFLY2ex+KV\",\"58CvXA1BJGFZj7u66p6BQ/\",\"63szeb7l1CArgbIqSigN05@f9941\",\"b6qspnJjxBBqYtdaCNeJwk@f9941\",\"16YDTOb95PzbcLICkVI9O5\",\"95jxOu5ZpJIL6Ge1nTFFo5@f9941\",\"2fLIRtix9Fs6ctpXPebpZV\",\"71/7vmnfFBYpgZ4AiQsbQf@f9941\",\"30KWf0J91Dhal2RtO0+7C"
+  },
+  {
+    "file": "C:\\Users\\chank616\\AppData\\Roaming\\QQEX\\miniapp\\fs\\2351686624\\1112386029\\usr\\gamecaches\\extraRes\\179128920335374.png",
+    "bytes": 27960,
+    "hits": [
+      "https://"
+    ],
+    "sample": "�PNG\r\n\u001a\n\u0000\u0000\u0000\rIHDR\u0000\u0000\u0000d\u0000\u0000\u0000d\b\u0006\u0000\u0000\u0000p�T\u0000\u00004pcaBX\u0000\u00004pjumb\u0000\u0000\u0000\u001ejumdc2pa\u0000\u0011\u0000\u0010�\u0000\u0000�\u00008�q\u0003c2pa\u0000\u0000\u00004Jjumb\u0000\u0000\u0000Gjumdc2ma\u0000\u0011\u0000\u0010�\u0000\u0000�\u00008�q\u0003urn:uuid:e6833bba-7321-4957-86a6-a49f5f9e4fb1\u0000\u0000\u0000\u0001�jumb\u0000\u0000\u0000)jumdc2as\u0000\u0011\u0000\u0010�\u0000\u0000�\u00008�q\u0003c2pa.assertions\u0000\u0000\u0000\u0000�jumb\u0000\u0000\u0000&jumdcbor\u0000\u0011\u0000\u0010�\u0000\u0000�\u00008�q\u0003c2pa.actions\u0000\u0000\u0000\u0000�cbor�gactions��factionkc2pa.editedmsoftwareA"
+  },
+  {
+    "file": "C:\\Users\\chank616\\AppData\\Roaming\\QQEX\\miniapp\\fs\\2351686624\\1112386029\\usr\\gamecaches\\extraRes\\17916090750242.png",
+    "bytes": 28196,
+    "hits": [
+      "https://"
+    ],
+    "sample": "�PNG\r\n\u001a\n\u0000\u0000\u0000\rIHDR\u0000\u0000\u0000d\u0000\u0000\u0000d\b\u0006\u0000\u0000\u0000p�T\u0000\u00004pcaBX\u0000\u00004pjumb\u0000\u0000\u0000\u001ejumdc2pa\u0000\u0011\u0000\u0010�\u0000\u0000�\u00008�q\u0003c2pa\u0000\u0000\u00004Jjumb\u0000\u0000\u0000Gjumdc2ma\u0000\u0011\u0000\u0010�\u0000\u0000�\u00008�q\u0003urn:uuid:cecbc300-dbb4-4904-9cb5-0d8ace119e69\u0000\u0000\u0000\u0001�jumb\u0000\u0000\u0000)jumdc2as\u0000\u0011\u0000\u0010�\u0000\u0000�\u00008�q\u0003c2pa.assertions\u0000\u0000\u0000\u0000�jumb\u0000\u0000\u0000&jumdcbor\u0000\u0011\u0000\u0010�\u0000\u0000�\u00008�q\u0003c2pa.actions\u0000\u0000\u0000\u0000�cbor�gactions��factionkc2pa.editedmsoftwareA"
+  },
+  {
+    "file": "C:\\Users\\chank616\\AppData\\Roaming\\QQEX\\miniapp\\fs\\2351686624\\1112386029\\usr\\gamecaches\\extraRes\\17916090759465.png",
+    "bytes": 119070,
+    "hits": [
+      "https://"
+    ],
+    "sample": "�PNG\r\n\u001a\n\u0000\u0000\u0000\rIHDR\u0000\u0000\u0001�\u0000\u0000\u0001�\b\u0006\u0000\u0000\u0000��ߊ\u0000\u00004ycaBX\u0000\u00004yjumb\u0000\u0000\u0000\u001ejumdc2pa\u0000\u0011\u0000\u0010�\u0000\u0000�\u00008�q\u0003c2pa\u0000\u0000\u00004Sjumb\u0000\u0000\u0000Mjumdc2ma\u0000\u0011\u0000\u0010�\u0000\u0000�\u00008�q\u0003adobe:urn:uuid:baaadb81-205c-4226-9eb9-fa0e078abd57\u0000\u0000\u0000\u0001�jumb\u0000\u0000\u0000)jumdc2as\u0000\u0011\u0000\u0010�\u0000\u0000�\u00008�q\u0003c2pa.assertions\u0000\u0000\u0000\u0000�jumb\u0000\u0000\u0000&jumdcbor\u0000\u0011\u0000\u0010�\u0000\u0000�\u00008�q\u0003c2pa.actions\u0000\u0000\u0000\u0000�cbor�gactions��factionkc2pa.editedmsof"
+  },
+  {
+    "file": "C:\\Users\\chank616\\AppData\\Roaming\\QQEX\\miniapp\\fs\\2351686624\\1112386029\\usr\\gamecaches\\extraRes\\17920780064251.json",
+    "bytes": 789742,
+    "hits": [
+      "Harvest",
+      "service"
+    ],
+    "sample": "{\"importBase\":\"import\",\"nativeBase\":\"native\",\"name\":\"extraRes\",\"deps\":[\"internal\",\"resources\"],\"uuids\":[\"deyWoWEJ5LKZ5mHIQ2XHPI\",\"00QT6NZbJIBYOuitSqWVvo\",\"00Za5L4pREApDV1Q1IfO3i\",\"00bOF7OCdOi5+adfx5Frdu\",\"01Mx1DUJJOerNdxNvdOhUy\",\"01Rgqxw+VE86hRH5hDqrZP\",\"01STFxjYtGwLUhV9e3scqS\",\"01ZHtJh3FBTra4Q5jgmM"
+  },
+  {
+    "file": "C:\\Users\\chank616\\AppData\\Roaming\\QQEX\\miniapp\\fs\\2351686624\\1112386029\\usr\\gamecaches\\extraRes\\17920780066743.json",
+    "bytes": 47166,
+    "hits": [
+      "Plant"
+    ],
+    "sample": "[1,[\"9774PAmJlNsZJuuif6bJa+\",\"dfLKzX9GFJ46UOLoqL92AA@6c48a\",\"db4Ef02SpKvrfdyft7eEV3@f9941\",\"f3gmIZkfFDsp+nLFBFQ67g@f9941\",\"53lpDmNTFPB5K5HcB1Tdl3\",\"1aCfle4rZHDIi2tM9aleWJ@f9941\",\"db4Ef02SpKvrfdyft7eEV3@6c48a\",\"f3gmIZkfFDsp+nLFBFQ67g@6c48a\"],[\"node\",\"_parent\",\"_skeletonData\",\"root\",\"_spriteFrame\",\"_t"
+  },
+  {
+    "file": "C:\\Users\\chank616\\AppData\\Roaming\\QQEX\\miniapp\\fs\\2351686624\\1112386029\\usr\\gamecaches\\extraRes\\17920780073578.json",
+    "bytes": 109504,
+    "hits": [
+      "Harvest",
+      "service"
+    ],
+    "sample": "[1,[\"4bsEYWtxhLnab3IZSUKACq\",\"43ZbW8kihOaJz7DLbwJ1uv\",\"65vTqxu5ZGoIxFLY2ex+KV\",\"58CvXA1BJGFZj7u66p6BQ/\",\"61AyOxSAxAYrGqUvmCGLVh\",\"63szeb7l1CArgbIqSigN05@f9941\",\"b6qspnJjxBBqYtdaCNeJwk@f9941\",\"16YDTOb95PzbcLICkVI9O5\",\"95jxOu5ZpJIL6Ge1nTFFo5@f9941\",\"2fLIRtix9Fs6ctpXPebpZV\",\"71/7vmnfFBYpgZ4AiQsbQf@f994"
+  },
+  {
+    "file": "C:\\Users\\chank616\\AppData\\Roaming\\QQEX\\miniapp\\fs\\2351686624\\1112386029\\usr\\gamecaches\\extraRes\\1792078009373172.json",
+    "bytes": 127903,
+    "hits": [
+      "Plant"
+    ],
+    "sample": "[1,[\"09n/saDeJLh6w2K1/+a22k\",\"08xdvcUk9CVZjJ96zSoVuN@f9941\",\"ednQtlMYxIoJRk1JEj5wYS@f9941\",\"6dhYzK/QNPzY9HxmUl+vBK@f9941\",\"3fcVESnuhOBp3uizKPr05q\",\"c9PeMozKRI/4w/6zFjNJ8O@f9941\",\"5b8IxoPlNB2YhmBVh6uPW5\",\"71KbG+AjVP459dXZDc/uLz\",\"e5hf91SmVM1ofxX36mgxNi@f9941\",\"1b2vdmm2dB+Jabgfcttqt5@f9941\",\"25tyLJ6cF"
+  },
+  {
+    "file": "C:\\Users\\chank616\\AppData\\Roaming\\QQEX\\miniapp\\fs\\2351686624\\1112386029\\usr\\gamecaches\\mainscene\\17826382062870.json",
+    "bytes": 14515,
+    "hits": [
+      "Plant"
+    ],
+    "sample": "{\"importBase\":\"import\",\"nativeBase\":\"native\",\"name\":\"mainscene\",\"deps\":[],\"uuids\":[\"01/cDzOl5Ft6UZwLiZYPoo\",\"04tYAQOvZNbqmbJt9OK4gy\",\"05AtjX2bxLzoCkTIIDkEaz\",\"094hSxQBJJf4MyZqKukuO1\",\"0aIE5amkVAl5U5gm5jOALj\",\"0dwPSAS1JNGrzx6/aD52FY\",\"10g6sU3HZPFalAo34wy0ao\",\"14gpezeRpN/qz23lH4lgIN\",\"150oO8pLJGmqiYqk"
+  },
+  {
+    "file": "C:\\Users\\chank616\\AppData\\Roaming\\QQEX\\miniapp\\fs\\2351686624\\1112386029\\usr\\gamecaches\\mainscene\\178263820743493.json",
+    "bytes": 224808,
+    "hits": [
+      "Plant"
+    ],
+    "sample": "[1,0,0,[[\"cc.TextAsset\",[\"_name\",\"text\"],1]],[[0,0,1,3]],[[0,\"Plant\",\"FSpkNjdqe3x3anlxfnZtbyw8K0JcRG1TOTUgICENNSIwKCtxci87KzRlYyAlLChjc33Eq43apsK2yN93fmcoIzM2J2p7NWUxLWN0cHF9cXtzAVFfR1grcX92KH5nPTQjOwwhJWx9anB4d31tby0oMUdtXFdAOj8aLTA3IWxrd3NxOyQvNDcnMmx+cGFjLi1MRW9CXj4gIDB3aGep9su6/th7f3y9xtCmzvx3cH"
+  },
+  {
+    "file": "C:\\Users\\chank616\\AppData\\Roaming\\QQEX\\miniapp\\fs\\2351686624\\1112386029\\usr\\gamecaches\\mainscene\\17826581769400.json",
+    "bytes": 14515,
+    "hits": [
+      "Plant"
+    ],
+    "sample": "{\"importBase\":\"import\",\"nativeBase\":\"native\",\"name\":\"mainscene\",\"deps\":[],\"uuids\":[\"01/cDzOl5Ft6UZwLiZYPoo\",\"04tYAQOvZNbqmbJt9OK4gy\",\"05AtjX2bxLzoCkTIIDkEaz\",\"094hSxQBJJf4MyZqKukuO1\",\"0aIE5amkVAl5U5gm5jOALj\",\"0dwPSAS1JNGrzx6/aD52FY\",\"10g6sU3HZPFalAo34wy0ao\",\"14gpezeRpN/qz23lH4lgIN\",\"150oO8pLJGmqiYqk"
+  },
+  {
+    "file": "C:\\Users\\chank616\\AppData\\Roaming\\QQEX\\miniapp\\fs\\2351686624\\1112386029\\usr\\gamecaches\\mainscene\\17832390248460.json",
+    "bytes": 14647,
+    "hits": [
+      "Plant"
+    ],
+    "sample": "{\"importBase\":\"import\",\"nativeBase\":\"native\",\"name\":\"mainscene\",\"deps\":[],\"uuids\":[\"01/cDzOl5Ft6UZwLiZYPoo\",\"04tYAQOvZNbqmbJt9OK4gy\",\"05AtjX2bxLzoCkTIIDkEaz\",\"094hSxQBJJf4MyZqKukuO1\",\"0aIE5amkVAl5U5gm5jOALj\",\"0dwPSAS1JNGrzx6/aD52FY\",\"10g6sU3HZPFalAo34wy0ao\",\"14gpezeRpN/qz23lH4lgIN\",\"150oO8pLJGmqiYqk"
+  },
+  {
+    "file": "C:\\Users\\chank616\\AppData\\Roaming\\QQEX\\miniapp\\fs\\2351686624\\1112386029\\usr\\gamecaches\\mainscene\\17840249841660.json",
+    "bytes": 14647,
+    "hits": [
+      "Plant"
+    ],
+    "sample": "{\"importBase\":\"import\",\"nativeBase\":\"native\",\"name\":\"mainscene\",\"deps\":[],\"uuids\":[\"01/cDzOl5Ft6UZwLiZYPoo\",\"04tYAQOvZNbqmbJt9OK4gy\",\"05AtjX2bxLzoCkTIIDkEaz\",\"094hSxQBJJf4MyZqKukuO1\",\"0aIE5amkVAl5U5gm5jOALj\",\"0dwPSAS1JNGrzx6/aD52FY\",\"10g6sU3HZPFalAo34wy0ao\",\"14gpezeRpN/qz23lH4lgIN\",\"150oO8pLJGmqiYqk"
+  },
+  {
+    "file": "C:\\Users\\chank616\\AppData\\Roaming\\QQEX\\miniapp\\fs\\2351686624\\1112386029\\usr\\gamecaches\\mainscene\\17846264841090.json",
+    "bytes": 14654,
+    "hits": [
+      "Plant"
+    ],
+    "sample": "{\"importBase\":\"import\",\"nativeBase\":\"native\",\"name\":\"mainscene\",\"deps\":[],\"uuids\":[\"01/cDzOl5Ft6UZwLiZYPoo\",\"04tYAQOvZNbqmbJt9OK4gy\",\"05AtjX2bxLzoCkTIIDkEaz\",\"094hSxQBJJf4MyZqKukuO1\",\"0aIE5amkVAl5U5gm5jOALj\",\"0dwPSAS1JNGrzx6/aD52FY\",\"10g6sU3HZPFalAo34wy0ao\",\"14gpezeRpN/qz23lH4lgIN\",\"150oO8pLJGmqiYqk"
+  },
+  {
+    "file": "C:\\Users\\chank616\\AppData\\Roaming\\QQEX\\miniapp\\fs\\2351686624\\1112386029\\usr\\gamecaches\\mainscene\\17853061758290.json",
+    "bytes": 17269,
+    "hits": [
+      "Plant"
+    ],
+    "sample": "{\"importBase\":\"import\",\"nativeBase\":\"native\",\"name\":\"mainscene\",\"deps\":[],\"uuids\":[\"01/cDzOl5Ft6UZwLiZYPoo\",\"04tYAQOvZNbqmbJt9OK4gy\",\"05AtjX2bxLzoCkTIIDkEaz\",\"094hSxQBJJf4MyZqKukuO1\",\"0aIE5amkVAl5U5gm5jOALj\",\"0aSJkMNYJM5o9nhqoZfoGt\",\"0dwPSAS1JNGrzx6/aD52FY\",\"10g6sU3HZPFalAo34wy0ao\",\"14gpezeRpN/qz23l"
+  },
+  {
+    "file": "C:\\Users\\chank616\\AppData\\Roaming\\QQEX\\miniapp\\fs\\2351686624\\1112386029\\usr\\gamecaches\\mainscene\\178530617716753.json",
+    "bytes": 252672,
+    "hits": [
+      "Plant"
+    ],
+    "sample": "[1,0,0,[[\"cc.TextAsset\",[\"_name\",\"text\"],1]],[[0,0,1,3]],[[0,\"Plant\",\"FSpkNjdqe3x3anlxfnZtbyw8K0JcRG1TOTUgICENNSIwKCtxci87KzRlYyAlLChjc33Eq43apsK2yN93fmcoIzM2J2p7NWUxLWN0cHF9cXtzAVFfR1grcX92KH5nPTQjOwwhJWx9anB4d31tby0oMUdtXFdAOj8aLTA3IWxrd3NxOyQvNDcnMmx+cGFjLi1MRW9CXj4gIDB3aGep9su6/th7f3y9xtCmzvx3cH"
+  },
+  {
+    "file": "C:\\Users\\chank616\\AppData\\Roaming\\QQEX\\miniapp\\fs\\2351686624\\1112386029\\usr\\gamecaches\\mainscene\\17865538238220.json",
+    "bytes": 17570,
+    "hits": [
+      "Plant"
+    ],
+    "sample": "{\"importBase\":\"import\",\"nativeBase\":\"native\",\"name\":\"mainscene\",\"deps\":[],\"uuids\":[\"01/cDzOl5Ft6UZwLiZYPoo\",\"04tYAQOvZNbqmbJt9OK4gy\",\"05AtjX2bxLzoCkTIIDkEaz\",\"094hSxQBJJf4MyZqKukuO1\",\"0aIE5amkVAl5U5gm5jOALj\",\"0aSJkMNYJM5o9nhqoZfoGt\",\"0dwPSAS1JNGrzx6/aD52FY\",\"10g6sU3HZPFalAo34wy0ao\",\"14gpezeRpN/qz23l"
+  },
+  {
+    "file": "C:\\Users\\chank616\\AppData\\Roaming\\QQEX\\miniapp\\fs\\2351686624\\1112386029\\usr\\gamecaches\\mainscene\\17869742997670.json",
+    "bytes": 17570,
+    "hits": [
+      "Plant"
+    ],
+    "sample": "{\"importBase\":\"import\",\"nativeBase\":\"native\",\"name\":\"mainscene\",\"deps\":[],\"uuids\":[\"01/cDzOl5Ft6UZwLiZYPoo\",\"04tYAQOvZNbqmbJt9OK4gy\",\"05AtjX2bxLzoCkTIIDkEaz\",\"094hSxQBJJf4MyZqKukuO1\",\"0aIE5amkVAl5U5gm5jOALj\",\"0aSJkMNYJM5o9nhqoZfoGt\",\"0dwPSAS1JNGrzx6/aD52FY\",\"10g6sU3HZPFalAo34wy0ao\",\"14gpezeRpN/qz23l"
+  },
+  {
+    "file": "C:\\Users\\chank616\\AppData\\Roaming\\QQEX\\miniapp\\fs\\2351686624\\1112386029\\usr\\gamecaches\\mainscene\\17881954862990.json",
+    "bytes": 18101,
+    "hits": [
+      "Plant"
+    ],
+    "sample": "{\"importBase\":\"import\",\"nativeBase\":\"native\",\"name\":\"mainscene\",\"deps\":[],\"uuids\":[\"01/cDzOl5Ft6UZwLiZYPoo\",\"04tYAQOvZNbqmbJt9OK4gy\",\"05AtjX2bxLzoCkTIIDkEaz\",\"094hSxQBJJf4MyZqKukuO1\",\"0aIE5amkVAl5U5gm5jOALj\",\"0aSJkMNYJM5o9nhqoZfoGt\",\"0dwPSAS1JNGrzx6/aD52FY\",\"10g6sU3HZPFalAo34wy0ao\",\"14gpezeRpN/qz23l"
+  },
+  {
+    "file": "C:\\Users\\chank616\\AppData\\Roaming\\QQEX\\miniapp\\fs\\2351686624\\1112386029\\usr\\gamecaches\\mainscene\\178819548735827.json",
+    "bytes": 253640,
+    "hits": [
+      "Plant"
+    ],
+    "sample": "[1,0,0,[[\"cc.TextAsset\",[\"_name\",\"text\"],1]],[[0,0,1,3]],[[0,\"Plant\",\"FSpkNjdqe3x3anlxfnZtbyw8K0JcRG1TOTUgICENNSIwKCtxci87KzRlYyAlLChjc33Eq43apsK2yN93fmcoIzM2J2p7NWUxLWN0cHF9cXtzAVFfR1grcX92KH5nPTQjOwwhJWx9anB4d31tby0oMUdtXFdAOj8aLTA3IWxrd3NxOyQvNDcnMmx+cGFjLi1MRW9CXj4gIDB3aGep9su6/th7f3y9xtCmzvx3cH"
+  },
+  {
+    "file": "C:\\Users\\chank616\\AppData\\Roaming\\QQEX\\miniapp\\fs\\2351686624\\1112386029\\usr\\gamecaches\\mainscene\\17885794813670.json",
+    "bytes": 18101,
+    "hits": [
+      "Plant"
+    ],
+    "sample": "{\"importBase\":\"import\",\"nativeBase\":\"native\",\"name\":\"mainscene\",\"deps\":[],\"uuids\":[\"01/cDzOl5Ft6UZwLiZYPoo\",\"04tYAQOvZNbqmbJt9OK4gy\",\"05AtjX2bxLzoCkTIIDkEaz\",\"094hSxQBJJf4MyZqKukuO1\",\"0aIE5amkVAl5U5gm5jOALj\",\"0aSJkMNYJM5o9nhqoZfoGt\",\"0dwPSAS1JNGrzx6/aD52FY\",\"10g6sU3HZPFalAo34wy0ao\",\"14gpezeRpN/qz23l"
+  },
+  {
+    "file": "C:\\Users\\chank616\\AppData\\Roaming\\QQEX\\miniapp\\fs\\2351686624\\1112386029\\usr\\gamecaches\\mainscene\\17892030748290.json",
+    "bytes": 20966,
+    "hits": [
+      "Plant"
+    ],
+    "sample": "{\"importBase\":\"import\",\"nativeBase\":\"native\",\"name\":\"mainscene\",\"deps\":[],\"uuids\":[\"01/cDzOl5Ft6UZwLiZYPoo\",\"04tYAQOvZNbqmbJt9OK4gy\",\"05AtjX2bxLzoCkTIIDkEaz\",\"0769BtRvtBH5M/FiRbiwX2\",\"094hSxQBJJf4MyZqKukuO1\",\"0aIE5amkVAl5U5gm5jOALj\",\"0aSJkMNYJM5o9nhqoZfoGt\",\"0dwPSAS1JNGrzx6/aD52FY\",\"10g6sU3HZPFalAo3"
+  },
+  {
+    "file": "C:\\Users\\chank616\\AppData\\Roaming\\QQEX\\miniapp\\fs\\2351686624\\1112386029\\usr\\gamecaches\\mainscene\\178920307703141.json",
+    "bytes": 268504,
+    "hits": [
+      "Plant"
+    ],
+    "sample": "[1,0,0,[[\"cc.TextAsset\",[\"_name\",\"text\"],1]],[[0,0,1,3]],[[0,\"Plant\",\"FSpkNjdqe3x3anlxfnZtbyw8K0JcRG1TOTUgICENNSIwKCtxci87KzRlYyAlLChjc33Eq43apsK2yN93fmcoIzM2J2p7NWUxLWN0cHF9cXtzAVFfR1grcX92KH5nPTQjOwwhJWx9anB4d31tby0oMUdtXFdAOj8aLTA3IWxrd3NxOyQvNDcnMmx+cGFjLi1MRW9CXj4gIDB3aGep9su6/th7f3y9xtCmzvx3cH"
+  },
+  {
+    "file": "C:\\Users\\chank616\\AppData\\Roaming\\QQEX\\miniapp\\fs\\2351686624\\1112386029\\usr\\gamecaches\\mainscene\\17896547609470.json",
+    "bytes": 21033,
+    "hits": [
+      "Plant"
+    ],
+    "sample": "{\"importBase\":\"import\",\"nativeBase\":\"native\",\"name\":\"mainscene\",\"deps\":[],\"uuids\":[\"01/cDzOl5Ft6UZwLiZYPoo\",\"04tYAQOvZNbqmbJt9OK4gy\",\"05AtjX2bxLzoCkTIIDkEaz\",\"0769BtRvtBH5M/FiRbiwX2\",\"094hSxQBJJf4MyZqKukuO1\",\"0aIE5amkVAl5U5gm5jOALj\",\"0aSJkMNYJM5o9nhqoZfoGt\",\"0dwPSAS1JNGrzx6/aD52FY\",\"10g6sU3HZPFalAo3"
+  },
+  {
+    "file": "C:\\Users\\chank616\\AppData\\Roaming\\QQEX\\miniapp\\fs\\2351686624\\1112386029\\usr\\gamecaches\\mainscene\\17903441655420.json",
+    "bytes": 21171,
+    "hits": [
+      "Plant"
+    ],
+    "sample": "{\"importBase\":\"import\",\"nativeBase\":\"native\",\"name\":\"mainscene\",\"deps\":[],\"uuids\":[\"01/cDzOl5Ft6UZwLiZYPoo\",\"04tYAQOvZNbqmbJt9OK4gy\",\"05AtjX2bxLzoCkTIIDkEaz\",\"0769BtRvtBH5M/FiRbiwX2\",\"094hSxQBJJf4MyZqKukuO1\",\"0aIE5amkVAl5U5gm5jOALj\",\"0aSJkMNYJM5o9nhqoZfoGt\",\"0dwPSAS1JNGrzx6/aD52FY\",\"10g6sU3HZPFalAo3"
+  },
+  {
+    "file": "C:\\Users\\chank616\\AppData\\Roaming\\QQEX\\miniapp\\fs\\2351686624\\1112386029\\usr\\gamecaches\\mainscene\\179034416795125.json",
+    "bytes": 272452,
+    "hits": [
+      "Plant"
+    ],
+    "sample": "[1,0,0,[[\"cc.TextAsset\",[\"_name\",\"text\"],1]],[[0,0,1,3]],[[0,\"Plant\",\"FSpkNjdqe3x3anlxfnZtbyw8K0JcRG1TOTUgICENNSIwKCtxci87KzRlYyAlLChjc33Eq43apsK2yN93fmcoIzM2J2p7NWUxLWN0cHF9cXtzAVFfR1grcX92KH5nPTQjOwwhJWx9anB4d31tby0oMUdtXFdAOj8aLTA3IWxrd3NxOyQvNDcnMmx+cGFjLi1MRW9CXj4gIDB3aGep9su6/th7f3y9xtCmzvx3cH"
+  },
+  {
+    "file": "C:\\Users\\chank616\\AppData\\Roaming\\QQEX\\miniapp\\fs\\2351686624\\1112386029\\usr\\gamecaches\\mainscene\\17904404737510.json",
+    "bytes": 21171,
+    "hits": [
+      "Plant"
+    ],
+    "sample": "{\"importBase\":\"import\",\"nativeBase\":\"native\",\"name\":\"mainscene\",\"deps\":[],\"uuids\":[\"01/cDzOl5Ft6UZwLiZYPoo\",\"04tYAQOvZNbqmbJt9OK4gy\",\"05AtjX2bxLzoCkTIIDkEaz\",\"0769BtRvtBH5M/FiRbiwX2\",\"094hSxQBJJf4MyZqKukuO1\",\"0aIE5amkVAl5U5gm5jOALj\",\"0aSJkMNYJM5o9nhqoZfoGt\",\"0dwPSAS1JNGrzx6/aD52FY\",\"10g6sU3HZPFalAo3"
+  },
+  {
+    "file": "C:\\Users\\chank616\\AppData\\Roaming\\QQEX\\miniapp\\fs\\2351686624\\1112386029\\usr\\gamecaches\\mainscene\\17920780063650.json",
+    "bytes": 24366,
+    "hits": [
+      "Plant"
+    ],
+    "sample": "{\"importBase\":\"import\",\"nativeBase\":\"native\",\"name\":\"mainscene\",\"deps\":[],\"uuids\":[\"00kYldmO9M0bnqCtYUDQY9\",\"01/cDzOl5Ft6UZwLiZYPoo\",\"04tYAQOvZNbqmbJt9OK4gy\",\"05AtjX2bxLzoCkTIIDkEaz\",\"0769BtRvtBH5M/FiRbiwX2\",\"094hSxQBJJf4MyZqKukuO1\",\"0aIE5amkVAl5U5gm5jOALj\",\"0aSJkMNYJM5o9nhqoZfoGt\",\"0dwPSAS1JNGrzx6/"
+  },
+  {
+    "file": "C:\\Users\\chank616\\AppData\\Roaming\\QQEX\\miniapp\\fs\\2351686624\\1112386029\\usr\\gamecaches\\mainscene\\1792078008717113.json",
+    "bytes": 294672,
+    "hits": [
+      "Plant"
+    ],
+    "sample": "[1,0,0,[[\"cc.TextAsset\",[\"_name\",\"text\"],1]],[[0,0,1,3]],[[0,\"Plant\",\"FSpkNjdqe3x3anlxfnZtbyw8K0JcRG1TOTUgICENNSIwKCtxci87KzRlYyAlLChjc33Eq43apsK2yN93fmcoIzM2J2p7NWUxLWN0cHF9cXtzAVFfR1grcX92KH5nPTQjOwwhJWx9anB4d31tby0oMUdtXFdAOj8aLTA3IWxrd3NxOyQvNDcnMmx+cGFjLi1MRW9CXj4gIDB3aGep9su6/th7f3y9xtCmzvx3cH"
+  }
+]

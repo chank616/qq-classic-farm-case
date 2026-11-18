@@ -1,0 +1,156 @@
+{
+  "verifiedAt": "2026-10-17T12:24:21.013Z",
+  "kind": "implementation-and-live-acceptance",
+  "tests": {
+    "node": {
+      "passed": 28,
+      "failed": 0
+    },
+    "scheduler": {
+      "passed": 5,
+      "failed": 0
+    },
+    "releaseBuild": "passed"
+  },
+  "startup": {
+    "trayPid": 10500,
+    "qqRunning": true,
+    "sinkUp": true,
+    "passRunning": false,
+    "nextDue": "2026-10-17T20:48:50.1414421+08:00",
+    "autoStartQq": false
+  },
+  "receiverRecovery": {
+    "tested": true,
+    "result": "Receiver was stopped and farm-run restored it without terminating QQ; run 4251a720"
+  },
+  "liveOperations": [
+    {
+      "method": "WaterLand",
+      "err": 0,
+      "status": "server-accepted",
+      "msg": ""
+    },
+    {
+      "method": "WeedOut",
+      "err": 0,
+      "status": "server-accepted",
+      "msg": ""
+    },
+    {
+      "method": "Insecticide",
+      "err": 0,
+      "status": "server-accepted",
+      "msg": ""
+    },
+    {
+      "method": "Enter",
+      "err": 0,
+      "status": "server-accepted",
+      "msg": ""
+    },
+    {
+      "method": "WeedOut",
+      "err": 0,
+      "status": "server-accepted",
+      "msg": ""
+    },
+    {
+      "method": "Leave",
+      "err": 0,
+      "status": "server-accepted",
+      "msg": ""
+    },
+    {
+      "method": "BatchClaimTaskReward",
+      "err": 0,
+      "status": "server-accepted",
+      "msg": ""
+    }
+  ],
+  "latestReport": "E:\\workspace\\QQ经典农场案例\\artifacts\\reports\\farm-2026-10-17T12-23-57-852Z-7981848b.json",
+  "allRequiredComplete": true,
+  "daily": {
+    "observed": 3,
+    "claimed": 3,
+    "complete": true,
+    "tasks": [
+      {
+        "id": "200021",
+        "desc": "在1个好友农场进行互动",
+        "cond": 18,
+        "progress": 1,
+        "total": 1,
+        "claimed": true,
+        "unlocked": true
+      },
+      {
+        "id": "200019",
+        "desc": "每日登录游戏",
+        "cond": 16,
+        "progress": 1,
+        "total": 1,
+        "claimed": true,
+        "unlocked": true
+      },
+      {
+        "id": "200020",
+        "desc": "采摘1次果实",
+        "cond": 17,
+        "progress": 1,
+        "total": 1,
+        "claimed": true,
+        "unlocked": true
+      }
+    ]
+  },
+  "pending": [],
+  "cropCycleLiveVerified": false,
+  "cropCycleReason": "Daily picking was verified through one friend harvest; own crops remain unripe and their harvest/replant cycle is still awaiting maturity",
+  "earliestFertilizerTimeChina": "2026/10/18 03:09:02",
+  "latestRunEvents": [
+    "pass-started",
+    "profile",
+    "tasks-snapshot-detail",
+    "maturity",
+    "fert-stock",
+    "pass-finished"
+  ],
+  "friendHarvest": {
+    "host": "1023930545",
+    "land": 1,
+    "taskProgressVerified": true
+  },
+  "latestLiveOperations": [
+    {
+      "method": "WeedOut",
+      "err": 0,
+      "status": "server-accepted",
+      "msg": ""
+    },
+    {
+      "method": "Enter",
+      "err": 0,
+      "status": "server-accepted",
+      "msg": ""
+    },
+    {
+      "method": "Harvest",
+      "err": 0,
+      "status": "server-accepted",
+      "msg": ""
+    },
+    {
+      "method": "Leave",
+      "err": 0,
+      "status": "server-accepted",
+      "msg": ""
+    },
+    {
+      "method": "BatchClaimTaskReward",
+      "err": 0,
+      "status": "server-accepted",
+      "msg": ""
+    }
+  ]
+}

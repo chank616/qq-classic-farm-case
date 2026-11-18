@@ -1,0 +1,153 @@
+{
+  "runtimeTemplate": {
+    "path": "C:\\Users\\chank616\\AppData\\Roaming\\QQEX\\miniapp\\temps\\miniapp_jslib\\pc_miniapp_0.2.11\\QPageFrame.html",
+    "bytes": 1390,
+    "sha256": "e17a33deaa64a0013ee34d4f23d2aab27dac825cf44671d55ba4e159275af164",
+    "hasInjectionMarker": true,
+    "injectedInlineScriptSha256": "16bd334e92dbb734495bb63ddd1ed1ca0f258e9811c8a433617faeae56b14a5a",
+    "timerIntervalMs": 5000,
+    "maxLoginAttempts": 600,
+    "nominalAttemptWindowMs": 3000000
+  },
+  "preInjectionBackup": {
+    "path": "C:\\Users\\chank616\\AppData\\Roaming\\QQEX\\miniapp\\temps\\miniapp_jslib\\pc_miniapp_0.2.11\\QPageFrame.html.m0bak",
+    "bytes": 459,
+    "sha256": "84714e5af760aa5fc8cee69ac01284a20199e3e0da47903ab1c1ca227a52d6e0",
+    "hasInjectionMarker": false,
+    "hasInlineScripts": false
+  },
+  "cachedOutputFrames": [
+    {
+      "version": "1112386029_3_3443f89042dffbf93d20ced1d652d031",
+      "path": "C:\\Users\\chank616\\AppData\\Roaming\\QQEX\\miniapp\\temps\\miniapp_src\\1112386029_3_3443f89042dffbf93d20ced1d652d031\\out_page-frame.html",
+      "bytes": 7280,
+      "htmlSha256": "3a03c428f5fba9f4b6bf3134c48262bbee5eb78b2c1f3515708884c4cb456a11",
+      "hasMarker": true,
+      "inlineScriptSha256": "16bd334e92dbb734495bb63ddd1ed1ca0f258e9811c8a433617faeae56b14a5a",
+      "inlineScriptMatchesTemplate": true,
+      "followsApiIgnoreScript": true
+    },
+    {
+      "version": "1112386029_3_426128027bee4835486005162d0af8d9",
+      "path": "C:\\Users\\chank616\\AppData\\Roaming\\QQEX\\miniapp\\temps\\miniapp_src\\1112386029_3_426128027bee4835486005162d0af8d9\\out_page-frame.html",
+      "bytes": 6240,
+      "htmlSha256": "e78dae6181933ed2ddb7ee13a471afd6ae49fa6f7df39641ad4aea6f27db49f9",
+      "hasMarker": false,
+      "inlineScriptSha256": null,
+      "inlineScriptMatchesTemplate": false,
+      "followsApiIgnoreScript": false
+    },
+    {
+      "version": "1112386029_3_46f49446a560f34d2eb6214ad4bb921e",
+      "path": "C:\\Users\\chank616\\AppData\\Roaming\\QQEX\\miniapp\\temps\\miniapp_src\\1112386029_3_46f49446a560f34d2eb6214ad4bb921e\\out_page-frame.html",
+      "bytes": 6241,
+      "htmlSha256": "5e7bbeaba626824d2efb55f62083897635088ae23dd1e8bb4d493a2ba37b42a5",
+      "hasMarker": false,
+      "inlineScriptSha256": null,
+      "inlineScriptMatchesTemplate": false,
+      "followsApiIgnoreScript": false
+    },
+    {
+      "version": "1112386029_3_5165e5963ec361843a2419d0fdce160f",
+      "path": "C:\\Users\\chank616\\AppData\\Roaming\\QQEX\\miniapp\\temps\\miniapp_src\\1112386029_3_5165e5963ec361843a2419d0fdce160f\\out_page-frame.html",
+      "bytes": 7172,
+      "htmlSha256": "523d7450e8db6f018bec71bd18664f0636e86b8b2e6206d71da3f1f72b3c7fef",
+      "hasMarker": true,
+      "inlineScriptSha256": "16bd334e92dbb734495bb63ddd1ed1ca0f258e9811c8a433617faeae56b14a5a",
+      "inlineScriptMatchesTemplate": true,
+      "followsApiIgnoreScript": true
+    },
+    {
+      "version": "1112386029_3_66f4180dc46b62b3f7db0ecffc1ffdd4",
+      "path": "C:\\Users\\chank616\\AppData\\Roaming\\QQEX\\miniapp\\temps\\miniapp_src\\1112386029_3_66f4180dc46b62b3f7db0ecffc1ffdd4\\out_page-frame.html",
+      "bytes": 7171,
+      "htmlSha256": "964850390ca3d553fd3194355d934c2afda447a444bd55106a6ef76ad831b24c",
+      "hasMarker": true,
+      "inlineScriptSha256": "16bd334e92dbb734495bb63ddd1ed1ca0f258e9811c8a433617faeae56b14a5a",
+      "inlineScriptMatchesTemplate": true,
+      "followsApiIgnoreScript": true
+    },
+    {
+      "version": "1112386029_3_67b898be9fed43f96df1108d3f31f25b",
+      "path": "C:\\Users\\chank616\\AppData\\Roaming\\QQEX\\miniapp\\temps\\miniapp_src\\1112386029_3_67b898be9fed43f96df1108d3f31f25b\\out_page-frame.html",
+      "bytes": 6209,
+      "htmlSha256": "5abc831bddd0cc250973cab34bc8440f939369e5679ba33f87919fa76e53c825",
+      "hasMarker": false,
+      "inlineScriptSha256": null,
+      "inlineScriptMatchesTemplate": false,
+      "followsApiIgnoreScript": false
+    },
+    {
+      "version": "1112386029_3_684dfae7157d3e507ac47410fbb0cd62",
+      "path": "C:\\Users\\chank616\\AppData\\Roaming\\QQEX\\miniapp\\temps\\miniapp_src\\1112386029_3_684dfae7157d3e507ac47410fbb0cd62\\out_page-frame.html",
+      "bytes": 6210,
+      "htmlSha256": "38d72b9381d67959bc3f5040e2be2a3910cced936bfca3b50ba0d88a3c5f387f",
+      "hasMarker": false,
+      "inlineScriptSha256": null,
+      "inlineScriptMatchesTemplate": false,
+      "followsApiIgnoreScript": false
+    },
+    {
+      "version": "1112386029_3_6da6fda16dd5afaa6034a6bb5028e167",
+      "path": "C:\\Users\\chank616\\AppData\\Roaming\\QQEX\\miniapp\\temps\\miniapp_src\\1112386029_3_6da6fda16dd5afaa6034a6bb5028e167\\out_page-frame.html",
+      "bytes": 6209,
+      "htmlSha256": "7ad4836d19b5be3410a4d8104d7c46f7f771f5ee4fba2a8ae5411655af647520",
+      "hasMarker": false,
+      "inlineScriptSha256": null,
+      "inlineScriptMatchesTemplate": false,
+      "followsApiIgnoreScript": false
+    },
+    {
+      "version": "1112386029_3_6f7d5a6b0818442756c84261bc3387eb",
+      "path": "C:\\Users\\chank616\\AppData\\Roaming\\QQEX\\miniapp\\temps\\miniapp_src\\1112386029_3_6f7d5a6b0818442756c84261bc3387eb\\out_page-frame.html",
+      "bytes": 6241,
+      "htmlSha256": "fd81b2af56654ba5cff2b028af2e3562e8f1d5388adebe006c26f2d260e1be29",
+      "hasMarker": false,
+      "inlineScriptSha256": null,
+      "inlineScriptMatchesTemplate": false,
+      "followsApiIgnoreScript": false
+    },
+    {
+      "version": "1112386029_3_6fbecc02132716b907c840f35103622d",
+      "path": "C:\\Users\\chank616\\AppData\\Roaming\\QQEX\\miniapp\\temps\\miniapp_src\\1112386029_3_6fbecc02132716b907c840f35103622d\\out_page-frame.html",
+      "bytes": 6241,
+      "htmlSha256": "bc90c789b46fe3b5b6a3f5cef943603861e6fdcbd3a2db03e522b26ec4e64784",
+      "hasMarker": false,
+      "inlineScriptSha256": null,
+      "inlineScriptMatchesTemplate": false,
+      "followsApiIgnoreScript": false
+    },
+    {
+      "version": "1112386029_3_86eee58e10ed64907dd7dc098bc10228",
+      "path": "C:\\Users\\chank616\\AppData\\Roaming\\QQEX\\miniapp\\temps\\miniapp_src\\1112386029_3_86eee58e10ed64907dd7dc098bc10228\\out_page-frame.html",
+      "bytes": 6240,
+      "htmlSha256": "32b03ec349258d86d3d2f9a411f7d7a2a174afa3bb7405ea80253e381918318a",
+      "hasMarker": false,
+      "inlineScriptSha256": null,
+      "inlineScriptMatchesTemplate": false,
+      "followsApiIgnoreScript": false
+    },
+    {
+      "version": "1112386029_3_ef0ca37481d1620385ac066782e66b41",
+      "path": "C:\\Users\\chank616\\AppData\\Roaming\\QQEX\\miniapp\\temps\\miniapp_src\\1112386029_3_ef0ca37481d1620385ac066782e66b41\\out_page-frame.html",
+      "bytes": 6209,
+      "htmlSha256": "7a2fbc8c04731704b18aeb0e5bde554c1fcae4e0c3117dcff3a408693849dd17",
+      "hasMarker": false,
+      "inlineScriptSha256": null,
+      "inlineScriptMatchesTemplate": false,
+      "followsApiIgnoreScript": false
+    },
+    {
+      "version": "1112386029_3_fff0d37edf97abe3708d5242b03dd257",
+      "path": "C:\\Users\\chank616\\AppData\\Roaming\\QQEX\\miniapp\\temps\\miniapp_src\\1112386029_3_fff0d37edf97abe3708d5242b03dd257\\out_page-frame.html",
+      "bytes": 6210,
+      "htmlSha256": "705e4754ddad5b9d09f14b4dd53f5d3d2882bb9601c2c563fab8ccf1b713188e",
+      "hasMarker": false,
+      "inlineScriptSha256": null,
+      "inlineScriptMatchesTemplate": false,
+      "followsApiIgnoreScript": false
+    }
+  ],
+  "interpretation": "The current QQEX QPageFrame.html has an inline code-forwarding script that is absent from its .m0bak template. Cached per-app out_page-frame.html files contain the same script after the QQ apiIgnore.js tag. This supports a local QQEX frame-template injection boundary rather than official farm game source; it does not identify the injector or prove the script executed or delivered a code.",
+  "boundary": "Hashes, file lengths, template markers, and frame placement only. No code values are read or retained, and no script is executed."
+}

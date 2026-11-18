@@ -1,0 +1,1 @@
+const fs=require('fs');const p='C:/Users/chank616/AppData/Roaming/QQEX/miniapp/fs/2351686624/1112386029/usr/gamecaches/cacheList.json';const x=JSON.parse(fs.readFileSync(p,'utf8'));const keys=Object.keys(x.files||x);for(const k of keys){if(/mcboot|config|plant|task|shop|vip|pb|gate|subpack|main|extraRes|delayRes/i.test(k))console.log(k+' => '+JSON.stringify((x.files||x)[k]));}

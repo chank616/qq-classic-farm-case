@@ -1,0 +1,30 @@
+{
+  "mode": "dispatchwatch",
+  "pid": 3888,
+  "qqStarted": false,
+  "farmStarted": false,
+  "diagnostics": [
+    {
+      "state": "runtime-metadata",
+      "pid": 3888,
+      "value": {
+        "pid": 3888,
+        "dispatchCallSchema": {
+          "type": "number"
+        }
+      }
+    },
+    {
+      "state": "sso-callback-statistics",
+      "value": {
+        "matches": 0,
+        "callbacks": {
+          "onUpdateGeneralFlag": 5,
+          "dispatchCall": 7,
+          "set": 27,
+          "fire": 14
+        }
+      }
+    }
+  ]
+}

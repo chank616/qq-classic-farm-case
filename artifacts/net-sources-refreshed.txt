@@ -1,0 +1,134 @@
+systems 1445
+
+### NetNode NetNode.getState 
+function(){return this[J[351]]}
+
+### NetNode NetNode.connect 
+function(t,n){logger[J[70]](d[31256],t),this[d[8268]]=n,null!=this[l[3085]]&&(this[g[3085]][d[35317]]!==WebSocket[l[7390]]&&this[y[3085]][f[35317]]!==WebSocket[g[38671]]&&(this[k[11539]](),this[c[3085]][c[304]]()),logger[f[13]](Q[18343],this[y[3085]][S[35317]])),logger[Y[70]](l[32990]),this[Q[3085]]=new WebSocket(t),this[Y[3085]][R[16893]]=f[17016],this[R[36263]](),this[a[351]]=O[l[21737]];var r=[],e={};return e[R[27238]]=i[L[18160]],e[g[39]]=null,e[v[23122]]=null,e[D[37786]]=this[d[2156]],r[Q[19]](e),this[Y[3348]][L[29]](i[q[18160]],r),this[D[4305]]=t,!0}
+
+### NetNode NetNode.send 
+function(i,t,n,u){if(void 0===u&&(u=J[30695]),!r[v[9506]])return logger[g[66]](a[29939]),!1;if(this[l[351]]!=O[f[35466]])return logger[S[70]](g[38213],t,R[10626],this[S[351]]),!1;var h=this[k[32572]],s=null,C=0,m=H[c[43]];m[J[1049]]?(s=m[Q[33614]](i,h),C=m[v[323]]):s=e[f[43]][D[33614]](i);var F=C>0?d[20375]+C+")":M[33435];F!==this[y[17878]]&&(this[a[17878]]=F,logger[g[70]](S[35467]+F+M[13805],t));var j=null;null==e[k[34214]]||e[o[32142]]?j=e[f[43]][y[19042]]():(j=e[c[34214]],e[J[32142]]=!0);var A={};A[D[7123]]=u,A[o[3318]]=t,A[T[3102]]=P[g[4126]][D[6656]][v[32670]],A[T[3284]]=h,A[g[8102]]=this[J[36299]];var p=A;C>0&&(p[v[7938]]={encrypt_version:z[L[30163]](mi()(C))});var b={};b[S[774]]=p,b[Q[99]]=s,b[k[6563]]=j;var U=P[l[9077]][M[0]](b),V=P[J[9077]][d[85]](U)[k[265]](),w=new ArrayBuffer(V[Q[5783]]),Z=new DataView(w),W=this[l[33730]](u,t),I=this[v[3348]][k[72]](W);I||(I=[],this[Y[3348]][c[29]](W,I)),I[f[19]]({methName:W,data:U,fun:n,sendtime:this[k[2156]]});for(var X=0;X<V[q[5783]];X++)Z[v[26209]](X,V[X]);return this[f[3085]][f[35317]]!==WebSocket[Y[10502]]?(logger[q[66]](D[19420],this[L[3085]][R[35317]]),!1):(this[f[3085]][Y[13111]](w),this[Y[32572]]++,logger[a[70]](D[38213],t),!1)}
+
+### NetNode NetNode.closeSocket 
+function(i,t){null!=this[v[3085]]?(logger[k[70]](R[41413]),this[J[11539]](),this[T[3085]][L[304]](i,t),this[c[35167]]()):logger[Q[70]](c[21092])}
+
+### NetNode NetNode.forceCloseSocket 
+function(){this[M[3085]]&&this[S[3085]][l[304]](1e3,Y[21647])}
+
+### NetNode NetNode.onMessage 
+function(i){if(i instanceof ArrayBuffer){this[Q[4370]]=0;var t=new(Mi())(i),n=P[J[9077]][f[65]](t);if(this[v[36299]]=n[Q[774]][l[8102]],logger[f[70]](Q[34838],n[J[774]][a[7123]],n[a[774]][J[3318]],n[a[774]][M[374]]),n[Y[774]][k[374]]==C[R[15137]][L[23767]])logger[y[70]](y[34838],n[Y[774]][v[547]]),this[q[2619]](),r[v[9506]]=!1,s[D[7568]](""+n[q[774]][o[547]],(function(){u[a[555]][M[813]]()}),"提示",Q[41425]);else if(n[J[774]][Y[374]]<0)logger[S[13]](T[20998],n[a[774]][D[374]],n[k[774]][Y[547]]),this[y[2619]](),this[a[36502]](n[Q[774]][M[374]],n[L[774]][g[547]]),r[g[9506]]=!1;else if(0!=n[v[774]][R[374]]&&(logger[M[13]](l[40628],n[J[774]][D[374]],n[k[774]][R[547]]),u[Y[44]][q[50]](n[y[774]][Q[547]])),n[D[774]][l[3102]]==P[l[4126]][l[6656]][d[2941]])this[k[33165]](v[15539])[a[10302]](n);else{var e=this[D[33730]](n[o[774]][o[7123]],n[S[774]][Y[3318]]);if(e){var h=this[d[3348]][g[72]](e);if(h&&h[M[7]]>0){var z=h[J[3418]]();if(z&&z[g[23122]])try{z[d[23122]][D[60]](null,[n])}catch(i){logger[c[66]](M[21295],i)}0===h[f[7]]&&this[R[3348]][D[373]](e)}}}this[k[15280]]()}}
+
+### NetNode NetNode.getServiceFunName 
+function(i,t){return i+"."+t}
+
+### NetNode NetNode.getService 
+function(i){var t=null,n=F[o[11540]][i];return null==n&&(n=m),null==(t=this[g[6343]][S[72]](n))&&(t=new n,this[l[6343]][y[29]](n,t)),t}
+
+### NetNode NetNode.onConnected 
+function(t){logger[q[70]](a[12656],this[R[351]],t),this[T[351]]=O[g[35466]],this[L[3348]][a[373]](i[k[18160]]),this[S[6148]]&&this[o[31493]](),this[q[8268]]?(this[y[8268]](v[977]),this[c[8268]]=null):logger[Y[13]](c[39819])}
+
+### NetNode NetNode.resetSocketEvent 
+function(){logger[R[70]](d[20101],this[o[3085]]),this[L[3085]]&&(this[v[3085]][q[17412]]=null,this[k[3085]][c[10433]]=null,this[Y[3085]][f[11675]]=null,this[f[3085]][S[33254]]=null)}
+
+### NetNode NetNode.resetSocketState 
+function(){logger[y[70]](d[29166]),this[c[351]]=O[L[659]],this[L[32572]]=1,this[D[36299]]=0,this[c[3085]]=null,this[a[3348]][k[46]](),this[R[6343]][Q[46]](),e[f[32142]]=!1}
+
+### NetNode NetNode.onClosed 
+function(i){logger[Q[13]](k[41900],this[Y[4305]],d[8652],i[v[908]],i[M[8901]],i[k[33025]]);try{this[M[2619]]()}catch(i){logger[f[66]](g[35075],i)}finally{this[Q[351]]=O[Q[8675]]}this[g[21311]]()?logger[c[13]](d[38196],this[g[4370]]):this[M[38979]]()}
+
+### NetNode NetNode.showSocketClosedPrompt 
+function(){var i=this;u[L[555]][c[6611]]()?(logger[a[70]](k[32204],this[k[351]]),this[Y[3354]](Q[40693],(function(){i[Q[4370]]=0,i[L[9819]]=!1,i[k[9354]]()}),d[16780],(function(){u[D[555]][f[813]]()}),q[3444])):logger[a[70]](d[23702])}
+
+### NetNode NetNode.onError 
+function(i){var t,n,r=i;logger[q[13]](c[28315],this[y[4305]],null!=(t=null!=(n=r[Q[3961]])?n:r[k[31]])?t:"",i);try{this[l[2619]]()}catch(i){logger[o[66]](f[37486],i)}finally{this[L[351]]=O[f[8675]]}this[D[21311]]()?logger[R[13]](L[36318],this[R[4370]]):this[y[17559]]()}
+
+### NetNode NetNode.retryConnect 
+function(){return this[l[351]]<=O[f[1511]]?(logger[l[13]](D[33320],this[q[351]]),!0):u[a[555]][c[6611]]()?r[M[9506]]?(this[q[4370]]++,this[J[4370]]>this[c[17606]]?(logger[o[66]](T[33013],this[l[4370]],this[q[17606]]),!1):(this[J[9354]](),!0)):(logger[Y[70]](S[24353]),!0):(logger[J[70]](Q[18077]),!0)}
+
+### NetNode NetNode.confirm 
+function(i,t,n,e,h){r[T[9506]]?(logger[l[70]](M[19925],i,n,h),u[R[555]][k[3354]](i,t,n,e,h),this[D[9819]]=!0):logger[d[66]](Y[17805])}
+
+### NetNode NetNode.showSocketErrorPrompt 
+function(){var i=this;u[M[555]][J[6611]]()?(logger[c[70]](J[35668],this[f[351]]),this[y[3354]](c[32517],(function(){i[D[4370]]=0,i[c[9819]]=!1,i[f[9354]]()}),Q[16780],(function(){u[l[555]][Y[813]]()}),y[3444])):logger[o[70]](D[37478])}
+
+### NetNode NetNode.onServerNotAvaliable 
+function(i,t){s[M[7568]](v[40505]+i+Q[16827]+t+k[37761],(function(){u[d[555]][q[813]]()}),"提示","确定")}
+
+### NetNode NetNode.showTimeoutPrompt 
+function(){var i=this;logger[D[13]](q[12963],this[D[351]]),this[c[3354]](q[26358],(function(){i[Y[4370]]=0,i[R[9819]]=!1,i[S[9354]]()}),v[16780],(function(){u[l[555]][f[813]]()}),q[3444])}
+
+### NetNode NetNode.reconnect 
+function(){logger[g[13]](L[16173]+this[Q[4305]]+T[38407]+this[g[351]]+S[37586]+this[M[4370]]),this[Q[11539]](),this[f[35167]](),u[S[1082]][k[194]]=h[L[5586]]}
+
+### NetNode NetNode.checkNetworkTimeout 
+function(){var i=0,t=null;if(this[k[3348]][R[73]]((function(n){if(n[Y[7]]>0){var r=n[0];(0===i||r[d[37786]]<i)&&(i=r[k[37786]],t=r[D[27238]])}})),i>0){var n=this[k[2156]]-i;n>=this[D[41674]]&&!this[L[9819]]?(this[v[6148]]&&this[c[31493]](),logger[T[13]](T[38519],n,t),this[g[351]]=O[o[659]],this[a[2619]](),this[k[20516]]()):n>=this[o[32390]]&&!this[d[6148]]&&!this[o[9819]]&&(logger[v[70]](d[35958],n,t),logger[v[24517]](t,n),this[d[25242]]())}else this[D[6148]]&&this[o[31493]]()}
+
+### NetNode NetNode.openWait 
+function(){logger[Y[70]](L[35939]),this[T[6148]]=!0,u[d[44]][c[8956]](2)}
+
+### NetNode NetNode.closeWait 
+function(){this[a[6148]]=!1,logger[q[70]](Y[36291]),u[d[44]][c[2267]](2)}
+
+### NetNode NetNode.initSocket 
+function(){var i=this;logger[g[70]](a[41979],this[a[351]]),this[Q[3085]][g[17412]]=function(t){i[k[26869]](t)},this[o[3085]][a[33254]]=function(t){try{i[f[7704]](t[k[39]])}catch(i){logger[a[66]](g[21295],i)}},this[q[3085]][o[10433]]=function(t){i[T[34677]](t)},this[R[3085]][Y[11675]]=function(t){i[Q[2738]](t)},this[Q[351]]=O[M[1511]],logger[f[70]](o[19117])}
+
+### NetNode NetNode.onFrame 
+function(i){this[D[2235]]+=i,this[Y[2235]]<1||(this[d[2235]]=0,this[Y[15280]]())}
+
+### NetControl NetControl.setNetNode 
+function(i,t){void 0===t&&(t=0),this[M[9962]][J[29]](t,i)}
+
+### NetControl NetControl.removeNetNode 
+function(i){this[v[9962]][S[373]](i)}
+
+### NetControl NetControl.connect 
+function(i,t,n){var r;return void 0===n&&(n=0),this[D[9962]][D[949]](n)?r=this[g[9962]][R[72]](n):(r=new e,this[c[9962]][R[29]](n,r)),r[o[5225]](i,t)}
+
+### NetControl NetControl.forceCloseSocket 
+function(i){void 0===i&&(i=0);var t=this[y[9962]][a[72]](i);t&&t[a[8037]]()}
+
+### NetControl NetControl.isNetWorking 
+function(i){void 0===i&&(i=0);var t=this[g[9962]][q[72]](i);return!!t&&t[Q[442]]()==u[Y[35466]]}
+
+### NetControl NetControl.isNetClosed 
+function(i){void 0===i&&(i=0);var t=this[M[9962]][d[72]](i);return!!t&&t[f[442]]()==u[Y[8675]]}
+
+### NetControl NetControl.forceCloseAllSocket 
+function(){this[a[9962]][L[73]]((function(i){i[Q[8037]]()}))}
+
+### NetControl NetControl.sendMsg 
+function(i,t,n,r){void 0===n&&(n=null),void 0===r&&(r=v[15896]);var e=this[c[9962]][y[72]](0);return!!e&&e[d[13111]](i,t,n,r)}
+
+### NetControl NetControl.close 
+function(i,t,n){if(void 0===n&&(n=0),this[D[9962]][R[949]](n))return this[y[9962]][Y[72]](n)[S[2619]](i,t)}
+
+### NetControl NetControl.init 
+function(){}
+
+### NetControl NetControl.getToken 
+function(){}
+
+### NetControl NetControl.connectSvr 
+function(){var i=this;this[q[5225]](this[v[26042]],(function(t){T[977]==t?n[g[41]](r[T[2887]]):D[447]==t&&i[Y[14042]](f[14804])}),this[c[30417]])}
+
+### NetControl NetControl.showError 
+function(i){logger[Y[66]](D[23408],i)}
+
+### NetControl NetControl.onFrame 
+function(i){this[g[9962]][M[73]]((function(t){t[D[5460]](i)}))}
+
+### WxSocket WxSocket.resetSocket 
+function(){throw new(Di())(o[24806])}
+
+### WxSocket WxSocket.connect 
+function(i){var t=this,n={};return n[L[5750]]=i,n[R[977]]=function(i){logger[S[70]](D[37884])},n[q[447]]=function(i){logger[S[70]](o[10116])},this[y[1538]]=Hi()[T[25309]](n),this[g[1538]][g[31067]]((function(i){logger[Y[70]](a[16171],i),t[D[1130]]=!0,t[D[26869]](i)})),this[q[1538]][f[7704]]((function(i){logger[T[70]](Q[22951],i[D[39]]),t[c[7704]](i[R[39]])})),this[Q[1538]][f[349]]((function(i){logger[S[70]](v[33674]),t[v[34677]](i),t[J[1130]]=!1})),this[M[1538]][L[2738]]((function(i){logger[Q[70]](g[17835]),t[Y[2738]](i),t[L[1130]]=!1})),logger[v[70]](v[37771]),!0}
+
+### WxSocket WxSocket.send 
+function(i){if(!this[D[1130]])return!1;logger[Y[70]](Q[37215],i,this[T[1538]]),this[J[1538]][q[13111]]({data:i,success:function(i){logger[Q[70]](y[13209])},fail:function(i){logger[o[70]](y[40879])}})}
+
+### WxSocket WxSocket.close 
+function(i,t){this[y[1130]]&&(this[v[1538]][c[304]](),this[o[1130]]=!1)}
+
+### BaseService BaseService.dealData 
+function(i){}
+RESET_FIELD_MAP [{"key":"_state","type":"function"},{"key":"clientSeq","type":"number","value":1},{"key":"serverSeq","type":"number","value":0},{"key":"_socket","type":"null"}]

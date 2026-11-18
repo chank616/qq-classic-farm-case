@@ -1,0 +1,32 @@
+{
+  "checkedAt": "2026-10-17T12:54:28.234Z",
+  "automatedChecks": {
+    "node": 49,
+    "scheduler": 11
+  },
+  "reportPath": "E:\\workspace\\QQ经典农场案例\\artifacts\\reports\\farm-2026-10-17T12-52-17-438Z-4d146507.json",
+  "live": {
+    "normalBucketSec": 289739,
+    "organicBucketSec": 296643,
+    "normalPackedSec": 39600,
+    "organicPackedSec": 122400,
+    "ownedTotalSec": 748382,
+    "wholeBatchNeedSec": 414058,
+    "plannedPoints": 0,
+    "pointBalance": 11428,
+    "unresolvedBoxes": 0,
+    "boxUseVerified": true,
+    "nextDue": "2026-10-18T00:00:00+08:00",
+    "mode": "whole-farm",
+    "batchSize": 24,
+    "actualPaidFertilizerPurchase": false,
+    "actualWholeBatchFertilization": false
+  },
+  "simulation": {
+    "minimumPointTopUp": true,
+    "sharedPointWallet": true,
+    "packUseRechecked": true,
+    "ordinaryAndOrganicBatch": true,
+    "naturalWaitPersists": true
+  }
+}

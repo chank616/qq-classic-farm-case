@@ -1,0 +1,438 @@
+{
+  "mode": "ipcwatch",
+  "pid": 3888,
+  "qqStarted": false,
+  "farmStarted": false,
+  "diagnostics": [
+    {
+      "state": "runtime-metadata",
+      "pid": 3888,
+      "value": {
+        "pid": 3888,
+        "channels": 4,
+        "records": [
+          {
+            "channel": "RM_IPCFROM_RENDERER2",
+            "senderId": 2,
+            "args": {
+              "type": "array",
+              "length": 2,
+              "items": [
+                {
+                  "type": {
+                    "type": "string",
+                    "value": "request"
+                  },
+                  "eventName": {
+                    "type": "string",
+                    "value": "LogApi"
+                  },
+                  "peerId": {
+                    "type": "number"
+                  }
+                },
+                {
+                  "cmdName": {
+                    "type": "string",
+                    "value": "info"
+                  },
+                  "cmdType": {
+                    "type": "string",
+                    "value": "send"
+                  },
+                  "payload": {
+                    "type": "array",
+                    "length": 1,
+                    "items": [
+                      {
+                        "type": "string"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "channel": "RM_IPCFROM_RENDERER3",
+            "senderId": 3,
+            "args": {
+              "type": "array",
+              "length": 2,
+              "items": [
+                {
+                  "type": {
+                    "type": "string",
+                    "value": "request"
+                  },
+                  "eventName": {
+                    "type": "string",
+                    "value": "LogApi"
+                  },
+                  "peerId": {
+                    "type": "number"
+                  }
+                },
+                {
+                  "cmdName": {
+                    "type": "string",
+                    "value": "info"
+                  },
+                  "cmdType": {
+                    "type": "string",
+                    "value": "send"
+                  },
+                  "payload": {
+                    "type": "array",
+                    "length": 1,
+                    "items": [
+                      {
+                        "type": "string"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "channel": "RM_IPCFROM_RENDERER2",
+            "senderId": 2,
+            "args": {
+              "type": "array",
+              "length": 2,
+              "items": [
+                {
+                  "type": {
+                    "type": "string",
+                    "value": "request"
+                  },
+                  "eventName": {
+                    "type": "string",
+                    "value": "LogApi"
+                  },
+                  "peerId": {
+                    "type": "number"
+                  }
+                },
+                {
+                  "cmdName": {
+                    "type": "string",
+                    "value": "info"
+                  },
+                  "cmdType": {
+                    "type": "string",
+                    "value": "send"
+                  },
+                  "payload": {
+                    "type": "array",
+                    "length": 1,
+                    "items": [
+                      {
+                        "type": "string"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "channel": "RM_IPCFROM_RENDERER3",
+            "senderId": 3,
+            "args": {
+              "type": "array",
+              "length": 2,
+              "items": [
+                {
+                  "type": {
+                    "type": "string",
+                    "value": "request"
+                  },
+                  "eventName": {
+                    "type": "string",
+                    "value": "LogApi"
+                  },
+                  "peerId": {
+                    "type": "number"
+                  }
+                },
+                {
+                  "cmdName": {
+                    "type": "string",
+                    "value": "info"
+                  },
+                  "cmdType": {
+                    "type": "string",
+                    "value": "send"
+                  },
+                  "payload": {
+                    "type": "array",
+                    "length": 1,
+                    "items": [
+                      {
+                        "type": "string"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "channel": "RM_IPCFROM_RENDERER2",
+            "senderId": 2,
+            "args": {
+              "type": "array",
+              "length": 2,
+              "items": [
+                {
+                  "type": {
+                    "type": "string",
+                    "value": "request"
+                  },
+                  "eventName": {
+                    "type": "string",
+                    "value": "LogApi"
+                  },
+                  "peerId": {
+                    "type": "number"
+                  }
+                },
+                {
+                  "cmdName": {
+                    "type": "string",
+                    "value": "info"
+                  },
+                  "cmdType": {
+                    "type": "string",
+                    "value": "send"
+                  },
+                  "payload": {
+                    "type": "array",
+                    "length": 1,
+                    "items": [
+                      {
+                        "type": "string"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "channel": "RM_IPCFROM_RENDERER2",
+            "senderId": 2,
+            "args": {
+              "type": "array",
+              "length": 2,
+              "items": [
+                {
+                  "type": {
+                    "type": "string",
+                    "value": "request"
+                  },
+                  "eventName": {
+                    "type": "string",
+                    "value": "LogApi"
+                  },
+                  "peerId": {
+                    "type": "number"
+                  }
+                },
+                {
+                  "cmdName": {
+                    "type": "string",
+                    "value": "info"
+                  },
+                  "cmdType": {
+                    "type": "string",
+                    "value": "send"
+                  },
+                  "payload": {
+                    "type": "array",
+                    "length": 1,
+                    "items": [
+                      {
+                        "type": "string"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "channel": "RM_IPCFROM_RENDERER5",
+            "senderId": 5,
+            "args": {
+              "type": "array",
+              "length": 2,
+              "items": [
+                {
+                  "type": {
+                    "type": "string",
+                    "value": "request"
+                  },
+                  "eventName": {
+                    "type": "string",
+                    "value": "LogApi"
+                  },
+                  "peerId": {
+                    "type": "number"
+                  }
+                },
+                {
+                  "cmdName": {
+                    "type": "string",
+                    "value": "info"
+                  },
+                  "cmdType": {
+                    "type": "string",
+                    "value": "send"
+                  },
+                  "payload": {
+                    "type": "array",
+                    "length": 1,
+                    "items": [
+                      {
+                        "type": "string"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "channel": "RM_IPCFROM_RENDERER5",
+            "senderId": 5,
+            "args": {
+              "type": "array",
+              "length": 2,
+              "items": [
+                {
+                  "type": {
+                    "type": "string",
+                    "value": "request"
+                  },
+                  "eventName": {
+                    "type": "string",
+                    "value": "LogApi"
+                  },
+                  "peerId": {
+                    "type": "number"
+                  }
+                },
+                {
+                  "cmdName": {
+                    "type": "string",
+                    "value": "info"
+                  },
+                  "cmdType": {
+                    "type": "string",
+                    "value": "send"
+                  },
+                  "payload": {
+                    "type": "array",
+                    "length": 1,
+                    "items": [
+                      {
+                        "type": "string"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "channel": "RM_IPCFROM_RENDERER5",
+            "senderId": 5,
+            "args": {
+              "type": "array",
+              "length": 2,
+              "items": [
+                {
+                  "type": {
+                    "type": "string",
+                    "value": "request"
+                  },
+                  "eventName": {
+                    "type": "string",
+                    "value": "LogApi"
+                  },
+                  "peerId": {
+                    "type": "number"
+                  }
+                },
+                {
+                  "cmdName": {
+                    "type": "string",
+                    "value": "info"
+                  },
+                  "cmdType": {
+                    "type": "string",
+                    "value": "send"
+                  },
+                  "payload": {
+                    "type": "array",
+                    "length": 1,
+                    "items": [
+                      {
+                        "type": "string"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "channel": "RM_IPCFROM_RENDERER2",
+            "senderId": 2,
+            "args": {
+              "type": "array",
+              "length": 2,
+              "items": [
+                {
+                  "type": {
+                    "type": "string",
+                    "value": "request"
+                  },
+                  "eventName": {
+                    "type": "string",
+                    "value": "LogApi"
+                  },
+                  "peerId": {
+                    "type": "number"
+                  }
+                },
+                {
+                  "cmdName": {
+                    "type": "string",
+                    "value": "info"
+                  },
+                  "cmdType": {
+                    "type": "string",
+                    "value": "send"
+                  },
+                  "payload": {
+                    "type": "array",
+                    "length": 1,
+                    "items": [
+                      {
+                        "type": "string"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

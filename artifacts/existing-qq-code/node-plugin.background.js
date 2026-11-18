@@ -1,0 +1,1 @@
+require('../major.node').load('b_nodeXpluginbackground', module);

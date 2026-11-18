@@ -1,0 +1,109 @@
+{
+  "mode": "cache",
+  "pid": 3888,
+  "qqStarted": false,
+  "farmStarted": false,
+  "diagnostics": [
+    {
+      "state": "runtime-metadata",
+      "pid": 3888,
+      "value": {
+        "pid": 3888,
+        "moduleCount": 19,
+        "mainFile": "D:\\Program Files\\Tencent\\QQNT\\versions\\9.9.35-52892\\resources\\app\\application.asar\\app_launcher\\index.js",
+        "modules": [
+          {
+            "file": "D:\\Program Files\\Tencent\\QQNT\\versions\\9.9.35-52892\\resources\\app\\major.node",
+            "exportNames": [
+              "load"
+            ]
+          },
+          {
+            "file": "D:\\Program Files\\Tencent\\QQNT\\versions\\9.9.35-52892\\resources\\app\\application.asar\\background.js",
+            "exportNames": []
+          },
+          {
+            "file": "D:\\Program Files\\Tencent\\QQNT\\versions\\9.9.35-52892\\resources\\app\\application.asar\\node-plugin.background.js",
+            "exportNames": [
+              "id",
+              "ids",
+              "modules"
+            ]
+          },
+          {
+            "file": "D:\\Program Files\\Tencent\\QQNT\\versions\\9.9.35-52892\\resources\\app\\application.asar\\544.background.js",
+            "exportNames": [
+              "id",
+              "ids",
+              "modules"
+            ]
+          },
+          {
+            "file": "D:\\Program Files\\Tencent\\QQNT\\versions\\9.9.35-52892\\resources\\app\\application.asar\\611.background.js",
+            "exportNames": [
+              "id",
+              "ids",
+              "modules"
+            ]
+          },
+          {
+            "file": "D:\\Program Files\\Tencent\\QQNT\\versions\\9.9.35-52892\\resources\\app\\application.asar\\426.background.js",
+            "exportNames": [
+              "id",
+              "ids",
+              "modules"
+            ]
+          },
+          {
+            "file": "D:\\Program Files\\Tencent\\QQNT\\versions\\9.9.35-52892\\resources\\app\\application.asar\\357.background.js",
+            "exportNames": [
+              "id",
+              "ids",
+              "modules"
+            ]
+          },
+          {
+            "file": "D:\\Program Files\\Tencent\\QQNT\\versions\\9.9.35-52892\\resources\\app\\application.asar\\288.background.js",
+            "exportNames": [
+              "id",
+              "ids",
+              "modules"
+            ]
+          },
+          {
+            "file": "D:\\Program Files\\Tencent\\QQNT\\versions\\9.9.35-52892\\resources\\app\\application.asar\\790.background.js",
+            "exportNames": [
+              "id",
+              "ids",
+              "modules"
+            ]
+          },
+          {
+            "file": "D:\\Program Files\\Tencent\\QQNT\\versions\\9.9.35-52892\\resources\\app\\application.asar\\165.background.js",
+            "exportNames": [
+              "id",
+              "ids",
+              "modules"
+            ]
+          },
+          {
+            "file": "D:\\Program Files\\Tencent\\QQNT\\versions\\9.9.35-52892\\resources\\app\\application.asar\\4.background.js",
+            "exportNames": [
+              "id",
+              "ids",
+              "modules"
+            ]
+          },
+          {
+            "file": "D:\\Program Files\\Tencent\\QQNT\\versions\\9.9.35-52892\\resources\\app\\application.asar\\875.background.js",
+            "exportNames": [
+              "id",
+              "ids",
+              "modules"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

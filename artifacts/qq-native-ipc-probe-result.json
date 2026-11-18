@@ -1,0 +1,15 @@
+{
+  "runtime": "csharp-native-qq-ipc-probe",
+  "farmStarted": false,
+  "qqStarted": false,
+  "factoryHr": 0,
+  "createHr": 0,
+  "events": [
+    {
+      "method": "IPC_DISCONNECTED",
+      "bytes": 0
+    }
+  ],
+  "serverVerified": false,
+  "timestamp": "2026-10-18T08:14:29.7470073+00:00"
+}

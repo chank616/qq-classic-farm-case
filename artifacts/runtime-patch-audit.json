@@ -1,0 +1,115 @@
+{
+  "current": {
+    "file": "C:\\Users\\chank616\\AppData\\Roaming\\QQEX\\miniapp\\temps\\miniapp_jslib\\pc_miniapp_0.2.11\\QGame.js",
+    "bytes": 2242553,
+    "sha256": "5aba12e1e661b47c7050d63ec22251d9f1cdf07bcb15fa95336efaa94ee58b25",
+    "markers": {
+      "loginLiteral": 63,
+      "loginCodePhrase": 1,
+      "checkSession": 4,
+      "refreshSession": 1,
+      "localLoopbackPort": 0,
+      "injectionMarker": 0,
+      "farmBridgeMarker": 1,
+      "wsFrameHook": 2,
+      "bridgeFiles": 6,
+      "wxLogin": 2
+    }
+  },
+  "comparisons": [
+    {
+      "baseline": {
+        "file": "C:\\Users\\chank616\\AppData\\Roaming\\QQEX\\miniapp\\temps\\miniapp_jslib\\pc_miniapp_0.2.11\\QGame.js.prebridge.1791709030047",
+        "bytes": 2232843,
+        "sha256": "265883facf46aae520252b74ea177bb354404d054ab9457728a5f80cd1a39139",
+        "markers": {
+          "loginLiteral": 63,
+          "loginCodePhrase": 1,
+          "checkSession": 4,
+          "refreshSession": 1,
+          "localLoopbackPort": 0,
+          "injectionMarker": 0,
+          "farmBridgeMarker": 0,
+          "wsFrameHook": 1,
+          "bridgeFiles": 0,
+          "wxLogin": 2
+        }
+      },
+      "commonPrefixChars": 2212887,
+      "commonSuffixChars": 0,
+      "currentChangedChars": 8881,
+      "baselineChangedChars": 0,
+      "currentChangedMarkers": {
+        "loginLiteral": 0,
+        "loginCodePhrase": 0,
+        "checkSession": 0,
+        "refreshSession": 0,
+        "localLoopbackPort": 0,
+        "injectionMarker": 0,
+        "farmBridgeMarker": 1,
+        "wsFrameHook": 1,
+        "bridgeFiles": 6,
+        "wxLogin": 0
+      },
+      "baselineChangedMarkers": {
+        "loginLiteral": 0,
+        "loginCodePhrase": 0,
+        "checkSession": 0,
+        "refreshSession": 0,
+        "localLoopbackPort": 0,
+        "injectionMarker": 0,
+        "farmBridgeMarker": 0,
+        "wsFrameHook": 0,
+        "bridgeFiles": 0,
+        "wxLogin": 0
+      }
+    },
+    {
+      "baseline": {
+        "file": "C:\\Users\\chank616\\AppData\\Roaming\\QQEX\\miniapp\\temps\\miniapp_jslib\\pc_miniapp_0.2.11\\QGame.js.prebridge.1791709390089",
+        "bytes": 2232844,
+        "sha256": "484b8ee12e54cce45cf1c250871780a7b8112b13842e449d606027bd5a548e5a",
+        "markers": {
+          "loginLiteral": 63,
+          "loginCodePhrase": 1,
+          "checkSession": 4,
+          "refreshSession": 1,
+          "localLoopbackPort": 0,
+          "injectionMarker": 0,
+          "farmBridgeMarker": 0,
+          "wsFrameHook": 1,
+          "bridgeFiles": 0,
+          "wxLogin": 2
+        }
+      },
+      "commonPrefixChars": 2212888,
+      "commonSuffixChars": 0,
+      "currentChangedChars": 8880,
+      "baselineChangedChars": 0,
+      "currentChangedMarkers": {
+        "loginLiteral": 0,
+        "loginCodePhrase": 0,
+        "checkSession": 0,
+        "refreshSession": 0,
+        "localLoopbackPort": 0,
+        "injectionMarker": 0,
+        "farmBridgeMarker": 1,
+        "wsFrameHook": 1,
+        "bridgeFiles": 6,
+        "wxLogin": 0
+      },
+      "baselineChangedMarkers": {
+        "loginLiteral": 0,
+        "loginCodePhrase": 0,
+        "checkSession": 0,
+        "refreshSession": 0,
+        "localLoopbackPort": 0,
+        "injectionMarker": 0,
+        "farmBridgeMarker": 0,
+        "wsFrameHook": 0,
+        "bridgeFiles": 0,
+        "wxLogin": 0
+      }
+    }
+  ]
+}

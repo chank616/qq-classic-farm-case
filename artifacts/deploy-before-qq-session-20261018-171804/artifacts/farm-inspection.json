@@ -1,0 +1,10 @@
+{
+  "generatedAt": "2026-10-18T08:25:39.0806956\u002B00:00",
+  "runtime": "csharp",
+  "runId": "bfcbb96b-def7-4d71-ad27-22e94d8faf4b",
+  "status": "waiting-bridge",
+  "completed": false,
+  "allRequiredComplete": false,
+  "error": "\u4EC5\u767B\u5F55 QQ \u7684\u540E\u53F0\u63A5\u5165\u5C1A\u672A\u5B9E\u73B0\uFF1B\u5DF2\u7981\u6B62\u81EA\u52A8\u542F\u52A8\u519C\u573A\u5C0F\u7A0B\u5E8F\u3002",
+  "mode": "inspection"
+}

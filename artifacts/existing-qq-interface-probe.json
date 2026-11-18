@@ -1,0 +1,43 @@
+{
+  "mode": "metadata",
+  "pid": 3888,
+  "qqStarted": false,
+  "farmStarted": false,
+  "diagnostics": [
+    {
+      "pid": 3888,
+      "modules": [
+        {
+          "name": "QQ.exe",
+          "interfaces": [
+            "napi_create_string_utf8",
+            "napi_get_cb_info",
+            "napi_get_global",
+            "napi_get_value_string_utf8",
+            "napi_run_script",
+            "napi_typeof"
+          ]
+        },
+        {
+          "name": "major.node",
+          "interfaces": []
+        },
+        {
+          "name": "QQNT.dll",
+          "interfaces": [
+            "napi_create_string_utf8",
+            "napi_get_cb_info",
+            "napi_get_global",
+            "napi_get_value_string_utf8",
+            "napi_run_script",
+            "napi_typeof"
+          ]
+        },
+        {
+          "name": "wrapper.node",
+          "interfaces": []
+        }
+      ]
+    }
+  ]
+}

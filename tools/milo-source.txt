@@ -1,0 +1,60 @@
+systems 1445
+milo static [
+  'length',
+  'name',
+  'prototype',
+  'init',
+  'checkLogin',
+  'getQQUserOpenid',
+  'getWXUserOpenid'
+]
+milo proto [ 'constructor' ]
+decoded {
+  'chunks:///_virtual/ServiceMethodName.ts': [
+    'UserMethodName',
+    'RankMethodName',
+    'VisitMethodName',
+    'ItemMethodName',
+    'ShopMethodName',
+    'UserInfoMethodName',
+    'BulletinBoardMethodName',
+    'MarqueeMethodName',
+    'AvatarFrameMethodName',
+    'ServiceName',
+    'ServiceNotifyMessageType',
+    'FriendMethodName',
+    'GuideMethodName',
+    'ShareMethonName',
+    'DogMethodName',
+    'TaskMethodName',
+    'PayMethodName',
+    'UicproxyMethodName',
+    'EmailMethodName',
+    'IllustratedMethodName',
+    'WeatherMethodName',
+    'NudgeMethodName',
+    'MsgBoardMethodName',
+    'ActivityMethodName',
+    'SkinMethodName',
+    'MutantMethodName',
+    'SubscribeQQMethodName',
+    'QQGroupMethodName',
+    'SeasonMethodName',
+    'SolarTermsMethodName',
+    'AchieveMethodName',
+    'MysteryShopMethodName',
+    'InviteredPocketMethodName',
+    'MiscMethodName',
+    'GlobalSceneMethodName',
+    'AdMethodName'
+  ],
+  'chunks:///_virtual/UserCryptoManager.ts': [ 'UserCryptoManager' ],
+  'chunks:///_virtual/WxPlatformUtil.ts': [ 'error', 'stack' ],
+  'chunks:///_virtual/TaskManager.ts': [ 'TaskManager' ],
+  'chunks:///_virtual/MainMgr.ts': [ 'error', 'stack' ],
+  'chunks:///_virtual/milo.ts': [ 'milo' ]
+}
+METHOD init function(i){var t={};t[f[9260]]=d[13726],t[q[20178]]=M[15204];var r={};r[L[451]]=l[27539],r.qq=M[27390],r.wx=Q[10901];var e={};e[c[451]]=d[26879],e.cf=J[37231],e[L[22231]]=c[15091],e[R[31424]]=l[10528];var u={};u[a[3180]]="",u[R[3144]]="",u[M[31468]]="",u[y[38907]]=S[41200],u[L[11797]]=y[10568],u[Q[24840]]=R[32474],u[J[30293]]=J[21988],u[v[39976]]="",u[f[17747]]="",u[a[23844]]="",u[k[33248]]=v[451],u[g[32594]]="",u[R[10777]]="",u[M[18496]]=!1,u[y[17913]]=Hi()&&L[103]==("undefined"==typeof qq?"undefined":ti(qq)),u[c[1324]]=Hi()&&T[103]!=("undefined"==typeof qq?"undefined":ti(qq)),u[d[3027]]=Hi()&&S[103]!=("undefined"==typeof qq?"undefined":ti(qq))?qq:Hi(),u[q[29817]]="",u[D[1306]]=!0,u[S[6945]]=!1,u[q[15163]]=t,u[y[32351]]=r,u[S[18839]]=e,u[q[23432]]=void 0,(n=u)[c[33248]]=i[J[33248]]?i[R[33248]]:S[451],i[l[29261]]&&(n[d[3180]]=i[f[29261]],n[Y[3144]]=i[q[3144]],D[9260]!==i[l[16313]]&&a[20178]!==i[J[16313]]||(n[D[23432]]=i[d[16313]]),i[L[39976]]&&(n[c[39976]]=i[k[39976]]),o[8209]==ti(i[S[6945]])&&i[k[6945]]&&(n[Y[6945]]=i[v[6945]]),n[J[1306]]=i[v[1306]],void 0!==i[y[1324]]&&(n[a[1324]]=i[k[1324]],n[L[17913]]=!i[c[1324]]),n[L[17913]]&&(n[f[31468]]=i[y[31468]]))}
+METHOD checkLogin function(t,r){n[a[3027]][q[4776]]({complete:function(e){e[g[8901]]?n[g[1324]]?i[L[10056]](e[T[8901]],t,r):i[D[31159]](e[d[8901]],t,r):r(e[c[3961]])},fail:function(){r[Y[60]](void 0,arguments)}})}
+METHOD getQQUserOpenid function(i,t,r){u(n[L[11797]],{a:Q[21748],appid:n[d[3180]],js_code:i},!0,(function(i){0===i[l[37358]]?(qq[M[7264]](a[570],i[Q[570]]),qq[J[7264]](y[2095],i[J[2095]]),qq[D[7264]](Y[8502],i[S[8502]]),qq[Y[7264]](J[5733],i[Y[5733]]),qq[M[7264]](D[5766],i[T[5766]]),qq[D[7264]](D[8660],i[J[8660]]),t({openid:i[c[570]],ieg_ams_session_token:i[l[2095]],ieg_ams_token:i[o[8502]],ieg_ams_token_time:i[o[5733]],ieg_ams_token_v2:i[y[5766]],unionid:i[o[8660]]})):r(i)}),(function(i){r(i)}))}
+METHOD getWXUserOpenid function(i,t,r){u(n[c[38907]],{action:f[34216],appid:n[R[3180]],wxcode:i},!0,(function(i){0===i[Q[37358]]?(Hi()[L[7264]](J[570],i[k[570]]),Hi()[g[7264]](y[2095],i[l[2095]]),Hi()[S[7264]](Y[8502],i[R[8502]]),Hi()[M[7264]](c[5733],i[v[5733]]),Hi()[o[7264]](c[5766],i[R[5766]]),Hi()[L[7264]](y[8660],i[c[8660]]),t({openid:i[d[570]],ieg_ams_session_token:i[Y[2095]],ieg_ams_token:i[v[8502]],ieg_ams_token_time:i[S[5733]],ieg_ams_token_v2:i[M[5766]],unionid:i[L[8660]]})):r(i)}),(function(i){r(i)}))}

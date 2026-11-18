@@ -1,0 +1,266 @@
+{
+  "module": "milo",
+  "calls": [
+    {
+      "type": "get",
+      "name": "dep",
+      "key": "cclegacy"
+    },
+    {
+      "type": "get",
+      "name": "dep.cclegacy",
+      "key": "_RF"
+    },
+    {
+      "type": "get",
+      "name": "dep.cclegacy._RF",
+      "key": "push"
+    },
+    {
+      "type": "call",
+      "name": "dep.cclegacy._RF.push",
+      "args": [
+        {},
+        "cf220Q7qH5Gm6MsB7tUHt8n",
+        "milo",
+        null
+      ]
+    },
+    {
+      "type": "get",
+      "name": "dep.cclegacy",
+      "key": "_RF"
+    },
+    {
+      "type": "get",
+      "name": "dep.cclegacy._RF",
+      "key": "pop"
+    },
+    {
+      "type": "call",
+      "name": "dep.cclegacy._RF.pop",
+      "args": []
+    },
+    {
+      "type": "get",
+      "name": "qq",
+      "key": "getStorageSync"
+    },
+    {
+      "type": "call",
+      "name": "qq.getStorageSync",
+      "args": [
+        "openid"
+      ]
+    },
+    {
+      "type": "get",
+      "name": "qq",
+      "key": "getStorageSync"
+    },
+    {
+      "type": "call",
+      "name": "qq.getStorageSync",
+      "args": [
+        "ieg_ams_session_token"
+      ]
+    },
+    {
+      "type": "get",
+      "name": "qq",
+      "key": "getStorageSync"
+    },
+    {
+      "type": "call",
+      "name": "qq.getStorageSync",
+      "args": [
+        "acctype"
+      ]
+    },
+    {
+      "type": "get",
+      "name": "qq",
+      "key": "getStorageSync"
+    },
+    {
+      "type": "call",
+      "name": "qq.getStorageSync",
+      "args": [
+        "ieg_ams_token"
+      ]
+    },
+    {
+      "type": "get",
+      "name": "qq",
+      "key": "getStorageSync"
+    },
+    {
+      "type": "call",
+      "name": "qq.getStorageSync",
+      "args": [
+        "ieg_ams_token_time"
+      ]
+    },
+    {
+      "type": "get",
+      "name": "qq",
+      "key": "getStorageSync"
+    },
+    {
+      "type": "call",
+      "name": "qq.getStorageSync",
+      "args": [
+        "verifysession"
+      ]
+    },
+    {
+      "type": "get",
+      "name": "qq",
+      "key": "getStorageSync"
+    },
+    {
+      "type": "call",
+      "name": "qq.getStorageSync",
+      "args": [
+        "verifysession"
+      ]
+    },
+    {
+      "type": "get",
+      "name": "qq",
+      "key": "request"
+    },
+    {
+      "type": "call",
+      "name": "qq.request",
+      "args": [
+        {
+          "url": "https://ams.game.qq.com/ams/userLoginSvr",
+          "data": {
+            "a": "qqCodeToSession",
+            "appid": "1112386029",
+            "js_code": "CODE"
+          },
+          "method": "GET",
+          "header": {
+            "Content-Type": "application/json;",
+            "Cookie": "openid=qq.getStorageSync(); acctype=qqmini; appid=1112386029; ieg_ams_session_token=qq.getStorageSync(); ieg_ams_token=qq.getStorageSync(); ieg_ams_token_time=qq.getStorageSync(); verifysession=qq.getStorageSync()"
+          },
+          "success": "function",
+          "failure": "function"
+        }
+      ]
+    },
+    {
+      "type": "get",
+      "name": "qq",
+      "key": "getStorageSync"
+    },
+    {
+      "type": "call",
+      "name": "qq.getStorageSync",
+      "args": [
+        "openid"
+      ]
+    },
+    {
+      "type": "get",
+      "name": "qq",
+      "key": "getStorageSync"
+    },
+    {
+      "type": "call",
+      "name": "qq.getStorageSync",
+      "args": [
+        "ieg_ams_session_token"
+      ]
+    },
+    {
+      "type": "get",
+      "name": "qq",
+      "key": "getStorageSync"
+    },
+    {
+      "type": "call",
+      "name": "qq.getStorageSync",
+      "args": [
+        "acctype"
+      ]
+    },
+    {
+      "type": "get",
+      "name": "qq",
+      "key": "getStorageSync"
+    },
+    {
+      "type": "call",
+      "name": "qq.getStorageSync",
+      "args": [
+        "ieg_ams_token"
+      ]
+    },
+    {
+      "type": "get",
+      "name": "qq",
+      "key": "getStorageSync"
+    },
+    {
+      "type": "call",
+      "name": "qq.getStorageSync",
+      "args": [
+        "ieg_ams_token_time"
+      ]
+    },
+    {
+      "type": "get",
+      "name": "qq",
+      "key": "getStorageSync"
+    },
+    {
+      "type": "call",
+      "name": "qq.getStorageSync",
+      "args": [
+        "verifysession"
+      ]
+    },
+    {
+      "type": "get",
+      "name": "qq",
+      "key": "getStorageSync"
+    },
+    {
+      "type": "call",
+      "name": "qq.getStorageSync",
+      "args": [
+        "verifysession"
+      ]
+    },
+    {
+      "type": "get",
+      "name": "qq",
+      "key": "request"
+    },
+    {
+      "type": "call",
+      "name": "qq.request",
+      "args": [
+        {
+          "url": "https://mini.game.qq.com/ams/ame/wxApi",
+          "data": {
+            "action": "codeToSession",
+            "appid": "1112386029",
+            "wxcode": "CODE"
+          },
+          "method": "GET",
+          "header": {
+            "Content-Type": "application/json;",
+            "Cookie": "openid=qq.getStorageSync(); acctype=qqmini; appid=1112386029; ieg_ams_session_token=qq.getStorageSync(); ieg_ams_token=qq.getStorageSync(); ieg_ams_token_time=qq.getStorageSync(); verifysession=qq.getStorageSync()"
+          },
+          "success": "function",
+          "failure": "function"
+        }
+      ]
+    }
+  ],
+  "conclusion": "Offline dependency probe only; no host API or network was invoked. Primitive values are labels, not runtime secrets."
+}

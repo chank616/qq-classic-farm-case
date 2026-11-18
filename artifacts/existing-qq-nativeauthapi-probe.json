@@ -1,0 +1,55 @@
+{
+  "mode": "nativeauthapi",
+  "pid": 3888,
+  "qqStarted": false,
+  "farmStarted": false,
+  "diagnostics": [
+    {
+      "state": "runtime-metadata",
+      "pid": 3888,
+      "value": {
+        "pid": 3888,
+        "miscMethods": [
+          "encodeAES",
+          "registerScreenRecordShortcutWithKeycode",
+          "registerScreenCaptureShortcutWithKeycode",
+          "sendRequestToApiGateway",
+          "getOpenAuth",
+          "getOpenAuthDelegateCode",
+          "startNewMiniApp",
+          "sendMiniAppMsg",
+          "setMiniAppVersion",
+          "getMiniAppPath",
+          "isMiniAppExist",
+          "isMiniAppAlreadyExist",
+          "downloadMiniApp",
+          "cancelDownloadMiniApp",
+          "setMiniGameVersion",
+          "getMiniGamePath",
+          "isMiniGameExist",
+          "isMiniGameAlreadyExist",
+          "downloadMiniGame",
+          "cancelDownloadMiniGame",
+          "getMiniGameV2EngineConfig",
+          "initWXMiniAppSDK",
+          "loginWXMiniApp",
+          "logoutWXMiniApp",
+          "startWXMiniApp",
+          "closeWXMiniApp",
+          "adaptMiniAppShareInfo",
+          "judgeTimingRequest",
+          "reportExecuteRequest",
+          "isWeixinFastLoginSupported",
+          "setMiniAppAuthReq",
+          "getMiniAppAuthList",
+          "getSingleMiniAppAuthResult",
+          "clearAuthWithAppIdList",
+          "getOpenCodeWithAppId",
+          "loginWithAppId",
+          "checkSessionForMiniApp"
+        ],
+        "methodCount": 156
+      }
+    }
+  ]
+}

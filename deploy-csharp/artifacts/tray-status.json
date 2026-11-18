@@ -1,0 +1,21 @@
+{
+  "pid": 7400,
+  "qqRunning": true,
+  "sinkUp": false,
+  "passRunning": false,
+  "nextDue": "2026-11-19T00:00:00+08:00",
+  "lastPass": "2026-11-18T15:23:29.4767417+08:00",
+  "verification": "\u9010\u9879\u590D\u6838\u901A\u8FC7",
+  "retryNeeded": false,
+  "autoStartQq": false,
+  "mode": "whole-farm",
+  "batchSize": 24,
+  "batchMatureAt": 1795055725,
+  "batchFertilizeAt": 1795038445,
+  "deadLands": 0,
+  "tooltip": "\u9648\u5BBD  Lv.156  \u91D1\u5E01 3.41\u4EBF\n\u65E5\u5E38 3/3  \u5DF2\u9886\u53D6\n\u4E0B\u6B21\u68C0\u67E5 11/19 00:00:00",
+  "runtime": "csharp",
+  "waitingForBridge": false,
+  "staleData": false,
+  "dataAt": "2026-11-18T15:23:29.472013+08:00"
+}

@@ -1,0 +1,18 @@
+{
+  "mode": "live",
+  "pid": 3888,
+  "qqStarted": false,
+  "farmStarted": false,
+  "diagnostics": [
+    {
+      "state": "runtime-metadata",
+      "pid": 3888,
+      "value": {
+        "state": "auth-pipe-ready",
+        "pid": 3888,
+        "qqStarted": false,
+        "farmStarted": false
+      }
+    }
+  ]
+}

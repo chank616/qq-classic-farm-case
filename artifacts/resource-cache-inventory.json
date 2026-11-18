@@ -1,0 +1,51 @@
+{
+  "appId": "1112386029",
+  "latestMiniappSource": {
+    "version": "client_1.15.0.2",
+    "path": "C:/Users/chank616/AppData/Roaming/QQEX/miniapp/temps/miniapp_src/1112386029_3_3443f89042dffbf93d20ced1d652d031",
+    "fileCount": 99,
+    "declaredSubpackages": ["mcboot", "__ccWasmAssetSubpkg__", "__ccWasmChunkSubpkg__"],
+    "mcbootSourceFound": false
+  },
+  "miniappPackageCache": {
+    "path": "C:/Users/chank616/AppData/Roaming/QQEX/miniapp/temps/miniapp_pkgs",
+    "archiveCount": 32,
+    "versionIdCount": 16,
+    "bytes": 3619712,
+    "packageTypes": ["__ccWasmAssetSubpkg__", "__ccWasmChunkSubpkg__"],
+    "entryCount": 48,
+    "mcbootArchiveCount": 0,
+    "mcbootEntryCount": 0,
+    "latestVersionEntries": [
+      {"package": "__ccWasmAssetSubpkg__", "path": "/cocos-js/assets/game.js", "bytes": 174},
+      {"package": "__ccWasmAssetSubpkg__", "path": "/cocos-js/assets/spine.wasm", "bytes": 201755},
+      {"package": "__ccWasmChunkSubpkg__", "path": "/cocos-js/chunks/game.js", "bytes": 24156}
+    ]
+  },
+  "runtimeGameCaches": [
+    {
+      "instance": "2351686624",
+      "path": "C:/Users/chank616/AppData/Roaming/QQEX/miniapp/fs/2351686624/1112386029/usr/gamecaches",
+      "fileCount": 6771,
+      "bytes": 436051897,
+      "bundles": ["audio", "delayRes", "extraRes", "mainscene", "petdog", "plant"],
+      "cacheListIndexedEntries": 6745,
+      "cacheListMcbootMatches": 0
+    },
+    {
+      "instance": "3310219138",
+      "path": "C:/Users/chank616/AppData/Roaming/QQEX/miniapp/fs/3310219138/1112386029/usr/gamecaches",
+      "fileCount": 1541,
+      "bytes": 54580694,
+      "bundles": ["audio", "delayRes", "extraRes", "mainscene", "plant"],
+      "cacheListIndexedEntries": 1481,
+      "cacheListMcbootMatches": 0
+    }
+  ],
+  "searchEvidence": {
+    "searchedRuntimeFileTypes": [".js", ".json", ".html", "cacheList.json indexed URL records"],
+    "mcbootTextMatches": 0,
+    "seedOrGrowthConfigMatchesInPlantBundleManifests": 0,
+    "interpretation": "QQEX retains substantial Cocos resource bundles, including plant assets, and the miniapp_pkgs cache contains TQAPKG archives for the two declared Cocos wasm subpackages. The inspected archives and cache indices do not contain the separately declared mcboot source package."
+  }
+}

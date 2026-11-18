@@ -1,0 +1,5309 @@
+{
+  "generatedAt": "2026-10-19T07:26:42.0958401\u002B00:00",
+  "farmStarted": false,
+  "qqRestarted": false,
+  "qqPid": 3888,
+  "codeLength": 32,
+  "account": {
+    "name": "\u9732\u9732\u5927\u795E",
+    "gid": 1079370412,
+    "level": 149
+  },
+  "serverNowSec": 1792394803,
+  "allLandsDecoded": {
+    "lands": [
+      {
+        "id": 1,
+        "unlocked": true,
+        "level": 5,
+        "max_level": 5,
+        "buff": {
+          "plant_yield_bonus": 30000,
+          "planting_time_reduction": 2000,
+          "plant_exp_bonus": 2500,
+          "plant_mutant_bonus": 12000,
+          "bp_exp_bonus": 4000,
+          "plant_mutant_exp_bonus": 2500
+        },
+        "plant": {
+          "id": 1020102,
+          "name": "\u9A6C\u8E44\u83B2",
+          "phases": [
+            {
+              "phase": 1,
+              "begin_time": 1792394544,
+              "phase_id": 1,
+              "dry_time": 1792400142,
+              "weeds_time": 1792396543,
+              "insect_time": 1792403277
+            },
+            {
+              "phase": 2,
+              "begin_time": 1792406064,
+              "phase_id": 6,
+              "dry_time": 1792416805,
+              "weeds_time": 1792413808
+            },
+            {
+              "phase": 2,
+              "begin_time": 1792417584,
+              "phase_id": 8,
+              "dry_time": 1792428399,
+              "weeds_time": 1792424190
+            },
+            {
+              "phase": 2,
+              "begin_time": 1792429104,
+              "phase_id": 12
+            },
+            {
+              "phase": 2,
+              "begin_time": 1792446384,
+              "phase_id": 20,
+              "insect_time": 1792461511
+            },
+            {
+              "phase": 6,
+              "begin_time": 1792463664,
+              "phase_id": 19
+            }
+          ],
+          "season": 1,
+          "fruit_id": 40102,
+          "fruit_num": 800,
+          "grow_sec": 69120,
+          "stealable": true,
+          "left_inorc_fert_times": 1,
+          "left_fruit_num": 800,
+          "exp": 7066,
+          "source_fruit_id": 40102,
+          "source_fruit_num": 800,
+          "buff_effects": [
+            {
+              "attr_id": 1001,
+              "attr_value": 500,
+              "extra_info": 1020102
+            }
+          ],
+          "planting_player_level": 149
+        },
+        "lands_level": 5
+      },
+      {
+        "id": 2,
+        "unlocked": true,
+        "level": 5,
+        "max_level": 5,
+        "buff": {
+          "plant_yield_bonus": 30000,
+          "planting_time_reduction": 2000,
+          "plant_exp_bonus": 2500,
+          "plant_mutant_bonus": 12000,
+          "bp_exp_bonus": 4000,
+          "plant_mutant_exp_bonus": 2500
+        },
+        "plant": {
+          "id": 1020102,
+          "name": "\u9A6C\u8E44\u83B2",
+          "phases": [
+            {
+              "phase": 1,
+              "begin_time": 1792394544,
+              "phase_id": 1,
+              "insect_time": 1792395797
+            },
+            {
+              "phase": 2,
+              "begin_time": 1792406064,
+              "phase_id": 6,
+              "insect_time": 1792409569
+            },
+            {
+              "phase": 2,
+              "begin_time": 1792417584,
+              "phase_id": 8,
+              "weeds_time": 1792425427
+            },
+            {
+              "phase": 2,
+              "begin_time": 1792429104,
+              "phase_id": 12,
+              "dry_time": 1792438361
+            },
+            {
+              "phase": 2,
+              "begin_time": 1792446384,
+              "phase_id": 20,
+              "dry_time": 1792453037,
+              "weeds_time": 1792454431,
+              "insect_time": 1792463613
+            },
+            {
+              "phase": 6,
+              "begin_time": 1792463664,
+              "phase_id": 19
+            }
+          ],
+          "season": 1,
+          "fruit_id": 40102,
+          "fruit_num": 800,
+          "grow_sec": 69120,
+          "stealable": true,
+          "left_inorc_fert_times": 1,
+          "left_fruit_num": 800,
+          "exp": 7066,
+          "source_fruit_id": 40102,
+          "source_fruit_num": 800,
+          "buff_effects": [
+            {
+              "attr_id": 1001,
+              "attr_value": 500,
+              "extra_info": 1020102
+            }
+          ],
+          "planting_player_level": 149
+        },
+        "lands_level": 5
+      },
+      {
+        "id": 3,
+        "unlocked": true,
+        "level": 5,
+        "max_level": 5,
+        "buff": {
+          "plant_yield_bonus": 30000,
+          "planting_time_reduction": 2000,
+          "plant_exp_bonus": 2500,
+          "plant_mutant_bonus": 12000,
+          "bp_exp_bonus": 4000,
+          "plant_mutant_exp_bonus": 2500
+        },
+        "plant": {
+          "id": 1020102,
+          "name": "\u9A6C\u8E44\u83B2",
+          "phases": [
+            {
+              "phase": 1,
+              "begin_time": 1792394544,
+              "phase_id": 1,
+              "dry_time": 1792395556,
+              "insect_time": 1792401721
+            },
+            {
+              "phase": 2,
+              "begin_time": 1792406064,
+              "phase_id": 6,
+              "insect_time": 1792411680
+            },
+            {
+              "phase": 2,
+              "begin_time": 1792417584,
+              "phase_id": 8,
+              "dry_time": 1792418857,
+              "insect_time": 1792422059
+            },
+            {
+              "phase": 2,
+              "begin_time": 1792429104,
+              "phase_id": 12,
+              "dry_time": 1792443642,
+              "insect_time": 1792432442
+            },
+            {
+              "phase": 2,
+              "begin_time": 1792446384,
+              "phase_id": 20,
+              "weeds_time": 1792446815
+            },
+            {
+              "phase": 6,
+              "begin_time": 1792463664,
+              "phase_id": 19
+            }
+          ],
+          "season": 1,
+          "fruit_id": 40102,
+          "fruit_num": 800,
+          "grow_sec": 69120,
+          "stealable": true,
+          "left_inorc_fert_times": 1,
+          "left_fruit_num": 800,
+          "exp": 7066,
+          "source_fruit_id": 40102,
+          "source_fruit_num": 800,
+          "buff_effects": [
+            {
+              "attr_id": 1001,
+              "attr_value": 500,
+              "extra_info": 1020102
+            }
+          ],
+          "planting_player_level": 149
+        },
+        "lands_level": 5
+      },
+      {
+        "id": 4,
+        "unlocked": true,
+        "level": 5,
+        "max_level": 5,
+        "buff": {
+          "plant_yield_bonus": 30000,
+          "planting_time_reduction": 2000,
+          "plant_exp_bonus": 2500,
+          "plant_mutant_bonus": 12000,
+          "bp_exp_bonus": 4000,
+          "plant_mutant_exp_bonus": 2500
+        },
+        "plant": {
+          "id": 1020102,
+          "name": "\u9A6C\u8E44\u83B2",
+          "phases": [
+            {
+              "phase": 1,
+              "begin_time": 1792394544,
+              "phase_id": 1,
+              "insect_time": 1792399859
+            },
+            {
+              "phase": 2,
+              "begin_time": 1792406064,
+              "phase_id": 6
+            },
+            {
+              "phase": 2,
+              "begin_time": 1792417584,
+              "phase_id": 8,
+              "weeds_time": 1792421872
+            },
+            {
+              "phase": 2,
+              "begin_time": 1792429104,
+              "phase_id": 12,
+              "dry_time": 1792434484,
+              "weeds_time": 1792445211,
+              "insect_time": 1792435523
+            },
+            {
+              "phase": 2,
+              "begin_time": 1792446384,
+              "phase_id": 20,
+              "insect_time": 1792453232
+            },
+            {
+              "phase": 6,
+              "begin_time": 1792463664,
+              "phase_id": 19
+            }
+          ],
+          "season": 1,
+          "fruit_id": 40102,
+          "fruit_num": 800,
+          "grow_sec": 69120,
+          "stealable": true,
+          "left_inorc_fert_times": 1,
+          "left_fruit_num": 800,
+          "exp": 7066,
+          "source_fruit_id": 40102,
+          "source_fruit_num": 800,
+          "buff_effects": [
+            {
+              "attr_id": 1001,
+              "attr_value": 500,
+              "extra_info": 1020102
+            }
+          ],
+          "planting_player_level": 149
+        },
+        "lands_level": 5
+      },
+      {
+        "id": 5,
+        "unlocked": true,
+        "level": 5,
+        "max_level": 5,
+        "buff": {
+          "plant_yield_bonus": 30000,
+          "planting_time_reduction": 2000,
+          "plant_exp_bonus": 2500,
+          "plant_mutant_bonus": 12000,
+          "bp_exp_bonus": 4000,
+          "plant_mutant_exp_bonus": 2500
+        },
+        "plant": {
+          "id": 1020102,
+          "name": "\u9A6C\u8E44\u83B2",
+          "phases": [
+            {
+              "phase": 1,
+              "begin_time": 1792394544,
+              "phase_id": 1,
+              "dry_time": 1792399685,
+              "insect_time": 1792403100
+            },
+            {
+              "phase": 2,
+              "begin_time": 1792406064,
+              "phase_id": 6
+            },
+            {
+              "phase": 2,
+              "begin_time": 1792417584,
+              "phase_id": 8,
+              "dry_time": 1792424844,
+              "weeds_time": 1792420347
+            },
+            {
+              "phase": 2,
+              "begin_time": 1792429104,
+              "phase_id": 12,
+              "insect_time": 1792441275
+            },
+            {
+              "phase": 2,
+              "begin_time": 1792446384,
+              "phase_id": 20,
+              "dry_time": 1792454575,
+              "weeds_time": 1792446587,
+              "insect_time": 1792461229
+            },
+            {
+              "phase": 6,
+              "begin_time": 1792463664,
+              "phase_id": 19
+            }
+          ],
+          "season": 1,
+          "fruit_id": 40102,
+          "fruit_num": 800,
+          "grow_sec": 69120,
+          "stealable": true,
+          "left_inorc_fert_times": 1,
+          "left_fruit_num": 800,
+          "exp": 7066,
+          "source_fruit_id": 40102,
+          "source_fruit_num": 800,
+          "buff_effects": [
+            {
+              "attr_id": 1001,
+              "attr_value": 500,
+              "extra_info": 1020102
+            }
+          ],
+          "planting_player_level": 149
+        },
+        "lands_level": 5
+      },
+      {
+        "id": 6,
+        "unlocked": true,
+        "level": 5,
+        "max_level": 5,
+        "buff": {
+          "plant_yield_bonus": 30000,
+          "planting_time_reduction": 2000,
+          "plant_exp_bonus": 2500,
+          "plant_mutant_bonus": 12000,
+          "bp_exp_bonus": 4000,
+          "plant_mutant_exp_bonus": 2500
+        },
+        "plant": {
+          "id": 1020102,
+          "name": "\u9A6C\u8E44\u83B2",
+          "phases": [
+            {
+              "phase": 1,
+              "begin_time": 1792394544,
+              "phase_id": 1,
+              "weeds_time": 1792400826
+            },
+            {
+              "phase": 2,
+              "begin_time": 1792406064,
+              "phase_id": 6,
+              "dry_time": 1792407653
+            },
+            {
+              "phase": 2,
+              "begin_time": 1792417584,
+              "phase_id": 8,
+              "weeds_time": 1792425765
+            },
+            {
+              "phase": 2,
+              "begin_time": 1792429104,
+              "phase_id": 12,
+              "dry_time": 1792429404
+            },
+            {
+              "phase": 2,
+              "begin_time": 1792446384,
+              "phase_id": 20,
+              "dry_time": 1792456017,
+              "weeds_time": 1792462455,
+              "insect_time": 1792449988
+            },
+            {
+              "phase": 6,
+              "begin_time": 1792463664,
+              "phase_id": 19
+            }
+          ],
+          "season": 1,
+          "fruit_id": 40102,
+          "fruit_num": 800,
+          "grow_sec": 69120,
+          "stealable": true,
+          "left_inorc_fert_times": 1,
+          "left_fruit_num": 800,
+          "exp": 7066,
+          "source_fruit_id": 40102,
+          "source_fruit_num": 800,
+          "buff_effects": [
+            {
+              "attr_id": 1001,
+              "attr_value": 500,
+              "extra_info": 1020102
+            }
+          ],
+          "planting_player_level": 149
+        },
+        "lands_level": 5
+      },
+      {
+        "id": 7,
+        "unlocked": true,
+        "level": 5,
+        "max_level": 5,
+        "buff": {
+          "plant_yield_bonus": 30000,
+          "planting_time_reduction": 2000,
+          "plant_exp_bonus": 2500,
+          "plant_mutant_bonus": 12000,
+          "bp_exp_bonus": 4000,
+          "plant_mutant_exp_bonus": 2500
+        },
+        "plant": {
+          "id": 1020102,
+          "name": "\u9A6C\u8E44\u83B2",
+          "phases": [
+            {
+              "phase": 1,
+              "begin_time": 1792394544,
+              "phase_id": 1,
+              "dry_time": 1792399758,
+              "insect_time": 1792396268
+            },
+            {
+              "phase": 2,
+              "begin_time": 1792406064,
+              "phase_id": 6,
+              "weeds_time": 1792417360
+            },
+            {
+              "phase": 2,
+              "begin_time": 1792417584,
+              "phase_id": 8,
+              "dry_time": 1792419680,
+              "insect_time": 1792423373
+            },
+            {
+              "phase": 2,
+              "begin_time": 1792429104,
+              "phase_id": 12,
+              "dry_time": 1792444134
+            },
+            {
+              "phase": 2,
+              "begin_time": 1792446384,
+              "phase_id": 20,
+              "dry_time": 1792450837,
+              "weeds_time": 1792450132
+            },
+            {
+              "phase": 6,
+              "begin_time": 1792463664,
+              "phase_id": 19
+            }
+          ],
+          "season": 1,
+          "fruit_id": 40102,
+          "fruit_num": 800,
+          "grow_sec": 69120,
+          "stealable": true,
+          "left_inorc_fert_times": 1,
+          "left_fruit_num": 800,
+          "exp": 7066,
+          "source_fruit_id": 40102,
+          "source_fruit_num": 800,
+          "buff_effects": [
+            {
+              "attr_id": 1001,
+              "attr_value": 500,
+              "extra_info": 1020102
+            }
+          ],
+          "planting_player_level": 149
+        },
+        "is_shared": true,
+        "can_share": true,
+        "lands_level": 5
+      },
+      {
+        "id": 8,
+        "unlocked": true,
+        "level": 5,
+        "max_level": 5,
+        "buff": {
+          "plant_yield_bonus": 30000,
+          "planting_time_reduction": 2000,
+          "plant_exp_bonus": 2500,
+          "plant_mutant_bonus": 12000,
+          "bp_exp_bonus": 4000,
+          "plant_mutant_exp_bonus": 2500
+        },
+        "plant": {
+          "id": 1020102,
+          "name": "\u9A6C\u8E44\u83B2",
+          "phases": [
+            {
+              "phase": 1,
+              "begin_time": 1792394544,
+              "phase_id": 1,
+              "weeds_time": 1792396391
+            },
+            {
+              "phase": 2,
+              "begin_time": 1792406064,
+              "phase_id": 6,
+              "dry_time": 1792415658,
+              "weeds_time": 1792408019,
+              "insect_time": 1792408555
+            },
+            {
+              "phase": 2,
+              "begin_time": 1792417584,
+              "phase_id": 8,
+              "dry_time": 1792428272,
+              "insect_time": 1792420239
+            },
+            {
+              "phase": 2,
+              "begin_time": 1792429104,
+              "phase_id": 12,
+              "dry_time": 1792431325,
+              "insect_time": 1792440714
+            },
+            {
+              "phase": 2,
+              "begin_time": 1792446384,
+              "phase_id": 20,
+              "dry_time": 1792447344,
+              "weeds_time": 1792451333
+            },
+            {
+              "phase": 6,
+              "begin_time": 1792463664,
+              "phase_id": 19
+            }
+          ],
+          "season": 1,
+          "fruit_id": 40102,
+          "fruit_num": 800,
+          "grow_sec": 69120,
+          "stealable": true,
+          "left_inorc_fert_times": 1,
+          "left_fruit_num": 800,
+          "exp": 7066,
+          "source_fruit_id": 40102,
+          "source_fruit_num": 800,
+          "buff_effects": [
+            {
+              "attr_id": 1001,
+              "attr_value": 500,
+              "extra_info": 1020102
+            }
+          ],
+          "planting_player_level": 149
+        },
+        "is_shared": true,
+        "can_share": true,
+        "lands_level": 5
+      },
+      {
+        "id": 9,
+        "unlocked": true,
+        "level": 5,
+        "max_level": 5,
+        "buff": {
+          "plant_yield_bonus": 30000,
+          "planting_time_reduction": 2000,
+          "plant_exp_bonus": 2500,
+          "plant_mutant_bonus": 12000,
+          "bp_exp_bonus": 4000,
+          "plant_mutant_exp_bonus": 2500
+        },
+        "plant": {
+          "id": 1020102,
+          "name": "\u9A6C\u8E44\u83B2",
+          "phases": [
+            {
+              "phase": 1,
+              "begin_time": 1792394544,
+              "phase_id": 1,
+              "insect_time": 1792400872
+            },
+            {
+              "phase": 2,
+              "begin_time": 1792406064,
+              "phase_id": 6,
+              "weeds_time": 1792406320,
+              "insect_time": 1792415311
+            },
+            {
+              "phase": 2,
+              "begin_time": 1792417584,
+              "phase_id": 8,
+              "dry_time": 1792417758,
+              "insect_time": 1792428093
+            },
+            {
+              "phase": 2,
+              "begin_time": 1792429104,
+              "phase_id": 12
+            },
+            {
+              "phase": 2,
+              "begin_time": 1792446384,
+              "phase_id": 20,
+              "dry_time": 1792454136,
+              "weeds_time": 1792459664,
+              "insect_time": 1792448765
+            },
+            {
+              "phase": 6,
+              "begin_time": 1792463664,
+              "phase_id": 19
+            }
+          ],
+          "season": 1,
+          "fruit_id": 40102,
+          "fruit_num": 800,
+          "grow_sec": 69120,
+          "stealable": true,
+          "left_inorc_fert_times": 1,
+          "left_fruit_num": 800,
+          "exp": 7066,
+          "source_fruit_id": 40102,
+          "source_fruit_num": 800,
+          "buff_effects": [
+            {
+              "attr_id": 1001,
+              "attr_value": 500,
+              "extra_info": 1020102
+            }
+          ],
+          "planting_player_level": 149
+        },
+        "is_shared": true,
+        "can_share": true,
+        "lands_level": 5
+      },
+      {
+        "id": 10,
+        "unlocked": true,
+        "level": 5,
+        "max_level": 5,
+        "buff": {
+          "plant_yield_bonus": 30000,
+          "planting_time_reduction": 2000,
+          "plant_exp_bonus": 2500,
+          "plant_mutant_bonus": 12000,
+          "bp_exp_bonus": 4000,
+          "plant_mutant_exp_bonus": 2500
+        },
+        "plant": {
+          "id": 1020102,
+          "name": "\u9A6C\u8E44\u83B2",
+          "phases": [
+            {
+              "phase": 1,
+              "begin_time": 1792394545,
+              "phase_id": 1
+            },
+            {
+              "phase": 2,
+              "begin_time": 1792406065,
+              "phase_id": 6,
+              "dry_time": 1792416460,
+              "weeds_time": 1792417582
+            },
+            {
+              "phase": 2,
+              "begin_time": 1792417585,
+              "phase_id": 8
+            },
+            {
+              "phase": 2,
+              "begin_time": 1792429105,
+              "phase_id": 12,
+              "dry_time": 1792430935,
+              "insect_time": 1792439463
+            },
+            {
+              "phase": 2,
+              "begin_time": 1792446385,
+              "phase_id": 20,
+              "dry_time": 1792457821,
+              "insect_time": 1792450558
+            },
+            {
+              "phase": 6,
+              "begin_time": 1792463665,
+              "phase_id": 19
+            }
+          ],
+          "season": 1,
+          "fruit_id": 40102,
+          "fruit_num": 800,
+          "grow_sec": 69120,
+          "stealable": true,
+          "left_inorc_fert_times": 1,
+          "left_fruit_num": 800,
+          "exp": 7066,
+          "source_fruit_id": 40102,
+          "source_fruit_num": 800,
+          "buff_effects": [
+            {
+              "attr_id": 1001,
+              "attr_value": 500,
+              "extra_info": 1020102
+            }
+          ],
+          "planting_player_level": 149
+        },
+        "lands_level": 5
+      },
+      {
+        "id": 11,
+        "unlocked": true,
+        "level": 5,
+        "max_level": 5,
+        "buff": {
+          "plant_yield_bonus": 30000,
+          "planting_time_reduction": 2000,
+          "plant_exp_bonus": 2500,
+          "plant_mutant_bonus": 12000,
+          "bp_exp_bonus": 4000,
+          "plant_mutant_exp_bonus": 2500
+        },
+        "plant": {
+          "id": 1020102,
+          "name": "\u9A6C\u8E44\u83B2",
+          "phases": [
+            {
+              "phase": 1,
+              "begin_time": 1792394545,
+              "phase_id": 1,
+              "dry_time": 1792396670,
+              "insect_time": 1792396121
+            },
+            {
+              "phase": 2,
+              "begin_time": 1792406065,
+              "phase_id": 6
+            },
+            {
+              "phase": 2,
+              "begin_time": 1792417585,
+              "phase_id": 8,
+              "weeds_time": 1792418943
+            },
+            {
+              "phase": 2,
+              "begin_time": 1792429105,
+              "phase_id": 12,
+              "dry_time": 1792438324
+            },
+            {
+              "phase": 2,
+              "begin_time": 1792446385,
+              "phase_id": 20,
+              "dry_time": 1792454070,
+              "weeds_time": 1792452798,
+              "insect_time": 1792462318
+            },
+            {
+              "phase": 6,
+              "begin_time": 1792463665,
+              "phase_id": 19
+            }
+          ],
+          "season": 1,
+          "fruit_id": 40102,
+          "fruit_num": 800,
+          "grow_sec": 69120,
+          "stealable": true,
+          "left_inorc_fert_times": 1,
+          "left_fruit_num": 800,
+          "exp": 7066,
+          "source_fruit_id": 40102,
+          "source_fruit_num": 800,
+          "buff_effects": [
+            {
+              "attr_id": 1001,
+              "attr_value": 500,
+              "extra_info": 1020102
+            }
+          ],
+          "planting_player_level": 149
+        },
+        "lands_level": 5
+      },
+      {
+        "id": 12,
+        "unlocked": true,
+        "level": 5,
+        "max_level": 5,
+        "buff": {
+          "plant_yield_bonus": 30000,
+          "planting_time_reduction": 2000,
+          "plant_exp_bonus": 2500,
+          "plant_mutant_bonus": 12000,
+          "bp_exp_bonus": 4000,
+          "plant_mutant_exp_bonus": 2500
+        },
+        "plant": {
+          "id": 1020102,
+          "name": "\u9A6C\u8E44\u83B2",
+          "phases": [
+            {
+              "phase": 1,
+              "begin_time": 1792394545,
+              "phase_id": 1,
+              "weeds_time": 1792399764
+            },
+            {
+              "phase": 2,
+              "begin_time": 1792406065,
+              "phase_id": 6,
+              "dry_time": 1792416959,
+              "weeds_time": 1792406362
+            },
+            {
+              "phase": 2,
+              "begin_time": 1792417585,
+              "phase_id": 8
+            },
+            {
+              "phase": 2,
+              "begin_time": 1792429105,
+              "phase_id": 12
+            },
+            {
+              "phase": 2,
+              "begin_time": 1792446385,
+              "phase_id": 20,
+              "insect_time": 1792448806
+            },
+            {
+              "phase": 6,
+              "begin_time": 1792463665,
+              "phase_id": 19
+            }
+          ],
+          "season": 1,
+          "fruit_id": 40102,
+          "fruit_num": 800,
+          "grow_sec": 69120,
+          "stealable": true,
+          "left_inorc_fert_times": 1,
+          "left_fruit_num": 800,
+          "exp": 7066,
+          "source_fruit_id": 40102,
+          "source_fruit_num": 800,
+          "buff_effects": [
+            {
+              "attr_id": 1001,
+              "attr_value": 500,
+              "extra_info": 1020102
+            }
+          ],
+          "planting_player_level": 149
+        },
+        "lands_level": 5
+      },
+      {
+        "id": 13,
+        "unlocked": true,
+        "level": 5,
+        "max_level": 5,
+        "buff": {
+          "plant_yield_bonus": 30000,
+          "planting_time_reduction": 2000,
+          "plant_exp_bonus": 2500,
+          "plant_mutant_bonus": 12000,
+          "bp_exp_bonus": 4000,
+          "plant_mutant_exp_bonus": 2500
+        },
+        "plant": {
+          "id": 1020102,
+          "name": "\u9A6C\u8E44\u83B2",
+          "phases": [
+            {
+              "phase": 1,
+              "begin_time": 1792394545,
+              "phase_id": 1,
+              "dry_time": 1792398850,
+              "insect_time": 1792400439
+            },
+            {
+              "phase": 2,
+              "begin_time": 1792406065,
+              "phase_id": 6,
+              "dry_time": 1792415463,
+              "weeds_time": 1792416314
+            },
+            {
+              "phase": 2,
+              "begin_time": 1792417585,
+              "phase_id": 8,
+              "weeds_time": 1792420750,
+              "insect_time": 1792418388
+            },
+            {
+              "phase": 2,
+              "begin_time": 1792429105,
+              "phase_id": 12,
+              "weeds_time": 1792440519
+            },
+            {
+              "phase": 2,
+              "begin_time": 1792446385,
+              "phase_id": 20,
+              "dry_time": 1792452378,
+              "insect_time": 1792449286
+            },
+            {
+              "phase": 6,
+              "begin_time": 1792463665,
+              "phase_id": 19
+            }
+          ],
+          "season": 1,
+          "fruit_id": 40102,
+          "fruit_num": 800,
+          "grow_sec": 69120,
+          "stealable": true,
+          "left_inorc_fert_times": 1,
+          "left_fruit_num": 800,
+          "exp": 7066,
+          "source_fruit_id": 40102,
+          "source_fruit_num": 800,
+          "buff_effects": [
+            {
+              "attr_id": 1001,
+              "attr_value": 500,
+              "extra_info": 1020102
+            }
+          ],
+          "planting_player_level": 149
+        },
+        "lands_level": 5
+      },
+      {
+        "id": 14,
+        "unlocked": true,
+        "level": 5,
+        "max_level": 5,
+        "buff": {
+          "plant_yield_bonus": 30000,
+          "planting_time_reduction": 2000,
+          "plant_exp_bonus": 2500,
+          "plant_mutant_bonus": 12000,
+          "bp_exp_bonus": 4000,
+          "plant_mutant_exp_bonus": 2500
+        },
+        "plant": {
+          "id": 1020102,
+          "name": "\u9A6C\u8E44\u83B2",
+          "phases": [
+            {
+              "phase": 1,
+              "begin_time": 1792394545,
+              "phase_id": 1,
+              "dry_time": 1792400472,
+              "insect_time": 1792396307
+            },
+            {
+              "phase": 2,
+              "begin_time": 1792406065,
+              "phase_id": 6,
+              "weeds_time": 1792407766
+            },
+            {
+              "phase": 2,
+              "begin_time": 1792417585,
+              "phase_id": 8,
+              "weeds_time": 1792420346,
+              "insect_time": 1792423869
+            },
+            {
+              "phase": 2,
+              "begin_time": 1792429105,
+              "phase_id": 12,
+              "weeds_time": 1792430437,
+              "insect_time": 1792434176
+            },
+            {
+              "phase": 2,
+              "begin_time": 1792446385,
+              "phase_id": 20,
+              "dry_time": 1792452927,
+              "weeds_time": 1792451326
+            },
+            {
+              "phase": 6,
+              "begin_time": 1792463665,
+              "phase_id": 19
+            }
+          ],
+          "season": 1,
+          "fruit_id": 40102,
+          "fruit_num": 800,
+          "grow_sec": 69120,
+          "stealable": true,
+          "left_inorc_fert_times": 1,
+          "left_fruit_num": 800,
+          "exp": 7066,
+          "source_fruit_id": 40102,
+          "source_fruit_num": 800,
+          "buff_effects": [
+            {
+              "attr_id": 1001,
+              "attr_value": 500,
+              "extra_info": 1020102
+            }
+          ],
+          "planting_player_level": 149
+        },
+        "lands_level": 5
+      },
+      {
+        "id": 15,
+        "unlocked": true,
+        "level": 5,
+        "max_level": 5,
+        "buff": {
+          "plant_yield_bonus": 30000,
+          "planting_time_reduction": 2000,
+          "plant_exp_bonus": 2500,
+          "plant_mutant_bonus": 12000,
+          "bp_exp_bonus": 4000,
+          "plant_mutant_exp_bonus": 2500
+        },
+        "plant": {
+          "id": 1020102,
+          "name": "\u9A6C\u8E44\u83B2",
+          "phases": [
+            {
+              "phase": 1,
+              "begin_time": 1792394545,
+              "phase_id": 1,
+              "weeds_time": 1792399867
+            },
+            {
+              "phase": 2,
+              "begin_time": 1792406065,
+              "phase_id": 6,
+              "weeds_time": 1792409344,
+              "insect_time": 1792411107
+            },
+            {
+              "phase": 2,
+              "begin_time": 1792417585,
+              "phase_id": 8,
+              "weeds_time": 1792428994,
+              "insect_time": 1792420007
+            },
+            {
+              "phase": 2,
+              "begin_time": 1792429105,
+              "phase_id": 12,
+              "dry_time": 1792429205,
+              "weeds_time": 1792441976
+            },
+            {
+              "phase": 2,
+              "begin_time": 1792446385,
+              "phase_id": 20,
+              "dry_time": 1792457628
+            },
+            {
+              "phase": 6,
+              "begin_time": 1792463665,
+              "phase_id": 19
+            }
+          ],
+          "season": 1,
+          "fruit_id": 40102,
+          "fruit_num": 800,
+          "grow_sec": 69120,
+          "stealable": true,
+          "left_inorc_fert_times": 1,
+          "left_fruit_num": 800,
+          "exp": 7066,
+          "source_fruit_id": 40102,
+          "source_fruit_num": 800,
+          "buff_effects": [
+            {
+              "attr_id": 1001,
+              "attr_value": 500,
+              "extra_info": 1020102
+            }
+          ],
+          "planting_player_level": 149
+        },
+        "lands_level": 5
+      },
+      {
+        "id": 16,
+        "unlocked": true,
+        "level": 5,
+        "max_level": 5,
+        "buff": {
+          "plant_yield_bonus": 30000,
+          "planting_time_reduction": 2000,
+          "plant_exp_bonus": 2500,
+          "plant_mutant_bonus": 12000,
+          "bp_exp_bonus": 4000,
+          "plant_mutant_exp_bonus": 2500
+        },
+        "plant": {
+          "id": 1020102,
+          "name": "\u9A6C\u8E44\u83B2",
+          "phases": [
+            {
+              "phase": 1,
+              "begin_time": 1792394545,
+              "phase_id": 1,
+              "insect_time": 1792398459
+            },
+            {
+              "phase": 2,
+              "begin_time": 1792406065,
+              "phase_id": 6,
+              "dry_time": 1792416718,
+              "insect_time": 1792411174
+            },
+            {
+              "phase": 2,
+              "begin_time": 1792417585,
+              "phase_id": 8,
+              "dry_time": 1792420592,
+              "weeds_time": 1792421032
+            },
+            {
+              "phase": 2,
+              "begin_time": 1792429105,
+              "phase_id": 12
+            },
+            {
+              "phase": 2,
+              "begin_time": 1792446385,
+              "phase_id": 20,
+              "dry_time": 1792458435,
+              "weeds_time": 1792455696,
+              "insect_time": 1792463416
+            },
+            {
+              "phase": 6,
+              "begin_time": 1792463665,
+              "phase_id": 19
+            }
+          ],
+          "season": 1,
+          "fruit_id": 40102,
+          "fruit_num": 800,
+          "grow_sec": 69120,
+          "stealable": true,
+          "left_inorc_fert_times": 1,
+          "left_fruit_num": 800,
+          "exp": 7066,
+          "source_fruit_id": 40102,
+          "source_fruit_num": 800,
+          "buff_effects": [
+            {
+              "attr_id": 1001,
+              "attr_value": 500,
+              "extra_info": 1020102
+            }
+          ],
+          "planting_player_level": 149
+        },
+        "lands_level": 5
+      },
+      {
+        "id": 17,
+        "unlocked": true,
+        "level": 5,
+        "max_level": 5,
+        "buff": {
+          "plant_yield_bonus": 30000,
+          "planting_time_reduction": 2000,
+          "plant_exp_bonus": 2500,
+          "plant_mutant_bonus": 12000,
+          "bp_exp_bonus": 4000,
+          "plant_mutant_exp_bonus": 2500
+        },
+        "plant": {
+          "id": 1020102,
+          "name": "\u9A6C\u8E44\u83B2",
+          "phases": [
+            {
+              "phase": 1,
+              "begin_time": 1792394545,
+              "phase_id": 1,
+              "dry_time": 1792399698,
+              "insect_time": 1792396310
+            },
+            {
+              "phase": 2,
+              "begin_time": 1792406065,
+              "phase_id": 6,
+              "dry_time": 1792407484,
+              "weeds_time": 1792408894
+            },
+            {
+              "phase": 2,
+              "begin_time": 1792417585,
+              "phase_id": 8,
+              "dry_time": 1792424069
+            },
+            {
+              "phase": 2,
+              "begin_time": 1792429105,
+              "phase_id": 12,
+              "dry_time": 1792433913
+            },
+            {
+              "phase": 2,
+              "begin_time": 1792446385,
+              "phase_id": 20,
+              "dry_time": 1792459944,
+              "weeds_time": 1792459268
+            },
+            {
+              "phase": 6,
+              "begin_time": 1792463665,
+              "phase_id": 19
+            }
+          ],
+          "season": 1,
+          "fruit_id": 40102,
+          "fruit_num": 800,
+          "grow_sec": 69120,
+          "stealable": true,
+          "left_inorc_fert_times": 1,
+          "left_fruit_num": 800,
+          "exp": 7066,
+          "source_fruit_id": 40102,
+          "source_fruit_num": 800,
+          "buff_effects": [
+            {
+              "attr_id": 1001,
+              "attr_value": 500,
+              "extra_info": 1020102
+            }
+          ],
+          "planting_player_level": 149
+        },
+        "lands_level": 5
+      },
+      {
+        "id": 18,
+        "unlocked": true,
+        "level": 5,
+        "max_level": 5,
+        "buff": {
+          "plant_yield_bonus": 30000,
+          "planting_time_reduction": 2000,
+          "plant_exp_bonus": 2500,
+          "plant_mutant_bonus": 12000,
+          "bp_exp_bonus": 4000,
+          "plant_mutant_exp_bonus": 2500
+        },
+        "plant": {
+          "id": 1020102,
+          "name": "\u9A6C\u8E44\u83B2",
+          "phases": [
+            {
+              "phase": 1,
+              "begin_time": 1792394545,
+              "phase_id": 1,
+              "dry_time": 1792400739
+            },
+            {
+              "phase": 2,
+              "begin_time": 1792406065,
+              "phase_id": 6,
+              "weeds_time": 1792414820,
+              "insect_time": 1792414144
+            },
+            {
+              "phase": 2,
+              "begin_time": 1792417585,
+              "phase_id": 8,
+              "dry_time": 1792420107,
+              "weeds_time": 1792429051
+            },
+            {
+              "phase": 2,
+              "begin_time": 1792429105,
+              "phase_id": 12
+            },
+            {
+              "phase": 2,
+              "begin_time": 1792446385,
+              "phase_id": 20
+            },
+            {
+              "phase": 6,
+              "begin_time": 1792463665,
+              "phase_id": 19
+            }
+          ],
+          "season": 1,
+          "fruit_id": 40102,
+          "fruit_num": 800,
+          "grow_sec": 69120,
+          "stealable": true,
+          "left_inorc_fert_times": 1,
+          "left_fruit_num": 800,
+          "exp": 7066,
+          "source_fruit_id": 40102,
+          "source_fruit_num": 800,
+          "buff_effects": [
+            {
+              "attr_id": 1001,
+              "attr_value": 500,
+              "extra_info": 1020102
+            }
+          ],
+          "planting_player_level": 149
+        },
+        "lands_level": 5
+      },
+      {
+        "id": 19,
+        "unlocked": true,
+        "level": 5,
+        "max_level": 5,
+        "buff": {
+          "plant_yield_bonus": 30000,
+          "planting_time_reduction": 2000,
+          "plant_exp_bonus": 2500,
+          "plant_mutant_bonus": 12000,
+          "bp_exp_bonus": 4000,
+          "plant_mutant_exp_bonus": 2500
+        },
+        "plant": {
+          "id": 1020102,
+          "name": "\u9A6C\u8E44\u83B2",
+          "phases": [
+            {
+              "phase": 1,
+              "begin_time": 1792394545,
+              "phase_id": 1
+            },
+            {
+              "phase": 2,
+              "begin_time": 1792406065,
+              "phase_id": 6,
+              "weeds_time": 1792414581,
+              "insect_time": 1792415028
+            },
+            {
+              "phase": 2,
+              "begin_time": 1792417585,
+              "phase_id": 8,
+              "dry_time": 1792422136,
+              "insect_time": 1792417890
+            },
+            {
+              "phase": 2,
+              "begin_time": 1792429105,
+              "phase_id": 12,
+              "weeds_time": 1792437694
+            },
+            {
+              "phase": 2,
+              "begin_time": 1792446385,
+              "phase_id": 20,
+              "dry_time": 1792448374,
+              "weeds_time": 1792460326,
+              "insect_time": 1792456438
+            },
+            {
+              "phase": 6,
+              "begin_time": 1792463665,
+              "phase_id": 19
+            }
+          ],
+          "season": 1,
+          "fruit_id": 40102,
+          "fruit_num": 800,
+          "grow_sec": 69120,
+          "stealable": true,
+          "left_inorc_fert_times": 1,
+          "left_fruit_num": 800,
+          "exp": 7066,
+          "source_fruit_id": 40102,
+          "source_fruit_num": 800,
+          "buff_effects": [
+            {
+              "attr_id": 1001,
+              "attr_value": 500,
+              "extra_info": 1020102
+            }
+          ],
+          "planting_player_level": 149
+        },
+        "lands_level": 5
+      },
+      {
+        "id": 20,
+        "unlocked": true,
+        "level": 4,
+        "max_level": 5,
+        "upgrade_condition": {
+          "preceeding_lands_count_need": 1,
+          "level_need": 147,
+          "items_need": [
+            {
+              "id": 1001,
+              "count": 430000000
+            },
+            {
+              "id": 1005,
+              "count": 15560
+            }
+          ]
+        },
+        "buff": {
+          "plant_yield_bonus": 30000,
+          "planting_time_reduction": 2000,
+          "plant_exp_bonus": 2000,
+          "bp_exp_bonus": 3000
+        },
+        "plant": {
+          "id": 1020102,
+          "name": "\u9A6C\u8E44\u83B2",
+          "phases": [
+            {
+              "phase": 1,
+              "begin_time": 1792394545,
+              "phase_id": 1,
+              "insect_time": 1792404077
+            },
+            {
+              "phase": 2,
+              "begin_time": 1792406065,
+              "phase_id": 6,
+              "weeds_time": 1792417329,
+              "insect_time": 1792413904
+            },
+            {
+              "phase": 2,
+              "begin_time": 1792417585,
+              "phase_id": 8
+            },
+            {
+              "phase": 2,
+              "begin_time": 1792429105,
+              "phase_id": 12,
+              "insect_time": 1792444401
+            },
+            {
+              "phase": 2,
+              "begin_time": 1792446385,
+              "phase_id": 20,
+              "dry_time": 1792454471,
+              "weeds_time": 1792453998,
+              "insect_time": 1792456599
+            },
+            {
+              "phase": 6,
+              "begin_time": 1792463665,
+              "phase_id": 19
+            }
+          ],
+          "season": 1,
+          "fruit_id": 40102,
+          "fruit_num": 800,
+          "grow_sec": 69120,
+          "stealable": true,
+          "left_inorc_fert_times": 1,
+          "left_fruit_num": 800,
+          "exp": 6795,
+          "source_fruit_id": 40102,
+          "source_fruit_num": 800,
+          "buff_effects": [
+            {
+              "attr_id": 1001,
+              "attr_value": 500,
+              "extra_info": 1020102
+            }
+          ],
+          "planting_player_level": 149
+        },
+        "lands_level": 4
+      },
+      {
+        "id": 21,
+        "unlocked": true,
+        "level": 4,
+        "max_level": 5,
+        "upgrade_condition": {
+          "preceeding_lands_count_need": 1,
+          "level_need": 150,
+          "items_need": [
+            {
+              "id": 1001,
+              "count": 450000000
+            },
+            {
+              "id": 1005,
+              "count": 18670
+            }
+          ]
+        },
+        "buff": {
+          "plant_yield_bonus": 30000,
+          "planting_time_reduction": 2000,
+          "plant_exp_bonus": 2000,
+          "bp_exp_bonus": 3000
+        },
+        "plant": {
+          "id": 1020102,
+          "name": "\u9A6C\u8E44\u83B2",
+          "phases": [
+            {
+              "phase": 1,
+              "begin_time": 1792394545,
+              "phase_id": 1,
+              "dry_time": 1792403960,
+              "weeds_time": 1792405572
+            },
+            {
+              "phase": 2,
+              "begin_time": 1792406065,
+              "phase_id": 6,
+              "insect_time": 1792415756
+            },
+            {
+              "phase": 2,
+              "begin_time": 1792417585,
+              "phase_id": 8,
+              "dry_time": 1792429072,
+              "insect_time": 1792427521
+            },
+            {
+              "phase": 2,
+              "begin_time": 1792429105,
+              "phase_id": 12
+            },
+            {
+              "phase": 2,
+              "begin_time": 1792446385,
+              "phase_id": 20,
+              "dry_time": 1792451095,
+              "insect_time": 1792448857
+            },
+            {
+              "phase": 6,
+              "begin_time": 1792463665,
+              "phase_id": 19
+            }
+          ],
+          "season": 1,
+          "fruit_id": 40102,
+          "fruit_num": 800,
+          "grow_sec": 69120,
+          "stealable": true,
+          "left_inorc_fert_times": 1,
+          "left_fruit_num": 800,
+          "exp": 6795,
+          "source_fruit_id": 40102,
+          "source_fruit_num": 800,
+          "buff_effects": [
+            {
+              "attr_id": 1001,
+              "attr_value": 500,
+              "extra_info": 1020102
+            }
+          ],
+          "planting_player_level": 149
+        },
+        "lands_level": 4
+      },
+      {
+        "id": 22,
+        "unlocked": true,
+        "level": 4,
+        "max_level": 5,
+        "upgrade_condition": {
+          "preceeding_lands_count_need": 1,
+          "level_need": 153,
+          "items_need": [
+            {
+              "id": 1001,
+              "count": 470000000
+            },
+            {
+              "id": 1005,
+              "count": 22400
+            }
+          ]
+        },
+        "buff": {
+          "plant_yield_bonus": 30000,
+          "planting_time_reduction": 2000,
+          "plant_exp_bonus": 2000,
+          "bp_exp_bonus": 3000
+        },
+        "plant": {
+          "id": 1020102,
+          "name": "\u9A6C\u8E44\u83B2",
+          "phases": [
+            {
+              "phase": 1,
+              "begin_time": 1792394545,
+              "phase_id": 1,
+              "dry_time": 1792396050,
+              "insect_time": 1792399919
+            },
+            {
+              "phase": 2,
+              "begin_time": 1792406065,
+              "phase_id": 6,
+              "weeds_time": 1792411658,
+              "insect_time": 1792412979
+            },
+            {
+              "phase": 2,
+              "begin_time": 1792417585,
+              "phase_id": 8
+            },
+            {
+              "phase": 2,
+              "begin_time": 1792429105,
+              "phase_id": 12,
+              "dry_time": 1792443971,
+              "insect_time": 1792435020
+            },
+            {
+              "phase": 2,
+              "begin_time": 1792446385,
+              "phase_id": 20,
+              "dry_time": 1792458625,
+              "weeds_time": 1792446412,
+              "insect_time": 1792458839
+            },
+            {
+              "phase": 6,
+              "begin_time": 1792463665,
+              "phase_id": 19
+            }
+          ],
+          "season": 1,
+          "fruit_id": 40102,
+          "fruit_num": 800,
+          "grow_sec": 69120,
+          "stealable": true,
+          "left_inorc_fert_times": 1,
+          "left_fruit_num": 800,
+          "exp": 6795,
+          "source_fruit_id": 40102,
+          "source_fruit_num": 800,
+          "buff_effects": [
+            {
+              "attr_id": 1001,
+              "attr_value": 500,
+              "extra_info": 1020102
+            }
+          ],
+          "planting_player_level": 149
+        },
+        "lands_level": 4
+      },
+      {
+        "id": 23,
+        "unlocked": true,
+        "level": 4,
+        "max_level": 5,
+        "upgrade_condition": {
+          "preceeding_lands_count_need": 1,
+          "level_need": 156,
+          "items_need": [
+            {
+              "id": 1001,
+              "count": 490000000
+            },
+            {
+              "id": 1005,
+              "count": 26880
+            }
+          ]
+        },
+        "buff": {
+          "plant_yield_bonus": 30000,
+          "planting_time_reduction": 2000,
+          "plant_exp_bonus": 2000,
+          "bp_exp_bonus": 3000
+        },
+        "plant": {
+          "id": 1020102,
+          "name": "\u9A6C\u8E44\u83B2",
+          "phases": [
+            {
+              "phase": 1,
+              "begin_time": 1792394545,
+              "phase_id": 1,
+              "weeds_time": 1792402639
+            },
+            {
+              "phase": 2,
+              "begin_time": 1792406065,
+              "phase_id": 6,
+              "dry_time": 1792408779,
+              "insect_time": 1792407483
+            },
+            {
+              "phase": 2,
+              "begin_time": 1792417585,
+              "phase_id": 8
+            },
+            {
+              "phase": 2,
+              "begin_time": 1792429105,
+              "phase_id": 12,
+              "dry_time": 1792430031,
+              "weeds_time": 1792433950,
+              "insect_time": 1792429541
+            },
+            {
+              "phase": 2,
+              "begin_time": 1792446385,
+              "phase_id": 20
+            },
+            {
+              "phase": 6,
+              "begin_time": 1792463665,
+              "phase_id": 19
+            }
+          ],
+          "season": 1,
+          "fruit_id": 40102,
+          "fruit_num": 800,
+          "grow_sec": 69120,
+          "stealable": true,
+          "left_inorc_fert_times": 1,
+          "left_fruit_num": 800,
+          "exp": 6795,
+          "source_fruit_id": 40102,
+          "source_fruit_num": 800,
+          "buff_effects": [
+            {
+              "attr_id": 1001,
+              "attr_value": 500,
+              "extra_info": 1020102
+            }
+          ],
+          "planting_player_level": 149
+        },
+        "lands_level": 4
+      },
+      {
+        "id": 24,
+        "unlocked": true,
+        "level": 4,
+        "max_level": 5,
+        "upgrade_condition": {
+          "preceeding_lands_count_need": 1,
+          "level_need": 159,
+          "items_need": [
+            {
+              "id": 1001,
+              "count": 510000000
+            },
+            {
+              "id": 1005,
+              "count": 32250
+            }
+          ]
+        },
+        "buff": {
+          "plant_yield_bonus": 30000,
+          "planting_time_reduction": 2000,
+          "plant_exp_bonus": 2000,
+          "bp_exp_bonus": 3000
+        },
+        "plant": {
+          "id": 1020102,
+          "name": "\u9A6C\u8E44\u83B2",
+          "phases": [
+            {
+              "phase": 1,
+              "begin_time": 1792394545,
+              "phase_id": 1,
+              "dry_time": 1792405253,
+              "insect_time": 1792400608
+            },
+            {
+              "phase": 2,
+              "begin_time": 1792406065,
+              "phase_id": 6,
+              "insect_time": 1792417476
+            },
+            {
+              "phase": 2,
+              "begin_time": 1792417585,
+              "phase_id": 8,
+              "weeds_time": 1792418013,
+              "insect_time": 1792425892
+            },
+            {
+              "phase": 2,
+              "begin_time": 1792429105,
+              "phase_id": 12,
+              "weeds_time": 1792436259
+            },
+            {
+              "phase": 2,
+              "begin_time": 1792446385,
+              "phase_id": 20,
+              "dry_time": 1792459445
+            },
+            {
+              "phase": 6,
+              "begin_time": 1792463665,
+              "phase_id": 19
+            }
+          ],
+          "season": 1,
+          "fruit_id": 40102,
+          "fruit_num": 800,
+          "grow_sec": 69120,
+          "stealable": true,
+          "left_inorc_fert_times": 1,
+          "left_fruit_num": 800,
+          "exp": 6795,
+          "source_fruit_id": 40102,
+          "source_fruit_num": 800,
+          "buff_effects": [
+            {
+              "attr_id": 1001,
+              "attr_value": 500,
+              "extra_info": 1020102
+            }
+          ],
+          "planting_player_level": 149
+        },
+        "lands_level": 4
+      }
+    ],
+    "operation_limits": [
+      {
+        "id": 10001,
+        "day_times_lt": 999999999
+      },
+      {
+        "id": 10003,
+        "day_times_lt": 100,
+        "day_share_id": 10003,
+        "day_exp_share_id": 10003
+      },
+      {
+        "id": 10006,
+        "day_times_lt": 999999999,
+        "day_exp_share_id": 10005
+      },
+      {
+        "id": 10010,
+        "day_times_lt": 999999999
+      },
+      {
+        "id": 10013,
+        "day_times_lt": 999999999
+      },
+      {
+        "id": 10019,
+        "day_times_lt": 24
+      },
+      {
+        "id": 10020,
+        "day_times_lt": 999
+      },
+      {
+        "id": 10002,
+        "day_times": 24,
+        "day_times_lt": 999999999,
+        "day_exp_times": 24
+      },
+      {
+        "id": 10005,
+        "day_times_lt": 999999999,
+        "day_exp_share_id": 10005
+      },
+      {
+        "id": 10009,
+        "day_times": 24,
+        "day_times_lt": 999999999,
+        "day_exp_times": 24
+      },
+      {
+        "id": 10015,
+        "day_times_lt": 100
+      },
+      {
+        "id": 10018,
+        "day_times_lt": 999999999
+      },
+      {
+        "id": 10007,
+        "day_times_lt": 999999999,
+        "day_exp_share_id": 10005
+      },
+      {
+        "id": 10008,
+        "day_times": 1,
+        "day_times_lt": 999999999
+      },
+      {
+        "id": 10016,
+        "day_times_lt": 999999999
+      },
+      {
+        "id": 10017,
+        "day_times_lt": 100,
+        "day_exp_times": 100
+      },
+      {
+        "id": 10004,
+        "day_times_lt": 100,
+        "day_share_id": 10003,
+        "day_exp_share_id": 10003
+      },
+      {
+        "id": 10011,
+        "day_times_lt": 999999999
+      },
+      {
+        "id": 10012,
+        "day_times_lt": 999999999
+      },
+      {
+        "id": 10014,
+        "day_times_lt": 999999999
+      }
+    ]
+  },
+  "allLandsBodyBytes": 5686,
+  "allLandsReplyFields": [
+    "1:bytes[223]=08011001180520054A1308B0EA0110D00F18C41320E05D28A01F30C41352BC01",
+    "1:bytes[217]=08021001180520054A1308B0EA0110D00F18C41320E05D28A01F30C41352B601",
+    "1:bytes[223]=08031001180520054A1308B0EA0110D00F18C41320E05D28A01F30C41352BC01",
+    "1:bytes[211]=08041001180520054A1308B0EA0110D00F18C41320E05D28A01F30C41352B001",
+    "1:bytes[223]=08051001180520054A1308B0EA0110D00F18C41320E05D28A01F30C41352BC01",
+    "1:bytes[217]=08061001180520054A1308B0EA0110D00F18C41320E05D28A01F30C41352B601",
+    "1:bytes[227]=08071001180520054A1308B0EA0110D00F18C41320E05D28A01F30C41352BC01",
+    "1:bytes[239]=08081001180520054A1308B0EA0110D00F18C41320E05D28A01F30C41352C801",
+    "1:bytes[227]=08091001180520054A1308B0EA0110D00F18C41320E05D28A01F30C41352BC01",
+    "1:bytes[211]=080A1001180520054A1308B0EA0110D00F18C41320E05D28A01F30C41352B001",
+    "1:bytes[217]=080B1001180520054A1308B0EA0110D00F18C41320E05D28A01F30C41352B601",
+    "1:bytes[199]=080C1001180520054A1308B0EA0110D00F18C41320E05D28A01F30C41352A401",
+    "1:bytes[229]=080D1001180520054A1308B0EA0110D00F18C41320E05D28A01F30C41352C201",
+    "1:bytes[229]=080E1001180520054A1308B0EA0110D00F18C41320E05D28A01F30C41352C201",
+    "1:bytes[223]=080F1001180520054A1308B0EA0110D00F18C41320E05D28A01F30C41352BC01",
+    "1:bytes[223]=08101001180520054A1308B0EA0110D00F18C41320E05D28A01F30C41352BC01",
+    "1:bytes[223]=08111001180520054A1308B0EA0110D00F18C41320E05D28A01F30C41352BC01",
+    "1:bytes[205]=08121001180520054A1308B0EA0110D00F18C41320E05D28A01F30C41352AA01",
+    "1:bytes[223]=08131001180520054A1308B0EA0110D00F18C41320E05D28A01F30C41352BC01",
+    "1:bytes[237]=0814100118042005421808011093011A0908E90710808F85CD011A0608ED0710",
+    "1:bytes[238]=0815100118042005421908011096011A0908E9071080E9C9D6011A0708ED0710",
+    "1:bytes[250]=0816100118042005421908011099011A0908E9071080C38EE0011A0708ED0710",
+    "1:bytes[232]=081710011804200542190801109C011A0908E90710809DD3E9011A0708ED0710",
+    "1:bytes[238]=081810011804200542190801109F011A0908E9071080F797F3011A0708ED0710",
+    "2:bytes[9]=08914E18FF93EBDC03",
+    "2:bytes[11]=08934E186420934E38934E",
+    "2:bytes[12]=08964E18FF93EBDC0338954E",
+    "2:bytes[9]=089A4E18FF93EBDC03",
+    "2:bytes[9]=089D4E18FF93EBDC03",
+    "2:bytes[5]=08A34E1818",
+    "2:bytes[6]=08A44E18E707",
+    "2:bytes[13]=08924E101818FF93EBDC032818",
+    "2:bytes[12]=08954E18FF93EBDC0338954E",
+    "2:bytes[13]=08994E101818FF93EBDC032818",
+    "2:bytes[5]=089F4E1864",
+    "2:bytes[9]=08A24E18FF93EBDC03",
+    "2:bytes[12]=08974E18FF93EBDC0338954E",
+    "2:bytes[11]=08984E100118FF93EBDC03",
+    "2:bytes[9]=08A04E18FF93EBDC03",
+    "2:bytes[7]=08A14E18642864",
+    "2:bytes[11]=08944E186420934E38934E",
+    "2:bytes[9]=089B4E18FF93EBDC03",
+    "2:bytes[9]=089C4E18FF93EBDC03",
+    "2:bytes[9]=089E4E18FF93EBDC03"
+  ],
+  "perLand": [
+    {
+      "landFields": [
+        "1:varint=1",
+        "2:varint=1",
+        "3:varint=5",
+        "4:varint=5",
+        "9:bytes[19]=08B0EA0110D00F18C41320E05D28A01F30C413",
+        "10:bytes[188]=08C6A13E1209E9A9ACE8B984E88EB2221C080110B08AD7D6061801308EB6D7D6",
+        "16:varint=5"
+      ],
+      "plantFields": [
+        "1:varint=1020102",
+        "2:bytes[9]=E9A9ACE8B984E88EB2",
+        "4:bytes[28]=080110B08AD7D6061801308EB6D7D60638FF99D7D60640CDCED7D606",
+        "4:bytes[22]=080210B0E4D7D606180630A5B8D8D60638F0A0D8D606",
+        "4:bytes[22]=080210B0BED8D606180830EF92D9D60638FEF1D8D606",
+        "4:bytes[10]=080210B098D9D606180C",
+        "4:bytes[16]=080210B09FDAD606181440C795DBD606",
+        "4:bytes[10]=080610B0A6DBD6061813",
+        "5:varint=1",
+        "10:varint=40102",
+        "11:varint=800",
+        "15:varint=69120",
+        "16:varint=1",
+        "17:varint=1",
+        "18:varint=800",
+        "22:varint=7066",
+        "26:varint=40102",
+        "27:varint=800",
+        "34:bytes[10]=08E90710F40318C6A13E",
+        "37:varint=149"
+      ],
+      "plantBytes": 188,
+      "plantDecoded": {
+        "id": 1020102,
+        "name": "\u9A6C\u8E44\u83B2",
+        "phases": [
+          {
+            "phase": 1,
+            "begin_time": 1792394544,
+            "phase_id": 1,
+            "dry_time": 1792400142,
+            "weeds_time": 1792396543,
+            "insect_time": 1792403277
+          },
+          {
+            "phase": 2,
+            "begin_time": 1792406064,
+            "phase_id": 6,
+            "dry_time": 1792416805,
+            "weeds_time": 1792413808
+          },
+          {
+            "phase": 2,
+            "begin_time": 1792417584,
+            "phase_id": 8,
+            "dry_time": 1792428399,
+            "weeds_time": 1792424190
+          },
+          {
+            "phase": 2,
+            "begin_time": 1792429104,
+            "phase_id": 12
+          },
+          {
+            "phase": 2,
+            "begin_time": 1792446384,
+            "phase_id": 20,
+            "insect_time": 1792461511
+          },
+          {
+            "phase": 6,
+            "begin_time": 1792463664,
+            "phase_id": 19
+          }
+        ],
+        "season": 1,
+        "fruit_id": 40102,
+        "fruit_num": 800,
+        "grow_sec": 69120,
+        "stealable": true,
+        "left_inorc_fert_times": 1,
+        "left_fruit_num": 800,
+        "exp": 7066,
+        "source_fruit_id": 40102,
+        "source_fruit_num": 800,
+        "buff_effects": [
+          {
+            "attr_id": 1001,
+            "attr_value": 500,
+            "extra_info": 1020102
+          }
+        ],
+        "planting_player_level": 149
+      },
+      "phaseRaw": [
+        [
+          "1:varint=1",
+          "2:varint=1792394544",
+          "3:varint=1",
+          "6:varint=1792400142",
+          "7:varint=1792396543",
+          "8:varint=1792403277"
+        ],
+        [
+          "1:varint=2",
+          "2:varint=1792406064",
+          "3:varint=6",
+          "6:varint=1792416805",
+          "7:varint=1792413808"
+        ],
+        [
+          "1:varint=2",
+          "2:varint=1792417584",
+          "3:varint=8",
+          "6:varint=1792428399",
+          "7:varint=1792424190"
+        ],
+        [
+          "1:varint=2",
+          "2:varint=1792429104",
+          "3:varint=12"
+        ],
+        [
+          "1:varint=2",
+          "2:varint=1792446384",
+          "3:varint=20",
+          "8:varint=1792461511"
+        ],
+        [
+          "1:varint=6",
+          "2:varint=1792463664",
+          "3:varint=19"
+        ]
+      ]
+    },
+    {
+      "landFields": [
+        "1:varint=2",
+        "2:varint=1",
+        "3:varint=5",
+        "4:varint=5",
+        "9:bytes[19]=08B0EA0110D00F18C41320E05D28A01F30C413",
+        "10:bytes[182]=08C6A13E1209E9A9ACE8B984E88EB22210080110B08AD7D6061801409594D7D6",
+        "16:varint=5"
+      ],
+      "plantFields": [
+        "1:varint=1020102",
+        "2:bytes[9]=E9A9ACE8B984E88EB2",
+        "4:bytes[16]=080110B08AD7D6061801409594D7D606",
+        "4:bytes[16]=080210B0E4D7D606180640E1FFD7D606",
+        "4:bytes[16]=080210B0BED8D606180838D3FBD8D606",
+        "4:bytes[16]=080210B098D9D606180C30D9E0D9D606",
+        "4:bytes[28]=080210B09FDAD606181430ADD3DAD606389FDEDAD60640FDA5DBD606",
+        "4:bytes[10]=080610B0A6DBD6061813",
+        "5:varint=1",
+        "10:varint=40102",
+        "11:varint=800",
+        "15:varint=69120",
+        "16:varint=1",
+        "17:varint=1",
+        "18:varint=800",
+        "22:varint=7066",
+        "26:varint=40102",
+        "27:varint=800",
+        "34:bytes[10]=08E90710F40318C6A13E",
+        "37:varint=149"
+      ],
+      "plantBytes": 182,
+      "plantDecoded": {
+        "id": 1020102,
+        "name": "\u9A6C\u8E44\u83B2",
+        "phases": [
+          {
+            "phase": 1,
+            "begin_time": 1792394544,
+            "phase_id": 1,
+            "insect_time": 1792395797
+          },
+          {
+            "phase": 2,
+            "begin_time": 1792406064,
+            "phase_id": 6,
+            "insect_time": 1792409569
+          },
+          {
+            "phase": 2,
+            "begin_time": 1792417584,
+            "phase_id": 8,
+            "weeds_time": 1792425427
+          },
+          {
+            "phase": 2,
+            "begin_time": 1792429104,
+            "phase_id": 12,
+            "dry_time": 1792438361
+          },
+          {
+            "phase": 2,
+            "begin_time": 1792446384,
+            "phase_id": 20,
+            "dry_time": 1792453037,
+            "weeds_time": 1792454431,
+            "insect_time": 1792463613
+          },
+          {
+            "phase": 6,
+            "begin_time": 1792463664,
+            "phase_id": 19
+          }
+        ],
+        "season": 1,
+        "fruit_id": 40102,
+        "fruit_num": 800,
+        "grow_sec": 69120,
+        "stealable": true,
+        "left_inorc_fert_times": 1,
+        "left_fruit_num": 800,
+        "exp": 7066,
+        "source_fruit_id": 40102,
+        "source_fruit_num": 800,
+        "buff_effects": [
+          {
+            "attr_id": 1001,
+            "attr_value": 500,
+            "extra_info": 1020102
+          }
+        ],
+        "planting_player_level": 149
+      },
+      "phaseRaw": [
+        [
+          "1:varint=1",
+          "2:varint=1792394544",
+          "3:varint=1",
+          "8:varint=1792395797"
+        ],
+        [
+          "1:varint=2",
+          "2:varint=1792406064",
+          "3:varint=6",
+          "8:varint=1792409569"
+        ],
+        [
+          "1:varint=2",
+          "2:varint=1792417584",
+          "3:varint=8",
+          "7:varint=1792425427"
+        ],
+        [
+          "1:varint=2",
+          "2:varint=1792429104",
+          "3:varint=12",
+          "6:varint=1792438361"
+        ],
+        [
+          "1:varint=2",
+          "2:varint=1792446384",
+          "3:varint=20",
+          "6:varint=1792453037",
+          "7:varint=1792454431",
+          "8:varint=1792463613"
+        ],
+        [
+          "1:varint=6",
+          "2:varint=1792463664",
+          "3:varint=19"
+        ]
+      ]
+    },
+    {
+      "landFields": [
+        "1:varint=3",
+        "2:varint=1",
+        "3:varint=5",
+        "4:varint=5",
+        "9:bytes[19]=08B0EA0110D00F18C41320E05D28A01F30C413",
+        "10:bytes[188]=08C6A13E1209E9A9ACE8B984E88EB22216080110B08AD7D606180130A492D7D6",
+        "16:varint=5"
+      ],
+      "plantFields": [
+        "1:varint=1020102",
+        "2:bytes[9]=E9A9ACE8B984E88EB2",
+        "4:bytes[22]=080110B08AD7D606180130A492D7D60640B9C2D7D606",
+        "4:bytes[16]=080210B0E4D7D606180640A090D8D606",
+        "4:bytes[22]=080210B0BED8D606180830A9C8D8D60640ABE1D8D606",
+        "4:bytes[22]=080210B098D9D606180C30FA89DAD60640BAB2D9D606",
+        "4:bytes[16]=080210B09FDAD606181438DFA2DAD606",
+        "4:bytes[10]=080610B0A6DBD6061813",
+        "5:varint=1",
+        "10:varint=40102",
+        "11:varint=800",
+        "15:varint=69120",
+        "16:varint=1",
+        "17:varint=1",
+        "18:varint=800",
+        "22:varint=7066",
+        "26:varint=40102",
+        "27:varint=800",
+        "34:bytes[10]=08E90710F40318C6A13E",
+        "37:varint=149"
+      ],
+      "plantBytes": 188,
+      "plantDecoded": {
+        "id": 1020102,
+        "name": "\u9A6C\u8E44\u83B2",
+        "phases": [
+          {
+            "phase": 1,
+            "begin_time": 1792394544,
+            "phase_id": 1,
+            "dry_time": 1792395556,
+            "insect_time": 1792401721
+          },
+          {
+            "phase": 2,
+            "begin_time": 1792406064,
+            "phase_id": 6,
+            "insect_time": 1792411680
+          },
+          {
+            "phase": 2,
+            "begin_time": 1792417584,
+            "phase_id": 8,
+            "dry_time": 1792418857,
+            "insect_time": 1792422059
+          },
+          {
+            "phase": 2,
+            "begin_time": 1792429104,
+            "phase_id": 12,
+            "dry_time": 1792443642,
+            "insect_time": 1792432442
+          },
+          {
+            "phase": 2,
+            "begin_time": 1792446384,
+            "phase_id": 20,
+            "weeds_time": 1792446815
+          },
+          {
+            "phase": 6,
+            "begin_time": 1792463664,
+            "phase_id": 19
+          }
+        ],
+        "season": 1,
+        "fruit_id": 40102,
+        "fruit_num": 800,
+        "grow_sec": 69120,
+        "stealable": true,
+        "left_inorc_fert_times": 1,
+        "left_fruit_num": 800,
+        "exp": 7066,
+        "source_fruit_id": 40102,
+        "source_fruit_num": 800,
+        "buff_effects": [
+          {
+            "attr_id": 1001,
+            "attr_value": 500,
+            "extra_info": 1020102
+          }
+        ],
+        "planting_player_level": 149
+      },
+      "phaseRaw": [
+        [
+          "1:varint=1",
+          "2:varint=1792394544",
+          "3:varint=1",
+          "6:varint=1792395556",
+          "8:varint=1792401721"
+        ],
+        [
+          "1:varint=2",
+          "2:varint=1792406064",
+          "3:varint=6",
+          "8:varint=1792411680"
+        ],
+        [
+          "1:varint=2",
+          "2:varint=1792417584",
+          "3:varint=8",
+          "6:varint=1792418857",
+          "8:varint=1792422059"
+        ],
+        [
+          "1:varint=2",
+          "2:varint=1792429104",
+          "3:varint=12",
+          "6:varint=1792443642",
+          "8:varint=1792432442"
+        ],
+        [
+          "1:varint=2",
+          "2:varint=1792446384",
+          "3:varint=20",
+          "7:varint=1792446815"
+        ],
+        [
+          "1:varint=6",
+          "2:varint=1792463664",
+          "3:varint=19"
+        ]
+      ]
+    },
+    {
+      "landFields": [
+        "1:varint=4",
+        "2:varint=1",
+        "3:varint=5",
+        "4:varint=5",
+        "9:bytes[19]=08B0EA0110D00F18C41320E05D28A01F30C413",
+        "10:bytes[176]=08C6A13E1209E9A9ACE8B984E88EB22210080110B08AD7D606180140F3B3D7D6",
+        "16:varint=5"
+      ],
+      "plantFields": [
+        "1:varint=1020102",
+        "2:bytes[9]=E9A9ACE8B984E88EB2",
+        "4:bytes[16]=080110B08AD7D606180140F3B3D7D606",
+        "4:bytes[10]=080210B0E4D7D6061806",
+        "4:bytes[16]=080210B0BED8D606180838F0DFD8D606",
+        "4:bytes[28]=080210B098D9D606180C30B4C2D9D606389B96DAD60640C3CAD9D606",
+        "4:bytes[16]=080210B09FDAD606181440F0D4DAD606",
+        "4:bytes[10]=080610B0A6DBD6061813",
+        "5:varint=1",
+        "10:varint=40102",
+        "11:varint=800",
+        "15:varint=69120",
+        "16:varint=1",
+        "17:varint=1",
+        "18:varint=800",
+        "22:varint=7066",
+        "26:varint=40102",
+        "27:varint=800",
+        "34:bytes[10]=08E90710F40318C6A13E",
+        "37:varint=149"
+      ],
+      "plantBytes": 176,
+      "plantDecoded": {
+        "id": 1020102,
+        "name": "\u9A6C\u8E44\u83B2",
+        "phases": [
+          {
+            "phase": 1,
+            "begin_time": 1792394544,
+            "phase_id": 1,
+            "insect_time": 1792399859
+          },
+          {
+            "phase": 2,
+            "begin_time": 1792406064,
+            "phase_id": 6
+          },
+          {
+            "phase": 2,
+            "begin_time": 1792417584,
+            "phase_id": 8,
+            "weeds_time": 1792421872
+          },
+          {
+            "phase": 2,
+            "begin_time": 1792429104,
+            "phase_id": 12,
+            "dry_time": 1792434484,
+            "weeds_time": 1792445211,
+            "insect_time": 1792435523
+          },
+          {
+            "phase": 2,
+            "begin_time": 1792446384,
+            "phase_id": 20,
+            "insect_time": 1792453232
+          },
+          {
+            "phase": 6,
+            "begin_time": 1792463664,
+            "phase_id": 19
+          }
+        ],
+        "season": 1,
+        "fruit_id": 40102,
+        "fruit_num": 800,
+        "grow_sec": 69120,
+        "stealable": true,
+        "left_inorc_fert_times": 1,
+        "left_fruit_num": 800,
+        "exp": 7066,
+        "source_fruit_id": 40102,
+        "source_fruit_num": 800,
+        "buff_effects": [
+          {
+            "attr_id": 1001,
+            "attr_value": 500,
+            "extra_info": 1020102
+          }
+        ],
+        "planting_player_level": 149
+      },
+      "phaseRaw": [
+        [
+          "1:varint=1",
+          "2:varint=1792394544",
+          "3:varint=1",
+          "8:varint=1792399859"
+        ],
+        [
+          "1:varint=2",
+          "2:varint=1792406064",
+          "3:varint=6"
+        ],
+        [
+          "1:varint=2",
+          "2:varint=1792417584",
+          "3:varint=8",
+          "7:varint=1792421872"
+        ],
+        [
+          "1:varint=2",
+          "2:varint=1792429104",
+          "3:varint=12",
+          "6:varint=1792434484",
+          "7:varint=1792445211",
+          "8:varint=1792435523"
+        ],
+        [
+          "1:varint=2",
+          "2:varint=1792446384",
+          "3:varint=20",
+          "8:varint=1792453232"
+        ],
+        [
+          "1:varint=6",
+          "2:varint=1792463664",
+          "3:varint=19"
+        ]
+      ]
+    },
+    {
+      "landFields": [
+        "1:varint=5",
+        "2:varint=1",
+        "3:varint=5",
+        "4:varint=5",
+        "9:bytes[19]=08B0EA0110D00F18C41320E05D28A01F30C413",
+        "10:bytes[188]=08C6A13E1209E9A9ACE8B984E88EB22216080110B08AD7D606180130C5B2D7D6",
+        "16:varint=5"
+      ],
+      "plantFields": [
+        "1:varint=1020102",
+        "2:bytes[9]=E9A9ACE8B984E88EB2",
+        "4:bytes[22]=080110B08AD7D606180130C5B2D7D606409CCDD7D606",
+        "4:bytes[10]=080210B0E4D7D6061806",
+        "4:bytes[22]=080210B0BED8D6061808308CF7D8D60638FBD3D8D606",
+        "4:bytes[16]=080210B098D9D606180C40BBF7D9D606",
+        "4:bytes[28]=080210B09FDAD606181430AFDFDAD60638FBA0DAD60640AD93DBD606",
+        "4:bytes[10]=080610B0A6DBD6061813",
+        "5:varint=1",
+        "10:varint=40102",
+        "11:varint=800",
+        "15:varint=69120",
+        "16:varint=1",
+        "17:varint=1",
+        "18:varint=800",
+        "22:varint=7066",
+        "26:varint=40102",
+        "27:varint=800",
+        "34:bytes[10]=08E90710F40318C6A13E",
+        "37:varint=149"
+      ],
+      "plantBytes": 188,
+      "plantDecoded": {
+        "id": 1020102,
+        "name": "\u9A6C\u8E44\u83B2",
+        "phases": [
+          {
+            "phase": 1,
+            "begin_time": 1792394544,
+            "phase_id": 1,
+            "dry_time": 1792399685,
+            "insect_time": 1792403100
+          },
+          {
+            "phase": 2,
+            "begin_time": 1792406064,
+            "phase_id": 6
+          },
+          {
+            "phase": 2,
+            "begin_time": 1792417584,
+            "phase_id": 8,
+            "dry_time": 1792424844,
+            "weeds_time": 1792420347
+          },
+          {
+            "phase": 2,
+            "begin_time": 1792429104,
+            "phase_id": 12,
+            "insect_time": 1792441275
+          },
+          {
+            "phase": 2,
+            "begin_time": 1792446384,
+            "phase_id": 20,
+            "dry_time": 1792454575,
+            "weeds_time": 1792446587,
+            "insect_time": 1792461229
+          },
+          {
+            "phase": 6,
+            "begin_time": 1792463664,
+            "phase_id": 19
+          }
+        ],
+        "season": 1,
+        "fruit_id": 40102,
+        "fruit_num": 800,
+        "grow_sec": 69120,
+        "stealable": true,
+        "left_inorc_fert_times": 1,
+        "left_fruit_num": 800,
+        "exp": 7066,
+        "source_fruit_id": 40102,
+        "source_fruit_num": 800,
+        "buff_effects": [
+          {
+            "attr_id": 1001,
+            "attr_value": 500,
+            "extra_info": 1020102
+          }
+        ],
+        "planting_player_level": 149
+      },
+      "phaseRaw": [
+        [
+          "1:varint=1",
+          "2:varint=1792394544",
+          "3:varint=1",
+          "6:varint=1792399685",
+          "8:varint=1792403100"
+        ],
+        [
+          "1:varint=2",
+          "2:varint=1792406064",
+          "3:varint=6"
+        ],
+        [
+          "1:varint=2",
+          "2:varint=1792417584",
+          "3:varint=8",
+          "6:varint=1792424844",
+          "7:varint=1792420347"
+        ],
+        [
+          "1:varint=2",
+          "2:varint=1792429104",
+          "3:varint=12",
+          "8:varint=1792441275"
+        ],
+        [
+          "1:varint=2",
+          "2:varint=1792446384",
+          "3:varint=20",
+          "6:varint=1792454575",
+          "7:varint=1792446587",
+          "8:varint=1792461229"
+        ],
+        [
+          "1:varint=6",
+          "2:varint=1792463664",
+          "3:varint=19"
+        ]
+      ]
+    },
+    {
+      "landFields": [
+        "1:varint=6",
+        "2:varint=1",
+        "3:varint=5",
+        "4:varint=5",
+        "9:bytes[19]=08B0EA0110D00F18C41320E05D28A01F30C413",
+        "10:bytes[182]=08C6A13E1209E9A9ACE8B984E88EB22210080110B08AD7D606180138BABBD7D6",
+        "16:varint=5"
+      ],
+      "plantFields": [
+        "1:varint=1020102",
+        "2:bytes[9]=E9A9ACE8B984E88EB2",
+        "4:bytes[16]=080110B08AD7D606180138BABBD7D606",
+        "4:bytes[16]=080210B0E4D7D606180630E5F0D7D606",
+        "4:bytes[16]=080210B0BED8D606180838A5FED8D606",
+        "4:bytes[16]=080210B098D9D606180C30DC9AD9D606",
+        "4:bytes[28]=080210B09FDAD606181430D1EADAD60638F79CDBD60640C4BBDAD606",
+        "4:bytes[10]=080610B0A6DBD6061813",
+        "5:varint=1",
+        "10:varint=40102",
+        "11:varint=800",
+        "15:varint=69120",
+        "16:varint=1",
+        "17:varint=1",
+        "18:varint=800",
+        "22:varint=7066",
+        "26:varint=40102",
+        "27:varint=800",
+        "34:bytes[10]=08E90710F40318C6A13E",
+        "37:varint=149"
+      ],
+      "plantBytes": 182,
+      "plantDecoded": {
+        "id": 1020102,
+        "name": "\u9A6C\u8E44\u83B2",
+        "phases": [
+          {
+            "phase": 1,
+            "begin_time": 1792394544,
+            "phase_id": 1,
+            "weeds_time": 1792400826
+          },
+          {
+            "phase": 2,
+            "begin_time": 1792406064,
+            "phase_id": 6,
+            "dry_time": 1792407653
+          },
+          {
+            "phase": 2,
+            "begin_time": 1792417584,
+            "phase_id": 8,
+            "weeds_time": 1792425765
+          },
+          {
+            "phase": 2,
+            "begin_time": 1792429104,
+            "phase_id": 12,
+            "dry_time": 1792429404
+          },
+          {
+            "phase": 2,
+            "begin_time": 1792446384,
+            "phase_id": 20,
+            "dry_time": 1792456017,
+            "weeds_time": 1792462455,
+            "insect_time": 1792449988
+          },
+          {
+            "phase": 6,
+            "begin_time": 1792463664,
+            "phase_id": 19
+          }
+        ],
+        "season": 1,
+        "fruit_id": 40102,
+        "fruit_num": 800,
+        "grow_sec": 69120,
+        "stealable": true,
+        "left_inorc_fert_times": 1,
+        "left_fruit_num": 800,
+        "exp": 7066,
+        "source_fruit_id": 40102,
+        "source_fruit_num": 800,
+        "buff_effects": [
+          {
+            "attr_id": 1001,
+            "attr_value": 500,
+            "extra_info": 1020102
+          }
+        ],
+        "planting_player_level": 149
+      },
+      "phaseRaw": [
+        [
+          "1:varint=1",
+          "2:varint=1792394544",
+          "3:varint=1",
+          "7:varint=1792400826"
+        ],
+        [
+          "1:varint=2",
+          "2:varint=1792406064",
+          "3:varint=6",
+          "6:varint=1792407653"
+        ],
+        [
+          "1:varint=2",
+          "2:varint=1792417584",
+          "3:varint=8",
+          "7:varint=1792425765"
+        ],
+        [
+          "1:varint=2",
+          "2:varint=1792429104",
+          "3:varint=12",
+          "6:varint=1792429404"
+        ],
+        [
+          "1:varint=2",
+          "2:varint=1792446384",
+          "3:varint=20",
+          "6:varint=1792456017",
+          "7:varint=1792462455",
+          "8:varint=1792449988"
+        ],
+        [
+          "1:varint=6",
+          "2:varint=1792463664",
+          "3:varint=19"
+        ]
+      ]
+    },
+    {
+      "landFields": [
+        "1:varint=7",
+        "2:varint=1",
+        "3:varint=5",
+        "4:varint=5",
+        "9:bytes[19]=08B0EA0110D00F18C41320E05D28A01F30C413",
+        "10:bytes[188]=08C6A13E1209E9A9ACE8B984E88EB22216080110B08AD7D6061801308EB3D7D6",
+        "11:varint=1",
+        "12:varint=1",
+        "16:varint=5"
+      ],
+      "plantFields": [
+        "1:varint=1020102",
+        "2:bytes[9]=E9A9ACE8B984E88EB2",
+        "4:bytes[22]=080110B08AD7D6061801308EB3D7D60640EC97D7D606",
+        "4:bytes[16]=080210B0E4D7D606180638D0BCD8D606",
+        "4:bytes[22]=080210B0BED8D606180830E0CED8D60640CDEBD8D606",
+        "4:bytes[16]=080210B098D9D606180C30E68DDAD606",
+        "4:bytes[22]=080210B09FDAD60618143095C2DAD60638D4BCDAD606",
+        "4:bytes[10]=080610B0A6DBD6061813",
+        "5:varint=1",
+        "10:varint=40102",
+        "11:varint=800",
+        "15:varint=69120",
+        "16:varint=1",
+        "17:varint=1",
+        "18:varint=800",
+        "22:varint=7066",
+        "26:varint=40102",
+        "27:varint=800",
+        "34:bytes[10]=08E90710F40318C6A13E",
+        "37:varint=149"
+      ],
+      "plantBytes": 188,
+      "plantDecoded": {
+        "id": 1020102,
+        "name": "\u9A6C\u8E44\u83B2",
+        "phases": [
+          {
+            "phase": 1,
+            "begin_time": 1792394544,
+            "phase_id": 1,
+            "dry_time": 1792399758,
+            "insect_time": 1792396268
+          },
+          {
+            "phase": 2,
+            "begin_time": 1792406064,
+            "phase_id": 6,
+            "weeds_time": 1792417360
+          },
+          {
+            "phase": 2,
+            "begin_time": 1792417584,
+            "phase_id": 8,
+            "dry_time": 1792419680,
+            "insect_time": 1792423373
+          },
+          {
+            "phase": 2,
+            "begin_time": 1792429104,
+            "phase_id": 12,
+            "dry_time": 1792444134
+          },
+          {
+            "phase": 2,
+            "begin_time": 1792446384,
+            "phase_id": 20,
+            "dry_time": 1792450837,
+            "weeds_time": 1792450132
+          },
+          {
+            "phase": 6,
+            "begin_time": 1792463664,
+            "phase_id": 19
+          }
+        ],
+        "season": 1,
+        "fruit_id": 40102,
+        "fruit_num": 800,
+        "grow_sec": 69120,
+        "stealable": true,
+        "left_inorc_fert_times": 1,
+        "left_fruit_num": 800,
+        "exp": 7066,
+        "source_fruit_id": 40102,
+        "source_fruit_num": 800,
+        "buff_effects": [
+          {
+            "attr_id": 1001,
+            "attr_value": 500,
+            "extra_info": 1020102
+          }
+        ],
+        "planting_player_level": 149
+      },
+      "phaseRaw": [
+        [
+          "1:varint=1",
+          "2:varint=1792394544",
+          "3:varint=1",
+          "6:varint=1792399758",
+          "8:varint=1792396268"
+        ],
+        [
+          "1:varint=2",
+          "2:varint=1792406064",
+          "3:varint=6",
+          "7:varint=1792417360"
+        ],
+        [
+          "1:varint=2",
+          "2:varint=1792417584",
+          "3:varint=8",
+          "6:varint=1792419680",
+          "8:varint=1792423373"
+        ],
+        [
+          "1:varint=2",
+          "2:varint=1792429104",
+          "3:varint=12",
+          "6:varint=1792444134"
+        ],
+        [
+          "1:varint=2",
+          "2:varint=1792446384",
+          "3:varint=20",
+          "6:varint=1792450837",
+          "7:varint=1792450132"
+        ],
+        [
+          "1:varint=6",
+          "2:varint=1792463664",
+          "3:varint=19"
+        ]
+      ]
+    },
+    {
+      "landFields": [
+        "1:varint=8",
+        "2:varint=1",
+        "3:varint=5",
+        "4:varint=5",
+        "9:bytes[19]=08B0EA0110D00F18C41320E05D28A01F30C413",
+        "10:bytes[200]=08C6A13E1209E9A9ACE8B984E88EB22210080110B08AD7D606180138E798D7D6",
+        "11:varint=1",
+        "12:varint=1",
+        "16:varint=5"
+      ],
+      "plantFields": [
+        "1:varint=1020102",
+        "2:bytes[9]=E9A9ACE8B984E88EB2",
+        "4:bytes[16]=080110B08AD7D606180138E798D7D606",
+        "4:bytes[28]=080210B0E4D7D606180630AAAFD8D60638D3F3D7D60640EBF7D7D606",
+        "4:bytes[22]=080210B0BED8D606180830F091D9D606408FD3D8D606",
+        "4:bytes[22]=080210B098D9D606180C30DDA9D9D606408AF3D9D606",
+        "4:bytes[22]=080210B09FDAD606181430F0A6DAD6063885C6DAD606",
+        "4:bytes[10]=080610B0A6DBD6061813",
+        "5:varint=1",
+        "10:varint=40102",
+        "11:varint=800",
+        "15:varint=69120",
+        "16:varint=1",
+        "17:varint=1",
+        "18:varint=800",
+        "22:varint=7066",
+        "26:varint=40102",
+        "27:varint=800",
+        "34:bytes[10]=08E90710F40318C6A13E",
+        "37:varint=149"
+      ],
+      "plantBytes": 200,
+      "plantDecoded": {
+        "id": 1020102,
+        "name": "\u9A6C\u8E44\u83B2",
+        "phases": [
+          {
+            "phase": 1,
+            "begin_time": 1792394544,
+            "phase_id": 1,
+            "weeds_time": 1792396391
+          },
+          {
+            "phase": 2,
+            "begin_time": 1792406064,
+            "phase_id": 6,
+            "dry_time": 1792415658,
+            "weeds_time": 1792408019,
+            "insect_time": 1792408555
+          },
+          {
+            "phase": 2,
+            "begin_time": 1792417584,
+            "phase_id": 8,
+            "dry_time": 1792428272,
+            "insect_time": 1792420239
+          },
+          {
+            "phase": 2,
+            "begin_time": 1792429104,
+            "phase_id": 12,
+            "dry_time": 1792431325,
+            "insect_time": 1792440714
+          },
+          {
+            "phase": 2,
+            "begin_time": 1792446384,
+            "phase_id": 20,
+            "dry_time": 1792447344,
+            "weeds_time": 1792451333
+          },
+          {
+            "phase": 6,
+            "begin_time": 1792463664,
+            "phase_id": 19
+          }
+        ],
+        "season": 1,
+        "fruit_id": 40102,
+        "fruit_num": 800,
+        "grow_sec": 69120,
+        "stealable": true,
+        "left_inorc_fert_times": 1,
+        "left_fruit_num": 800,
+        "exp": 7066,
+        "source_fruit_id": 40102,
+        "source_fruit_num": 800,
+        "buff_effects": [
+          {
+            "attr_id": 1001,
+            "attr_value": 500,
+            "extra_info": 1020102
+          }
+        ],
+        "planting_player_level": 149
+      },
+      "phaseRaw": [
+        [
+          "1:varint=1",
+          "2:varint=1792394544",
+          "3:varint=1",
+          "7:varint=1792396391"
+        ],
+        [
+          "1:varint=2",
+          "2:varint=1792406064",
+          "3:varint=6",
+          "6:varint=1792415658",
+          "7:varint=1792408019",
+          "8:varint=1792408555"
+        ],
+        [
+          "1:varint=2",
+          "2:varint=1792417584",
+          "3:varint=8",
+          "6:varint=1792428272",
+          "8:varint=1792420239"
+        ],
+        [
+          "1:varint=2",
+          "2:varint=1792429104",
+          "3:varint=12",
+          "6:varint=1792431325",
+          "8:varint=1792440714"
+        ],
+        [
+          "1:varint=2",
+          "2:varint=1792446384",
+          "3:varint=20",
+          "6:varint=1792447344",
+          "7:varint=1792451333"
+        ],
+        [
+          "1:varint=6",
+          "2:varint=1792463664",
+          "3:varint=19"
+        ]
+      ]
+    },
+    {
+      "landFields": [
+        "1:varint=9",
+        "2:varint=1",
+        "3:varint=5",
+        "4:varint=5",
+        "9:bytes[19]=08B0EA0110D00F18C41320E05D28A01F30C413",
+        "10:bytes[188]=08C6A13E1209E9A9ACE8B984E88EB22210080110B08AD7D606180140E8BBD7D6",
+        "11:varint=1",
+        "12:varint=1",
+        "16:varint=5"
+      ],
+      "plantFields": [
+        "1:varint=1020102",
+        "2:bytes[9]=E9A9ACE8B984E88EB2",
+        "4:bytes[16]=080110B08AD7D606180140E8BBD7D606",
+        "4:bytes[22]=080210B0E4D7D606180638B0E6D7D60640CFACD8D606",
+        "4:bytes[22]=080210B0BED8D606180830DEBFD8D60640BD90D9D606",
+        "4:bytes[10]=080210B098D9D606180C",
+        "4:bytes[28]=080210B09FDAD606181430F8DBDAD606389087DBD60640FDB1DAD606",
+        "4:bytes[10]=080610B0A6DBD6061813",
+        "5:varint=1",
+        "10:varint=40102",
+        "11:varint=800",
+        "15:varint=69120",
+        "16:varint=1",
+        "17:varint=1",
+        "18:varint=800",
+        "22:varint=7066",
+        "26:varint=40102",
+        "27:varint=800",
+        "34:bytes[10]=08E90710F40318C6A13E",
+        "37:varint=149"
+      ],
+      "plantBytes": 188,
+      "plantDecoded": {
+        "id": 1020102,
+        "name": "\u9A6C\u8E44\u83B2",
+        "phases": [
+          {
+            "phase": 1,
+            "begin_time": 1792394544,
+            "phase_id": 1,
+            "insect_time": 1792400872
+          },
+          {
+            "phase": 2,
+            "begin_time": 1792406064,
+            "phase_id": 6,
+            "weeds_time": 1792406320,
+            "insect_time": 1792415311
+          },
+          {
+            "phase": 2,
+            "begin_time": 1792417584,
+            "phase_id": 8,
+            "dry_time": 1792417758,
+            "insect_time": 1792428093
+          },
+          {
+            "phase": 2,
+            "begin_time": 1792429104,
+            "phase_id": 12
+          },
+          {
+            "phase": 2,
+            "begin_time": 1792446384,
+            "phase_id": 20,
+            "dry_time": 1792454136,
+            "weeds_time": 1792459664,
+            "insect_time": 1792448765
+          },
+          {
+            "phase": 6,
+            "begin_time": 1792463664,
+            "phase_id": 19
+          }
+        ],
+        "season": 1,
+        "fruit_id": 40102,
+        "fruit_num": 800,
+        "grow_sec": 69120,
+        "stealable": true,
+        "left_inorc_fert_times": 1,
+        "left_fruit_num": 800,
+        "exp": 7066,
+        "source_fruit_id": 40102,
+        "source_fruit_num": 800,
+        "buff_effects": [
+          {
+            "attr_id": 1001,
+            "attr_value": 500,
+            "extra_info": 1020102
+          }
+        ],
+        "planting_player_level": 149
+      },
+      "phaseRaw": [
+        [
+          "1:varint=1",
+          "2:varint=1792394544",
+          "3:varint=1",
+          "8:varint=1792400872"
+        ],
+        [
+          "1:varint=2",
+          "2:varint=1792406064",
+          "3:varint=6",
+          "7:varint=1792406320",
+          "8:varint=1792415311"
+        ],
+        [
+          "1:varint=2",
+          "2:varint=1792417584",
+          "3:varint=8",
+          "6:varint=1792417758",
+          "8:varint=1792428093"
+        ],
+        [
+          "1:varint=2",
+          "2:varint=1792429104",
+          "3:varint=12"
+        ],
+        [
+          "1:varint=2",
+          "2:varint=1792446384",
+          "3:varint=20",
+          "6:varint=1792454136",
+          "7:varint=1792459664",
+          "8:varint=1792448765"
+        ],
+        [
+          "1:varint=6",
+          "2:varint=1792463664",
+          "3:varint=19"
+        ]
+      ]
+    },
+    {
+      "landFields": [
+        "1:varint=10",
+        "2:varint=1",
+        "3:varint=5",
+        "4:varint=5",
+        "9:bytes[19]=08B0EA0110D00F18C41320E05D28A01F30C413",
+        "10:bytes[176]=08C6A13E1209E9A9ACE8B984E88EB2220A080110B18AD7D60618012216080210",
+        "16:varint=5"
+      ],
+      "plantFields": [
+        "1:varint=1020102",
+        "2:bytes[9]=E9A9ACE8B984E88EB2",
+        "4:bytes[10]=080110B18AD7D6061801",
+        "4:bytes[22]=080210B1E4D7D606180630CCB5D8D60638AEBED8D606",
+        "4:bytes[10]=080210B1BED8D6061808",
+        "4:bytes[22]=080210B198D9D606180C30D7A6D9D60640A7E9D9D606",
+        "4:bytes[22]=080210B19FDAD606181430DDF8DAD60640FEBFDAD606",
+        "4:bytes[10]=080610B1A6DBD6061813",
+        "5:varint=1",
+        "10:varint=40102",
+        "11:varint=800",
+        "15:varint=69120",
+        "16:varint=1",
+        "17:varint=1",
+        "18:varint=800",
+        "22:varint=7066",
+        "26:varint=40102",
+        "27:varint=800",
+        "34:bytes[10]=08E90710F40318C6A13E",
+        "37:varint=149"
+      ],
+      "plantBytes": 176,
+      "plantDecoded": {
+        "id": 1020102,
+        "name": "\u9A6C\u8E44\u83B2",
+        "phases": [
+          {
+            "phase": 1,
+            "begin_time": 1792394545,
+            "phase_id": 1
+          },
+          {
+            "phase": 2,
+            "begin_time": 1792406065,
+            "phase_id": 6,
+            "dry_time": 1792416460,
+            "weeds_time": 1792417582
+          },
+          {
+            "phase": 2,
+            "begin_time": 1792417585,
+            "phase_id": 8
+          },
+          {
+            "phase": 2,
+            "begin_time": 1792429105,
+            "phase_id": 12,
+            "dry_time": 1792430935,
+            "insect_time": 1792439463
+          },
+          {
+            "phase": 2,
+            "begin_time": 1792446385,
+            "phase_id": 20,
+            "dry_time": 1792457821,
+            "insect_time": 1792450558
+          },
+          {
+            "phase": 6,
+            "begin_time": 1792463665,
+            "phase_id": 19
+          }
+        ],
+        "season": 1,
+        "fruit_id": 40102,
+        "fruit_num": 800,
+        "grow_sec": 69120,
+        "stealable": true,
+        "left_inorc_fert_times": 1,
+        "left_fruit_num": 800,
+        "exp": 7066,
+        "source_fruit_id": 40102,
+        "source_fruit_num": 800,
+        "buff_effects": [
+          {
+            "attr_id": 1001,
+            "attr_value": 500,
+            "extra_info": 1020102
+          }
+        ],
+        "planting_player_level": 149
+      },
+      "phaseRaw": [
+        [
+          "1:varint=1",
+          "2:varint=1792394545",
+          "3:varint=1"
+        ],
+        [
+          "1:varint=2",
+          "2:varint=1792406065",
+          "3:varint=6",
+          "6:varint=1792416460",
+          "7:varint=1792417582"
+        ],
+        [
+          "1:varint=2",
+          "2:varint=1792417585",
+          "3:varint=8"
+        ],
+        [
+          "1:varint=2",
+          "2:varint=1792429105",
+          "3:varint=12",
+          "6:varint=1792430935",
+          "8:varint=1792439463"
+        ],
+        [
+          "1:varint=2",
+          "2:varint=1792446385",
+          "3:varint=20",
+          "6:varint=1792457821",
+          "8:varint=1792450558"
+        ],
+        [
+          "1:varint=6",
+          "2:varint=1792463665",
+          "3:varint=19"
+        ]
+      ]
+    },
+    {
+      "landFields": [
+        "1:varint=11",
+        "2:varint=1",
+        "3:varint=5",
+        "4:varint=5",
+        "9:bytes[19]=08B0EA0110D00F18C41320E05D28A01F30C413",
+        "10:bytes[182]=08C6A13E1209E9A9ACE8B984E88EB22216080110B18AD7D606180130FE9AD7D6",
+        "16:varint=5"
+      ],
+      "plantFields": [
+        "1:varint=1020102",
+        "2:bytes[9]=E9A9ACE8B984E88EB2",
+        "4:bytes[22]=080110B18AD7D606180130FE9AD7D60640D996D7D606",
+        "4:bytes[10]=080210B1E4D7D6061806",
+        "4:bytes[16]=080210B1BED8D606180838FFC8D8D606",
+        "4:bytes[16]=080210B198D9D606180C30B4E0D9D606",
+        "4:bytes[28]=080210B19FDAD606181430B6DBDAD60638BED1DAD60640EE9BDBD606",
+        "4:bytes[10]=080610B1A6DBD6061813",
+        "5:varint=1",
+        "10:varint=40102",
+        "11:varint=800",
+        "15:varint=69120",
+        "16:varint=1",
+        "17:varint=1",
+        "18:varint=800",
+        "22:varint=7066",
+        "26:varint=40102",
+        "27:varint=800",
+        "34:bytes[10]=08E90710F40318C6A13E",
+        "37:varint=149"
+      ],
+      "plantBytes": 182,
+      "plantDecoded": {
+        "id": 1020102,
+        "name": "\u9A6C\u8E44\u83B2",
+        "phases": [
+          {
+            "phase": 1,
+            "begin_time": 1792394545,
+            "phase_id": 1,
+            "dry_time": 1792396670,
+            "insect_time": 1792396121
+          },
+          {
+            "phase": 2,
+            "begin_time": 1792406065,
+            "phase_id": 6
+          },
+          {
+            "phase": 2,
+            "begin_time": 1792417585,
+            "phase_id": 8,
+            "weeds_time": 1792418943
+          },
+          {
+            "phase": 2,
+            "begin_time": 1792429105,
+            "phase_id": 12,
+            "dry_time": 1792438324
+          },
+          {
+            "phase": 2,
+            "begin_time": 1792446385,
+            "phase_id": 20,
+            "dry_time": 1792454070,
+            "weeds_time": 1792452798,
+            "insect_time": 1792462318
+          },
+          {
+            "phase": 6,
+            "begin_time": 1792463665,
+            "phase_id": 19
+          }
+        ],
+        "season": 1,
+        "fruit_id": 40102,
+        "fruit_num": 800,
+        "grow_sec": 69120,
+        "stealable": true,
+        "left_inorc_fert_times": 1,
+        "left_fruit_num": 800,
+        "exp": 7066,
+        "source_fruit_id": 40102,
+        "source_fruit_num": 800,
+        "buff_effects": [
+          {
+            "attr_id": 1001,
+            "attr_value": 500,
+            "extra_info": 1020102
+          }
+        ],
+        "planting_player_level": 149
+      },
+      "phaseRaw": [
+        [
+          "1:varint=1",
+          "2:varint=1792394545",
+          "3:varint=1",
+          "6:varint=1792396670",
+          "8:varint=1792396121"
+        ],
+        [
+          "1:varint=2",
+          "2:varint=1792406065",
+          "3:varint=6"
+        ],
+        [
+          "1:varint=2",
+          "2:varint=1792417585",
+          "3:varint=8",
+          "7:varint=1792418943"
+        ],
+        [
+          "1:varint=2",
+          "2:varint=1792429105",
+          "3:varint=12",
+          "6:varint=1792438324"
+        ],
+        [
+          "1:varint=2",
+          "2:varint=1792446385",
+          "3:varint=20",
+          "6:varint=1792454070",
+          "7:varint=1792452798",
+          "8:varint=1792462318"
+        ],
+        [
+          "1:varint=6",
+          "2:varint=1792463665",
+          "3:varint=19"
+        ]
+      ]
+    },
+    {
+      "landFields": [
+        "1:varint=12",
+        "2:varint=1",
+        "3:varint=5",
+        "4:varint=5",
+        "9:bytes[19]=08B0EA0110D00F18C41320E05D28A01F30C413",
+        "10:bytes[164]=08C6A13E1209E9A9ACE8B984E88EB22210080110B18AD7D60618013894B3D7D6",
+        "16:varint=5"
+      ],
+      "plantFields": [
+        "1:varint=1020102",
+        "2:bytes[9]=E9A9ACE8B984E88EB2",
+        "4:bytes[16]=080110B18AD7D60618013894B3D7D606",
+        "4:bytes[22]=080210B1E4D7D606180630BFB9D8D60638DAE6D7D606",
+        "4:bytes[10]=080210B1BED8D6061808",
+        "4:bytes[10]=080210B198D9D606180C",
+        "4:bytes[16]=080210B19FDAD606181440A6B2DAD606",
+        "4:bytes[10]=080610B1A6DBD6061813",
+        "5:varint=1",
+        "10:varint=40102",
+        "11:varint=800",
+        "15:varint=69120",
+        "16:varint=1",
+        "17:varint=1",
+        "18:varint=800",
+        "22:varint=7066",
+        "26:varint=40102",
+        "27:varint=800",
+        "34:bytes[10]=08E90710F40318C6A13E",
+        "37:varint=149"
+      ],
+      "plantBytes": 164,
+      "plantDecoded": {
+        "id": 1020102,
+        "name": "\u9A6C\u8E44\u83B2",
+        "phases": [
+          {
+            "phase": 1,
+            "begin_time": 1792394545,
+            "phase_id": 1,
+            "weeds_time": 1792399764
+          },
+          {
+            "phase": 2,
+            "begin_time": 1792406065,
+            "phase_id": 6,
+            "dry_time": 1792416959,
+            "weeds_time": 1792406362
+          },
+          {
+            "phase": 2,
+            "begin_time": 1792417585,
+            "phase_id": 8
+          },
+          {
+            "phase": 2,
+            "begin_time": 1792429105,
+            "phase_id": 12
+          },
+          {
+            "phase": 2,
+            "begin_time": 1792446385,
+            "phase_id": 20,
+            "insect_time": 1792448806
+          },
+          {
+            "phase": 6,
+            "begin_time": 1792463665,
+            "phase_id": 19
+          }
+        ],
+        "season": 1,
+        "fruit_id": 40102,
+        "fruit_num": 800,
+        "grow_sec": 69120,
+        "stealable": true,
+        "left_inorc_fert_times": 1,
+        "left_fruit_num": 800,
+        "exp": 7066,
+        "source_fruit_id": 40102,
+        "source_fruit_num": 800,
+        "buff_effects": [
+          {
+            "attr_id": 1001,
+            "attr_value": 500,
+            "extra_info": 1020102
+          }
+        ],
+        "planting_player_level": 149
+      },
+      "phaseRaw": [
+        [
+          "1:varint=1",
+          "2:varint=1792394545",
+          "3:varint=1",
+          "7:varint=1792399764"
+        ],
+        [
+          "1:varint=2",
+          "2:varint=1792406065",
+          "3:varint=6",
+          "6:varint=1792416959",
+          "7:varint=1792406362"
+        ],
+        [
+          "1:varint=2",
+          "2:varint=1792417585",
+          "3:varint=8"
+        ],
+        [
+          "1:varint=2",
+          "2:varint=1792429105",
+          "3:varint=12"
+        ],
+        [
+          "1:varint=2",
+          "2:varint=1792446385",
+          "3:varint=20",
+          "8:varint=1792448806"
+        ],
+        [
+          "1:varint=6",
+          "2:varint=1792463665",
+          "3:varint=19"
+        ]
+      ]
+    },
+    {
+      "landFields": [
+        "1:varint=13",
+        "2:varint=1",
+        "3:varint=5",
+        "4:varint=5",
+        "9:bytes[19]=08B0EA0110D00F18C41320E05D28A01F30C413",
+        "10:bytes[194]=08C6A13E1209E9A9ACE8B984E88EB22216080110B18AD7D60618013082ACD7D6",
+        "16:varint=5"
+      ],
+      "plantFields": [
+        "1:varint=1020102",
+        "2:bytes[9]=E9A9ACE8B984E88EB2",
+        "4:bytes[22]=080110B18AD7D60618013082ACD7D60640B7B8D7D606",
+        "4:bytes[22]=080210B1E4D7D606180630E7ADD8D60638BAB4D8D606",
+        "4:bytes[22]=080210B1BED8D6061808388ED7D8D60640D4C4D8D606",
+        "4:bytes[16]=080210B198D9D606180C38C7F1D9D606",
+        "4:bytes[22]=080210B19FDAD6061814309ACEDAD6064086B6DAD606",
+        "4:bytes[10]=080610B1A6DBD6061813",
+        "5:varint=1",
+        "10:varint=40102",
+        "11:varint=800",
+        "15:varint=69120",
+        "16:varint=1",
+        "17:varint=1",
+        "18:varint=800",
+        "22:varint=7066",
+        "26:varint=40102",
+        "27:varint=800",
+        "34:bytes[10]=08E90710F40318C6A13E",
+        "37:varint=149"
+      ],
+      "plantBytes": 194,
+      "plantDecoded": {
+        "id": 1020102,
+        "name": "\u9A6C\u8E44\u83B2",
+        "phases": [
+          {
+            "phase": 1,
+            "begin_time": 1792394545,
+            "phase_id": 1,
+            "dry_time": 1792398850,
+            "insect_time": 1792400439
+          },
+          {
+            "phase": 2,
+            "begin_time": 1792406065,
+            "phase_id": 6,
+            "dry_time": 1792415463,
+            "weeds_time": 1792416314
+          },
+          {
+            "phase": 2,
+            "begin_time": 1792417585,
+            "phase_id": 8,
+            "weeds_time": 1792420750,
+            "insect_time": 1792418388
+          },
+          {
+            "phase": 2,
+            "begin_time": 1792429105,
+            "phase_id": 12,
+            "weeds_time": 1792440519
+          },
+          {
+            "phase": 2,
+            "begin_time": 1792446385,
+            "phase_id": 20,
+            "dry_time": 1792452378,
+            "insect_time": 1792449286
+          },
+          {
+            "phase": 6,
+            "begin_time": 1792463665,
+            "phase_id": 19
+          }
+        ],
+        "season": 1,
+        "fruit_id": 40102,
+        "fruit_num": 800,
+        "grow_sec": 69120,
+        "stealable": true,
+        "left_inorc_fert_times": 1,
+        "left_fruit_num": 800,
+        "exp": 7066,
+        "source_fruit_id": 40102,
+        "source_fruit_num": 800,
+        "buff_effects": [
+          {
+            "attr_id": 1001,
+            "attr_value": 500,
+            "extra_info": 1020102
+          }
+        ],
+        "planting_player_level": 149
+      },
+      "phaseRaw": [
+        [
+          "1:varint=1",
+          "2:varint=1792394545",
+          "3:varint=1",
+          "6:varint=1792398850",
+          "8:varint=1792400439"
+        ],
+        [
+          "1:varint=2",
+          "2:varint=1792406065",
+          "3:varint=6",
+          "6:varint=1792415463",
+          "7:varint=1792416314"
+        ],
+        [
+          "1:varint=2",
+          "2:varint=1792417585",
+          "3:varint=8",
+          "7:varint=1792420750",
+          "8:varint=1792418388"
+        ],
+        [
+          "1:varint=2",
+          "2:varint=1792429105",
+          "3:varint=12",
+          "7:varint=1792440519"
+        ],
+        [
+          "1:varint=2",
+          "2:varint=1792446385",
+          "3:varint=20",
+          "6:varint=1792452378",
+          "8:varint=1792449286"
+        ],
+        [
+          "1:varint=6",
+          "2:varint=1792463665",
+          "3:varint=19"
+        ]
+      ]
+    },
+    {
+      "landFields": [
+        "1:varint=14",
+        "2:varint=1",
+        "3:varint=5",
+        "4:varint=5",
+        "9:bytes[19]=08B0EA0110D00F18C41320E05D28A01F30C413",
+        "10:bytes[194]=08C6A13E1209E9A9ACE8B984E88EB22216080110B18AD7D606180130D8B8D7D6",
+        "16:varint=5"
+      ],
+      "plantFields": [
+        "1:varint=1020102",
+        "2:bytes[9]=E9A9ACE8B984E88EB2",
+        "4:bytes[22]=080110B18AD7D606180130D8B8D7D606409398D7D606",
+        "4:bytes[16]=080210B1E4D7D606180638D6F1D7D606",
+        "4:bytes[22]=080210B1BED8D606180838FAD3D8D60640BDEFD8D606",
+        "4:bytes[22]=080210B198D9D606180C38E5A2D9D6064080C0D9D606",
+        "4:bytes[22]=080210B19FDAD606181430BFD2DAD60638FEC5DAD606",
+        "4:bytes[10]=080610B1A6DBD6061813",
+        "5:varint=1",
+        "10:varint=40102",
+        "11:varint=800",
+        "15:varint=69120",
+        "16:varint=1",
+        "17:varint=1",
+        "18:varint=800",
+        "22:varint=7066",
+        "26:varint=40102",
+        "27:varint=800",
+        "34:bytes[10]=08E90710F40318C6A13E",
+        "37:varint=149"
+      ],
+      "plantBytes": 194,
+      "plantDecoded": {
+        "id": 1020102,
+        "name": "\u9A6C\u8E44\u83B2",
+        "phases": [
+          {
+            "phase": 1,
+            "begin_time": 1792394545,
+            "phase_id": 1,
+            "dry_time": 1792400472,
+            "insect_time": 1792396307
+          },
+          {
+            "phase": 2,
+            "begin_time": 1792406065,
+            "phase_id": 6,
+            "weeds_time": 1792407766
+          },
+          {
+            "phase": 2,
+            "begin_time": 1792417585,
+            "phase_id": 8,
+            "weeds_time": 1792420346,
+            "insect_time": 1792423869
+          },
+          {
+            "phase": 2,
+            "begin_time": 1792429105,
+            "phase_id": 12,
+            "weeds_time": 1792430437,
+            "insect_time": 1792434176
+          },
+          {
+            "phase": 2,
+            "begin_time": 1792446385,
+            "phase_id": 20,
+            "dry_time": 1792452927,
+            "weeds_time": 1792451326
+          },
+          {
+            "phase": 6,
+            "begin_time": 1792463665,
+            "phase_id": 19
+          }
+        ],
+        "season": 1,
+        "fruit_id": 40102,
+        "fruit_num": 800,
+        "grow_sec": 69120,
+        "stealable": true,
+        "left_inorc_fert_times": 1,
+        "left_fruit_num": 800,
+        "exp": 7066,
+        "source_fruit_id": 40102,
+        "source_fruit_num": 800,
+        "buff_effects": [
+          {
+            "attr_id": 1001,
+            "attr_value": 500,
+            "extra_info": 1020102
+          }
+        ],
+        "planting_player_level": 149
+      },
+      "phaseRaw": [
+        [
+          "1:varint=1",
+          "2:varint=1792394545",
+          "3:varint=1",
+          "6:varint=1792400472",
+          "8:varint=1792396307"
+        ],
+        [
+          "1:varint=2",
+          "2:varint=1792406065",
+          "3:varint=6",
+          "7:varint=1792407766"
+        ],
+        [
+          "1:varint=2",
+          "2:varint=1792417585",
+          "3:varint=8",
+          "7:varint=1792420346",
+          "8:varint=1792423869"
+        ],
+        [
+          "1:varint=2",
+          "2:varint=1792429105",
+          "3:varint=12",
+          "7:varint=1792430437",
+          "8:varint=1792434176"
+        ],
+        [
+          "1:varint=2",
+          "2:varint=1792446385",
+          "3:varint=20",
+          "6:varint=1792452927",
+          "7:varint=1792451326"
+        ],
+        [
+          "1:varint=6",
+          "2:varint=1792463665",
+          "3:varint=19"
+        ]
+      ]
+    },
+    {
+      "landFields": [
+        "1:varint=15",
+        "2:varint=1",
+        "3:varint=5",
+        "4:varint=5",
+        "9:bytes[19]=08B0EA0110D00F18C41320E05D28A01F30C413",
+        "10:bytes[188]=08C6A13E1209E9A9ACE8B984E88EB22210080110B18AD7D606180138FBB3D7D6",
+        "16:varint=5"
+      ],
+      "plantFields": [
+        "1:varint=1020102",
+        "2:bytes[9]=E9A9ACE8B984E88EB2",
+        "4:bytes[16]=080110B18AD7D606180138FBB3D7D606",
+        "4:bytes[22]=080210B1E4D7D60618063880FED7D60640E38BD8D606",
+        "4:bytes[22]=080210B1BED8D606180838C297D9D60640A7D1D8D606",
+        "4:bytes[22]=080210B198D9D606180C309599D9D60638F8FCD9D606",
+        "4:bytes[16]=080210B19FDAD6061814309CF7DAD606",
+        "4:bytes[10]=080610B1A6DBD6061813",
+        "5:varint=1",
+        "10:varint=40102",
+        "11:varint=800",
+        "15:varint=69120",
+        "16:varint=1",
+        "17:varint=1",
+        "18:varint=800",
+        "22:varint=7066",
+        "26:varint=40102",
+        "27:varint=800",
+        "34:bytes[10]=08E90710F40318C6A13E",
+        "37:varint=149"
+      ],
+      "plantBytes": 188,
+      "plantDecoded": {
+        "id": 1020102,
+        "name": "\u9A6C\u8E44\u83B2",
+        "phases": [
+          {
+            "phase": 1,
+            "begin_time": 1792394545,
+            "phase_id": 1,
+            "weeds_time": 1792399867
+          },
+          {
+            "phase": 2,
+            "begin_time": 1792406065,
+            "phase_id": 6,
+            "weeds_time": 1792409344,
+            "insect_time": 1792411107
+          },
+          {
+            "phase": 2,
+            "begin_time": 1792417585,
+            "phase_id": 8,
+            "weeds_time": 1792428994,
+            "insect_time": 1792420007
+          },
+          {
+            "phase": 2,
+            "begin_time": 1792429105,
+            "phase_id": 12,
+            "dry_time": 1792429205,
+            "weeds_time": 1792441976
+          },
+          {
+            "phase": 2,
+            "begin_time": 1792446385,
+            "phase_id": 20,
+            "dry_time": 1792457628
+          },
+          {
+            "phase": 6,
+            "begin_time": 1792463665,
+            "phase_id": 19
+          }
+        ],
+        "season": 1,
+        "fruit_id": 40102,
+        "fruit_num": 800,
+        "grow_sec": 69120,
+        "stealable": true,
+        "left_inorc_fert_times": 1,
+        "left_fruit_num": 800,
+        "exp": 7066,
+        "source_fruit_id": 40102,
+        "source_fruit_num": 800,
+        "buff_effects": [
+          {
+            "attr_id": 1001,
+            "attr_value": 500,
+            "extra_info": 1020102
+          }
+        ],
+        "planting_player_level": 149
+      },
+      "phaseRaw": [
+        [
+          "1:varint=1",
+          "2:varint=1792394545",
+          "3:varint=1",
+          "7:varint=1792399867"
+        ],
+        [
+          "1:varint=2",
+          "2:varint=1792406065",
+          "3:varint=6",
+          "7:varint=1792409344",
+          "8:varint=1792411107"
+        ],
+        [
+          "1:varint=2",
+          "2:varint=1792417585",
+          "3:varint=8",
+          "7:varint=1792428994",
+          "8:varint=1792420007"
+        ],
+        [
+          "1:varint=2",
+          "2:varint=1792429105",
+          "3:varint=12",
+          "6:varint=1792429205",
+          "7:varint=1792441976"
+        ],
+        [
+          "1:varint=2",
+          "2:varint=1792446385",
+          "3:varint=20",
+          "6:varint=1792457628"
+        ],
+        [
+          "1:varint=6",
+          "2:varint=1792463665",
+          "3:varint=19"
+        ]
+      ]
+    },
+    {
+      "landFields": [
+        "1:varint=16",
+        "2:varint=1",
+        "3:varint=5",
+        "4:varint=5",
+        "9:bytes[19]=08B0EA0110D00F18C41320E05D28A01F30C413",
+        "10:bytes[188]=08C6A13E1209E9A9ACE8B984E88EB22210080110B18AD7D606180140FBA8D7D6",
+        "16:varint=5"
+      ],
+      "plantFields": [
+        "1:varint=1020102",
+        "2:bytes[9]=E9A9ACE8B984E88EB2",
+        "4:bytes[16]=080110B18AD7D606180140FBA8D7D606",
+        "4:bytes[22]=080210B1E4D7D606180630CEB7D8D60640A68CD8D606",
+        "4:bytes[22]=080210B1BED8D606180830F0D5D8D60638A8D9D8D606",
+        "4:bytes[10]=080210B198D9D606180C",
+        "4:bytes[28]=080210B19FDAD606181430C3FDDAD6063890E8DAD60640B8A4DBD606",
+        "4:bytes[10]=080610B1A6DBD6061813",
+        "5:varint=1",
+        "10:varint=40102",
+        "11:varint=800",
+        "15:varint=69120",
+        "16:varint=1",
+        "17:varint=1",
+        "18:varint=800",
+        "22:varint=7066",
+        "26:varint=40102",
+        "27:varint=800",
+        "34:bytes[10]=08E90710F40318C6A13E",
+        "37:varint=149"
+      ],
+      "plantBytes": 188,
+      "plantDecoded": {
+        "id": 1020102,
+        "name": "\u9A6C\u8E44\u83B2",
+        "phases": [
+          {
+            "phase": 1,
+            "begin_time": 1792394545,
+            "phase_id": 1,
+            "insect_time": 1792398459
+          },
+          {
+            "phase": 2,
+            "begin_time": 1792406065,
+            "phase_id": 6,
+            "dry_time": 1792416718,
+            "insect_time": 1792411174
+          },
+          {
+            "phase": 2,
+            "begin_time": 1792417585,
+            "phase_id": 8,
+            "dry_time": 1792420592,
+            "weeds_time": 1792421032
+          },
+          {
+            "phase": 2,
+            "begin_time": 1792429105,
+            "phase_id": 12
+          },
+          {
+            "phase": 2,
+            "begin_time": 1792446385,
+            "phase_id": 20,
+            "dry_time": 1792458435,
+            "weeds_time": 1792455696,
+            "insect_time": 1792463416
+          },
+          {
+            "phase": 6,
+            "begin_time": 1792463665,
+            "phase_id": 19
+          }
+        ],
+        "season": 1,
+        "fruit_id": 40102,
+        "fruit_num": 800,
+        "grow_sec": 69120,
+        "stealable": true,
+        "left_inorc_fert_times": 1,
+        "left_fruit_num": 800,
+        "exp": 7066,
+        "source_fruit_id": 40102,
+        "source_fruit_num": 800,
+        "buff_effects": [
+          {
+            "attr_id": 1001,
+            "attr_value": 500,
+            "extra_info": 1020102
+          }
+        ],
+        "planting_player_level": 149
+      },
+      "phaseRaw": [
+        [
+          "1:varint=1",
+          "2:varint=1792394545",
+          "3:varint=1",
+          "8:varint=1792398459"
+        ],
+        [
+          "1:varint=2",
+          "2:varint=1792406065",
+          "3:varint=6",
+          "6:varint=1792416718",
+          "8:varint=1792411174"
+        ],
+        [
+          "1:varint=2",
+          "2:varint=1792417585",
+          "3:varint=8",
+          "6:varint=1792420592",
+          "7:varint=1792421032"
+        ],
+        [
+          "1:varint=2",
+          "2:varint=1792429105",
+          "3:varint=12"
+        ],
+        [
+          "1:varint=2",
+          "2:varint=1792446385",
+          "3:varint=20",
+          "6:varint=1792458435",
+          "7:varint=1792455696",
+          "8:varint=1792463416"
+        ],
+        [
+          "1:varint=6",
+          "2:varint=1792463665",
+          "3:varint=19"
+        ]
+      ]
+    },
+    {
+      "landFields": [
+        "1:varint=17",
+        "2:varint=1",
+        "3:varint=5",
+        "4:varint=5",
+        "9:bytes[19]=08B0EA0110D00F18C41320E05D28A01F30C413",
+        "10:bytes[188]=08C6A13E1209E9A9ACE8B984E88EB22216080110B18AD7D606180130D2B2D7D6",
+        "16:varint=5"
+      ],
+      "plantFields": [
+        "1:varint=1020102",
+        "2:bytes[9]=E9A9ACE8B984E88EB2",
+        "4:bytes[22]=080110B18AD7D606180130D2B2D7D606409698D7D606",
+        "4:bytes[22]=080210B1E4D7D606180630BCEFD7D60638BEFAD7D606",
+        "4:bytes[16]=080210B1BED8D60618083085F1D8D606",
+        "4:bytes[16]=080210B198D9D606180C30F9BDD9D606",
+        "4:bytes[22]=080210B19FDAD606181430A889DBD606388484DBD606",
+        "4:bytes[10]=080610B1A6DBD6061813",
+        "5:varint=1",
+        "10:varint=40102",
+        "11:varint=800",
+        "15:varint=69120",
+        "16:varint=1",
+        "17:varint=1",
+        "18:varint=800",
+        "22:varint=7066",
+        "26:varint=40102",
+        "27:varint=800",
+        "34:bytes[10]=08E90710F40318C6A13E",
+        "37:varint=149"
+      ],
+      "plantBytes": 188,
+      "plantDecoded": {
+        "id": 1020102,
+        "name": "\u9A6C\u8E44\u83B2",
+        "phases": [
+          {
+            "phase": 1,
+            "begin_time": 1792394545,
+            "phase_id": 1,
+            "dry_time": 1792399698,
+            "insect_time": 1792396310
+          },
+          {
+            "phase": 2,
+            "begin_time": 1792406065,
+            "phase_id": 6,
+            "dry_time": 1792407484,
+            "weeds_time": 1792408894
+          },
+          {
+            "phase": 2,
+            "begin_time": 1792417585,
+            "phase_id": 8,
+            "dry_time": 1792424069
+          },
+          {
+            "phase": 2,
+            "begin_time": 1792429105,
+            "phase_id": 12,
+            "dry_time": 1792433913
+          },
+          {
+            "phase": 2,
+            "begin_time": 1792446385,
+            "phase_id": 20,
+            "dry_time": 1792459944,
+            "weeds_time": 1792459268
+          },
+          {
+            "phase": 6,
+            "begin_time": 1792463665,
+            "phase_id": 19
+          }
+        ],
+        "season": 1,
+        "fruit_id": 40102,
+        "fruit_num": 800,
+        "grow_sec": 69120,
+        "stealable": true,
+        "left_inorc_fert_times": 1,
+        "left_fruit_num": 800,
+        "exp": 7066,
+        "source_fruit_id": 40102,
+        "source_fruit_num": 800,
+        "buff_effects": [
+          {
+            "attr_id": 1001,
+            "attr_value": 500,
+            "extra_info": 1020102
+          }
+        ],
+        "planting_player_level": 149
+      },
+      "phaseRaw": [
+        [
+          "1:varint=1",
+          "2:varint=1792394545",
+          "3:varint=1",
+          "6:varint=1792399698",
+          "8:varint=1792396310"
+        ],
+        [
+          "1:varint=2",
+          "2:varint=1792406065",
+          "3:varint=6",
+          "6:varint=1792407484",
+          "7:varint=1792408894"
+        ],
+        [
+          "1:varint=2",
+          "2:varint=1792417585",
+          "3:varint=8",
+          "6:varint=1792424069"
+        ],
+        [
+          "1:varint=2",
+          "2:varint=1792429105",
+          "3:varint=12",
+          "6:varint=1792433913"
+        ],
+        [
+          "1:varint=2",
+          "2:varint=1792446385",
+          "3:varint=20",
+          "6:varint=1792459944",
+          "7:varint=1792459268"
+        ],
+        [
+          "1:varint=6",
+          "2:varint=1792463665",
+          "3:varint=19"
+        ]
+      ]
+    },
+    {
+      "landFields": [
+        "1:varint=18",
+        "2:varint=1",
+        "3:varint=5",
+        "4:varint=5",
+        "9:bytes[19]=08B0EA0110D00F18C41320E05D28A01F30C413",
+        "10:bytes[170]=08C6A13E1209E9A9ACE8B984E88EB22210080110B18AD7D606180130E3BAD7D6",
+        "16:varint=5"
+      ],
+      "plantFields": [
+        "1:varint=1020102",
+        "2:bytes[9]=E9A9ACE8B984E88EB2",
+        "4:bytes[16]=080110B18AD7D606180130E3BAD7D606",
+        "4:bytes[22]=080210B1E4D7D606180638E4A8D8D60640C0A3D8D606",
+        "4:bytes[22]=080210B1BED8D6061808308BD2D8D60638FB97D9D606",
+        "4:bytes[10]=080210B198D9D606180C",
+        "4:bytes[10]=080210B19FDAD6061814",
+        "4:bytes[10]=080610B1A6DBD6061813",
+        "5:varint=1",
+        "10:varint=40102",
+        "11:varint=800",
+        "15:varint=69120",
+        "16:varint=1",
+        "17:varint=1",
+        "18:varint=800",
+        "22:varint=7066",
+        "26:varint=40102",
+        "27:varint=800",
+        "34:bytes[10]=08E90710F40318C6A13E",
+        "37:varint=149"
+      ],
+      "plantBytes": 170,
+      "plantDecoded": {
+        "id": 1020102,
+        "name": "\u9A6C\u8E44\u83B2",
+        "phases": [
+          {
+            "phase": 1,
+            "begin_time": 1792394545,
+            "phase_id": 1,
+            "dry_time": 1792400739
+          },
+          {
+            "phase": 2,
+            "begin_time": 1792406065,
+            "phase_id": 6,
+            "weeds_time": 1792414820,
+            "insect_time": 1792414144
+          },
+          {
+            "phase": 2,
+            "begin_time": 1792417585,
+            "phase_id": 8,
+            "dry_time": 1792420107,
+            "weeds_time": 1792429051
+          },
+          {
+            "phase": 2,
+            "begin_time": 1792429105,
+            "phase_id": 12
+          },
+          {
+            "phase": 2,
+            "begin_time": 1792446385,
+            "phase_id": 20
+          },
+          {
+            "phase": 6,
+            "begin_time": 1792463665,
+            "phase_id": 19
+          }
+        ],
+        "season": 1,
+        "fruit_id": 40102,
+        "fruit_num": 800,
+        "grow_sec": 69120,
+        "stealable": true,
+        "left_inorc_fert_times": 1,
+        "left_fruit_num": 800,
+        "exp": 7066,
+        "source_fruit_id": 40102,
+        "source_fruit_num": 800,
+        "buff_effects": [
+          {
+            "attr_id": 1001,
+            "attr_value": 500,
+            "extra_info": 1020102
+          }
+        ],
+        "planting_player_level": 149
+      },
+      "phaseRaw": [
+        [
+          "1:varint=1",
+          "2:varint=1792394545",
+          "3:varint=1",
+          "6:varint=1792400739"
+        ],
+        [
+          "1:varint=2",
+          "2:varint=1792406065",
+          "3:varint=6",
+          "7:varint=1792414820",
+          "8:varint=1792414144"
+        ],
+        [
+          "1:varint=2",
+          "2:varint=1792417585",
+          "3:varint=8",
+          "6:varint=1792420107",
+          "7:varint=1792429051"
+        ],
+        [
+          "1:varint=2",
+          "2:varint=1792429105",
+          "3:varint=12"
+        ],
+        [
+          "1:varint=2",
+          "2:varint=1792446385",
+          "3:varint=20"
+        ],
+        [
+          "1:varint=6",
+          "2:varint=1792463665",
+          "3:varint=19"
+        ]
+      ]
+    },
+    {
+      "landFields": [
+        "1:varint=19",
+        "2:varint=1",
+        "3:varint=5",
+        "4:varint=5",
+        "9:bytes[19]=08B0EA0110D00F18C41320E05D28A01F30C413",
+        "10:bytes[188]=08C6A13E1209E9A9ACE8B984E88EB2220A080110B18AD7D60618012216080210",
+        "16:varint=5"
+      ],
+      "plantFields": [
+        "1:varint=1020102",
+        "2:bytes[9]=E9A9ACE8B984E88EB2",
+        "4:bytes[10]=080110B18AD7D6061801",
+        "4:bytes[22]=080210B1E4D7D606180638F5A6D8D60640B4AAD8D606",
+        "4:bytes[22]=080210B1BED8D606180830F8E1D8D60640E2C0D8D606",
+        "4:bytes[16]=080210B198D9D606180C38BEDBD9D606",
+        "4:bytes[28]=080210B19FDAD606181430F6AEDAD60638A68CDBD60640F6EDDAD606",
+        "4:bytes[10]=080610B1A6DBD6061813",
+        "5:varint=1",
+        "10:varint=40102",
+        "11:varint=800",
+        "15:varint=69120",
+        "16:varint=1",
+        "17:varint=1",
+        "18:varint=800",
+        "22:varint=7066",
+        "26:varint=40102",
+        "27:varint=800",
+        "34:bytes[10]=08E90710F40318C6A13E",
+        "37:varint=149"
+      ],
+      "plantBytes": 188,
+      "plantDecoded": {
+        "id": 1020102,
+        "name": "\u9A6C\u8E44\u83B2",
+        "phases": [
+          {
+            "phase": 1,
+            "begin_time": 1792394545,
+            "phase_id": 1
+          },
+          {
+            "phase": 2,
+            "begin_time": 1792406065,
+            "phase_id": 6,
+            "weeds_time": 1792414581,
+            "insect_time": 1792415028
+          },
+          {
+            "phase": 2,
+            "begin_time": 1792417585,
+            "phase_id": 8,
+            "dry_time": 1792422136,
+            "insect_time": 1792417890
+          },
+          {
+            "phase": 2,
+            "begin_time": 1792429105,
+            "phase_id": 12,
+            "weeds_time": 1792437694
+          },
+          {
+            "phase": 2,
+            "begin_time": 1792446385,
+            "phase_id": 20,
+            "dry_time": 1792448374,
+            "weeds_time": 1792460326,
+            "insect_time": 1792456438
+          },
+          {
+            "phase": 6,
+            "begin_time": 1792463665,
+            "phase_id": 19
+          }
+        ],
+        "season": 1,
+        "fruit_id": 40102,
+        "fruit_num": 800,
+        "grow_sec": 69120,
+        "stealable": true,
+        "left_inorc_fert_times": 1,
+        "left_fruit_num": 800,
+        "exp": 7066,
+        "source_fruit_id": 40102,
+        "source_fruit_num": 800,
+        "buff_effects": [
+          {
+            "attr_id": 1001,
+            "attr_value": 500,
+            "extra_info": 1020102
+          }
+        ],
+        "planting_player_level": 149
+      },
+      "phaseRaw": [
+        [
+          "1:varint=1",
+          "2:varint=1792394545",
+          "3:varint=1"
+        ],
+        [
+          "1:varint=2",
+          "2:varint=1792406065",
+          "3:varint=6",
+          "7:varint=1792414581",
+          "8:varint=1792415028"
+        ],
+        [
+          "1:varint=2",
+          "2:varint=1792417585",
+          "3:varint=8",
+          "6:varint=1792422136",
+          "8:varint=1792417890"
+        ],
+        [
+          "1:varint=2",
+          "2:varint=1792429105",
+          "3:varint=12",
+          "7:varint=1792437694"
+        ],
+        [
+          "1:varint=2",
+          "2:varint=1792446385",
+          "3:varint=20",
+          "6:varint=1792448374",
+          "7:varint=1792460326",
+          "8:varint=1792456438"
+        ],
+        [
+          "1:varint=6",
+          "2:varint=1792463665",
+          "3:varint=19"
+        ]
+      ]
+    },
+    {
+      "landFields": [
+        "1:varint=20",
+        "2:varint=1",
+        "3:varint=4",
+        "4:varint=5",
+        "8:bytes[24]=08011093011A0908E90710808F85CD011A0608ED0710C879",
+        "9:bytes[13]=08B0EA0110D00F18D00F28B817",
+        "10:bytes[182]=08C6A13E1209E9A9ACE8B984E88EB22210080110B18AD7D606180140EDD4D7D6",
+        "16:varint=4"
+      ],
+      "plantFields": [
+        "1:varint=1020102",
+        "2:bytes[9]=E9A9ACE8B984E88EB2",
+        "4:bytes[16]=080110B18AD7D606180140EDD4D7D606",
+        "4:bytes[22]=080210B1E4D7D606180638B1BCD8D60640D0A1D8D606",
+        "4:bytes[10]=080210B1BED8D6061808",
+        "4:bytes[16]=080210B198D9D606180C40F18FDAD606",
+        "4:bytes[28]=080210B19FDAD606181430C7DEDAD60638EEDADAD6064097EFDAD606",
+        "4:bytes[10]=080610B1A6DBD6061813",
+        "5:varint=1",
+        "10:varint=40102",
+        "11:varint=800",
+        "15:varint=69120",
+        "16:varint=1",
+        "17:varint=1",
+        "18:varint=800",
+        "22:varint=6795",
+        "26:varint=40102",
+        "27:varint=800",
+        "34:bytes[10]=08E90710F40318C6A13E",
+        "37:varint=149"
+      ],
+      "plantBytes": 182,
+      "plantDecoded": {
+        "id": 1020102,
+        "name": "\u9A6C\u8E44\u83B2",
+        "phases": [
+          {
+            "phase": 1,
+            "begin_time": 1792394545,
+            "phase_id": 1,
+            "insect_time": 1792404077
+          },
+          {
+            "phase": 2,
+            "begin_time": 1792406065,
+            "phase_id": 6,
+            "weeds_time": 1792417329,
+            "insect_time": 1792413904
+          },
+          {
+            "phase": 2,
+            "begin_time": 1792417585,
+            "phase_id": 8
+          },
+          {
+            "phase": 2,
+            "begin_time": 1792429105,
+            "phase_id": 12,
+            "insect_time": 1792444401
+          },
+          {
+            "phase": 2,
+            "begin_time": 1792446385,
+            "phase_id": 20,
+            "dry_time": 1792454471,
+            "weeds_time": 1792453998,
+            "insect_time": 1792456599
+          },
+          {
+            "phase": 6,
+            "begin_time": 1792463665,
+            "phase_id": 19
+          }
+        ],
+        "season": 1,
+        "fruit_id": 40102,
+        "fruit_num": 800,
+        "grow_sec": 69120,
+        "stealable": true,
+        "left_inorc_fert_times": 1,
+        "left_fruit_num": 800,
+        "exp": 6795,
+        "source_fruit_id": 40102,
+        "source_fruit_num": 800,
+        "buff_effects": [
+          {
+            "attr_id": 1001,
+            "attr_value": 500,
+            "extra_info": 1020102
+          }
+        ],
+        "planting_player_level": 149
+      },
+      "phaseRaw": [
+        [
+          "1:varint=1",
+          "2:varint=1792394545",
+          "3:varint=1",
+          "8:varint=1792404077"
+        ],
+        [
+          "1:varint=2",
+          "2:varint=1792406065",
+          "3:varint=6",
+          "7:varint=1792417329",
+          "8:varint=1792413904"
+        ],
+        [
+          "1:varint=2",
+          "2:varint=1792417585",
+          "3:varint=8"
+        ],
+        [
+          "1:varint=2",
+          "2:varint=1792429105",
+          "3:varint=12",
+          "8:varint=1792444401"
+        ],
+        [
+          "1:varint=2",
+          "2:varint=1792446385",
+          "3:varint=20",
+          "6:varint=1792454471",
+          "7:varint=1792453998",
+          "8:varint=1792456599"
+        ],
+        [
+          "1:varint=6",
+          "2:varint=1792463665",
+          "3:varint=19"
+        ]
+      ]
+    },
+    {
+      "landFields": [
+        "1:varint=21",
+        "2:varint=1",
+        "3:varint=4",
+        "4:varint=5",
+        "8:bytes[25]=08011096011A0908E9071080E9C9D6011A0708ED0710EE9101",
+        "9:bytes[13]=08B0EA0110D00F18D00F28B817",
+        "10:bytes[182]=08C6A13E1209E9A9ACE8B984E88EB22216080110B18AD7D606180130F8D3D7D6",
+        "16:varint=4"
+      ],
+      "plantFields": [
+        "1:varint=1020102",
+        "2:bytes[9]=E9A9ACE8B984E88EB2",
+        "4:bytes[22]=080110B18AD7D606180130F8D3D7D60638C4E0D7D606",
+        "4:bytes[16]=080210B1E4D7D6061806408CB0D8D606",
+        "4:bytes[22]=080210B1BED8D6061808309098D9D60640818CD9D606",
+        "4:bytes[10]=080210B198D9D606180C",
+        "4:bytes[22]=080210B19FDAD60618143097C4DAD60640D9B2DAD606",
+        "4:bytes[10]=080610B1A6DBD6061813",
+        "5:varint=1",
+        "10:varint=40102",
+        "11:varint=800",
+        "15:varint=69120",
+        "16:varint=1",
+        "17:varint=1",
+        "18:varint=800",
+        "22:varint=6795",
+        "26:varint=40102",
+        "27:varint=800",
+        "34:bytes[10]=08E90710F40318C6A13E",
+        "37:varint=149"
+      ],
+      "plantBytes": 182,
+      "plantDecoded": {
+        "id": 1020102,
+        "name": "\u9A6C\u8E44\u83B2",
+        "phases": [
+          {
+            "phase": 1,
+            "begin_time": 1792394545,
+            "phase_id": 1,
+            "dry_time": 1792403960,
+            "weeds_time": 1792405572
+          },
+          {
+            "phase": 2,
+            "begin_time": 1792406065,
+            "phase_id": 6,
+            "insect_time": 1792415756
+          },
+          {
+            "phase": 2,
+            "begin_time": 1792417585,
+            "phase_id": 8,
+            "dry_time": 1792429072,
+            "insect_time": 1792427521
+          },
+          {
+            "phase": 2,
+            "begin_time": 1792429105,
+            "phase_id": 12
+          },
+          {
+            "phase": 2,
+            "begin_time": 1792446385,
+            "phase_id": 20,
+            "dry_time": 1792451095,
+            "insect_time": 1792448857
+          },
+          {
+            "phase": 6,
+            "begin_time": 1792463665,
+            "phase_id": 19
+          }
+        ],
+        "season": 1,
+        "fruit_id": 40102,
+        "fruit_num": 800,
+        "grow_sec": 69120,
+        "stealable": true,
+        "left_inorc_fert_times": 1,
+        "left_fruit_num": 800,
+        "exp": 6795,
+        "source_fruit_id": 40102,
+        "source_fruit_num": 800,
+        "buff_effects": [
+          {
+            "attr_id": 1001,
+            "attr_value": 500,
+            "extra_info": 1020102
+          }
+        ],
+        "planting_player_level": 149
+      },
+      "phaseRaw": [
+        [
+          "1:varint=1",
+          "2:varint=1792394545",
+          "3:varint=1",
+          "6:varint=1792403960",
+          "7:varint=1792405572"
+        ],
+        [
+          "1:varint=2",
+          "2:varint=1792406065",
+          "3:varint=6",
+          "8:varint=1792415756"
+        ],
+        [
+          "1:varint=2",
+          "2:varint=1792417585",
+          "3:varint=8",
+          "6:varint=1792429072",
+          "8:varint=1792427521"
+        ],
+        [
+          "1:varint=2",
+          "2:varint=1792429105",
+          "3:varint=12"
+        ],
+        [
+          "1:varint=2",
+          "2:varint=1792446385",
+          "3:varint=20",
+          "6:varint=1792451095",
+          "8:varint=1792448857"
+        ],
+        [
+          "1:varint=6",
+          "2:varint=1792463665",
+          "3:varint=19"
+        ]
+      ]
+    },
+    {
+      "landFields": [
+        "1:varint=22",
+        "2:varint=1",
+        "3:varint=4",
+        "4:varint=5",
+        "8:bytes[25]=08011099011A0908E9071080C38EE0011A0708ED071080AF01",
+        "9:bytes[13]=08B0EA0110D00F18D00F28B817",
+        "10:bytes[194]=08C6A13E1209E9A9ACE8B984E88EB22216080110B18AD7D6061801309296D7D6",
+        "16:varint=4"
+      ],
+      "plantFields": [
+        "1:varint=1020102",
+        "2:bytes[9]=E9A9ACE8B984E88EB2",
+        "4:bytes[22]=080110B18AD7D6061801309296D7D60640AFB4D7D606",
+        "4:bytes[22]=080210B1E4D7D6061806388A90D8D60640B39AD8D606",
+        "4:bytes[10]=080210B1BED8D6061808",
+        "4:bytes[22]=080210B198D9D606180C30C38CDAD60640CCC6D9D606",
+        "4:bytes[28]=080210B19FDAD60618143081FFDAD60638CC9FDAD60640D780DBD606",
+        "4:bytes[10]=080610B1A6DBD6061813",
+        "5:varint=1",
+        "10:varint=40102",
+        "11:varint=800",
+        "15:varint=69120",
+        "16:varint=1",
+        "17:varint=1",
+        "18:varint=800",
+        "22:varint=6795",
+        "26:varint=40102",
+        "27:varint=800",
+        "34:bytes[10]=08E90710F40318C6A13E",
+        "37:varint=149"
+      ],
+      "plantBytes": 194,
+      "plantDecoded": {
+        "id": 1020102,
+        "name": "\u9A6C\u8E44\u83B2",
+        "phases": [
+          {
+            "phase": 1,
+            "begin_time": 1792394545,
+            "phase_id": 1,
+            "dry_time": 1792396050,
+            "insect_time": 1792399919
+          },
+          {
+            "phase": 2,
+            "begin_time": 1792406065,
+            "phase_id": 6,
+            "weeds_time": 1792411658,
+            "insect_time": 1792412979
+          },
+          {
+            "phase": 2,
+            "begin_time": 1792417585,
+            "phase_id": 8
+          },
+          {
+            "phase": 2,
+            "begin_time": 1792429105,
+            "phase_id": 12,
+            "dry_time": 1792443971,
+            "insect_time": 1792435020
+          },
+          {
+            "phase": 2,
+            "begin_time": 1792446385,
+            "phase_id": 20,
+            "dry_time": 1792458625,
+            "weeds_time": 1792446412,
+            "insect_time": 1792458839
+          },
+          {
+            "phase": 6,
+            "begin_time": 1792463665,
+            "phase_id": 19
+          }
+        ],
+        "season": 1,
+        "fruit_id": 40102,
+        "fruit_num": 800,
+        "grow_sec": 69120,
+        "stealable": true,
+        "left_inorc_fert_times": 1,
+        "left_fruit_num": 800,
+        "exp": 6795,
+        "source_fruit_id": 40102,
+        "source_fruit_num": 800,
+        "buff_effects": [
+          {
+            "attr_id": 1001,
+            "attr_value": 500,
+            "extra_info": 1020102
+          }
+        ],
+        "planting_player_level": 149
+      },
+      "phaseRaw": [
+        [
+          "1:varint=1",
+          "2:varint=1792394545",
+          "3:varint=1",
+          "6:varint=1792396050",
+          "8:varint=1792399919"
+        ],
+        [
+          "1:varint=2",
+          "2:varint=1792406065",
+          "3:varint=6",
+          "7:varint=1792411658",
+          "8:varint=1792412979"
+        ],
+        [
+          "1:varint=2",
+          "2:varint=1792417585",
+          "3:varint=8"
+        ],
+        [
+          "1:varint=2",
+          "2:varint=1792429105",
+          "3:varint=12",
+          "6:varint=1792443971",
+          "8:varint=1792435020"
+        ],
+        [
+          "1:varint=2",
+          "2:varint=1792446385",
+          "3:varint=20",
+          "6:varint=1792458625",
+          "7:varint=1792446412",
+          "8:varint=1792458839"
+        ],
+        [
+          "1:varint=6",
+          "2:varint=1792463665",
+          "3:varint=19"
+        ]
+      ]
+    },
+    {
+      "landFields": [
+        "1:varint=23",
+        "2:varint=1",
+        "3:varint=4",
+        "4:varint=5",
+        "8:bytes[25]=0801109C011A0908E90710809DD3E9011A0708ED071080D201",
+        "9:bytes[13]=08B0EA0110D00F18D00F28B817",
+        "10:bytes[176]=08C6A13E1209E9A9ACE8B984E88EB22210080110B18AD7D606180138CFC9D7D6",
+        "16:varint=4"
+      ],
+      "plantFields": [
+        "1:varint=1020102",
+        "2:bytes[9]=E9A9ACE8B984E88EB2",
+        "4:bytes[16]=080110B18AD7D606180138CFC9D7D606",
+        "4:bytes[22]=080210B1E4D7D606180630CBF9D7D60640BBEFD7D606",
+        "4:bytes[10]=080210B1BED8D6061808",
+        "4:bytes[28]=080210B198D9D606180C30CF9FD9D606389EBED9D60640E59BD9D606",
+        "4:bytes[10]=080210B19FDAD6061814",
+        "4:bytes[10]=080610B1A6DBD6061813",
+        "5:varint=1",
+        "10:varint=40102",
+        "11:varint=800",
+        "15:varint=69120",
+        "16:varint=1",
+        "17:varint=1",
+        "18:varint=800",
+        "22:varint=6795",
+        "26:varint=40102",
+        "27:varint=800",
+        "34:bytes[10]=08E90710F40318C6A13E",
+        "37:varint=149"
+      ],
+      "plantBytes": 176,
+      "plantDecoded": {
+        "id": 1020102,
+        "name": "\u9A6C\u8E44\u83B2",
+        "phases": [
+          {
+            "phase": 1,
+            "begin_time": 1792394545,
+            "phase_id": 1,
+            "weeds_time": 1792402639
+          },
+          {
+            "phase": 2,
+            "begin_time": 1792406065,
+            "phase_id": 6,
+            "dry_time": 1792408779,
+            "insect_time": 1792407483
+          },
+          {
+            "phase": 2,
+            "begin_time": 1792417585,
+            "phase_id": 8
+          },
+          {
+            "phase": 2,
+            "begin_time": 1792429105,
+            "phase_id": 12,
+            "dry_time": 1792430031,
+            "weeds_time": 1792433950,
+            "insect_time": 1792429541
+          },
+          {
+            "phase": 2,
+            "begin_time": 1792446385,
+            "phase_id": 20
+          },
+          {
+            "phase": 6,
+            "begin_time": 1792463665,
+            "phase_id": 19
+          }
+        ],
+        "season": 1,
+        "fruit_id": 40102,
+        "fruit_num": 800,
+        "grow_sec": 69120,
+        "stealable": true,
+        "left_inorc_fert_times": 1,
+        "left_fruit_num": 800,
+        "exp": 6795,
+        "source_fruit_id": 40102,
+        "source_fruit_num": 800,
+        "buff_effects": [
+          {
+            "attr_id": 1001,
+            "attr_value": 500,
+            "extra_info": 1020102
+          }
+        ],
+        "planting_player_level": 149
+      },
+      "phaseRaw": [
+        [
+          "1:varint=1",
+          "2:varint=1792394545",
+          "3:varint=1",
+          "7:varint=1792402639"
+        ],
+        [
+          "1:varint=2",
+          "2:varint=1792406065",
+          "3:varint=6",
+          "6:varint=1792408779",
+          "8:varint=1792407483"
+        ],
+        [
+          "1:varint=2",
+          "2:varint=1792417585",
+          "3:varint=8"
+        ],
+        [
+          "1:varint=2",
+          "2:varint=1792429105",
+          "3:varint=12",
+          "6:varint=1792430031",
+          "7:varint=1792433950",
+          "8:varint=1792429541"
+        ],
+        [
+          "1:varint=2",
+          "2:varint=1792446385",
+          "3:varint=20"
+        ],
+        [
+          "1:varint=6",
+          "2:varint=1792463665",
+          "3:varint=19"
+        ]
+      ]
+    },
+    {
+      "landFields": [
+        "1:varint=24",
+        "2:varint=1",
+        "3:varint=4",
+        "4:varint=5",
+        "8:bytes[25]=0801109F011A0908E9071080F797F3011A0708ED0710FAFB01",
+        "9:bytes[13]=08B0EA0110D00F18D00F28B817",
+        "10:bytes[182]=08C6A13E1209E9A9ACE8B984E88EB22216080110B18AD7D60618013085DED7D6",
+        "16:varint=4"
+      ],
+      "plantFields": [
+        "1:varint=1020102",
+        "2:bytes[9]=E9A9ACE8B984E88EB2",
+        "4:bytes[22]=080110B18AD7D60618013085DED7D60640E0B9D7D606",
+        "4:bytes[16]=080210B1E4D7D606180640C4BDD8D606",
+        "4:bytes[22]=080210B1BED8D606180838DDC1D8D60640A4FFD8D606",
+        "4:bytes[16]=080210B198D9D606180C38A3D0D9D606",
+        "4:bytes[16]=080210B19FDAD606181430B585DBD606",
+        "4:bytes[10]=080610B1A6DBD6061813",
+        "5:varint=1",
+        "10:varint=40102",
+        "11:varint=800",
+        "15:varint=69120",
+        "16:varint=1",
+        "17:varint=1",
+        "18:varint=800",
+        "22:varint=6795",
+        "26:varint=40102",
+        "27:varint=800",
+        "34:bytes[10]=08E90710F40318C6A13E",
+        "37:varint=149"
+      ],
+      "plantBytes": 182,
+      "plantDecoded": {
+        "id": 1020102,
+        "name": "\u9A6C\u8E44\u83B2",
+        "phases": [
+          {
+            "phase": 1,
+            "begin_time": 1792394545,
+            "phase_id": 1,
+            "dry_time": 1792405253,
+            "insect_time": 1792400608
+          },
+          {
+            "phase": 2,
+            "begin_time": 1792406065,
+            "phase_id": 6,
+            "insect_time": 1792417476
+          },
+          {
+            "phase": 2,
+            "begin_time": 1792417585,
+            "phase_id": 8,
+            "weeds_time": 1792418013,
+            "insect_time": 1792425892
+          },
+          {
+            "phase": 2,
+            "begin_time": 1792429105,
+            "phase_id": 12,
+            "weeds_time": 1792436259
+          },
+          {
+            "phase": 2,
+            "begin_time": 1792446385,
+            "phase_id": 20,
+            "dry_time": 1792459445
+          },
+          {
+            "phase": 6,
+            "begin_time": 1792463665,
+            "phase_id": 19
+          }
+        ],
+        "season": 1,
+        "fruit_id": 40102,
+        "fruit_num": 800,
+        "grow_sec": 69120,
+        "stealable": true,
+        "left_inorc_fert_times": 1,
+        "left_fruit_num": 800,
+        "exp": 6795,
+        "source_fruit_id": 40102,
+        "source_fruit_num": 800,
+        "buff_effects": [
+          {
+            "attr_id": 1001,
+            "attr_value": 500,
+            "extra_info": 1020102
+          }
+        ],
+        "planting_player_level": 149
+      },
+      "phaseRaw": [
+        [
+          "1:varint=1",
+          "2:varint=1792394545",
+          "3:varint=1",
+          "6:varint=1792405253",
+          "8:varint=1792400608"
+        ],
+        [
+          "1:varint=2",
+          "2:varint=1792406065",
+          "3:varint=6",
+          "8:varint=1792417476"
+        ],
+        [
+          "1:varint=2",
+          "2:varint=1792417585",
+          "3:varint=8",
+          "7:varint=1792418013",
+          "8:varint=1792425892"
+        ],
+        [
+          "1:varint=2",
+          "2:varint=1792429105",
+          "3:varint=12",
+          "7:varint=1792436259"
+        ],
+        [
+          "1:varint=2",
+          "2:varint=1792446385",
+          "3:varint=20",
+          "6:varint=1792459445"
+        ],
+        [
+          "1:varint=6",
+          "2:varint=1792463665",
+          "3:varint=19"
+        ]
+      ]
+    }
+  ],
+  "landCount": 24
+}

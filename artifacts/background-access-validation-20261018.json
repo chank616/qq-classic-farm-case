@@ -1,0 +1,48 @@
+{
+  "validatedAt": "2026-10-18T08:25:59.218Z",
+  "requirement": "Already logged-in QQ only; never start the farm miniapp",
+  "status": "incomplete",
+  "completed": false,
+  "allRequiredComplete": false,
+  "farmLaunchRequested": false,
+  "authorizationCodeAcquired": false,
+  "realFarmServerVerified": false,
+  "standaloneCsharpCrypto": {
+    "runtime": "csharp-wasmtime",
+    "farmStarted": false,
+    "qqStarted": false,
+    "cases": 3,
+    "roundtrip": true,
+    "serverVerified": false,
+    "timestamp": "2026-10-18T08:08:16.2118529+00:00"
+  },
+  "nativeQqIpc": {
+    "runtime": "csharp-native-qq-ipc-probe",
+    "farmStarted": false,
+    "qqStarted": false,
+    "factoryHr": 0,
+    "createHr": 0,
+    "events": [
+      {
+        "method": "IPC_DISCONNECTED",
+        "bytes": 0
+      }
+    ],
+    "serverVerified": false,
+    "timestamp": "2026-10-18T08:14:29.7470073+00:00"
+  },
+  "applicationInspection": {
+    "generatedAt": "2026-10-18T08:25:39.0806956+00:00",
+    "runtime": "csharp",
+    "runId": "bfcbb96b-def7-4d71-ad27-22e94d8faf4b",
+    "status": "waiting-bridge",
+    "completed": false,
+    "allRequiredComplete": false,
+    "error": "仅登录 QQ 的后台接入尚未实现；已禁止自动启动农场小程序。",
+    "mode": "inspection"
+  },
+  "qqHostArchiveRestored": true,
+  "blockingCondition": "The standalone IPC client receives IPC_DISCONNECTED without a QQ-created channel invitation. Independent QQ SSO authorization is not implemented.",
+  "productRuntimeReplaced": false,
+  "experimentalVendorPatchRemovedFromTools": true
+}

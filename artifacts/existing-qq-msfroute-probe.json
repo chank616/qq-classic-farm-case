@@ -1,0 +1,19 @@
+{
+  "mode": "msfroute",
+  "pid": 3888,
+  "qqStarted": false,
+  "farmStarted": false,
+  "diagnostics": [
+    {
+      "state": "runtime-metadata",
+      "pid": 3888,
+      "value": {
+        "pid": 3888,
+        "transport": "existing-renderer-invoke",
+        "result": {
+          "state": "timeout"
+        }
+      }
+    }
+  ]
+}

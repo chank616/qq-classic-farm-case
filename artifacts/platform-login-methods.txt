@@ -1,0 +1,429 @@
+systems 1445
+EXPORT WxPlatformUtil WxPlatformUtil static [ 'length', 'name', 'prototype' ] proto [
+  'constructor',
+  'isInForeground',
+  'init',
+  'onShow',
+  'onHide',
+  'getExptValue',
+  'getReconnectDelay',
+  'notifyOnshow',
+  'tryEnterSharedFarmOnShow',
+  'isPlatfromSupport',
+  'changeTopSafe',
+  'checkNetwork',
+  'getAllFriends',
+  'getFriendStorage',
+  'fastShareAppToFriend',
+  'onEnterGame',
+  'initMemory',
+  'wxTriggerGC',
+  'triggerGC',
+  'setKeepScreenOn',
+  'updateLaunchOptions',
+  'getLaunchOptionsSync',
+  'isDarkMode',
+  'platLogin',
+  'setShareAppMessage',
+  'confirmLogin',
+  'requestMyUserInfo',
+  'onPlatformLoginSuccess',
+  'onGameServerLoginSuccess',
+  'handleLoginPrivacyAuthorize',
+  'startPrivacyAuthorize',
+  'registerPrivacyListener',
+  'privacyCallBack',
+  'openPrivacyContract',
+  'doPrivacyAuthorize',
+  'doWxPrivacyFinish',
+  'onGameEnter',
+  'onActivityChanged',
+  'openLink',
+  'joinChannel',
+  'showJoinChannelBtn',
+  'hideJoinChannelBtn',
+  'destoryJoinChannel',
+  'showJoinChannelFailToast',
+  'requestWxOpenData',
+  'wxReportRankData',
+  'wxRemoveRankData',
+  'shareAppMessage',
+  'gameRestart',
+  'getPlatName',
+  'exit',
+  'hideLoading',
+  'reportEvent',
+  'getChannelId',
+  'clearStorage',
+  'requirePrivacyAuthorize',
+  'isAuthorize',
+  'checkAuthorize',
+  'authorize',
+  'isWxFriendInteractionAuthorize',
+  'isWxInteractedUserInfoAuthorize',
+  'reqWxInteractedUserInfoAuthorize',
+  'reqWxFriendInteractionAuthorize',
+  'showUserInfoButton',
+  'hideUserInfoButton',
+  'getUserInfo',
+  'openSetting',
+  'postSubContextMessage',
+  'clearAndReset',
+  'onOpenSettingClick',
+  'showModal',
+  'checkSupportRecommend',
+  'requestPay',
+  'directPay',
+  'rechargeSuccess',
+  'payWait',
+  'closePayTimer',
+  'inPayWaitOpen',
+  'inPayWaitClose',
+  'checkPrivacyAuthorization',
+  'triggerGamePrivacyAuth',
+  'handleCopyError',
+  'wxCopyFun',
+  'getDeviceLevel',
+  'compareVersion',
+  'getSystemInfoSync',
+  'isRechargeSupport',
+  'showRechargeSupportWin',
+  'checkSubscribeTemplates',
+  'requestSubscribeTemplates',
+  'reqTemplatesByNotify',
+  'reportSubscribeStatus',
+  'onSubscribeAuthPromptNotify',
+  'checkSubscribeSystemMessage',
+  'checkGameClubData',
+  'requestSubscribeSystemMessage',
+  'setFrameRate',
+  'captureSupported',
+  'isAlbumAuthDenied',
+  'showAlbumAuthorizeGuide',
+  ... 9 more items
+]
+
+### WxPlatformUtil WxPlatformUtil.isInForeground 
+function(){return this[o[13758]]}
+
+### WxPlatformUtil WxPlatformUtil.init 
+function(){var i=this;if(logger[a[70]](o[30463]),!this[v[36395]]()){logger[S[66]](T[23170]),this[T[507]](bi[T[18363]],{});var t=this[Q[9488]]()[S[205]],n="",r="";return S[35248]===t?(r=c[21643],n=M[13880]):l[9360]===t||D[8867]===t||f[31190]===t?(r=D[22444],n=c[30543]):(r=S[36961],n=k[18882]),void Hi()[g[5396]]({title:r,content:n,showCancel:!1,success:function(t){t[o[3354]]&&(logger[k[70]](v[39373]),i[D[813]]())}})}R[103]!=("undefined"==typeof wx?"undefined":ti(wx))&&L[801]==ti(Hi()[R[2738]])&&Hi()[D[2738]]((function(i){logger[M[66]](v[41705],i[o[31]])})),this[c[3780]](),this[k[2846]](),this[T[31725]](),this[Y[17532]](),p[o[1082]][Q[194]]=U[v[1404]],this[M[9749]](),p[Y[31]].on(oi[k[3648]],this[q[11095]],this),p[d[31]].on(ei[D[963]],this[k[3415]],this),p[v[31]].on(bi[k[12164]],this[k[34158]],this),p[k[31]].on(b[Y[955]],this[f[4452]],this),p[g[31]].on(b[Q[4203]],this[l[7785]],this),this[R[10548]](),Hi()[L[147]]&&Hi()[l[147]]((function(){if(i[D[4070]]&&i[Q[4070]][g[7]]>0){var t=i[k[4070]][l[338]](0,3);i[Y[4070]]=i[l[4070]][M[338]](3),i[Y[7862]](t)}})),Q[103]!=("undefined"==typeof wx?"undefined":ti(wx))&&a[801]==ti(Hi()[R[25241]])?(logger[Y[70]](o[25241]),Hi()[J[25241]]({keyList:[J[32133]],success:function(t){i[M[3409]]={},t[D[355]][v[73]]((function(t){logger[q[70]](c[18552],t[y[34949]]),logger[S[70]](f[35848],t[c[34705]]),logger[a[70]](T[14875],t[Q[27863]]),i[f[3409]][t[M[34949]]]=t[R[27863]]}))},fail:function(i){logger[J[13]](Q[36647],i)}})):logger[J[13]](d[11075])}
+
+### WxPlatformUtil WxPlatformUtil.onShow 
+function(i,t){F[l[41564]]=ci()[o[683]](),logger[Q[70]](a[30061]+N()[M[550]](t)+d[1184]+F[J[9049]]+R[6617]+ci()[D[683]]()),logger[c[70]](l[30472],t),this[T[13758]]=!0,this[J[24860]](t,pi[a[4452]]),F[S[9506]]?p[c[132]][S[31803]]()?(logger[d[70]](l[26142]),p[Y[132]][M[304]](1001,d[24890]),p[a[1082]][L[194]]=U[q[5586]]):p[k[132]][v[4276]]()?(logger[Y[70]](c[41073]),this[q[27588]](),this[c[34735]]()):logger[a[70]](o[26382]):logger[d[70]](q[11497])}
+
+### WxPlatformUtil WxPlatformUtil.onHide 
+function(){var i={};i[q[814]]=ci()[R[683]]()-F[Q[41564]],i[c[8936]]=null!=F[l[1019]],logger[L[70]](l[25410]),this[M[13758]]=!1,this[c[507]](bi[l[15005]],i)}
+
+### WxPlatformUtil WxPlatformUtil.getExptValue 
+function(i){return this[d[3409]]?this[L[3409]][i]:null}
+
+### WxPlatformUtil WxPlatformUtil.getReconnectDelay 
+function(){return 1e3}
+
+### WxPlatformUtil WxPlatformUtil.notifyOnshow 
+function(){logger[d[70]](Q[41073]);var i=G[v[674]][q[1856]][a[0]]();i[g[2344]]=F[v[2690]],i[q[1641]]=F[Y[7446]],i[q[3820]]=F[Y[3049]],i[T[3884]]=F[o[6796]][c[441]](),i[l[544]]=F[S[544]],i[c[749]]=F[R[749]],i[c[663]]=F[Y[663]],i[a[1994]]=F[a[37481]],logger[a[70]](f[41619]+i[g[1994]]),p[S[132]][R[766]](G[a[674]][f[1856]][c[85]](i)[k[265]](),ii[k[21897]],(function(){F[S[749]]!=ui[T[3384]]||Fi[Y[563]]()[J[2215]]()||hi[S[43]][M[3073]]()}))}
+
+### WxPlatformUtil WxPlatformUtil.tryEnterSharedFarmOnShow 
+function(){var i,t=F[y[3474]],n=null==(i=A[R[764]])?void 0:i[J[55]],r=A[c[6552]];logger[L[70]](c[37679]+t+a[31934]+n+D[30576]+r+R[16043]+!!A[a[764]]+c[33632]+Di[f[43]][S[679]]()),t<=0?logger[a[70]](R[35973]+t+")"):ai[J[717]][g[2020]]?logger[k[70]](D[40518]):!A[g[764]]||null==A[Y[6552]]||A[R[6552]]<=0?logger[l[70]](l[28430]+!!A[M[764]]+M[30576]+r+")"):A[k[6552]]!=t?Di[g[43]][k[679]]()?A[T[764]][d[2745]]?this[L[9585]]()[y[209]]((function(){F[Y[3474]]=0,logger[M[70]](o[33120]),p[S[44]][d[25794]](V[Q[722]]),logger[S[70]](M[34670]+t),qi[y[38522]]()&&qi[M[35650]](t,o[4590]),Si[S[1182]](t,yi[R[4145]])}))[a[153]]((function(){logger[g[70]](T[17801]+t),F[q[3474]]=0})):logger[R[70]](d[16857]+t):logger[D[70]](Q[15740]):logger[Q[70]](M[28379]+r+o[13131]+t+")")}
+
+### WxPlatformUtil WxPlatformUtil.isPlatfromSupport 
+function(){var i=this[c[9488]]()[q[205]];return logger[L[70]](Y[205],i),Y[31190]!==i}
+
+### WxPlatformUtil WxPlatformUtil.changeTopSafe 
+function(){if(!F[l[3196]]){var i=this[o[9488]]();logger[d[70]](f[33717],i,g[8254],screen);var t=Hi()[c[26592]](),n=h[a[27891]](),r=n[R[811]]/screen[o[811]],e=Ti()[d[809]](t[D[821]]*r);e-=80;var u=Ti()[y[809]](t[D[7566]]*r);u-=80;var s=this[J[9488]]()[L[23433]];if(s=Ti()[a[809]](s*r-80),this[g[22150]])F[M[6406]]=0,F[q[9651]]=u>0?u:0;else if(s>=u)F[L[6406]]=0,F[a[9651]]=s;else if(e<s&&u>s)F[q[6406]]=0,F[D[9651]]=u;else{r=n[v[87]]/screen[c[87]];var k=Ti()[v[809]](r*(screen[a[87]]-t[v[6062]]));F[Q[6406]]=k-20,F[y[9651]]=e}F[d[9651]]=Ti()[c[967]](F[D[9651]],-66),F[M[16826]]=t,logger[c[70]](y[30399],t,o[30954],s,d[13651],r),p[D[31]][c[41]](oi[q[5340]])}}
+
+### WxPlatformUtil WxPlatformUtil.checkNetwork 
+function(){var i={};i[o[977]]=function(i){o[1450]===i[o[34357]]&&ki[g[28819]](k[31095],(function(){p[k[555]][a[2353]]()}),q[38656],(function(){p[f[555]][c[813]]()}),M[3444])},i[q[447]]=function(i){logger[k[13]](R[26369],i)},i[d[725]]=function(i){logger[D[70]](l[40215],i)},Hi()[a[1716]](i)}
+
+### WxPlatformUtil WxPlatformUtil.getAllFriends 
+function(){return logger[y[70]](y[15719]),Ri()[y[346]]()}
+
+### WxPlatformUtil WxPlatformUtil.getFriendStorage 
+function(){return logger[f[70]](l[37550]),Ri()[L[346]]()}
+
+### WxPlatformUtil WxPlatformUtil.fastShareAppToFriend 
+function(i,t,n,r,e,u){logger[c[70]](R[13603])}
+
+### WxPlatformUtil WxPlatformUtil.onEnterGame 
+function(){logger[k[70]](q[34289])}
+
+### WxPlatformUtil WxPlatformUtil.initMemory 
+function(){var i=this;Hi()[q[13600]]((function(){i[M[30697]]()}))}
+
+### WxPlatformUtil WxPlatformUtil.wxTriggerGC 
+function(){var i=Hi();i[k[4770]]&&(i[o[4770]](),logger[o[70]](d[30697]))}
+
+### WxPlatformUtil WxPlatformUtil.triggerGC 
+function(){this[L[30697]]()}
+
+### WxPlatformUtil WxPlatformUtil.setKeepScreenOn 
+function(){logger[v[70]](a[3780],F[J[1007]],F[v[6514]]),(F[v[1007]]||F[l[6514]])&&Hi()[o[3780]]&&Hi()[R[3780]]({keepScreenOn:!0,success:function(i){logger[S[70]](d[39761],i)},fail:function(i){logger[k[70]](T[17335],i)}})}
+
+### WxPlatformUtil WxPlatformUtil.updateLaunchOptions 
+function(i,t){void 0===t&&(t=pi[D[3386]]);try{logger[k[70]](T[33312]+t+k[1184]+F[J[9049]]+g[29584]+N()[k[550]](i));try{var n,r=i?Yi()[o[69]](i):[];logger[M[70]](J[13378]+B()[T[550]](r)+Q[11422]+W()[y[550]](null==i?void 0:i[Y[34974]])+S[20515]+X()[g[550]](null==i||null==(n=i[a[34974]])?void 0:n[y[4344]]))}catch(i){logger[f[66]](Y[20019],i)}logger[y[70]](y[13454],i);var e=i[k[864]],u=i[l[3716]],h=i[k[8032]],s=i[a[35837]];logger[M[70]](l[21608]+ti(u)+S[38492]+X()[D[550]](u)+D[25420]+(u&&D[798]==ti(u)?$()[J[550]](Yi()[g[69]](u)):q[29490])+D[27047]+h+o[38441]+s+l[39436]+e),logger[L[70]](Q[32201]+e+S[28769]+_()[a[550]](u)+M[35381]+h+d[26559]+s),e=this[q[10398]](e,s),F[g[6796]]=li()(e),F[J[7446]]=(null==u?void 0:u[f[570]])||"",F[v[2690]]=li()((null==u?void 0:u[T[730]])||0),F[l[3049]]=li()((null==u?void 0:u[q[41338]])||0),F[T[2085]]=li()((null==u?void 0:u[a[5724]])||-1),F[Q[544]]=u[J[544]]||"",F[c[8032]]=h||"",F[f[749]]=null==u?void 0:u[o[749]],F[y[663]]=null!=u&&u[g[663]]?E[y[11522]](u[f[663]]):null,F[J[37481]]=li()((null==u?void 0:u[Y[22110]])||"0");var z,H=null==u?void 0:u[k[20071]];if(H&&(F[L[9374]]=H),null!=i&&i[l[5290]]&&(F[a[5290]]=i[S[5290]],this[g[40880]][Y[18261]](i[a[5290]]),logger[g[70]](Q[16766]+F[o[5290]])),"wx"==p[a[555]][D[848]]()&&(null==F[d[544]]||0==F[o[544]][o[7]])&&null!=i&&null!=(z=i[v[3716]])&&z[y[3716]]){var P=ji[k[43]][d[5600]](i[d[3716]][v[3716]],g[544]);F[L[544]]=P||""}p[D[31]][a[41]](oi[o[5841]],t);var C=!F[c[2690]]&&!F[a[7446]];logger[c[70]](D[11592]+t+Y[35984]+C+d[16354]+F[D[2690]]+l[21145]+F[D[7446]]+S[41986]+F[g[3049]]+S[39321]+F[f[2085]]+y[11864]+F[k[6796]]+k[35360]+F[o[544]]+y[6617]+ci()[R[683]]()),C&&logger[d[13]](y[24310]+p[f[555]][a[848]]()+D[1184]+F[g[9049]]+f[11796]+t+v[34908]+x()[Q[550]](u)+L[11422]+x()[R[550]](null==i?void 0:i[T[34974]])),logger[c[70]](D[27149],F[d[7446]],y[37462],F[T[2690]],T[34946],F[S[3049]],c[26535],F[Q[2085]],L[41356],F[R[6796]],R[36476],F[M[544]]),p[a[31]][Q[41]](oi[T[40525]],{lauchScene:F[c[6796]]});var m=null==u?void 0:u[S[22554]];if(void 0===m||null==m)return logger[R[70]](y[26700]),void(F[k[1019]]=null);var j=B()[a[927]](Ci()(m));if(null==j[y[2528]]||void 0===j[q[2528]])return logger[g[70]](D[13418]),void(F[l[1019]]=null);var O=$()[R[927]](j[y[2528]]),A=O[f[21193]];F[y[1019]]=O[f[885]][A][T[14460]],this[v[507]](bi[Q[11227]],{}),p[M[31]][v[41]](Li[M[5012]])}catch(i){logger[f[66]](a[39220],i)}}
+
+### WxPlatformUtil WxPlatformUtil.getLaunchOptionsSync 
+function(){var i=Hi()[D[2846]]();logger[v[70]](l[42140]+I()[Q[550]](i)+g[1184]+F[J[9049]]+M[26654]+ti(i&&i[k[3716]])+S[6617]+ci()[v[683]]()),this[Y[24860]](i,pi[f[2846]])}
+
+### WxPlatformUtil WxPlatformUtil.isDarkMode 
+function(){return Q[41620]===Hi()[q[37385]]()[L[21637]]}
+
+### WxPlatformUtil WxPlatformUtil.platLogin 
+function(){var i=this;logger[g[70]](y[18487]),logger[S[814]](l[18487]),p[o[44]][S[8956]](1);var t=!1,n=null;n=Ji()((function(){t||(t=!0,logger[J[13]](k[28790]),n&&(vi()(n),n=null),logger[o[34512]](T[18487]),p[S[44]][k[2267]](1),i[c[15458]]())}),5e3),Hi()[a[4776]]({timeout:3e3,success:function(r){logger[q[70]](c[11126],r),t||(t=!0,n&&(vi()(n),n=null),r[J[8901]]?(logger[J[70]](g[27632]+r[Q[8901]]),i[T[507]](bi[o[42004]],{}),i[a[9945]](r[l[8901]])):(logger[T[13]](g[14804]+r[g[3961]]),i[R[15458]]()))},fail:function(r){t||(t=!0,n&&(vi()(n),n=null),logger[l[13]](o[25655],r[D[3961]]),i[J[15458]]())},complete:function(){n&&(vi()(n),n=null),logger[L[34512]](k[18487]),logger[o[70]](o[26355]),p[a[44]][Q[2267]](1)}})}
+
+### WxPlatformUtil WxPlatformUtil.setShareAppMessage 
+function(){var i={};i[o[28041]]=[Y[5310],v[35818]];var t={};t[l[27857]]=!0,t[g[32054]]=!0,Hi()[J[40213]](i),Hi()[q[12700]](t);var n=ji[y[43]][D[8523]](j[l[846]]),r=n[Y[8568]],e=n[l[974]];Hi()[a[15953]]((function(){var i=ji[y[43]][c[2671]](O[d[18701]],n[d[3604]]),t={};return t[o[974]]=e,t[T[8568]]=r,t[y[3716]]=i,t})),Hi()[g[27222]]((function(){var i=ji[d[43]][L[2671]](O[g[18701]],n[v[3604]]),t={};return t[v[974]]=e,t[R[8568]]=r,t[d[3716]]=i,t})),logger[q[70]](o[38719],Hi()[a[15953]],Hi()[y[27222]],e,r)}
+
+### WxPlatformUtil WxPlatformUtil.confirmLogin 
+function(){var i=this;p[k[555]][S[3354]](k[25946],(function(){i[o[9749]]()}),D[22007],(function(){p[M[555]][c[813]]()}),q[3444])}
+
+### WxPlatformUtil WxPlatformUtil.requestMyUserInfo 
+function(){p[y[31]][L[41]](oi[S[33262]])}
+
+### WxPlatformUtil WxPlatformUtil.onPlatformLoginSuccess 
+function(i){F[S[23195]]=i,A[S[23169]]=!0,F[g[8107]]=p[R[676]][q[342]][T[26801]],K[c[43]][R[897]](this[T[848]]()),logger[R[70]](T[9945],F[o[8107]]),p[o[31]][L[41]](oi[T[4895]])}
+
+### WxPlatformUtil WxPlatformUtil.onGameServerLoginSuccess 
+function(){var i=this;logger[k[70]](f[36199]),"wx"==this[d[848]]()?(this[a[9585]]()[q[209]]((function(){i[Q[9065]](),F[J[3196]]&&A[g[764]][D[251]]==Mi[M[3161]]?logger[L[70]](k[40967]):i[q[7602]]()[T[209]]((function(i){Qi[Q[43]][L[4811]](i[d[5038]],i[g[380]])}))[l[153]]((function(i){logger[v[66]](R[21179],i)}))}))[Y[153]]((function(t){i[f[19703]]()})),this[D[2932]](A[k[764]][g[55]],A[v[764]][S[75]],A[T[764]][a[2719]]),this[o[22883]](),this[T[13061]](),Qi[D[43]][d[39487]]()):this[R[9065]]()}
+
+### WxPlatformUtil WxPlatformUtil.handleLoginPrivacyAuthorize 
+function(){this[d[21152]]||(this[d[21152]]=!0,this[D[19904]]())}
+
+### WxPlatformUtil WxPlatformUtil.startPrivacyAuthorize 
+function(){Hi()[k[20282]]&&Hi()[D[2385]]?(this[R[29690]](),this[k[34259]]()):(logger[T[66]](d[14415]),this[S[9065]]())}
+
+### WxPlatformUtil WxPlatformUtil.registerPrivacyListener 
+function(){Hi()[g[20282]](this[S[42141]][d[289]](this))}
+
+### WxPlatformUtil WxPlatformUtil.privacyCallBack 
+function(i,t){var n={};n[c[716]]=Q[17539],logger[k[70]](L[33776],i,k[31704],t),this[L[4308]]=i,p[g[44]][a[151]](di[q[5417]]),i(n)}
+
+### WxPlatformUtil WxPlatformUtil.openPrivacyContract 
+function(){logger[g[70]](R[26063]),Hi()[c[40065]]({success:function(i){logger[Q[70]](g[24155],i)},fail:function(i){logger[J[66]](q[22105],i)},complete:function(i){logger[Y[70]](q[26413],i)}})}
+
+### WxPlatformUtil WxPlatformUtil.doPrivacyAuthorize 
+function(){var i=this;logger[d[70]](Q[21997]),this[D[2385]]()[L[209]]((function(t){logger[v[70]](L[25067],t),p[Y[44]][q[56]](di[L[5417]]),p[g[555]][q[9065]](),i[D[9385]]()}))[D[153]]((function(t){logger[y[66]](l[28694],t),1==t||2==t&&Hi()[J[5396]]({title:l[38630],content:c[37927],showCancel:!1,success:function(t){i[a[813]]()}})}))}
+
+### WxPlatformUtil WxPlatformUtil.doWxPrivacyFinish 
+function(){this[S[13760]]=!0,p[k[31]][l[41]](zi[T[2874]]),p[S[31]][R[41]](zi[k[5232]]),p[o[31]][M[41]](si[a[4933]])}
+
+### WxPlatformUtil WxPlatformUtil.onGameEnter 
+function(){this[Q[8339]]()}
+
+### WxPlatformUtil WxPlatformUtil.onActivityChanged 
+function(){this[y[8339]]()}
+
+### WxPlatformUtil WxPlatformUtil.openLink 
+function(i,t){if(Q[801]!=ti(Hi()[v[26913]]))return R[103]!=("undefined"==typeof wx?"undefined":ti(wx))&&f[801]==ti(Hi()[y[30290]])?(Hi()[y[30290]]({url:i}),void(t&&t(!0))):void(t&&t(!1));Hi()[l[26913]]({url:i,success:function(){logger[o[70]](R[27646],i),t&&t(!0)},fail:function(n){if(logger[M[66]](D[30368],n),c[801]==ti(Hi()[k[30290]]))return Hi()[d[30290]]({url:i}),void(t&&t(!0));t&&t(!1)}})}
+
+### WxPlatformUtil WxPlatformUtil.joinChannel 
+function(){var i=this;if(F[J[3196]])this[l[2667]]();else{var t=D[21664];if(f[103]!=("undefined"==typeof wx?"undefined":ti(wx))&&l[801]==ti(Hi()[D[34451]]))try{var n=Hi()[M[34451]]();n&&f[801]==ti(n[f[610]])?n[J[610]]({openlink:t})[q[209]]((function(i){logger[M[70]](v[17400],t,l[7263],i),n[D[623]]&&n[D[623]]()}))[f[153]]((function(t){i[S[2667]](),logger[y[66]](J[31252],t)})):(logger[f[13]](l[33586]),this[f[2667]]())}catch(i){this[g[2667]](),logger[Y[66]](g[37881],i)}else logger[J[13]](R[35101]),this[k[2667]]()}}
+
+### WxPlatformUtil WxPlatformUtil.showJoinChannelBtn 
+function(i,t){var n,r,e,u,q=this;t&&(this[l[27260]]=t);var P=null!=i&&i[c[79]]&&i[c[348]]?i[M[64]](s):null,j=P?i[a[348]][M[64]](s):null;if(P&&j){var O=j[J[1510]](new H(i[D[684]].x,i[y[684]].y)),A=O.x-P[d[87]]/2,p=h[o[5238]]()[v[811]]-O.y-P[M[811]]/2,b=m()[l[29176]]/h[d[5238]]()[g[87]];n=A*b,r=p*b,e=P[o[87]]*b,u=P[Y[811]]*b}else{var U=z()[k[29176]],V=C()[J[30642]],w=320/F[D[16953]],Z=870/F[Q[22573]];e=Ti()[S[293]](254/720*U),u=Ti()[c[293]](92*e/254),n=U*w-.35*e,r=V*Z,logger[Y[13]](J[28480])}this[v[5556]]?this[v[5556]][M[2845]]&&(this[l[5556]][T[2845]][d[6062]]=n,this[L[5556]][L[2845]][L[821]]=r,this[R[5556]][f[2845]][Q[87]]=e,this[g[5556]][g[2845]][Q[811]]=u):(this[M[5556]]=Hi()[a[10974]]({type:S[9885],image:f[30442],icon:k[17110],style:{left:n,top:r,width:e,height:u,backgroundColor:J[40920],borderWidth:P?0:1,borderRadius:20}}),this[f[5556]]&&Y[801]==ti(this[Y[5556]][y[13125]])&&this[l[5556]][o[13125]]((function(){q[T[27260]]&&q[T[27260]]()}))),this[J[5556]]&&this[M[5556]][g[623]]()}
+
+### WxPlatformUtil WxPlatformUtil.hideJoinChannelBtn 
+function(){this[o[5556]]&&this[L[5556]][J[839]]()}
+
+### WxPlatformUtil WxPlatformUtil.destoryJoinChannel 
+function(){this[M[5556]]&&(this[L[5556]][R[584]](),this[J[5556]]=null),this[l[27260]]=null}
+
+### WxPlatformUtil WxPlatformUtil.showJoinChannelFailToast 
+function(){var i={};i[c[974]]=Q[21370],i[D[867]]=Y[1450],i[c[638]]=3e3,Hi()[T[7882]](i)}
+
+### WxPlatformUtil WxPlatformUtil.requestWxOpenData 
+function(i){}
+
+### WxPlatformUtil WxPlatformUtil.wxReportRankData 
+function(i,t,n){var r={};r[R[690]]=o[75],r[a[14]]=""+t;var e={};e[R[690]]=D[2719],e[d[14]]=""+n;var u={};u[k[690]]=k[55],u[a[14]]=""+i;var h={};h[q[34788]]=[r,e,u],h[g[977]]=function(){logger[T[70]](T[13332])},h[J[447]]=function(i){logger[l[66]](R[11353],i[l[3961]])},h[a[725]]=function(i){logger[S[70]](o[35324],i)},Hi()[J[28371]](h)}
+
+### WxPlatformUtil WxPlatformUtil.wxRemoveRankData 
+function(){var i={};i[T[30500]]=[g[75],g[2719],a[55]],i[R[977]]=function(){logger[y[70]](k[13315])},i[l[447]]=function(i){logger[a[66]](y[12235],i)},i[k[725]]=function(i){logger[y[70]](f[15156],i)},Hi()[y[41956]](i)}
+
+### WxPlatformUtil WxPlatformUtil.shareAppMessage 
+function(i,t,n,r,e,u){void 0===r&&(r=null),void 0===u&&(u=null),logger[q[70]](y[19779],i,Q[32074],t,D[31187],n),Hi()[l[5310]]({title:i,imageUrl:t,query:n}),Ji()((function(){var i=li()(ji[S[43]][l[5600]](n,q[5724]));r&&r(i),u&&u()}),1e3)}
+
+### WxPlatformUtil WxPlatformUtil.gameRestart 
+function(){var i={};i[R[156]]="",logger[o[13]](Q[21644]),p[c[39049]](),Hi()[J[32145]](i)}
+
+### WxPlatformUtil WxPlatformUtil.getPlatName 
+function(){return"wx"}
+
+### WxPlatformUtil WxPlatformUtil.exit 
+function(){logger[c[13]](y[41920]),p[g[39049]](),Hi()[L[15227]]()}
+
+### WxPlatformUtil WxPlatformUtil.hideLoading 
+function(){Hi()[D[2381]]()}
+
+### WxPlatformUtil WxPlatformUtil.reportEvent 
+function(i,t){f[801]==ti(Hi()[v[507]])&&Hi()[y[507]](i,t)}
+
+### WxPlatformUtil WxPlatformUtil.getChannelId 
+function(){return 1}
+
+### WxPlatformUtil WxPlatformUtil.clearStorage 
+function(){return new(Ri())((function(i,t){i(!0)}))}
+
+### WxPlatformUtil WxPlatformUtil.requirePrivacyAuthorize 
+function(){return new(Ri())((function(i,t){Hi()[J[2385]]?Hi()[a[2385]]({success:function(t){logger[c[70]](q[23474],t),i(!0)},fail:function(i){logger[d[66]](R[29310],i),t(1)}}):(logger[L[66]](a[27062]),t(2))}))}
+
+### WxPlatformUtil WxPlatformUtil.isAuthorize 
+function(){var i=this;return new(Ri())((function(t,n){i[L[40880]][a[13151]]()&&(logger[o[70]](Y[29749]),t(!0)),Hi()[D[6236]]({success:function(i){i[M[1002]][Q[12139]]?(logger[R[70]](S[25268],i),t(!0)):(logger[Y[70]](L[24952],i),n())},fail:function(i){p[S[44]][Y[50]](D[26268]),logger[f[66]](Q[41207],i),n()}})}))}
+
+### WxPlatformUtil WxPlatformUtil.checkAuthorize 
+function(i){return void 0===i&&(i=null),new(Ri())((function(t,n){p[l[555]][g[9585]]()[Y[209]]((function(){t(1)}))[Y[153]]((function(){i&&p[y[507]](bi[k[14860]],{type:i}),p[f[555]][T[9385]]()[T[209]]((function(){t(2)}))[y[153]]((function(){n(!1)}))}))}))}
+
+### WxPlatformUtil WxPlatformUtil.authorize 
+function(){var i=this;return new(Ri())((function(t,n){var r={};r[f[120]]=l[18664],r[R[977]]=function(n){Qi[g[43]][d[4811]](n[Y[6583]][v[5038]],n[f[6583]][L[380]]),p[y[31]][J[41]](oi[f[33262]]),i[M[507]](bi[M[23787]],{}),logger[c[70]](q[27003],n),t(!0)},r[R[447]]=function(t){logger[c[13]](y[32311],t),i[o[507]](bi[Y[4477]],{}),p[v[44]][T[50]](Qi[y[43]][D[9775]]),n()},r[v[725]]=function(i){logger[v[70]](D[35363],i)},Hi()[R[39188]](r)}))[D[153]]((function(t){return logger[l[66]](v[32311],t),i[L[507]](bi[Y[4477]],{}),p[T[44]][o[50]](Qi[Y[43]][S[9775]]),Ri()[l[37243]](t)}))}
+
+### WxPlatformUtil WxPlatformUtil.isWxFriendInteractionAuthorize 
+function(){return new(Ri())((function(i,t){var n={};n[a[977]]=function(n){var r=n[k[1002]][y[3828]];logger[k[70]](M[34553],n),1==r?i(!0):t(null==r?1:2)},n[d[447]]=function(i){logger[J[66]](D[34877],i),t(3)},Hi()[M[6236]](n)}))}
+
+### WxPlatformUtil WxPlatformUtil.isWxInteractedUserInfoAuthorize 
+function(){return new(Ri())((function(i,t){l[103]!=("undefined"==typeof wx?"undefined":ti(wx))&&D[801]==ti(Hi()[J[6236]])?Hi()[f[6236]]({success:function(n){var r,e=null==(r=n[o[1002]])?void 0:r[d[33059]],u={};u[g[31593]]=e,logger[y[70]](v[37117],u),!0===e?i(!0):t(null==e?1:2)},fail:function(i){logger[L[66]](d[14434],i),t(3)}}):i(!0)}))}
+
+### WxPlatformUtil WxPlatformUtil.reqWxInteractedUserInfoAuthorize 
+function(){return new(Ri())((function(i,t){q[103]!=("undefined"==typeof wx?"undefined":ti(wx))&&l[801]==ti(Hi()[q[9385]])?Hi()[T[9385]]({scope:y[33059],success:function(){logger[l[70]](f[25815]),i(!0)},fail:function(i){logger[l[13]](y[24308],i),t(i)}}):i(!0)}))}
+
+### WxPlatformUtil WxPlatformUtil.reqWxFriendInteractionAuthorize 
+function(){return new(Ri())((function(i,t){var n={};n[q[1769]]=o[3828],n[Q[977]]=function(){logger[S[70]](v[13420]),i(!0)},n[T[447]]=function(i){logger[y[66]](L[11812],i),t(i)},Hi()[g[9385]](n)}))}
+
+### WxPlatformUtil WxPlatformUtil.showUserInfoButton 
+function(i,t,n){var r=this;if(null==this[l[1147]]){var e=i[y[64]](s),u=i[v[348]][q[64]](s)[o[1510]](new H(i[M[684]].x,i[Y[684]].y)),c=u.x-e[v[87]]/2,L=h[a[5238]]()[o[811]]-u.y-e[d[811]]/2,g=e[l[87]],D=e[l[811]],z=C()[S[29176]]/h[o[5238]]()[a[87]],P={};P[o[6062]]=c*z,P[Q[821]]=L*z,P[R[87]]=g*z,P[d[811]]=D*z,P[k[11176]]=T[33841];var m={};m[R[88]]=Y[9885],m[Y[9885]]="",m[S[2845]]=P,this[q[1147]]=Hi()[a[42115]](m),this[f[1147]][J[13125]]((function(i){logger[R[70]](S[14066],i),o[32754]==i[S[3961]]?(r[v[1147]][f[839]](),t&&t()):n&&n()}))}this[S[1147]][f[623]]()}
+
+### WxPlatformUtil WxPlatformUtil.hideUserInfoButton 
+function(){this[M[1147]]&&this[v[1147]][J[839]]()}
+
+### WxPlatformUtil WxPlatformUtil.getUserInfo 
+function(){return new(Ri())((function(i,t){logger[o[70]](o[26716]),Hi()[R[7602]]({success:function(t){logger[S[70]](a[28756],t),i(t[L[6583]])},fail:function(i){logger[d[66]](v[28125],i),t(i)}})}))}
+
+### WxPlatformUtil WxPlatformUtil.openSetting 
+function(){return new(Ri())((function(i,t){var n={};n[D[977]]=function(t){logger[y[70]](v[16153],t),i(t[y[1002]])},n[f[447]]=function(i){logger[l[70]](D[39014],i),t(i)},Hi()[T[5292]](n)}))}
+
+### WxPlatformUtil WxPlatformUtil.postSubContextMessage 
+function(i){try{logger[R[70]](v[10546],i),Hi()[o[27212]]({shareMessageToFriendScene:7,query:i[q[3716]]}),Hi()[L[39499]]()[Q[13744]](i)}catch(i){logger[Q[66]](J[31270],i)}}
+
+### WxPlatformUtil WxPlatformUtil.clearAndReset 
+function(){p[q[555]][o[2353]]()}
+
+### WxPlatformUtil WxPlatformUtil.onOpenSettingClick 
+function(){Hi()[g[5292]]({withSubscriptions:!1,success:function(i){var t={};t[y[974]]=L[13171],t[R[867]]=M[1450],logger[a[70]](Y[19620],i[y[1002]]),Hi()[R[7882]](t)},fail:function(i){var t={};t[g[974]]=k[29050],t[o[867]]=L[1450],logger[J[70]](Y[18602],i),Hi()[y[7882]](t)},complete:function(){logger[c[70]](c[18022])}})}
+
+### WxPlatformUtil WxPlatformUtil.showModal 
+function(i){var t={};t[D[974]]=i[f[974]],t[J[181]]=i[y[181]],t[g[7393]]=i[T[7393]],t[Q[33031]]=i[T[33031]],t[a[11391]]=i[R[11391]],t[D[40798]]=void 0!==i[q[40798]]&&i[q[40798]],t[f[977]]=function(t){t[R[3354]]?i[S[41749]]&&i[M[377]]&&i[M[41749]][y[5]](i[d[377]]):t[T[20230]]&&i[J[38536]]&&i[Q[377]]&&i[J[38536]][L[5]](i[d[377]])},t[R[447]]=function(t){logger[g[66]](c[18156]),i[a[33649]]&&i[d[377]]&&i[f[33649]][L[5]](i[R[377]])},Hi()[a[5396]](t)}
+
+### WxPlatformUtil WxPlatformUtil.checkSupportRecommend 
+function(){return!1}
+
+### WxPlatformUtil WxPlatformUtil.requestPay 
+function(i){var t=this;this[S[8052]]?logger[l[13]](k[11125]):(this[Y[30515]](),this[v[27670]](i,(function(){var n={};n[S[224]]=i[T[224]],p[D[507]](bi[g[10316]],n),t[v[37120]](i[c[12646]])})))}
+
+### WxPlatformUtil WxPlatformUtil.directPay 
+function(i,t){var n=this;void 0===t&&(t=null);var r={};r[q[14912]]=i[q[8090]],r[o[15731]]=i[J[4704]],r[y[598]]=i[y[598]],r[a[977]]=function(i){function t(t){return i[a[60]](this,arguments)}return t[Q[441]]=function(){return i[g[441]]()},t}((function(i){logger[d[13]](R[34935],i),t&&t()})),r[M[447]]=function(i){logger[q[13]](S[19563],i)},r[q[725]]=function(i){logger[c[13]](Y[27410],i),n[o[9787]]()};var e=r;Hi()[T[27439]](e)}
+
+### WxPlatformUtil WxPlatformUtil.rechargeSuccess 
+function(i){i||p[d[31]][M[41]](oi[o[40181]])}
+
+### WxPlatformUtil WxPlatformUtil.payWait 
+function(){var i=this;p[R[44]][y[8956]](fi[M[3071]]),this[L[8220]]=Ji()((function(){p[y[44]][l[2267]](fi[L[3071]]),p[d[44]][Y[50]](g[21964]),i[c[8220]]=0}),5e3)}
+
+### WxPlatformUtil WxPlatformUtil.closePayTimer 
+function(){this[M[8220]]>0&&(p[f[44]][a[2267]](fi[k[3071]]),vi()(this[o[8220]]),this[T[8220]]=0)}
+
+### WxPlatformUtil WxPlatformUtil.inPayWaitOpen 
+function(){this[l[8052]]=!0,p[l[44]][R[8956]](fi[J[37029]])}
+
+### WxPlatformUtil WxPlatformUtil.inPayWaitClose 
+function(){this[R[8052]]=!1,p[f[44]][S[2267]](fi[k[37029]])}
+
+### WxPlatformUtil WxPlatformUtil.checkPrivacyAuthorization 
+function(){var i=this;return new(Ri())((function(t){J[103]!=("undefined"==typeof wx?"undefined":ti(wx))?Hi()[Y[13489]]?Hi()[k[13489]]({success:function(n){n[L[29679]]&&!n[c[5339]]?i[y[35126]](t):t(!0)},fail:function(i){logger[T[13]](k[40917],i),t(!0)}}):t(!0):t(!1)}))}
+
+### WxPlatformUtil WxPlatformUtil.triggerGamePrivacyAuth 
+function(i){if(!Hi()[d[2385]])return i(!1),void Hi()[S[7882]]({title:g[15684],icon:Q[1450]});Hi()[R[2385]]({success:function(){var t={};t[g[974]]=v[39511],t[R[867]]=T[977],t[c[638]]=1500,Hi()[a[7882]](t),i(!0)},fail:function(t){var n={};n[T[974]]=d[36409],n[D[867]]=o[1450],logger[q[13]](S[35897],t),i(!1),Hi()[o[7882]](n)}})}
+
+### WxPlatformUtil WxPlatformUtil.handleCopyError 
+function(i){var t=this,n=i[T[3961]]||"";n[M[8192]](d[21627])?Hi()[y[5396]]({title:q[16429],content:q[21286],confirmText:f[28712],showCancel:!1}):n[v[8192]](v[13359])||n[v[8192]](J[447])?Hi()[Y[5396]]({title:S[16429],content:k[33084],confirmText:"重试",cancelText:"取消",success:function(i){i[L[3354]]&&t[Q[4462]]&&t[J[9564]](t[l[4462]])}}):Hi()[J[7882]]({title:v[15452]+n,icon:c[1450],duration:2e3})}
+
+### WxPlatformUtil WxPlatformUtil.wxCopyFun 
+function(i){return Ai[D[60]](this,arguments)}
+
+### WxPlatformUtil WxPlatformUtil.getDeviceLevel 
+function(){return i[y[60]](this,arguments)}
+
+### WxPlatformUtil WxPlatformUtil.compareVersion 
+function(i){i=i[q[531]](".");for(var t=this[g[9488]]()[f[323]][f[531]]("."),n=Ti()[Q[967]](t[c[7]],i[l[7]]);t[R[7]]<n;)t[d[19]]("0");for(;i[J[7]]<n;)i[k[19]]("0");for(var r=0;r<n;r++){var e=li()(i[r]),u=li()(t[r]);if(e>u)return!1;if(e<u)return!0}return!0}
+
+### WxPlatformUtil WxPlatformUtil.getSystemInfoSync 
+function(){return this[T[9280]]||(this[J[9280]]=Hi()[R[9488]](),F[f[9049]]=this[d[9280]][L[205]],logger[c[70]](y[33838],this[q[9280]])),this[T[9280]]}
+
+### WxPlatformUtil WxPlatformUtil.isRechargeSupport 
+function(){var i={};return i[f[974]]=J[38630],i[y[181]]=Y[30383],i[T[7393]]=!1,i[L[977]]=function(i){},!(F[S[6514]]&&!this[R[8541]](g[20867])&&(logger[q[66]](d[23187]),Hi()[g[5396]](i),1))}
+
+### WxPlatformUtil WxPlatformUtil.showRechargeSupportWin 
+function(){}
+
+### WxPlatformUtil WxPlatformUtil.checkSubscribeTemplates 
+function(){var i=this;logger[f[70]](g[36020]);var t=G[T[5403]][v[1495]][q[0]]({});p[T[132]][v[766]](G[R[5403]][d[1495]][M[85]](t)[c[265]](),ii[Y[22839]],(function(t){if(t&&t[d[99]]&&0==t[y[774]][a[374]]){var r=G[o[5403]][v[31396]][J[65]](t[R[99]]);if(logger[L[70]](f[33114],r),null==r[S[7505]]||0==r[d[7505]][Y[7]])return;for(var e,u=[],h=n(r[l[7505]]);!(e=h())[S[11]];){var s=e[l[14]];0==s[o[8741]]&&u[d[19]](s[v[9144]])}if(0==u[g[7]])return;i[a[4070]][M[7]]=0,logger[T[70]](R[13578]),Hi()[y[6236]]({withSubscriptions:!0,success:function(t){var n;logger[Y[70]](L[11716],t);var r=(null==t||null==(n=t[q[13136]])?void 0:n[l[22829]])||{};u[S[73]]((function(t){f[17052]==(r[t]||"")&&i[o[4070]][v[19]](t)})),logger[Y[70]](R[35620],i[J[4070]])},fail:function(i){logger[L[66]](l[20579],i)}})}else logger[k[66]](T[21434],t)}),ri[T[23383]])}
+
+### WxPlatformUtil WxPlatformUtil.requestSubscribeTemplates 
+function(i,t){var n=this;return void 0===t&&(t=!1),new(Ri())((function(r){logger[J[70]](Q[35127],i),0!=i[M[7]]?Hi()[f[10851]]({tmplIds:i,success:function(r){logger[a[70]](S[10410],r,S[14923],i);var e=[];if(i[a[73]]((function(i){r&&a[17052]==r[i]&&e[v[19]](i)})),e[y[7]]>0&&n[L[32528]](e,!0),t){var u=i[Q[383]]((function(i){return-1!==[M[37243],Y[29601],d[383]][g[734]](null==r?void 0:r[i])}));n[J[32528]](u,!1)}},fail:function(t){20004==t[J[5160]]?logger[a[70]](q[10353],t):(logger[Q[66]](Y[10353],t),p[k[507]](bi[y[32571]],{templateIds:i,err:t}))},complete:function(){r(!0)}}):r(!1)}))}
+
+### WxPlatformUtil WxPlatformUtil.reqTemplatesByNotify 
+function(){if(logger[v[70]](T[14025],this[d[1110]]),this[L[1110]]&&this[R[1110]][k[7]]>0){var i=this[y[1110]][a[338]](0,3);this[Y[1110]]=this[o[1110]][o[338]](3),this[M[7862]](i)}}
+
+### WxPlatformUtil WxPlatformUtil.reportSubscribeStatus 
+function(i,t){if(0!=i[R[7]]){for(var r,e=G[c[5403]][q[2152]][d[0]](),u=[],h=n(i);!(r=h())[M[11]];){var s=r[c[14]],l={};l[L[9144]]=s,l[S[8741]]=t,u[J[19]](l)}e[a[7505]]=u,logger[Q[70]](D[20853],u),p[f[132]][q[766]](G[q[5403]][a[2152]][d[85]](e)[o[265]](),ii[L[41117]],(function(i){if(i&&i[f[99]]&&0==i[Q[774]][D[374]]){var t=G[y[5403]][d[19103]][Q[65]](i[g[99]]);logger[k[70]](v[41482],t)}else logger[v[66]](k[23930],i)}),ri[v[23383]])}}
+
+### WxPlatformUtil WxPlatformUtil.onSubscribeAuthPromptNotify 
+function(i,t){var n;"wx"===p[d[555]][L[848]]()&&t&&t[y[5873]]&&t[v[5873]][M[7]]>0&&(n=this[v[1110]])[v[19]][y[60]](n,t[g[5873]])}
+
+### WxPlatformUtil WxPlatformUtil.checkSubscribeSystemMessage 
+function(){if(Oi[o[43]][q[5831]]()){var i=Oi[a[43]][k[17702]]()[S[78]]((function(i){return i[k[9372]]})),t={};t[c[21747]]=!0,t[d[977]]=function(t){var n,r=(null==t||null==(n=t[J[13136]])?void 0:n[S[22829]])||{};Oi[Y[43]][M[34116]](r,i),logger[o[70]](o[23233],Oi[c[43]][M[14327]]())},t[M[447]]=function(i){logger[J[66]](R[38278],i)},Hi()[Y[6236]](t),this[L[35176]]()}else logger[J[70]](q[38939])}
+
+### WxPlatformUtil WxPlatformUtil.checkGameClubData 
+function(){Oi[g[43]][c[5831]]()?k[103]!=("undefined"==typeof wx?"undefined":ti(wx))&&D[801]==ti(Hi()[L[39468]])&&Hi()[v[39468]]({dataTypeList:[{type:1}],success:function(i){logger[L[70]](o[26466],i),null!=i&&i[D[6669]]&&null!=i&&i.iv&&Oi[R[43]][y[34533]](i[c[6669]],i.iv)},fail:function(i){logger[y[70]](J[26552],i)}}):logger[l[70]](a[19793])}
+
+### WxPlatformUtil WxPlatformUtil.requestSubscribeSystemMessage 
+function(){if(Oi[S[43]][L[5831]]()){var i=Oi[Y[43]][v[12710]](A[o[764]][Y[75]]);0!==i[L[7]]&&(logger[a[70]](L[16741],i),Hi()[o[31074]]({msgTypeList:i,success:function(t){logger[T[70]](Q[15600],t);for(var r,e=n(i);!(r=e())[S[11]];){var u=r[J[14]];t&&q[17052]===t[u]&&Oi[R[43]][o[36841]](u)}},fail:function(i){i&&20004===i[l[5160]]?logger[R[70]](k[41819],i):logger[g[66]](v[38043],i)}}))}}
+
+### WxPlatformUtil WxPlatformUtil.setFrameRate 
+function(i){S[103]!=("undefined"==typeof wx?"undefined":ti(wx))&&(F[v[6514]]?(logger[J[70]](c[21654],i),P[l[18230]]=i):Hi()[L[34444]]&&Hi()[Y[34444]](i))}
+
+### WxPlatformUtil WxPlatformUtil.captureSupported 
+function(){return!0}
+
+### WxPlatformUtil WxPlatformUtil.isAlbumAuthDenied 
+function(i){var t=i&&i[Y[3961]]?mi()(i[l[3961]]):"";return t[f[734]](L[37726])>=0||t[a[734]](y[27501])>=0||t[L[734]](c[21627])>=0}
+
+### WxPlatformUtil WxPlatformUtil.showAlbumAuthorizeGuide 
+function(){Hi()[d[5396]]({title:"提示",content:T[10562],confirmText:D[40526],success:function(i){i[M[3354]]&&Hi()[f[5292]]({success:function(i){logger[M[70]](D[26603],i)},fail:function(i){logger[T[13]](D[38264],i)}})}})}
+
+### WxPlatformUtil WxPlatformUtil.shareAppMessageZone 
+function(i,t,n,r,e,u){var h=this,s={};s[y[156]]=t,s[S[977]]=function(i){r&&r(i)},s[Y[447]]=function(i){h[d[20170]](i)&&h[Y[32488]](),e&&e(i)},s[Q[725]]=function(i){u&&u()},Hi()[v[11067]](s)}
+
+### WxPlatformUtil WxPlatformUtil.navigateToMiniProgram 
+function(i,t,n,r,e,u,h){void 0===n&&(n=null),void 0===r&&(r=Q[472]),void 0===e&&(e=null),void 0===u&&(u=null),void 0===h&&(h=null),Hi()[L[6386]]({appId:i,path:t,extraData:n,envVersion:r,success:function(i){function t(t){return i[J[60]](this,arguments)}return t[o[441]]=function(){return i[g[441]]()},t}((function(i){e&&e(i)})),fail:function(i){u&&u(i)},complete:function(i){h&&h(i)}})}
+
+### WxPlatformUtil WxPlatformUtil.convertScene 
+function(i,t){return 1044==li()(i)&&3==li()(t)&&(i=1008),F[J[3196]]&&1044==li()(i)&&null==t&&(i=1008),1044==li()(i)&&1==li()(t)&&(i=1007),i}
+
+### WxPlatformUtil WxPlatformUtil.isWxPrivacyFinish 
+function(){return this[Q[13760]]}
+
+### WxPlatformUtil WxPlatformUtil.vibrateShort 
+function(i){var t={};t[J[88]]=i,t[c[977]]=function(){},t[D[447]]=function(){},t[Y[725]]=function(){},Hi()[R[3882]](t)}
+
+### WxPlatformUtil WxPlatformUtil.vibrateLong 
+function(){var i={};i[R[977]]=function(){},i[Q[447]]=function(){},i[M[725]]=function(){},Hi()[k[1836]](i)}
+
+### WxPlatformUtil WxPlatformUtil.showAd 
+function(i,t){this[o[9290]]||(this[c[9290]]=new(Pi()));var n=i[g[7294]]||i[o[3545]];logger[o[70]](y[19474],n);var r=this[k[9290]][g[72]](n),e={};e[k[21336]]=i[L[2492]],r&&(logger[M[70]](J[40457],n),this[a[5221]]=t,r[g[17053]]&&(r[d[17053]](e),logger[k[70]](M[13101],i[Q[2492]])),logger[L[70]](Q[36769]),r[L[623]]()[Q[153]]((function(i){logger[y[70]](y[16394],i),r[k[610]]()[k[209]]((function(){return r[f[623]]()}))[S[153]]((function(i){logger[y[70]](l[16768],i)}))})))}
+
+### WxPlatformUtil WxPlatformUtil.initAd 
+function(i){var t=this;this[T[9290]]||(this[f[9290]]=new(Pi()));var n=this[g[9290]][c[72]](i);n||((n=this[d[25126]](i))[l[993]]((function(){logger[q[70]](l[10589])})),n[Y[2738]]((function(i){logger[S[70]](i),t[q[5221]]=null})),n[L[349]]((function(i){logger[v[70]](l[14273],i),i?t[Q[5221]]&&(t[D[5221]](null==i?void 0:i[v[33742]]),t[d[5221]]=null):logger[a[70]](R[27971])})),this[Y[9290]][f[29]](i,n))}
+
+### WxPlatformUtil WxPlatformUtil.createRewardedVideoAd 
+function(i){var t={};return t[T[12724]]=i,Hi()[d[25126]](t)}
+EXPORT InitLoginSystem InitLoginComp static [ 'length', 'name', 'arguments', 'caller', 'prototype' ] proto [ 'length', 'name', 'arguments', 'caller', 'prototype' ]

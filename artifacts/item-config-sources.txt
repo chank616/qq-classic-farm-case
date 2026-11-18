@@ -1,0 +1,39 @@
+CLASS ConfigManagerFactory function i(){this[L[220]]=new(Pi()),this[l[7208]]=!1,this[T[1539]]=new(Pi()),this[J[6228]]=new(Pi()),this[d[5840]]=new(Pi()),this[k[9689]]=new(Pi()),this[q[41808]]=L[676],this[T[39371]]=v[11166],this[o[40493]]=Y[415],this[L[7880]]=new(Pi())}
+STATIC length 0
+STATIC name "i"
+
+MODULE chunks:///_virtual/ConfigManagerFactory.ts EXPORT ConfigManagerFactory METHODS getBundles,register,setConfigPathPrefix,getConfigPathPrefix,getConfig,unregister,getAllConfigNames,getAllConfigs,hasConfig,getConfigCount,clear,initialize,hasRawCache,waitWithTimeout,preloadSingleRawAsset,parseConfigSync,loadSingleConfig,base64Decode,decryptBinData,utf8Encode,utf8Decode,loadTxtFromPath,loadJsonFromPath,reload,getStatus,getLoadingStatus,isConfigLoaded,isAllConfigsLoaded,getLoadingStatistics,debug,findConfigById,registerBatch,getGlobalStr,getGlobalInt
+METHOD getBundles function(i){var t;return null!=(t=this[J[7880]][D[72]](i))?t:{main:this[a[39371]],remote:this[a[40493]]}}
+METHOD register function(i,t,n,r,e){var u=(null!=n?n:this[g[41808]])+"/"+i;this[d[220]][g[949]](i)&&(logger[D[70]](T[41244]+i+q[40054]),this[k[1539]][S[72]](i)!==u&&(this[R[5840]][Y[373]](i),this[f[9689]][J[373]](i))),this[M[220]][f[29]](i,t),this[y[1539]][l[29]](i,u),this[d[6228]][R[29]](i,d[884]),(r||e)&&this[M[7880]][q[29]](i,{main:null!=r?r:this[f[39371]],remote:null!=e?e:this[S[40493]]})}
+METHOD setConfigPathPrefix function(i){this[Q[41808]]=i,logger[c[70]](d[19446]+i)}
+METHOD getConfigPathPrefix function(){return this[y[41808]]}
+METHOD getConfig function(i){var t=this[v[220]][a[72]](i);if(t)return this[T[2974]](i)||!this[S[5840]][T[949]](i)&&!this[a[9689]][y[949]](i)||this[d[21416]](i),t;logger[T[13]](f[39248]+i)}
+METHOD unregister function(i){var t=this[q[1539]][Y[72]](i);if(t){var n=this[a[19395]](i),r=n[Y[1794]],e=n[f[26863]];try{z[g[504]][o[472]](t,r)}catch(i){}try{z[y[504]][a[472]](t,e)}catch(i){}}this[T[5840]][T[373]](i),this[R[9689]][v[373]](i);var u=this[Q[220]][L[373]](i);return this[R[1539]][g[373]](i),this[R[7880]][g[373]](i),this[M[6228]][d[373]](i),u?logger[l[70]](T[15569]+i):logger[J[13]](q[41244]+i+J[11798]),u}
+METHOD getAllConfigNames function(){return gi()[Y[612]](this[Q[220]][q[69]]())}
+METHOD getAllConfigs function(){return gi()[L[612]](this[Q[220]][g[881]]())}
+METHOD hasConfig function(i){return this[J[220]][q[949]](i)}
+METHOD getConfigCount function(){return this[v[220]][q[439]]}
+METHOD clear function(){var i=this[L[220]][l[439]];this[L[220]][J[46]](),this[Y[1539]][c[46]](),this[S[7880]][c[46]](),this[D[6228]][Q[46]](),this[a[5840]][d[46]](),this[S[9689]][Y[46]](),this[f[7208]]=!1,logger[y[70]](f[37466]+i+" 个")}
+METHOD initialize function(i){return r[g[60]](this,arguments)}
+METHOD hasRawCache function(i){return this[a[5840]][Y[949]](i)||this[v[9689]][c[949]](i)}
+METHOD waitWithTimeout function(i,t){return t>0?new(Ri())((function(n){var r=Ji()((function(){return n(!1)}),t);i[v[209]]((function(){vi()(r),n(!0)}),(function(i){vi()(r),logger[Y[66]](g[13031],i),n(!0)}))})):i[g[209]]((function(){return!0}),(function(i){return logger[M[66]](Y[13031],i),!0}))}
+METHOD preloadSingleRawAsset function(t,n){return i[v[60]](this,arguments)}
+METHOD parseConfigSync function(i){if(this[D[2974]](i))return!0;var t=this[l[220]][Y[72]](i);if(!t)return!1;var n=this[o[5840]][y[72]](i);if(n)try{var r=this[R[34930]](n),e=N()[D[927]](r);return gi()[k[855]](e)?(t[c[799]](t[l[32]](e)),this[f[6228]][c[29]](i,M[5138]),this[a[5840]][Q[373]](i),!0):(logger[T[66]](T[34686]+i+M[17710]),!1)}catch(t){logger[v[66]](D[39725]+i+k[29342],t)}var u=this[S[9689]][Q[72]](i);if(u)try{return t[y[799]](t[M[32]](u)),this[q[6228]][Q[29]](i,c[5138]),this[d[9689]][D[373]](i),!0}catch(t){logger[S[66]](R[39725]+i+q[29342],t)}return!1}
+METHOD loadSingleConfig function(t){return i[Y[60]](this,arguments)}
+METHOD base64Decode function(i){if(l[103]!=("undefined"==typeof atob?"undefined":ti(atob)))return atob(i);var t=i[q[245]](/=+$/,""),n="";if(t[q[7]]%4==1)throw new(Di())(c[19849]);for(var r,e=0,u=0,h=0;r=t[Y[7854]](h++);)-1!==(r=o[21922][c[734]](r))&&(u=e%4?64*u+r:r,e++%4&&(n+=mi()[J[9797]](255&u>>(-2*e&6))));return n}
+METHOD decryptBinData function(i){for(var t=h[R[13958]],n=this[c[40120]](i),r=new(Mi())(n[d[7]]),e=0;e<n[q[7]];e++)r[e]=n[Y[975]](e);for(var u=this[q[40207]](t),s=new(Mi())(r[Y[7]]),f=0;f<r[R[7]];f++)s[f]=r[f]^u[f%u[J[7]]];return this[c[31329]](s)}
+METHOD utf8Encode function(i){if(v[103]!=("undefined"==typeof TextEncoder?"undefined":ti(TextEncoder)))return(new TextEncoder)[S[85]](i);for(var t=[],n=0;n<i[c[7]];n++){var r=i[l[975]](n);if(r<128)t[c[19]](r);else if(r<2048)t[k[19]](192|r>>6,128|63&r);else if(r<55296||r>=57344)t[g[19]](224|r>>12,128|r>>6&63,128|63&r);else{n++;var e=65536+((1023&r)<<10|1023&i[q[975]](n));t[o[19]](240|e>>18,128|e>>12&63,128|e>>6&63,128|63&e)}}return new(Mi())(t)}
+METHOD utf8Decode function(i){if(T[103]!=("undefined"==typeof TextDecoder?"undefined":ti(TextDecoder)))return new TextDecoder(y[14210])[l[65]](i);for(var t="",n=0;n<i[l[7]];){var r=i[n++];if(r<128)t+=mi()[S[9797]](r);else if(r<224)t+=mi()[q[9797]]((31&r)<<6|63&i[n++]);else if(r<240)t+=mi()[M[9797]]((15&r)<<12|(63&i[n++])<<6|63&i[n++]);else{var e=(7&r)<<18|(63&i[n++])<<12|(63&i[n++])<<6|63&i[n++];t+=e>65535?mi()[J[9797]](55296+(e-65536>>10),56320+(e-65536&1023)):mi()[f[9797]](e)}}return t}
+METHOD loadTxtFromPath function(t,n,r){return i[v[60]](this,arguments)}
+METHOD loadJsonFromPath function(t,n){return i[q[60]](this,arguments)}
+METHOD reload function(t){return i[S[60]](this,arguments)}
+METHOD getStatus function(){for(var i,n=[],r=t(this[o[220]]);!(i=r())[M[11]];){var e=i[v[14]],u=e[0],h=e[1],s={};s[D[40]]=u,s[T[19728]]=h[S[25114]](),n[y[19]](s)}var f={};return f[c[7208]]=this[d[7208]],f[d[19728]]=this[R[220]][D[439]],f[M[220]]=n,f}
+METHOD getLoadingStatus function(i){return this[a[6228]][R[72]](i)||S[25616]}
+METHOD isConfigLoaded function(i){return D[5138]===this[S[11609]](i)}
+METHOD isAllConfigsLoaded function(){for(var i,n=t(this[c[220]]);!(i=n())[d[11]];){var r=i[g[14]][0];if(this[Y[1539]][d[949]](r)&&!this[S[2974]](r))return!1}return!0}
+METHOD getLoadingStatistics function(){for(var i,n={total:0,pending:0,loading:0,loaded:0,error:0},r=t(this[J[220]]);!(i=r())[f[11]];){var e=i[d[14]][0];this[M[1539]][v[949]](e)&&(n[Q[170]]++,n[this[d[11609]](e)]++)}return n}
+METHOD debug function(){if(hi()[y[425]](a[14545]),logger[o[70]](y[30256],this[l[7208]]),logger[J[70]](R[40406],this[y[220]][g[439]]),this[d[220]][M[439]]>0){for(var i,n=t(this[o[220]]);!(i=n())[k[11]];){var r=i[Y[14]],e=r[0],u=r[1];logger[k[70]]("- "+e+": "+u[Q[25114]]()+f[16549])}hi()[Q[21669]]()}hi()[k[21669]]()}
+METHOD findConfigById function(i){for(var n,r=[],e=t(this[Y[220]]);!(n=e())[o[11]];){var u=n[L[14]],h=u[0],s=u[1][S[22]](i);s&&r[Y[19]]({configName:h,config:s})}return r}
+METHOD registerBatch function(i,t,n,r){logger[R[70]](c[13475]);for(var e=0,u=Yi()[L[69]](i),h=0;h<u[a[7]];h++){var s=u[h];try{this[o[71]](s,i[s],t,n,r),e++}catch(i){logger[S[66]](q[17684]+s+J[29342],i)}}logger[v[70]](v[19492]+e+"/"+u[S[7]]+D[29449])}
+METHOD getGlobalStr function(i,t){var n;void 0===t&&(t="");var r=null==(n=this[R[22]](P[g[7847]]))||null==(n=n[Q[31815]](i))?void 0:n[S[8428]];return null!=r&&l[98]==ti(r)||(logger[k[66]](D[30161]+i+a[41403]+t),r=t),r}
+METHOD getGlobalInt function(i,t){var n;void 0===t&&(t=0);var r=null==(n=this[l[22]](P[c[7847]]))||null==(n=n[o[31815]](i))?void 0:n[Q[7727]];return di()(r)&&(logger[o[66]](d[30161]+i+T[41403]+t),r=t),r}

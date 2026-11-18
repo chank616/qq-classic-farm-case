@@ -1,0 +1,1 @@
+"use strict";var e=require("electron");e.contextBridge.exposeInMainWorld("electron",{handleMenuCommand(r){e.ipcRenderer.send("menu_handle_command",r)},handleRenderError(r){e.ipcRenderer.send("menu_handle_render_error",r)}});

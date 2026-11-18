@@ -1,0 +1,432 @@
+{
+  "root": "C:\\Users\\chank616\\AppData\\Roaming\\QQEX\\miniapp\\temps\\miniapp_src",
+  "versions": [
+    {
+      "folder": "1109937557_3_42e9ad9d8d5267ab0bee8967be6ebf92",
+      "project": null,
+      "appid": null,
+      "fileCount": 101,
+      "bytes": 2096607,
+      "hasMcboot": false,
+      "subpackages": [],
+      "indicators": {
+        "wxLogin": 0,
+        "wxCode": 0,
+        "jsCode": 0,
+        "sessionToken": 0,
+        "tokenTime": 0,
+        "connectSocket": 0,
+        "localSink": 0
+      }
+    },
+    {
+      "folder": "1112386029_3_3443f89042dffbf93d20ced1d652d031",
+      "project": "client_1.15.0.2",
+      "appid": "1112386029",
+      "fileCount": 99,
+      "bytes": 11424409,
+      "hasMcboot": false,
+      "subpackages": [
+        {
+          "name": "mcboot",
+          "root": "subpackages/mcboot/"
+        },
+        {
+          "name": "__ccWasmAssetSubpkg__",
+          "root": "cocos-js/assets/"
+        },
+        {
+          "name": "__ccWasmChunkSubpkg__",
+          "root": "cocos-js/chunks/"
+        }
+      ],
+      "indicators": {
+        "wxLogin": 2,
+        "wxCode": 1,
+        "jsCode": 1,
+        "sessionToken": 2,
+        "tokenTime": 2,
+        "connectSocket": 1,
+        "localSink": 1
+      }
+    },
+    {
+      "folder": "1112386029_3_5165e5963ec361843a2419d0fdce160f",
+      "project": "client_1.14.2.15",
+      "appid": "1112386029",
+      "fileCount": 95,
+      "bytes": 9916708,
+      "hasMcboot": false,
+      "subpackages": [
+        {
+          "name": "__ccWasmAssetSubpkg__",
+          "root": "cocos-js/assets/"
+        },
+        {
+          "name": "__ccWasmChunkSubpkg__",
+          "root": "cocos-js/chunks/"
+        }
+      ],
+      "indicators": {
+        "wxLogin": 2,
+        "wxCode": 1,
+        "jsCode": 1,
+        "sessionToken": 2,
+        "tokenTime": 2,
+        "connectSocket": 1,
+        "localSink": 1
+      }
+    },
+    {
+      "folder": "1112386029_3_6fbecc02132716b907c840f35103622d",
+      "project": "client_1.14.2.13",
+      "appid": "1112386029",
+      "fileCount": 93,
+      "bytes": 9902149,
+      "hasMcboot": false,
+      "subpackages": [
+        {
+          "name": "__ccWasmAssetSubpkg__",
+          "root": "cocos-js/assets/"
+        },
+        {
+          "name": "__ccWasmChunkSubpkg__",
+          "root": "cocos-js/chunks/"
+        }
+      ],
+      "indicators": {
+        "wxLogin": 0,
+        "wxCode": 1,
+        "jsCode": 1,
+        "sessionToken": 2,
+        "tokenTime": 2,
+        "connectSocket": 1,
+        "localSink": 0
+      }
+    },
+    {
+      "folder": "1112386029_3_426128027bee4835486005162d0af8d9",
+      "project": "client_1.14.1.5",
+      "appid": "1112386029",
+      "fileCount": 93,
+      "bytes": 9553139,
+      "hasMcboot": false,
+      "subpackages": [
+        {
+          "name": "__ccWasmAssetSubpkg__",
+          "root": "cocos-js/assets/"
+        },
+        {
+          "name": "__ccWasmChunkSubpkg__",
+          "root": "cocos-js/chunks/"
+        }
+      ],
+      "indicators": {
+        "wxLogin": 0,
+        "wxCode": 1,
+        "jsCode": 1,
+        "sessionToken": 2,
+        "tokenTime": 2,
+        "connectSocket": 1,
+        "localSink": 0
+      }
+    },
+    {
+      "folder": "1112386029_3_86eee58e10ed64907dd7dc098bc10228",
+      "project": "client_1.14.0.4",
+      "appid": "1112386029",
+      "fileCount": 93,
+      "bytes": 9529334,
+      "hasMcboot": false,
+      "subpackages": [
+        {
+          "name": "__ccWasmAssetSubpkg__",
+          "root": "cocos-js/assets/"
+        },
+        {
+          "name": "__ccWasmChunkSubpkg__",
+          "root": "cocos-js/chunks/"
+        }
+      ],
+      "indicators": {
+        "wxLogin": 0,
+        "wxCode": 1,
+        "jsCode": 1,
+        "sessionToken": 2,
+        "tokenTime": 2,
+        "connectSocket": 1,
+        "localSink": 0
+      }
+    },
+    {
+      "folder": "1112386029_3_46f49446a560f34d2eb6214ad4bb921e",
+      "project": "client_1.13.3.17",
+      "appid": "1112386029",
+      "fileCount": 104,
+      "bytes": 9674211,
+      "hasMcboot": false,
+      "subpackages": [
+        {
+          "name": "__ccWasmAssetSubpkg__",
+          "root": "cocos-js/assets/"
+        },
+        {
+          "name": "__ccWasmChunkSubpkg__",
+          "root": "cocos-js/chunks/"
+        }
+      ],
+      "indicators": {
+        "wxLogin": 0,
+        "wxCode": 1,
+        "jsCode": 1,
+        "sessionToken": 2,
+        "tokenTime": 2,
+        "connectSocket": 1,
+        "localSink": 0
+      }
+    },
+    {
+      "folder": "1112386029_3_6f7d5a6b0818442756c84261bc3387eb",
+      "project": "client_1.13.3.16",
+      "appid": "1112386029",
+      "fileCount": 104,
+      "bytes": 9673638,
+      "hasMcboot": false,
+      "subpackages": [
+        {
+          "name": "__ccWasmAssetSubpkg__",
+          "root": "cocos-js/assets/"
+        },
+        {
+          "name": "__ccWasmChunkSubpkg__",
+          "root": "cocos-js/chunks/"
+        }
+      ],
+      "indicators": {
+        "wxLogin": 0,
+        "wxCode": 1,
+        "jsCode": 1,
+        "sessionToken": 2,
+        "tokenTime": 2,
+        "connectSocket": 1,
+        "localSink": 0
+      }
+    },
+    {
+      "folder": "1112386029_3_fc520f9a62046536aac0af97ccca25f2",
+      "project": "client_1.13.2.10",
+      "appid": "1112386029",
+      "fileCount": 99,
+      "bytes": 9178460,
+      "hasMcboot": false,
+      "subpackages": [
+        {
+          "name": "__ccWasmAssetSubpkg__",
+          "root": "cocos-js/assets/"
+        },
+        {
+          "name": "__ccWasmChunkSubpkg__",
+          "root": "cocos-js/chunks/"
+        }
+      ],
+      "indicators": {
+        "wxLogin": 0,
+        "wxCode": 1,
+        "jsCode": 1,
+        "sessionToken": 2,
+        "tokenTime": 2,
+        "connectSocket": 1,
+        "localSink": 0
+      }
+    },
+    {
+      "folder": "1112386029_3_04821fd3c97759851eb4b93e8c6e5685",
+      "project": "client_1.13.2.8",
+      "appid": "1112386029",
+      "fileCount": 99,
+      "bytes": 9097113,
+      "hasMcboot": false,
+      "subpackages": [
+        {
+          "name": "__ccWasmAssetSubpkg__",
+          "root": "cocos-js/assets/"
+        },
+        {
+          "name": "__ccWasmChunkSubpkg__",
+          "root": "cocos-js/chunks/"
+        }
+      ],
+      "indicators": {
+        "wxLogin": 0,
+        "wxCode": 1,
+        "jsCode": 1,
+        "sessionToken": 2,
+        "tokenTime": 2,
+        "connectSocket": 1,
+        "localSink": 0
+      }
+    },
+    {
+      "folder": "1112386029_3_66f4180dc46b62b3f7db0ecffc1ffdd4",
+      "project": "client_1.13.2.7",
+      "appid": "1112386029",
+      "fileCount": 104,
+      "bytes": 9332070,
+      "hasMcboot": false,
+      "subpackages": [
+        {
+          "name": "__ccWasmAssetSubpkg__",
+          "root": "cocos-js/assets/"
+        },
+        {
+          "name": "__ccWasmChunkSubpkg__",
+          "root": "cocos-js/chunks/"
+        }
+      ],
+      "indicators": {
+        "wxLogin": 2,
+        "wxCode": 1,
+        "jsCode": 1,
+        "sessionToken": 2,
+        "tokenTime": 2,
+        "connectSocket": 1,
+        "localSink": 1
+      }
+    },
+    {
+      "folder": "1112386029_3_ef0ca37481d1620385ac066782e66b41",
+      "project": "client_1.13.1.6",
+      "appid": "1112386029",
+      "fileCount": 104,
+      "bytes": 9311438,
+      "hasMcboot": false,
+      "subpackages": [
+        {
+          "name": "__ccWasmAssetSubpkg__",
+          "root": "cocos-js/assets/"
+        },
+        {
+          "name": "__ccWasmChunkSubpkg__",
+          "root": "cocos-js/chunks/"
+        }
+      ],
+      "indicators": {
+        "wxLogin": 0,
+        "wxCode": 1,
+        "jsCode": 1,
+        "sessionToken": 2,
+        "tokenTime": 2,
+        "connectSocket": 1,
+        "localSink": 0
+      }
+    },
+    {
+      "folder": "1112386029_3_6da6fda16dd5afaa6034a6bb5028e167",
+      "project": "client_1.13.0.5",
+      "appid": "1112386029",
+      "fileCount": 104,
+      "bytes": 9050970,
+      "hasMcboot": false,
+      "subpackages": [
+        {
+          "name": "__ccWasmAssetSubpkg__",
+          "root": "cocos-js/assets/"
+        },
+        {
+          "name": "__ccWasmChunkSubpkg__",
+          "root": "cocos-js/chunks/"
+        }
+      ],
+      "indicators": {
+        "wxLogin": 0,
+        "wxCode": 1,
+        "jsCode": 1,
+        "sessionToken": 2,
+        "tokenTime": 2,
+        "connectSocket": 1,
+        "localSink": 0
+      }
+    },
+    {
+      "folder": "1112386029_3_67b898be9fed43f96df1108d3f31f25b",
+      "project": "client_1.13.0.4",
+      "appid": "1112386029",
+      "fileCount": 104,
+      "bytes": 9115655,
+      "hasMcboot": false,
+      "subpackages": [
+        {
+          "name": "__ccWasmAssetSubpkg__",
+          "root": "cocos-js/assets/"
+        },
+        {
+          "name": "__ccWasmChunkSubpkg__",
+          "root": "cocos-js/chunks/"
+        }
+      ],
+      "indicators": {
+        "wxLogin": 0,
+        "wxCode": 1,
+        "jsCode": 1,
+        "sessionToken": 2,
+        "tokenTime": 2,
+        "connectSocket": 1,
+        "localSink": 0
+      }
+    },
+    {
+      "folder": "1112386029_3_684dfae7157d3e507ac47410fbb0cd62",
+      "project": "client_1.12.5.29",
+      "appid": "1112386029",
+      "fileCount": 89,
+      "bytes": 8091183,
+      "hasMcboot": false,
+      "subpackages": [
+        {
+          "name": "__ccWasmAssetSubpkg__",
+          "root": "cocos-js/assets/"
+        },
+        {
+          "name": "__ccWasmChunkSubpkg__",
+          "root": "cocos-js/chunks/"
+        }
+      ],
+      "indicators": {
+        "wxLogin": 0,
+        "wxCode": 1,
+        "jsCode": 1,
+        "sessionToken": 2,
+        "tokenTime": 2,
+        "connectSocket": 1,
+        "localSink": 0
+      }
+    },
+    {
+      "folder": "1112386029_3_fff0d37edf97abe3708d5242b03dd257",
+      "project": "client_1.12.4.24",
+      "appid": "1112386029",
+      "fileCount": 89,
+      "bytes": 8259922,
+      "hasMcboot": false,
+      "subpackages": [
+        {
+          "name": "__ccWasmAssetSubpkg__",
+          "root": "cocos-js/assets/"
+        },
+        {
+          "name": "__ccWasmChunkSubpkg__",
+          "root": "cocos-js/chunks/"
+        }
+      ],
+      "indicators": {
+        "wxLogin": 0,
+        "wxCode": 1,
+        "jsCode": 1,
+        "sessionToken": 2,
+        "tokenTime": 2,
+        "connectSocket": 1,
+        "localSink": 0
+      }
+    }
+  ]
+}

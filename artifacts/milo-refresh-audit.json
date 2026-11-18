@@ -1,0 +1,17 @@
+{
+  "source": "E:\\workspace\\QQ经典农场案例\\tools\\milo-source.txt",
+  "methods": [
+    "init",
+    "checkLogin",
+    "getQQUserOpenid",
+    "getWXUserOpenid"
+  ],
+  "indicators": {
+    "setTimeout": 0,
+    "setInterval": 0,
+    "refreshSession": 0,
+    "checkSession": 0,
+    "tokenTimeReads": 2
+  },
+  "conclusion": "The extracted milo wrapper exposes init/checkLogin/getQQUserOpenid/getWXUserOpenid and contains no timer or refreshSession/checkSession call. Token time is only a stored response field in this source; no renewal algorithm is present."
+}

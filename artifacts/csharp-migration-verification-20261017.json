@@ -1,0 +1,64 @@
+{
+  "checkedAt": "2026-10-17T21:24:15.0612136+08:00",
+  "runtime": "csharp",
+  "executable": "E:\\workspace\\QQ经典农场案例\\deploy-csharp\\FarmTray.exe",
+  "pid": 21588,
+  "package": "E:\\workspace\\QQ经典农场案例\\QQFarm-CSharp-win-x64.zip",
+  "packageBytes": 642025,
+  "executableBytes": 1370898,
+  "packageSha256": "1D6EAB8B1117847BCF802A4A8566165295D97A470212AFAEEDDE5F04844842D3",
+  "zipEntries": [
+    {
+      "name": "FarmTray.exe",
+      "bytes": 1370898
+    },
+    {
+      "name": "README.md",
+      "bytes": 2442
+    },
+    {
+      "name": "farm-native.json",
+      "bytes": 176
+    }
+  ],
+  "framework": "Microsoft.WindowsDesktop.App 10.0",
+  "frameworkDependent": true,
+  "nodeRequired": false,
+  "powershellRequired": false,
+  "projectNodeProcesses": 0,
+  "selfChecks": 28,
+  "schedulerChecks": 11,
+  "selfChecksPassed": true,
+  "actualReport": "E:\\workspace\\QQ经典农场案例\\deploy-csharp\\artifacts\\reports\\farm-csharp-2026-10-17T13-23-20-948Z-574eef9d.json",
+  "actualCurrentPassVerified": true,
+  "actualFullHarvestCycleVerified": false,
+  "pointPurchaseLiveVerified": false,
+  "planted": 24,
+  "nextDue": "2026-10-18T00:00:00+08:00",
+  "startupTarget": "E:\\workspace\\QQ经典农场案例\\deploy-csharp\\FarmTray.exe",
+  "health": {
+    "ok": true,
+    "runtime": "csharp",
+    "pid": 21588,
+    "hostAt": 1792243450344,
+    "codeAt": 1792243451161,
+    "hostReady": true,
+    "hasCode": true,
+    "pending": 0,
+    "requests": {
+      "GET /bridge-task": 1227,
+      "GET /code": 1,
+      "POST /evt": 55,
+      "POST /crypto-result": 32,
+      "POST /crypto-task": 32,
+      "GET /crypto-task": 1578,
+      "POST /host-ready": 10,
+      "POST /code": 2,
+      "GET /health": 79,
+      "POST /bridge-result": 68,
+      "POST /bridge": 68
+    },
+    "lastError": ""
+  },
+  "uiRenderVerified": true
+}

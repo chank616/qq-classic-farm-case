@@ -1,0 +1,687 @@
+{
+  "schemaVersion": 1,
+  "day": "2026-10-17",
+  "mode": "inspection",
+  "startedAt": "2026-10-17T12:10:41.365Z",
+  "account": {
+    "gid": "1079370412",
+    "name": "露露大神",
+    "level": 149
+  },
+  "checks": [
+    {
+      "id": "login",
+      "status": "passed",
+      "detail": "Login and PlayerLogin accepted by server"
+    },
+    {
+      "id": "harvest",
+      "status": "not-due",
+      "detail": "No mature crops on server"
+    },
+    {
+      "id": "replant",
+      "status": "not-due",
+      "detail": "All unlocked land is planted"
+    },
+    {
+      "id": "friend-interaction",
+      "status": "pending",
+      "detail": "No verified interaction yet"
+    },
+    {
+      "id": "daily-tasks",
+      "status": "pending",
+      "detail": [
+        {
+          "id": "200021",
+          "desc": "在1个好友农场进行互动",
+          "cond": 18,
+          "progress": 0,
+          "total": 1,
+          "claimed": false,
+          "unlocked": true
+        },
+        {
+          "id": "200019",
+          "desc": "每日登录游戏",
+          "cond": 16,
+          "progress": 1,
+          "total": 1,
+          "claimed": true,
+          "unlocked": true
+        },
+        {
+          "id": "200020",
+          "desc": "采摘1次果实",
+          "cond": 17,
+          "progress": 0,
+          "total": 1,
+          "claimed": false,
+          "unlocked": true
+        }
+      ]
+    },
+    {
+      "id": "vip-daily",
+      "status": "passed",
+      "detail": "Server confirms claimed_today"
+    },
+    {
+      "id": "vip-rewards",
+      "status": "passed",
+      "detail": "Server confirms claimed_today"
+    },
+    {
+      "id": "free-fertilizer",
+      "status": "pending",
+      "detail": {
+        "reason": "No identifiable free fertilizer product returned",
+        "products": [
+          {
+            "id": 1001,
+            "name": "每日福利",
+            "fertilizer": false,
+            "available": false,
+            "purchased": false,
+            "exhausted": true,
+            "verified": true,
+            "items": [
+              {
+                "mutant_types": [],
+                "id": 80001,
+                "count": 1
+              }
+            ]
+          },
+          {
+            "id": 1064,
+            "name": "奶茶分享礼包",
+            "fertilizer": false,
+            "available": false,
+            "purchased": false,
+            "exhausted": false,
+            "verified": false,
+            "items": [
+              {
+                "mutant_types": [],
+                "id": 29005,
+                "count": 1
+              }
+            ]
+          },
+          {
+            "id": 1053,
+            "name": "SVIP商城每日免费",
+            "fertilizer": false,
+            "available": false,
+            "purchased": false,
+            "exhausted": true,
+            "verified": true,
+            "items": [
+              {
+                "mutant_types": [],
+                "id": 80001,
+                "count": 1
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "free-benefits",
+      "status": "pending",
+      "detail": [
+        {
+          "id": 1001,
+          "name": "每日福利",
+          "fertilizer": false,
+          "available": false,
+          "purchased": false,
+          "exhausted": true,
+          "verified": true,
+          "items": [
+            {
+              "mutant_types": [],
+              "id": 80001,
+              "count": 1
+            }
+          ]
+        },
+        {
+          "id": 1064,
+          "name": "奶茶分享礼包",
+          "fertilizer": false,
+          "available": false,
+          "purchased": false,
+          "exhausted": false,
+          "verified": false,
+          "items": [
+            {
+              "mutant_types": [],
+              "id": 29005,
+              "count": 1
+            }
+          ]
+        },
+        {
+          "id": 1053,
+          "name": "SVIP商城每日免费",
+          "fertilizer": false,
+          "available": false,
+          "purchased": false,
+          "exhausted": true,
+          "verified": true,
+          "items": [
+            {
+              "mutant_types": [],
+              "id": 80001,
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "final-state",
+      "status": "passed",
+      "detail": {
+        "total": 24,
+        "planted": 24,
+        "matureRemaining": 0
+      }
+    }
+  ],
+  "operations": [
+    {
+      "method": "Enter",
+      "status": "would-run"
+    },
+    {
+      "method": "Leave",
+      "status": "would-run"
+    },
+    {
+      "method": "Enter",
+      "status": "would-run"
+    },
+    {
+      "method": "Leave",
+      "status": "would-run"
+    },
+    {
+      "method": "Enter",
+      "status": "would-run"
+    },
+    {
+      "method": "Leave",
+      "status": "would-run"
+    },
+    {
+      "method": "Enter",
+      "status": "would-run"
+    },
+    {
+      "method": "Leave",
+      "status": "would-run"
+    },
+    {
+      "method": "Enter",
+      "status": "would-run"
+    },
+    {
+      "method": "Leave",
+      "status": "would-run"
+    },
+    {
+      "method": "Enter",
+      "status": "would-run"
+    },
+    {
+      "method": "Leave",
+      "status": "would-run"
+    },
+    {
+      "method": "Enter",
+      "status": "would-run"
+    },
+    {
+      "method": "Leave",
+      "status": "would-run"
+    },
+    {
+      "method": "Enter",
+      "status": "would-run"
+    },
+    {
+      "method": "Leave",
+      "status": "would-run"
+    },
+    {
+      "method": "Enter",
+      "status": "would-run"
+    },
+    {
+      "method": "Leave",
+      "status": "would-run"
+    },
+    {
+      "method": "Enter",
+      "status": "would-run"
+    },
+    {
+      "method": "Leave",
+      "status": "would-run"
+    },
+    {
+      "method": "Enter",
+      "status": "would-run"
+    },
+    {
+      "method": "Leave",
+      "status": "would-run"
+    },
+    {
+      "method": "Enter",
+      "status": "would-run"
+    },
+    {
+      "method": "Leave",
+      "status": "would-run"
+    },
+    {
+      "method": "Enter",
+      "status": "would-run"
+    },
+    {
+      "method": "Leave",
+      "status": "would-run"
+    },
+    {
+      "method": "Enter",
+      "status": "would-run"
+    },
+    {
+      "method": "Leave",
+      "status": "would-run"
+    },
+    {
+      "method": "Enter",
+      "status": "would-run"
+    },
+    {
+      "method": "Leave",
+      "status": "would-run"
+    },
+    {
+      "method": "Enter",
+      "status": "would-run"
+    },
+    {
+      "method": "Leave",
+      "status": "would-run"
+    },
+    {
+      "method": "Enter",
+      "status": "would-run"
+    },
+    {
+      "method": "Leave",
+      "status": "would-run"
+    },
+    {
+      "method": "Enter",
+      "status": "would-run"
+    },
+    {
+      "method": "Leave",
+      "status": "would-run"
+    },
+    {
+      "method": "Enter",
+      "status": "would-run"
+    },
+    {
+      "method": "Leave",
+      "status": "would-run"
+    },
+    {
+      "method": "Enter",
+      "status": "would-run"
+    },
+    {
+      "method": "Leave",
+      "status": "would-run"
+    }
+  ],
+  "allRequiredComplete": false,
+  "completed": true,
+  "tasksBefore": [
+    {
+      "id": "101056",
+      "desc": "升级20块紫晶土地",
+      "cond": 22,
+      "progress": 19,
+      "total": 20,
+      "claimed": false,
+      "unlocked": true
+    },
+    {
+      "id": "200021",
+      "desc": "在1个好友农场进行互动",
+      "cond": 18,
+      "progress": 0,
+      "total": 1,
+      "claimed": false,
+      "unlocked": true
+    },
+    {
+      "id": "200019",
+      "desc": "每日登录游戏",
+      "cond": 16,
+      "progress": 1,
+      "total": 1,
+      "claimed": true,
+      "unlocked": true
+    },
+    {
+      "id": "200020",
+      "desc": "采摘1次果实",
+      "cond": 17,
+      "progress": 0,
+      "total": 1,
+      "claimed": false,
+      "unlocked": true
+    }
+  ],
+  "farm": {
+    "harvest": {
+      "attempted": 0,
+      "verified": 0
+    },
+    "planted": {
+      "attempted": 0,
+      "verified": 0
+    },
+    "totalLands": 24,
+    "occupied": 24
+  },
+  "tasksAfter": [
+    {
+      "id": "101056",
+      "desc": "升级20块紫晶土地",
+      "cond": 22,
+      "progress": 19,
+      "total": 20,
+      "claimed": false,
+      "unlocked": true
+    },
+    {
+      "id": "200021",
+      "desc": "在1个好友农场进行互动",
+      "cond": 18,
+      "progress": 0,
+      "total": 1,
+      "claimed": false,
+      "unlocked": true
+    },
+    {
+      "id": "200019",
+      "desc": "每日登录游戏",
+      "cond": 16,
+      "progress": 1,
+      "total": 1,
+      "claimed": true,
+      "unlocked": true
+    },
+    {
+      "id": "200020",
+      "desc": "采摘1次果实",
+      "cond": 17,
+      "progress": 0,
+      "total": 1,
+      "claimed": false,
+      "unlocked": true
+    }
+  ],
+  "daily": {
+    "observed": 3,
+    "claimed": 1,
+    "complete": false,
+    "tasks": [
+      {
+        "id": "200021",
+        "desc": "在1个好友农场进行互动",
+        "cond": 18,
+        "progress": 0,
+        "total": 1,
+        "claimed": false,
+        "unlocked": true
+      },
+      {
+        "id": "200019",
+        "desc": "每日登录游戏",
+        "cond": 16,
+        "progress": 1,
+        "total": 1,
+        "claimed": true,
+        "unlocked": true
+      },
+      {
+        "id": "200020",
+        "desc": "采摘1次果实",
+        "cond": 17,
+        "progress": 0,
+        "total": 1,
+        "claimed": false,
+        "unlocked": true
+      }
+    ]
+  },
+  "freeProducts": [
+    {
+      "id": 1001,
+      "name": "每日福利",
+      "fertilizer": false,
+      "available": false,
+      "purchased": false,
+      "exhausted": true,
+      "verified": true,
+      "items": [
+        {
+          "mutant_types": [],
+          "id": 80001,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 1064,
+      "name": "奶茶分享礼包",
+      "fertilizer": false,
+      "available": false,
+      "purchased": false,
+      "exhausted": false,
+      "verified": false,
+      "items": [
+        {
+          "mutant_types": [],
+          "id": 29005,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 1053,
+      "name": "SVIP商城每日免费",
+      "fertilizer": false,
+      "available": false,
+      "purchased": false,
+      "exhausted": true,
+      "verified": true,
+      "items": [
+        {
+          "mutant_types": [],
+          "id": 80001,
+          "count": 1
+        }
+      ]
+    }
+  ],
+  "cropClock": {
+    "minMatureAt": 1792281422,
+    "lastGrowAt": 1792264142,
+    "planted": 24,
+    "lands": [
+      {
+        "id": 1,
+        "crop": "马蹄莲",
+        "matureAt": 1792281422,
+        "growAt": 1792264142
+      },
+      {
+        "id": 2,
+        "crop": "马蹄莲",
+        "matureAt": 1792281496,
+        "growAt": 1792264216
+      },
+      {
+        "id": 3,
+        "crop": "马蹄莲",
+        "matureAt": 1792281566,
+        "growAt": 1792264286
+      },
+      {
+        "id": 4,
+        "crop": "马蹄莲",
+        "matureAt": 1792281658,
+        "growAt": 1792264378
+      },
+      {
+        "id": 5,
+        "crop": "马蹄莲",
+        "matureAt": 1792281659,
+        "growAt": 1792264379
+      },
+      {
+        "id": 6,
+        "crop": "马蹄莲",
+        "matureAt": 1792281659,
+        "growAt": 1792264379
+      },
+      {
+        "id": 7,
+        "crop": "马蹄莲",
+        "matureAt": 1792281660,
+        "growAt": 1792264380
+      },
+      {
+        "id": 8,
+        "crop": "马蹄莲",
+        "matureAt": 1792281661,
+        "growAt": 1792264381
+      },
+      {
+        "id": 9,
+        "crop": "马蹄莲",
+        "matureAt": 1792281661,
+        "growAt": 1792264381
+      },
+      {
+        "id": 10,
+        "crop": "马蹄莲",
+        "matureAt": 1792281662,
+        "growAt": 1792264382
+      },
+      {
+        "id": 11,
+        "crop": "马蹄莲",
+        "matureAt": 1792281663,
+        "growAt": 1792264383
+      },
+      {
+        "id": 12,
+        "crop": "马蹄莲",
+        "matureAt": 1792281663,
+        "growAt": 1792264383
+      },
+      {
+        "id": 13,
+        "crop": "马蹄莲",
+        "matureAt": 1792281664,
+        "growAt": 1792264384
+      },
+      {
+        "id": 14,
+        "crop": "马蹄莲",
+        "matureAt": 1792281665,
+        "growAt": 1792264385
+      },
+      {
+        "id": 15,
+        "crop": "马蹄莲",
+        "matureAt": 1792281665,
+        "growAt": 1792264385
+      },
+      {
+        "id": 16,
+        "crop": "马蹄莲",
+        "matureAt": 1792281666,
+        "growAt": 1792264386
+      },
+      {
+        "id": 17,
+        "crop": "马蹄莲",
+        "matureAt": 1792281667,
+        "growAt": 1792264387
+      },
+      {
+        "id": 18,
+        "crop": "马蹄莲",
+        "matureAt": 1792281667,
+        "growAt": 1792264387
+      },
+      {
+        "id": 19,
+        "crop": "马蹄莲",
+        "matureAt": 1792281668,
+        "growAt": 1792264388
+      },
+      {
+        "id": 20,
+        "crop": "马蹄莲",
+        "matureAt": 1792281669,
+        "growAt": 1792264389
+      },
+      {
+        "id": 21,
+        "crop": "马蹄莲",
+        "matureAt": 1792281669,
+        "growAt": 1792264389
+      },
+      {
+        "id": 22,
+        "crop": "马蹄莲",
+        "matureAt": 1792281670,
+        "growAt": 1792264390
+      },
+      {
+        "id": 23,
+        "crop": "马蹄莲",
+        "matureAt": 1792281671,
+        "growAt": 1792264391
+      },
+      {
+        "id": 24,
+        "crop": "马蹄莲",
+        "matureAt": 1792281671,
+        "growAt": 1792264391
+      }
+    ]
+  },
+  "finishedAt": "2026-10-17T12:10:51.089Z",
+  "status": "inspection-only",
+  "runId": "19c284e9-7358-49df-84eb-5bec8fe30b90",
+  "serverClockOffsetMs": 270
+}

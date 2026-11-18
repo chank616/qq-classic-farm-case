@@ -1,0 +1,69 @@
+systems 1445
+milo static [
+  'length',
+  'name',
+  'prototype',
+  'init',
+  'checkLogin',
+  'getQQUserOpenid',
+  'getWXUserOpenid'
+]
+milo proto [ 'constructor' ]
+decoded {
+  'chunks:///_virtual/ServiceMethodName.ts': [
+    'UserMethodName',
+    'RankMethodName',
+    'VisitMethodName',
+    'ItemMethodName',
+    'ShopMethodName',
+    'UserInfoMethodName',
+    'BulletinBoardMethodName',
+    'MarqueeMethodName',
+    'AvatarFrameMethodName',
+    'ServiceName',
+    'ServiceNotifyMessageType',
+    'FriendMethodName',
+    'GuideMethodName',
+    'ShareMethonName',
+    'DogMethodName',
+    'TaskMethodName',
+    'PayMethodName',
+    'UicproxyMethodName',
+    'EmailMethodName',
+    'IllustratedMethodName',
+    'WeatherMethodName',
+    'NudgeMethodName',
+    'MsgBoardMethodName',
+    'ActivityMethodName',
+    'SkinMethodName',
+    'MutantMethodName',
+    'SubscribeQQMethodName',
+    'QQGroupMethodName',
+    'SeasonMethodName',
+    'SolarTermsMethodName',
+    'AchieveMethodName',
+    'MysteryShopMethodName',
+    'InviteredPocketMethodName',
+    'MiscMethodName',
+    'GlobalSceneMethodName',
+    'AdMethodName'
+  ],
+  'chunks:///_virtual/UserCryptoManager.ts': [ 'UserCryptoManager' ],
+  'chunks:///_virtual/WxPlatformUtil.ts': [ 'WxPlatformUtil' ],
+  'chunks:///_virtual/TaskManager.ts': [ 'TaskManager' ],
+  'chunks:///_virtual/MainMgr.ts': [ 'MainMgr' ],
+  'chunks:///_virtual/milo.ts': [ 'milo' ],
+  'chunks:///_virtual/plantpb.ts': [ 'error', 'stack' ],
+  'chunks:///_virtual/userpb.ts': [ 'error', 'stack' ],
+  'chunks:///_virtual/taskpb.ts': [ 'error', 'stack' ],
+  'chunks:///_virtual/shoppb.ts': [ 'error', 'stack' ],
+  'chunks:///_virtual/mallpb.ts': [ 'error', 'stack' ],
+  'chunks:///_virtual/qqvippb.ts': [ 'error', 'stack' ]
+}
+PB chunks:///_virtual/mallpb.ts []
+PB chunks:///_virtual/mysteryshoppb.ts []
+PB chunks:///_virtual/plantpb.ts []
+PB chunks:///_virtual/qqvippb.ts []
+PB chunks:///_virtual/shoppb.ts []
+PB chunks:///_virtual/taskpb.ts []
+PB chunks:///_virtual/userpb.ts []

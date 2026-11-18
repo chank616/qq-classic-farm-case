@@ -1,0 +1,329 @@
+{
+  "generatedFrom": "C:\\Users\\chank616\\AppData\\Roaming\\QQEX\\miniapp\\temps\\miniapp_src\\1112386029_3_3443f89042dffbf93d20ced1d652d031\\game.js",
+  "services": {
+    "gamepb.userpb.UserService": {
+      "login": {
+        "requestType": "gamepb.userpb.LoginRequest",
+        "responseType": "gamepb.userpb.LoginReply",
+        "extractedBy": "invoked generated method against an offline rpcCall capture stub"
+      },
+      "playerLogin": {
+        "requestType": "gamepb.userpb.PlayerLoginRequest",
+        "responseType": "gamepb.userpb.PlayerLoginReply",
+        "extractedBy": "invoked generated method against an offline rpcCall capture stub"
+      },
+      "heartbeat": {
+        "requestType": "gamepb.userpb.HeartbeatRequest",
+        "responseType": "gamepb.userpb.HeartbeatReply",
+        "extractedBy": "invoked generated method against an offline rpcCall capture stub"
+      },
+      "setDisplayInfo": {
+        "requestType": "gamepb.userpb.SetDisplayInfoRequest",
+        "responseType": "gamepb.userpb.SetDisplayInfoReply",
+        "extractedBy": "invoked generated method against an offline rpcCall capture stub"
+      },
+      "logout": {
+        "requestType": "gamepb.userpb.LogoutRequest",
+        "responseType": "gamepb.userpb.LogoutReply",
+        "extractedBy": "invoked generated method against an offline rpcCall capture stub"
+      },
+      "clientReportFlow": {
+        "requestType": "gamepb.userpb.ClientReportFlowRequest",
+        "responseType": "gamepb.userpb.ClientReportFlowReply",
+        "extractedBy": "invoked generated method against an offline rpcCall capture stub"
+      },
+      "batchClientReportFlow": {
+        "requestType": "gamepb.userpb.BatchClientReportFlowRequest",
+        "responseType": "gamepb.userpb.BatchClientReportFlowReply",
+        "extractedBy": "invoked generated method against an offline rpcCall capture stub"
+      },
+      "report": {
+        "requestType": "gamepb.userpb.ReportRequest",
+        "responseType": "gamepb.userpb.ReportReply",
+        "extractedBy": "invoked generated method against an offline rpcCall capture stub"
+      },
+      "deleteAccount": {
+        "requestType": "gamepb.userpb.DeleteAccountRequest",
+        "responseType": "gamepb.userpb.DeleteAccountReply",
+        "extractedBy": "invoked generated method against an offline rpcCall capture stub"
+      },
+      "setQQFriendRecommendAuthorized": {
+        "requestType": "gamepb.userpb.SetQQFriendRecommendAuthorizedRequest",
+        "responseType": "gamepb.userpb.SetQQFriendRecommendAuthorizedReply",
+        "extractedBy": "invoked generated method against an offline rpcCall capture stub"
+      },
+      "setUserSettings": {
+        "requestType": "gamepb.userpb.SetUserSettingsRequest",
+        "responseType": "gamepb.userpb.SetUserSettingsReply",
+        "extractedBy": "invoked generated method against an offline rpcCall capture stub"
+      },
+      "getUserSettings": {
+        "requestType": "gamepb.userpb.GetUserSettingsRequest",
+        "responseType": "gamepb.userpb.GetUserSettingsReply",
+        "extractedBy": "invoked generated method against an offline rpcCall capture stub"
+      },
+      "batchGetBasicInfo": {
+        "requestType": "gamepb.userpb.BatchGetBasicInfoRequest",
+        "responseType": "gamepb.userpb.BatchGetBasicInfoReply",
+        "extractedBy": "invoked generated method against an offline rpcCall capture stub"
+      },
+      "reportArkClick": {
+        "requestType": "gamepb.userpb.ReportArkClickRequest",
+        "responseType": "gamepb.userpb.ReportArkClickReply",
+        "extractedBy": "invoked generated method against an offline rpcCall capture stub"
+      },
+      "reportForeground": {
+        "requestType": "gamepb.userpb.ReportForegroundRequest",
+        "responseType": "gamepb.userpb.ReportForegroundReply",
+        "extractedBy": "invoked generated method against an offline rpcCall capture stub"
+      },
+      "decryptOpenData": {
+        "requestType": "gamepb.userpb.DecryptOpenDataRequest",
+        "responseType": "gamepb.userpb.DecryptOpenDataReply",
+        "extractedBy": "invoked generated method against an offline rpcCall capture stub"
+      }
+    },
+    "gamepb.taskpb.TaskService": {
+      "taskInfo": {
+        "requestType": "gamepb.taskpb.TaskInfoRequest",
+        "responseType": "gamepb.taskpb.TaskInfoReply",
+        "extractedBy": "invoked generated method against an offline rpcCall capture stub"
+      },
+      "claimTaskReward": {
+        "requestType": "gamepb.taskpb.ClaimTaskRewardRequest",
+        "responseType": "gamepb.taskpb.ClaimTaskRewardReply",
+        "extractedBy": "invoked generated method against an offline rpcCall capture stub"
+      },
+      "batchClaimTaskReward": {
+        "requestType": "gamepb.taskpb.BatchClaimTaskRewardRequest",
+        "responseType": "gamepb.taskpb.BatchClaimTaskRewardReply",
+        "extractedBy": "invoked generated method against an offline rpcCall capture stub"
+      },
+      "clientReportProgress": {
+        "requestType": "gamepb.taskpb.ClientReportProgressRequest",
+        "responseType": "gamepb.taskpb.ClientReportProgressReply",
+        "extractedBy": "invoked generated method against an offline rpcCall capture stub"
+      },
+      "claimDailyReward": {
+        "requestType": "gamepb.taskpb.ClaimDailyRewardRequest",
+        "responseType": "gamepb.taskpb.ClaimDailyRewardReply",
+        "extractedBy": "invoked generated method against an offline rpcCall capture stub"
+      }
+    },
+    "gamepb.qqvippb.QQVipService": {
+      "getDailyGiftStatus": {
+        "requestType": "gamepb.qqvippb.GetDailyGiftStatusRequest",
+        "responseType": "gamepb.qqvippb.GetDailyGiftStatusReply",
+        "extractedBy": "invoked generated method against an offline rpcCall capture stub"
+      },
+      "claimDailyGift": {
+        "requestType": "gamepb.qqvippb.ClaimDailyGiftRequest",
+        "responseType": "gamepb.qqvippb.ClaimDailyGiftReply",
+        "extractedBy": "invoked generated method against an offline rpcCall capture stub"
+      },
+      "refreshVipInfo": {
+        "requestType": "gamepb.qqvippb.RefreshVipInfoRequest",
+        "responseType": "gamepb.qqvippb.RefreshVipInfoReply",
+        "extractedBy": "invoked generated method against an offline rpcCall capture stub"
+      },
+      "claimQQVipRewards": {
+        "requestType": "gamepb.qqvippb.ClaimQQVipRewardsRequest",
+        "responseType": "gamepb.qqvippb.ClaimQQVipRewardsReply",
+        "extractedBy": "invoked generated method against an offline rpcCall capture stub"
+      },
+      "getQQVipRewardsStatus": {
+        "requestType": "gamepb.qqvippb.GetQQVipRewardsStatusRequest",
+        "responseType": "gamepb.qqvippb.GetQQVipRewardsStatusReply",
+        "extractedBy": "invoked generated method against an offline rpcCall capture stub"
+      },
+      "markQQVipRedpointViewed": {
+        "requestType": "gamepb.qqvippb.MarkQQVipRedpointViewedRequest",
+        "responseType": "gamepb.qqvippb.MarkQQVipRedpointViewedReply",
+        "extractedBy": "invoked generated method against an offline rpcCall capture stub"
+      }
+    },
+    "gamepb.shoppb.ShopService": {
+      "shopProfiles": {
+        "requestType": "gamepb.shoppb.ShopProfilesRequest",
+        "responseType": "gamepb.shoppb.ShopProfilesReply",
+        "extractedBy": "invoked generated method against an offline rpcCall capture stub"
+      },
+      "shopInfo": {
+        "requestType": "gamepb.shoppb.ShopInfoRequest",
+        "responseType": "gamepb.shoppb.ShopInfoReply",
+        "extractedBy": "invoked generated method against an offline rpcCall capture stub"
+      },
+      "buyGoods": {
+        "requestType": "gamepb.shoppb.BuyGoodsRequest",
+        "responseType": "gamepb.shoppb.BuyGoodsReply",
+        "extractedBy": "invoked generated method against an offline rpcCall capture stub"
+      }
+    },
+    "gamepb.mallpb.MallService": {
+      "getMallProfiles": {
+        "requestType": "gamepb.mallpb.GetMallProfilesRequest",
+        "responseType": "gamepb.mallpb.GetMallProfilesReply",
+        "extractedBy": "invoked generated method against an offline rpcCall capture stub"
+      },
+      "getMallListBySlotType": {
+        "requestType": "gamepb.mallpb.GetMallListBySlotTypeRequest",
+        "responseType": "gamepb.mallpb.GetMallListBySlotTypeReply",
+        "extractedBy": "invoked generated method against an offline rpcCall capture stub"
+      },
+      "purchase": {
+        "requestType": "gamepb.mallpb.PurchaseRequest",
+        "responseType": "gamepb.mallpb.PurchaseReply",
+        "extractedBy": "invoked generated method against an offline rpcCall capture stub"
+      },
+      "claimMonthCardReward": {
+        "requestType": "gamepb.mallpb.ClaimMonthCardRewardRequest",
+        "responseType": "gamepb.mallpb.ClaimMonthCardRewardReply",
+        "extractedBy": "invoked generated method against an offline rpcCall capture stub"
+      },
+      "getMonthCardInfos": {
+        "requestType": "gamepb.mallpb.GetMonthCardInfosRequest",
+        "responseType": "gamepb.mallpb.GetMonthCardInfosReply",
+        "extractedBy": "invoked generated method against an offline rpcCall capture stub"
+      }
+    },
+    "gamepb.plantpb.PlantService": {
+      "allLands": {
+        "requestType": "gamepb.plantpb.AllLandsRequest",
+        "responseType": "gamepb.plantpb.AllLandsReply",
+        "extractedBy": "invoked generated method against an offline rpcCall capture stub"
+      },
+      "refreshLands": {
+        "requestType": "gamepb.plantpb.RefreshLandsRequest",
+        "responseType": "gamepb.plantpb.RefreshLandsReply",
+        "extractedBy": "invoked generated method against an offline rpcCall capture stub"
+      },
+      "unlockLand": {
+        "requestType": "gamepb.plantpb.UnlockLandRequest",
+        "responseType": "gamepb.plantpb.UnlockLandReply",
+        "extractedBy": "invoked generated method against an offline rpcCall capture stub"
+      },
+      "upgradeLand": {
+        "requestType": "gamepb.plantpb.UpgradeLandRequest",
+        "responseType": "gamepb.plantpb.UpgradeLandReply",
+        "extractedBy": "invoked generated method against an offline rpcCall capture stub"
+      },
+      "plant": {
+        "requestType": "gamepb.plantpb.PlantRequest",
+        "responseType": "gamepb.plantpb.PlantReply",
+        "extractedBy": "invoked generated method against an offline rpcCall capture stub"
+      },
+      "waterLand": {
+        "requestType": "gamepb.plantpb.WaterLandRequest",
+        "responseType": "gamepb.plantpb.WaterLandReply",
+        "extractedBy": "invoked generated method against an offline rpcCall capture stub"
+      },
+      "weedOut": {
+        "requestType": "gamepb.plantpb.WeedOutRequest",
+        "responseType": "gamepb.plantpb.WeedOutReply",
+        "extractedBy": "invoked generated method against an offline rpcCall capture stub"
+      },
+      "insecticide": {
+        "requestType": "gamepb.plantpb.InsecticideRequest",
+        "responseType": "gamepb.plantpb.InsecticideReply",
+        "extractedBy": "invoked generated method against an offline rpcCall capture stub"
+      },
+      "farming": {
+        "requestType": "gamepb.plantpb.FarmingRequest",
+        "responseType": "gamepb.plantpb.FarmingReply",
+        "extractedBy": "invoked generated method against an offline rpcCall capture stub"
+      },
+      "fertilize": {
+        "requestType": "gamepb.plantpb.FertilizeRequest",
+        "responseType": "gamepb.plantpb.FertilizeReply",
+        "extractedBy": "invoked generated method against an offline rpcCall capture stub"
+      },
+      "harvest": {
+        "requestType": "gamepb.plantpb.HarvestRequest",
+        "responseType": "gamepb.plantpb.HarvestReply",
+        "extractedBy": "invoked generated method against an offline rpcCall capture stub"
+      },
+      "removePlant": {
+        "requestType": "gamepb.plantpb.RemovePlantRequest",
+        "responseType": "gamepb.plantpb.RemovePlantReply",
+        "extractedBy": "invoked generated method against an offline rpcCall capture stub"
+      },
+      "putWeeds": {
+        "requestType": "gamepb.plantpb.PutWeedsRequest",
+        "responseType": "gamepb.plantpb.PutWeedsReply",
+        "extractedBy": "invoked generated method against an offline rpcCall capture stub"
+      },
+      "putInsects": {
+        "requestType": "gamepb.plantpb.PutInsectsRequest",
+        "responseType": "gamepb.plantpb.PutInsectsReply",
+        "extractedBy": "invoked generated method against an offline rpcCall capture stub"
+      },
+      "putSocialItem": {
+        "requestType": "gamepb.plantpb.PutSocialItemRequest",
+        "responseType": "gamepb.plantpb.PutSocialItemReply",
+        "extractedBy": "invoked generated method against an offline rpcCall capture stub"
+      },
+      "cleanSocialItems": {
+        "requestType": "gamepb.plantpb.CleanSocialItemsRequest",
+        "responseType": "gamepb.plantpb.CleanSocialItemsReply",
+        "extractedBy": "invoked generated method against an offline rpcCall capture stub"
+      },
+      "cleanFarmSocialEvent": {
+        "requestType": "gamepb.plantpb.CleanFarmSocialEventRequest",
+        "responseType": "gamepb.plantpb.CleanFarmSocialEventReply",
+        "extractedBy": "invoked generated method against an offline rpcCall capture stub"
+      },
+      "checkCanOperate": {
+        "requestType": "gamepb.plantpb.CheckCanOperateRequest",
+        "responseType": "gamepb.plantpb.CheckCanOperateReply",
+        "extractedBy": "invoked generated method against an offline rpcCall capture stub"
+      }
+    },
+    "gamepb.itempb.ItemService": {
+      "bag": {
+        "requestType": "gamepb.itempb.BagRequest",
+        "responseType": "gamepb.itempb.BagReply",
+        "extractedBy": "invoked generated method against an offline rpcCall capture stub"
+      },
+      "sell": {
+        "requestType": "gamepb.itempb.SellRequest",
+        "responseType": "gamepb.itempb.SellReply",
+        "extractedBy": "invoked generated method against an offline rpcCall capture stub"
+      },
+      "use": {
+        "requestType": "gamepb.itempb.UseRequest",
+        "responseType": "gamepb.itempb.UseReply",
+        "extractedBy": "invoked generated method against an offline rpcCall capture stub"
+      },
+      "batchUse": {
+        "requestType": "gamepb.itempb.BatchUseRequest",
+        "responseType": "gamepb.itempb.BatchUseReply",
+        "extractedBy": "invoked generated method against an offline rpcCall capture stub"
+      },
+      "cannelNew": {
+        "requestType": "gamepb.itempb.CannelNewRequest",
+        "responseType": "gamepb.itempb.CannelNewReply",
+        "extractedBy": "invoked generated method against an offline rpcCall capture stub"
+      },
+      "lockItems": {
+        "requestType": "gamepb.itempb.LockItemsRequest",
+        "responseType": "gamepb.itempb.LockItemsReply",
+        "extractedBy": "invoked generated method against an offline rpcCall capture stub"
+      },
+      "unlockItems": {
+        "requestType": "gamepb.itempb.UnlockItemsRequest",
+        "responseType": "gamepb.itempb.UnlockItemsReply",
+        "extractedBy": "invoked generated method against an offline rpcCall capture stub"
+      },
+      "getBag": {
+        "requestType": "gamepb.itempb.GetBagRequest",
+        "responseType": "gamepb.itempb.GetBagReply",
+        "extractedBy": "invoked generated method against an offline rpcCall capture stub"
+      },
+      "getBagTab": {
+        "requestType": "gamepb.itempb.GetBagTabRequest",
+        "responseType": "gamepb.itempb.GetBagTabReply",
+        "extractedBy": "invoked generated method against an offline rpcCall capture stub"
+      }
+    }
+  }
+}

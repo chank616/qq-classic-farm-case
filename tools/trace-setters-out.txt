@@ -1,0 +1,7 @@
+dep0
+GET cc.cclegacy
+dep2
+GET shared.$root
+GET shared.$root
+dep3
+GET minimal.default

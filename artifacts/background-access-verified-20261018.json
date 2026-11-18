@@ -1,0 +1,127 @@
+{
+  "checkedAt": "2026-10-18T17:19:23.3866232+08:00",
+  "backendVerified": true,
+  "deployedExe": "E:\\workspace\\QQ经典农场案例\\deploy-csharp\\FarmTray.exe",
+  "exeSha256": "305CD96BA0EBA8C86356F14139D2835D76B710CFB053E4F5269436F0ADB62C11",
+  "trayPid": 22612,
+  "qqPid": 3888,
+  "qqStart": "2026-10-17T23:40:40.6043969+08:00",
+  "qqResponding": true,
+  "qqProcesses": [
+    {
+      "pid": 3888,
+      "started": "2026-10-17T23:40:40.6043960+08:00",
+      "farmApp": false,
+      "appChild": false
+    },
+    {
+      "pid": 16636,
+      "started": "2026-10-17T23:40:41.3946440+08:00",
+      "farmApp": false,
+      "appChild": false
+    },
+    {
+      "pid": 6800,
+      "started": "2026-10-17T23:40:41.4123240+08:00",
+      "farmApp": false,
+      "appChild": false
+    },
+    {
+      "pid": 12616,
+      "started": "2026-10-17T23:40:44.5801050+08:00",
+      "farmApp": false,
+      "appChild": false
+    },
+    {
+      "pid": 11016,
+      "started": "2026-10-17T23:40:45.6611830+08:00",
+      "farmApp": false,
+      "appChild": false
+    },
+    {
+      "pid": 22264,
+      "started": "2026-10-18T14:28:42.6797990+08:00",
+      "farmApp": false,
+      "appChild": false
+    },
+    {
+      "pid": 9456,
+      "started": "2026-10-18T16:10:36.6034660+08:00",
+      "farmApp": false,
+      "appChild": false
+    },
+    {
+      "pid": 11096,
+      "started": "2026-10-18T16:10:36.6034760+08:00",
+      "farmApp": false,
+      "appChild": false
+    },
+    {
+      "pid": 18548,
+      "started": "2026-10-18T17:15:04.6810530+08:00",
+      "farmApp": false,
+      "appChild": false
+    }
+  ],
+  "currentReport": "E:\\workspace\\QQ经典农场案例\\deploy-csharp\\artifacts\\reports\\farm-csharp-2026-10-18T09-18-22-935Z-2e405d54.json",
+  "account": "露露大神",
+  "level": 149,
+  "landCount": 24,
+  "daily": {
+    "observed": 3,
+    "claimed": 3,
+    "complete": true,
+    "tasks": [
+      {
+        "id": "200019",
+        "desc": "每日登录游戏",
+        "cond": 16,
+        "progress": 1,
+        "total": 1,
+        "claimed": true,
+        "unlocked": true
+      },
+      {
+        "id": "200020",
+        "desc": "采摘1次果实",
+        "cond": 17,
+        "progress": 1,
+        "total": 1,
+        "claimed": true,
+        "unlocked": true
+      },
+      {
+        "id": "200021",
+        "desc": "在1个好友农场进行互动",
+        "cond": 18,
+        "progress": 1,
+        "total": 1,
+        "claimed": true,
+        "unlocked": true
+      }
+    ]
+  },
+  "status": "verified",
+  "connection": {
+    "mode": "existing-qq-session",
+    "qqPid": 3888,
+    "offlineTsdk": true,
+    "qqStarted": false,
+    "farmStarted": false
+  },
+  "lastPass": "2026-10-18T17:18:22.9415609+08:00",
+  "nextDue": "2026-10-18T19:59:35+08:00",
+  "retryNeeded": false,
+  "staleData": false,
+  "idleSeconds": 75,
+  "heartbeatsVerified": 3,
+  "freshCodeAfterIdle": true,
+  "protobufFixtures": 1025,
+  "businessChecks": 32,
+  "schedulerChecks": 15,
+  "uiPreviewExit": 0,
+  "realFullCropCycleObserved": false,
+  "fullCropCycleNote": "当前作物未到最后阶段，完整收获补种周期仍待自然到期；本记录验收后台接入和当前到期流程。",
+  "package": "E:\\workspace\\QQ经典农场案例\\QQFarm-CSharp-win-x64.zip",
+  "packageBytes": 9220280
+}

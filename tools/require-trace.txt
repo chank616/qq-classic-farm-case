@@ -1,0 +1,59 @@
+REQUIRE ../../@babel/runtime/helpers/interopRequireDefault
+REQUIRE ../../@babel/runtime/helpers/typeof
+REQUIRE ../../@babel/runtime/regenerator
+systems 1445
+milo static [
+  'length',
+  'name',
+  'prototype',
+  'init',
+  'checkLogin',
+  'getQQUserOpenid',
+  'getWXUserOpenid'
+]
+milo proto [ 'constructor' ]
+decoded {
+  'chunks:///_virtual/ServiceMethodName.ts': [
+    'UserMethodName',
+    'RankMethodName',
+    'VisitMethodName',
+    'ItemMethodName',
+    'ShopMethodName',
+    'UserInfoMethodName',
+    'BulletinBoardMethodName',
+    'MarqueeMethodName',
+    'AvatarFrameMethodName',
+    'ServiceName',
+    'ServiceNotifyMessageType',
+    'FriendMethodName',
+    'GuideMethodName',
+    'ShareMethonName',
+    'DogMethodName',
+    'TaskMethodName',
+    'PayMethodName',
+    'UicproxyMethodName',
+    'EmailMethodName',
+    'IllustratedMethodName',
+    'WeatherMethodName',
+    'NudgeMethodName',
+    'MsgBoardMethodName',
+    'ActivityMethodName',
+    'SkinMethodName',
+    'MutantMethodName',
+    'SubscribeQQMethodName',
+    'QQGroupMethodName',
+    'SeasonMethodName',
+    'SolarTermsMethodName',
+    'AchieveMethodName',
+    'MysteryShopMethodName',
+    'InviteredPocketMethodName',
+    'MiscMethodName',
+    'GlobalSceneMethodName',
+    'AdMethodName'
+  ],
+  'chunks:///_virtual/UserCryptoManager.ts': [ 'UserCryptoManager' ],
+  'chunks:///_virtual/WxPlatformUtil.ts': [ 'error', 'stack' ],
+  'chunks:///_virtual/TaskManager.ts': [ 'TaskManager' ],
+  'chunks:///_virtual/MainMgr.ts': [ 'error', 'stack' ],
+  'chunks:///_virtual/milo.ts': [ 'milo' ]
+}

@@ -1,0 +1,19 @@
+{
+  "root": "C:\\Users\\chank616\\AppData\\Roaming\\QQEX\\miniapp\\temps\\miniapp_pkgs",
+  "archiveCount": 32,
+  "versionIdCount": 16,
+  "totalBytes": 3619712,
+  "entryCount": 48,
+  "packageTypes": {
+    "ccWasmAssetSubpkg__": 16,
+    "ccWasmChunkSubpkg__": 16
+  },
+  "entryPaths": {
+    "/cocos-js/assets/game.js": 16,
+    "/cocos-js/assets/spine.wasm": 16,
+    "/cocos-js/chunks/game.js": 16
+  },
+  "mcbootArchiveCount": 0,
+  "mcbootEntryCount": 0,
+  "errors": []
+}

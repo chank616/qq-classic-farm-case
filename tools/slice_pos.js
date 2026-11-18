@@ -1,0 +1,1 @@
+const fs=require('fs');const s=fs.readFileSync('C:/Users/chank616/AppData/Roaming/QQEX/miniapp/temps/miniapp_src/1112386029_3_3443f89042dffbf93d20ced1d652d031/game.js','utf8');let p=s.indexOf('chunks:///_virtual/ServiceMethodName.ts');console.log(p);console.log(s.slice(p-600,p+1200));

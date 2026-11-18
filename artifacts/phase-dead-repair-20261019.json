@@ -1,0 +1,67 @@
+{
+  "generatedAt": "2026-10-19T15:30:00+08:00",
+  "issue": "2026-10-18 19:59 起「土地复核」(final-state) 一直未通过：24 块地全部枯死且无法恢复，收种循环永久卡死。",
+  "rootCauses": [
+    {
+      "id": "maturity-read-from-plan-tail",
+      "detail": "FarmCrop.Mature() 取 phases 最后一条 begin_time。服务端会在计划尾部追加枯死条目，成熟阶段是 phase=6、枯死是 phase=7，于是『成熟时间』被读成枯死期限（本次晚 4.77 小时）。10-18 19:59 整批化肥按该期限计算缺口，施肥越过枯死期限，24 块地当场枯死。",
+      "evidence": [
+        "artifacts/reference-fetch/plantpb.proto (MATURE=6 / DEAD=7)",
+        "artifacts/lands-probe-20261019-152643.json (新计划末条 phase=6 phase_id=19 begin_time=2026-10-20 10:34:24)",
+        "deploy-csharp/artifacts/reports/farm-csharp-2026-10-18T11-59-39-153Z-65795a4e.json (fert-budget needSec=412512=24×17188s，施肥后即枯死)"
+      ]
+    },
+    {
+      "id": "no-withered-handling",
+      "detail": "工作流只认 begin_time>0，没有 phase=7 处理，也从不调用 RemovePlant。枯死后 Mature()=0，既不收获也不铲除，final-state 永远 pending，托盘显示『仍有未完成或未核实项目：土地复核』。",
+      "evidence": [
+        "artifacts/lands-probe-20261019-145729.json (24/24 lands phases=[{phase:7}]，无 begin_time)",
+        "artifacts/m0-code-capture.jsonl 中游戏字符串 PlantAlreadyDead / PlantMatureCannotRemove / EraseUnwitheredPlant / [OneClick] HARVEST erase phase",
+        "deploy-csharp/artifacts/reports/farm-csharp-2026-10-19T06-52-05-040Z-08cca7f0.json (final-state pending, dead 未统计)"
+      ]
+    },
+    {
+      "id": "plant-one-land-per-item",
+      "detail": "真实服务端每条 PlantItem 只接受一个 land_ids：24 块地同发 Plant 返回 1000020 请求参数错误，导致铲除枯死作物后无法补种。",
+      "evidence": [
+        "artifacts/plant-probe-20261019-152226.json (变体 A items+auto_slave / B items / D land_and_seed 均 1000020；单块 err=0；24 块补种 failedLands=[])"
+      ]
+    }
+  ],
+  "liveRepair": {
+    "erase": {
+      "report": "deploy-csharp/artifacts/reports/farm-csharp-2026-10-19T07-18-49-266Z-6745b14c.json",
+      "result": "erase-dead passed {dead:24, cleared:24}；同轮 Plant 因多地块形状被拒 1000020"
+    },
+    "replant": {
+      "probe": "artifacts/plant-probe-20261019-152226.json",
+      "result": "逐块 Plant err=0，plantedLands=1..24，failedLands=[]，emptyFinal=[]"
+    },
+    "newPlan": {
+      "probe": "artifacts/lands-probe-20261019-152643.json",
+      "result": "24 块马蹄莲，6 条阶段计划，末条 phase=6(MATURE) phase_id=19 begin_time=1792463664 (2026-10-20 10:34:24 +08)"
+    }
+  },
+  "fix": {
+    "files": [
+      "tools/tray/Native/FertilizerBudget.cs (FarmCrop.Phase/Dead/Ripe/Mature/Grow, Plan 排除枯死地块)",
+      "tools/tray/Native/FarmWorkflow.cs (erase-dead 阶段、整批重置、逐块 Plant 与复核、final-state 判定、cropClock.phase/deadCount/ripeCount)",
+      "tools/tray/Native/NativeSelfChecks.cs (枯死/成熟/部分枯死/铲除未复核用例，模拟服务端 1000020)",
+      "tools/tray/Program.cs / DashboardForm.cs (枯死提示与地块显示，deadLands 状态)"
+    ],
+    "checks": { "native": 36, "scheduler": 15, "artifact": "artifacts/native-self-test.json" }
+  },
+  "verification": {
+    "report": "deploy-csharp/artifacts/reports/farm-csharp-2026-10-19T07-27-56-199Z-491d6a2d.json",
+    "status": "verified",
+    "allRequiredComplete": true,
+    "checks": "erase-dead/final-state 通过，harvest/replant/fertilize not-due",
+    "cropClock": { "planted": 24, "deadCount": 0, "ripeCount": 0, "batchMatureAt": 1792463665, "batchFertilizeAt": 1792446385 },
+    "trayStatus": { "verification": "逐项复核通过", "deadLands": 0, "nextDue": "2026-10-20T00:00:00+08:00" },
+    "deployment": "deploy-csharp/FarmTray.exe (published 2026-10-19 15:27), QQFarm-CSharp-win-x64.zip rebuilt, autostart unchanged → deploy-csharp/FarmTray.exe"
+  },
+  "notYetVerified": [
+    "整批自然成熟→收获→再补种的完整周期需等 2026-10-20 10:34 之后由调度触发，届时以真实报告确认；不得提前标记完成。",
+    "本轮未再触发点券购肥分支（当前库存仍充足）。"
+  ]
+}

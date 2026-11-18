@@ -1,0 +1,8 @@
+﻿{
+    "runtime":  "csharp",
+    "frameworkDependent":  true,
+    "architecture":  "win-x64",
+    "entry":  "FarmTray.exe",
+    "nodeRequired":  false,
+    "powershellRequired":  false
+}

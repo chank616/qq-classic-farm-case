@@ -1,0 +1,85 @@
+{
+  "sourceDirectory": "C:/Users/chank616/AppData/Roaming/QQEX/miniapp/fs/2351686624/1112386029/usr",
+  "privacy": "Payloads, base64 values, pointer values, sequence values, request contents, and errors are not retained; only counts, byte totals, and categories are recorded.",
+  "interpretation": "bridge-out success reflects the local wrapper calling socketTask.send, not a server response or accepted business operation. bridge-rx/WASM payloads are summarized without decoding or printing.",
+  "files": {
+    "bridge-cmd.jsonl": {
+      "exists": true,
+      "bytes": 7670,
+      "modifiedUtc": "2026-10-11T09:04:11.679Z",
+      "parsedRecords": 39,
+      "malformedLines": 0,
+      "commands": 39,
+      "probes": 0,
+      "frameCommands": 39,
+      "decodedPayloadBytes": {
+        "min": 0,
+        "max": 155,
+        "total": 5148
+      }
+    },
+    "bridge-out.jsonl": {
+      "exists": true,
+      "bytes": 5004,
+      "modifiedUtc": "2026-10-16T16:49:12.708Z",
+      "parsedRecords": 117,
+      "malformedLines": 0,
+      "okCount": 41,
+      "failCount": 76,
+      "probeReadyCount": 0,
+      "probeNotReadyCount": 2,
+      "errorCategories": {
+        "socketNotReady": 76,
+        "other": 0
+      },
+      "meanReportedFrameBytes": 132
+    },
+    "bridge-rx.jsonl": {
+      "exists": true,
+      "bytes": 460498,
+      "modifiedUtc": "2026-10-16T16:49:29.714Z",
+      "parsedRecords": 545,
+      "malformedLines": 0,
+      "eventCounts": {
+        "bridge-boot": 3,
+        "bridge-ready": 3,
+        "S": 225,
+        "R": 314
+      },
+      "frameBytesByCategory": {
+        "S": 53433,
+        "R": 273902
+      },
+      "sequenceRange": {
+        "min": 0,
+        "max": 109
+      }
+    },
+    "wasm-calls.jsonl": {
+      "exists": true,
+      "bytes": 17825,
+      "modifiedUtc": "2026-10-16T16:49:24.989Z",
+      "parsedRecords": 165,
+      "malformedLines": 0,
+      "eventCounts": {
+        "boot": 16,
+        "instantiate-ok": 32,
+        "instantiated": 32,
+        "boot2": 15,
+        "boot3": 14,
+        "no-memory": 28,
+        "instrumented3": 28
+      },
+      "functionCounts": {},
+      "callShapeCounts": {
+        "boot||0|0|0": 16,
+        "instantiate-ok||0|0|0": 32,
+        "instantiated||0|0|0": 32,
+        "boot2||0|0|0": 15,
+        "boot3||0|0|0": 14,
+        "no-memory||0|0|0": 28,
+        "instrumented3||0|0|0": 28
+      }
+    }
+  }
+}

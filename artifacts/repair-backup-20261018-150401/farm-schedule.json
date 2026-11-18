@@ -1,0 +1,11 @@
+{
+  "lastAttempt": "2026-10-18T07:00:35.4475825\u002B00:00",
+  "lastPass": "2026-10-18T07:00:43.0945833\u002B00:00",
+  "day": "2026-10-18",
+  "lastStatus": "incomplete",
+  "cropClock": null,
+  "lastVerifiedDay": "2026-10-18",
+  "lastSuccess": "2026-10-17T16:00:19.9109733\u002B00:00",
+  "fertilizerDecision": null,
+  "runtime": "csharp"
+}

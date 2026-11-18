@@ -1,0 +1,31 @@
+{
+  "capturedCommandFile": "C:\\Users\\chank616\\AppData\\Roaming\\QQEX\\miniapp\\fs\\2351686624\\1112386029\\usr\\bridge-cmd.jsonl",
+  "bridgeOutSuccesses": 39,
+  "matchedToOutgoingFrameMetadata": 38,
+  "methodAmbiguousMatches": 1,
+  "unmatchedSuccesses": 1,
+  "methodCounts": {
+    "gamepb.plantpb.PlantService/AllLands": 2,
+    "gamepb.itempb.ItemService/Bag": 2,
+    "gamepb.shoppb.ShopService/ShopInfo": 2,
+    "gamepb.activitypb.ActivityService/List": 2,
+    "gamepb.taskpb.TaskService/TaskInfo": 2,
+    "gamepb.emailpb.EmailService/GetEmailList": 2,
+    "gamepb.friendpb.FriendService/SyncAll": 2,
+    "gamepb.dogpb.DogService/GetDogInfo": 2,
+    "gamepb.skinpb.SkinService/SkinsOwned": 2,
+    "gamepb.seasonpb.SeasonService/GetSeasonInfo": 2,
+    "gamepb.careerpb.CareerService/CareerInfoGet": 2,
+    "gamepb.achievepb.AchieveService/GetScopeView": 2,
+    "gamepb.illustratedpb.IllustratedService/GetIllustratedListV2": 1,
+    "gamepb.avatarframepb.AvatarFrameService/AvatarFramesOwned": 2,
+    "gamepb.qqvippb.QQVipService/GetQQVipRewardsStatus": 2,
+    "gamepb.marqueepb.MarqueeService/GetMarquee": 2,
+    "gamepb.bulletinboardpb.BulletinBoardService/GetBulletinList": 2,
+    "gamepb.mallpb.MallService/GetMallListBySlotType": 2,
+    "gamepb.userpb.UserService/Heartbeat": 2
+  },
+  "matchedMethodTotal": 37,
+  "mutatingMethodCandidates": [],
+  "interpretation": "These are frame names correlated by the injected bridge sequence to its local send receipt. The receipt reports only that socketTask.send was called; it does not prove server acceptance or business success."
+}

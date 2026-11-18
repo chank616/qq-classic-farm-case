@@ -1,0 +1,1 @@
+const fs=require('fs');const s=fs.readFileSync('C:/Users/chank616/AppData/Roaming/QQEX/miniapp/temps/miniapp_src/1112386029_3_3443f89042dffbf93d20ced1d652d031/game.js','utf8');for(const k of ['Heartbeat','ClaimQQVipRewards','ClaimDailyReward','AllLands','ClientReportProgress']){let i=s.indexOf(k);console.log(k,i,i>=0?s.slice(i-500,i+700):'');}

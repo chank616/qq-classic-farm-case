@@ -1,0 +1,890 @@
+{
+  "generatedFrom": {
+    "schema": "artifacts\\proto-schema-full.json",
+    "rpcMap": "artifacts\\rpc-map.json"
+  },
+  "boundary": "Generated protobuf constructors and RPC request/response bindings were inspected offline. This map does not establish dynamic payload values, endpoint-specific product/seed IDs, authentication, server acceptance, or successful state changes.",
+  "operations": [
+    {
+      "service": "gamepb.taskpb.TaskService",
+      "method": "taskInfo",
+      "request": {
+        "type": "gamepb.taskpb.TaskInfoRequest",
+        "fields": [
+          {
+            "number": 1,
+            "name": "global_scene_id",
+            "wire": 0,
+            "defaultKind": "number"
+          }
+        ]
+      },
+      "response": {
+        "type": "gamepb.taskpb.TaskInfoReply",
+        "fields": [
+          {
+            "number": 1,
+            "name": "task_info",
+            "wire": 2,
+            "defaultKind": "message",
+            "nestedType": "gamepb.taskpb.TaskInfo"
+          }
+        ]
+      },
+      "mappingEvidence": "invoked generated method against an offline rpcCall capture stub",
+      "runtimeStatus": "static-type-map-only; no request is issued by this report"
+    },
+    {
+      "service": "gamepb.taskpb.TaskService",
+      "method": "claimTaskReward",
+      "request": {
+        "type": "gamepb.taskpb.ClaimTaskRewardRequest",
+        "fields": [
+          {
+            "number": 1,
+            "name": "id",
+            "wire": 0,
+            "defaultKind": "object"
+          },
+          {
+            "number": 2,
+            "name": "do_shared",
+            "wire": 0,
+            "defaultKind": "boolean"
+          }
+        ]
+      },
+      "response": {
+        "type": "gamepb.taskpb.ClaimTaskRewardReply",
+        "fields": [
+          {
+            "number": 1,
+            "name": "items",
+            "wire": 2,
+            "defaultKind": "array"
+          },
+          {
+            "number": 2,
+            "name": "task_info",
+            "wire": 2,
+            "defaultKind": "message",
+            "nestedType": "gamepb.taskpb.TaskInfo"
+          },
+          {
+            "number": 3,
+            "name": "compensated_items",
+            "wire": 2,
+            "defaultKind": "array"
+          }
+        ]
+      },
+      "mappingEvidence": "invoked generated method against an offline rpcCall capture stub",
+      "runtimeStatus": "static-type-map-only; no request is issued by this report"
+    },
+    {
+      "service": "gamepb.taskpb.TaskService",
+      "method": "batchClaimTaskReward",
+      "request": {
+        "type": "gamepb.taskpb.BatchClaimTaskRewardRequest",
+        "fields": [
+          {
+            "number": 1,
+            "name": "ids",
+            "wire": 2,
+            "defaultKind": "array"
+          }
+        ]
+      },
+      "response": {
+        "type": "gamepb.taskpb.BatchClaimTaskRewardReply",
+        "fields": [
+          {
+            "number": 1,
+            "name": "items",
+            "wire": 2,
+            "defaultKind": "array"
+          },
+          {
+            "number": 2,
+            "name": "task_info",
+            "wire": 2,
+            "defaultKind": "message",
+            "nestedType": "gamepb.taskpb.TaskInfo"
+          },
+          {
+            "number": 3,
+            "name": "compensated_items",
+            "wire": 2,
+            "defaultKind": "array"
+          }
+        ]
+      },
+      "mappingEvidence": "invoked generated method against an offline rpcCall capture stub",
+      "runtimeStatus": "static-type-map-only; no request is issued by this report"
+    },
+    {
+      "service": "gamepb.taskpb.TaskService",
+      "method": "claimDailyReward",
+      "request": {
+        "type": "gamepb.taskpb.ClaimDailyRewardRequest",
+        "fields": [
+          {
+            "number": 1,
+            "name": "type",
+            "wire": 0,
+            "defaultKind": "number"
+          },
+          {
+            "number": 2,
+            "name": "point_ids",
+            "wire": 2,
+            "defaultKind": "array"
+          }
+        ]
+      },
+      "response": {
+        "type": "gamepb.taskpb.ClaimDailyRewardReply",
+        "fields": [
+          {
+            "number": 1,
+            "name": "items",
+            "wire": 2,
+            "defaultKind": "array"
+          },
+          {
+            "number": 2,
+            "name": "task_info",
+            "wire": 2,
+            "defaultKind": "message",
+            "nestedType": "gamepb.taskpb.TaskInfo"
+          },
+          {
+            "number": 3,
+            "name": "compensated_items",
+            "wire": 2,
+            "defaultKind": "array"
+          }
+        ]
+      },
+      "mappingEvidence": "invoked generated method against an offline rpcCall capture stub",
+      "runtimeStatus": "static-type-map-only; no request is issued by this report"
+    },
+    {
+      "service": "gamepb.qqvippb.QQVipService",
+      "method": "getQQVipRewardsStatus",
+      "request": {
+        "type": "gamepb.qqvippb.GetQQVipRewardsStatusRequest",
+        "fields": []
+      },
+      "response": {
+        "type": "gamepb.qqvippb.GetQQVipRewardsStatusReply",
+        "fields": [
+          {
+            "number": 1,
+            "name": "is_qq_vip",
+            "wire": 0,
+            "defaultKind": "boolean"
+          },
+          {
+            "number": 2,
+            "name": "can_claim",
+            "wire": 0,
+            "defaultKind": "boolean"
+          },
+          {
+            "number": 3,
+            "name": "claimed_today",
+            "wire": 0,
+            "defaultKind": "boolean"
+          },
+          {
+            "number": 4,
+            "name": "rewards_can_claim",
+            "wire": 0,
+            "defaultKind": "boolean"
+          },
+          {
+            "number": 5,
+            "name": "active_configs",
+            "wire": 2,
+            "defaultKind": "array",
+            "nestedType": "gamepb.qqvippb.QQVipConfig"
+          },
+          {
+            "number": 6,
+            "name": "has_redpoint",
+            "wire": 0,
+            "defaultKind": "boolean"
+          },
+          {
+            "number": 7,
+            "name": "remaining_days",
+            "wire": 0,
+            "defaultKind": "object"
+          },
+          {
+            "number": 8,
+            "name": "days_remaining_reminder",
+            "wire": 0,
+            "defaultKind": "object"
+          },
+          {
+            "number": 9,
+            "name": "mall_free_can_claim",
+            "wire": 0,
+            "defaultKind": "boolean"
+          }
+        ]
+      },
+      "mappingEvidence": "invoked generated method against an offline rpcCall capture stub",
+      "runtimeStatus": "static-type-map-only; no request is issued by this report"
+    },
+    {
+      "service": "gamepb.qqvippb.QQVipService",
+      "method": "claimQQVipRewards",
+      "request": {
+        "type": "gamepb.qqvippb.ClaimQQVipRewardsRequest",
+        "fields": [
+          {
+            "number": 1,
+            "name": "config_ids",
+            "wire": 2,
+            "defaultKind": "array"
+          }
+        ]
+      },
+      "response": {
+        "type": "gamepb.qqvippb.ClaimQQVipRewardsReply",
+        "fields": [
+          {
+            "number": 1,
+            "name": "granted_skin_item_ids",
+            "wire": 2,
+            "defaultKind": "array"
+          },
+          {
+            "number": 2,
+            "name": "granted_avatar_frame_item_ids",
+            "wire": 2,
+            "defaultKind": "array"
+          },
+          {
+            "number": 3,
+            "name": "rewards",
+            "wire": 2,
+            "defaultKind": "array"
+          }
+        ]
+      },
+      "mappingEvidence": "invoked generated method against an offline rpcCall capture stub",
+      "runtimeStatus": "static-type-map-only; no request is issued by this report"
+    },
+    {
+      "service": "gamepb.qqvippb.QQVipService",
+      "method": "getDailyGiftStatus",
+      "request": {
+        "type": "gamepb.qqvippb.GetDailyGiftStatusRequest",
+        "fields": []
+      },
+      "response": {
+        "type": "gamepb.qqvippb.GetDailyGiftStatusReply",
+        "fields": [
+          {
+            "number": 1,
+            "name": "is_qq_vip",
+            "wire": 0,
+            "defaultKind": "boolean"
+          },
+          {
+            "number": 2,
+            "name": "can_claim",
+            "wire": 0,
+            "defaultKind": "boolean"
+          },
+          {
+            "number": 3,
+            "name": "claimed_today",
+            "wire": 0,
+            "defaultKind": "boolean"
+          },
+          {
+            "number": 4,
+            "name": "rewards",
+            "wire": 2,
+            "defaultKind": "array"
+          }
+        ]
+      },
+      "mappingEvidence": "invoked generated method against an offline rpcCall capture stub",
+      "runtimeStatus": "static-type-map-only; no request is issued by this report"
+    },
+    {
+      "service": "gamepb.qqvippb.QQVipService",
+      "method": "claimDailyGift",
+      "request": {
+        "type": "gamepb.qqvippb.ClaimDailyGiftRequest",
+        "fields": [
+          {
+            "number": 1,
+            "name": "config_id",
+            "wire": 0,
+            "defaultKind": "object"
+          }
+        ]
+      },
+      "response": {
+        "type": "gamepb.qqvippb.ClaimDailyGiftReply",
+        "fields": [
+          {
+            "number": 1,
+            "name": "rewards",
+            "wire": 2,
+            "defaultKind": "array"
+          }
+        ]
+      },
+      "mappingEvidence": "invoked generated method against an offline rpcCall capture stub",
+      "runtimeStatus": "static-type-map-only; no request is issued by this report"
+    },
+    {
+      "service": "gamepb.mallpb.MallService",
+      "method": "getMallProfiles",
+      "request": {
+        "type": "gamepb.mallpb.GetMallProfilesRequest",
+        "fields": [
+          {
+            "number": 1,
+            "name": "global_scene_id",
+            "wire": 0,
+            "defaultKind": "number"
+          }
+        ]
+      },
+      "response": {
+        "type": "gamepb.mallpb.GetMallProfilesReply",
+        "fields": [
+          {
+            "number": 1,
+            "name": "mall_profiles",
+            "wire": 2,
+            "defaultKind": "array",
+            "nestedType": "gamepb.mallpb.MallProfile"
+          }
+        ]
+      },
+      "mappingEvidence": "invoked generated method against an offline rpcCall capture stub",
+      "runtimeStatus": "static-type-map-only; no request is issued by this report"
+    },
+    {
+      "service": "gamepb.mallpb.MallService",
+      "method": "getMallListBySlotType",
+      "request": {
+        "type": "gamepb.mallpb.GetMallListBySlotTypeRequest",
+        "fields": [
+          {
+            "number": 1,
+            "name": "slot_type",
+            "wire": 0,
+            "defaultKind": "number"
+          },
+          {
+            "number": 2,
+            "name": "is_manual_open",
+            "wire": 0,
+            "defaultKind": "boolean"
+          },
+          {
+            "number": 3,
+            "name": "global_scene_id",
+            "wire": 0,
+            "defaultKind": "number"
+          }
+        ]
+      },
+      "response": {
+        "type": "gamepb.mallpb.GetMallListBySlotTypeReply",
+        "fields": [
+          {
+            "number": 1,
+            "name": "products",
+            "wire": 2,
+            "defaultKind": "array",
+            "nestedType": "gamepb.mallpb.ProductInfo"
+          },
+          {
+            "number": 2,
+            "name": "refresh_time",
+            "wire": 0,
+            "defaultKind": "object"
+          }
+        ]
+      },
+      "mappingEvidence": "invoked generated method against an offline rpcCall capture stub",
+      "runtimeStatus": "static-type-map-only; no request is issued by this report"
+    },
+    {
+      "service": "gamepb.mallpb.MallService",
+      "method": "purchase",
+      "request": {
+        "type": "gamepb.mallpb.PurchaseRequest",
+        "fields": [
+          {
+            "number": 1,
+            "name": "id",
+            "wire": 0,
+            "defaultKind": "object"
+          },
+          {
+            "number": 2,
+            "name": "buy_num",
+            "wire": 0,
+            "defaultKind": "object"
+          }
+        ]
+      },
+      "response": {
+        "type": "gamepb.mallpb.PurchaseReply",
+        "fields": [
+          {
+            "number": 1,
+            "name": "id",
+            "wire": 0,
+            "defaultKind": "object"
+          },
+          {
+            "number": 2,
+            "name": "success",
+            "wire": 0,
+            "defaultKind": "boolean"
+          },
+          {
+            "number": 3,
+            "name": "reward_items",
+            "wire": 2,
+            "defaultKind": "array"
+          },
+          {
+            "number": 4,
+            "name": "is_first_buy",
+            "wire": 0,
+            "defaultKind": "boolean"
+          },
+          {
+            "number": 5,
+            "name": "restriction",
+            "wire": 2,
+            "defaultKind": "message",
+            "nestedType": "gamepb.mallpb.RestrictionInfo"
+          },
+          {
+            "number": 6,
+            "name": "share_free",
+            "wire": 0,
+            "defaultKind": "boolean"
+          },
+          {
+            "number": 7,
+            "name": "share",
+            "wire": 2,
+            "defaultKind": "message",
+            "nestedType": "gamepb.mallpb.ShareInfo"
+          }
+        ]
+      },
+      "mappingEvidence": "invoked generated method against an offline rpcCall capture stub",
+      "runtimeStatus": "static-type-map-only; no request is issued by this report"
+    },
+    {
+      "service": "gamepb.shoppb.ShopService",
+      "method": "shopProfiles",
+      "request": {
+        "type": "gamepb.shoppb.ShopProfilesRequest",
+        "fields": [
+          {
+            "number": 1,
+            "name": "global_scene_id",
+            "wire": 0,
+            "defaultKind": "number"
+          }
+        ]
+      },
+      "response": {
+        "type": "gamepb.shoppb.ShopProfilesReply",
+        "fields": [
+          {
+            "number": 1,
+            "name": "shop_profiles",
+            "wire": 2,
+            "defaultKind": "array",
+            "nestedType": "gamepb.shoppb.ShopProfile"
+          }
+        ]
+      },
+      "mappingEvidence": "invoked generated method against an offline rpcCall capture stub",
+      "runtimeStatus": "static-type-map-only; no request is issued by this report"
+    },
+    {
+      "service": "gamepb.shoppb.ShopService",
+      "method": "shopInfo",
+      "request": {
+        "type": "gamepb.shoppb.ShopInfoRequest",
+        "fields": [
+          {
+            "number": 1,
+            "name": "shop_id",
+            "wire": 0,
+            "defaultKind": "object"
+          }
+        ]
+      },
+      "response": {
+        "type": "gamepb.shoppb.ShopInfoReply",
+        "fields": [
+          {
+            "number": 1,
+            "name": "goods_list",
+            "wire": 2,
+            "defaultKind": "array",
+            "nestedType": "gamepb.shoppb.GoodsInfo"
+          }
+        ]
+      },
+      "mappingEvidence": "invoked generated method against an offline rpcCall capture stub",
+      "runtimeStatus": "static-type-map-only; no request is issued by this report"
+    },
+    {
+      "service": "gamepb.shoppb.ShopService",
+      "method": "buyGoods",
+      "request": {
+        "type": "gamepb.shoppb.BuyGoodsRequest",
+        "fields": [
+          {
+            "number": 1,
+            "name": "goods_id",
+            "wire": 0,
+            "defaultKind": "object"
+          },
+          {
+            "number": 2,
+            "name": "num",
+            "wire": 0,
+            "defaultKind": "object"
+          },
+          {
+            "number": 3,
+            "name": "price",
+            "wire": 0,
+            "defaultKind": "object"
+          },
+          {
+            "number": 4,
+            "name": "auto_add",
+            "wire": 0,
+            "defaultKind": "boolean"
+          }
+        ]
+      },
+      "response": {
+        "type": "gamepb.shoppb.BuyGoodsReply",
+        "fields": [
+          {
+            "number": 1,
+            "name": "goods",
+            "wire": 2,
+            "defaultKind": "message",
+            "nestedType": "gamepb.shoppb.GoodsInfo"
+          },
+          {
+            "number": 2,
+            "name": "get_items",
+            "wire": 2,
+            "defaultKind": "array"
+          },
+          {
+            "number": 3,
+            "name": "cost_items",
+            "wire": 2,
+            "defaultKind": "array"
+          }
+        ]
+      },
+      "mappingEvidence": "invoked generated method against an offline rpcCall capture stub",
+      "runtimeStatus": "static-type-map-only; no request is issued by this report"
+    },
+    {
+      "service": "gamepb.plantpb.PlantService",
+      "method": "allLands",
+      "request": {
+        "type": "gamepb.plantpb.AllLandsRequest",
+        "fields": [
+          {
+            "number": 1,
+            "name": "host_gid",
+            "wire": 0,
+            "defaultKind": "object"
+          }
+        ]
+      },
+      "response": {
+        "type": "gamepb.plantpb.AllLandsReply",
+        "fields": [
+          {
+            "number": 1,
+            "name": "lands",
+            "wire": 2,
+            "defaultKind": "array",
+            "nestedType": "gamepb.plantpb.LandInfo"
+          },
+          {
+            "number": 2,
+            "name": "operation_limits",
+            "wire": 2,
+            "defaultKind": "array",
+            "nestedType": "gamepb.plantpb.OperationLimit"
+          },
+          {
+            "number": 3,
+            "name": "farm_social_events",
+            "wire": 2,
+            "defaultKind": "array",
+            "nestedType": "gamepb.plantpb.FarmSocialEventInfo"
+          }
+        ]
+      },
+      "mappingEvidence": "invoked generated method against an offline rpcCall capture stub",
+      "runtimeStatus": "static-type-map-only; no request is issued by this report"
+    },
+    {
+      "service": "gamepb.plantpb.PlantService",
+      "method": "plant",
+      "request": {
+        "type": "gamepb.plantpb.PlantRequest",
+        "fields": [
+          {
+            "number": 1,
+            "name": "land_and_seed",
+            "wire": 2,
+            "defaultKind": "object"
+          },
+          {
+            "number": 2,
+            "name": "items",
+            "wire": 2,
+            "defaultKind": "array",
+            "nestedType": "gamepb.plantpb.PlantItem"
+          }
+        ]
+      },
+      "response": {
+        "type": "gamepb.plantpb.PlantReply",
+        "fields": [
+          {
+            "number": 1,
+            "name": "land",
+            "wire": 2,
+            "defaultKind": "array",
+            "nestedType": "gamepb.plantpb.LandInfo"
+          },
+          {
+            "number": 2,
+            "name": "operation_limits",
+            "wire": 2,
+            "defaultKind": "array",
+            "nestedType": "gamepb.plantpb.OperationLimit"
+          },
+          {
+            "number": 3,
+            "name": "land_op_drops",
+            "wire": 2,
+            "defaultKind": "array",
+            "nestedType": "gamepb.plantpb.LandOpDrop"
+          }
+        ]
+      },
+      "mappingEvidence": "invoked generated method against an offline rpcCall capture stub",
+      "runtimeStatus": "static-type-map-only; no request is issued by this report"
+    },
+    {
+      "service": "gamepb.plantpb.PlantService",
+      "method": "harvest",
+      "request": {
+        "type": "gamepb.plantpb.HarvestRequest",
+        "fields": [
+          {
+            "number": 1,
+            "name": "land_ids",
+            "wire": 2,
+            "defaultKind": "array"
+          },
+          {
+            "number": 2,
+            "name": "host_gid",
+            "wire": 0,
+            "defaultKind": "object"
+          },
+          {
+            "number": 3,
+            "name": "is_all",
+            "wire": 0,
+            "defaultKind": "boolean"
+          },
+          {
+            "number": 4,
+            "name": "host_type",
+            "wire": 0,
+            "defaultKind": "number"
+          },
+          {
+            "number": 5,
+            "name": "reason",
+            "wire": 0,
+            "defaultKind": "number"
+          }
+        ]
+      },
+      "response": {
+        "type": "gamepb.plantpb.HarvestReply",
+        "fields": [
+          {
+            "number": 1,
+            "name": "land",
+            "wire": 2,
+            "defaultKind": "array",
+            "nestedType": "gamepb.plantpb.LandInfo"
+          },
+          {
+            "number": 2,
+            "name": "items",
+            "wire": 2,
+            "defaultKind": "array"
+          },
+          {
+            "number": 3,
+            "name": "lost_items",
+            "wire": 2,
+            "defaultKind": "array"
+          },
+          {
+            "number": 4,
+            "name": "operation_limits",
+            "wire": 2,
+            "defaultKind": "array",
+            "nestedType": "gamepb.plantpb.OperationLimit"
+          },
+          {
+            "number": 5,
+            "name": "warnings",
+            "wire": 2,
+            "defaultKind": "object"
+          },
+          {
+            "number": 6,
+            "name": "extra_items",
+            "wire": 2,
+            "defaultKind": "array"
+          },
+          {
+            "number": 7,
+            "name": "land_op_drops",
+            "wire": 2,
+            "defaultKind": "array",
+            "nestedType": "gamepb.plantpb.LandOpDrop"
+          },
+          {
+            "number": 8,
+            "name": "buff_effects",
+            "wire": 2,
+            "defaultKind": "array"
+          }
+        ]
+      },
+      "mappingEvidence": "invoked generated method against an offline rpcCall capture stub",
+      "runtimeStatus": "static-type-map-only; no request is issued by this report"
+    },
+    {
+      "service": "gamepb.plantpb.PlantService",
+      "method": "refreshLands",
+      "request": {
+        "type": "gamepb.plantpb.RefreshLandsRequest",
+        "fields": [
+          {
+            "number": 1,
+            "name": "host_gid",
+            "wire": 0,
+            "defaultKind": "object"
+          },
+          {
+            "number": 2,
+            "name": "land_ids",
+            "wire": 2,
+            "defaultKind": "array"
+          },
+          {
+            "number": 3,
+            "name": "host_type",
+            "wire": 0,
+            "defaultKind": "number"
+          },
+          {
+            "number": 4,
+            "name": "reason",
+            "wire": 0,
+            "defaultKind": "number"
+          }
+        ]
+      },
+      "response": {
+        "type": "gamepb.plantpb.RefreshLandsReply",
+        "fields": [
+          {
+            "number": 1,
+            "name": "lands",
+            "wire": 2,
+            "defaultKind": "array",
+            "nestedType": "gamepb.plantpb.LandInfo"
+          }
+        ]
+      },
+      "mappingEvidence": "invoked generated method against an offline rpcCall capture stub",
+      "runtimeStatus": "static-type-map-only; no request is issued by this report"
+    }
+  ],
+  "stateMachineHints": {
+    "tasks": [
+      "TaskInfoReply.task_info.daily_tasks",
+      "TaskInfoReply.task_info.growth_tasks",
+      "Task.is_unlocked",
+      "Task.is_claimed",
+      "Task.progress"
+    ],
+    "vip": [
+      "GetQQVipRewardsStatusReply.can_claim",
+      "claimed_today",
+      "active_configs",
+      "mall_free_can_claim"
+    ],
+    "mall": [
+      "ProductInfo.id",
+      "slot_type",
+      "is_free",
+      "is_available_purchase",
+      "restriction",
+      "price"
+    ],
+    "crops": [
+      "LandInfo.unlocked",
+      "LandInfo.plant.phases",
+      "PlantPhaseInfo.begin_time",
+      "PlantPhaseInfo.phase_id",
+      "PlantInfo.grow_sec",
+      "PlantInfo.planting_player_level"
+    ]
+  },
+  "unresolvedRuntimeEvidence": [
+    "which three daily task IDs are active for the account and how each is completed",
+    "VIP reward config IDs and successful claim response",
+    "free fertilizer slot type/product ID and one-per-day restriction behavior",
+    "eligible seed IDs and level requirements for the account",
+    "successful online plant/harvest/claim/purchase responses"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "mode": "scopes",
+  "pid": 3888,
+  "qqStarted": false,
+  "farmStarted": false,
+  "diagnostics": [
+    {
+      "state": "runtime-metadata",
+      "pid": 3888,
+      "value": {
+        "errorType": "Error",
+        "message": "Inspector is not available"
+      }
+    }
+  ]
+}

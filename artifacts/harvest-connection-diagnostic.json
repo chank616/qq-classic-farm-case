@@ -1,0 +1,21 @@
+{
+  "startedAt": "2026-10-29T10:18:59.8115540\u002B00:00",
+  "runtime": "csharp-offline-tsdk",
+  "qqStarted": false,
+  "farmStarted": false,
+  "serverVerified": true,
+  "qqPid": 35756,
+  "codeLength": 32,
+  "accountName": "\u9732\u9732\u5927\u795E",
+  "level": 151,
+  "landCount": 24,
+  "globalSceneIdPresent": true,
+  "inventoryDiagnostic": "artifacts/harvest-inventory-diagnostic.json",
+  "verifiedMethods": [
+    "Login",
+    "PlayerLogin",
+    "AllLands"
+  ],
+  "stage": "verified",
+  "finishedAt": "2026-10-29T10:19:09.1057597\u002B00:00"
+}

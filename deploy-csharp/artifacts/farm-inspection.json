@@ -1,0 +1,10 @@
+{
+  "generatedAt": "2026-10-19T07:27:51.3506122\u002B00:00",
+  "runtime": "csharp",
+  "runId": "c85e7c6b-0283-447e-86ae-a631b0df76ed",
+  "status": "failed",
+  "completed": false,
+  "allRequiredComplete": false,
+  "error": "The process cannot access the file \u0027E:\\workspace\\QQ\u7ECF\u5178\u519C\u573A\u6848\u4F8B\\deploy-csharp\\artifacts\\farm-client.lock\u0027 because it is being used by another process.",
+  "mode": "inspection"
+}

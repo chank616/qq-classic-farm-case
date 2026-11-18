@@ -1,0 +1,8 @@
+{
+  "runtime": "standalone-node-research-only",
+  "qqStarted": false,
+  "farmStarted": false,
+  "inputBytes": 2,
+  "encryptedBytes": 2,
+  "roundtrip": true
+}

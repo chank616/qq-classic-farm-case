@@ -1,0 +1,318 @@
+
+### plantpb PlantRequest
+static [
+  'length',
+  'name',
+  'prototype',
+  'create',
+  'encode',
+  'encodeDelimited',
+  'decode',
+  'decodeDelimited',
+  'fromObject',
+  'toObject',
+  'getTypeUrl'
+]
+proto [ 'constructor', 'land_and_seed', 'items', 'toJSON' ]
+enc function(i,t){if(t||(t=m[q[0]]()),null!=i[c[4741]]&&Yi()[v[58]][f[5]](i,S[4741]))for(var r=Yi()[q[69]](i[D[4741]]),e=0;e<r[Q[7]];++e)t[o[2]](10)[M[34]]()[J[2]](8)[y[30]](r[e])[L[2]](16)[D[30]](i[c[4741]][r[e]])[o[37]]();if(null!=i[R[42]]&&i[a[42]][v[7]])for(var u=0;u<i[d[42]][T[7]];++u)n[L[38]][D[738]][c[35074]][T[85]](i[J[42]][u],t[M[2]](18)[J[34]]())[y[37]]();return t}
+dec function(i,t,r){i instanceof C||(i=C[M[0]](i));for(var e,u,h=void 0===t?i[g[48]]:i[S[21]]+t,v=new n[L[38]][R[738]][o[1406]];i[f[21]]<h;){var c=i[q[2]]();if(c===r)break;switch(c>>>3){case 1:v[s[4741]]===F[s[979]]&&(v[s[4741]]={});var d=i[s[2]]()+i[s[21]];for(e=0,u=0;i[s[21]]<d;){var a=i[o[2]]();switch(a>>>3){case 1:e=i[s[30]]();break;case 2:u=i[s[30]]();break;default:i[s[90]](7&a)}}v[s[4741]][s[798]==ti(e)?F[s[3108]](e):e]=u;break;case 2:v[s[42]]&&v[s[42]][s[7]]||(v[s[42]]=[]),v[s[42]][s[19]](n[s[38]][s[738]][s[35074]][s[65]](i,i[s[2]]()));break;default:i[s[90]](7&c)}}return v}
+
+### plantpb HarvestRequest
+static [
+  'length',
+  'name',
+  'prototype',
+  'create',
+  'encode',
+  'encodeDelimited',
+  'decode',
+  'decodeDelimited',
+  'fromObject',
+  'toObject',
+  'getTypeUrl'
+]
+proto [
+  'constructor',
+  'land_ids',
+  'host_gid',
+  'is_all',
+  'host_type',
+  'reason',
+  'toJSON'
+]
+enc function(i,t){if(t||(t=m[c[0]]()),null!=i[k[939]]&&i[D[939]][v[7]]){t[d[2]](10)[k[34]]();for(var n=0;n<i[Y[939]][Y[7]];++n)t[l[30]](i[L[939]][n]);t[L[37]]()}return null!=i[f[572]]&&Yi()[g[58]][T[5]](i,S[572])&&t[T[2]](16)[Q[30]](i[M[572]]),null!=i[T[9704]]&&Yi()[c[58]][D[5]](i,c[9704])&&t[c[2]](24)[L[54]](i[q[9704]]),null!=i[d[139]]&&Yi()[f[58]][o[5]](i,S[139])&&t[D[2]](32)[l[80]](i[c[139]]),null!=i[g[908]]&&Yi()[J[58]][R[5]](i,R[908])&&t[S[2]](40)[D[80]](i[q[908]]),t}
+dec function(i,t,r){i instanceof C||(i=C[L[0]](i));for(var e=void 0===t?i[l[48]]:i[T[21]]+t,u=new n[S[38]][a[738]][l[8547]];i[a[21]]<e;){var h=i[o[2]]();if(h===r)break;switch(h>>>3){case 1:if(u[s[939]]&&u[s[939]][s[7]]||(u[s[939]]=[]),2==(7&h))for(var f=i[S[2]]()+i[D[21]];i[T[21]]<f;)u[D[939]][R[19]](i[y[30]]());else u[s[939]][s[19]](i[s[30]]());break;case 2:u[s[572]]=i[s[30]]();break;case 3:u[s[9704]]=i[s[54]]();break;case 4:u[s[139]]=i[s[80]]();break;case 5:u[s[908]]=i[s[80]]();break;default:i[s[90]](7&h)}}return u}
+
+### plantpb LandInfo
+static [
+  'length',
+  'name',
+  'prototype',
+  'create',
+  'encode',
+  'encodeDelimited',
+  'decode',
+  'decodeDelimited',
+  'fromObject',
+  'toObject',
+  'getTypeUrl',
+  'Buff'
+]
+proto [
+  'constructor',       'id',
+  'unlocked',          'level',
+  'max_level',         'could_unlock',
+  'could_upgrade',     'unlock_condition',
+  'upgrade_condition', 'buff',
+  'plant',             'is_shared',
+  'can_share',         'master_land_id',
+  'slave_land_ids',    'land_size',
+  'lands_level',       'toJSON'
+]
+enc function(i,t){if(t||(t=m[R[0]]()),null!=i.id&&Yi()[q[58]][R[5]](i,"id")&&t[k[2]](8)[q[30]](i.id),null!=i[g[635]]&&Yi()[a[58]][c[5]](i,q[635])&&t[q[2]](16)[v[54]](i[k[635]]),null!=i[d[75]]&&Yi()[l[58]][S[5]](i,a[75])&&t[d[2]](24)[M[30]](i[a[75]]),null!=i[D[1948]]&&Yi()[D[58]][f[5]](i,S[1948])&&t[T[2]](32)[f[30]](i[g[1948]]),null!=i[R[9544]]&&Yi()[v[58]][y[5]](i,a[9544])&&t[L[2]](40)[g[54]](i[y[9544]]),null!=i[l[9453]]&&Yi()[l[58]][R[5]](i,Y[9453])&&t[d[2]](48)[c[54]](i[S[9453]]),null!=i[J[3674]]&&Yi()[q[58]][L[5]](i,D[3674])&&n[o[38]][D[738]][g[17232]][Y[85]](i[S[3674]],t[J[2]](58)[v[34]]())[a[37]](),null!=i[l[8241]]&&Yi()[R[58]][T[5]](i,L[8241])&&n[D[38]][o[738]][T[19467]][S[85]](i[M[8241]],t[R[2]](66)[Q[34]]())[T[37]](),null!=i[S[169]]&&Yi()[d[58]][T[5]](i,q[169])&&n[L[38]][o[738]][o[580]][D[10008]][k[85]](i[d[169]],t[o[2]](74)[Y[34]]())[T[37]](),null!=i[Y[943]]&&Yi()[R[58]][y[5]](i,R[943])&&n[Y[38]][v[738]][R[40158]][J[85]](i[T[943]],t[M[2]](82)[c[34]]())[q[37]](),null!=i[c[8202]]&&Yi()[D[58]][c[5]](i,f[8202])&&t[M[2]](88)[g[54]](i[f[8202]]),null!=i[a[4413]]&&Yi()[L[58]][y[5]](i,L[4413])&&t[g[2]](96)[v[54]](i[o[4413]]),null!=i[l[5525]]&&Yi()[D[58]][S[5]](i,S[5525])&&t[M[2]](104)[q[30]](i[o[5525]]),null!=i[q[3947]]&&i[J[3947]][S[7]]){t[R[2]](114)[D[34]]();for(var r=0;r<i[k[3947]][k[7]];++r)t[g[30]](i[g[3947]][r]);t[R[37]]()}return null!=i[D[9405]]&&Yi()[Y[58]][k[5]](i,y[9405])&&t[T[2]](120)[D[30]](i[f[9405]]),null!=i[L[9143]]&&Yi()[a[58]][J[5]](i,f[9143])&&t[M[2]](128)[d[30]](i[L[9143]]),t}
+dec function(i,t,r){i instanceof C||(i=C[J[0]](i));for(var e=void 0===t?i[a[48]]:i[S[21]]+t,u=new n[L[38]][Y[738]][L[580]];i[a[21]]<e;){var h=i[d[2]]();if(h===r)break;switch(h>>>3){case 1:u.id=i[s[30]]();break;case 2:u[s[635]]=i[s[54]]();break;case 3:u[s[75]]=i[s[30]]();break;case 4:u[s[1948]]=i[s[30]]();break;case 5:u[s[9544]]=i[s[54]]();break;case 6:u[s[9453]]=i[s[54]]();break;case 7:u[s[3674]]=n[s[38]][s[738]][s[17232]][s[65]](i,i[s[2]]());break;case 8:u[s[8241]]=n[s[38]][s[738]][s[19467]][s[65]](i,i[s[2]]());break;case 9:u[s[169]]=n[s[38]][s[738]][s[580]][s[10008]][s[65]](i,i[s[2]]());break;case 10:u[s[943]]=n[s[38]][s[738]][s[40158]][s[65]](i,i[s[2]]());break;case 11:u[s[8202]]=i[s[54]]();break;case 12:u[s[4413]]=i[s[54]]();break;case 13:u[s[5525]]=i[s[30]]();break;case 14:if(u[s[3947]]&&u[s[3947]][s[7]]||(u[s[3947]]=[]),2==(7&h))for(var f=i[d[2]]()+i[S[21]];i[R[21]]<f;)u[S[3947]][L[19]](i[d[30]]());else u[s[3947]][s[19]](i[s[30]]());break;case 15:u[s[9405]]=i[s[30]]();break;case 16:u[s[9143]]=i[s[30]]();break;default:i[s[90]](7&h)}}return u}
+
+### plantpb PlantInfo
+static [
+  'length',
+  'name',
+  'prototype',
+  'create',
+  'encode',
+  'encodeDelimited',
+  'decode',
+  'decodeDelimited',
+  'fromObject',
+  'toObject',
+  'getTypeUrl'
+]
+proto [
+  'constructor',            'id',
+  'name',                   'phases',
+  'season',                 'dry_num',
+  'stole_num',              'fruit_id',
+  'fruit_num',              'weed_owners',
+  'insect_owners',          'stealers',
+  'grow_sec',               'stealable',
+  'left_inorc_fert_times',  'left_fruit_num',
+  'steal_intimacy_level',   'mutant_config_ids',
+  'is_nudged',              'exp',
+  'last_mutant_config_ids', 'last_fruit_id',
+  'last_fruit_num',         'source_fruit_id',
+  'source_fruit_num',       'mutant_plant_ids',
+  'last_plant_id',          'buff_effects',
+  'social_items',           'bp_fruits',
+  'planting_player_level',  'crop_social_events',
+  'weather_wood',           'use_config_history',
+  'mutant_infos',           'toJSON'
+]
+enc function(i,t){if(t||(t=m[T[0]]()),null!=i.id&&Yi()[D[58]][g[5]](i,"id")&&t[M[2]](8)[L[30]](i.id),null!=i[J[40]]&&Yi()[o[58]][y[5]](i,f[40])&&t[k[2]](18)[g[98]](i[T[40]]),null!=i[l[8369]]&&i[l[8369]][l[7]])for(var r=0;r<i[y[8369]][R[7]];++r)n[Q[38]][g[738]][o[15406]][v[85]](i[c[8369]][r],t[k[2]](34)[k[34]]())[J[37]]();if(null!=i[o[2783]]&&Yi()[v[58]][d[5]](i,o[2783])&&t[q[2]](40)[k[30]](i[S[2783]]),null!=i[S[133]]&&Yi()[o[58]][o[5]](i,o[133])&&t[k[2]](48)[g[30]](i[k[133]]),null!=i[d[7915]]&&Yi()[D[58]][R[5]](i,R[7915])&&t[l[2]](72)[a[30]](i[T[7915]]),null!=i[c[176]]&&Yi()[d[58]][v[5]](i,R[176])&&t[Q[2]](80)[Q[30]](i[q[176]]),null!=i[a[1044]]&&Yi()[y[58]][M[5]](i,D[1044])&&t[R[2]](88)[Y[30]](i[T[1044]]),null!=i[l[4015]]&&i[k[4015]][L[7]]){t[L[2]](98)[y[34]]();for(var e=0;e<i[f[4015]][Q[7]];++e)t[a[30]](i[g[4015]][e]);t[f[37]]()}if(null!=i[M[1920]]&&i[k[1920]][k[7]]){t[T[2]](106)[l[34]]();for(var u=0;u<i[c[1920]][J[7]];++u)t[f[30]](i[S[1920]][u]);t[d[37]]()}if(null!=i[M[672]]&&i[S[672]][v[7]]){t[y[2]](114)[R[34]]();for(var h=0;h<i[q[672]][S[7]];++h)t[D[30]](i[M[672]][h]);t[g[37]]()}if(null!=i[l[9808]]&&Yi()[d[58]][Y[5]](i,g[9808])&&t[o[2]](120)[S[30]](i[M[9808]]),null!=i[L[6829]]&&Yi()[d[58]][y[5]](i,q[6829])&&t[T[2]](128)[R[54]](i[J[6829]]),null!=i[J[5736]]&&Yi()[M[58]][l[5]](i,c[5736])&&t[k[2]](136)[c[30]](i[Q[5736]]),null!=i[T[9441]]&&Yi()[l[58]][l[5]](i,f[9441])&&t[c[2]](144)[g[30]](i[k[9441]]),null!=i[f[7760]]&&Yi()[S[58]][v[5]](i,D[7760])&&t[S[2]](152)[y[30]](i[d[7760]]),null!=i[Y[4905]]&&i[q[4905]][o[7]]){t[d[2]](162)[Q[34]]();for(var s=0;s<i[v[4905]][l[7]];++s)t[g[30]](i[g[4905]][s]);t[d[37]]()}if(null!=i[k[7790]]&&Yi()[D[58]][o[5]](i,Q[7790])&&t[k[2]](168)[o[54]](i[S[7790]]),null!=i[y[154]]&&Yi()[v[58]][f[5]](i,y[154])&&t[S[2]](176)[c[30]](i[J[154]]),null!=i[R[8718]]&&i[a[8718]][a[7]]){t[S[2]](186)[g[34]]();for(var z=0;z<i[S[8718]][J[7]];++z)t[f[30]](i[q[8718]][z]);t[a[37]]()}if(null!=i[y[5194]]&&Yi()[l[58]][f[5]](i,Q[5194])&&t[T[2]](192)[o[30]](i[M[5194]]),null!=i[Q[9726]]&&Yi()[y[58]][k[5]](i,v[9726])&&t[J[2]](200)[d[30]](i[S[9726]]),null!=i[L[3788]]&&Yi()[a[58]][v[5]](i,v[3788])&&t[S[2]](208)[Y[30]](i[R[3788]]),null!=i[T[4836]]&&Yi()[D[58]][k[5]](i,D[4836])&&t[g[2]](216)[R[30]](i[a[4836]]),null!=i[g[9943]]&&i[M[9943]][D[7]]){t[Q[2]](258)[c[34]]();for(var H=0;H<i[q[9943]][v[7]];++H)t[o[30]](i[Q[9943]][H]);t[d[37]]()}if(null!=i[Y[6410]]&&Yi()[R[58]][S[5]](i,T[6410])&&t[L[2]](264)[g[30]](i[R[6410]]),null!=i[T[711]]&&i[R[711]][Y[7]])for(var P=0;P<i[L[711]][y[7]];++P)n[L[89]][f[7508]][y[85]](i[Q[711]][P],t[c[2]](274)[M[34]]())[d[37]]();if(null!=i[Y[6294]]&&i[Q[6294]][L[7]])for(var C=0;C<i[Y[6294]][a[7]];++C)n[l[38]][J[738]][Y[30554]][v[85]](i[S[6294]][C],t[Q[2]](282)[c[34]]())[v[37]]();if(null!=i[M[2553]]&&i[o[2553]][q[7]])for(var F=0;F<i[T[2553]][L[7]];++F)n[Q[38]][c[738]][k[6530]][R[85]](i[v[2553]][F],t[d[2]](290)[T[34]]())[y[37]]();if(null!=i[Y[2622]]&&Yi()[R[58]][v[5]](i,l[2622])&&t[f[2]](296)[d[30]](i[T[2622]]),null!=i[c[3065]]&&i[v[3065]][y[7]])for(var j=0;j<i[g[3065]][d[7]];++j)n[R[38]][R[738]][q[36673]][S[85]](i[a[3065]][j],t[f[2]](306)[c[34]]())[f[37]]();if(null!=i[L[4664]]&&Yi()[Q[58]][q[5]](i,D[4664])&&n[M[38]][f[738]][R[12598]][k[85]](i[S[4664]],t[q[2]](314)[f[34]]())[M[37]](),null!=i[y[9582]]&&Yi()[R[58]][L[5]](i,d[9582]))for(var O=Yi()[D[69]](i[a[9582]]),A=0;A<O[Q[7]];++A)t[T[2]](322)[k[34]]()[f[2]](8)[o[30]](O[A])[y[2]](16)[f[30]](i[L[9582]][O[A]])[Q[37]]();if(null!=i[f[6981]]&&i[k[6981]][d[7]])for(var p=0;p<i[T[6981]][L[7]];++p)n[L[38]][g[738]][y[6890]][g[85]](i[d[6981]][p],t[f[2]](330)[o[34]]())[D[37]]();return t}
+dec function(i,t,r){i instanceof C||(i=C[g[0]](i));for(var e,u,h=void 0===t?i[L[48]]:i[R[21]]+t,l=new n[R[38]][T[738]][o[40158]];i[k[21]]<h;){var z=i[f[2]]();if(z===r)break;switch(z>>>3){case 1:l.id=i[s[30]]();break;case 2:l[s[40]]=i[s[98]]();break;case 4:l[s[8369]]&&l[s[8369]][s[7]]||(l[s[8369]]=[]),l[s[8369]][s[19]](n[s[38]][s[738]][s[15406]][s[65]](i,i[s[2]]()));break;case 5:l[s[2783]]=i[s[30]]();break;case 6:l[s[133]]=i[s[30]]();break;case 9:l[s[7915]]=i[s[30]]();break;case 10:l[s[176]]=i[s[30]]();break;case 11:l[s[1044]]=i[s[30]]();break;case 12:if(l[s[4015]]&&l[s[4015]][s[7]]||(l[s[4015]]=[]),2==(7&z))for(var H=i[g[2]]()+i[g[21]];i[D[21]]<H;)l[v[4015]][Q[19]](i[a[30]]());else l[s[4015]][s[19]](i[s[30]]());break;case 13:if(l[s[1920]]&&l[s[1920]][s[7]]||(l[s[1920]]=[]),2==(7&z))for(var P=i[o[2]]()+i[D[21]];i[k[21]]<P;)l[Q[1920]][Y[19]](i[Q[30]]());else l[s[1920]][s[19]](i[s[30]]());break;case 14:if(l[s[672]]&&l[s[672]][s[7]]||(l[s[672]]=[]),2==(7&z))for(var m=i[y[2]]()+i[R[21]];i[Y[21]]<m;)l[R[672]][c[19]](i[J[30]]());else l[s[672]][s[19]](i[s[30]]());break;case 15:l[s[9808]]=i[s[30]]();break;case 16:l[s[6829]]=i[s[54]]();break;case 17:l[s[5736]]=i[s[30]]();break;case 18:l[s[9441]]=i[s[30]]();break;case 19:l[s[7760]]=i[s[30]]();break;case 20:if(l[s[4905]]&&l[s[4905]][s[7]]||(l[s[4905]]=[]),2==(7&z))for(var j=i[k[2]]()+i[q[21]];i[Q[21]]<j;)l[k[4905]][L[19]](i[d[30]]());else l[s[4905]][s[19]](i[s[30]]());break;case 21:l[s[7790]]=i[s[54]]();break;case 22:l[s[154]]=i[s[30]]();break;case 23:if(l[s[8718]]&&l[s[8718]][s[7]]||(l[s[8718]]=[]),2==(7&z))for(var O=i[S[2]]()+i[v[21]];i[g[21]]<O;)l[S[8718]][L[19]](i[M[30]]());else l[s[8718]][s[19]](i[s[30]]());break;case 24:l[s[5194]]=i[s[30]]();break;case 25:l[s[9726]]=i[s[30]]();break;case 26:l[s[3788]]=i[s[30]]();break;case 27:l[s[4836]]=i[s[30]]();break;case 32:if(l[s[9943]]&&l[s[9943]][s[7]]||(l[s[9943]]=[]),2==(7&z))for(var A=i[a[2]]()+i[M[21]];i[q[21]]<A;)l[Q[9943]][k[19]](i[Q[30]]());else l[s[9943]][s[19]](i[s[30]]());break;case 33:l[s[6410]]=i[s[30]]();break;case 34:l[s[711]]&&l[s[711]][s[7]]||(l[s[711]]=[]),l[s[711]][s[19]](n[s[89]][s[7508]][s[65]](i,i[s[2]]()));break;case 35:l[s[6294]]&&l[s[6294]][s[7]]||(l[s[6294]]=[]),l[s[6294]][s[19]](n[s[38]][s[738]][s[30554]][s[65]](i,i[s[2]]()));break;case 36:l[s[2553]]&&l[s[2553]][s[7]]||(l[s[2553]]=[]),l[s[2553]][s[19]](n[s[38]][s[738]][s[6530]][s[65]](i,i[s[2]]()));break;case 37:l[s[2622]]=i[s[30]]();break;case 38:l[s[3065]]&&l[s[3065]][s[7]]||(l[s[3065]]=[]),l[s[3065]][s[19]](n[s[38]][s[738]][s[36673]][s[65]](i,i[s[2]]()));break;case 39:l[s[4664]]=n[s[38]][s[738]][s[12598]][s[65]](i,i[s[2]]());break;case 40:l[s[9582]]===F[s[979]]&&(l[s[9582]]={});var p=i[s[2]]()+i[s[21]];for(e=0,u=0;i[s[21]]<p;){var b=i[Q[2]]();switch(b>>>3){case 1:e=i[s[30]]();break;case 2:u=i[s[30]]();break;default:i[s[90]](7&b)}}l[s[9582]][s[798]==ti(e)?F[s[3108]](e):e]=u;break;case 41:l[s[6981]]&&l[s[6981]][s[7]]||(l[s[6981]]=[]),l[s[6981]][s[19]](n[s[38]][s[738]][s[6890]][s[65]](i,i[s[2]]()));break;default:i[s[90]](7&z)}}return l}
+
+### userpb LoginRequest
+static [
+  'length',
+  'name',
+  'prototype',
+  'create',
+  'encode',
+  'encodeDelimited',
+  'decode',
+  'decodeDelimited',
+  'fromObject',
+  'toObject',
+  'getTypeUrl'
+]
+proto [
+  'constructor',     'sharer_id',
+  'sharer_open_id',  'device_info',
+  'share_cfg_id',    'scene_id',
+  'report_data',     'share_key',
+  'experiment_keys', 'ark_biz_type',
+  'ark_biz_param',   'game_scene_id',
+  'toJSON'
+]
+enc function(i,t){if(t||(t=m[Y[0]]()),null!=i[l[2344]]&&Yi()[L[58]][d[5]](i,L[2344])&&t[y[2]](24)[o[30]](i[D[2344]]),null!=i[Y[1641]]&&Yi()[l[58]][q[5]](i,y[1641])&&t[T[2]](34)[l[98]](i[Y[1641]]),null!=i[l[5222]]&&Yi()[R[58]][L[5]](i,L[5222])&&n[l[38]][y[674]][d[4256]][y[85]](i[T[5222]],t[c[2]](42)[T[34]]())[L[37]](),null!=i[R[3820]]&&Yi()[L[58]][Q[5]](i,l[3820])&&t[S[2]](48)[Y[30]](i[y[3820]]),null!=i[L[3884]]&&Yi()[o[58]][l[5]](i,L[3884])&&t[D[2]](58)[Y[98]](i[o[3884]]),null!=i[D[4564]]&&Yi()[l[58]][Q[5]](i,J[4564])&&n[D[38]][l[674]][c[9992]][T[85]](i[f[4564]],t[L[2]](66)[g[34]]())[S[37]](),null!=i[v[544]]&&Yi()[y[58]][f[5]](i,Y[544])&&t[D[2]](74)[y[98]](i[S[544]]),null!=i[q[413]]&&i[l[413]][y[7]])for(var r=0;r<i[R[413]][f[7]];++r)t[D[2]](82)[D[98]](i[k[413]][r]);return null!=i[l[749]]&&Yi()[a[58]][k[5]](i,M[749])&&t[c[2]](88)[J[80]](i[y[749]]),null!=i[S[663]]&&Yi()[f[58]][L[5]](i,q[663])&&t[L[2]](98)[g[794]](i[y[663]]),null!=i[k[1994]]&&Yi()[Q[58]][f[5]](i,f[1994])&&t[f[2]](104)[a[80]](i[l[1994]]),t}
+dec function(i,t,r){i instanceof C||(i=C[q[0]](i));for(var e=void 0===t?i[Y[48]]:i[R[21]]+t,u=new n[y[38]][D[674]][T[17617]];i[g[21]]<e;){var h=i[k[2]]();if(h===r)break;switch(h>>>3){case 3:u[s[2344]]=i[s[30]]();break;case 4:u[s[1641]]=i[s[98]]();break;case 5:u[s[5222]]=n[s[38]][s[674]][s[4256]][s[65]](i,i[s[2]]());break;case 6:u[s[3820]]=i[s[30]]();break;case 7:u[s[3884]]=i[s[98]]();break;case 8:u[s[4564]]=n[s[38]][s[674]][s[9992]][s[65]](i,i[s[2]]());break;case 9:u[s[544]]=i[s[98]]();break;case 10:u[s[413]]&&u[s[413]][s[7]]||(u[s[413]]=[]),u[s[413]][s[19]](i[s[98]]());break;case 11:u[s[749]]=i[s[80]]();break;case 12:u[s[663]]=i[s[794]]();break;case 13:u[s[1994]]=i[s[80]]();break;default:i[s[90]](7&h)}}return u}
+
+### userpb HeartbeatRequest
+static [
+  'length',
+  'name',
+  'prototype',
+  'create',
+  'encode',
+  'encodeDelimited',
+  'decode',
+  'decodeDelimited',
+  'fromObject',
+  'toObject',
+  'getTypeUrl'
+]
+proto [ 'constructor', 'host_gid', 'client_version', 'host_type', 'toJSON' ]
+enc function(i,t){return t||(t=m[d[0]]()),null!=i[M[572]]&&Yi()[L[58]][q[5]](i,g[572])&&t[Y[2]](8)[d[30]](i[f[572]]),null!=i[Y[6338]]&&Yi()[J[58]][f[5]](i,g[6338])&&t[v[2]](18)[v[98]](i[v[6338]]),null!=i[f[139]]&&Yi()[q[58]][L[5]](i,y[139])&&t[v[2]](24)[v[80]](i[y[139]]),t}
+dec function(i,t,r){i instanceof C||(i=C[o[0]](i));for(var e=void 0===t?i[f[48]]:i[g[21]]+t,u=new n[f[38]][M[674]][g[37970]];i[y[21]]<e;){var h=i[M[2]]();if(h===r)break;switch(h>>>3){case 1:u[s[572]]=i[s[30]]();break;case 2:u[s[6338]]=i[s[98]]();break;case 3:u[s[139]]=i[s[80]]();break;default:i[s[90]](7&h)}}return u}
+
+### userpb PlayerLoginRequest
+static [
+  'length',
+  'name',
+  'prototype',
+  'create',
+  'encode',
+  'encodeDelimited',
+  'decode',
+  'decodeDelimited',
+  'fromObject',
+  'toObject',
+  'getTypeUrl'
+]
+proto [
+  'constructor',     'sharer_id',
+  'sharer_open_id',  'device_info',
+  'share_cfg_id',    'scene_id',
+  'report_data',     'share_key',
+  'experiment_keys', 'ark_biz_type',
+  'ark_biz_param',   'game_scene_id',
+  'toJSON'
+]
+enc function(i,t){if(t||(t=m[q[0]]()),null!=i[v[2344]]&&Yi()[l[58]][Y[5]](i,o[2344])&&t[k[2]](8)[f[30]](i[d[2344]]),null!=i[y[1641]]&&Yi()[J[58]][d[5]](i,d[1641])&&t[c[2]](18)[L[98]](i[Q[1641]]),null!=i[J[5222]]&&Yi()[Q[58]][Y[5]](i,k[5222])&&n[y[38]][R[674]][l[4256]][y[85]](i[d[5222]],t[k[2]](26)[f[34]]())[v[37]](),null!=i[c[3820]]&&Yi()[d[58]][S[5]](i,g[3820])&&t[f[2]](32)[y[30]](i[q[3820]]),null!=i[y[3884]]&&Yi()[Y[58]][k[5]](i,L[3884])&&t[y[2]](42)[q[98]](i[J[3884]]),null!=i[c[4564]]&&Yi()[T[58]][k[5]](i,y[4564])&&n[M[38]][g[674]][S[9992]][q[85]](i[y[4564]],t[R[2]](50)[Y[34]]())[S[37]](),null!=i[k[544]]&&Yi()[c[58]][k[5]](i,q[544])&&t[d[2]](58)[T[98]](i[L[544]]),null!=i[R[413]]&&i[l[413]][y[7]])for(var r=0;r<i[d[413]][D[7]];++r)t[f[2]](66)[y[98]](i[l[413]][r]);return null!=i[k[749]]&&Yi()[y[58]][y[5]](i,f[749])&&t[J[2]](88)[D[80]](i[f[749]]),null!=i[S[663]]&&Yi()[f[58]][D[5]](i,q[663])&&t[T[2]](98)[k[794]](i[R[663]]),null!=i[q[1994]]&&Yi()[T[58]][g[5]](i,o[1994])&&t[L[2]](104)[a[80]](i[a[1994]]),t}
+dec function(i,t,r){i instanceof C||(i=C[Q[0]](i));for(var e=void 0===t?i[M[48]]:i[q[21]]+t,u=new n[c[38]][l[674]][g[1318]];i[g[21]]<e;){var h=i[y[2]]();if(h===r)break;switch(h>>>3){case 1:u[s[2344]]=i[s[30]]();break;case 2:u[s[1641]]=i[s[98]]();break;case 3:u[s[5222]]=n[s[38]][s[674]][s[4256]][s[65]](i,i[s[2]]());break;case 4:u[s[3820]]=i[s[30]]();break;case 5:u[s[3884]]=i[s[98]]();break;case 6:u[s[4564]]=n[s[38]][s[674]][s[9992]][s[65]](i,i[s[2]]());break;case 7:u[s[544]]=i[s[98]]();break;case 8:u[s[413]]&&u[s[413]][s[7]]||(u[s[413]]=[]),u[s[413]][s[19]](i[s[98]]());break;case 11:u[s[749]]=i[s[80]]();break;case 12:u[s[663]]=i[s[794]]();break;case 13:u[s[1994]]=i[s[80]]();break;default:i[s[90]](7&h)}}return u}
+
+### taskpb TaskInfoRequest
+static [
+  'length',
+  'name',
+  'prototype',
+  'create',
+  'encode',
+  'encodeDelimited',
+  'decode',
+  'decodeDelimited',
+  'fromObject',
+  'toObject',
+  'getTypeUrl'
+]
+proto [ 'constructor', 'global_scene_id', 'toJSON' ]
+enc function(i,t){return t||(t=m[d[0]]()),null!=i[R[111]]&&Yi()[Q[58]][o[5]](i,Q[111])&&t[L[2]](8)[L[80]](i[J[111]]),t}
+dec function(i,t,r){i instanceof C||(i=C[k[0]](i));for(var e=void 0===t?i[R[48]]:i[M[21]]+t,u=new n[v[38]][q[834]][D[8187]];i[o[21]]<e;){var h=i[q[2]]();if(h===r)break;switch(h>>>3){case 1:u[s[111]]=i[s[80]]();break;default:i[s[90]](7&h)}}return u}
+
+### taskpb ClaimTaskRewardRequest
+static [
+  'length',
+  'name',
+  'prototype',
+  'create',
+  'encode',
+  'encodeDelimited',
+  'decode',
+  'decodeDelimited',
+  'fromObject',
+  'toObject',
+  'getTypeUrl'
+]
+proto [ 'constructor', 'id', 'do_shared', 'toJSON' ]
+enc function(i,t){return t||(t=m[l[0]]()),null!=i.id&&Yi()[l[58]][v[5]](i,"id")&&t[v[2]](8)[a[30]](i.id),null!=i[g[3952]]&&Yi()[c[58]][l[5]](i,y[3952])&&t[q[2]](16)[d[54]](i[g[3952]]),t}
+dec function(i,t,r){i instanceof C||(i=C[c[0]](i));for(var e=void 0===t?i[Y[48]]:i[o[21]]+t,u=new n[a[38]][J[834]][q[9524]];i[k[21]]<e;){var h=i[f[2]]();if(h===r)break;switch(h>>>3){case 1:u.id=i[s[30]]();break;case 2:u[s[3952]]=i[s[54]]();break;default:i[s[90]](7&h)}}return u}
+
+### taskpb BatchClaimTaskRewardRequest
+static [
+  'length',
+  'name',
+  'prototype',
+  'create',
+  'encode',
+  'encodeDelimited',
+  'decode',
+  'decodeDelimited',
+  'fromObject',
+  'toObject',
+  'getTypeUrl'
+]
+proto [ 'constructor', 'ids', 'toJSON' ]
+enc function(i,t){if(t||(t=m[Q[0]]()),null!=i[c[807]]&&i[y[807]][q[7]]){t[S[2]](10)[Q[34]]();for(var n=0;n<i[S[807]][g[7]];++n)t[M[30]](i[R[807]][n]);t[l[37]]()}return t}
+dec function(i,t,r){i instanceof C||(i=C[a[0]](i));for(var e=void 0===t?i[l[48]]:i[c[21]]+t,u=new n[Y[38]][M[834]][a[2155]];i[y[21]]<e;){var h=i[J[2]]();if(h===r)break;switch(h>>>3){case 1:if(u[s[807]]&&u[s[807]][s[7]]||(u[s[807]]=[]),2==(7&h))for(var f=i[R[2]]()+i[k[21]];i[a[21]]<f;)u[D[807]][J[19]](i[v[30]]());else u[s[807]][s[19]](i[s[30]]());break;default:i[s[90]](7&h)}}return u}
+
+### taskpb ClaimDailyRewardRequest
+static [
+  'length',
+  'name',
+  'prototype',
+  'create',
+  'encode',
+  'encodeDelimited',
+  'decode',
+  'decodeDelimited',
+  'fromObject',
+  'toObject',
+  'getTypeUrl'
+]
+proto [ 'constructor', 'type', 'point_ids', 'toJSON' ]
+enc function(i,t){if(t||(t=m[M[0]]()),null!=i[M[88]]&&Yi()[v[58]][L[5]](i,d[88])&&t[l[2]](8)[M[80]](i[D[88]]),null!=i[f[3645]]&&i[D[3645]][c[7]]){t[y[2]](18)[c[34]]();for(var n=0;n<i[Y[3645]][Q[7]];++n)t[l[30]](i[q[3645]][n]);t[D[37]]()}return t}
+dec function(i,t,r){i instanceof C||(i=C[D[0]](i));for(var e=void 0===t?i[l[48]]:i[q[21]]+t,u=new n[f[38]][a[834]][Y[7204]];i[c[21]]<e;){var h=i[q[2]]();if(h===r)break;switch(h>>>3){case 1:u[s[88]]=i[s[80]]();break;case 2:if(u[s[3645]]&&u[s[3645]][s[7]]||(u[s[3645]]=[]),2==(7&h))for(var d=i[o[2]]()+i[R[21]];i[T[21]]<d;)u[o[3645]][v[19]](i[k[30]]());else u[s[3645]][s[19]](i[s[30]]());break;default:i[s[90]](7&h)}}return u}
+
+### mallpb PurchaseRequest
+static [
+  'length',
+  'name',
+  'prototype',
+  'create',
+  'encode',
+  'encodeDelimited',
+  'decode',
+  'decodeDelimited',
+  'fromObject',
+  'toObject',
+  'getTypeUrl'
+]
+proto [ 'constructor', 'id', 'buy_num', 'toJSON' ]
+enc function(i,t){return t||(t=m[a[0]]()),null!=i.id&&Yi()[f[58]][q[5]](i,"id")&&t[R[2]](8)[Y[30]](i.id),null!=i[S[9013]]&&Yi()[R[58]][o[5]](i,S[9013])&&t[D[2]](16)[Q[30]](i[y[9013]]),t}
+dec function(i,t,r){i instanceof C||(i=C[D[0]](i));for(var e=void 0===t?i[d[48]]:i[S[21]]+t,u=new n[Y[38]][R[988]][S[18824]];i[y[21]]<e;){var h=i[q[2]]();if(h===r)break;switch(h>>>3){case 1:u.id=i[s[30]]();break;case 2:u[s[9013]]=i[s[30]]();break;default:i[s[90]](7&h)}}return u}
+
+### qqvippb GetQQVipRewardsStatusReply
+static [
+  'length',
+  'name',
+  'prototype',
+  'create',
+  'encode',
+  'encodeDelimited',
+  'decode',
+  'decodeDelimited',
+  'fromObject',
+  'toObject',
+  'getTypeUrl'
+]
+proto [
+  'constructor',
+  'is_qq_vip',
+  'can_claim',
+  'claimed_today',
+  'rewards_can_claim',
+  'active_configs',
+  'has_redpoint',
+  'remaining_days',
+  'days_remaining_reminder',
+  'mall_free_can_claim',
+  'toJSON'
+]
+enc function(i,t){if(t||(t=z[Y[0]]()),null!=i[R[9006]]&&Yi()[f[58]][J[5]](i,J[9006])&&t[a[2]](8)[Q[54]](i[o[9006]]),null!=i[S[344]]&&Yi()[R[58]][f[5]](i,a[344])&&t[o[2]](16)[d[54]](i[S[344]]),null!=i[o[4199]]&&Yi()[f[58]][k[5]](i,T[4199])&&t[L[2]](24)[M[54]](i[o[4199]]),null!=i[v[4734]]&&Yi()[f[58]][f[5]](i,J[4734])&&t[o[2]](32)[J[54]](i[c[4734]]),null!=i[y[9275]]&&i[d[9275]][Y[7]])for(var r=0;r<i[J[9275]][L[7]];++r)n[y[38]][D[954]][J[14500]][g[85]](i[D[9275]][r],t[J[2]](42)[o[34]]())[M[37]]();return null!=i[D[1633]]&&Yi()[a[58]][L[5]](i,Y[1633])&&t[L[2]](48)[D[54]](i[c[1633]]),null!=i[k[4079]]&&Yi()[q[58]][Y[5]](i,o[4079])&&t[v[2]](56)[T[30]](i[M[4079]]),null!=i[g[5387]]&&Yi()[o[58]][D[5]](i,y[5387])&&t[g[2]](64)[v[30]](i[a[5387]]),null!=i[o[1181]]&&Yi()[g[58]][L[5]](i,J[1181])&&t[f[2]](72)[Q[54]](i[a[1181]]),t}
+dec function(i,t,r){i instanceof h||(i=h[f[0]](i));for(var e=void 0===t?i[l[48]]:i[q[21]]+t,u=new n[l[38]][M[954]][v[39637]];i[q[21]]<e;){var o=i[Y[2]]();if(o===r)break;switch(o>>>3){case 1:u[s[9006]]=i[s[54]]();break;case 2:u[s[344]]=i[s[54]]();break;case 3:u[s[4199]]=i[s[54]]();break;case 4:u[s[4734]]=i[s[54]]();break;case 5:u[s[9275]]&&u[s[9275]][s[7]]||(u[s[9275]]=[]),u[s[9275]][s[19]](n[s[38]][s[954]][s[14500]][s[65]](i,i[s[2]]()));break;case 6:u[s[1633]]=i[s[54]]();break;case 7:u[s[4079]]=i[s[30]]();break;case 8:u[s[5387]]=i[s[30]]();break;case 9:u[s[1181]]=i[s[54]]();break;default:i[s[90]](7&o)}}return u}
+
+### qqvippb ClaimQQVipRewardsRequest
+static [
+  'length',
+  'name',
+  'prototype',
+  'create',
+  'encode',
+  'encodeDelimited',
+  'decode',
+  'decodeDelimited',
+  'fromObject',
+  'toObject',
+  'getTypeUrl'
+]
+proto [ 'constructor', 'config_ids', 'toJSON' ]
+enc function(i,t){if(t||(t=z[M[0]]()),null!=i[q[3667]]&&i[L[3667]][d[7]]){t[a[2]](10)[k[34]]();for(var n=0;n<i[v[3667]][a[7]];++n)t[S[30]](i[g[3667]][n]);t[v[37]]()}return t}
+dec function(i,t,r){i instanceof h||(i=h[J[0]](i));for(var e=void 0===t?i[c[48]]:i[l[21]]+t,u=new n[f[38]][M[954]][d[5264]];i[T[21]]<e;){var v=i[L[2]]();if(v===r)break;switch(v>>>3){case 1:if(u[s[3667]]&&u[s[3667]][s[7]]||(u[s[3667]]=[]),2==(7&v))for(var y=i[k[2]]()+i[a[21]];i[d[21]]<y;)u[Q[3667]][o[19]](i[d[30]]());else u[s[3667]][s[19]](i[s[30]]());break;default:i[s[90]](7&v)}}return u}

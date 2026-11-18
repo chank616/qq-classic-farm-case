@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "runtime": "csharp",
+  "day": "2026-10-18",
+  "mode": "execute",
+  "startedAt": "2026-10-18T06:50:32.7017676\u002B00:00",
+  "account": {
+    "gid": "1079370412",
+    "name": "\u9732\u9732\u5927\u795E",
+    "level": 149
+  },
+  "allRequiredComplete": false,
+  "completed": true,
+  "tasksBefore": [
+    {
+      "id": "101056",
+      "desc": "\u5347\u7EA720\u5757\u7D2B\u6676\u571F\u5730",
+      "cond": 22,
+      "progress": 19,
+      "total": 20,
+      "claimed": false,
+      "unlocked": true
+    }
+  ],
+  "tasksAfter": [
+    {
+      "id": "101056",
+      "desc": "\u5347\u7EA720\u5757\u7D2B\u6676\u571F\u5730",
+      "cond": 22,
+      "progress": 19,
+      "total": 20,
+      "claimed": false,
+      "unlocked": true
+    }
+  ],
+  "daily": {
+    "observed": 0,
+    "claimed": 0,
+    "complete": false,
+    "tasks": []
+  },
+  "finishedAt": "2026-10-18T06:50:41.3072034\u002B00:00",
+  "fertilizerDecisionState": null,
+  "status": "incomplete",
+  "checks": [
+    {
+      "id": "login",
+      "status": "passed",
+      "detail": "Login and PlayerLogin accepted by server"
+    },
+    {
+      "id": "farm",
+      "status": "failed",
+      "detail": "ShopInfo: 1004001 \u5546\u5E97\u4E0D\u5B58\u5728"
+    },
+    {
+      "id": "daily-tasks",
+      "status": "pending",
+      "detail": "Server did not return three daily tasks"
+    },
+    {
+      "id": "vip-daily",
+      "status": "passed",
+      "detail": "Server confirms claimed_today"
+    },
+    {
+      "id": "vip-rewards",
+      "status": "passed",
+      "detail": "Server confirms claimed_today"
+    },
+    {
+      "id": "free-fertilizer",
+      "status": "failed",
+      "detail": "GetMallListBySlotType: 1031002 \u5546\u54C1\u4E0D\u53EF\u8D2D\u4E70"
+    },
+    {
+      "id": "final-state",
+      "status": "failed",
+      "detail": "GetMallListBySlotType: 1031002 \u5546\u54C1\u4E0D\u53EF\u8D2D\u4E70"
+    }
+  ],
+  "operations": [],
+  "runId": "93f42428-ee97-45fa-97e2-8225ce136e90",
+  "serverClockOffsetMs": -825,
+  "reportPath": "E:\\workspace\\QQ\u7ECF\u5178\u519C\u573A\u6848\u4F8B\\deploy-csharp\\artifacts\\reports\\farm-csharp-2026-10-18T06-50-41-307Z-93f42428.json"
+}

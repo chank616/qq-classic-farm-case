@@ -1,0 +1,66 @@
+{
+  "version": "1.15.0.2_20261001",
+  "source": "Cached mainscene ItemInfo asset d70ed409-abde-4a1b-899e-1c90acb27896.1bc72.json",
+  "items": {
+    "1011": {
+      "name": "普通化肥容器",
+      "interaction": "fertilizerbucket",
+      "description": "每次施肥时，仅扣除当前作物的剩余生长时间（扣除时间精确到秒）。"
+    },
+    "1012": {
+      "name": "有机化肥容器",
+      "interaction": "fertilizerbucket",
+      "description": "每次施肥时，仅扣除当前作物的剩余生长时间（扣除时间精确到秒）。"
+    },
+    "80001": {
+      "name": "化肥(1小时)",
+      "interaction": "fertilizer",
+      "description": "加速成长道具，使用后【普通】化肥容器增加1小时。"
+    },
+    "80002": {
+      "name": "化肥(4小时)",
+      "interaction": "fertilizer",
+      "description": "加速成长道具，使用后【普通】化肥容器增加4小时。"
+    },
+    "80003": {
+      "name": "化肥(8小时)",
+      "interaction": "fertilizer",
+      "description": "加速成长道具，使用后【普通】化肥容器增加8小时。"
+    },
+    "80004": {
+      "name": "化肥(12小时)",
+      "interaction": "fertilizer",
+      "description": "加速成长道具，使用后【普通】化肥容器增加12小时。"
+    },
+    "80011": {
+      "name": "有机化肥(1小时)",
+      "interaction": "fertilizerpro",
+      "description": "加速成长道具，使用后【有机】化肥容器增加1小时。"
+    },
+    "80012": {
+      "name": "有机化肥(4小时)",
+      "interaction": "fertilizerpro",
+      "description": "加速成长道具，使用后【有机】化肥容器增加4小时。"
+    },
+    "80013": {
+      "name": "有机化肥(8小时)",
+      "interaction": "fertilizerpro",
+      "description": "加速成长道具，使用后【有机】化肥容器增加8小时。"
+    },
+    "80014": {
+      "name": "有机化肥(12小时)",
+      "interaction": "fertilizerpro",
+      "description": "加速成长道具，使用后【有机】化肥容器增加12小时。"
+    },
+    "100003": {
+      "name": "化肥礼包",
+      "interaction": null,
+      "description": "打开后，可以获得1个化肥。"
+    },
+    "100004": {
+      "name": "有机化肥礼包",
+      "interaction": null,
+      "description": "打开后，可以获得1个有机化肥。"
+    }
+  }
+}

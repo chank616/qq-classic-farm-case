@@ -1,0 +1,153 @@
+{
+  "schemaVersion": 1,
+  "runtime": "csharp",
+  "day": "2026-10-18",
+  "mode": "execute",
+  "startedAt": "2026-10-18T07:10:02.3029403\u002B00:00",
+  "account": {
+    "gid": "1079370412",
+    "name": "\u9732\u9732\u5927\u795E",
+    "level": 149
+  },
+  "allRequiredComplete": false,
+  "completed": true,
+  "tasksBefore": [
+    {
+      "id": "101056",
+      "desc": "\u5347\u7EA720\u5757\u7D2B\u6676\u571F\u5730",
+      "cond": 22,
+      "progress": 19,
+      "total": 20,
+      "claimed": false,
+      "unlocked": true
+    },
+    {
+      "id": "200019",
+      "desc": "\u6BCF\u65E5\u767B\u5F55\u6E38\u620F",
+      "cond": 16,
+      "progress": 1,
+      "total": 1,
+      "claimed": true,
+      "unlocked": true
+    },
+    {
+      "id": "200020",
+      "desc": "\u91C7\u64581\u6B21\u679C\u5B9E",
+      "cond": 17,
+      "progress": 1,
+      "total": 1,
+      "claimed": true,
+      "unlocked": true
+    },
+    {
+      "id": "200021",
+      "desc": "\u57281\u4E2A\u597D\u53CB\u519C\u573A\u8FDB\u884C\u4E92\u52A8",
+      "cond": 18,
+      "progress": 1,
+      "total": 1,
+      "claimed": true,
+      "unlocked": true
+    }
+  ],
+  "selectedSeed": {
+    "id": 20102,
+    "goodsId": 158,
+    "requiredLevel": 148
+  },
+  "fertilizerDecision": {
+    "needSec": 0,
+    "phaseAt": 0,
+    "ready": false,
+    "sufficient": false,
+    "batchFertilizeAt": 0,
+    "pointsCost": 0,
+    "purchases": [],
+    "groups": [],
+    "normalBucketSec": 289739,
+    "organicBucketSec": 296643,
+    "normalBagSec": 46800,
+    "organicBagSec": 140400,
+    "points": 11578,
+    "ownedTotalSec": 773582,
+    "unresolvedBoxes": 0,
+    "waitNatural": false,
+    "offers": [
+      {
+        "id": 1002,
+        "price": 42,
+        "normalSec": 0,
+        "organicSec": 36000,
+        "remaining": null,
+        "slot": 1
+      },
+      {
+        "id": 1003,
+        "price": 34,
+        "normalSec": 36000,
+        "organicSec": 0,
+        "remaining": null,
+        "slot": 1
+      }
+    ]
+  },
+  "finishedAt": "2026-10-18T07:10:25.6025120\u002B00:00",
+  "fertilizerDecisionState": null,
+  "status": "incomplete",
+  "checks": [
+    {
+      "id": "login",
+      "status": "passed",
+      "detail": "Login and PlayerLogin accepted by server"
+    },
+    {
+      "id": "seed-selection",
+      "status": "passed",
+      "detail": {
+        "id": 20102,
+        "goodsId": 158,
+        "requiredLevel": 148
+      }
+    },
+    {
+      "id": "farm",
+      "status": "failed",
+      "detail": "An error occurred while sending the request."
+    },
+    {
+      "id": "daily-tasks",
+      "status": "failed",
+      "detail": "\u7531\u4E8E\u76EE\u6807\u8BA1\u7B97\u673A\u79EF\u6781\u62D2\u7EDD\uFF0C\u65E0\u6CD5\u8FDE\u63A5\u3002 (127.0.0.1:17841)"
+    },
+    {
+      "id": "vip-daily",
+      "status": "failed",
+      "detail": "\u7531\u4E8E\u76EE\u6807\u8BA1\u7B97\u673A\u79EF\u6781\u62D2\u7EDD\uFF0C\u65E0\u6CD5\u8FDE\u63A5\u3002 (127.0.0.1:17841)"
+    },
+    {
+      "id": "vip-rewards",
+      "status": "failed",
+      "detail": "\u7531\u4E8E\u76EE\u6807\u8BA1\u7B97\u673A\u79EF\u6781\u62D2\u7EDD\uFF0C\u65E0\u6CD5\u8FDE\u63A5\u3002 (127.0.0.1:17841)"
+    },
+    {
+      "id": "free-fertilizer",
+      "status": "failed",
+      "detail": "\u7531\u4E8E\u76EE\u6807\u8BA1\u7B97\u673A\u79EF\u6781\u62D2\u7EDD\uFF0C\u65E0\u6CD5\u8FDE\u63A5\u3002 (127.0.0.1:17841)"
+    },
+    {
+      "id": "final-state",
+      "status": "failed",
+      "detail": "\u7531\u4E8E\u76EE\u6807\u8BA1\u7B97\u673A\u79EF\u6781\u62D2\u7EDD\uFF0C\u65E0\u6CD5\u8FDE\u63A5\u3002 (127.0.0.1:17841)"
+    }
+  ],
+  "operations": [
+    {
+      "method": "Harvest",
+      "err": -1,
+      "status": "failed",
+      "msg": "An error occurred while sending the request."
+    }
+  ],
+  "runId": "8a5834d4-ab9c-458c-a259-b758d2a5f48a",
+  "serverClockOffsetMs": -670,
+  "reportPath": "E:\\workspace\\QQ\u7ECF\u5178\u519C\u573A\u6848\u4F8B\\deploy-csharp\\artifacts\\reports\\farm-csharp-2026-10-18T07-10-25-604Z-8a5834d4.json"
+}

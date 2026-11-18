@@ -1,0 +1,18 @@
+{
+  "mode": "cleanup",
+  "pid": 3888,
+  "qqStarted": false,
+  "farmStarted": false,
+  "diagnostics": [
+    {
+      "state": "runtime-metadata",
+      "pid": 3888,
+      "value": {
+        "pid": 3888,
+        "ownDiagnosticDebuggerDetached": false,
+        "debuggerAttached": false,
+        "nativeExportsAvailable": false
+      }
+    }
+  ]
+}

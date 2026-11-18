@@ -1,0 +1,7 @@
+{
+  "name": "x",
+  "private": true,
+  "version": "3.3.15",
+  "main": "main/app.js",
+  "description": "3.3.15 support open native guild page"
+}

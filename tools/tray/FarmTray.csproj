@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <PlatformTarget>x64</PlatformTarget>
+    <AssemblyName>FarmTray</AssemblyName>
+    <RootNamespace>FarmTray</RootNamespace>
+    <ApplicationIcon>assets\farm.ico</ApplicationIcon>
+    <InvariantGlobalization>true</InvariantGlobalization>
+    <SatelliteResourceLanguages>zh-Hans</SatelliteResourceLanguages>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\qq-background\QqBackground.csproj" />
+    <EmbeddedResource Include="assets\farm.ico" LogicalName="farm.ico" />
+    <EmbeddedResource Include="assets\fruit-catalog.json" LogicalName="fruit-catalog.json" />
+    <EmbeddedResource Include="..\tsdk-extract\light.js" LogicalName="qq-light.js" />
+    <EmbeddedResource Include="..\tsdk-extract\tsdk-mini.js" LogicalName="qq-tsdk.js" />
+    <EmbeddedResource Include="..\..\client\item-catalog.json" LogicalName="item-catalog.json" />
+  </ItemGroup>
+
+</Project>

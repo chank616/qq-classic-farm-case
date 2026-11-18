@@ -1,0 +1,53 @@
+{
+  "archives": {
+    "current": {
+      "path": "C:\\Users\\chank616\\AppData\\Roaming\\QQ\\qqex\\dynamic_package\\exMiniProgram\\3.3.15\\3.3.15\\appNormal.asar",
+      "bytes": 3645369,
+      "sha256": "dcdf4b08e84b66242cc0eee6a6048056c75e001ad93bf5afaa5ba7264afbd60e"
+    },
+    "backup": {
+      "path": "C:\\Users\\chank616\\AppData\\Roaming\\QQ\\qqex\\dynamic_package\\exMiniProgram\\3.3.15\\3.3.15\\appNormal.asar.m0bak",
+      "bytes": 3645369,
+      "sha256": "dcdf4b08e84b66242cc0eee6a6048056c75e001ad93bf5afaa5ba7264afbd60e"
+    },
+    "stagedVariant": {
+      "path": "C:\\Users\\chank616\\AppData\\Roaming\\QQ\\qqex\\dynamic_package\\exMiniProgram\\3.3.15\\3.3.15\\appNormal.asar.m0new",
+      "bytes": 3646070,
+      "sha256": "e44f0de75610e35fb926edf52a4c8c8e3d7c9ceecbcf9fae68df463b73a3eea9"
+    },
+    "currentMatchesBackup": true
+  },
+  "extractedComparison": {
+    "changedFilesBackupToStagedVariant": [
+      "app/index.js"
+    ],
+    "apiIgnoreSha256": {
+      "current": "46203229d446c182595cab5c0c8c9ea01fda2efc997797815a6bc9ebe3cd0e38",
+      "backup": "46203229d446c182595cab5c0c8c9ea01fda2efc997797815a6bc9ebe3cd0e38",
+      "new": "46203229d446c182595cab5c0c8c9ea01fda2efc997797815a6bc9ebe3cd0e38"
+    },
+    "apiIgnoreUnchanged": true,
+    "appIndexBytes": {
+      "current": 2085552,
+      "backup": 2085552,
+      "new": 2086253
+    },
+    "appIndexSha256": {
+      "current": "d24caf798be79d0dd06653cf102c8204bbf6f570a91a11ed1a9e5f3651e37305",
+      "backup": "d24caf798be79d0dd06653cf102c8204bbf6f570a91a11ed1a9e5f3651e37305",
+      "new": "33931fc9a4581af066b902b087c576f6a42ac766928455f29cd185882074322a"
+    },
+    "stagedInsertionBytes": 701,
+    "stagedInsertionSha256": "f092e3bc6e31a9d9994389c533e7107d68bd97b690a8305aabe5bf76e8da2ebe",
+    "stagedInsertionMarkers": {
+      "m0CdpSwitches": true,
+      "m0CodeIpcListener": true,
+      "m0FramesIpcListener": true,
+      "writesM0CodeLog": true,
+      "writesM0FramesNdjson": true,
+      "writesM0TraceLog": true
+    }
+  },
+  "interpretation": "The current appNormal.asar is byte-identical to appNormal.asar.m0bak. The staged .m0new differs from the backup only in app/index.js, where a 701-byte M0-marked prefix registers Electron IPC listeners that append received m0-code and m0-frames messages to TEMP logs. app/miniapp/apiIgnore.js is identical in all three archives. This proves a separate local M0 instrumentation variant exists; it does not prove that the listener is active in the current archive, identify who created it, or link its IPC messages to the wx.login frame script.",
+  "boundary": "Hashes and added-code markers only. No Electron code was executed, no IPC was sent, and no log containing a login code was opened or copied."
+}

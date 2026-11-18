@@ -1,0 +1,202 @@
+{
+  "eventCount": 2167,
+  "connectionCount": 18,
+  "messageTypeCounts": {
+    "S": {
+      "1": 792,
+      "missing": 1
+    },
+    "R": {
+      "2": 938,
+      "3": 390
+    }
+  },
+  "nonzeroErrorCodeCounts": {
+    "R 1001025 gamepb.plantpb.PlantService/Fertilize": 1,
+    "R 1000014 gamepb.paypb.PayService/GetRechargeInfo": 3,
+    "R 1000014 gamepb.iaapb.IaaService/GetAdUnits": 3,
+    "R 1000014 gamepb.bulletinboardpb.BulletinBoardService/GetBulletinList": 3,
+    "R 1000014 gamepb.redpacketpb.RedPacketService/GetTodayClaimStatus": 3,
+    "R 1000014 gamepb.marqueepb.MarqueeService/GetMarquee": 3,
+    "R 1000014 gamepb.taskpb.TaskService/TaskInfo": 4,
+    "R 1000014 gamepb.avatarframepb.AvatarFrameService/AvatarFramesOwned": 6,
+    "R 1000014 gamepb.qqvippb.QQVipService/GetQQVipRewardsStatus": 3,
+    "R 1000014 gamepb.rechargebonuspb.RechargeBonusService/GetConfig": 3,
+    "R 1000014 gamepb.sharepb.ShareService/GetInviteInfo": 8,
+    "R 1000014 gamepb.skinpb.SkinService/SkinsOwned": 1,
+    "R 1000014 gamepb.skinpb.SkinService/SkinsEquipped": 1,
+    "R 1000014 gamepb.skinpb.SkinService/GetSkinEffectTypeParams": 1,
+    "R 1000014 gamepb.activitypb.ActivityService/List": 1,
+    "R 1000014 gamepb.seasonpb.SeasonService/GetSeasonInfo": 1,
+    "R 1000014 gamepb.solartermspb.SolarTermsService/GetSolarTermsRedDot": 1,
+    "R 1000014 gamepb.emailpb.EmailService/GetEmailList": 2,
+    "R 1000014 gamepb.miscpb.MiscService/GetFollowGiftStatus": 2
+  },
+  "unsequencedOutboundFrames": 1,
+  "perConnection": [
+    {
+      "index": 0,
+      "sendCount": 52,
+      "firstClientSeq": 1,
+      "lastClientSeq": 52,
+      "duplicateClientSeqCount": 0,
+      "missingClientSeqs": [],
+      "replyFrameCount": 62
+    },
+    {
+      "index": 1,
+      "sendCount": 60,
+      "firstClientSeq": 1,
+      "lastClientSeq": 60,
+      "duplicateClientSeqCount": 0,
+      "missingClientSeqs": [],
+      "replyFrameCount": 72
+    },
+    {
+      "index": 2,
+      "sendCount": 45,
+      "firstClientSeq": 1,
+      "lastClientSeq": 45,
+      "duplicateClientSeqCount": 0,
+      "missingClientSeqs": [],
+      "replyFrameCount": 55
+    },
+    {
+      "index": 3,
+      "sendCount": 45,
+      "firstClientSeq": 1,
+      "lastClientSeq": 45,
+      "duplicateClientSeqCount": 0,
+      "missingClientSeqs": [],
+      "replyFrameCount": 55
+    },
+    {
+      "index": 4,
+      "sendCount": 47,
+      "firstClientSeq": 1,
+      "lastClientSeq": 47,
+      "duplicateClientSeqCount": 0,
+      "missingClientSeqs": [],
+      "replyFrameCount": 58
+    },
+    {
+      "index": 5,
+      "sendCount": 31,
+      "firstClientSeq": 1,
+      "lastClientSeq": 31,
+      "duplicateClientSeqCount": 0,
+      "missingClientSeqs": [],
+      "replyFrameCount": 38
+    },
+    {
+      "index": 6,
+      "sendCount": 31,
+      "firstClientSeq": 1,
+      "lastClientSeq": 31,
+      "duplicateClientSeqCount": 0,
+      "missingClientSeqs": [],
+      "replyFrameCount": 38
+    },
+    {
+      "index": 7,
+      "sendCount": 5,
+      "firstClientSeq": 1,
+      "lastClientSeq": 5,
+      "duplicateClientSeqCount": 0,
+      "missingClientSeqs": [],
+      "replyFrameCount": 12
+    },
+    {
+      "index": 8,
+      "sendCount": 42,
+      "firstClientSeq": 1,
+      "lastClientSeq": 42,
+      "duplicateClientSeqCount": 0,
+      "missingClientSeqs": [],
+      "replyFrameCount": 48
+    },
+    {
+      "index": 9,
+      "sendCount": 31,
+      "firstClientSeq": 1,
+      "lastClientSeq": 31,
+      "duplicateClientSeqCount": 0,
+      "missingClientSeqs": [],
+      "replyFrameCount": 38
+    },
+    {
+      "index": 10,
+      "sendCount": 36,
+      "firstClientSeq": 1,
+      "lastClientSeq": 36,
+      "duplicateClientSeqCount": 0,
+      "missingClientSeqs": [],
+      "replyFrameCount": 45
+    },
+    {
+      "index": 11,
+      "sendCount": 36,
+      "firstClientSeq": 1,
+      "lastClientSeq": 36,
+      "duplicateClientSeqCount": 0,
+      "missingClientSeqs": [],
+      "replyFrameCount": 45
+    },
+    {
+      "index": 12,
+      "sendCount": 36,
+      "firstClientSeq": 1,
+      "lastClientSeq": 36,
+      "duplicateClientSeqCount": 0,
+      "missingClientSeqs": [],
+      "replyFrameCount": 45
+    },
+    {
+      "index": 13,
+      "sendCount": 35,
+      "firstClientSeq": 1,
+      "lastClientSeq": 35,
+      "duplicateClientSeqCount": 0,
+      "missingClientSeqs": [],
+      "replyFrameCount": 44
+    },
+    {
+      "index": 14,
+      "sendCount": 36,
+      "firstClientSeq": 1,
+      "lastClientSeq": 36,
+      "duplicateClientSeqCount": 0,
+      "missingClientSeqs": [],
+      "replyFrameCount": 45
+    },
+    {
+      "index": 15,
+      "sendCount": 74,
+      "firstClientSeq": 1,
+      "lastClientSeq": 75,
+      "duplicateClientSeqCount": 0,
+      "missingClientSeqs": [
+        37
+      ],
+      "replyFrameCount": 90
+    },
+    {
+      "index": 16,
+      "sendCount": 109,
+      "firstClientSeq": 1,
+      "lastClientSeq": 109,
+      "duplicateClientSeqCount": 0,
+      "missingClientSeqs": [],
+      "replyFrameCount": 432
+    },
+    {
+      "index": 17,
+      "sendCount": 41,
+      "firstClientSeq": 1,
+      "lastClientSeq": 41,
+      "duplicateClientSeqCount": 0,
+      "missingClientSeqs": [],
+      "replyFrameCount": 106
+    }
+  ]
+}

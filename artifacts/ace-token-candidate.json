@@ -1,0 +1,220 @@
+{
+  "source": "latest cached AceManager.ts factory plus sanitized wsframes-analysis metadata",
+  "dependencies": [
+    "./rollupPluginModLoBabelHelpers.js",
+    "cc",
+    "./tsdk_info.mjs",
+    "./ServiceMethodName.ts",
+    "./Oops.ts",
+    "./mygamepb.ts",
+    "./InitGlobal.ts"
+  ],
+  "candidateFunctionSource": "n[T[19042]]=function(){for(var i=Ti()[M[739]](64*Ti()[T[604]]())+64,t=\"\",n=J[15940],r=n[R[7]],e=0;e<i;e++)t+=n[Y[7854]](Ti()[f[739]](Ti()[v[604]]()*r));return t+\"=\"}",
+  "candidateInterpretation": "Runtime extraction with the Cocos class decorator stub maps this exact implementation to AceManager.prototype.randomStr. It chooses an integer in [64,127], appends that many characters sampled with Math.random from the bundle alphabet, then appends \"=\". NetNode.send directly calls AceManager.ins.randomStr() before setting gatepb.Message.token. This establishes the local token source for that send path, while not explaining the 152-byte first-per-connection samples.",
+  "candidateOutputLengthRange": [
+    65,
+    128
+  ],
+  "observedEnvelopeField3": {
+    "samples": 792,
+    "minLength": 65,
+    "maxLength": 152,
+    "histogram": {
+      "65": 13,
+      "66": 7,
+      "67": 14,
+      "68": 14,
+      "69": 8,
+      "70": 6,
+      "71": 12,
+      "72": 6,
+      "73": 10,
+      "74": 10,
+      "75": 13,
+      "76": 48,
+      "77": 9,
+      "78": 13,
+      "79": 17,
+      "80": 12,
+      "81": 15,
+      "82": 8,
+      "83": 13,
+      "84": 8,
+      "85": 13,
+      "86": 9,
+      "87": 16,
+      "88": 10,
+      "89": 9,
+      "90": 22,
+      "91": 14,
+      "92": 12,
+      "93": 13,
+      "94": 13,
+      "95": 10,
+      "96": 17,
+      "97": 18,
+      "98": 8,
+      "99": 13,
+      "100": 24,
+      "101": 10,
+      "102": 13,
+      "103": 13,
+      "104": 8,
+      "105": 3,
+      "106": 13,
+      "107": 11,
+      "108": 9,
+      "109": 7,
+      "110": 15,
+      "111": 12,
+      "112": 10,
+      "113": 13,
+      "114": 14,
+      "115": 4,
+      "116": 11,
+      "117": 7,
+      "118": 11,
+      "119": 12,
+      "120": 12,
+      "121": 13,
+      "122": 11,
+      "123": 14,
+      "124": 8,
+      "125": 10,
+      "126": 11,
+      "127": 11,
+      "128": 11,
+      "152": 18
+    },
+    "perConnection": {
+      "0": {
+        "count": 52,
+        "over128": 1,
+        "maxLength": 152,
+        "firstOver128Method": "gamepb.userpb.UserService/SetDisplayInfo",
+        "firstOver128Time": "2026-10-07T11:05:51.358Z"
+      },
+      "1": {
+        "count": 60,
+        "over128": 1,
+        "maxLength": 152,
+        "firstOver128Method": "gamepb.qqvippb.QQVipService/GetQQVipRewardsStatus",
+        "firstOver128Time": "2026-10-07T11:30:10.227Z"
+      },
+      "2": {
+        "count": 45,
+        "over128": 1,
+        "maxLength": 152,
+        "firstOver128Method": "gamepb.qqvippb.QQVipService/GetQQVipRewardsStatus",
+        "firstOver128Time": "2026-10-07T11:31:52.151Z"
+      },
+      "3": {
+        "count": 45,
+        "over128": 1,
+        "maxLength": 152,
+        "firstOver128Method": "gamepb.qqvippb.QQVipService/GetQQVipRewardsStatus",
+        "firstOver128Time": "2026-10-07T11:36:12.585Z"
+      },
+      "4": {
+        "count": 47,
+        "over128": 1,
+        "maxLength": 152,
+        "firstOver128Method": "gamepb.qqvippb.QQVipService/GetQQVipRewardsStatus",
+        "firstOver128Time": "2026-10-07T11:38:53.431Z"
+      },
+      "5": {
+        "count": 31,
+        "over128": 1,
+        "maxLength": 152,
+        "firstOver128Method": "gamepb.plantpb.PlantService/AllLands",
+        "firstOver128Time": "2026-10-11T04:16:03.317Z"
+      },
+      "6": {
+        "count": 31,
+        "over128": 1,
+        "maxLength": 152,
+        "firstOver128Method": "gamepb.qqvippb.QQVipService/GetQQVipRewardsStatus",
+        "firstOver128Time": "2026-10-11T07:51:42.834Z"
+      },
+      "7": {
+        "count": 5,
+        "over128": 1,
+        "maxLength": 152,
+        "firstOver128Method": "gamepb.qqvippb.QQVipService/GetQQVipRewardsStatus",
+        "firstOver128Time": "2026-10-11T07:51:55.970Z"
+      },
+      "8": {
+        "count": 42,
+        "over128": 1,
+        "maxLength": 152,
+        "firstOver128Method": "gamepb.qqvippb.QQVipService/GetQQVipRewardsStatus",
+        "firstOver128Time": "2026-10-11T07:53:55.602Z"
+      },
+      "9": {
+        "count": 31,
+        "over128": 1,
+        "maxLength": 152,
+        "firstOver128Method": "gamepb.qqvippb.QQVipService/GetQQVipRewardsStatus",
+        "firstOver128Time": "2026-10-11T07:56:39.977Z"
+      },
+      "10": {
+        "count": 36,
+        "over128": 1,
+        "maxLength": 152,
+        "firstOver128Method": "gamepb.qqvippb.QQVipService/GetQQVipRewardsStatus",
+        "firstOver128Time": "2026-10-11T08:02:01.127Z"
+      },
+      "11": {
+        "count": 36,
+        "over128": 1,
+        "maxLength": 152,
+        "firstOver128Method": "gamepb.qqvippb.QQVipService/GetQQVipRewardsStatus",
+        "firstOver128Time": "2026-10-11T08:04:58.567Z"
+      },
+      "12": {
+        "count": 36,
+        "over128": 1,
+        "maxLength": 152,
+        "firstOver128Method": "gamepb.qqvippb.QQVipService/GetQQVipRewardsStatus",
+        "firstOver128Time": "2026-10-11T08:07:54.820Z"
+      },
+      "13": {
+        "count": 35,
+        "over128": 1,
+        "maxLength": 152,
+        "firstOver128Method": "gamepb.qqvippb.QQVipService/GetQQVipRewardsStatus",
+        "firstOver128Time": "2026-10-11T08:39:24.314Z"
+      },
+      "14": {
+        "count": 36,
+        "over128": 1,
+        "maxLength": 152,
+        "firstOver128Method": "gamepb.qqvippb.QQVipService/GetQQVipRewardsStatus",
+        "firstOver128Time": "2026-10-11T08:45:00.157Z"
+      },
+      "15": {
+        "count": 74,
+        "over128": 1,
+        "maxLength": 152,
+        "firstOver128Method": "gamepb.qqvippb.QQVipService/GetQQVipRewardsStatus",
+        "firstOver128Time": "2026-10-11T08:59:55.854Z"
+      },
+      "16": {
+        "count": 109,
+        "over128": 1,
+        "maxLength": 152,
+        "firstOver128Method": "gamepb.qqvippb.QQVipService/GetQQVipRewardsStatus",
+        "firstOver128Time": "2026-10-15T15:26:47.071Z"
+      },
+      "17": {
+        "count": 41,
+        "over128": 1,
+        "maxLength": 152,
+        "firstOver128Method": "gamepb.qqvippb.QQVipService/GetQQVipRewardsStatus",
+        "firstOver128Time": "2026-10-16T16:49:26.649Z"
+      }
+    }
+  },
+  "interpretation": "Most observed field-3 lengths fit AceManager.randomStr output, but 18 field-3 values of length 152 exceed its maximum, one on each captured connection. AceManager.getToken and getToken2 separately forward input to the TSDK getToken export; no call-site or value-equivalence evidence links those methods to the 152-byte field-3 values. Keep the first-message anomaly unresolved. No token contents are emitted.",
+  "boundary": "Static analysis only. No random values are generated or logged; no host APIs or network are used."
+}

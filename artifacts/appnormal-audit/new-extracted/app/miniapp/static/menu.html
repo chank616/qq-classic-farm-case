@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://staticfile.qq.com/datong/universalReportH5/v3.6.3/universal-report.min.js"></script>
+    <title>Document</title>
+    <style>
+      body {
+        font-size: 14px;
+        margin: 0;
+        user-select: none;
+      }
+      .container {
+        padding: 12px 0px;
+        margin: 0;
+      }
+      li {
+        list-style: none;
+        display: flex;
+        align-items: center;
+        height: 28px;
+        padding: 0 8px;
+      }
+      li + li {
+        margin-top: 8px;
+      }
+      li img {
+        display: block;
+        width: 16px;
+        height: 16px;
+        margin-right: 8px;
+      }
+      li span {
+        display: block;
+      }
+      li:not(.disable):hover {
+        background-color: #e3e3e3;
+      }
+      .disable {
+        color: #b2b2b2;
+      }
+    </style>
+  </head>
+  <body>
+    <ul class="container">
+      <li class="about" dt-eid="em_bas_miniprogram_omit_panel_about_QQ">
+        <img src="./images/info.png" alt="" />
+        <span>关于QQ小程序</span>
+      </li>
+      <li class="share" dt-eid="em_bas_miniprogram_omit_panel_forward">
+        <img src="./images/share.png" alt="" /> <span>转发</span>
+      </li>
+      <li class="miniScreen" dt-eid="em_bas_miniprogram_omit_panel_suspended_window">
+        <img src="./images/channel_mini_screen.png" alt="" /> <span>悬浮窗</span>
+      </li>
+      <li class="createShortcut" dt-eid="em_bas_pc_create_shortcut">
+        <img src="./images/desktop.png" alt="" /> <span>添加到桌面</span>
+      </li>
+      <li class="serverSwitch" dt-eid="em_bas_miniprogram_omit_panel_server_switch">
+        <img src="./images/server-switch.png" alt="" /> <span>切换系统</span>
+      </li>
+      <li class="home" dt-eid="em_bas_miniprogram_omit_panel_return_home">
+        <img src="./images/home.png" alt="" /> <span>回首页</span>
+      </li>
+      <li class="star" dt-eid="em_bas_miniprogram_omit_panel_added_applet">
+        <img src="./images/star.png" alt="" /> <span>添加到我的小程序</span>
+      </li>
+      <li class="feedback" dt-eid="em_bas_miniprogram_omit_panel_feedback">
+        <img src="./images/feedback.png" alt="" /> <span>反馈</span>
+      </li>
+      <li class="setting" dt-eid="em_bas_miniprogram_omit_panel_setting">
+        <img src="./images/setting.png" alt="" /> <span>设置</span>
+      </li>
+      <li class="repair" dt-eid="em_bas_pc_inspection_repair">
+        <img src="./images/fix.png" alt="" /> <span>一键修复</span>
+      </li>
+    </ul>
+    <script>
+      // 上报页面参数
+      const pageId = 'pg_bas_miniprogram_panel_ellipses_drop_down';
+
+      // 转发文案、上报字段
+      const shareableText = '转发';
+      const unShareableText = '当前页面不可转发';
+      const shareableDtId = 'em_bas_miniprogram_omit_panel_forward';
+      const unShareableDtId = 'em_bas_miniprogram_omit_not_forward';
+
+      // 首页文案、上报字段
+      const homeText = '当前为首页';
+      const notHomeText = '回首页';
+      const homeDtId = 'em_bas_minniprogram_is_home';
+      const notHomeDtId = 'em_bas_miniprogram_omit_panel_return_home';
+
+      // 添加到我的文案、上报字段
+      const starText = '添加到我的小程序';
+      const unStarText = '从我的中移除';
+      const startDtId = 'em_bas_miniprogram_omit_panel_added_applet';
+      const unStarDtId = 'em_bas_miniprogram_omit_panel_removed_from_mine';
+      const startIcon = './images/star.png';
+      const unStarIcon = './images/remove.png';
+
+      // dom节点
+      const aboutEl = document.querySelector('.about');
+      const shareEl = document.querySelector('.share');
+      const miniScreenEl = document.querySelector('.miniScreen');
+      const serverSwitchEl = document.querySelector('.serverSwitch');
+      const homeEl = document.querySelector('.home');
+      const starEl = document.querySelector('.star');
+      const settingEl = document.querySelector('.setting');
+      const feedbackEl = document.querySelector('.feedback');
+      const repairEl = document.querySelector('.repair');
+      const createShortcutEl = document.querySelector('.createShortcut');
+
+      // 点击事件
+      const addClickEventListener = () => {
+        aboutEl.onclick = (e) => {
+          window.electron.handleMenuCommand('about');
+        };
+
+        shareEl.onclick = (e) => {
+          if (e.currentTarget.innerText === '转发') {
+            window.electron.handleMenuCommand('share');
+          }
+        };
+
+        miniScreenEl.onclick = (e) => {
+          if (e.currentTarget.innerText === '悬浮窗') {
+            window.electron.handleMenuCommand('miniScreen');
+          }
+        };
+
+        serverSwitchEl.onclick = (e) => {
+          if (e.currentTarget.innerText === '切换系统') {
+            window.electron.handleMenuCommand('serverSwitch');
+          }
+        };
+
+        homeEl.onclick = (e) => {
+          if (e.currentTarget.innerText === '回首页') {
+            window.electron.handleMenuCommand('home');
+          }
+        };
+
+        starEl.onclick = (e) => {
+          window.electron.handleMenuCommand(e.currentTarget.innerText === '添加到我的小程序' ? 'star' : 'unStar');
+        };
+
+        settingEl.onclick = (e) => {
+          window.electron.handleMenuCommand('setting');
+        };
+
+        feedbackEl.onclick = (e) => {
+          window.electron.handleMenuCommand('feedback');
+        };
+
+        repairEl.onclick = (e) => {
+          if (e.currentTarget.innerText === '一键修复') {
+            window.electron.handleMenuCommand('repair');
+          }
+        };
+
+        createShortcutEl.onclick = (e) => {
+          window.electron.handleMenuCommand('createShortcut');
+        };
+      };
+
+      // add click listener
+      addClickEventListener();
+
+      // 调整菜单内容 -- 文案、图标、样式、上报字段
+      window.updateMenuItem = ({
+        isHome,
+        isShareable,
+        isStar,
+        miniappType,
+        uin,
+        qqVersion,
+        showCreateShortcut,
+        hideStarMenu,
+      }) => {
+        // init reporter
+        if (!window.reporter) {
+          window.reporter = new UniversalReport({
+            beacon: '0WEB03RG3A5NBUB4',
+            accountInfo: {
+              dt_qq_h5: uin,
+            },
+            publicParams: {
+              qq_pc_version: qqVersion,
+            },
+          });
+        }
+
+        // 非游戏不展示mini屏控件
+        if (miniappType !== 1) {
+          miniScreenEl.style.display = 'none';
+          repairEl.style.display = 'none';
+        }
+
+        // 不展示添加到桌面
+        if (!showCreateShortcut) {
+          createShortcutEl.style.display = 'none';
+        }
+
+        // 隐藏"添加到我的小程序"菜单
+        if (hideStarMenu) {
+          starEl.style.display = 'none';
+        }
+
+        // 分享转发菜单调整
+        !isShareable && shareEl.classList.add('disable');
+        isShareable && shareEl.classList.remove('disable');
+        shareEl.querySelector('span').innerText = isShareable ? shareableText : unShareableText;
+        shareEl.setAttribute('dt-eid', isShareable ? shareableDtId : unShareableDtId);
+
+        // 切换系统
+        if (!localStorage.getItem('_minigame_pc_selected_server')) {
+          serverSwitchEl.style.display = 'none';
+        }
+
+        // 首页菜单调整
+        isHome && homeEl.classList.add('disable');
+        !isHome && homeEl.classList.remove('disable');
+        homeEl.querySelector('span').innerText = isHome ? homeText : notHomeText;
+        homeEl.setAttribute('dt-eid', isHome ? homeDtId : notHomeDtId);
+
+        // 添加到我的小程序菜单调整
+        starEl.querySelector('span').innerText = isStar ? unStarText : starText;
+        starEl.querySelector('img').setAttribute('src', isStar ? unStarIcon : startIcon);
+        starEl.setAttribute('dt-eid', isStar ? unStarDtId : startDtId);
+
+        // 开始观测页面
+        window.reporter
+          .setPage(
+            {
+              pgid: pageId,
+              min_app_type: miniappType,
+            },
+            document.body,
+          )
+          .observe(pageId);
+      };
+
+      // 页面关闭时 元素不能自动上报，这里手动上报下结束曝光
+      const reportElement = (eventName) => {
+        [aboutEl, shareEl, homeEl, starEl, settingEl, feedbackEl, miniScreenEl, repairEl, createShortcutEl].forEach(
+          (item) => {
+            window.reporter.reportElement(document.body, {
+              pgid: pageId,
+              eventName,
+              businessParams: {
+                eid: item.getAttribute('dt-eid'),
+              },
+            });
+          },
+        );
+      };
+
+      window.reportPageOut = () => {
+        reportElement('dt_imp_end');
+        window.reporter.unobserve(pageId);
+      };
+    </script>
+  </body>
+</html>

@@ -1,0 +1,417 @@
+{
+  "mode": "ipc",
+  "pid": 3888,
+  "qqStarted": false,
+  "farmStarted": false,
+  "diagnostics": [
+    {
+      "state": "runtime-metadata",
+      "pid": 3888,
+      "value": {
+        "pid": 3888,
+        "channels": [
+          {
+            "name": "error",
+            "listeners": [
+              {
+                "name": "",
+                "length": 0
+              }
+            ]
+          },
+          {
+            "name": "login-storage:sync-read",
+            "listeners": [
+              {
+                "name": "",
+                "length": 1
+              }
+            ]
+          },
+          {
+            "name": "getCurrentWebContentsId",
+            "listeners": [
+              {
+                "name": "",
+                "length": 1
+              }
+            ]
+          },
+          {
+            "name": "webviewDisposeByName",
+            "listeners": [
+              {
+                "name": "",
+                "length": 2
+              }
+            ]
+          },
+          {
+            "name": "minimizeGuildAio",
+            "listeners": [
+              {
+                "name": "",
+                "length": 1
+              }
+            ]
+          },
+          {
+            "name": "__ELECTRON_LOG__",
+            "listeners": [
+              {
+                "name": "",
+                "length": 2
+              }
+            ]
+          },
+          {
+            "name": "RM_IPCFROM_RENDERER2",
+            "listeners": [
+              {
+                "name": "",
+                "length": 1
+              }
+            ]
+          },
+          {
+            "name": "ns-preload-client-dom-ready-2",
+            "listeners": [
+              {
+                "name": "",
+                "length": 0
+              }
+            ]
+          },
+          {
+            "name": "ns-preload-client-ready-2",
+            "listeners": [
+              {
+                "name": "",
+                "length": 0
+              }
+            ]
+          },
+          {
+            "name": "RM_IPCFROM_RENDERER3",
+            "listeners": [
+              {
+                "name": "",
+                "length": 1
+              }
+            ]
+          },
+          {
+            "name": "screenshot",
+            "listeners": [
+              {
+                "name": "bound handleSend",
+                "length": 2
+              }
+            ]
+          },
+          {
+            "name": "RM_IPCFROM_RENDERER5",
+            "listeners": [
+              {
+                "name": "",
+                "length": 1
+              }
+            ]
+          },
+          {
+            "name": "ns-preload-client-dom-ready-4",
+            "listeners": [
+              {
+                "name": "",
+                "length": 0
+              }
+            ]
+          },
+          {
+            "name": "ns-preload-client-ready-4",
+            "listeners": [
+              {
+                "name": "",
+                "length": 0
+              }
+            ]
+          },
+          {
+            "name": "ns-preload-client-dom-ready-7",
+            "listeners": [
+              {
+                "name": "",
+                "length": 0
+              }
+            ]
+          },
+          {
+            "name": "ns-preload-client-ready-7",
+            "listeners": [
+              {
+                "name": "",
+                "length": 0
+              }
+            ]
+          },
+          {
+            "name": "ns-preload-client-dom-ready-8",
+            "listeners": [
+              {
+                "name": "",
+                "length": 0
+              }
+            ]
+          },
+          {
+            "name": "ns-preload-client-ready-8",
+            "listeners": [
+              {
+                "name": "",
+                "length": 0
+              }
+            ]
+          },
+          {
+            "name": "ns-preload-client-dom-ready-10",
+            "listeners": [
+              {
+                "name": "",
+                "length": 0
+              }
+            ]
+          },
+          {
+            "name": "ns-preload-client-ready-10",
+            "listeners": [
+              {
+                "name": "",
+                "length": 0
+              }
+            ]
+          },
+          {
+            "name": "ns-preload-client-dom-ready-15",
+            "listeners": [
+              {
+                "name": "",
+                "length": 0
+              }
+            ]
+          },
+          {
+            "name": "ns-preload-client-ready-15",
+            "listeners": [
+              {
+                "name": "",
+                "length": 0
+              }
+            ]
+          },
+          {
+            "name": "ns-preload-client-dom-ready-16",
+            "listeners": [
+              {
+                "name": "",
+                "length": 0
+              }
+            ]
+          },
+          {
+            "name": "ns-preload-client-ready-16",
+            "listeners": [
+              {
+                "name": "",
+                "length": 0
+              }
+            ]
+          },
+          {
+            "name": "ns-preload-client-dom-ready-17",
+            "listeners": [
+              {
+                "name": "",
+                "length": 0
+              }
+            ]
+          },
+          {
+            "name": "ns-preload-client-ready-17",
+            "listeners": [
+              {
+                "name": "",
+                "length": 0
+              }
+            ]
+          },
+          {
+            "name": "ns-preload-client-dom-ready-18",
+            "listeners": [
+              {
+                "name": "",
+                "length": 0
+              }
+            ]
+          },
+          {
+            "name": "ns-preload-client-ready-18",
+            "listeners": [
+              {
+                "name": "",
+                "length": 0
+              }
+            ]
+          },
+          {
+            "name": "ns-preload-client-dom-ready-19",
+            "listeners": [
+              {
+                "name": "",
+                "length": 0
+              }
+            ]
+          },
+          {
+            "name": "ns-preload-client-ready-19",
+            "listeners": [
+              {
+                "name": "",
+                "length": 0
+              }
+            ]
+          },
+          {
+            "name": "ns-preload-client-dom-ready-20",
+            "listeners": [
+              {
+                "name": "",
+                "length": 0
+              }
+            ]
+          },
+          {
+            "name": "ns-preload-client-ready-20",
+            "listeners": [
+              {
+                "name": "",
+                "length": 0
+              }
+            ]
+          },
+          {
+            "name": "ns-preload-client-dom-ready-21",
+            "listeners": [
+              {
+                "name": "",
+                "length": 0
+              }
+            ]
+          },
+          {
+            "name": "ns-preload-client-ready-21",
+            "listeners": [
+              {
+                "name": "",
+                "length": 0
+              }
+            ]
+          },
+          {
+            "name": "ns-preload-client-dom-ready-22",
+            "listeners": [
+              {
+                "name": "",
+                "length": 0
+              }
+            ]
+          },
+          {
+            "name": "ns-preload-client-ready-22",
+            "listeners": [
+              {
+                "name": "",
+                "length": 0
+              }
+            ]
+          },
+          {
+            "name": "ns-preload-client-dom-ready-24",
+            "listeners": [
+              {
+                "name": "",
+                "length": 0
+              }
+            ]
+          },
+          {
+            "name": "ns-preload-client-ready-24",
+            "listeners": [
+              {
+                "name": "",
+                "length": 0
+              }
+            ]
+          },
+          {
+            "name": "ns-preload-client-dom-ready-25",
+            "listeners": [
+              {
+                "name": "",
+                "length": 0
+              }
+            ]
+          },
+          {
+            "name": "ns-preload-client-ready-25",
+            "listeners": [
+              {
+                "name": "",
+                "length": 0
+              }
+            ]
+          },
+          {
+            "name": "RM_IPCFROM_RENDERER26",
+            "listeners": [
+              {
+                "name": "",
+                "length": 1
+              }
+            ]
+          }
+        ],
+        "invokes": [
+          {
+            "name": "webviewRegisterByName",
+            "functionName": "",
+            "length": 2
+          },
+          {
+            "name": "__ELECTRON_LOG__",
+            "functionName": "",
+            "length": 2
+          },
+          {
+            "name": "screenshot",
+            "functionName": "bound handleInvoke",
+            "length": 2
+          }
+        ],
+        "moduleLoads": [
+          "Internal Binding module_wrap",
+          "Internal Binding async_wrap",
+          "Internal Binding fs_event_wrap",
+          "Internal Binding pipe_wrap",
+          "Internal Binding cares_wrap",
+          "Internal Binding stream_wrap",
+          "Internal Binding tcp_wrap",
+          "Internal Binding udp_wrap",
+          "Internal Binding process_wrap",
+          "Internal Binding tty_wrap",
+          "Internal Binding tls_wrap",
+          "NativeModule _tls_wrap"
+        ]
+      }
+    }
+  ]
+}

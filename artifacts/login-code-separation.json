@@ -1,0 +1,174 @@
+{
+  "source": {
+    "raw": "C:/Users/chank616/AppData/Roaming/QQEX/miniapp/fs/2351686624/1112386029/usr/wsframes.jsonl",
+    "analysis": "E:\\workspace\\QQ经典农场案例\\artifacts\\wsframes-analysis.json",
+    "schema": "E:\\workspace\\QQ经典农场案例\\artifacts\\proto-schema-full.json"
+  },
+  "scope": "Read-only structural audit; code and payload bytes are not retained.",
+  "openUrl": {
+    "count": 18,
+    "distinctHosts": [
+      "gate-obt.nqf.qq.com"
+    ],
+    "distinctPaths": [
+      "/prod/ws"
+    ],
+    "allContainCodeQuery": true,
+    "codeLengths": [
+      32
+    ],
+    "queryKeys": [
+      "code",
+      "os",
+      "platform",
+      "ver"
+    ],
+    "versions": [
+      "1.14.2.15_20260922",
+      "1.15.0.2_20261001"
+    ],
+    "platforms": [
+      "qq"
+    ]
+  },
+  "firstLoginRpc": {
+    "timestamp": "2026-10-07T11:05:50.387Z",
+    "direction": "S",
+    "method": "gamepb.userpb.UserService/Login",
+    "envelopeFieldSummary": [
+      {
+        "field": 1,
+        "wire": 2,
+        "length": 40
+      },
+      {
+        "field": 2,
+        "wire": 2,
+        "length": 188
+      },
+      {
+        "field": 3,
+        "wire": 2,
+        "length": 76
+      }
+    ],
+    "requestFlags": [
+      {
+        "field": 3,
+        "value": 1
+      },
+      {
+        "field": 4,
+        "value": 1
+      },
+      {
+        "field": 5,
+        "value": 0
+      }
+    ],
+    "schemaType": "gamepb.userpb.LoginRequest",
+    "schemaFields": [
+      {
+        "name": "sharer_id",
+        "field": 3,
+        "wire": 0,
+        "defaultKind": "object",
+        "nestedType": null,
+        "sampleLength": 2,
+        "tagCount": 1
+      },
+      {
+        "name": "sharer_open_id",
+        "field": 4,
+        "wire": 2,
+        "defaultKind": "string",
+        "nestedType": null,
+        "sampleLength": 3,
+        "tagCount": 1
+      },
+      {
+        "name": "device_info",
+        "field": 5,
+        "wire": 2,
+        "defaultKind": "message",
+        "nestedType": "gamepb.userpb.DeviceInfo",
+        "sampleLength": 2,
+        "tagCount": 1
+      },
+      {
+        "name": "share_cfg_id",
+        "field": 6,
+        "wire": 0,
+        "defaultKind": "object",
+        "nestedType": null,
+        "sampleLength": 2,
+        "tagCount": 1
+      },
+      {
+        "name": "scene_id",
+        "field": 7,
+        "wire": 2,
+        "defaultKind": "string",
+        "nestedType": null,
+        "sampleLength": 3,
+        "tagCount": 1
+      },
+      {
+        "name": "report_data",
+        "field": 8,
+        "wire": 2,
+        "defaultKind": "message",
+        "nestedType": "gamepb.userpb.ReportData",
+        "sampleLength": 2,
+        "tagCount": 1
+      },
+      {
+        "name": "share_key",
+        "field": 9,
+        "wire": 2,
+        "defaultKind": "string",
+        "nestedType": null,
+        "sampleLength": 3,
+        "tagCount": 1
+      },
+      {
+        "name": "experiment_keys",
+        "field": 10,
+        "wire": 2,
+        "defaultKind": "array",
+        "nestedType": null,
+        "sampleLength": 2,
+        "tagCount": 1
+      },
+      {
+        "name": "ark_biz_type",
+        "field": 11,
+        "wire": 0,
+        "defaultKind": "number",
+        "nestedType": null,
+        "sampleLength": 2,
+        "tagCount": 1
+      },
+      {
+        "name": "ark_biz_param",
+        "field": 12,
+        "wire": 2,
+        "defaultKind": "object",
+        "nestedType": null,
+        "sampleLength": 2,
+        "tagCount": 1
+      },
+      {
+        "name": "game_scene_id",
+        "field": 13,
+        "wire": 0,
+        "defaultKind": "number",
+        "nestedType": null,
+        "sampleLength": 2,
+        "tagCount": 1
+      }
+    ],
+    "schemaContainsCodeField": false
+  },
+  "conclusion": "The runtime code is present as the WebSocket OPEN URL query parameter. The first Login RPC is a separate encrypted protobuf request; its extracted LoginRequest schema has no code/token/session field. This separates code transport from the Login RPC body but does not reveal code generation, TTL, or decryption keys."
+}

@@ -1,0 +1,55 @@
+systems 1445
+milo setters 1
+GET root cclegacy
+GET root.cclegacy _RF
+GET root.cclegacy._RF push
+APPLY root.cclegacy._RF.push {}|"cf220Q7qH5Gm6MsB7tUHt8n"|"milo"|
+GET root.cclegacy _RF
+GET root.cclegacy._RF pop
+APPLY root.cclegacy._RF.pop 
+milo keys [
+  'length',
+  'name',
+  'prototype',
+  'init',
+  'checkLogin',
+  'getQQUserOpenid',
+  'getWXUserOpenid'
+]
+INIT_GET showArea
+INIT_GET miniappid
+QQ_GET getStorageSync
+QQ_CALL getStorageSync "openid"
+QQ_GET getStorageSync
+QQ_CALL getStorageSync "ieg_ams_session_token"
+QQ_GET getStorageSync
+QQ_CALL getStorageSync "acctype"
+QQ_GET getStorageSync
+QQ_CALL getStorageSync "verifysession"
+QQ_GET showLoading
+QQ_CALL showLoading {"title":"加载中","mask":true}
+QQ_GET request
+QQ_CALL request {"url":"https://ams.game.qq.com/ams/userLoginSvr","data":{"a":"qqCodeToSession","appid":"","js_code":"CODE"},"method":"GET","header":{"Content-Type":"application/json;","Cookie":""}}
+QQ_GET getStorageSync
+QQ_CALL getStorageSync "openid"
+QQ_GET getStorageSync
+QQ_CALL getStorageSync "ieg_ams_session_token"
+QQ_GET getStorageSync
+QQ_CALL getStorageSync "acctype"
+QQ_GET getStorageSync
+QQ_CALL getStorageSync "verifysession"
+QQ_GET showLoading
+QQ_CALL showLoading {"title":"加载中","mask":true}
+QQ_GET request
+QQ_CALL request {"url":"https://mini.game.qq.com/ams/ame/wxApi","data":{"action":"codeToSession","appid":"","wxcode":"CODE"},"method":"GET","header":{"Content-Type":"application/json;","Cookie":""}}
+milo static [
+  'length',
+  'name',
+  'prototype',
+  'init',
+  'checkLogin',
+  'getQQUserOpenid',
+  'getWXUserOpenid'
+]
+milo proto [ 'constructor' ]
+decoded {}

@@ -1,0 +1,1 @@
+const fs=require('fs');const p=String.raw`C:\Users\chank616\AppData\Roaming\QQEX\miniapp\fs\2351686624\1112386029\usr\__proto_fields__.json`;const j=JSON.parse(fs.readFileSync(p,'utf8'));console.log('top',Object.keys(j));console.log('preview',JSON.stringify(j).slice(0,8000));

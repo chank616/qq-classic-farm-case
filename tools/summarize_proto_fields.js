@@ -1,0 +1,1 @@
+const a=JSON.parse(require('fs').readFileSync(String.raw`C:\Users\chank616\AppData\Roaming\QQEX\miniapp\fs\2351686624\1112386029\usr\__proto_fields__.json`,'utf8'));a.forEach((e,i)=>console.log(i,e.type,e.name||'',e.keys?.join(',')||'', e.fields?JSON.stringify(e.fields):'',e.map?JSON.stringify(e.map):'',e.fieldCount||''));

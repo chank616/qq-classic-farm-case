@@ -1,0 +1,63 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0/win-x64",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {},
+    ".NETCoreApp,Version=v10.0/win-x64": {
+      "FarmTray/1.0.0": {
+        "dependencies": {
+          "QqBackground": "1.0.0"
+        },
+        "runtime": {
+          "FarmTray.dll": {}
+        }
+      },
+      "Wasmtime/48.0.2": {
+        "runtime": {
+          "lib/net10.0/Wasmtime.Dotnet.dll": {
+            "assemblyVersion": "48.0.2.0",
+            "fileVersion": "48.0.2.0"
+          }
+        },
+        "native": {
+          "runtimes/win-x64/native/wasmtime.dll": {
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "QqBackground/1.0.0": {
+        "dependencies": {
+          "Wasmtime": "48.0.2"
+        },
+        "runtime": {
+          "QqBackground.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "FarmTray/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Wasmtime/48.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-BBqIEIPSTQ5cCVfxk6kH4lYSwNiMQ8Bf2F8Sy1I8N0JkvrWYoqhG3ro41R3JhNStIs0tVbqajBXXKnahyxHn0g==",
+      "path": "wasmtime/48.0.2",
+      "hashPath": "wasmtime.48.0.2.nupkg.sha512"
+    },
+    "QqBackground/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

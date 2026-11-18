@@ -1,0 +1,73 @@
+// Reversible host-only experiment. Never requests a farm app launch or creates a window.
+const fs=require('fs'),path=require('path'),crypto=require('crypto'),cp=require('child_process');
+const root=path.resolve('artifacts/background-host-probe'); fs.mkdirSync(root,{recursive:true});
+const archive='C:/Users/chank616/AppData/Roaming/QQ/qqex/dynamic_package/exMiniProgram/3.3.15/3.3.15/appNormal.asar';
+const original=fs.readFileSync(archive),backup=path.join(root,'appNormal.original.asar');
+if(!fs.existsSync(backup))fs.writeFileSync(backup,original);
+if(!original.equals(fs.readFileSync(backup)))throw Error('Host archive changed; refusing to overwrite');
+const header=JSON.parse(original.subarray(16,16+original.readUInt32LE(12)).toString());
+const base=8+original.readUInt32LE(4),entry=header.files.app.files['index.js'];
+const old=original.subarray(base+Number(entry.offset),base+Number(entry.offset)+entry.size);
+const result=path.join(root,'host-result.json');
+if(fs.existsSync(result))fs.unlinkSync(result);
+const marker=path.join(root,'probe-active.json');
+const insert=`
+const __farmHostOriginal=exports.runMiniApp;
+exports.runMiniApp=async function(version){
+ if(!process.argv.includes('--farm-background-probe')){
+  try{if(Date.now()-require('fs').statSync(${JSON.stringify(marker)}).mtimeMs>45000)return __farmHostOriginal(version);}catch{return __farmHostOriginal(version);}
+ }
+ const fs=require('fs'),out=${JSON.stringify(result)};
+ const mark=(state,extra={})=>fs.writeFileSync(out,JSON.stringify({state,pid:process.pid,farmStarted:false,windowCreated:false,...extra}));
+ if(process.pid===3888){mark('refused-main-process');return;}
+ mark('entered');
+ const stop=setTimeout(()=>{mark('msf-timeout');ele.app.exit(0);},20000);
+ try{
+  await ele.app.whenReady();
+  const folder=${JSON.stringify(root)};
+  for(const p of ['msf','temps'])fs.mkdirSync(require('path').join(folder,p),{recursive:true});
+  setFilePaths({userDataPath:folder,miniAppPath:folder,msf:require('path').join(folder,'msf'),temps:require('path').join(folder,'temps')});
+  await src$2.initMSF({selfUin:0,selfUid:'',a2:'',d2:'',d2Key:''},version,async(err,message,info)=>{
+   clearTimeout(stop);
+   if(err||!info){mark('msf-rejected',{errorCode:err||-1});ele.app.exit(0);return;}
+   mark('msf-ready',{hasAccount:!!info.selfUin});
+   setTimeout(async()=>{try{
+    const body=pb.encodePBBuffer(json$d,'StGetCodeReq',{appid:'1112386029'});
+    const wrapped=pb.encodePBBuffer(require$$1$4,'StQWebReq',{busiBuff:body});
+    const reply=await session.getMSFService().sendSSOReq('LightAppSvc.mini_program_auth.GetCode','0x'+Buffer.from(wrapped).toString('hex'),{});
+    if(!reply||!reply.rspBuf){mark('sso-rejected',{errorCode:reply?.result?.result??-1});return;}
+    const bytes=typeof reply.rspBuf==='string'?Buffer.from(reply.rspBuf.replace(/^0x/,''),'hex'):Buffer.from(reply.rspBuf);
+    const outer=pb.decodePBBufferToObject(require$$1$4,'StQWebRsp',bytes);
+    if(outer.retCode!=='0'){mark('sso-server-rejected',{errorCode:outer.retCode});return;}
+    const auth=pb.decodePBBufferToObject(json$d,'StGetCodeRsp',Buffer.from(outer.busiBuff,'base64'));
+    // Never write the login code, tickets, account identifiers, or reply body.
+    mark('login-code-received',{codeLength:(auth?.code||'').length,serverVerified:false});
+   }catch(e){mark('sso-error',{errorType:e?.name||'Error'});}finally{ele.app.exit(0);}},150);
+  });
+ }catch(e){clearTimeout(stop);mark('host-error',{errorType:e?.name||'Error'});ele.app.exit(0);}
+};
+`;
+const content=Buffer.concat([old,Buffer.from(insert)]),delta=content.length-old.length;
+function adjust(files){for(const x of Object.values(files)){if(x.files)adjust(x.files);else if(x!==entry&&x.offset!=null&&Number(x.offset)>Number(entry.offset))x.offset=String(Number(x.offset)+delta);}}
+adjust(header.files);entry.size=content.length;const hash=crypto.createHash('sha256').update(content).digest('hex');entry.integrity.hash=hash;entry.integrity.blocks=[hash];
+const json=Buffer.from(JSON.stringify(header)),aligned=(json.length+4+3)&~3,h=Buffer.alloc(aligned+8);
+h.writeUInt32LE(4,0);h.writeUInt32LE(aligned+4,4);h.writeUInt32LE(aligned,8);h.writeUInt32LE(json.length,12);
+// The size-pickle occupies 8 bytes before the header-pickle.
+const packed=Buffer.concat([h.subarray(0,16),json,Buffer.alloc(aligned-4-json.length),original.subarray(base,base+Number(entry.offset)),content,original.subarray(base+Number(entry.offset)+old.length)]);
+fs.writeFileSync(path.join(root,'appNormal.probe.asar'),packed);
+let child;
+(async()=>{
+ try{
+  fs.writeFileSync(archive,packed);
+  fs.writeFileSync(marker,JSON.stringify({createdAt:Date.now()}));
+  // Reserved zero identifier requests only the QQ host; never a real miniapp.
+  const params={sourceType:'open',appId:'https://m.q.qq.com/a/p/0000000000?referer=pc_shortcut&via=pc_shortcut',hostScene:'1246700100'};
+  const protocol='tencent://ntqq-open/?&subCmd=miniapp&action=openQQMiniApp&actionParams='+encodeURIComponent(JSON.stringify(params));
+  const launchArgs=process.argv.includes('--protocol')?[protocol]:['--exApp=QQEXMiniProgram','--farm-background-probe'];
+  const executable=process.argv.includes('--protocol')?'D:/Program Files/Tencent/QQNT/versions/9.9.35-52892/resources/app/timwp.exe':'D:/Program Files/Tencent/QQNT/QQ.exe';
+  child=cp.spawn(executable,launchArgs,{windowsHide:true,stdio:'ignore'});
+  await new Promise(resolve=>setTimeout(()=>{try{if(child.exitCode===null)child.kill();}catch{} resolve();},30000));
+ }finally{fs.writeFileSync(archive,original);if(fs.existsSync(marker))fs.unlinkSync(marker);}
+ const outcome=fs.existsSync(result)?JSON.parse(fs.readFileSync(result,'utf8')):{state:'host-entry-not-invoked',farmStarted:false};
+ console.log(JSON.stringify({...outcome,archiveRestored:fs.readFileSync(archive).equals(original)}));
+})().catch(e=>{fs.writeFileSync(archive,original);console.error(e.message);process.exitCode=1;});

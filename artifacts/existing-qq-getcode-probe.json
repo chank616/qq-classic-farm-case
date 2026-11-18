@@ -1,0 +1,20 @@
+{
+  "mode": "getcode",
+  "pid": 3888,
+  "qqStarted": false,
+  "farmStarted": false,
+  "diagnostics": [
+    {
+      "state": "runtime-metadata",
+      "pid": 3888,
+      "value": {
+        "pid": 3888,
+        "state": "login-code-acquired",
+        "codeLength": 32,
+        "wasPromise": true,
+        "qqStarted": false,
+        "farmStarted": false
+      }
+    }
+  ]
+}

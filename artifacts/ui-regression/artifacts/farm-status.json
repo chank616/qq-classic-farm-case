@@ -1,0 +1,764 @@
+﻿{
+    "schemaVersion":  1,
+    "runtime":  "csharp",
+    "day":  "2026-11-17",
+    "mode":  "execute",
+    "startedAt":  "2026-11-17T13:32:25.6407192+00:00",
+    "account":  {
+                    "gid":  "1079370412",
+                    "name":  "陈宽",
+                    "level":  156,
+                    "gold":  330993156
+                },
+    "allRequiredComplete":  false,
+    "completed":  true,
+    "tasksBefore":  [
+                        {
+                            "id":  "101062",
+                            "desc":  "升级22块紫晶土地",
+                            "cond":  22,
+                            "progress":  21,
+                            "total":  22,
+                            "claimed":  false,
+                            "unlocked":  true
+                        },
+                        {
+                            "id":  "200019",
+                            "desc":  "每日登录游戏",
+                            "cond":  16,
+                            "progress":  1,
+                            "total":  1,
+                            "claimed":  true,
+                            "unlocked":  true
+                        },
+                        {
+                            "id":  "200020",
+                            "desc":  "采摘1次果实",
+                            "cond":  17,
+                            "progress":  1,
+                            "total":  1,
+                            "claimed":  true,
+                            "unlocked":  true
+                        },
+                        {
+                            "id":  "200021",
+                            "desc":  "在1个好友农场进行互动",
+                            "cond":  18,
+                            "progress":  1,
+                            "total":  1,
+                            "claimed":  true,
+                            "unlocked":  true
+                        }
+                    ],
+    "selectedSeed":  {
+                         "id":  20115,
+                         "goodsId":  162,
+                         "requiredLevel":  156
+                     },
+    "fertilizerDecision":  {
+                               "needSec":  414720,
+                               "phaseAt":  1794939504,
+                               "ready":  false,
+                               "sufficient":  true,
+                               "batchFertilizeAt":  1794939504,
+                               "pointsCost":  408,
+                               "purchases":  [
+                                                 {
+                                                     "id":  1003,
+                                                     "price":  34,
+                                                     "normalSec":  36000,
+                                                     "organicSec":  0,
+                                                     "remaining":  null,
+                                                     "slot":  1,
+                                                     "count":  12
+                                                 }
+                                             ],
+                               "groups":  [
+                                              {
+                                                  "fertilizerId":  1011,
+                                                  "landIds":  [
+                                                                  1,
+                                                                  2,
+                                                                  3,
+                                                                  4,
+                                                                  5,
+                                                                  6,
+                                                                  7,
+                                                                  8,
+                                                                  9,
+                                                                  10,
+                                                                  11,
+                                                                  12,
+                                                                  13,
+                                                                  14,
+                                                                  15,
+                                                                  16,
+                                                                  17,
+                                                                  18,
+                                                                  19,
+                                                                  20,
+                                                                  21,
+                                                                  22,
+                                                                  23,
+                                                                  24
+                                                              ],
+                                                  "needSec":  414720
+                                              }
+                                          ],
+                               "normalBucketSec":  60,
+                               "organicBucketSec":  2502,
+                               "normalBagSec":  0,
+                               "organicBagSec":  7200,
+                               "points":  686,
+                               "ownedTotalSec":  9762,
+                               "unresolvedBoxes":  0,
+                               "waitNatural":  false,
+                               "offers":  [
+                                              {
+                                                  "id":  1002,
+                                                  "price":  42,
+                                                  "normalSec":  0,
+                                                  "organicSec":  36000,
+                                                  "remaining":  null,
+                                                  "slot":  1
+                                              },
+                                              {
+                                                  "id":  1003,
+                                                  "price":  34,
+                                                  "normalSec":  36000,
+                                                  "organicSec":  0,
+                                                  "remaining":  null,
+                                                  "slot":  1
+                                              }
+                                          ]
+                           },
+    "farm":  {
+                 "mode":  "whole-farm",
+                 "harvest":  {
+                                 "attempted":  0,
+                                 "verified":  0
+                             },
+                 "planted":  {
+                                 "attempted":  0,
+                                 "verified":  0
+                             },
+                 "dead":  {
+                              "found":  0,
+                              "cleared":  0
+                          },
+                 "totalLands":  24,
+                 "occupied":  24
+             },
+    "tasksAfter":  [
+                       {
+                           "id":  "101062",
+                           "desc":  "升级22块紫晶土地",
+                           "cond":  22,
+                           "progress":  21,
+                           "total":  22,
+                           "claimed":  false,
+                           "unlocked":  true
+                       },
+                       {
+                           "id":  "200019",
+                           "desc":  "每日登录游戏",
+                           "cond":  16,
+                           "progress":  1,
+                           "total":  1,
+                           "claimed":  true,
+                           "unlocked":  true
+                       },
+                       {
+                           "id":  "200020",
+                           "desc":  "采摘1次果实",
+                           "cond":  17,
+                           "progress":  1,
+                           "total":  1,
+                           "claimed":  true,
+                           "unlocked":  true
+                       },
+                       {
+                           "id":  "200021",
+                           "desc":  "在1个好友农场进行互动",
+                           "cond":  18,
+                           "progress":  1,
+                           "total":  1,
+                           "claimed":  true,
+                           "unlocked":  true
+                       }
+                   ],
+    "daily":  {
+                  "observed":  3,
+                  "claimed":  3,
+                  "complete":  true,
+                  "tasks":  [
+                                {
+                                    "id":  "200019",
+                                    "desc":  "每日登录游戏",
+                                    "cond":  16,
+                                    "progress":  1,
+                                    "total":  1,
+                                    "claimed":  true,
+                                    "unlocked":  true
+                                },
+                                {
+                                    "id":  "200020",
+                                    "desc":  "采摘1次果实",
+                                    "cond":  17,
+                                    "progress":  1,
+                                    "total":  1,
+                                    "claimed":  true,
+                                    "unlocked":  true
+                                },
+                                {
+                                    "id":  "200021",
+                                    "desc":  "在1个好友农场进行互动",
+                                    "cond":  18,
+                                    "progress":  1,
+                                    "total":  1,
+                                    "claimed":  true,
+                                    "unlocked":  true
+                                }
+                            ]
+              },
+    "freeProducts":  [
+                         {
+                             "id":  1001,
+                             "name":  "每日福利",
+                             "fertilizer":  true,
+                             "available":  false,
+                             "purchased":  false,
+                             "exhausted":  true,
+                             "verified":  true,
+                             "adOnly":  false,
+                             "membershipOnly":  false,
+                             "limit":  {
+                                           "type":  1,
+                                           "current_count":  1,
+                                           "max_count":  1
+                                       },
+                             "state":  "verified",
+                             "items":  [
+                                           {
+                                               "id":  80001,
+                                               "count":  1
+                                           }
+                                       ]
+                         },
+                         {
+                             "id":  1053,
+                             "name":  "SVIP商城每日免费",
+                             "fertilizer":  true,
+                             "available":  false,
+                             "purchased":  false,
+                             "exhausted":  false,
+                             "verified":  false,
+                             "adOnly":  false,
+                             "membershipOnly":  true,
+                             "limit":  {
+                                           "type":  1,
+                                           "max_count":  1
+                                       },
+                             "state":  "not-applicable",
+                             "items":  [
+                                           {
+                                               "id":  80001,
+                                               "count":  1
+                                           }
+                                       ]
+                         }
+                     ],
+    "vip":  {
+                "isQqVip":  false,
+                "mallFreeCanClaim":  false
+            },
+    "fertilizer":  {
+                       "needSec":  414720,
+                       "phaseAt":  1794939504,
+                       "ready":  false,
+                       "sufficient":  true,
+                       "batchFertilizeAt":  1794939504,
+                       "pointsCost":  408,
+                       "purchases":  [
+                                         {
+                                             "id":  1003,
+                                             "price":  34,
+                                             "normalSec":  36000,
+                                             "organicSec":  0,
+                                             "remaining":  null,
+                                             "slot":  1,
+                                             "count":  12
+                                         }
+                                     ],
+                       "groups":  [
+                                      {
+                                          "fertilizerId":  1011,
+                                          "landIds":  [
+                                                          1,
+                                                          2,
+                                                          3,
+                                                          4,
+                                                          5,
+                                                          6,
+                                                          7,
+                                                          8,
+                                                          9,
+                                                          10,
+                                                          11,
+                                                          12,
+                                                          13,
+                                                          14,
+                                                          15,
+                                                          16,
+                                                          17,
+                                                          18,
+                                                          19,
+                                                          20,
+                                                          21,
+                                                          22,
+                                                          23,
+                                                          24
+                                                      ],
+                                          "needSec":  414720
+                                      }
+                                  ],
+                       "normalBucketSec":  60,
+                       "organicBucketSec":  2502,
+                       "normalBagSec":  0,
+                       "organicBagSec":  7200,
+                       "points":  686,
+                       "ownedTotalSec":  9762,
+                       "unresolvedBoxes":  0,
+                       "waitNatural":  false,
+                       "offers":  [
+                                      {
+                                          "id":  1002,
+                                          "price":  42,
+                                          "normalSec":  0,
+                                          "organicSec":  36000,
+                                          "remaining":  null,
+                                          "slot":  1
+                                      },
+                                      {
+                                          "id":  1003,
+                                          "price":  34,
+                                          "normalSec":  36000,
+                                          "organicSec":  0,
+                                          "remaining":  null,
+                                          "slot":  1
+                                      }
+                                  ]
+                   },
+    "cropClock":  {
+                      "minMatureAt":  1794956784,
+                      "lastGrowAt":  1794939504,
+                      "planted":  24,
+                      "lands":  [
+                                    {
+                                        "id":  1,
+                                        "crop":  "兰花",
+                                        "phase":  2,
+                                        "matureAt":  1794956784,
+                                        "growAt":  1794939504
+                                    },
+                                    {
+                                        "id":  2,
+                                        "crop":  "兰花",
+                                        "phase":  2,
+                                        "matureAt":  1794956784,
+                                        "growAt":  1794939504
+                                    },
+                                    {
+                                        "id":  3,
+                                        "crop":  "兰花",
+                                        "phase":  2,
+                                        "matureAt":  1794956784,
+                                        "growAt":  1794939504
+                                    },
+                                    {
+                                        "id":  4,
+                                        "crop":  "兰花",
+                                        "phase":  2,
+                                        "matureAt":  1794956784,
+                                        "growAt":  1794939504
+                                    },
+                                    {
+                                        "id":  5,
+                                        "crop":  "兰花",
+                                        "phase":  2,
+                                        "matureAt":  1794956784,
+                                        "growAt":  1794939504
+                                    },
+                                    {
+                                        "id":  6,
+                                        "crop":  "兰花",
+                                        "phase":  2,
+                                        "matureAt":  1794956784,
+                                        "growAt":  1794939504
+                                    },
+                                    {
+                                        "id":  7,
+                                        "crop":  "兰花",
+                                        "phase":  2,
+                                        "matureAt":  1794956784,
+                                        "growAt":  1794939504
+                                    },
+                                    {
+                                        "id":  8,
+                                        "crop":  "兰花",
+                                        "phase":  2,
+                                        "matureAt":  1794956784,
+                                        "growAt":  1794939504
+                                    },
+                                    {
+                                        "id":  9,
+                                        "crop":  "兰花",
+                                        "phase":  2,
+                                        "matureAt":  1794956784,
+                                        "growAt":  1794939504
+                                    },
+                                    {
+                                        "id":  10,
+                                        "crop":  "兰花",
+                                        "phase":  2,
+                                        "matureAt":  1794956784,
+                                        "growAt":  1794939504
+                                    },
+                                    {
+                                        "id":  11,
+                                        "crop":  "兰花",
+                                        "phase":  2,
+                                        "matureAt":  1794956784,
+                                        "growAt":  1794939504
+                                    },
+                                    {
+                                        "id":  12,
+                                        "crop":  "兰花",
+                                        "phase":  2,
+                                        "matureAt":  1794956784,
+                                        "growAt":  1794939504
+                                    },
+                                    {
+                                        "id":  13,
+                                        "crop":  "兰花",
+                                        "phase":  2,
+                                        "matureAt":  1794956784,
+                                        "growAt":  1794939504
+                                    },
+                                    {
+                                        "id":  14,
+                                        "crop":  "兰花",
+                                        "phase":  2,
+                                        "matureAt":  1794956784,
+                                        "growAt":  1794939504
+                                    },
+                                    {
+                                        "id":  15,
+                                        "crop":  "兰花",
+                                        "phase":  2,
+                                        "matureAt":  1794956784,
+                                        "growAt":  1794939504
+                                    },
+                                    {
+                                        "id":  16,
+                                        "crop":  "兰花",
+                                        "phase":  2,
+                                        "matureAt":  1794956784,
+                                        "growAt":  1794939504
+                                    },
+                                    {
+                                        "id":  17,
+                                        "crop":  "兰花",
+                                        "phase":  2,
+                                        "matureAt":  1794956784,
+                                        "growAt":  1794939504
+                                    },
+                                    {
+                                        "id":  18,
+                                        "crop":  "兰花",
+                                        "phase":  2,
+                                        "matureAt":  1794956784,
+                                        "growAt":  1794939504
+                                    },
+                                    {
+                                        "id":  19,
+                                        "crop":  "兰花",
+                                        "phase":  2,
+                                        "matureAt":  1794956784,
+                                        "growAt":  1794939504
+                                    },
+                                    {
+                                        "id":  20,
+                                        "crop":  "兰花",
+                                        "phase":  2,
+                                        "matureAt":  1794956784,
+                                        "growAt":  1794939504
+                                    },
+                                    {
+                                        "id":  21,
+                                        "crop":  "兰花",
+                                        "phase":  2,
+                                        "matureAt":  1794956784,
+                                        "growAt":  1794939504
+                                    },
+                                    {
+                                        "id":  22,
+                                        "crop":  "兰花",
+                                        "phase":  2,
+                                        "matureAt":  1794956784,
+                                        "growAt":  1794939504
+                                    },
+                                    {
+                                        "id":  23,
+                                        "crop":  "兰花",
+                                        "phase":  2,
+                                        "matureAt":  1794956784,
+                                        "growAt":  1794939504
+                                    },
+                                    {
+                                        "id":  24,
+                                        "crop":  "兰花",
+                                        "phase":  2,
+                                        "matureAt":  1794956784,
+                                        "growAt":  1794939504
+                                    }
+                                ],
+                      "batchMatureAt":  1794956784,
+                      "batchFertilizeAt":  1794939504,
+                      "deadCount":  0,
+                      "ripeCount":  0,
+                      "mode":  "whole-farm",
+                      "fertilizerNeedSec":  414720
+                  },
+    "finishedAt":  "2026-11-17T13:32:27.5166479+00:00",
+    "fertilizerDecisionState":  null,
+    "status":  "incomplete",
+    "checks":  [
+                   {
+                       "id":  "login",
+                       "status":  "passed",
+                       "detail":  "Login and PlayerLogin accepted by server"
+                   },
+                   {
+                       "id":  "seed-selection",
+                       "status":  "passed",
+                       "detail":  {
+                                      "id":  20115,
+                                      "goodsId":  162,
+                                      "requiredLevel":  156
+                                  }
+                   },
+                   {
+                       "id":  "fertilize",
+                       "status":  "not-due",
+                       "detail":  {
+                                      "reason":  "wait-for-whole-batch-final-stage",
+                                      "needSec":  414720,
+                                      "ownedSec":  9762,
+                                      "pointsCost":  408,
+                                      "batchFertilizeAt":  1794939504
+                                  }
+                   },
+                   {
+                       "id":  "harvest",
+                       "status":  "not-due",
+                       "detail":  "Waiting for the entire batch to mature"
+                   },
+                   {
+                       "id":  "replant",
+                       "status":  "not-due",
+                       "detail":  "Waiting for the whole batch to be harvested"
+                   },
+                   {
+                       "id":  "task-login",
+                       "status":  "passed",
+                       "detail":  {
+                                      "id":  "200019",
+                                      "desc":  "每日登录游戏",
+                                      "cond":  16,
+                                      "progress":  1,
+                                      "total":  1,
+                                      "claimed":  true,
+                                      "unlocked":  true
+                                  }
+                   },
+                   {
+                       "id":  "task-harvest",
+                       "status":  "passed",
+                       "detail":  {
+                                      "id":  "200020",
+                                      "desc":  "采摘1次果实",
+                                      "cond":  17,
+                                      "progress":  1,
+                                      "total":  1,
+                                      "claimed":  true,
+                                      "unlocked":  true
+                                  }
+                   },
+                   {
+                       "id":  "task-friend",
+                       "status":  "passed",
+                       "detail":  {
+                                      "id":  "200021",
+                                      "desc":  "在1个好友农场进行互动",
+                                      "cond":  18,
+                                      "progress":  1,
+                                      "total":  1,
+                                      "claimed":  true,
+                                      "unlocked":  true
+                                  }
+                   },
+                   {
+                       "id":  "daily-tasks",
+                       "status":  "passed",
+                       "detail":  [
+                                      {
+                                          "id":  "200019",
+                                          "desc":  "每日登录游戏",
+                                          "cond":  16,
+                                          "progress":  1,
+                                          "total":  1,
+                                          "claimed":  true,
+                                          "unlocked":  true
+                                      },
+                                      {
+                                          "id":  "200020",
+                                          "desc":  "采摘1次果实",
+                                          "cond":  17,
+                                          "progress":  1,
+                                          "total":  1,
+                                          "claimed":  true,
+                                          "unlocked":  true
+                                      },
+                                      {
+                                          "id":  "200021",
+                                          "desc":  "在1个好友农场进行互动",
+                                          "cond":  18,
+                                          "progress":  1,
+                                          "total":  1,
+                                          "claimed":  true,
+                                          "unlocked":  true
+                                      }
+                                  ]
+                   },
+                   {
+                       "id":  "vip-daily",
+                       "status":  "passed",
+                       "detail":  "Server confirms claimed_today"
+                   },
+                   {
+                       "id":  "vip-rewards",
+                       "status":  "not-applicable",
+                       "detail":  "Server reports reward unavailable"
+                   },
+                   {
+                       "id":  "free-fertilizer",
+                       "status":  "unverified",
+                       "detail":  {
+                                      "reason":  "product-and-limit-recheck",
+                                      "isQqVip":  false,
+                                      "mallFreeCanClaim":  false,
+                                      "products":  [
+                                                       {
+                                                           "id":  1001,
+                                                           "name":  "每日福利",
+                                                           "fertilizer":  true,
+                                                           "available":  false,
+                                                           "purchased":  false,
+                                                           "exhausted":  true,
+                                                           "verified":  true,
+                                                           "adOnly":  false,
+                                                           "membershipOnly":  false,
+                                                           "limit":  {
+                                                                         "type":  1,
+                                                                         "current_count":  1,
+                                                                         "max_count":  1
+                                                                     },
+                                                           "state":  "verified",
+                                                           "items":  [
+                                                                         {
+                                                                             "id":  80001,
+                                                                             "count":  1
+                                                                         }
+                                                                     ]
+                                                       },
+                                                       {
+                                                           "id":  1053,
+                                                           "name":  "SVIP商城每日免费",
+                                                           "fertilizer":  true,
+                                                           "available":  false,
+                                                           "purchased":  false,
+                                                           "exhausted":  false,
+                                                           "verified":  false,
+                                                           "adOnly":  false,
+                                                           "membershipOnly":  true,
+                                                           "limit":  {
+                                                                         "type":  1,
+                                                                         "max_count":  1
+                                                                     },
+                                                           "state":  "not-applicable",
+                                                           "items":  [
+                                                                         {
+                                                                             "id":  80001,
+                                                                             "count":  1
+                                                                         }
+                                                                     ]
+                                                       }
+                                                   ]
+                                  }
+                   },
+                   {
+                       "id":  "free-benefits",
+                       "status":  "pending",
+                       "detail":  [
+                                      {
+                                          "id":  1001,
+                                          "name":  "每日福利",
+                                          "fertilizer":  true,
+                                          "available":  false,
+                                          "purchased":  false,
+                                          "exhausted":  true,
+                                          "verified":  true,
+                                          "adOnly":  false,
+                                          "membershipOnly":  false,
+                                          "limit":  {
+                                                        "type":  1,
+                                                        "current_count":  1,
+                                                        "max_count":  1
+                                                    },
+                                          "state":  "verified",
+                                          "items":  [
+                                                        {
+                                                            "id":  80001,
+                                                            "count":  1
+                                                        }
+                                                    ]
+                                      }
+                                  ]
+                   },
+                   {
+                       "id":  "final-state",
+                       "status":  "passed",
+                       "detail":  {
+                                      "total":  24,
+                                      "planted":  24,
+                                      "dead":  0,
+                                      "ripe":  0,
+                                      "matureRemaining":  0
+                                  }
+                   }
+               ],
+    "operations":  [
+
+                   ],
+    "runId":  "20a026e2-ee0b-41ee-8fc7-cfb0c9cceda1",
+    "serverClockOffsetMs":  86,
+    "connection":  {
+                       "mode":  "existing-qq-session",
+                       "qqPid":  19516,
+                       "offlineTsdk":  true,
+                       "qqStarted":  false,
+                       "farmStarted":  false
+                   },
+    "reportPath":  "E:\\workspace\\QQ经典农场案例\\deploy-csharp\\artifacts\\reports\\farm-csharp-2026-11-17T13-32-27-518Z-20a026e2.json"
+}

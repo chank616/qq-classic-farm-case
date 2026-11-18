@@ -1,0 +1,24 @@
+{
+  "startedAt": "2026-10-18T09:16:06.9105302\u002B00:00",
+  "runtime": "csharp-offline-tsdk",
+  "qqStarted": false,
+  "farmStarted": false,
+  "serverVerified": true,
+  "qqPid": 3888,
+  "codeLength": 32,
+  "accountName": "\u9732\u9732\u5927\u795E",
+  "level": 149,
+  "landCount": 24,
+  "globalSceneIdPresent": true,
+  "freshCodeAfterIdle": true,
+  "idleSeconds": 75,
+  "heartbeatsVerified": 3,
+  "landCountAfterIdle": 24,
+  "verifiedMethods": [
+    "Login",
+    "PlayerLogin",
+    "AllLands"
+  ],
+  "stage": "verified",
+  "finishedAt": "2026-10-18T09:17:23.3270933\u002B00:00"
+}

@@ -1,0 +1,6853 @@
+{
+  "generatedFrom": "C:\\Users\\chank616\\AppData\\Roaming\\QQEX\\miniapp\\temps\\miniapp_src\\1112386029_3_3443f89042dffbf93d20ced1d652d031\\game.js",
+  "modules": {
+    "plantpb": {
+      "AllLandsRequest": {
+        "name": "AllLandsRequest",
+        "fields": [
+          {
+            "name": "host_gid",
+            "field": 1,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          }
+        ]
+      },
+      "AllLandsReply": {
+        "name": "AllLandsReply",
+        "fields": [
+          {
+            "name": "lands",
+            "field": 1,
+            "wire": 2,
+            "defaultKind": "array",
+            "nestedType": "gamepb.plantpb.LandInfo",
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "operation_limits",
+            "field": 2,
+            "wire": 2,
+            "defaultKind": "array",
+            "nestedType": "gamepb.plantpb.OperationLimit",
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "farm_social_events",
+            "field": 3,
+            "wire": 2,
+            "defaultKind": "array",
+            "nestedType": "gamepb.plantpb.FarmSocialEventInfo",
+            "sampleLength": 2,
+            "tagCount": 1
+          }
+        ]
+      },
+      "RefreshLandsRequest": {
+        "name": "RefreshLandsRequest",
+        "fields": [
+          {
+            "name": "host_gid",
+            "field": 1,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "land_ids",
+            "field": 2,
+            "wire": 2,
+            "defaultKind": "array",
+            "nestedType": null,
+            "sampleLength": 3,
+            "tagCount": 1
+          },
+          {
+            "name": "host_type",
+            "field": 3,
+            "wire": 0,
+            "defaultKind": "number",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "reason",
+            "field": 4,
+            "wire": 0,
+            "defaultKind": "number",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          }
+        ]
+      },
+      "RefreshLandsReply": {
+        "name": "RefreshLandsReply",
+        "fields": [
+          {
+            "name": "lands",
+            "field": 1,
+            "wire": 2,
+            "defaultKind": "array",
+            "nestedType": "gamepb.plantpb.LandInfo",
+            "sampleLength": 2,
+            "tagCount": 1
+          }
+        ]
+      },
+      "LandUnlockCondition": {
+        "name": "LandUnlockCondition",
+        "fields": [
+          {
+            "name": "preceeding_land_id",
+            "field": 1,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "level_need",
+            "field": 2,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "gold_need",
+            "field": 3,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "items_need",
+            "field": 4,
+            "wire": 2,
+            "defaultKind": "array",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "need_color_count",
+            "field": 5,
+            "wire": 2,
+            "defaultKind": "array",
+            "nestedType": "gamepb.plantpb.NeedColorCount",
+            "sampleLength": 2,
+            "tagCount": 1
+          }
+        ]
+      },
+      "NeedColorCount": {
+        "name": "NeedColorCount",
+        "fields": [
+          {
+            "name": "level",
+            "field": 1,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "count",
+            "field": 2,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          }
+        ]
+      },
+      "LandUpgradeCondition": {
+        "name": "LandUpgradeCondition",
+        "fields": [
+          {
+            "name": "preceeding_lands_count_need",
+            "field": 1,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "level_need",
+            "field": 2,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "items_need",
+            "field": 3,
+            "wire": 2,
+            "defaultKind": "array",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          }
+        ]
+      },
+      "LandInfo": {
+        "name": "LandInfo",
+        "fields": [
+          {
+            "name": "id",
+            "field": 1,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "unlocked",
+            "field": 2,
+            "wire": 0,
+            "defaultKind": "boolean",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "level",
+            "field": 3,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "max_level",
+            "field": 4,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "could_unlock",
+            "field": 5,
+            "wire": 0,
+            "defaultKind": "boolean",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "could_upgrade",
+            "field": 6,
+            "wire": 0,
+            "defaultKind": "boolean",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "unlock_condition",
+            "field": 7,
+            "wire": 2,
+            "defaultKind": "message",
+            "nestedType": "gamepb.plantpb.LandUnlockCondition",
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "upgrade_condition",
+            "field": 8,
+            "wire": 2,
+            "defaultKind": "message",
+            "nestedType": "gamepb.plantpb.LandUpgradeCondition",
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "buff",
+            "field": 9,
+            "wire": 2,
+            "defaultKind": "message",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "plant",
+            "field": 10,
+            "wire": 2,
+            "defaultKind": "message",
+            "nestedType": "gamepb.plantpb.PlantInfo",
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "is_shared",
+            "field": 11,
+            "wire": 0,
+            "defaultKind": "boolean",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "can_share",
+            "field": 12,
+            "wire": 0,
+            "defaultKind": "boolean",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "master_land_id",
+            "field": 13,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "slave_land_ids",
+            "field": 14,
+            "wire": 2,
+            "defaultKind": "array",
+            "nestedType": null,
+            "sampleLength": 3,
+            "tagCount": 1
+          },
+          {
+            "name": "land_size",
+            "field": 15,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "lands_level",
+            "field": 16,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 3,
+            "tagCount": 1
+          }
+        ]
+      },
+      "GroupKey": {
+        "name": "GroupKey",
+        "fields": [
+          {
+            "name": "type",
+            "field": 1,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "param",
+            "field": 2,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          }
+        ]
+      },
+      "MutantInfo": {
+        "name": "MutantInfo",
+        "fields": [
+          {
+            "name": "mutant_time",
+            "field": 1,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "mutant_config_id",
+            "field": 2,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "mutant_plant_id",
+            "field": 5,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "forced_src",
+            "field": 6,
+            "wire": 0,
+            "defaultKind": "number",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          }
+        ]
+      },
+      "PlantPhaseInfo": {
+        "name": "PlantPhaseInfo",
+        "fields": [
+          {
+            "name": "phase",
+            "field": 1,
+            "wire": 0,
+            "defaultKind": "number",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "begin_time",
+            "field": 2,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "phase_id",
+            "field": 3,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "dry_time",
+            "field": 6,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "weeds_time",
+            "field": 7,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "insect_time",
+            "field": 8,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "ferts_used",
+            "field": 9,
+            "wire": 2,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 6,
+            "tagCount": 1
+          },
+          {
+            "name": "mutants",
+            "field": 10,
+            "wire": 2,
+            "defaultKind": "array",
+            "nestedType": "gamepb.plantpb.MutantInfo",
+            "sampleLength": 2,
+            "tagCount": 1
+          }
+        ]
+      },
+      "PlantInfo": {
+        "name": "PlantInfo",
+        "fields": [
+          {
+            "name": "id",
+            "field": 1,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "name",
+            "field": 2,
+            "wire": 2,
+            "defaultKind": "string",
+            "nestedType": null,
+            "sampleLength": 3,
+            "tagCount": 1
+          },
+          {
+            "name": "phases",
+            "field": 4,
+            "wire": 2,
+            "defaultKind": "array",
+            "nestedType": "gamepb.plantpb.PlantPhaseInfo",
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "season",
+            "field": 5,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "dry_num",
+            "field": 6,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "stole_num",
+            "field": 9,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "fruit_id",
+            "field": 10,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "fruit_num",
+            "field": 11,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "weed_owners",
+            "field": 12,
+            "wire": 2,
+            "defaultKind": "array",
+            "nestedType": null,
+            "sampleLength": 3,
+            "tagCount": 1
+          },
+          {
+            "name": "insect_owners",
+            "field": 13,
+            "wire": 2,
+            "defaultKind": "array",
+            "nestedType": null,
+            "sampleLength": 3,
+            "tagCount": 1
+          },
+          {
+            "name": "stealers",
+            "field": 14,
+            "wire": 2,
+            "defaultKind": "array",
+            "nestedType": null,
+            "sampleLength": 3,
+            "tagCount": 1
+          },
+          {
+            "name": "grow_sec",
+            "field": 15,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "stealable",
+            "field": 16,
+            "wire": 0,
+            "defaultKind": "boolean",
+            "nestedType": null,
+            "sampleLength": 3,
+            "tagCount": 1
+          },
+          {
+            "name": "left_inorc_fert_times",
+            "field": 17,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 3,
+            "tagCount": 1
+          },
+          {
+            "name": "left_fruit_num",
+            "field": 18,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 3,
+            "tagCount": 1
+          },
+          {
+            "name": "steal_intimacy_level",
+            "field": 19,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 3,
+            "tagCount": 1
+          },
+          {
+            "name": "mutant_config_ids",
+            "field": 20,
+            "wire": 2,
+            "defaultKind": "array",
+            "nestedType": null,
+            "sampleLength": 4,
+            "tagCount": 1
+          },
+          {
+            "name": "is_nudged",
+            "field": 21,
+            "wire": 0,
+            "defaultKind": "boolean",
+            "nestedType": null,
+            "sampleLength": 3,
+            "tagCount": 1
+          },
+          {
+            "name": "exp",
+            "field": 22,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 3,
+            "tagCount": 1
+          },
+          {
+            "name": "last_mutant_config_ids",
+            "field": 23,
+            "wire": 2,
+            "defaultKind": "array",
+            "nestedType": null,
+            "sampleLength": 4,
+            "tagCount": 1
+          },
+          {
+            "name": "last_fruit_id",
+            "field": 24,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 3,
+            "tagCount": 1
+          },
+          {
+            "name": "last_fruit_num",
+            "field": 25,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 3,
+            "tagCount": 1
+          },
+          {
+            "name": "source_fruit_id",
+            "field": 26,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 3,
+            "tagCount": 1
+          },
+          {
+            "name": "source_fruit_num",
+            "field": 27,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 3,
+            "tagCount": 1
+          },
+          {
+            "name": "mutant_plant_ids",
+            "field": 32,
+            "wire": 2,
+            "defaultKind": "array",
+            "nestedType": null,
+            "sampleLength": 4,
+            "tagCount": 1
+          },
+          {
+            "name": "last_plant_id",
+            "field": 33,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 3,
+            "tagCount": 1
+          },
+          {
+            "name": "buff_effects",
+            "field": 34,
+            "wire": 2,
+            "defaultKind": "array",
+            "nestedType": null,
+            "sampleLength": 3,
+            "tagCount": 1
+          },
+          {
+            "name": "social_items",
+            "field": 35,
+            "wire": 2,
+            "defaultKind": "array",
+            "nestedType": "gamepb.plantpb.SocialItemInfo",
+            "sampleLength": 3,
+            "tagCount": 1
+          },
+          {
+            "name": "bp_fruits",
+            "field": 36,
+            "wire": 2,
+            "defaultKind": "array",
+            "nestedType": "gamepb.plantpb.BpFruitInfo",
+            "sampleLength": 3,
+            "tagCount": 1
+          },
+          {
+            "name": "planting_player_level",
+            "field": 37,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 3,
+            "tagCount": 1
+          },
+          {
+            "name": "crop_social_events",
+            "field": 38,
+            "wire": 2,
+            "defaultKind": "array",
+            "nestedType": "gamepb.plantpb.CropSocialEventInfo",
+            "sampleLength": 3,
+            "tagCount": 1
+          },
+          {
+            "name": "weather_wood",
+            "field": 39,
+            "wire": 2,
+            "defaultKind": "message",
+            "nestedType": "gamepb.plantpb.WeatherWoodInfo",
+            "sampleLength": 3,
+            "tagCount": 1
+          },
+          {
+            "name": "use_config_history",
+            "field": 40,
+            "wire": 2,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 7,
+            "tagCount": 1
+          },
+          {
+            "name": "mutant_infos",
+            "field": 41,
+            "wire": 2,
+            "defaultKind": "array",
+            "nestedType": "gamepb.plantpb.MutantInfo",
+            "sampleLength": 3,
+            "tagCount": 1
+          }
+        ]
+      },
+      "WeatherWoodInfo": {
+        "name": "WeatherWoodInfo",
+        "fields": [
+          {
+            "name": "wood_item_id",
+            "field": 1,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "wood_item_num",
+            "field": 2,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "price_rate",
+            "field": 3,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "base_point",
+            "field": 4,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          }
+        ]
+      },
+      "BpFruitInfo": {
+        "name": "BpFruitInfo",
+        "fields": [
+          {
+            "name": "fruit_id",
+            "field": 1,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "fruit_num",
+            "field": 2,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "left_fruit_num",
+            "field": 3,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "season",
+            "field": 4,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          }
+        ]
+      },
+      "SocialItemInfo": {
+        "name": "SocialItemInfo",
+        "fields": [
+          {
+            "name": "item_id",
+            "field": 1,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "type",
+            "field": 2,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "sub_type",
+            "field": 3,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "owner_id",
+            "field": 4,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "put_time",
+            "field": 5,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          }
+        ]
+      },
+      "UnlockLandRequest": {
+        "name": "UnlockLandRequest",
+        "fields": [
+          {
+            "name": "land_id",
+            "field": 1,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "do_shared",
+            "field": 2,
+            "wire": 0,
+            "defaultKind": "boolean",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          }
+        ]
+      },
+      "UnlockLandReply": {
+        "name": "UnlockLandReply",
+        "fields": [
+          {
+            "name": "land",
+            "field": 1,
+            "wire": 2,
+            "defaultKind": "message",
+            "nestedType": "gamepb.plantpb.LandInfo",
+            "sampleLength": 2,
+            "tagCount": 1
+          }
+        ]
+      },
+      "UpgradeLandRequest": {
+        "name": "UpgradeLandRequest",
+        "fields": [
+          {
+            "name": "land_id",
+            "field": 1,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          }
+        ]
+      },
+      "UpgradeLandReply": {
+        "name": "UpgradeLandReply",
+        "fields": [
+          {
+            "name": "land",
+            "field": 1,
+            "wire": 2,
+            "defaultKind": "message",
+            "nestedType": "gamepb.plantpb.LandInfo",
+            "sampleLength": 2,
+            "tagCount": 1
+          }
+        ]
+      },
+      "PlantItem": {
+        "name": "PlantItem",
+        "fields": [
+          {
+            "name": "seed_id",
+            "field": 1,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "land_ids",
+            "field": 2,
+            "wire": 2,
+            "defaultKind": "array",
+            "nestedType": null,
+            "sampleLength": 3,
+            "tagCount": 1
+          },
+          {
+            "name": "auto_slave",
+            "field": 3,
+            "wire": 0,
+            "defaultKind": "boolean",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          }
+        ]
+      },
+      "PlantRequest": {
+        "name": "PlantRequest",
+        "fields": [
+          {
+            "name": "land_and_seed",
+            "field": 1,
+            "wire": 2,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 6,
+            "tagCount": 1
+          },
+          {
+            "name": "items",
+            "field": 2,
+            "wire": 2,
+            "defaultKind": "array",
+            "nestedType": "gamepb.plantpb.PlantItem",
+            "sampleLength": 2,
+            "tagCount": 1
+          }
+        ]
+      },
+      "PlantReply": {
+        "name": "PlantReply",
+        "fields": [
+          {
+            "name": "land",
+            "field": 1,
+            "wire": 2,
+            "defaultKind": "array",
+            "nestedType": "gamepb.plantpb.LandInfo",
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "operation_limits",
+            "field": 2,
+            "wire": 2,
+            "defaultKind": "array",
+            "nestedType": "gamepb.plantpb.OperationLimit",
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "land_op_drops",
+            "field": 3,
+            "wire": 2,
+            "defaultKind": "array",
+            "nestedType": "gamepb.plantpb.LandOpDrop",
+            "sampleLength": 2,
+            "tagCount": 1
+          }
+        ]
+      },
+      "WaterLandRequest": {
+        "name": "WaterLandRequest",
+        "fields": [
+          {
+            "name": "land_ids",
+            "field": 1,
+            "wire": 2,
+            "defaultKind": "array",
+            "nestedType": null,
+            "sampleLength": 3,
+            "tagCount": 1
+          },
+          {
+            "name": "host_gid",
+            "field": 2,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "host_type",
+            "field": 3,
+            "wire": 0,
+            "defaultKind": "number",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "reason",
+            "field": 4,
+            "wire": 0,
+            "defaultKind": "number",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          }
+        ]
+      },
+      "WaterLandReply": {
+        "name": "WaterLandReply",
+        "fields": [
+          {
+            "name": "land",
+            "field": 1,
+            "wire": 2,
+            "defaultKind": "array",
+            "nestedType": "gamepb.plantpb.LandInfo",
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "operation_limits",
+            "field": 2,
+            "wire": 2,
+            "defaultKind": "array",
+            "nestedType": "gamepb.plantpb.OperationLimit",
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "land_op_drops",
+            "field": 3,
+            "wire": 2,
+            "defaultKind": "array",
+            "nestedType": "gamepb.plantpb.LandOpDrop",
+            "sampleLength": 2,
+            "tagCount": 1
+          }
+        ]
+      },
+      "WeedOutRequest": {
+        "name": "WeedOutRequest",
+        "fields": [
+          {
+            "name": "land_ids",
+            "field": 1,
+            "wire": 2,
+            "defaultKind": "array",
+            "nestedType": null,
+            "sampleLength": 3,
+            "tagCount": 1
+          },
+          {
+            "name": "host_gid",
+            "field": 2,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "host_type",
+            "field": 3,
+            "wire": 0,
+            "defaultKind": "number",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "reason",
+            "field": 4,
+            "wire": 0,
+            "defaultKind": "number",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          }
+        ]
+      },
+      "WeedOutReply": {
+        "name": "WeedOutReply",
+        "fields": [
+          {
+            "name": "land",
+            "field": 1,
+            "wire": 2,
+            "defaultKind": "array",
+            "nestedType": "gamepb.plantpb.LandInfo",
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "operation_limits",
+            "field": 2,
+            "wire": 2,
+            "defaultKind": "array",
+            "nestedType": "gamepb.plantpb.OperationLimit",
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "land_op_drops",
+            "field": 3,
+            "wire": 2,
+            "defaultKind": "array",
+            "nestedType": "gamepb.plantpb.LandOpDrop",
+            "sampleLength": 2,
+            "tagCount": 1
+          }
+        ]
+      },
+      "InsecticideRequest": {
+        "name": "InsecticideRequest",
+        "fields": [
+          {
+            "name": "land_ids",
+            "field": 1,
+            "wire": 2,
+            "defaultKind": "array",
+            "nestedType": null,
+            "sampleLength": 3,
+            "tagCount": 1
+          },
+          {
+            "name": "host_gid",
+            "field": 2,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "host_type",
+            "field": 3,
+            "wire": 0,
+            "defaultKind": "number",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "reason",
+            "field": 4,
+            "wire": 0,
+            "defaultKind": "number",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          }
+        ]
+      },
+      "InsecticideReply": {
+        "name": "InsecticideReply",
+        "fields": [
+          {
+            "name": "land",
+            "field": 1,
+            "wire": 2,
+            "defaultKind": "array",
+            "nestedType": "gamepb.plantpb.LandInfo",
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "operation_limits",
+            "field": 2,
+            "wire": 2,
+            "defaultKind": "array",
+            "nestedType": "gamepb.plantpb.OperationLimit",
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "land_op_drops",
+            "field": 3,
+            "wire": 2,
+            "defaultKind": "array",
+            "nestedType": "gamepb.plantpb.LandOpDrop",
+            "sampleLength": 2,
+            "tagCount": 1
+          }
+        ]
+      },
+      "FarmingRequest": {
+        "name": "FarmingRequest",
+        "fields": [
+          {
+            "name": "land_ids",
+            "field": 1,
+            "wire": 2,
+            "defaultKind": "array",
+            "nestedType": null,
+            "sampleLength": 3,
+            "tagCount": 1
+          },
+          {
+            "name": "host_gid",
+            "field": 2,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "host_type",
+            "field": 3,
+            "wire": 0,
+            "defaultKind": "number",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "reason",
+            "field": 4,
+            "wire": 0,
+            "defaultKind": "number",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "clear_farm_social_item_ids",
+            "field": 5,
+            "wire": 2,
+            "defaultKind": "array",
+            "nestedType": null,
+            "sampleLength": 3,
+            "tagCount": 1
+          }
+        ]
+      },
+      "FarmingReply": {
+        "name": "FarmingReply",
+        "fields": [
+          {
+            "name": "land",
+            "field": 1,
+            "wire": 2,
+            "defaultKind": "array",
+            "nestedType": "gamepb.plantpb.LandInfo",
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "operation_limits",
+            "field": 2,
+            "wire": 2,
+            "defaultKind": "array",
+            "nestedType": "gamepb.plantpb.OperationLimit",
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "land_op_drops",
+            "field": 3,
+            "wire": 2,
+            "defaultKind": "array",
+            "nestedType": "gamepb.plantpb.LandOpDrop",
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "farm_rewards",
+            "field": 4,
+            "wire": 2,
+            "defaultKind": "array",
+            "nestedType": "gamepb.plantpb.FarmReward",
+            "sampleLength": 2,
+            "tagCount": 1
+          }
+        ]
+      },
+      "FertilizeRequest": {
+        "name": "FertilizeRequest",
+        "fields": [
+          {
+            "name": "land_ids",
+            "field": 1,
+            "wire": 2,
+            "defaultKind": "array",
+            "nestedType": null,
+            "sampleLength": 3,
+            "tagCount": 1
+          },
+          {
+            "name": "fertilizer_id",
+            "field": 2,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          }
+        ]
+      },
+      "FertilizeReply": {
+        "name": "FertilizeReply",
+        "fields": [
+          {
+            "name": "land",
+            "field": 1,
+            "wire": 2,
+            "defaultKind": "array",
+            "nestedType": "gamepb.plantpb.LandInfo",
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "operation_limits",
+            "field": 2,
+            "wire": 2,
+            "defaultKind": "array",
+            "nestedType": "gamepb.plantpb.OperationLimit",
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "fertilizer",
+            "field": 3,
+            "wire": 2,
+            "defaultKind": "message",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "land_op_drops",
+            "field": 4,
+            "wire": 2,
+            "defaultKind": "array",
+            "nestedType": "gamepb.plantpb.LandOpDrop",
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "buff_effects",
+            "field": 5,
+            "wire": 2,
+            "defaultKind": "array",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          }
+        ]
+      },
+      "HarvestRequest": {
+        "name": "HarvestRequest",
+        "fields": [
+          {
+            "name": "land_ids",
+            "field": 1,
+            "wire": 2,
+            "defaultKind": "array",
+            "nestedType": null,
+            "sampleLength": 3,
+            "tagCount": 1
+          },
+          {
+            "name": "host_gid",
+            "field": 2,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "is_all",
+            "field": 3,
+            "wire": 0,
+            "defaultKind": "boolean",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "host_type",
+            "field": 4,
+            "wire": 0,
+            "defaultKind": "number",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "reason",
+            "field": 5,
+            "wire": 0,
+            "defaultKind": "number",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          }
+        ]
+      },
+      "HarvestReply": {
+        "name": "HarvestReply",
+        "fields": [
+          {
+            "name": "land",
+            "field": 1,
+            "wire": 2,
+            "defaultKind": "array",
+            "nestedType": "gamepb.plantpb.LandInfo",
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "items",
+            "field": 2,
+            "wire": 2,
+            "defaultKind": "array",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "lost_items",
+            "field": 3,
+            "wire": 2,
+            "defaultKind": "array",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "operation_limits",
+            "field": 4,
+            "wire": 2,
+            "defaultKind": "array",
+            "nestedType": "gamepb.plantpb.OperationLimit",
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "warnings",
+            "field": 5,
+            "wire": 2,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 6,
+            "tagCount": 1
+          },
+          {
+            "name": "extra_items",
+            "field": 6,
+            "wire": 2,
+            "defaultKind": "array",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "land_op_drops",
+            "field": 7,
+            "wire": 2,
+            "defaultKind": "array",
+            "nestedType": "gamepb.plantpb.LandOpDrop",
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "buff_effects",
+            "field": 8,
+            "wire": 2,
+            "defaultKind": "array",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          }
+        ]
+      },
+      "RemovePlantRequest": {
+        "name": "RemovePlantRequest",
+        "fields": [
+          {
+            "name": "land_ids",
+            "field": 1,
+            "wire": 2,
+            "defaultKind": "array",
+            "nestedType": null,
+            "sampleLength": 3,
+            "tagCount": 1
+          }
+        ]
+      },
+      "RemovePlantReply": {
+        "name": "RemovePlantReply",
+        "fields": [
+          {
+            "name": "land",
+            "field": 1,
+            "wire": 2,
+            "defaultKind": "array",
+            "nestedType": "gamepb.plantpb.LandInfo",
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "operation_limits",
+            "field": 2,
+            "wire": 2,
+            "defaultKind": "array",
+            "nestedType": "gamepb.plantpb.OperationLimit",
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "land_op_drops",
+            "field": 3,
+            "wire": 2,
+            "defaultKind": "array",
+            "nestedType": "gamepb.plantpb.LandOpDrop",
+            "sampleLength": 2,
+            "tagCount": 1
+          }
+        ]
+      },
+      "PutWeedsRequest": {
+        "name": "PutWeedsRequest",
+        "fields": [
+          {
+            "name": "host_gid",
+            "field": 1,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "land_ids",
+            "field": 2,
+            "wire": 2,
+            "defaultKind": "array",
+            "nestedType": null,
+            "sampleLength": 3,
+            "tagCount": 1
+          },
+          {
+            "name": "host_type",
+            "field": 3,
+            "wire": 0,
+            "defaultKind": "number",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "reason",
+            "field": 4,
+            "wire": 0,
+            "defaultKind": "number",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          }
+        ]
+      },
+      "PutWeedsReply": {
+        "name": "PutWeedsReply",
+        "fields": [
+          {
+            "name": "land",
+            "field": 1,
+            "wire": 2,
+            "defaultKind": "array",
+            "nestedType": "gamepb.plantpb.LandInfo",
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "operation_limits",
+            "field": 2,
+            "wire": 2,
+            "defaultKind": "array",
+            "nestedType": "gamepb.plantpb.OperationLimit",
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "land_op_drops",
+            "field": 3,
+            "wire": 2,
+            "defaultKind": "array",
+            "nestedType": "gamepb.plantpb.LandOpDrop",
+            "sampleLength": 2,
+            "tagCount": 1
+          }
+        ]
+      },
+      "PutInsectsRequest": {
+        "name": "PutInsectsRequest",
+        "fields": [
+          {
+            "name": "host_gid",
+            "field": 1,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "land_ids",
+            "field": 2,
+            "wire": 2,
+            "defaultKind": "array",
+            "nestedType": null,
+            "sampleLength": 3,
+            "tagCount": 1
+          },
+          {
+            "name": "host_type",
+            "field": 3,
+            "wire": 0,
+            "defaultKind": "number",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "reason",
+            "field": 4,
+            "wire": 0,
+            "defaultKind": "number",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          }
+        ]
+      },
+      "PutInsectsReply": {
+        "name": "PutInsectsReply",
+        "fields": [
+          {
+            "name": "land",
+            "field": 1,
+            "wire": 2,
+            "defaultKind": "array",
+            "nestedType": "gamepb.plantpb.LandInfo",
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "operation_limits",
+            "field": 2,
+            "wire": 2,
+            "defaultKind": "array",
+            "nestedType": "gamepb.plantpb.OperationLimit",
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "land_op_drops",
+            "field": 3,
+            "wire": 2,
+            "defaultKind": "array",
+            "nestedType": "gamepb.plantpb.LandOpDrop",
+            "sampleLength": 2,
+            "tagCount": 1
+          }
+        ]
+      },
+      "PutSocialItemRequest": {
+        "name": "PutSocialItemRequest",
+        "fields": [
+          {
+            "name": "host_gid",
+            "field": 1,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "land_ids",
+            "field": 2,
+            "wire": 2,
+            "defaultKind": "array",
+            "nestedType": null,
+            "sampleLength": 3,
+            "tagCount": 1
+          },
+          {
+            "name": "item_id",
+            "field": 3,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "host_type",
+            "field": 4,
+            "wire": 0,
+            "defaultKind": "number",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "reason",
+            "field": 5,
+            "wire": 0,
+            "defaultKind": "number",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          }
+        ]
+      },
+      "PutSocialItemReply": {
+        "name": "PutSocialItemReply",
+        "fields": [
+          {
+            "name": "land",
+            "field": 1,
+            "wire": 2,
+            "defaultKind": "array",
+            "nestedType": "gamepb.plantpb.LandInfo",
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "operation_limits",
+            "field": 2,
+            "wire": 2,
+            "defaultKind": "array",
+            "nestedType": "gamepb.plantpb.OperationLimit",
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "land_op_drops",
+            "field": 3,
+            "wire": 2,
+            "defaultKind": "array",
+            "nestedType": "gamepb.plantpb.LandOpDrop",
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "land_social_item_info",
+            "field": 4,
+            "wire": 2,
+            "defaultKind": "array",
+            "nestedType": "gamepb.plantpb.LandSocialItemInfo",
+            "sampleLength": 2,
+            "tagCount": 1
+          }
+        ]
+      },
+      "CleanSocialItemsRequest": {
+        "name": "CleanSocialItemsRequest",
+        "fields": [
+          {
+            "name": "land_ids",
+            "field": 1,
+            "wire": 2,
+            "defaultKind": "array",
+            "nestedType": null,
+            "sampleLength": 3,
+            "tagCount": 1
+          },
+          {
+            "name": "item_ids",
+            "field": 2,
+            "wire": 2,
+            "defaultKind": "array",
+            "nestedType": null,
+            "sampleLength": 3,
+            "tagCount": 1
+          }
+        ]
+      },
+      "CleanSocialItemsReply": {
+        "name": "CleanSocialItemsReply",
+        "fields": [
+          {
+            "name": "land",
+            "field": 1,
+            "wire": 2,
+            "defaultKind": "array",
+            "nestedType": "gamepb.plantpb.LandInfo",
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "operation_limits",
+            "field": 2,
+            "wire": 2,
+            "defaultKind": "array",
+            "nestedType": "gamepb.plantpb.OperationLimit",
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "land_op_drops",
+            "field": 3,
+            "wire": 2,
+            "defaultKind": "array",
+            "nestedType": "gamepb.plantpb.LandOpDrop",
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "land_social_item_info",
+            "field": 4,
+            "wire": 2,
+            "defaultKind": "array",
+            "nestedType": "gamepb.plantpb.LandSocialItemInfo",
+            "sampleLength": 2,
+            "tagCount": 1
+          }
+        ]
+      },
+      "LandSocialItemInfo": {
+        "name": "LandSocialItemInfo",
+        "fields": [
+          {
+            "name": "land_id",
+            "field": 1,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "items",
+            "field": 2,
+            "wire": 2,
+            "defaultKind": "array",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          }
+        ]
+      },
+      "FarmSocialEventInfo": {
+        "name": "FarmSocialEventInfo",
+        "fields": [
+          {
+            "name": "item_id",
+            "field": 1,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "owner_id",
+            "field": 2,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "put_time",
+            "field": 3,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "expire_at",
+            "field": 4,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "phase",
+            "field": 5,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "state_at",
+            "field": 6,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "state_until",
+            "field": 7,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          }
+        ]
+      },
+      "CleanFarmSocialEventRequest": {
+        "name": "CleanFarmSocialEventRequest",
+        "fields": []
+      },
+      "CleanFarmSocialEventReply": {
+        "name": "CleanFarmSocialEventReply",
+        "fields": [
+          {
+            "name": "cleared_events",
+            "field": 1,
+            "wire": 2,
+            "defaultKind": "array",
+            "nestedType": "gamepb.plantpb.FarmSocialEventInfo",
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "farm_rewards",
+            "field": 2,
+            "wire": 2,
+            "defaultKind": "array",
+            "nestedType": "gamepb.plantpb.FarmReward",
+            "sampleLength": 2,
+            "tagCount": 1
+          }
+        ]
+      },
+      "CropSocialEventInfo": {
+        "name": "CropSocialEventInfo",
+        "fields": [
+          {
+            "name": "item_id",
+            "field": 1,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "owner_id",
+            "field": 2,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "put_time",
+            "field": 3,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "land_id",
+            "field": 4,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          }
+        ]
+      },
+      "CheckCanOperateRequest": {
+        "name": "CheckCanOperateRequest",
+        "fields": [
+          {
+            "name": "host_gid",
+            "field": 1,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "operation_id",
+            "field": 2,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "host_type",
+            "field": 3,
+            "wire": 0,
+            "defaultKind": "number",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          }
+        ]
+      },
+      "CheckCanOperateReply": {
+        "name": "CheckCanOperateReply",
+        "fields": [
+          {
+            "name": "can_operate",
+            "field": 1,
+            "wire": 0,
+            "defaultKind": "boolean",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "can_steal_num",
+            "field": 2,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          }
+        ]
+      },
+      "OperationLimit": {
+        "name": "OperationLimit",
+        "fields": [
+          {
+            "name": "id",
+            "field": 1,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "day_times",
+            "field": 2,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "day_times_lt",
+            "field": 3,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "day_share_id",
+            "field": 4,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "day_exp_times",
+            "field": 5,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "day_ex_times_lt",
+            "field": 6,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "day_exp_share_id",
+            "field": 7,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          }
+        ]
+      },
+      "LandOpDrop": {
+        "name": "LandOpDrop",
+        "fields": [
+          {
+            "name": "land_id",
+            "field": 1,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "rewards",
+            "field": 2,
+            "wire": 2,
+            "defaultKind": "array",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "costs",
+            "field": 3,
+            "wire": 2,
+            "defaultKind": "array",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "triggered_skill_ids",
+            "field": 4,
+            "wire": 2,
+            "defaultKind": "array",
+            "nestedType": null,
+            "sampleLength": 3,
+            "tagCount": 1
+          },
+          {
+            "name": "buff_effects",
+            "field": 5,
+            "wire": 2,
+            "defaultKind": "array",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          }
+        ]
+      },
+      "FarmReward": {
+        "name": "FarmReward",
+        "fields": [
+          {
+            "name": "source_item_id",
+            "field": 1,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "rewards",
+            "field": 2,
+            "wire": 2,
+            "defaultKind": "array",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          }
+        ]
+      },
+      "LandsNotify": {
+        "name": "LandsNotify",
+        "fields": [
+          {
+            "name": "lands",
+            "field": 1,
+            "wire": 2,
+            "defaultKind": "array",
+            "nestedType": "gamepb.plantpb.LandInfo",
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "host_gid",
+            "field": 2,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "host_type",
+            "field": 3,
+            "wire": 0,
+            "defaultKind": "number",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          }
+        ]
+      },
+      "FarmSocialEventsNotify": {
+        "name": "FarmSocialEventsNotify",
+        "fields": [
+          {
+            "name": "farm_social_events",
+            "field": 1,
+            "wire": 2,
+            "defaultKind": "array",
+            "nestedType": "gamepb.plantpb.FarmSocialEventInfo",
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "host_gid",
+            "field": 2,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "host_type",
+            "field": 3,
+            "wire": 0,
+            "defaultKind": "number",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          }
+        ]
+      }
+    },
+    "userpb": {
+      "LoginRequest": {
+        "name": "LoginRequest",
+        "fields": [
+          {
+            "name": "sharer_id",
+            "field": 3,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "sharer_open_id",
+            "field": 4,
+            "wire": 2,
+            "defaultKind": "string",
+            "nestedType": null,
+            "sampleLength": 3,
+            "tagCount": 1
+          },
+          {
+            "name": "device_info",
+            "field": 5,
+            "wire": 2,
+            "defaultKind": "message",
+            "nestedType": "gamepb.userpb.DeviceInfo",
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "share_cfg_id",
+            "field": 6,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "scene_id",
+            "field": 7,
+            "wire": 2,
+            "defaultKind": "string",
+            "nestedType": null,
+            "sampleLength": 3,
+            "tagCount": 1
+          },
+          {
+            "name": "report_data",
+            "field": 8,
+            "wire": 2,
+            "defaultKind": "message",
+            "nestedType": "gamepb.userpb.ReportData",
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "share_key",
+            "field": 9,
+            "wire": 2,
+            "defaultKind": "string",
+            "nestedType": null,
+            "sampleLength": 3,
+            "tagCount": 1
+          },
+          {
+            "name": "experiment_keys",
+            "field": 10,
+            "wire": 2,
+            "defaultKind": "array",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "ark_biz_type",
+            "field": 11,
+            "wire": 0,
+            "defaultKind": "number",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "ark_biz_param",
+            "field": 12,
+            "wire": 2,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "game_scene_id",
+            "field": 13,
+            "wire": 0,
+            "defaultKind": "number",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          }
+        ]
+      },
+      "ReportData": {
+        "name": "ReportData",
+        "fields": [
+          {
+            "name": "callback",
+            "field": 1,
+            "wire": 2,
+            "defaultKind": "string",
+            "nestedType": null,
+            "sampleLength": 3,
+            "tagCount": 1
+          },
+          {
+            "name": "cd_extend_info",
+            "field": 2,
+            "wire": 2,
+            "defaultKind": "string",
+            "nestedType": null,
+            "sampleLength": 3,
+            "tagCount": 1
+          },
+          {
+            "name": "click_id",
+            "field": 3,
+            "wire": 2,
+            "defaultKind": "string",
+            "nestedType": null,
+            "sampleLength": 3,
+            "tagCount": 1
+          },
+          {
+            "name": "clue_token",
+            "field": 4,
+            "wire": 2,
+            "defaultKind": "string",
+            "nestedType": null,
+            "sampleLength": 3,
+            "tagCount": 1
+          },
+          {
+            "name": "minigame_channel",
+            "field": 5,
+            "wire": 2,
+            "defaultKind": "string",
+            "nestedType": null,
+            "sampleLength": 3,
+            "tagCount": 1
+          },
+          {
+            "name": "minigame_platid",
+            "field": 6,
+            "wire": 0,
+            "defaultKind": "number",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "req_id",
+            "field": 7,
+            "wire": 2,
+            "defaultKind": "string",
+            "nestedType": null,
+            "sampleLength": 3,
+            "tagCount": 1
+          },
+          {
+            "name": "trackid",
+            "field": 8,
+            "wire": 2,
+            "defaultKind": "string",
+            "nestedType": null,
+            "sampleLength": 3,
+            "tagCount": 1
+          }
+        ]
+      },
+      "DeviceInfo": {
+        "name": "DeviceInfo",
+        "fields": [
+          {
+            "name": "client_version",
+            "field": 1,
+            "wire": 2,
+            "defaultKind": "string",
+            "nestedType": null,
+            "sampleLength": 3,
+            "tagCount": 1
+          },
+          {
+            "name": "sys_software",
+            "field": 2,
+            "wire": 2,
+            "defaultKind": "string",
+            "nestedType": null,
+            "sampleLength": 3,
+            "tagCount": 1
+          },
+          {
+            "name": "sys_hardware",
+            "field": 3,
+            "wire": 2,
+            "defaultKind": "string",
+            "nestedType": null,
+            "sampleLength": 3,
+            "tagCount": 1
+          },
+          {
+            "name": "telecom_oper",
+            "field": 4,
+            "wire": 2,
+            "defaultKind": "string",
+            "nestedType": null,
+            "sampleLength": 3,
+            "tagCount": 1
+          },
+          {
+            "name": "network",
+            "field": 5,
+            "wire": 2,
+            "defaultKind": "string",
+            "nestedType": null,
+            "sampleLength": 3,
+            "tagCount": 1
+          },
+          {
+            "name": "screen_width",
+            "field": 6,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "screen_height",
+            "field": 7,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "density",
+            "field": 8,
+            "wire": 5,
+            "defaultKind": "number",
+            "nestedType": null,
+            "sampleLength": 5,
+            "tagCount": 1
+          },
+          {
+            "name": "cpu",
+            "field": 9,
+            "wire": 2,
+            "defaultKind": "string",
+            "nestedType": null,
+            "sampleLength": 3,
+            "tagCount": 1
+          },
+          {
+            "name": "memory",
+            "field": 10,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "gl_render",
+            "field": 11,
+            "wire": 2,
+            "defaultKind": "string",
+            "nestedType": null,
+            "sampleLength": 3,
+            "tagCount": 1
+          },
+          {
+            "name": "gl_version",
+            "field": 12,
+            "wire": 2,
+            "defaultKind": "string",
+            "nestedType": null,
+            "sampleLength": 3,
+            "tagCount": 1
+          },
+          {
+            "name": "device_id",
+            "field": 13,
+            "wire": 2,
+            "defaultKind": "string",
+            "nestedType": null,
+            "sampleLength": 3,
+            "tagCount": 1
+          },
+          {
+            "name": "android_oaid",
+            "field": 14,
+            "wire": 2,
+            "defaultKind": "string",
+            "nestedType": null,
+            "sampleLength": 3,
+            "tagCount": 1
+          },
+          {
+            "name": "ios_caid",
+            "field": 15,
+            "wire": 2,
+            "defaultKind": "string",
+            "nestedType": null,
+            "sampleLength": 3,
+            "tagCount": 1
+          }
+        ]
+      },
+      "BasicInfo": {
+        "name": "BasicInfo",
+        "fields": [
+          {
+            "name": "gid",
+            "field": 1,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "name",
+            "field": 2,
+            "wire": 2,
+            "defaultKind": "string",
+            "nestedType": null,
+            "sampleLength": 3,
+            "tagCount": 1
+          },
+          {
+            "name": "level",
+            "field": 3,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "exp",
+            "field": 4,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "gold",
+            "field": 5,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "open_id",
+            "field": 6,
+            "wire": 2,
+            "defaultKind": "string",
+            "nestedType": null,
+            "sampleLength": 3,
+            "tagCount": 1
+          },
+          {
+            "name": "avatar_url",
+            "field": 7,
+            "wire": 2,
+            "defaultKind": "string",
+            "nestedType": null,
+            "sampleLength": 3,
+            "tagCount": 1
+          },
+          {
+            "name": "remark",
+            "field": 8,
+            "wire": 2,
+            "defaultKind": "string",
+            "nestedType": null,
+            "sampleLength": 3,
+            "tagCount": 1
+          },
+          {
+            "name": "signature",
+            "field": 9,
+            "wire": 2,
+            "defaultKind": "string",
+            "nestedType": null,
+            "sampleLength": 3,
+            "tagCount": 1
+          },
+          {
+            "name": "gender",
+            "field": 10,
+            "wire": 0,
+            "defaultKind": "number",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "equip_avatar_frames",
+            "field": 11,
+            "wire": 2,
+            "defaultKind": "array",
+            "nestedType": "gamepb.avatarframepb.AvatarFrame",
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "share_infos",
+            "field": 12,
+            "wire": 2,
+            "defaultKind": "object",
+            "nestedType": "gamepb.sharepb.ShareInfo",
+            "sampleLength": 6,
+            "tagCount": 1
+          },
+          {
+            "name": "authorized_status",
+            "field": 13,
+            "wire": 0,
+            "defaultKind": "number",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "disable_nudge",
+            "field": 14,
+            "wire": 0,
+            "defaultKind": "boolean",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "disable_month_card",
+            "field": 15,
+            "wire": 0,
+            "defaultKind": "boolean",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "month_cards",
+            "field": 16,
+            "wire": 2,
+            "defaultKind": "array",
+            "nestedType": null,
+            "sampleLength": 3,
+            "tagCount": 1
+          },
+          {
+            "name": "last_online_timestamp",
+            "field": 17,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 3,
+            "tagCount": 1
+          },
+          {
+            "name": "binded_communities",
+            "field": 18,
+            "wire": 2,
+            "defaultKind": "array",
+            "nestedType": null,
+            "sampleLength": 3,
+            "tagCount": 1
+          },
+          {
+            "name": "allow_ark_visit",
+            "field": 19,
+            "wire": 0,
+            "defaultKind": "boolean",
+            "nestedType": null,
+            "sampleLength": 3,
+            "tagCount": 1
+          },
+          {
+            "name": "big_farm_level",
+            "field": 20,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 3,
+            "tagCount": 1
+          },
+          {
+            "name": "big_farm_exp",
+            "field": 21,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 3,
+            "tagCount": 1
+          }
+        ]
+      },
+      "QQGroupInfo": {
+        "name": "QQGroupInfo",
+        "fields": [
+          {
+            "name": "qq_group_id",
+            "field": 1,
+            "wire": 2,
+            "defaultKind": "string",
+            "nestedType": null,
+            "sampleLength": 3,
+            "tagCount": 1
+          },
+          {
+            "name": "qq_group_name",
+            "field": 2,
+            "wire": 2,
+            "defaultKind": "string",
+            "nestedType": null,
+            "sampleLength": 3,
+            "tagCount": 1
+          }
+        ]
+      },
+      "LoginReply": {
+        "name": "LoginReply",
+        "fields": [
+          {
+            "name": "basic",
+            "field": 1,
+            "wire": 2,
+            "defaultKind": "message",
+            "nestedType": "gamepb.userpb.BasicInfo",
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "item_bag",
+            "field": 2,
+            "wire": 2,
+            "defaultKind": "message",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "time_now_millis",
+            "field": 3,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "is_first_login",
+            "field": 4,
+            "wire": 0,
+            "defaultKind": "boolean",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "guide_info",
+            "field": 5,
+            "wire": 2,
+            "defaultKind": "message",
+            "nestedType": "gamepb.guidepb.GuideInfo",
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "qq_group_infos",
+            "field": 6,
+            "wire": 2,
+            "defaultKind": "array",
+            "nestedType": "gamepb.userpb.QQGroupInfo",
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "illustrated",
+            "field": 7,
+            "wire": 2,
+            "defaultKind": "message",
+            "nestedType": "gamepb.friendpb.Illustrated",
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "unlocked_items",
+            "field": 8,
+            "wire": 2,
+            "defaultKind": "array",
+            "nestedType": "gamepb.systemopenpb.SystemUnlockItem",
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "version_info",
+            "field": 9,
+            "wire": 2,
+            "defaultKind": "message",
+            "nestedType": "gamepb.userpb.VersionInfo",
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "mall_msg",
+            "field": 10,
+            "wire": 2,
+            "defaultKind": "message",
+            "nestedType": "gamepb.mallpb.MallMsg",
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "qq_friend_recommend_authorized",
+            "field": 11,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "mutant_book_entries",
+            "field": 12,
+            "wire": 2,
+            "defaultKind": "array",
+            "nestedType": "gamepb.mutantpb.MutantBookEntry",
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "experiments",
+            "field": 13,
+            "wire": 2,
+            "defaultKind": "array",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "policy_switches",
+            "field": 14,
+            "wire": 2,
+            "defaultKind": "array",
+            "nestedType": "gamepb.userpb.PolicySwitch",
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "moon_phase",
+            "field": 15,
+            "wire": 0,
+            "defaultKind": "number",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "skin_login_info",
+            "field": 16,
+            "wire": 2,
+            "defaultKind": "message",
+            "nestedType": "gamepb.skinpb.SkinLoginInfo",
+            "sampleLength": 3,
+            "tagCount": 1
+          },
+          {
+            "name": "weather",
+            "field": 18,
+            "wire": 2,
+            "defaultKind": "message",
+            "nestedType": "gamepb.weatherpb.WeatherStatus",
+            "sampleLength": 3,
+            "tagCount": 1
+          }
+        ]
+      },
+      "PolicySwitch": {
+        "name": "PolicySwitch",
+        "fields": [
+          {
+            "name": "name",
+            "field": 1,
+            "wire": 2,
+            "defaultKind": "string",
+            "nestedType": null,
+            "sampleLength": 3,
+            "tagCount": 1
+          },
+          {
+            "name": "enabled",
+            "field": 2,
+            "wire": 0,
+            "defaultKind": "boolean",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          }
+        ]
+      },
+      "PlayerLoginRequest": {
+        "name": "PlayerLoginRequest",
+        "fields": [
+          {
+            "name": "sharer_id",
+            "field": 1,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "sharer_open_id",
+            "field": 2,
+            "wire": 2,
+            "defaultKind": "string",
+            "nestedType": null,
+            "sampleLength": 3,
+            "tagCount": 1
+          },
+          {
+            "name": "device_info",
+            "field": 3,
+            "wire": 2,
+            "defaultKind": "message",
+            "nestedType": "gamepb.userpb.DeviceInfo",
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "share_cfg_id",
+            "field": 4,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "scene_id",
+            "field": 5,
+            "wire": 2,
+            "defaultKind": "string",
+            "nestedType": null,
+            "sampleLength": 3,
+            "tagCount": 1
+          },
+          {
+            "name": "report_data",
+            "field": 6,
+            "wire": 2,
+            "defaultKind": "message",
+            "nestedType": "gamepb.userpb.ReportData",
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "share_key",
+            "field": 7,
+            "wire": 2,
+            "defaultKind": "string",
+            "nestedType": null,
+            "sampleLength": 3,
+            "tagCount": 1
+          },
+          {
+            "name": "experiment_keys",
+            "field": 8,
+            "wire": 2,
+            "defaultKind": "array",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "ark_biz_type",
+            "field": 11,
+            "wire": 0,
+            "defaultKind": "number",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "ark_biz_param",
+            "field": 12,
+            "wire": 2,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "game_scene_id",
+            "field": 13,
+            "wire": 0,
+            "defaultKind": "number",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          }
+        ]
+      },
+      "PlayerLoginReply": {
+        "name": "PlayerLoginReply",
+        "fields": [
+          {
+            "name": "basic",
+            "field": 1,
+            "wire": 2,
+            "defaultKind": "message",
+            "nestedType": "gamepb.userpb.BasicInfo",
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "time_now_millis",
+            "field": 2,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "is_first_login",
+            "field": 3,
+            "wire": 0,
+            "defaultKind": "boolean",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "version_info",
+            "field": 4,
+            "wire": 2,
+            "defaultKind": "message",
+            "nestedType": "gamepb.userpb.VersionInfo",
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "qq_friend_recommend_authorized",
+            "field": 5,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "policy_switches",
+            "field": 6,
+            "wire": 2,
+            "defaultKind": "array",
+            "nestedType": "gamepb.userpb.PolicySwitch",
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "global_scene_id",
+            "field": 7,
+            "wire": 0,
+            "defaultKind": "number",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "guide_info",
+            "field": 8,
+            "wire": 2,
+            "defaultKind": "message",
+            "nestedType": "gamepb.guidepb.GuideInfo",
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "unlocked_items",
+            "field": 9,
+            "wire": 2,
+            "defaultKind": "array",
+            "nestedType": "gamepb.systemopenpb.SystemUnlockItem",
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "unlocked_scene_ids",
+            "field": 10,
+            "wire": 2,
+            "defaultKind": "array",
+            "nestedType": null,
+            "sampleLength": 3,
+            "tagCount": 1
+          },
+          {
+            "name": "qq_group_infos",
+            "field": 11,
+            "wire": 2,
+            "defaultKind": "array",
+            "nestedType": "gamepb.userpb.QQGroupInfo",
+            "sampleLength": 2,
+            "tagCount": 1
+          }
+        ]
+      },
+      "VersionInfo": {
+        "name": "VersionInfo",
+        "fields": [
+          {
+            "name": "status",
+            "field": 1,
+            "wire": 0,
+            "defaultKind": "number",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "version_recommend",
+            "field": 2,
+            "wire": 2,
+            "defaultKind": "string",
+            "nestedType": null,
+            "sampleLength": 3,
+            "tagCount": 1
+          },
+          {
+            "name": "version_force",
+            "field": 3,
+            "wire": 2,
+            "defaultKind": "string",
+            "nestedType": null,
+            "sampleLength": 3,
+            "tagCount": 1
+          },
+          {
+            "name": "version_protocol",
+            "field": 4,
+            "wire": 2,
+            "defaultKind": "string",
+            "nestedType": null,
+            "sampleLength": 3,
+            "tagCount": 1
+          }
+        ]
+      },
+      "HeartbeatRequest": {
+        "name": "HeartbeatRequest",
+        "fields": [
+          {
+            "name": "host_gid",
+            "field": 1,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "client_version",
+            "field": 2,
+            "wire": 2,
+            "defaultKind": "string",
+            "nestedType": null,
+            "sampleLength": 3,
+            "tagCount": 1
+          },
+          {
+            "name": "host_type",
+            "field": 3,
+            "wire": 0,
+            "defaultKind": "number",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          }
+        ]
+      },
+      "HeartbeatReply": {
+        "name": "HeartbeatReply",
+        "fields": [
+          {
+            "name": "time_now_millis",
+            "field": 1,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "version_info",
+            "field": 2,
+            "wire": 2,
+            "defaultKind": "message",
+            "nestedType": "gamepb.userpb.VersionInfo",
+            "sampleLength": 2,
+            "tagCount": 1
+          }
+        ]
+      },
+      "ReportForegroundRequest": {
+        "name": "ReportForegroundRequest",
+        "fields": []
+      },
+      "ReportForegroundReply": {
+        "name": "ReportForegroundReply",
+        "fields": []
+      },
+      "QQVipInfo": {
+        "name": "QQVipInfo",
+        "fields": [
+          {
+            "name": "is_vip",
+            "field": 1,
+            "wire": 0,
+            "defaultKind": "boolean",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          }
+        ]
+      },
+      "SetDisplayInfoRequest": {
+        "name": "SetDisplayInfoRequest",
+        "fields": [
+          {
+            "name": "name",
+            "field": 1,
+            "wire": 2,
+            "defaultKind": "string",
+            "nestedType": null,
+            "sampleLength": 3,
+            "tagCount": 1
+          },
+          {
+            "name": "avatar_url",
+            "field": 2,
+            "wire": 2,
+            "defaultKind": "string",
+            "nestedType": null,
+            "sampleLength": 3,
+            "tagCount": 1
+          },
+          {
+            "name": "signature",
+            "field": 3,
+            "wire": 2,
+            "defaultKind": "string",
+            "nestedType": null,
+            "sampleLength": 3,
+            "tagCount": 1
+          },
+          {
+            "name": "gender",
+            "field": 5,
+            "wire": 0,
+            "defaultKind": "number",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "remark",
+            "field": 6,
+            "wire": 2,
+            "defaultKind": "string",
+            "nestedType": null,
+            "sampleLength": 3,
+            "tagCount": 1
+          },
+          {
+            "name": "vip_info",
+            "field": 7,
+            "wire": 2,
+            "defaultKind": "message",
+            "nestedType": "gamepb.userpb.QQVipInfo",
+            "sampleLength": 2,
+            "tagCount": 1
+          }
+        ]
+      },
+      "SetDisplayInfoReply": {
+        "name": "SetDisplayInfoReply",
+        "fields": [
+          {
+            "name": "name",
+            "field": 1,
+            "wire": 2,
+            "defaultKind": "string",
+            "nestedType": null,
+            "sampleLength": 3,
+            "tagCount": 1
+          },
+          {
+            "name": "avatar_url",
+            "field": 2,
+            "wire": 2,
+            "defaultKind": "string",
+            "nestedType": null,
+            "sampleLength": 3,
+            "tagCount": 1
+          },
+          {
+            "name": "signature",
+            "field": 3,
+            "wire": 2,
+            "defaultKind": "string",
+            "nestedType": null,
+            "sampleLength": 3,
+            "tagCount": 1
+          },
+          {
+            "name": "gender",
+            "field": 5,
+            "wire": 0,
+            "defaultKind": "number",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "remark",
+            "field": 6,
+            "wire": 2,
+            "defaultKind": "string",
+            "nestedType": null,
+            "sampleLength": 3,
+            "tagCount": 1
+          },
+          {
+            "name": "vip_info",
+            "field": 7,
+            "wire": 2,
+            "defaultKind": "message",
+            "nestedType": "gamepb.userpb.QQVipInfo",
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "authorized_status",
+            "field": 8,
+            "wire": 0,
+            "defaultKind": "number",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          }
+        ]
+      },
+      "BasicNotify": {
+        "name": "BasicNotify",
+        "fields": [
+          {
+            "name": "basic",
+            "field": 1,
+            "wire": 2,
+            "defaultKind": "message",
+            "nestedType": "gamepb.userpb.BasicInfo",
+            "sampleLength": 2,
+            "tagCount": 1
+          }
+        ]
+      },
+      "LogoutRequest": {
+        "name": "LogoutRequest",
+        "fields": [
+          {
+            "name": "reason",
+            "field": 1,
+            "wire": 2,
+            "defaultKind": "string",
+            "nestedType": null,
+            "sampleLength": 3,
+            "tagCount": 1
+          }
+        ]
+      },
+      "LogoutReply": {
+        "name": "LogoutReply",
+        "fields": []
+      },
+      "ClientReportFlowRequest": {
+        "name": "ClientReportFlowRequest",
+        "fields": [
+          {
+            "name": "os_type",
+            "field": 1,
+            "wire": 0,
+            "defaultKind": "number",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "plat_from_type",
+            "field": 2,
+            "wire": 0,
+            "defaultKind": "number",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "open_id",
+            "field": 3,
+            "wire": 2,
+            "defaultKind": "string",
+            "nestedType": null,
+            "sampleLength": 3,
+            "tagCount": 1
+          },
+          {
+            "name": "gid",
+            "field": 4,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "name",
+            "field": 5,
+            "wire": 2,
+            "defaultKind": "string",
+            "nestedType": null,
+            "sampleLength": 3,
+            "tagCount": 1
+          },
+          {
+            "name": "now",
+            "field": 6,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "level",
+            "field": 7,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "flow_type",
+            "field": 101,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 3,
+            "tagCount": 1
+          },
+          {
+            "name": "flow_type_str",
+            "field": 102,
+            "wire": 2,
+            "defaultKind": "string",
+            "nestedType": null,
+            "sampleLength": 4,
+            "tagCount": 1
+          },
+          {
+            "name": "param_int1",
+            "field": 103,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 3,
+            "tagCount": 1
+          },
+          {
+            "name": "param_int2",
+            "field": 104,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 3,
+            "tagCount": 1
+          },
+          {
+            "name": "param_int3",
+            "field": 105,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 3,
+            "tagCount": 1
+          },
+          {
+            "name": "param_int4",
+            "field": 106,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 3,
+            "tagCount": 1
+          },
+          {
+            "name": "param_int5",
+            "field": 107,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 3,
+            "tagCount": 1
+          },
+          {
+            "name": "param_str6",
+            "field": 108,
+            "wire": 2,
+            "defaultKind": "string",
+            "nestedType": null,
+            "sampleLength": 4,
+            "tagCount": 1
+          },
+          {
+            "name": "param_str7",
+            "field": 109,
+            "wire": 2,
+            "defaultKind": "string",
+            "nestedType": null,
+            "sampleLength": 4,
+            "tagCount": 1
+          },
+          {
+            "name": "param_str8",
+            "field": 110,
+            "wire": 2,
+            "defaultKind": "string",
+            "nestedType": null,
+            "sampleLength": 4,
+            "tagCount": 1
+          },
+          {
+            "name": "param_str9",
+            "field": 111,
+            "wire": 2,
+            "defaultKind": "string",
+            "nestedType": null,
+            "sampleLength": 4,
+            "tagCount": 1
+          },
+          {
+            "name": "param_str10",
+            "field": 112,
+            "wire": 2,
+            "defaultKind": "string",
+            "nestedType": null,
+            "sampleLength": 4,
+            "tagCount": 1
+          }
+        ]
+      },
+      "ClientReportFlowReply": {
+        "name": "ClientReportFlowReply",
+        "fields": []
+      },
+      "BatchClientReportFlowRequest": {
+        "name": "BatchClientReportFlowRequest",
+        "fields": [
+          {
+            "name": "flows",
+            "field": 1,
+            "wire": 2,
+            "defaultKind": "array",
+            "nestedType": "gamepb.userpb.ClientReportFlowRequest",
+            "sampleLength": 2,
+            "tagCount": 1
+          }
+        ]
+      },
+      "BatchClientReportFlowReply": {
+        "name": "BatchClientReportFlowReply",
+        "fields": [
+          {
+            "name": "success_count",
+            "field": 1,
+            "wire": 0,
+            "defaultKind": "number",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "fail_count",
+            "field": 2,
+            "wire": 0,
+            "defaultKind": "number",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          }
+        ]
+      },
+      "CommandNotify": {
+        "name": "CommandNotify",
+        "fields": [
+          {
+            "name": "type",
+            "field": 1,
+            "wire": 2,
+            "defaultKind": "string",
+            "nestedType": null,
+            "sampleLength": 3,
+            "tagCount": 1
+          },
+          {
+            "name": "data",
+            "field": 2,
+            "wire": 2,
+            "defaultKind": "string",
+            "nestedType": null,
+            "sampleLength": 3,
+            "tagCount": 1
+          }
+        ]
+      },
+      "ReportRequest": {
+        "name": "ReportRequest",
+        "fields": [
+          {
+            "name": "reported_gid",
+            "field": 1,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "report_category",
+            "field": 2,
+            "wire": 0,
+            "defaultKind": "number",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "report_reason",
+            "field": 3,
+            "wire": 2,
+            "defaultKind": "array",
+            "nestedType": null,
+            "sampleLength": 3,
+            "tagCount": 1
+          },
+          {
+            "name": "report_scene",
+            "field": 4,
+            "wire": 0,
+            "defaultKind": "number",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "report_desc",
+            "field": 5,
+            "wire": 2,
+            "defaultKind": "string",
+            "nestedType": null,
+            "sampleLength": 3,
+            "tagCount": 1
+          },
+          {
+            "name": "report_content",
+            "field": 6,
+            "wire": 2,
+            "defaultKind": "string",
+            "nestedType": null,
+            "sampleLength": 3,
+            "tagCount": 1
+          },
+          {
+            "name": "pic_url_array",
+            "field": 7,
+            "wire": 2,
+            "defaultKind": "array",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "video_url_array",
+            "field": 8,
+            "wire": 2,
+            "defaultKind": "array",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "voice_url_array",
+            "field": 9,
+            "wire": 2,
+            "defaultKind": "array",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "report_group_id",
+            "field": 10,
+            "wire": 2,
+            "defaultKind": "string",
+            "nestedType": null,
+            "sampleLength": 3,
+            "tagCount": 1
+          },
+          {
+            "name": "report_group_name",
+            "field": 11,
+            "wire": 2,
+            "defaultKind": "string",
+            "nestedType": null,
+            "sampleLength": 3,
+            "tagCount": 1
+          },
+          {
+            "name": "report_battle_id",
+            "field": 12,
+            "wire": 2,
+            "defaultKind": "string",
+            "nestedType": null,
+            "sampleLength": 3,
+            "tagCount": 1
+          },
+          {
+            "name": "report_battle_time",
+            "field": 13,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "report_entrance",
+            "field": 14,
+            "wire": 0,
+            "defaultKind": "number",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "msg_board_entry_id",
+            "field": 15,
+            "wire": 2,
+            "defaultKind": "string",
+            "nestedType": null,
+            "sampleLength": 3,
+            "tagCount": 1
+          }
+        ]
+      },
+      "ReportReply": {
+        "name": "ReportReply",
+        "fields": [
+          {
+            "name": "success",
+            "field": 1,
+            "wire": 0,
+            "defaultKind": "boolean",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "msg",
+            "field": 2,
+            "wire": 2,
+            "defaultKind": "string",
+            "nestedType": null,
+            "sampleLength": 3,
+            "tagCount": 1
+          },
+          {
+            "name": "trace_id",
+            "field": 3,
+            "wire": 2,
+            "defaultKind": "string",
+            "nestedType": null,
+            "sampleLength": 3,
+            "tagCount": 1
+          }
+        ]
+      },
+      "DeleteAccountRequest": {
+        "name": "DeleteAccountRequest",
+        "fields": [
+          {
+            "name": "name",
+            "field": 1,
+            "wire": 2,
+            "defaultKind": "string",
+            "nestedType": null,
+            "sampleLength": 3,
+            "tagCount": 1
+          },
+          {
+            "name": "cert_id",
+            "field": 2,
+            "wire": 2,
+            "defaultKind": "string",
+            "nestedType": null,
+            "sampleLength": 3,
+            "tagCount": 1
+          },
+          {
+            "name": "cert_type",
+            "field": 3,
+            "wire": 0,
+            "defaultKind": "number",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          }
+        ]
+      },
+      "DeleteAccountReply": {
+        "name": "DeleteAccountReply",
+        "fields": [
+          {
+            "name": "success",
+            "field": 1,
+            "wire": 0,
+            "defaultKind": "boolean",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "msg",
+            "field": 2,
+            "wire": 2,
+            "defaultKind": "string",
+            "nestedType": null,
+            "sampleLength": 3,
+            "tagCount": 1
+          },
+          {
+            "name": "request_time",
+            "field": 3,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "delete_time",
+            "field": 4,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          }
+        ]
+      },
+      "SetQQFriendRecommendAuthorizedRequest": {
+        "name": "SetQQFriendRecommendAuthorizedRequest",
+        "fields": [
+          {
+            "name": "authorized",
+            "field": 1,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          }
+        ]
+      },
+      "SetQQFriendRecommendAuthorizedReply": {
+        "name": "SetQQFriendRecommendAuthorizedReply",
+        "fields": [
+          {
+            "name": "authorized",
+            "field": 1,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          }
+        ]
+      },
+      "UserSettings": {
+        "name": "UserSettings",
+        "fields": [
+          {
+            "name": "disable_nudge",
+            "field": 1,
+            "wire": 0,
+            "defaultKind": "boolean",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "disable_month_card",
+            "field": 2,
+            "wire": 0,
+            "defaultKind": "boolean",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "disable_qq_subscribe",
+            "field": 3,
+            "wire": 0,
+            "defaultKind": "boolean",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "disable_wx_friend_recommend",
+            "field": 4,
+            "wire": 0,
+            "defaultKind": "boolean",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "disable_interact_offline_summary",
+            "field": 5,
+            "wire": 0,
+            "defaultKind": "boolean",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "allow_ark_visit",
+            "field": 6,
+            "wire": 0,
+            "defaultKind": "boolean",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "allow_msgboard_apply",
+            "field": 7,
+            "wire": 0,
+            "defaultKind": "boolean",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "disable_mc_building_bubble",
+            "field": 8,
+            "wire": 0,
+            "defaultKind": "boolean",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          }
+        ]
+      },
+      "SetUserSettingsRequest": {
+        "name": "SetUserSettingsRequest",
+        "fields": [
+          {
+            "name": "disable_nudge",
+            "field": 1,
+            "wire": 0,
+            "defaultKind": "message",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "disable_month_card",
+            "field": 2,
+            "wire": 0,
+            "defaultKind": "message",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "disable_qq_subscribe",
+            "field": 3,
+            "wire": 0,
+            "defaultKind": "message",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "disable_wx_friend_recommend",
+            "field": 4,
+            "wire": 0,
+            "defaultKind": "message",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "disable_interact_offline_summary",
+            "field": 5,
+            "wire": 0,
+            "defaultKind": "message",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "allow_ark_visit",
+            "field": 6,
+            "wire": 0,
+            "defaultKind": "message",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "allow_msgboard_apply",
+            "field": 7,
+            "wire": 0,
+            "defaultKind": "message",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "disable_mc_building_bubble",
+            "field": 8,
+            "wire": 0,
+            "defaultKind": "message",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          }
+        ]
+      },
+      "SetUserSettingsReply": {
+        "name": "SetUserSettingsReply",
+        "fields": [
+          {
+            "name": "settings",
+            "field": 1,
+            "wire": 2,
+            "defaultKind": "message",
+            "nestedType": "gamepb.userpb.UserSettings",
+            "sampleLength": 2,
+            "tagCount": 1
+          }
+        ]
+      },
+      "GetUserSettingsRequest": {
+        "name": "GetUserSettingsRequest",
+        "fields": [
+          {
+            "name": "keys",
+            "field": 1,
+            "wire": 2,
+            "defaultKind": "array",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          }
+        ]
+      },
+      "GetUserSettingsReply": {
+        "name": "GetUserSettingsReply",
+        "fields": [
+          {
+            "name": "settings",
+            "field": 1,
+            "wire": 2,
+            "defaultKind": "message",
+            "nestedType": "gamepb.userpb.UserSettings",
+            "sampleLength": 2,
+            "tagCount": 1
+          }
+        ]
+      },
+      "BatchGetBasicInfoRequest": {
+        "name": "BatchGetBasicInfoRequest",
+        "fields": [
+          {
+            "name": "open_ids",
+            "field": 1,
+            "wire": 2,
+            "defaultKind": "array",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          }
+        ]
+      },
+      "BatchGetBasicInfoReply": {
+        "name": "BatchGetBasicInfoReply",
+        "fields": [
+          {
+            "name": "basic_infos",
+            "field": 1,
+            "wire": 2,
+            "defaultKind": "array",
+            "nestedType": "gamepb.userpb.BasicInfo",
+            "sampleLength": 2,
+            "tagCount": 1
+          }
+        ]
+      },
+      "ReportArkClickRequest": {
+        "name": "ReportArkClickRequest",
+        "fields": [
+          {
+            "name": "sharer_id",
+            "field": 1,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "sharer_open_id",
+            "field": 2,
+            "wire": 2,
+            "defaultKind": "string",
+            "nestedType": null,
+            "sampleLength": 3,
+            "tagCount": 1
+          },
+          {
+            "name": "scene_id",
+            "field": 3,
+            "wire": 2,
+            "defaultKind": "string",
+            "nestedType": null,
+            "sampleLength": 3,
+            "tagCount": 1
+          },
+          {
+            "name": "share_cfg_id",
+            "field": 4,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "share_key",
+            "field": 5,
+            "wire": 2,
+            "defaultKind": "string",
+            "nestedType": null,
+            "sampleLength": 3,
+            "tagCount": 1
+          },
+          {
+            "name": "ark_biz_type",
+            "field": 6,
+            "wire": 0,
+            "defaultKind": "number",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "ark_biz_param",
+            "field": 7,
+            "wire": 2,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "game_scene_id",
+            "field": 8,
+            "wire": 0,
+            "defaultKind": "number",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          }
+        ]
+      },
+      "ReportArkClickReply": {
+        "name": "ReportArkClickReply",
+        "fields": [
+          {
+            "name": "relation",
+            "field": 1,
+            "wire": 2,
+            "defaultKind": "message",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          }
+        ]
+      },
+      "DecryptOpenDataRequest": {
+        "name": "DecryptOpenDataRequest",
+        "fields": [
+          {
+            "name": "encrypted_data",
+            "field": 1,
+            "wire": 2,
+            "defaultKind": "string",
+            "nestedType": null,
+            "sampleLength": 3,
+            "tagCount": 1
+          },
+          {
+            "name": "iv",
+            "field": 2,
+            "wire": 2,
+            "defaultKind": "string",
+            "nestedType": null,
+            "sampleLength": 3,
+            "tagCount": 1
+          }
+        ]
+      },
+      "DecryptOpenDataReply": {
+        "name": "DecryptOpenDataReply",
+        "fields": [
+          {
+            "name": "json_data",
+            "field": 1,
+            "wire": 2,
+            "defaultKind": "string",
+            "nestedType": null,
+            "sampleLength": 3,
+            "tagCount": 1
+          }
+        ]
+      }
+    },
+    "taskpb": {
+      "ClientReportProgressRequest": {
+        "name": "ClientReportProgressRequest",
+        "fields": [
+          {
+            "name": "task_id",
+            "field": 1,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "progress",
+            "field": 2,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          }
+        ]
+      },
+      "ClientReportProgressReply": {
+        "name": "ClientReportProgressReply",
+        "fields": [
+          {
+            "name": "task_info",
+            "field": 1,
+            "wire": 2,
+            "defaultKind": "message",
+            "nestedType": "gamepb.taskpb.TaskInfo",
+            "sampleLength": 2,
+            "tagCount": 1
+          }
+        ]
+      },
+      "TaskInfoRequest": {
+        "name": "TaskInfoRequest",
+        "fields": [
+          {
+            "name": "global_scene_id",
+            "field": 1,
+            "wire": 0,
+            "defaultKind": "number",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          }
+        ]
+      },
+      "TaskInfoReply": {
+        "name": "TaskInfoReply",
+        "fields": [
+          {
+            "name": "task_info",
+            "field": 1,
+            "wire": 2,
+            "defaultKind": "message",
+            "nestedType": "gamepb.taskpb.TaskInfo",
+            "sampleLength": 2,
+            "tagCount": 1
+          }
+        ]
+      },
+      "Task": {
+        "name": "Task",
+        "fields": [
+          {
+            "name": "id",
+            "field": 1,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "progress",
+            "field": 2,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "is_claimed",
+            "field": 3,
+            "wire": 0,
+            "defaultKind": "boolean",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "is_unlocked",
+            "field": 4,
+            "wire": 0,
+            "defaultKind": "boolean",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "rewards",
+            "field": 5,
+            "wire": 2,
+            "defaultKind": "array",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "total_progress",
+            "field": 6,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "share_multiple",
+            "field": 7,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "params",
+            "field": 8,
+            "wire": 2,
+            "defaultKind": "array",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "desc",
+            "field": 9,
+            "wire": 2,
+            "defaultKind": "string",
+            "nestedType": null,
+            "sampleLength": 3,
+            "tagCount": 1
+          },
+          {
+            "name": "task_type",
+            "field": 10,
+            "wire": 0,
+            "defaultKind": "number",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "group",
+            "field": 11,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "cond_type",
+            "field": 12,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "is_show_text",
+            "field": 13,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "activity_rewards",
+            "field": 14,
+            "wire": 2,
+            "defaultKind": "array",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          }
+        ]
+      },
+      "TaskInfo": {
+        "name": "TaskInfo",
+        "fields": [
+          {
+            "name": "growth_tasks",
+            "field": 1,
+            "wire": 2,
+            "defaultKind": "array",
+            "nestedType": "gamepb.taskpb.Task",
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "daily_tasks",
+            "field": 2,
+            "wire": 2,
+            "defaultKind": "array",
+            "nestedType": "gamepb.taskpb.Task",
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "tasks",
+            "field": 3,
+            "wire": 2,
+            "defaultKind": "array",
+            "nestedType": "gamepb.taskpb.Task",
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "actives",
+            "field": 4,
+            "wire": 2,
+            "defaultKind": "array",
+            "nestedType": "gamepb.taskpb.Active",
+            "sampleLength": 2,
+            "tagCount": 1
+          }
+        ]
+      },
+      "ClaimTaskRewardRequest": {
+        "name": "ClaimTaskRewardRequest",
+        "fields": [
+          {
+            "name": "id",
+            "field": 1,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "do_shared",
+            "field": 2,
+            "wire": 0,
+            "defaultKind": "boolean",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          }
+        ]
+      },
+      "ClaimTaskRewardReply": {
+        "name": "ClaimTaskRewardReply",
+        "fields": [
+          {
+            "name": "items",
+            "field": 1,
+            "wire": 2,
+            "defaultKind": "array",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "task_info",
+            "field": 2,
+            "wire": 2,
+            "defaultKind": "message",
+            "nestedType": "gamepb.taskpb.TaskInfo",
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "compensated_items",
+            "field": 3,
+            "wire": 2,
+            "defaultKind": "array",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          }
+        ]
+      },
+      "BatchClaimTaskRewardRequest": {
+        "name": "BatchClaimTaskRewardRequest",
+        "fields": [
+          {
+            "name": "ids",
+            "field": 1,
+            "wire": 2,
+            "defaultKind": "array",
+            "nestedType": null,
+            "sampleLength": 3,
+            "tagCount": 1
+          }
+        ]
+      },
+      "BatchClaimTaskRewardReply": {
+        "name": "BatchClaimTaskRewardReply",
+        "fields": [
+          {
+            "name": "items",
+            "field": 1,
+            "wire": 2,
+            "defaultKind": "array",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "task_info",
+            "field": 2,
+            "wire": 2,
+            "defaultKind": "message",
+            "nestedType": "gamepb.taskpb.TaskInfo",
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "compensated_items",
+            "field": 3,
+            "wire": 2,
+            "defaultKind": "array",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          }
+        ]
+      },
+      "TaskInfoNotify": {
+        "name": "TaskInfoNotify",
+        "fields": [
+          {
+            "name": "task_info",
+            "field": 1,
+            "wire": 2,
+            "defaultKind": "message",
+            "nestedType": "gamepb.taskpb.TaskInfo",
+            "sampleLength": 2,
+            "tagCount": 1
+          }
+        ]
+      },
+      "ActiveReward": {
+        "name": "ActiveReward",
+        "fields": [
+          {
+            "name": "point_id",
+            "field": 1,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "need_progress",
+            "field": 2,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "status",
+            "field": 3,
+            "wire": 0,
+            "defaultKind": "number",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "rewards",
+            "field": 4,
+            "wire": 2,
+            "defaultKind": "array",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          }
+        ]
+      },
+      "Active": {
+        "name": "Active",
+        "fields": [
+          {
+            "name": "type",
+            "field": 1,
+            "wire": 0,
+            "defaultKind": "number",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "progress",
+            "field": 2,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "rewards",
+            "field": 3,
+            "wire": 2,
+            "defaultKind": "array",
+            "nestedType": "gamepb.taskpb.ActiveReward",
+            "sampleLength": 2,
+            "tagCount": 1
+          }
+        ]
+      },
+      "ClaimDailyRewardRequest": {
+        "name": "ClaimDailyRewardRequest",
+        "fields": [
+          {
+            "name": "type",
+            "field": 1,
+            "wire": 0,
+            "defaultKind": "number",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "point_ids",
+            "field": 2,
+            "wire": 2,
+            "defaultKind": "array",
+            "nestedType": null,
+            "sampleLength": 3,
+            "tagCount": 1
+          }
+        ]
+      },
+      "ClaimDailyRewardReply": {
+        "name": "ClaimDailyRewardReply",
+        "fields": [
+          {
+            "name": "items",
+            "field": 1,
+            "wire": 2,
+            "defaultKind": "array",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "task_info",
+            "field": 2,
+            "wire": 2,
+            "defaultKind": "message",
+            "nestedType": "gamepb.taskpb.TaskInfo",
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "compensated_items",
+            "field": 3,
+            "wire": 2,
+            "defaultKind": "array",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          }
+        ]
+      }
+    },
+    "shoppb": {
+      "ShopProfilesRequest": {
+        "name": "ShopProfilesRequest",
+        "fields": [
+          {
+            "name": "global_scene_id",
+            "field": 1,
+            "wire": 0,
+            "defaultKind": "number",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          }
+        ]
+      },
+      "ShopProfile": {
+        "name": "ShopProfile",
+        "fields": [
+          {
+            "name": "shop_id",
+            "field": 1,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "shop_name",
+            "field": 2,
+            "wire": 2,
+            "defaultKind": "string",
+            "nestedType": null,
+            "sampleLength": 3,
+            "tagCount": 1
+          },
+          {
+            "name": "shop_type",
+            "field": 3,
+            "wire": 0,
+            "defaultKind": "number",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "global_scene_ids",
+            "field": 4,
+            "wire": 2,
+            "defaultKind": "array",
+            "nestedType": null,
+            "sampleLength": 3,
+            "tagCount": 1
+          }
+        ]
+      },
+      "ShopProfilesReply": {
+        "name": "ShopProfilesReply",
+        "fields": [
+          {
+            "name": "shop_profiles",
+            "field": 1,
+            "wire": 2,
+            "defaultKind": "array",
+            "nestedType": "gamepb.shoppb.ShopProfile",
+            "sampleLength": 2,
+            "tagCount": 1
+          }
+        ]
+      },
+      "ShopInfoRequest": {
+        "name": "ShopInfoRequest",
+        "fields": [
+          {
+            "name": "shop_id",
+            "field": 1,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          }
+        ]
+      },
+      "ShopInfoReply": {
+        "name": "ShopInfoReply",
+        "fields": [
+          {
+            "name": "goods_list",
+            "field": 1,
+            "wire": 2,
+            "defaultKind": "array",
+            "nestedType": "gamepb.shoppb.GoodsInfo",
+            "sampleLength": 2,
+            "tagCount": 1
+          }
+        ]
+      },
+      "BuyGoodsRequest": {
+        "name": "BuyGoodsRequest",
+        "fields": [
+          {
+            "name": "goods_id",
+            "field": 1,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "num",
+            "field": 2,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "price",
+            "field": 3,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "auto_add",
+            "field": 4,
+            "wire": 0,
+            "defaultKind": "boolean",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          }
+        ]
+      },
+      "BuyGoodsReply": {
+        "name": "BuyGoodsReply",
+        "fields": [
+          {
+            "name": "goods",
+            "field": 1,
+            "wire": 2,
+            "defaultKind": "message",
+            "nestedType": "gamepb.shoppb.GoodsInfo",
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "get_items",
+            "field": 2,
+            "wire": 2,
+            "defaultKind": "array",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "cost_items",
+            "field": 3,
+            "wire": 2,
+            "defaultKind": "array",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          }
+        ]
+      },
+      "GoodsInfo": {
+        "name": "GoodsInfo",
+        "fields": [
+          {
+            "name": "id",
+            "field": 1,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "bought_num",
+            "field": 2,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "price",
+            "field": 3,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "limit_count",
+            "field": 4,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "unlocked",
+            "field": 5,
+            "wire": 0,
+            "defaultKind": "boolean",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "item_id",
+            "field": 6,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "item_count",
+            "field": 7,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "conds",
+            "field": 8,
+            "wire": 2,
+            "defaultKind": "array",
+            "nestedType": "gamepb.shoppb.Cond",
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "is_display_countdown",
+            "field": 9,
+            "wire": 0,
+            "defaultKind": "boolean",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "end_time",
+            "field": 10,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "discount_price",
+            "field": 11,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "discount_start_time",
+            "field": 12,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "discount_end_time",
+            "field": 13,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "show_conds",
+            "field": 14,
+            "wire": 2,
+            "defaultKind": "array",
+            "nestedType": "gamepb.shoppb.ShowCond",
+            "sampleLength": 2,
+            "tagCount": 1
+          }
+        ]
+      },
+      "ShowCond": {
+        "name": "ShowCond",
+        "fields": [
+          {
+            "name": "type",
+            "field": 1,
+            "wire": 2,
+            "defaultKind": "string",
+            "nestedType": null,
+            "sampleLength": 3,
+            "tagCount": 1
+          },
+          {
+            "name": "params",
+            "field": 2,
+            "wire": 2,
+            "defaultKind": "string",
+            "nestedType": null,
+            "sampleLength": 3,
+            "tagCount": 1
+          }
+        ]
+      },
+      "Cond": {
+        "name": "Cond",
+        "fields": [
+          {
+            "name": "type",
+            "field": 1,
+            "wire": 0,
+            "defaultKind": "number",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "param",
+            "field": 2,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          }
+        ]
+      },
+      "GoodsUnlockNotify": {
+        "name": "GoodsUnlockNotify",
+        "fields": [
+          {
+            "name": "goods_list",
+            "field": 1,
+            "wire": 2,
+            "defaultKind": "array",
+            "nestedType": "gamepb.shoppb.GoodsInfo",
+            "sampleLength": 2,
+            "tagCount": 1
+          }
+        ]
+      }
+    },
+    "mallpb": {
+      "GetMallProfilesRequest": {
+        "name": "GetMallProfilesRequest",
+        "fields": [
+          {
+            "name": "global_scene_id",
+            "field": 1,
+            "wire": 0,
+            "defaultKind": "number",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          }
+        ]
+      },
+      "GetMallProfilesReply": {
+        "name": "GetMallProfilesReply",
+        "fields": [
+          {
+            "name": "mall_profiles",
+            "field": 1,
+            "wire": 2,
+            "defaultKind": "array",
+            "nestedType": "gamepb.mallpb.MallProfile",
+            "sampleLength": 2,
+            "tagCount": 1
+          }
+        ]
+      },
+      "GetMallListBySlotTypeRequest": {
+        "name": "GetMallListBySlotTypeRequest",
+        "fields": [
+          {
+            "name": "slot_type",
+            "field": 1,
+            "wire": 0,
+            "defaultKind": "number",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "is_manual_open",
+            "field": 2,
+            "wire": 0,
+            "defaultKind": "boolean",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "global_scene_id",
+            "field": 3,
+            "wire": 0,
+            "defaultKind": "number",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          }
+        ]
+      },
+      "GetMallListBySlotTypeReply": {
+        "name": "GetMallListBySlotTypeReply",
+        "fields": [
+          {
+            "name": "products",
+            "field": 1,
+            "wire": 2,
+            "defaultKind": "array",
+            "nestedType": "gamepb.mallpb.ProductInfo",
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "refresh_time",
+            "field": 2,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          }
+        ]
+      },
+      "GetMonthCardInfosRequest": {
+        "name": "GetMonthCardInfosRequest",
+        "fields": []
+      },
+      "GetMonthCardInfosReply": {
+        "name": "GetMonthCardInfosReply",
+        "fields": [
+          {
+            "name": "month_cards",
+            "field": 1,
+            "wire": 2,
+            "defaultKind": "array",
+            "nestedType": "gamepb.mallpb.MonthCardInfo",
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "refresh_time",
+            "field": 2,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          }
+        ]
+      },
+      "RestrictionInfo": {
+        "name": "RestrictionInfo",
+        "fields": [
+          {
+            "name": "type",
+            "field": 1,
+            "wire": 0,
+            "defaultKind": "number",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "current_count",
+            "field": 2,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "max_count",
+            "field": 3,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          }
+        ]
+      },
+      "PurchaseRequest": {
+        "name": "PurchaseRequest",
+        "fields": [
+          {
+            "name": "id",
+            "field": 1,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "buy_num",
+            "field": 2,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          }
+        ]
+      },
+      "PurchaseReply": {
+        "name": "PurchaseReply",
+        "fields": [
+          {
+            "name": "id",
+            "field": 1,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "success",
+            "field": 2,
+            "wire": 0,
+            "defaultKind": "boolean",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "reward_items",
+            "field": 3,
+            "wire": 2,
+            "defaultKind": "array",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "is_first_buy",
+            "field": 4,
+            "wire": 0,
+            "defaultKind": "boolean",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "restriction",
+            "field": 5,
+            "wire": 2,
+            "defaultKind": "message",
+            "nestedType": "gamepb.mallpb.RestrictionInfo",
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "share_free",
+            "field": 6,
+            "wire": 0,
+            "defaultKind": "boolean",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "share",
+            "field": 7,
+            "wire": 2,
+            "defaultKind": "message",
+            "nestedType": "gamepb.mallpb.ShareInfo",
+            "sampleLength": 2,
+            "tagCount": 1
+          }
+        ]
+      },
+      "ClaimMonthCardRewardRequest": {
+        "name": "ClaimMonthCardRewardRequest",
+        "fields": [
+          {
+            "name": "id",
+            "field": 1,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          }
+        ]
+      },
+      "ClaimMonthCardRewardReply": {
+        "name": "ClaimMonthCardRewardReply",
+        "fields": [
+          {
+            "name": "reward_items",
+            "field": 1,
+            "wire": 2,
+            "defaultKind": "array",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "month_card",
+            "field": 2,
+            "wire": 2,
+            "defaultKind": "message",
+            "nestedType": "gamepb.mallpb.MonthCardInfo",
+            "sampleLength": 2,
+            "tagCount": 1
+          }
+        ]
+      },
+      "MallProfile": {
+        "name": "MallProfile",
+        "fields": [
+          {
+            "name": "id",
+            "field": 1,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "mall_type",
+            "field": 2,
+            "wire": 0,
+            "defaultKind": "number",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "show_name",
+            "field": 3,
+            "wire": 2,
+            "defaultKind": "string",
+            "nestedType": null,
+            "sampleLength": 3,
+            "tagCount": 1
+          }
+        ]
+      },
+      "ProductInfo": {
+        "name": "ProductInfo",
+        "fields": [
+          {
+            "name": "id",
+            "field": 1,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "name",
+            "field": 2,
+            "wire": 2,
+            "defaultKind": "string",
+            "nestedType": null,
+            "sampleLength": 3,
+            "tagCount": 1
+          },
+          {
+            "name": "slot_type",
+            "field": 3,
+            "wire": 0,
+            "defaultKind": "number",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "items",
+            "field": 4,
+            "wire": 2,
+            "defaultKind": "array",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "price",
+            "field": 5,
+            "wire": 2,
+            "defaultKind": "message",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "is_free",
+            "field": 6,
+            "wire": 0,
+            "defaultKind": "boolean",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "restriction",
+            "field": 7,
+            "wire": 2,
+            "defaultKind": "message",
+            "nestedType": "gamepb.mallpb.RestrictionInfo",
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "is_available_purchase",
+            "field": 8,
+            "wire": 0,
+            "defaultKind": "boolean",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "discount",
+            "field": 9,
+            "wire": 2,
+            "defaultKind": "string",
+            "nestedType": null,
+            "sampleLength": 3,
+            "tagCount": 1
+          },
+          {
+            "name": "is_display_countdown",
+            "field": 10,
+            "wire": 0,
+            "defaultKind": "boolean",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "end_time",
+            "field": 11,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "goods_type",
+            "field": 12,
+            "wire": 0,
+            "defaultKind": "number",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "pic",
+            "field": 13,
+            "wire": 2,
+            "defaultKind": "string",
+            "nestedType": null,
+            "sampleLength": 3,
+            "tagCount": 1
+          },
+          {
+            "name": "discount_price",
+            "field": 14,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "discount_start_time",
+            "field": 15,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "discount_end_time",
+            "field": 16,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 3,
+            "tagCount": 1
+          },
+          {
+            "name": "ad_id",
+            "field": 17,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 3,
+            "tagCount": 1
+          },
+          {
+            "name": "ad_only",
+            "field": 18,
+            "wire": 0,
+            "defaultKind": "boolean",
+            "nestedType": null,
+            "sampleLength": 3,
+            "tagCount": 1
+          },
+          {
+            "name": "share",
+            "field": 19,
+            "wire": 2,
+            "defaultKind": "message",
+            "nestedType": "gamepb.mallpb.ShareInfo",
+            "sampleLength": 3,
+            "tagCount": 1
+          },
+          {
+            "name": "is_owned",
+            "field": 20,
+            "wire": 0,
+            "defaultKind": "boolean",
+            "nestedType": null,
+            "sampleLength": 3,
+            "tagCount": 1
+          },
+          {
+            "name": "bg_pic",
+            "field": 21,
+            "wire": 2,
+            "defaultKind": "string",
+            "nestedType": null,
+            "sampleLength": 4,
+            "tagCount": 1
+          },
+          {
+            "name": "color",
+            "field": 22,
+            "wire": 2,
+            "defaultKind": "string",
+            "nestedType": null,
+            "sampleLength": 4,
+            "tagCount": 1
+          }
+        ]
+      },
+      "ShareInfo": {
+        "name": "ShareInfo",
+        "fields": [
+          {
+            "name": "share_id",
+            "field": 1,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "share_free_count",
+            "field": 2,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "share_status",
+            "field": 3,
+            "wire": 0,
+            "defaultKind": "number",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "share_only",
+            "field": 4,
+            "wire": 0,
+            "defaultKind": "boolean",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          }
+        ]
+      },
+      "NeedNotify": {
+        "name": "NeedNotify",
+        "fields": [
+          {
+            "name": "is_gift_shop_show",
+            "field": 1,
+            "wire": 0,
+            "defaultKind": "boolean",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "is_month_card_shop_show",
+            "field": 2,
+            "wire": 0,
+            "defaultKind": "boolean",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "is_recharge_shop_show",
+            "field": 3,
+            "wire": 0,
+            "defaultKind": "boolean",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "is_month_card_renewal_remind",
+            "field": 4,
+            "wire": 0,
+            "defaultKind": "boolean",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "is_limited_gift_shop_show",
+            "field": 5,
+            "wire": 0,
+            "defaultKind": "boolean",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "limited_gift_shop_count",
+            "field": 6,
+            "wire": 0,
+            "defaultKind": "number",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "is_ranch_gift_shop_show",
+            "field": 7,
+            "wire": 0,
+            "defaultKind": "boolean",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "is_ranch_limited_gift_shop_show",
+            "field": 8,
+            "wire": 0,
+            "defaultKind": "boolean",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "ranch_limited_gift_shop_count",
+            "field": 9,
+            "wire": 0,
+            "defaultKind": "number",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          }
+        ]
+      },
+      "MallMsg": {
+        "name": "MallMsg",
+        "fields": [
+          {
+            "name": "is_gift_shop_show",
+            "field": 1,
+            "wire": 0,
+            "defaultKind": "boolean",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "is_month_card_shop_show",
+            "field": 2,
+            "wire": 0,
+            "defaultKind": "boolean",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "is_recharge_shop_show",
+            "field": 3,
+            "wire": 0,
+            "defaultKind": "boolean",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "is_first_login",
+            "field": 4,
+            "wire": 0,
+            "defaultKind": "boolean",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "is_month_card_renewal_remind",
+            "field": 5,
+            "wire": 0,
+            "defaultKind": "boolean",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "is_limited_gift_shop_show",
+            "field": 6,
+            "wire": 0,
+            "defaultKind": "boolean",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "limited_gift_shop_count",
+            "field": 7,
+            "wire": 0,
+            "defaultKind": "number",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "is_ranch_gift_shop_show",
+            "field": 8,
+            "wire": 0,
+            "defaultKind": "boolean",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "is_ranch_limited_gift_shop_show",
+            "field": 9,
+            "wire": 0,
+            "defaultKind": "boolean",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "ranch_limited_gift_shop_count",
+            "field": 10,
+            "wire": 0,
+            "defaultKind": "number",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          }
+        ]
+      },
+      "MonthCardInfoNTF": {
+        "name": "MonthCardInfoNTF",
+        "fields": [
+          {
+            "name": "month_card",
+            "field": 1,
+            "wire": 2,
+            "defaultKind": "message",
+            "nestedType": "gamepb.mallpb.MonthCardInfo",
+            "sampleLength": 2,
+            "tagCount": 1
+          }
+        ]
+      },
+      "MonthCardInfo": {
+        "name": "MonthCardInfo",
+        "fields": [
+          {
+            "name": "id",
+            "field": 1,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "reward_items",
+            "field": 2,
+            "wire": 2,
+            "defaultKind": "array",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "has_reward_items",
+            "field": 3,
+            "wire": 0,
+            "defaultKind": "boolean",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "remaining_days",
+            "field": 4,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "count",
+            "field": 5,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "total_count",
+            "field": 6,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "is_active",
+            "field": 7,
+            "wire": 0,
+            "defaultKind": "boolean",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "price",
+            "field": 8,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "duration_days",
+            "field": 9,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "pay_product_id",
+            "field": 10,
+            "wire": 2,
+            "defaultKind": "string",
+            "nestedType": null,
+            "sampleLength": 3,
+            "tagCount": 1
+          },
+          {
+            "name": "active_rewards",
+            "field": 11,
+            "wire": 2,
+            "defaultKind": "array",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "has_active_rewards",
+            "field": 12,
+            "wire": 0,
+            "defaultKind": "boolean",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "can_buy",
+            "field": 13,
+            "wire": 0,
+            "defaultKind": "boolean",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          }
+        ]
+      },
+      "ProductsHasChangedNotify": {
+        "name": "ProductsHasChangedNotify",
+        "fields": [
+          {
+            "name": "is_changed",
+            "field": 1,
+            "wire": 0,
+            "defaultKind": "boolean",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "slot_types",
+            "field": 2,
+            "wire": 2,
+            "defaultKind": "array",
+            "nestedType": null,
+            "sampleLength": 3,
+            "tagCount": 1
+          }
+        ]
+      },
+      "AdPurchasedNotify": {
+        "name": "AdPurchasedNotify",
+        "fields": [
+          {
+            "name": "product_id",
+            "field": 1,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "buy_num",
+            "field": 2,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "items",
+            "field": 3,
+            "wire": 2,
+            "defaultKind": "array",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "is_first_buy",
+            "field": 4,
+            "wire": 0,
+            "defaultKind": "boolean",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "restriction",
+            "field": 5,
+            "wire": 2,
+            "defaultKind": "message",
+            "nestedType": "gamepb.mallpb.RestrictionInfo",
+            "sampleLength": 2,
+            "tagCount": 1
+          }
+        ]
+      },
+      "ShareFreeCountNotify": {
+        "name": "ShareFreeCountNotify",
+        "fields": [
+          {
+            "name": "product_id",
+            "field": 1,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "share",
+            "field": 2,
+            "wire": 2,
+            "defaultKind": "message",
+            "nestedType": "gamepb.mallpb.ShareInfo",
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "invitee_gid",
+            "field": 3,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "restriction",
+            "field": 4,
+            "wire": 2,
+            "defaultKind": "message",
+            "nestedType": "gamepb.mallpb.RestrictionInfo",
+            "sampleLength": 2,
+            "tagCount": 1
+          }
+        ]
+      }
+    },
+    "qqvippb": {
+      "GetDailyGiftStatusRequest": {
+        "name": "GetDailyGiftStatusRequest",
+        "fields": []
+      },
+      "GetDailyGiftStatusReply": {
+        "name": "GetDailyGiftStatusReply",
+        "fields": [
+          {
+            "name": "is_qq_vip",
+            "field": 1,
+            "wire": 0,
+            "defaultKind": "boolean",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "can_claim",
+            "field": 2,
+            "wire": 0,
+            "defaultKind": "boolean",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "claimed_today",
+            "field": 3,
+            "wire": 0,
+            "defaultKind": "boolean",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "rewards",
+            "field": 4,
+            "wire": 2,
+            "defaultKind": "array",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          }
+        ]
+      },
+      "QQVipConfig": {
+        "name": "QQVipConfig",
+        "fields": [
+          {
+            "name": "type",
+            "field": 1,
+            "wire": 0,
+            "defaultKind": "number",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "rewards",
+            "field": 2,
+            "wire": 2,
+            "defaultKind": "array",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "is_enable",
+            "field": 3,
+            "wire": 0,
+            "defaultKind": "boolean",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "season_id",
+            "field": 4,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "id",
+            "field": 5,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "reward_multiplier",
+            "field": 6,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "act_start_time",
+            "field": 7,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "act_end_time",
+            "field": 8,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          }
+        ]
+      },
+      "ClaimDailyGiftRequest": {
+        "name": "ClaimDailyGiftRequest",
+        "fields": [
+          {
+            "name": "config_id",
+            "field": 1,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          }
+        ]
+      },
+      "ClaimDailyGiftReply": {
+        "name": "ClaimDailyGiftReply",
+        "fields": [
+          {
+            "name": "rewards",
+            "field": 1,
+            "wire": 2,
+            "defaultKind": "array",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          }
+        ]
+      },
+      "RefreshVipInfoRequest": {
+        "name": "RefreshVipInfoRequest",
+        "fields": []
+      },
+      "RefreshVipInfoReply": {
+        "name": "RefreshVipInfoReply",
+        "fields": []
+      },
+      "DailyGiftStatusChangedNTF": {
+        "name": "DailyGiftStatusChangedNTF",
+        "fields": [
+          {
+            "name": "is_qq_vip",
+            "field": 1,
+            "wire": 0,
+            "defaultKind": "boolean",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "can_claim",
+            "field": 2,
+            "wire": 0,
+            "defaultKind": "boolean",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "claimed_today",
+            "field": 3,
+            "wire": 0,
+            "defaultKind": "boolean",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "rewards_can_claim",
+            "field": 4,
+            "wire": 0,
+            "defaultKind": "boolean",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "mall_free_can_claim",
+            "field": 5,
+            "wire": 0,
+            "defaultKind": "boolean",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          }
+        ]
+      },
+      "VipInfoUpdatedNTF": {
+        "name": "VipInfoUpdatedNTF",
+        "fields": [
+          {
+            "name": "is_qq_vip",
+            "field": 1,
+            "wire": 0,
+            "defaultKind": "boolean",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "vip_level",
+            "field": 2,
+            "wire": 0,
+            "defaultKind": "number",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          }
+        ]
+      },
+      "ClaimQQVipRewardsRequest": {
+        "name": "ClaimQQVipRewardsRequest",
+        "fields": [
+          {
+            "name": "config_ids",
+            "field": 1,
+            "wire": 2,
+            "defaultKind": "array",
+            "nestedType": null,
+            "sampleLength": 3,
+            "tagCount": 1
+          }
+        ]
+      },
+      "ClaimQQVipRewardsReply": {
+        "name": "ClaimQQVipRewardsReply",
+        "fields": [
+          {
+            "name": "granted_skin_item_ids",
+            "field": 1,
+            "wire": 2,
+            "defaultKind": "array",
+            "nestedType": null,
+            "sampleLength": 3,
+            "tagCount": 1
+          },
+          {
+            "name": "granted_avatar_frame_item_ids",
+            "field": 2,
+            "wire": 2,
+            "defaultKind": "array",
+            "nestedType": null,
+            "sampleLength": 3,
+            "tagCount": 1
+          },
+          {
+            "name": "rewards",
+            "field": 3,
+            "wire": 2,
+            "defaultKind": "array",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          }
+        ]
+      },
+      "GetQQVipRewardsStatusRequest": {
+        "name": "GetQQVipRewardsStatusRequest",
+        "fields": []
+      },
+      "MarkQQVipRedpointViewedRequest": {
+        "name": "MarkQQVipRedpointViewedRequest",
+        "fields": []
+      },
+      "MarkQQVipRedpointViewedReply": {
+        "name": "MarkQQVipRedpointViewedReply",
+        "fields": []
+      },
+      "GetQQVipRewardsStatusReply": {
+        "name": "GetQQVipRewardsStatusReply",
+        "fields": [
+          {
+            "name": "is_qq_vip",
+            "field": 1,
+            "wire": 0,
+            "defaultKind": "boolean",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "can_claim",
+            "field": 2,
+            "wire": 0,
+            "defaultKind": "boolean",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "claimed_today",
+            "field": 3,
+            "wire": 0,
+            "defaultKind": "boolean",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "rewards_can_claim",
+            "field": 4,
+            "wire": 0,
+            "defaultKind": "boolean",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "active_configs",
+            "field": 5,
+            "wire": 2,
+            "defaultKind": "array",
+            "nestedType": "gamepb.qqvippb.QQVipConfig",
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "has_redpoint",
+            "field": 6,
+            "wire": 0,
+            "defaultKind": "boolean",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "remaining_days",
+            "field": 7,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "days_remaining_reminder",
+            "field": 8,
+            "wire": 0,
+            "defaultKind": "object",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          },
+          {
+            "name": "mall_free_can_claim",
+            "field": 9,
+            "wire": 0,
+            "defaultKind": "boolean",
+            "nestedType": null,
+            "sampleLength": 2,
+            "tagCount": 1
+          }
+        ]
+      }
+    }
+  },
+  "envelope": {
+    "Message": {
+      "name": "Message",
+      "fields": [
+        {
+          "name": "meta",
+          "field": 1,
+          "wire": 2,
+          "defaultKind": "message",
+          "nestedType": "gatepb.Meta",
+          "sampleLength": 2,
+          "tagCount": 1
+        },
+        {
+          "name": "body",
+          "field": 2,
+          "wire": 2,
+          "defaultKind": "object",
+          "nestedType": null,
+          "sampleLength": 2,
+          "tagCount": 1
+        },
+        {
+          "name": "token",
+          "field": 3,
+          "wire": 2,
+          "defaultKind": "string",
+          "nestedType": null,
+          "sampleLength": 3,
+          "tagCount": 1
+        }
+      ]
+    },
+    "Meta": {
+      "name": "Meta",
+      "fields": [
+        {
+          "name": "service_name",
+          "field": 1,
+          "wire": 2,
+          "defaultKind": "string",
+          "nestedType": null,
+          "sampleLength": 3,
+          "tagCount": 1
+        },
+        {
+          "name": "method_name",
+          "field": 2,
+          "wire": 2,
+          "defaultKind": "string",
+          "nestedType": null,
+          "sampleLength": 3,
+          "tagCount": 1
+        },
+        {
+          "name": "message_type",
+          "field": 3,
+          "wire": 0,
+          "defaultKind": "number",
+          "nestedType": null,
+          "sampleLength": 2,
+          "tagCount": 1
+        },
+        {
+          "name": "client_seq",
+          "field": 4,
+          "wire": 0,
+          "defaultKind": "object",
+          "nestedType": null,
+          "sampleLength": 2,
+          "tagCount": 1
+        },
+        {
+          "name": "server_seq",
+          "field": 5,
+          "wire": 0,
+          "defaultKind": "object",
+          "nestedType": null,
+          "sampleLength": 2,
+          "tagCount": 1
+        },
+        {
+          "name": "error_code",
+          "field": 6,
+          "wire": 0,
+          "defaultKind": "object",
+          "nestedType": null,
+          "sampleLength": 2,
+          "tagCount": 1
+        },
+        {
+          "name": "error_message",
+          "field": 7,
+          "wire": 2,
+          "defaultKind": "string",
+          "nestedType": null,
+          "sampleLength": 3,
+          "tagCount": 1
+        },
+        {
+          "name": "metadata",
+          "field": 8,
+          "wire": 2,
+          "defaultKind": "object",
+          "nestedType": null,
+          "sampleLength": 12,
+          "tagCount": 1
+        }
+      ]
+    },
+    "EventMessage": {
+      "name": "EventMessage",
+      "fields": [
+        {
+          "name": "message_type",
+          "field": 1,
+          "wire": 2,
+          "defaultKind": "string",
+          "nestedType": null,
+          "sampleLength": 3,
+          "tagCount": 1
+        },
+        {
+          "name": "body",
+          "field": 2,
+          "wire": 2,
+          "defaultKind": "object",
+          "nestedType": null,
+          "sampleLength": 2,
+          "tagCount": 1
+        }
+      ]
+    },
+    "KickoutNotify": {
+      "name": "KickoutNotify",
+      "fields": [
+        {
+          "name": "reason",
+          "field": 1,
+          "wire": 0,
+          "defaultKind": "object",
+          "nestedType": null,
+          "sampleLength": 2,
+          "tagCount": 1
+        },
+        {
+          "name": "reason_message",
+          "field": 2,
+          "wire": 2,
+          "defaultKind": "string",
+          "nestedType": null,
+          "sampleLength": 3,
+          "tagCount": 1
+        }
+      ]
+    },
+    "RedirectNotify": {
+      "name": "RedirectNotify",
+      "fields": [
+        {
+          "name": "redirect_to",
+          "field": 1,
+          "wire": 2,
+          "defaultKind": "string",
+          "nestedType": null,
+          "sampleLength": 3,
+          "tagCount": 1
+        }
+      ]
+    }
+  },
+  "gateEnums": {
+    "KickoutReason": {
+      "None": 0,
+      "Elsewhere": 1,
+      "NotOnline": 2,
+      "ServerShutdown": 3,
+      "Stopping": 4,
+      "InternalTestShutdown": 5,
+      "ServerFull": 6,
+      "RegisterLimit": 7,
+      "NotEarlyBird": 8,
+      "Ban": 9,
+      "ClientVersionTooLow": 10,
+      "AccountApplyDelete": 11
+    },
+    "Error": {
+      "OK": 0,
+      "ErrSystem": 1020001,
+      "ErrUnknownMethod": 1020002,
+      "ErrUnavailable": 1020003,
+      "ErrRequestTimeout": 1020004,
+      "ErrLoginAgain": 1020005,
+      "ErrRedirect": 1020006,
+      "ErrLoginElsewhere": 1020007,
+      "ErrProtocolRetry": 1020008,
+      "ErrServerNotOpen": 1020009,
+      "ErrClientSeqWindBack": 1020010,
+      "ErrServerSeqSkipTooMuch": 1020011,
+      "ErrRequestFrequencyTooFast": 1020012,
+      "ErrLoginRateLimited": 1020013,
+      "ErrRequestInProgress": 1020014,
+      "ErrRequestRateLimited": 1020015,
+      "ErrClientVersionLimit": 1020016,
+      "ErrUnrecoverableSeq": 1020017
+    }
+  }
+}

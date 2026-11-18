@@ -1,0 +1,825 @@
+{
+  "schemaVersion": 1,
+  "runtime": "csharp",
+  "day": "2026-11-12",
+  "mode": "execute",
+  "startedAt": "2026-11-11T16:00:01.8892284\u002B00:00",
+  "account": {
+    "gid": "1079370412",
+    "name": "\u9648\u5BBD",
+    "level": 155,
+    "gold": 180629350
+  },
+  "allRequiredComplete": false,
+  "completed": true,
+  "tasksBefore": [
+    {
+      "id": "101062",
+      "desc": "\u5347\u7EA722\u5757\u7D2B\u6676\u571F\u5730",
+      "cond": 22,
+      "progress": 21,
+      "total": 22,
+      "claimed": false,
+      "unlocked": true
+    },
+    {
+      "id": "200019",
+      "desc": "\u6BCF\u65E5\u767B\u5F55\u6E38\u620F",
+      "cond": 16,
+      "progress": 1,
+      "total": 1,
+      "claimed": false,
+      "unlocked": true
+    },
+    {
+      "id": "200020",
+      "desc": "\u91C7\u64581\u6B21\u679C\u5B9E",
+      "cond": 17,
+      "progress": 0,
+      "total": 1,
+      "claimed": false,
+      "unlocked": true
+    },
+    {
+      "id": "200021",
+      "desc": "\u57281\u4E2A\u597D\u53CB\u519C\u573A\u8FDB\u884C\u4E92\u52A8",
+      "cond": 18,
+      "progress": 0,
+      "total": 1,
+      "claimed": false,
+      "unlocked": true
+    }
+  ],
+  "selectedSeed": {
+    "id": 20124,
+    "goodsId": 161,
+    "requiredLevel": 154
+  },
+  "fertilizerDecision": {
+    "needSec": 161640,
+    "phaseAt": 1794410897,
+    "ready": false,
+    "sufficient": false,
+    "batchFertilizeAt": 0,
+    "pointsCost": 0,
+    "purchases": [],
+    "groups": [],
+    "normalBucketSec": 1253,
+    "organicBucketSec": 529,
+    "normalBagSec": 25200,
+    "organicBagSec": 0,
+    "points": 56,
+    "ownedTotalSec": 26982,
+    "unresolvedBoxes": 0,
+    "waitNatural": true,
+    "offers": [
+      {
+        "id": 1002,
+        "price": 42,
+        "normalSec": 0,
+        "organicSec": 36000,
+        "remaining": null,
+        "slot": 1
+      },
+      {
+        "id": 1003,
+        "price": 34,
+        "normalSec": 36000,
+        "organicSec": 0,
+        "remaining": null,
+        "slot": 1
+      }
+    ]
+  },
+  "farm": {
+    "mode": "whole-farm",
+    "harvest": {
+      "attempted": 0,
+      "verified": 0
+    },
+    "planted": {
+      "attempted": 0,
+      "verified": 0
+    },
+    "dead": {
+      "found": 0,
+      "cleared": 0
+    },
+    "totalLands": 24,
+    "occupied": 24
+  },
+  "friendHarvest": {
+    "host": "1032823421",
+    "land": 2,
+    "taskProgressVerified": true
+  },
+  "tasksAfter": [
+    {
+      "id": "101062",
+      "desc": "\u5347\u7EA722\u5757\u7D2B\u6676\u571F\u5730",
+      "cond": 22,
+      "progress": 21,
+      "total": 22,
+      "claimed": false,
+      "unlocked": true
+    },
+    {
+      "id": "200019",
+      "desc": "\u6BCF\u65E5\u767B\u5F55\u6E38\u620F",
+      "cond": 16,
+      "progress": 1,
+      "total": 1,
+      "claimed": true,
+      "unlocked": true
+    },
+    {
+      "id": "200020",
+      "desc": "\u91C7\u64581\u6B21\u679C\u5B9E",
+      "cond": 17,
+      "progress": 1,
+      "total": 1,
+      "claimed": true,
+      "unlocked": true
+    },
+    {
+      "id": "200021",
+      "desc": "\u57281\u4E2A\u597D\u53CB\u519C\u573A\u8FDB\u884C\u4E92\u52A8",
+      "cond": 18,
+      "progress": 1,
+      "total": 1,
+      "claimed": true,
+      "unlocked": true
+    }
+  ],
+  "daily": {
+    "observed": 3,
+    "claimed": 3,
+    "complete": true,
+    "tasks": [
+      {
+        "id": "200019",
+        "desc": "\u6BCF\u65E5\u767B\u5F55\u6E38\u620F",
+        "cond": 16,
+        "progress": 1,
+        "total": 1,
+        "claimed": true,
+        "unlocked": true
+      },
+      {
+        "id": "200020",
+        "desc": "\u91C7\u64581\u6B21\u679C\u5B9E",
+        "cond": 17,
+        "progress": 1,
+        "total": 1,
+        "claimed": true,
+        "unlocked": true
+      },
+      {
+        "id": "200021",
+        "desc": "\u57281\u4E2A\u597D\u53CB\u519C\u573A\u8FDB\u884C\u4E92\u52A8",
+        "cond": 18,
+        "progress": 1,
+        "total": 1,
+        "claimed": true,
+        "unlocked": true
+      }
+    ]
+  },
+  "freeProducts": [
+    {
+      "id": 1001,
+      "name": "\u6BCF\u65E5\u798F\u5229",
+      "fertilizer": true,
+      "available": true,
+      "purchased": true,
+      "exhausted": true,
+      "verified": true,
+      "items": [
+        {
+          "id": 80001,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 1064,
+      "name": "\u5976\u8336\u5206\u4EAB\u793C\u5305",
+      "fertilizer": false,
+      "available": false,
+      "purchased": false,
+      "exhausted": false,
+      "verified": false,
+      "items": [
+        {
+          "id": 29005,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 1053,
+      "name": "SVIP\u5546\u57CE\u6BCF\u65E5\u514D\u8D39",
+      "fertilizer": true,
+      "available": false,
+      "purchased": false,
+      "exhausted": false,
+      "verified": false,
+      "items": [
+        {
+          "id": 80001,
+          "count": 1
+        }
+      ]
+    }
+  ],
+  "fertilizer": {
+    "needSec": 161592,
+    "phaseAt": 1794410897,
+    "ready": false,
+    "sufficient": false,
+    "batchFertilizeAt": 0,
+    "pointsCost": 0,
+    "purchases": [],
+    "groups": [
+      {
+        "fertilizerId": 1011,
+        "landIds": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24
+        ],
+        "needSec": 161592
+      }
+    ],
+    "normalBucketSec": 1253,
+    "organicBucketSec": 529,
+    "normalBagSec": 28800,
+    "organicBagSec": 0,
+    "points": 206,
+    "ownedTotalSec": 30582,
+    "unresolvedBoxes": 0,
+    "waitNatural": true,
+    "offers": [
+      {
+        "id": 1002,
+        "price": 42,
+        "normalSec": 0,
+        "organicSec": 36000,
+        "remaining": null,
+        "slot": 1
+      },
+      {
+        "id": 1003,
+        "price": 34,
+        "normalSec": 36000,
+        "organicSec": 0,
+        "remaining": null,
+        "slot": 1
+      }
+    ]
+  },
+  "cropClock": {
+    "minMatureAt": 1794419537,
+    "lastGrowAt": 0,
+    "planted": 24,
+    "lands": [
+      {
+        "id": 1,
+        "crop": "\u6708\u5B63\u82B1",
+        "phase": 2,
+        "matureAt": 1794419537,
+        "growAt": 1794410897
+      },
+      {
+        "id": 2,
+        "crop": "\u6708\u5B63\u82B1",
+        "phase": 2,
+        "matureAt": 1794419537,
+        "growAt": 1794410897
+      },
+      {
+        "id": 3,
+        "crop": "\u6708\u5B63\u82B1",
+        "phase": 2,
+        "matureAt": 1794419537,
+        "growAt": 1794410897
+      },
+      {
+        "id": 4,
+        "crop": "\u6708\u5B63\u82B1",
+        "phase": 2,
+        "matureAt": 1794419537,
+        "growAt": 1794410897
+      },
+      {
+        "id": 5,
+        "crop": "\u6708\u5B63\u82B1",
+        "phase": 2,
+        "matureAt": 1794419537,
+        "growAt": 1794410897
+      },
+      {
+        "id": 6,
+        "crop": "\u6708\u5B63\u82B1",
+        "phase": 2,
+        "matureAt": 1794419537,
+        "growAt": 1794410897
+      },
+      {
+        "id": 7,
+        "crop": "\u6708\u5B63\u82B1",
+        "phase": 2,
+        "matureAt": 1794419537,
+        "growAt": 1794410897
+      },
+      {
+        "id": 8,
+        "crop": "\u6708\u5B63\u82B1",
+        "phase": 2,
+        "matureAt": 1794419537,
+        "growAt": 1794410897
+      },
+      {
+        "id": 9,
+        "crop": "\u6708\u5B63\u82B1",
+        "phase": 2,
+        "matureAt": 1794419537,
+        "growAt": 1794410897
+      },
+      {
+        "id": 10,
+        "crop": "\u6708\u5B63\u82B1",
+        "phase": 2,
+        "matureAt": 1794419537,
+        "growAt": 1794410897
+      },
+      {
+        "id": 11,
+        "crop": "\u6708\u5B63\u82B1",
+        "phase": 2,
+        "matureAt": 1794419537,
+        "growAt": 1794410897
+      },
+      {
+        "id": 12,
+        "crop": "\u6708\u5B63\u82B1",
+        "phase": 2,
+        "matureAt": 1794419537,
+        "growAt": 1794410897
+      },
+      {
+        "id": 13,
+        "crop": "\u6708\u5B63\u82B1",
+        "phase": 2,
+        "matureAt": 1794419537,
+        "growAt": 1794410897
+      },
+      {
+        "id": 14,
+        "crop": "\u6708\u5B63\u82B1",
+        "phase": 2,
+        "matureAt": 1794419537,
+        "growAt": 1794410897
+      },
+      {
+        "id": 15,
+        "crop": "\u6708\u5B63\u82B1",
+        "phase": 2,
+        "matureAt": 1794419537,
+        "growAt": 1794410897
+      },
+      {
+        "id": 16,
+        "crop": "\u6708\u5B63\u82B1",
+        "phase": 2,
+        "matureAt": 1794419537,
+        "growAt": 1794410897
+      },
+      {
+        "id": 17,
+        "crop": "\u6708\u5B63\u82B1",
+        "phase": 2,
+        "matureAt": 1794419537,
+        "growAt": 1794410897
+      },
+      {
+        "id": 18,
+        "crop": "\u6708\u5B63\u82B1",
+        "phase": 2,
+        "matureAt": 1794419537,
+        "growAt": 1794410897
+      },
+      {
+        "id": 19,
+        "crop": "\u6708\u5B63\u82B1",
+        "phase": 2,
+        "matureAt": 1794419537,
+        "growAt": 1794410897
+      },
+      {
+        "id": 20,
+        "crop": "\u6708\u5B63\u82B1",
+        "phase": 2,
+        "matureAt": 1794419537,
+        "growAt": 1794410897
+      },
+      {
+        "id": 21,
+        "crop": "\u6708\u5B63\u82B1",
+        "phase": 2,
+        "matureAt": 1794419537,
+        "growAt": 1794410897
+      },
+      {
+        "id": 22,
+        "crop": "\u6708\u5B63\u82B1",
+        "phase": 2,
+        "matureAt": 1794419537,
+        "growAt": 1794410897
+      },
+      {
+        "id": 23,
+        "crop": "\u6708\u5B63\u82B1",
+        "phase": 2,
+        "matureAt": 1794419537,
+        "growAt": 1794410897
+      },
+      {
+        "id": 24,
+        "crop": "\u6708\u5B63\u82B1",
+        "phase": 2,
+        "matureAt": 1794419537,
+        "growAt": 1794410897
+      }
+    ],
+    "batchMatureAt": 1794419537,
+    "batchFertilizeAt": 0,
+    "deadCount": 0,
+    "ripeCount": 0,
+    "mode": "whole-farm",
+    "fertilizerNeedSec": 161592
+  },
+  "finishedAt": "2026-11-11T16:00:04.6308389\u002B00:00",
+  "fertilizerDecisionState": {
+    "cycleKey": "1:1020124:1794419537|2:1020124:1794419537|3:1020124:1794419537|4:1020124:1794419537|5:1020124:1794419537|6:1020124:1794419537|7:1020124:1794419537|8:1020124:1794419537|9:1020124:1794419537|10:1020124:1794419537|11:1020124:1794419537|12:1020124:1794419537|13:1020124:1794419537|14:1020124:1794419537|15:1020124:1794419537|16:1020124:1794419537|17:1020124:1794419537|18:1020124:1794419537|19:1020124:1794419537|20:1020124:1794419537|21:1020124:1794419537|22:1020124:1794419537|23:1020124:1794419537|24:1020124:1794419537",
+    "waitNatural": true,
+    "decidedAt": 1794412803
+  },
+  "status": "incomplete",
+  "checks": [
+    {
+      "id": "login",
+      "status": "passed",
+      "detail": "Login and PlayerLogin accepted by server"
+    },
+    {
+      "id": "care-WaterLand",
+      "status": "passed",
+      "detail": {
+        "attempted": 1
+      }
+    },
+    {
+      "id": "care-WeedOut",
+      "status": "passed",
+      "detail": {
+        "attempted": 2
+      }
+    },
+    {
+      "id": "care-Insecticide",
+      "status": "passed",
+      "detail": {
+        "attempted": 1
+      }
+    },
+    {
+      "id": "seed-selection",
+      "status": "passed",
+      "detail": {
+        "id": 20124,
+        "goodsId": 161,
+        "requiredLevel": 154
+      }
+    },
+    {
+      "id": "fertilize",
+      "status": "not-due",
+      "detail": {
+        "reason": "wait-for-natural-maturity",
+        "needSec": 161640,
+        "ownedSec": 26982,
+        "pointsCost": 0,
+        "batchFertilizeAt": 0
+      }
+    },
+    {
+      "id": "harvest",
+      "status": "not-due",
+      "detail": "Waiting for the entire batch to mature"
+    },
+    {
+      "id": "replant",
+      "status": "not-due",
+      "detail": "Waiting for the whole batch to be harvested"
+    },
+    {
+      "id": "friend-harvest",
+      "status": "passed",
+      "detail": {
+        "accepted": true,
+        "taskProgressVerified": true,
+        "attempts": [
+          {
+            "host": "1176327083",
+            "error": "Harvest: 1001040"
+          }
+        ]
+      }
+    },
+    {
+      "id": "task-login",
+      "status": "passed",
+      "detail": {
+        "id": "200019",
+        "desc": "\u6BCF\u65E5\u767B\u5F55\u6E38\u620F",
+        "cond": 16,
+        "progress": 1,
+        "total": 1,
+        "claimed": true,
+        "unlocked": true
+      }
+    },
+    {
+      "id": "task-harvest",
+      "status": "passed",
+      "detail": {
+        "id": "200020",
+        "desc": "\u91C7\u64581\u6B21\u679C\u5B9E",
+        "cond": 17,
+        "progress": 1,
+        "total": 1,
+        "claimed": true,
+        "unlocked": true
+      }
+    },
+    {
+      "id": "task-friend",
+      "status": "passed",
+      "detail": {
+        "id": "200021",
+        "desc": "\u57281\u4E2A\u597D\u53CB\u519C\u573A\u8FDB\u884C\u4E92\u52A8",
+        "cond": 18,
+        "progress": 1,
+        "total": 1,
+        "claimed": true,
+        "unlocked": true
+      }
+    },
+    {
+      "id": "daily-tasks",
+      "status": "passed",
+      "detail": [
+        {
+          "id": "200019",
+          "desc": "\u6BCF\u65E5\u767B\u5F55\u6E38\u620F",
+          "cond": 16,
+          "progress": 1,
+          "total": 1,
+          "claimed": true,
+          "unlocked": true
+        },
+        {
+          "id": "200020",
+          "desc": "\u91C7\u64581\u6B21\u679C\u5B9E",
+          "cond": 17,
+          "progress": 1,
+          "total": 1,
+          "claimed": true,
+          "unlocked": true
+        },
+        {
+          "id": "200021",
+          "desc": "\u57281\u4E2A\u597D\u53CB\u519C\u573A\u8FDB\u884C\u4E92\u52A8",
+          "cond": 18,
+          "progress": 1,
+          "total": 1,
+          "claimed": true,
+          "unlocked": true
+        }
+      ]
+    },
+    {
+      "id": "vip-daily",
+      "status": "passed",
+      "detail": "Server confirms claimed_today"
+    },
+    {
+      "id": "vip-rewards",
+      "status": "not-applicable",
+      "detail": "Server reports reward unavailable"
+    },
+    {
+      "id": "free-fertilizer",
+      "status": "unverified",
+      "detail": {
+        "reason": "product-and-limit-recheck",
+        "products": [
+          {
+            "id": 1001,
+            "name": "\u6BCF\u65E5\u798F\u5229",
+            "fertilizer": true,
+            "available": true,
+            "purchased": true,
+            "exhausted": true,
+            "verified": true,
+            "items": [
+              {
+                "id": 80001,
+                "count": 1
+              }
+            ]
+          },
+          {
+            "id": 1064,
+            "name": "\u5976\u8336\u5206\u4EAB\u793C\u5305",
+            "fertilizer": false,
+            "available": false,
+            "purchased": false,
+            "exhausted": false,
+            "verified": false,
+            "items": [
+              {
+                "id": 29005,
+                "count": 1
+              }
+            ]
+          },
+          {
+            "id": 1053,
+            "name": "SVIP\u5546\u57CE\u6BCF\u65E5\u514D\u8D39",
+            "fertilizer": true,
+            "available": false,
+            "purchased": false,
+            "exhausted": false,
+            "verified": false,
+            "items": [
+              {
+                "id": 80001,
+                "count": 1
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "free-benefits",
+      "status": "pending",
+      "detail": [
+        {
+          "id": 1001,
+          "name": "\u6BCF\u65E5\u798F\u5229",
+          "fertilizer": true,
+          "available": true,
+          "purchased": true,
+          "exhausted": true,
+          "verified": true,
+          "items": [
+            {
+              "id": 80001,
+              "count": 1
+            }
+          ]
+        },
+        {
+          "id": 1053,
+          "name": "SVIP\u5546\u57CE\u6BCF\u65E5\u514D\u8D39",
+          "fertilizer": true,
+          "available": false,
+          "purchased": false,
+          "exhausted": false,
+          "verified": false,
+          "items": [
+            {
+              "id": 80001,
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "final-state",
+      "status": "passed",
+      "detail": {
+        "total": 24,
+        "planted": 24,
+        "dead": 0,
+        "ripe": 0,
+        "matureRemaining": 0
+      }
+    }
+  ],
+  "operations": [
+    {
+      "method": "WaterLand",
+      "err": 0,
+      "status": "server-accepted",
+      "msg": ""
+    },
+    {
+      "method": "WeedOut",
+      "err": 0,
+      "status": "server-accepted",
+      "msg": ""
+    },
+    {
+      "method": "Insecticide",
+      "err": 0,
+      "status": "server-accepted",
+      "msg": ""
+    },
+    {
+      "method": "Enter",
+      "err": 0,
+      "status": "server-accepted",
+      "msg": ""
+    },
+    {
+      "method": "Harvest",
+      "err": -1,
+      "status": "failed",
+      "msg": "Harvest: 1001040"
+    },
+    {
+      "method": "Leave",
+      "err": 0,
+      "status": "server-accepted",
+      "msg": ""
+    },
+    {
+      "method": "Enter",
+      "err": 0,
+      "status": "server-accepted",
+      "msg": ""
+    },
+    {
+      "method": "Harvest",
+      "err": 0,
+      "status": "server-accepted",
+      "msg": ""
+    },
+    {
+      "method": "Leave",
+      "err": 0,
+      "status": "server-accepted",
+      "msg": ""
+    },
+    {
+      "method": "BatchClaimTaskReward",
+      "err": 0,
+      "status": "server-accepted",
+      "msg": ""
+    },
+    {
+      "method": "Purchase",
+      "err": 0,
+      "status": "server-accepted",
+      "msg": "",
+      "productId": 1001,
+      "count": 1
+    }
+  ],
+  "runId": "ed0ce35f-c806-4347-ad73-48d5829300f9",
+  "serverClockOffsetMs": 380,
+  "connection": {
+    "mode": "existing-qq-session",
+    "qqPid": 16316,
+    "offlineTsdk": true,
+    "qqStarted": false,
+    "farmStarted": false
+  },
+  "reportPath": "E:\\workspace\\QQ\u7ECF\u5178\u519C\u573A\u6848\u4F8B\\deploy-csharp\\artifacts\\reports\\farm-csharp-2026-11-11T16-00-04-630Z-ed0ce35f.json"
+}

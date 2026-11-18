@@ -1,0 +1,191 @@
+{
+  "lastAttempt": "2026-11-18T07:23:01.4423641\u002B00:00",
+  "lastPass": "2026-11-18T07:23:29.4720130\u002B00:00",
+  "day": "2026-11-18",
+  "lastStatus": "verified",
+  "cropClock": {
+    "minMatureAt": 1795055719,
+    "lastGrowAt": 1795038439,
+    "planted": 24,
+    "lands": [
+      {
+        "id": 1,
+        "crop": "\u5170\u82B1",
+        "phase": 1,
+        "matureAt": 1795055719,
+        "growAt": 1795038439
+      },
+      {
+        "id": 2,
+        "crop": "\u5170\u82B1",
+        "phase": 1,
+        "matureAt": 1795055719,
+        "growAt": 1795038439
+      },
+      {
+        "id": 3,
+        "crop": "\u5170\u82B1",
+        "phase": 1,
+        "matureAt": 1795055719,
+        "growAt": 1795038439
+      },
+      {
+        "id": 4,
+        "crop": "\u5170\u82B1",
+        "phase": 1,
+        "matureAt": 1795055719,
+        "growAt": 1795038439
+      },
+      {
+        "id": 5,
+        "crop": "\u5170\u82B1",
+        "phase": 1,
+        "matureAt": 1795055720,
+        "growAt": 1795038440
+      },
+      {
+        "id": 6,
+        "crop": "\u5170\u82B1",
+        "phase": 1,
+        "matureAt": 1795055720,
+        "growAt": 1795038440
+      },
+      {
+        "id": 7,
+        "crop": "\u5170\u82B1",
+        "phase": 1,
+        "matureAt": 1795055720,
+        "growAt": 1795038440
+      },
+      {
+        "id": 8,
+        "crop": "\u5170\u82B1",
+        "phase": 1,
+        "matureAt": 1795055720,
+        "growAt": 1795038440
+      },
+      {
+        "id": 9,
+        "crop": "\u5170\u82B1",
+        "phase": 1,
+        "matureAt": 1795055720,
+        "growAt": 1795038440
+      },
+      {
+        "id": 10,
+        "crop": "\u5170\u82B1",
+        "phase": 1,
+        "matureAt": 1795055720,
+        "growAt": 1795038440
+      },
+      {
+        "id": 11,
+        "crop": "\u5170\u82B1",
+        "phase": 1,
+        "matureAt": 1795055721,
+        "growAt": 1795038441
+      },
+      {
+        "id": 12,
+        "crop": "\u5170\u82B1",
+        "phase": 1,
+        "matureAt": 1795055721,
+        "growAt": 1795038441
+      },
+      {
+        "id": 13,
+        "crop": "\u5170\u82B1",
+        "phase": 1,
+        "matureAt": 1795055721,
+        "growAt": 1795038441
+      },
+      {
+        "id": 14,
+        "crop": "\u5170\u82B1",
+        "phase": 1,
+        "matureAt": 1795055721,
+        "growAt": 1795038441
+      },
+      {
+        "id": 15,
+        "crop": "\u5170\u82B1",
+        "phase": 1,
+        "matureAt": 1795055722,
+        "growAt": 1795038442
+      },
+      {
+        "id": 16,
+        "crop": "\u5170\u82B1",
+        "phase": 1,
+        "matureAt": 1795055722,
+        "growAt": 1795038442
+      },
+      {
+        "id": 17,
+        "crop": "\u5170\u82B1",
+        "phase": 1,
+        "matureAt": 1795055722,
+        "growAt": 1795038442
+      },
+      {
+        "id": 18,
+        "crop": "\u5170\u82B1",
+        "phase": 1,
+        "matureAt": 1795055722,
+        "growAt": 1795038442
+      },
+      {
+        "id": 19,
+        "crop": "\u5170\u82B1",
+        "phase": 1,
+        "matureAt": 1795055723,
+        "growAt": 1795038443
+      },
+      {
+        "id": 20,
+        "crop": "\u5170\u82B1",
+        "phase": 1,
+        "matureAt": 1795055724,
+        "growAt": 1795038444
+      },
+      {
+        "id": 21,
+        "crop": "\u5170\u82B1",
+        "phase": 1,
+        "matureAt": 1795055724,
+        "growAt": 1795038444
+      },
+      {
+        "id": 22,
+        "crop": "\u5170\u82B1",
+        "phase": 1,
+        "matureAt": 1795055725,
+        "growAt": 1795038445
+      },
+      {
+        "id": 23,
+        "crop": "\u5170\u82B1",
+        "phase": 1,
+        "matureAt": 1795055725,
+        "growAt": 1795038445
+      },
+      {
+        "id": 24,
+        "crop": "\u5170\u82B1",
+        "phase": 1,
+        "matureAt": 1795055725,
+        "growAt": 1795038445
+      }
+    ],
+    "batchMatureAt": 1795055725,
+    "batchFertilizeAt": 1795038445,
+    "deadCount": 0,
+    "ripeCount": 0,
+    "mode": "whole-farm",
+    "fertilizerNeedSec": 414634
+  },
+  "lastVerifiedDay": "2026-11-18",
+  "lastSuccess": "2026-11-18T07:23:29.4720130\u002B00:00",
+  "fertilizerDecision": null,
+  "runtime": "csharp"
+}

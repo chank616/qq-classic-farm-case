@@ -1,0 +1,18 @@
+{
+  "runtime": "pc_miniapp_0.2.11",
+  "qlogicCheckSessionOffset": 858566,
+  "qlogicRefreshSessionLoop": {
+    "found": true,
+    "clearsPreviousTimer": true,
+    "callsNativeRefreshSession": true,
+    "schedulesNextCall": true,
+    "intervalUsesNativeExpireInSeconds": true,
+    "removesInternalFieldsBeforeCallback": true
+  },
+  "farmSourceChecks": {
+    "plainCheckSessionLiteralInGameJs": false,
+    "checkSessionInExtractedWxPlatformUtilMethods": false,
+    "wxLoginLiteralInGameJs": false
+  },
+  "interpretation": "The QQ worker can schedule native session refreshes after wx.checkSession succeeds. Static absence checks do not prove the target app never invokes the API; this bridge does not establish a refreshed wx.login code or an AMS-token refresh."
+}

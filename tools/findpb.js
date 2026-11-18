@@ -1,0 +1,2 @@
+const fs=require('fs');const p='C:/Users/chank616/AppData/Roaming/QQEX/miniapp/temps/miniapp_src/1112386029_3_3443f89042dffbf93d20ced1d652d031/game.js';const s=fs.readFileSync(p,'utf8');
+for(const pat of ['minimal.mjs_cjs=&original=.js','__shared_root.ts','minimal.js','plantpb.ts','userpb.ts','taskpb.ts','shoppb.ts','mallpb.ts','qqvippb.ts']){let i=0,c=0; console.log('\nPAT',pat); while((i=s.indexOf(pat,i))>=0&&c<5){console.log(i,s.slice(Math.max(0,i-180),Math.min(s.length,i+250)).replace(/\n/g,' '));i+=pat.length;c++;}}

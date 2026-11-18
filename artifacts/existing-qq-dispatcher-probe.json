@@ -1,0 +1,282 @@
+{
+  "mode": "dispatcher",
+  "pid": 3888,
+  "qqStarted": false,
+  "farmStarted": false,
+  "diagnostics": [
+    {
+      "state": "runtime-metadata",
+      "pid": 3888,
+      "value": {
+        "pid": 3888,
+        "receiver": {
+          "type": "object",
+          "constructor": "Object",
+          "keys": [
+            "dispatchRequest",
+            "dispatchCall",
+            "dispatchCallWithJson"
+          ],
+          "prototypeNames": [
+            "constructor",
+            "__defineGetter__",
+            "__defineSetter__",
+            "hasOwnProperty",
+            "__lookupGetter__",
+            "__lookupSetter__",
+            "isPrototypeOf",
+            "propertyIsEnumerable",
+            "toString",
+            "valueOf",
+            "__proto__",
+            "toLocaleString"
+          ]
+        },
+        "fields": [
+          {
+            "key": "dispatchRequest",
+            "type": "function",
+            "constructor": "Function",
+            "keys": [
+              "length",
+              "name"
+            ],
+            "prototypeNames": [
+              "length",
+              "name",
+              "constructor",
+              "apply",
+              "bind",
+              "call",
+              "toString",
+              "arguments",
+              "caller"
+            ]
+          },
+          {
+            "key": "dispatchCall",
+            "type": "function",
+            "constructor": "Function",
+            "keys": [
+              "length",
+              "name"
+            ],
+            "prototypeNames": [
+              "length",
+              "name",
+              "constructor",
+              "apply",
+              "bind",
+              "call",
+              "toString",
+              "arguments",
+              "caller"
+            ]
+          },
+          {
+            "key": "dispatchCallWithJson",
+            "type": "function",
+            "constructor": "Function",
+            "keys": [
+              "length",
+              "name"
+            ],
+            "prototypeNames": [
+              "length",
+              "name",
+              "constructor",
+              "apply",
+              "bind",
+              "call",
+              "toString",
+              "arguments",
+              "caller"
+            ]
+          }
+        ],
+        "services": {
+          "NodeIQQNTWrapperEngine": {
+            "staticNames": [
+              "length",
+              "name",
+              "prototype",
+              "get"
+            ],
+            "prototypeNames": [
+              "getThirdPartySigService",
+              "onSendSSOReply",
+              "getECDHService",
+              "initWithDeskTopConfig",
+              "readyToShow",
+              "initWithMobileConfig",
+              "ClearMoblieQQAccountData",
+              "destroy",
+              "setLogLevel",
+              "getDeviceInfo",
+              "initLog",
+              "constructor"
+            ]
+          },
+          "NodeIKernelECDHService": {
+            "staticNames": [
+              "length",
+              "name",
+              "prototype"
+            ],
+            "prototypeNames": [
+              "init",
+              "setGuid",
+              "sendSSORequest",
+              "sendOIDBRequest",
+              "sendOIDBRequestV2",
+              "setIsDebug",
+              "constructor"
+            ]
+          },
+          "NodeIKernelLoginService": {
+            "staticNames": [
+              "length",
+              "name",
+              "prototype",
+              "get"
+            ],
+            "prototypeNames": [
+              "addKernelLoginListener",
+              "removeKernelLoginListener",
+              "registerUnitedConfigPushGroupList",
+              "initConfig",
+              "getQRCodePicture",
+              "startPolling",
+              "abortPolling",
+              "cancel",
+              "destroy",
+              "connect",
+              "getMsfStatus",
+              "getLoginMiscData",
+              "setLoginMiscData",
+              "passwordLogin",
+              "passwordLoginWithAccount",
+              "getLoginList",
+              "deleteLoginInfo",
+              "resetLoginInfo",
+              "quickLoginWithUin",
+              "getMachineGuid",
+              "loginUnusualDevice",
+              "loadNoLoginUnitedConfig",
+              "isHasLoginInfo",
+              "setRemerberPwd",
+              "setAutoLogin",
+              "submitIdentityInfo",
+              "checkLimitHandleResult",
+              "getRegisterSmsCode",
+              "getRegisterUin",
+              "changeLimit",
+              "getSms",
+              "checkSms",
+              "getUpSmsInfo",
+              "checkUpSms",
+              "optimusLogin",
+              "verifyNewDeviceWithPwd",
+              "constructor"
+            ]
+          },
+          "NodeIKernelQQPlayService": {
+            "staticNames": [
+              "length",
+              "name",
+              "prototype"
+            ],
+            "prototypeNames": [
+              "init",
+              "uninit",
+              "createLnkShortcut",
+              "setForegroundWindow",
+              "getDesktopPath",
+              "getSimulatorProcStatus",
+              "getSystemRegValue",
+              "startSimulator",
+              "addKernelQQPlayListener",
+              "sendMsg2Simulator",
+              "setSystemRegValue",
+              "constructor"
+            ]
+          },
+          "NodeIKernelMiniAppService": {
+            "staticNames": [
+              "length",
+              "name",
+              "prototype"
+            ],
+            "prototypeNames": [
+              "addKernelMiniAppListener",
+              "removeKernelMiniAppListener",
+              "queryResourceAvailability",
+              "isAppidInWhitelist",
+              "constructor"
+            ]
+          },
+          "NodeIKernelMSFService": {
+            "staticNames": [
+              "length",
+              "name",
+              "prototype"
+            ],
+            "prototypeNames": [
+              "online",
+              "offline",
+              "getServerTime",
+              "getMsfStatus",
+              "getNetworkProxy",
+              "getBrowserAndSetLocalProxy",
+              "setNetworkProxy",
+              "setNetworkProxySaveDir",
+              "testNetworkProxyConnection",
+              "sendMsfRequest",
+              "onMsfPushForTesting",
+              "constructor"
+            ]
+          },
+          "NodeIQQNTStartupSessionWrapper": {
+            "staticNames": [
+              "length",
+              "name",
+              "prototype",
+              "create",
+              "createWithModuleList"
+            ],
+            "prototypeNames": [
+              "getSessionIdList",
+              "start",
+              "stop",
+              "constructor"
+            ]
+          }
+        },
+        "play": {
+          "type": "object",
+          "constructor": "NodeIKernelQQPlayService",
+          "keys": [],
+          "prototypeNames": [
+            "init",
+            "uninit",
+            "createLnkShortcut",
+            "setForegroundWindow",
+            "getDesktopPath",
+            "getSimulatorProcStatus",
+            "getSystemRegValue",
+            "startSimulator",
+            "addKernelQQPlayListener",
+            "sendMsg2Simulator",
+            "setSystemRegValue",
+            "constructor"
+          ]
+        },
+        "functionLengths": {
+          "dispatchRequest": 3,
+          "dispatchCall": 2,
+          "dispatchCallWithJson": 2
+        }
+      }
+    }
+  ]
+}

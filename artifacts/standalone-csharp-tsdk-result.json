@@ -1,0 +1,9 @@
+{
+  "runtime": "csharp-wasmtime",
+  "farmStarted": false,
+  "qqStarted": false,
+  "cases": 3,
+  "roundtrip": true,
+  "serverVerified": false,
+  "timestamp": "2026-10-18T08:42:42.2298326+00:00"
+}

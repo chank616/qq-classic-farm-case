@@ -1,0 +1,6 @@
+const fs=require('fs'),path=require('path');const root=String.raw`C:\Users\chank616\AppData\Roaming\QQEX\miniapp\fs\2351686624\1112386029\usr\gamecaches`;
+const idx=JSON.parse(fs.readFileSync(path.join(root,'cacheList.json'),'utf8'));const files=idx.files||idx;const groups={};for(const [url,m] of Object.entries(files)){const b=m.bundle||url.match(/\/remote\/([^/]+)\//)?.[1]||'unknown';groups[b]=(groups[b]||0)+1;}console.log('cacheList entries',Object.keys(files).length,'bundles',groups);
+function walk(d,a=[]){for(const e of fs.readdirSync(d,{withFileTypes:true})){const p=path.join(d,e.name);if(e.isDirectory())walk(p,a);else a.push(p)}return a}
+const terms=/crop|seed|plant|level|fert|grow|matur|harvest|作物|种子|化肥|收获|等级/ig;let hits=[];let jsonCount=0;for(const p of walk(root)){if(!p.endsWith('.json')||p.endsWith('cacheList.json'))continue;jsonCount++;let s;try{s=fs.readFileSync(p,'utf8')}catch{continue}if(terms.test(s)){const ms=[...s.matchAll(terms)].slice(0,3).map(m=>s.slice(Math.max(0,m.index-80),Math.min(s.length,m.index+160)).replace(/\s+/g,' '));hits.push({p:path.relative(root,p),bytes:s.length,snippets:ms})}}
+console.log('json files',jsonCount,'content keyword hits',hits.length);for(const h of hits.slice(0,70))console.log(JSON.stringify(h));
+

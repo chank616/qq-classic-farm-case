@@ -1,0 +1,917 @@
+{
+  "inspectedAt": "2026-10-17T12:44:21.342Z",
+  "bags": {
+    "0": {
+      "physical_items": [
+        {
+          "id": 80001,
+          "count": 10,
+          "uid": 7970,
+          "expire_time": -62135596800
+        },
+        {
+          "id": 80011,
+          "count": 34,
+          "uid": 7956,
+          "expire_time": -62135596800
+        },
+        {
+          "id": 100003,
+          "count": 1,
+          "uid": 7955,
+          "expire_time": -62135596800
+        }
+      ],
+      "virtual_items": [
+        {
+          "id": 1012,
+          "count": 296643
+        },
+        {
+          "id": 1011,
+          "count": 289739
+        },
+        {
+          "id": 1002,
+          "count": 11428
+        }
+      ],
+      "max_grid_num": 210,
+      "curr_grid_num": 122,
+      "global_scene_id": 1
+    },
+    "2": {
+      "physical_items": [],
+      "virtual_items": [
+        {
+          "id": 1011,
+          "count": 289739
+        },
+        {
+          "id": 1002,
+          "count": 11428
+        },
+        {
+          "id": 1012,
+          "count": 296643
+        }
+      ],
+      "max_grid_num": 210,
+      "curr_grid_num": 122,
+      "global_scene_id": 1
+    },
+    "4": {
+      "physical_items": [
+        {
+          "id": 80001,
+          "count": 10,
+          "uid": 7970,
+          "expire_time": -62135596800
+        },
+        {
+          "id": 80011,
+          "count": 34,
+          "uid": 7956,
+          "expire_time": -62135596800
+        },
+        {
+          "id": 100003,
+          "count": 1,
+          "uid": 7955,
+          "expire_time": -62135596800
+        }
+      ],
+      "virtual_items": [
+        {
+          "id": 1011,
+          "count": 289739
+        },
+        {
+          "id": 1002,
+          "count": 11428
+        },
+        {
+          "id": 1012,
+          "count": 296643
+        }
+      ],
+      "max_grid_num": 210,
+      "curr_grid_num": 122,
+      "global_scene_id": 1
+    }
+  },
+  "profiles": {
+    "mall_profiles": [
+      {
+        "id": 4,
+        "mall_type": 5,
+        "show_name": "限时商店"
+      },
+      {
+        "id": 3,
+        "mall_type": 1,
+        "show_name": "礼包商店"
+      },
+      {
+        "id": 2,
+        "mall_type": 2,
+        "show_name": "月卡商店"
+      },
+      {
+        "id": 1,
+        "mall_type": 3,
+        "show_name": "充值商店"
+      },
+      {
+        "id": 5,
+        "mall_type": 4,
+        "show_name": "QQ会员商城"
+      }
+    ]
+  },
+  "slots": {
+    "1": {
+      "products": [
+        {
+          "items": [
+            {
+              "mutant_types": [],
+              "id": 80001,
+              "count": 1
+            }
+          ],
+          "id": 1001,
+          "name": "每日福利",
+          "slot_type": 1,
+          "price": {
+            "mutant_types": []
+          },
+          "is_free": true,
+          "restriction": {
+            "type": 1,
+            "current_count": 1,
+            "max_count": 1
+          },
+          "goods_type": 1,
+          "discount_start_time": -62135596800,
+          "discount_end_time": -62135596800
+        },
+        {
+          "items": [
+            {
+              "mutant_types": [],
+              "id": 29005,
+              "count": 1
+            }
+          ],
+          "id": 1064,
+          "name": "奶茶分享礼包",
+          "slot_type": 1,
+          "price": {
+            "mutant_types": []
+          },
+          "is_free": true,
+          "restriction": {
+            "type": 4,
+            "max_count": 1
+          },
+          "is_display_countdown": true,
+          "end_time": 1794844799,
+          "goods_type": 1,
+          "discount_start_time": -62135596800,
+          "discount_end_time": -62135596800,
+          "share": {
+            "share_id": 26,
+            "share_status": 1,
+            "share_only": true
+          }
+        },
+        {
+          "items": [
+            {
+              "mutant_types": [],
+              "id": 80011,
+              "count": 2
+            },
+            {
+              "mutant_types": [],
+              "id": 80013,
+              "count": 1
+            }
+          ],
+          "id": 1002,
+          "name": "10小时有机化肥",
+          "slot_type": 1,
+          "price": {
+            "mutant_types": [],
+            "id": 1002,
+            "count": 42
+          },
+          "discount": "9.1折",
+          "goods_type": 1,
+          "discount_start_time": -62135596800,
+          "discount_end_time": -62135596800
+        },
+        {
+          "items": [
+            {
+              "mutant_types": [],
+              "id": 80001,
+              "count": 2
+            },
+            {
+              "mutant_types": [],
+              "id": 80003,
+              "count": 1
+            }
+          ],
+          "id": 1003,
+          "name": "10小时化肥",
+          "slot_type": 1,
+          "price": {
+            "mutant_types": [],
+            "id": 1002,
+            "count": 34
+          },
+          "discount": "9.4折",
+          "goods_type": 1,
+          "discount_start_time": -62135596800,
+          "discount_end_time": -62135596800
+        },
+        {
+          "items": [
+            {
+              "mutant_types": [],
+              "id": 80011,
+              "count": 1
+            }
+          ],
+          "id": 1007,
+          "name": "有机化肥(1小时)",
+          "slot_type": 1,
+          "price": {
+            "mutant_types": [],
+            "id": 1004,
+            "count": 5
+          },
+          "goods_type": 1,
+          "discount_start_time": -62135596800,
+          "discount_end_time": -62135596800
+        },
+        {
+          "items": [
+            {
+              "mutant_types": [],
+              "id": 80012,
+              "count": 1
+            }
+          ],
+          "id": 1008,
+          "name": "有机化肥(4小时)",
+          "slot_type": 1,
+          "price": {
+            "mutant_types": [],
+            "id": 1004,
+            "count": 19
+          },
+          "goods_type": 1,
+          "discount_start_time": -62135596800,
+          "discount_end_time": -62135596800
+        },
+        {
+          "items": [
+            {
+              "mutant_types": [],
+              "id": 80013,
+              "count": 1
+            }
+          ],
+          "id": 1009,
+          "name": "有机化肥(8小时)",
+          "slot_type": 1,
+          "price": {
+            "mutant_types": [],
+            "id": 1004,
+            "count": 36
+          },
+          "goods_type": 1,
+          "discount_start_time": -62135596800,
+          "discount_end_time": -62135596800
+        },
+        {
+          "items": [
+            {
+              "mutant_types": [],
+              "id": 80014,
+              "count": 1
+            }
+          ],
+          "id": 1010,
+          "name": "有机化肥(12小时)",
+          "slot_type": 1,
+          "price": {
+            "mutant_types": [],
+            "id": 1004,
+            "count": 52
+          },
+          "goods_type": 1,
+          "discount_start_time": -62135596800,
+          "discount_end_time": -62135596800
+        },
+        {
+          "items": [
+            {
+              "mutant_types": [],
+              "id": 80001,
+              "count": 1
+            }
+          ],
+          "id": 1011,
+          "name": "化肥(1小时)",
+          "slot_type": 1,
+          "price": {
+            "mutant_types": [],
+            "id": 1004,
+            "count": 4
+          },
+          "goods_type": 1,
+          "discount_start_time": -62135596800,
+          "discount_end_time": -62135596800
+        },
+        {
+          "items": [
+            {
+              "mutant_types": [],
+              "id": 80002,
+              "count": 1
+            }
+          ],
+          "id": 1012,
+          "name": "化肥(4小时)",
+          "slot_type": 1,
+          "price": {
+            "mutant_types": [],
+            "id": 1004,
+            "count": 15
+          },
+          "goods_type": 1,
+          "discount_start_time": -62135596800,
+          "discount_end_time": -62135596800
+        },
+        {
+          "items": [
+            {
+              "mutant_types": [],
+              "id": 80003,
+              "count": 1
+            }
+          ],
+          "id": 1013,
+          "name": "化肥(8小时)",
+          "slot_type": 1,
+          "price": {
+            "mutant_types": [],
+            "id": 1004,
+            "count": 28
+          },
+          "goods_type": 1,
+          "discount_start_time": -62135596800,
+          "discount_end_time": -62135596800
+        },
+        {
+          "items": [
+            {
+              "mutant_types": [],
+              "id": 80004,
+              "count": 1
+            }
+          ],
+          "id": 1014,
+          "name": "化肥(12小时)",
+          "slot_type": 1,
+          "price": {
+            "mutant_types": [],
+            "id": 1004,
+            "count": 40
+          },
+          "goods_type": 1,
+          "discount_start_time": -62135596800,
+          "discount_end_time": -62135596800
+        },
+        {
+          "items": [
+            {
+              "mutant_types": [],
+              "id": 90004,
+              "count": 1
+            },
+            {
+              "mutant_types": [],
+              "id": 90005,
+              "count": 1
+            },
+            {
+              "mutant_types": [],
+              "id": 90006,
+              "count": 1
+            }
+          ],
+          "id": 1006,
+          "name": "狗粮礼包",
+          "slot_type": 1,
+          "price": {
+            "mutant_types": [],
+            "id": 1002,
+            "count": 33
+          },
+          "goods_type": 1,
+          "discount_start_time": -62135596800,
+          "discount_end_time": -62135596800
+        },
+        {
+          "items": [
+            {
+              "mutant_types": [],
+              "id": 90004,
+              "count": 1
+            }
+          ],
+          "id": 1015,
+          "name": "1天狗粮",
+          "slot_type": 1,
+          "price": {
+            "mutant_types": [],
+            "id": 1004,
+            "count": 4
+          },
+          "goods_type": 1,
+          "discount_start_time": -62135596800,
+          "discount_end_time": -62135596800
+        },
+        {
+          "items": [
+            {
+              "mutant_types": [],
+              "id": 90005,
+              "count": 1
+            }
+          ],
+          "id": 1016,
+          "name": "3天狗粮",
+          "slot_type": 1,
+          "price": {
+            "mutant_types": [],
+            "id": 1004,
+            "count": 11
+          },
+          "goods_type": 1,
+          "discount_start_time": -62135596800,
+          "discount_end_time": -62135596800
+        },
+        {
+          "items": [
+            {
+              "mutant_types": [],
+              "id": 90006,
+              "count": 1
+            }
+          ],
+          "id": 1017,
+          "name": "5天狗粮",
+          "slot_type": 1,
+          "price": {
+            "mutant_types": [],
+            "id": 1004,
+            "count": 18
+          },
+          "goods_type": 1,
+          "discount_start_time": -62135596800,
+          "discount_end_time": -62135596800
+        }
+      ],
+      "refresh_time": 11738
+    },
+    "2": {
+      "products": [],
+      "refresh_time": 11737
+    },
+    "3": {
+      "products": [],
+      "refresh_time": 11737
+    },
+    "4": {
+      "products": [
+        {
+          "items": [
+            {
+              "mutant_types": [],
+              "id": 80001,
+              "count": 1
+            }
+          ],
+          "id": 1053,
+          "name": "SVIP商城每日免费",
+          "slot_type": 4,
+          "price": {
+            "mutant_types": []
+          },
+          "is_free": true,
+          "restriction": {
+            "type": 1,
+            "current_count": 1,
+            "max_count": 1
+          },
+          "goods_type": 1,
+          "discount_start_time": -62135596800,
+          "discount_end_time": -62135596800
+        },
+        {
+          "items": [
+            {
+              "mutant_types": [],
+              "id": 80014,
+              "count": 2
+            },
+            {
+              "mutant_types": [],
+              "id": 80004,
+              "count": 2
+            }
+          ],
+          "id": 1054,
+          "name": "SVIP钻石礼包",
+          "slot_type": 4,
+          "price": {
+            "mutant_types": [],
+            "id": 1004,
+            "count": 110
+          },
+          "restriction": {
+            "type": 2,
+            "max_count": 5
+          },
+          "is_available_purchase": true,
+          "discount": "8.6折",
+          "goods_type": 1,
+          "discount_start_time": -62135596800,
+          "discount_end_time": -62135596800
+        },
+        {
+          "items": [
+            {
+              "mutant_types": [],
+              "id": 2121,
+              "count": 1
+            }
+          ],
+          "id": 1055,
+          "name": "SVIP专属头像框",
+          "slot_type": 4,
+          "price": {
+            "mutant_types": [],
+            "id": 1901,
+            "count": 30
+          },
+          "restriction": {
+            "type": 4,
+            "max_count": 1
+          },
+          "is_available_purchase": true,
+          "goods_type": 3,
+          "discount_start_time": -62135596800,
+          "discount_end_time": -62135596800
+        },
+        {
+          "items": [
+            {
+              "mutant_types": [],
+              "id": 401006,
+              "count": 1
+            }
+          ],
+          "id": 1056,
+          "name": "SVIP专属铭牌",
+          "slot_type": 4,
+          "price": {
+            "mutant_types": [],
+            "id": 1902,
+            "count": 30
+          },
+          "restriction": {
+            "type": 4,
+            "max_count": 1
+          },
+          "is_available_purchase": true,
+          "goods_type": 3,
+          "discount_start_time": -62135596800,
+          "discount_end_time": -62135596800
+        }
+      ],
+      "refresh_time": 11737
+    },
+    "5": {
+      "products": [
+        {
+          "items": [
+            {
+              "mutant_types": [],
+              "id": 29005,
+              "count": 1
+            },
+            {
+              "mutant_types": [],
+              "id": 80011,
+              "count": 2
+            },
+            {
+              "mutant_types": [],
+              "id": 80001,
+              "count": 2
+            }
+          ],
+          "id": 1061,
+          "name": "奶茶点券礼包",
+          "slot_type": 5,
+          "price": {
+            "mutant_types": [],
+            "id": 1002,
+            "count": 25
+          },
+          "restriction": {
+            "type": 4,
+            "current_count": 3,
+            "max_count": 3
+          },
+          "discount": "7.4折",
+          "is_display_countdown": true,
+          "end_time": 1794844799,
+          "goods_type": 1,
+          "pic": "gui/texture/rechargeTimeLimitShop/img_timeLimitShop_gift5/spriteFrame",
+          "discount_start_time": -62135596800,
+          "discount_end_time": -62135596800,
+          "bg_pic": "gui/texture/rechargeTimeLimitShop/img_timeLimitShop_item_bg5/spriteFrame",
+          "color": "#5A6538"
+        },
+        {
+          "items": [
+            {
+              "mutant_types": [],
+              "id": 29005,
+              "count": 1
+            },
+            {
+              "mutant_types": [],
+              "id": 80011,
+              "count": 2
+            },
+            {
+              "mutant_types": [],
+              "id": 80001,
+              "count": 2
+            }
+          ],
+          "id": 1062,
+          "name": "奶茶每日礼包",
+          "slot_type": 5,
+          "price": {
+            "mutant_types": [],
+            "id": 1004,
+            "count": 25
+          },
+          "restriction": {
+            "type": 1,
+            "max_count": 2
+          },
+          "is_available_purchase": true,
+          "discount": "7.4折",
+          "is_display_countdown": true,
+          "end_time": 1794844799,
+          "goods_type": 1,
+          "pic": "gui/texture/rechargeTimeLimitShop/img_timeLimitShop_gift4/spriteFrame",
+          "discount_start_time": -62135596800,
+          "discount_end_time": -62135596800,
+          "bg_pic": "gui/texture/rechargeTimeLimitShop/img_timeLimitShop_item_bg4/spriteFrame",
+          "color": "#935E41"
+        },
+        {
+          "items": [
+            {
+              "mutant_types": [],
+              "id": 29005,
+              "count": 1
+            },
+            {
+              "mutant_types": [],
+              "id": 80011,
+              "count": 2
+            },
+            {
+              "mutant_types": [],
+              "id": 80001,
+              "count": 2
+            }
+          ],
+          "id": 1063,
+          "name": "奶茶加速礼包",
+          "slot_type": 5,
+          "price": {
+            "mutant_types": [],
+            "id": 1004,
+            "count": 25
+          },
+          "restriction": {
+            "type": 4,
+            "max_count": 15
+          },
+          "is_available_purchase": true,
+          "discount": "7.4折",
+          "is_display_countdown": true,
+          "end_time": 1794844799,
+          "goods_type": 1,
+          "pic": "gui/texture/rechargeTimeLimitShop/img_timeLimitShop_gift6/spriteFrame",
+          "discount_start_time": -62135596800,
+          "discount_end_time": -62135596800,
+          "bg_pic": "gui/texture/rechargeTimeLimitShop/img_timeLimitShop_item_bg6/spriteFrame",
+          "color": "#DF8111"
+        },
+        {
+          "items": [
+            {
+              "mutant_types": [],
+              "id": 80013,
+              "count": 1
+            },
+            {
+              "mutant_types": [],
+              "id": 80014,
+              "count": 1
+            }
+          ],
+          "id": 10001,
+          "name": "20小时有机化肥",
+          "slot_type": 5,
+          "price": {
+            "mutant_types": [],
+            "id": 1004,
+            "count": 80
+          },
+          "restriction": {
+            "type": 1,
+            "max_count": 10
+          },
+          "is_available_purchase": true,
+          "discount": "9.1折",
+          "goods_type": 1,
+          "pic": "gui/texture/rechargeTimeLimitShop/img_timeLimitShop_gift1/spriteFrame",
+          "discount_start_time": -62135596800,
+          "discount_end_time": -62135596800,
+          "bg_pic": "gui/texture/rechargeTimeLimitShop/img_timeLimitShop_item_bg1/spriteFrame",
+          "color": "#53628D"
+        },
+        {
+          "items": [
+            {
+              "mutant_types": [],
+              "id": 80003,
+              "count": 1
+            },
+            {
+              "mutant_types": [],
+              "id": 80004,
+              "count": 1
+            }
+          ],
+          "id": 10002,
+          "name": "20小时化肥",
+          "slot_type": 5,
+          "price": {
+            "mutant_types": [],
+            "id": 1004,
+            "count": 64
+          },
+          "restriction": {
+            "type": 1,
+            "max_count": 10
+          },
+          "is_available_purchase": true,
+          "discount": "9.4折",
+          "goods_type": 1,
+          "pic": "gui/texture/rechargeTimeLimitShop/img_timeLimitShop_gift1/spriteFrame",
+          "discount_start_time": -62135596800,
+          "discount_end_time": -62135596800,
+          "bg_pic": "gui/texture/rechargeTimeLimitShop/img_timeLimitShop_item_bg1/spriteFrame",
+          "color": "#53628D"
+        },
+        {
+          "items": [
+            {
+              "mutant_types": [],
+              "id": 80013,
+              "count": 2
+            },
+            {
+              "mutant_types": [],
+              "id": 80014,
+              "count": 2
+            }
+          ],
+          "id": 10003,
+          "name": "40小时有机化肥",
+          "slot_type": 5,
+          "price": {
+            "mutant_types": [],
+            "id": 1004,
+            "count": 152
+          },
+          "restriction": {
+            "type": 2,
+            "max_count": 10
+          },
+          "is_available_purchase": true,
+          "discount": "8.6折",
+          "goods_type": 1,
+          "pic": "gui/texture/rechargeTimeLimitShop/img_timeLimitShop_gift2/spriteFrame",
+          "discount_start_time": -62135596800,
+          "discount_end_time": -62135596800,
+          "bg_pic": "gui/texture/rechargeTimeLimitShop/img_timeLimitShop_item_bg2/spriteFrame",
+          "color": "#7B4622"
+        },
+        {
+          "items": [
+            {
+              "mutant_types": [],
+              "id": 80003,
+              "count": 2
+            },
+            {
+              "mutant_types": [],
+              "id": 80004,
+              "count": 2
+            }
+          ],
+          "id": 10004,
+          "name": "40小时化肥",
+          "slot_type": 5,
+          "price": {
+            "mutant_types": [],
+            "id": 1004,
+            "count": 120
+          },
+          "restriction": {
+            "type": 2,
+            "max_count": 10
+          },
+          "is_available_purchase": true,
+          "discount": "8.8折",
+          "goods_type": 1,
+          "pic": "gui/texture/rechargeTimeLimitShop/img_timeLimitShop_gift2/spriteFrame",
+          "discount_start_time": -62135596800,
+          "discount_end_time": -62135596800,
+          "bg_pic": "gui/texture/rechargeTimeLimitShop/img_timeLimitShop_item_bg2/spriteFrame",
+          "color": "#7B4622"
+        }
+      ],
+      "refresh_time": 11737
+    }
+  },
+  "itemClasses": {
+    "UseItemRequest": {
+      "exists": false,
+      "fields": []
+    },
+    "UseItemReply": {
+      "exists": false,
+      "fields": []
+    },
+    "UseRequest": {
+      "exists": true,
+      "fields": [],
+      "defaults": {}
+    },
+    "UseReply": {
+      "exists": true,
+      "fields": [
+        "get_items",
+        "compensated_items",
+        "lands",
+        "land_op_drops",
+        "farm_rewards"
+      ],
+      "defaults": {
+        "get_items": [],
+        "compensated_items": [],
+        "lands": [],
+        "land_op_drops": [],
+        "farm_rewards": []
+      }
+    },
+    "ItemUseRequest": {
+      "exists": false,
+      "fields": []
+    },
+    "BatchUseItemRequest": {
+      "exists": false,
+      "fields": []
+    }
+  }
+}

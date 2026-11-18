@@ -1,0 +1,750 @@
+
+MODULE chunks:///_virtual/AceManager.ts EXPORT AceManager METHODS length,name,arguments,caller,prototype
+METHOD length function () { [native code] }
+METHOD name function () { [native code] }
+METHOD prototype function () { [native code] }
+
+MODULE chunks:///_virtual/ActivityBodyDailySigninModel.ts EXPORT ActivityBodyDailySigninModel METHODS initData
+METHOD initData function(i){if(this[c[112]]=i[L[4199]],this[D[10]]=[],i[M[10]])for(var t=0;t<i[L[10]][l[7]];t++){var r=i[T[10]][t],e=new n;e[k[758]](r),this[v[10]][J[19]](e)}}
+
+MODULE chunks:///_virtual/ActivityBodyRandShop.ts EXPORT ActivityBodyRandShop METHODS init,initExchange
+METHOD init function(i){if(this[R[903]]=[],this[D[31919]]=!1,this[f[7e3]]=0,i[q[903]])for(var t=0;t<i[c[903]][a[7]];t++){var n=i[Y[903]][t],h=new u;this[y[903]][y[19]](h),h[g[897]](n),h[k[4794]]&&h[v[189]]>0&&(this[Y[31919]]=!0,this[M[7e3]]+=h[g[936]]*h[q[189]]),this[g[2073]]=h[D[455]]}this[c[11212]]=1e3*(i[c[4120]]-r[a[564]][R[126]]()),this[L[11500]]=e[D[2156]],this[q[16492]]=i[y[9447]],this[T[42161]]=i[Q[9535]],this[Q[19956]]=i[v[9513]],this[y[18199]]=i[Y[4679]]+i[y[2746]],this[l[5749]]=i[d[4679]]-i[l[4768]]+(i[c[2746]]-i[L[1435]]),this[R[18711]]=i[R[2746]]-i[L[1435]]}
+METHOD initExchange function(i){if(this[Q[903]]=[],i[o[903]])for(var t=0;t<i[M[903]][c[7]];t++){var n=i[T[903]][t],r=new u;this[M[903]][Y[19]](r),r[Y[14451]](n)}this[c[903]][a[319]]((function(i,t){return i[J[874]]-t[g[874]]}))}
+
+MODULE chunks:///_virtual/CropSocialEventVO.ts EXPORT CropSocialEventVO METHODS deserialize
+METHOD deserialize function(i){var t,n,r,e;this[c[590]]=qi()(null!=(t=i[f[590]])?t:0),this[R[7151]]=qi()(null!=(n=i[L[7151]])?n:0),this[q[9116]]=qi()(null!=(r=i[S[9116]])?r:0),this[o[906]]=qi()(null!=(e=i[S[906]])?e:0)}
+
+MODULE chunks:///_virtual/DailySigninRewardInfo.ts EXPORT DailySigninRewardInfo METHODS initData
+METHOD initData function(i){this.id=i.id,this[Y[120]]=i[c[120]],this[f[42]]=n[f[43]][D[639]](i[S[307]])}
+
+MODULE chunks:///_virtual/FarmHarvestManager.ts EXPORT FarmHarvestManager METHODS addTotals,onHarvestReplyTotals,addDogBiteGold,onStealPlantFailed,addGiftCount,addGiftCountFromRewardMap,onSkillRewardsGained,onFireworkRewardsGained,getSnapshot,hasData,onFootballGoal,onFootballClear,onRewardFlyExpCompleted,bindPanelRoot,ensurePanelLoaded,hidePanel,bindBasketNode,getHarvestBasketNode,releasePanel,reset,clear,destroy
+METHOD addTotals function(i){var t,n,r,e,u,h,s,v,a;if(i){for(var k in this[y[2633]]+=qi()(null!=(t=i[T[3937]])?t:0),this[c[5497]]+=qi()(null!=(n=i[M[7411]])?n:0),this[y[4382]]+=qi()(null!=(r=i[f[28729]])?r:0),this[Y[7343]]+=qi()(null!=(e=i[J[154]])?e:0),this[T[4563]]+=qi()(null!=(u=i[l[9288]])?u:0),i)if(k[Q[1023]](d[34713])){var S,q=qi()(k[M[510]](7)),L=qi()(null!=(S=i[k])?S:0);q>0&&L>0&&(this[Q[6736]]=q,this[l[2457]]+=L)}var g=qi()(null!=(h=i[f[8206]])?h:0);g>0&&(this[J[5849]]+=g);var R=qi()(null!=(s=i[J[9852]])?s:0);R>0&&(this[o[9084]]=R);var z=qi()(null!=(v=i[Y[6031]])?v:0);z>0&&(this[D[7075]]+=z);var H=qi()(null!=(a=i[D[3119]])?a:0);H>0&&(this[o[30864]]=H)}}
+METHOD onHarvestReplyTotals function(i,t){this[f[24715]](t)}
+METHOD addDogBiteGold function(i){i>0&&(this[S[4563]]+=i)}
+METHOD onStealPlantFailed function(i,t){var n;this[Q[26281]](qi()(null!=(n=null==t?void 0:t[l[18486]])?n:0))}
+METHOD addGiftCount function(i){i>0&&(this[Q[9690]]+=i)}
+METHOD addGiftCountFromRewardMap function(i){if(i){var t=0;for(var r in i){var e=i[r];if(gi()[D[855]](e))for(var u,h=n(e);!(u=h())[D[11]];){var s,f=u[J[14]];t+=qi()(null!=(s=null==f?void 0:f[y[62]])?s:0)}}this[v[23338]](t)}}
+METHOD onSkillRewardsGained function(i,t){this[f[16376]](t)}
+METHOD onFireworkRewardsGained function(i,t){if(null!=t&&t[Y[7]])for(var r,e=n(t);!(r=e())[R[11]];){var u,h,s=r[k[14]],f=qi()(null!=(u=s.id)?u:0),v=qi()(null!=(h=s[c[62]])?h:0);f<=0||v<=0||f===H[c[1507]]||(this[T[2487]]=f,this[g[9690]]+=v)}}
+METHOD getSnapshot function(){var i={};return i[S[88]]=p[Q[3770]],i[L[3937]]=this[d[2633]],i[Q[7411]]=this[k[5497]]>0?this[Y[5497]]:void 0,i[T[28729]]=this[J[4382]]>0?this[Y[4382]]:void 0,i[g[40797]]=this[o[2457]]>0?this[S[2457]]:void 0,i[k[14919]]=this[d[6736]]>0?this[q[6736]]:void 0,i[d[154]]=this[L[7343]],i[d[9288]]=this[Q[4563]]>0?this[g[4563]]:void 0,i[J[14205]]=this[J[9690]]>0?this[c[9690]]:void 0,i[d[21112]]=this[J[2487]]>0?this[M[2487]]:void 0,i[R[8206]]=this[D[5849]]>0?this[d[5849]]:void 0,i[k[9852]]=this[v[9084]]>0?this[l[9084]]:void 0,i[l[6031]]=this[J[7075]]>0?this[d[7075]]:void 0,i[q[3119]]=this[a[30864]]>0?this[d[30864]]:void 0,i[S[3223]]=!0,i}
+METHOD hasData function(){return 0!==this[l[2633]]||this[S[5497]]>0||this[g[4382]]>0||this[v[2457]]>0||0!==this[R[7343]]||this[T[4563]]>0||this[k[9690]]>0||this[Y[5849]]>0||this[Y[7075]]>0}
+METHOD onFootballGoal function(){var i;null==(i=this[y[2368]])||i[D[36300]]();var t=this[T[5497]]-this[l[35487]];if(t>0){var n=Q[36508]+t+S[28302];m[J[43]][a[5994]]("",n,q[31642],null,null,!1)}this[S[35487]]=this[M[5497]]}
+METHOD onFootballClear function(){var i;this[Y[40998]]!==this[J[5497]]&&(this[J[40998]]=this[o[5497]],null==(i=this[g[2368]])||i[y[32112]](!1))}
+METHOD onRewardFlyExpCompleted function(i,t,n){n!==j[o[5234]]&&n!==j[c[11090]]||t&&t>0&&(this[R[7343]]+=t)}
+METHOD bindPanelRoot function(i){this[Q[5405]]=null!=i&&i[R[79]]?i:null,h[J[8402]]=this[v[5405]]}
+METHOD ensurePanelLoaded function(){var i,t,n=this,r=this[d[2368]];if(r)return r[g[28279]](),r[y[41026]](),r[y[6]][l[47]]=!0,this[o[23419]](r[a[6]]),void logger[Y[70]](T[25332],(null==(t=h[a[8895]])?void 0:t[c[40]])||v[26664]);if(this[Q[1473]])logger[S[70]](f[11417]);else if(null!=(i=this[f[5405]])&&i[f[79]]&&this[Q[5405]]){this[c[1473]]=!0;var e=s[z[f[18774]]];C[c[4479]](e,O)[a[209]]((function(i){var t;n[v[1473]]=!1;var r=null!=(t=n[T[5405]])&&t[g[79]]?n[g[5405]]:null;if(i&&r){i[k[348]]=r,i[T[385]](0,0,0);var e,u=i[d[64]](J[3094]);u?(u[o[11157]](!0),n[Q[5775]]=u,u[Y[28279]](),u[Y[41026]](),u[v[6]][d[47]]=!0,n[L[23419]](u[k[6]]),logger[l[70]](k[15535],(null==(e=h[k[8895]])?void 0:e[c[40]])||Q[26664])):logger[v[13]](c[29264])}else logger[Y[13]](c[39961])}))[T[153]]((function(i){n[g[1473]]=!1,logger[l[13]](R[35138],i)}))}else logger[R[13]](M[39113])}
+METHOD hidePanel function(){var i=this[a[2368]];i&&(i[y[6]][Q[47]]=!1)}
+METHOD bindBasketNode function(i){h[q[8895]]=this[k[28874]](i)}
+METHOD getHarvestBasketNode function(i){if(null==i||!i[v[79]])return null;var t=i[y[900]](u[Y[17721]]);if(t){var n=t[o[900]](u[R[36116]]);if(n)return n}return i[q[900]](u[l[36116]])||i}
+METHOD releasePanel function(){var i;null!=(i=this[o[5775]])&&null!=(i=i[v[6]])&&i[f[79]]&&this[Q[5775]][q[6]][q[584]](),this[l[5775]]=null,this[J[5405]]=null,this[S[1473]]=!1,h[L[8895]]=null,h[d[8402]]=null}
+METHOD reset function(){this[g[2633]]=0,this[v[5497]]=0,this[d[4382]]=0,this[v[2457]]=0,this[q[6736]]=0,this[y[7343]]=0,this[S[4563]]=0,this[q[9690]]=0,this[a[2487]]=0,this[S[5849]]=0,this[Y[9084]]=0,this[S[7075]]=0,this[D[30864]]=0,this[o[35487]]=0,this[q[40998]]=0}
+METHOD clear function(){this[d[901]]()}
+METHOD destroy function(){P[J[31]][Y[24]](A[k[9978]],this[S[4763]],this),P[c[31]][k[24]](A[Y[2716]],this[J[4810]],this),P[q[31]][L[24]](A[Q[9519]],this[q[8817]],this),P[q[31]][v[24]](A[a[19410]],this[o[23682]],this),P[M[31]][a[24]](A[Y[7801]],this[d[29879]],this),P[R[31]][l[24]](A[k[4516]],this[R[36896]],this),P[L[31]][o[24]](A[a[5048]],this[T[6084]],this),this[a[40682]]()}
+
+MODULE chunks:///_virtual/HarvestPanelComp.ts EXPORT HarvestPanelComp METHODS length,name,arguments,caller,prototype
+METHOD length function () { [native code] }
+METHOD name function () { [native code] }
+METHOD prototype function () { [native code] }
+MODULE_ERROR chunks:///_virtual/HarvestPanelModel.ts TypeError: Cannot convert object to primitive value
+
+MODULE chunks:///_virtual/InviteTaskItem.ts EXPORT InviteTaskItem METHODS length,name,arguments,caller,prototype
+METHOD length function () { [native code] }
+METHOD name function () { [native code] }
+METHOD prototype function () { [native code] }
+
+MODULE chunks:///_virtual/MainQQVip.ts EXPORT MainQQVip METHODS length,name,arguments,caller,prototype
+METHOD length function () { [native code] }
+METHOD name function () { [native code] }
+METHOD prototype function () { [native code] }
+
+MODULE chunks:///_virtual/MainUITaskComp.ts EXPORT MainUITaskComp METHODS length,name,arguments,caller,prototype
+METHOD length function () { [native code] }
+METHOD name function () { [native code] }
+METHOD prototype function () { [native code] }
+
+MODULE chunks:///_virtual/MallConfig.ts EXPORT MallConfig METHODS fromJson,fromJsonArray,fromJsonString
+METHOD fromJson function(i){var t={};return t.id=qi()(i.id)||0,t[d[40]]=mi()(i[y[40]]||""),t[g[1365]]=i[R[1365]],t[k[42]]=i[l[42]],t[L[936]]=i[Y[936]],t[S[316]]=i[f[316]],t[d[7921]]=qi()(i[J[7921]])||0,t[M[1097]]=i[c[1097]],t[q[3744]]=i[c[3744]],t[l[677]]=i[a[677]],t[q[872]]=i[y[872]],t[J[42067]]=i[L[42067]],t[v[1715]]=mi()(i[f[1715]]||""),t[Q[8569]]=i[R[8569]],t[Q[4502]]=mi()(i[a[4502]]||""),t[L[9902]]=mi()(i[v[9902]]||""),t[R[136]]=mi()(i[M[136]]||""),t}
+METHOD fromJsonArray function(i){var t=this;return i[T[78]]((function(i){return t[Y[18]](i)}))}
+METHOD fromJsonString function(i){var t=_()[Y[927]](i);return gi()[S[855]](t)?this[q[32]](t):[this[o[18]](t)]}
+
+MODULE chunks:///_virtual/MallPageConfig.ts EXPORT MallPageConfig METHODS fromJson,fromJsonArray,fromJsonString
+METHOD fromJson function(i){var t={};return t.id=qi()(i.id)||0,t[a[40]]=i[l[40]],t[R[874]]=qi()(i[k[874]])||0,t[q[29409]]=oi()(i[D[29409]]),t[c[88]]=qi()(i[Q[88]])||0,t[a[4299]]=mi()(i[L[4299]]||""),t[v[4375]]=mi()(i[Y[4375]]||""),t}
+METHOD fromJsonArray function(i){var t=this;return i[f[78]]((function(i){return t[g[18]](i)}))}
+METHOD fromJsonString function(i){var t=I()[Y[927]](i);return gi()[Q[855]](t)?this[v[32]](t):[this[Q[18]](t)]}
+
+MODULE chunks:///_virtual/MCFacilityShopConfigConfig.ts EXPORT MCFacilityShopConfigConfig METHODS fromJson,fromJsonArray,fromJsonString
+METHOD fromJson function(i){var t={};return t[M[694]]=qi()(i[L[694]])||0,t[k[262]]=qi()(i[k[262]])||0,t[S[929]]=i[g[929]],t[D[1205]]=qi()(i[L[1205]])||0,t[T[319]]=qi()(i[L[319]])||0,t}
+METHOD fromJsonArray function(i){var t=this;return i[Y[78]]((function(i){return t[D[18]](i)}))}
+METHOD fromJsonString function(i){var t=E()[d[927]](i);return gi()[q[855]](t)?this[k[32]](t):[this[a[18]](t)]}
+
+MODULE chunks:///_virtual/MCShopConfig.ts EXPORT MCShopConfig METHODS fromJson,fromJsonArray,fromJsonString
+METHOD fromJson function(i){var t={};return t.id=qi()(i.id)||0,t[o[88]]=i[M[88]],t[L[40]]=mi()(i[l[40]]||""),t[o[874]]=qi()(i[k[874]])||0,t}
+METHOD fromJsonArray function(i){var t=this;return i[a[78]]((function(i){return t[J[18]](i)}))}
+METHOD fromJsonString function(i){var t=$()[d[927]](i);return gi()[S[855]](t)?this[J[32]](t):[this[a[18]](t)]}
+
+MODULE chunks:///_virtual/MCTaskConfig.ts EXPORT MCTaskConfig METHODS fromJson,fromJsonArray,fromJsonString
+METHOD fromJson function(i){var t={};return t.id=qi()(i.id)||0,t[T[3493]]=i[f[3493]],t[L[120]]=mi()(i[l[120]]||""),t[Q[4863]]=i[Y[4863]],t[D[273]]=qi()(i[R[273]])||0,t[R[425]]=qi()(i[M[425]])||0,t[a[6650]]=qi()(i[c[6650]])||0,t}
+METHOD fromJsonArray function(i){var t=this;return i[L[78]]((function(i){return t[Y[18]](i)}))}
+METHOD fromJsonString function(i){var t=G()[Y[927]](i);return gi()[d[855]](t)?this[J[32]](t):[this[L[18]](t)]}
+
+MODULE chunks:///_virtual/MutiLandHarvestConfirm.ts EXPORT MutiLandHarvestConfirm METHODS length,name,arguments,caller,prototype
+METHOD length function () { [native code] }
+METHOD name function () { [native code] }
+METHOD prototype function () { [native code] }
+
+MODULE chunks:///_virtual/MysteryShopControl.ts EXPORT MysteryShopControl METHODS init,onScaleChange,onPositionChange,onLoginSuccess,onFarmMapInitialized,onFarmLeave,trySyncNpc,resetActiveNpcTimer,shouldRetryFetchActiveNpc,scheduleRetryFetchActiveNpc,clearActiveNpcTimer,onActiveNpcTimerReached,s2cMysteryShopNotify,c2sGetActiveNPC,s2cGetActiveNPCReply,c2sBuy,s2cBuyReply,c2sAbandon,s2cAbandonReply
+METHOD init function(){r[v[31]].on(s[v[829]],this[T[476]],this),r[g[31]].on(H[S[703]],this[D[6296]],this),r[a[31]].on(H[Q[8641]],this[d[5056]],this),r[D[31]].on(P[g[18612]],this[l[24212]],this),r[v[31]].on(P[M[11904]],this[y[20248]],this)}
+METHOD onScaleChange function(i,t){this[S[288]][l[368]]=t,m[g[31322]]()}
+METHOD onPositionChange function(i,t,n){m[l[36991]](t,n)}
+METHOD onLoginSuccess function(){this[a[33303]]=!1,r[R[132]][Y[4276]]()&&this[L[39803]]()}
+METHOD onFarmMapInitialized function(){this[a[20904]]=!0,this[c[20005]]()}
+METHOD onFarmLeave function(){this[Q[16079]](),m[Y[31832]]()}
+METHOD trySyncNpc function(){this[S[20904]]&&this[J[33303]]&&(m[c[38114]]()||m[a[20981]]())}
+METHOD resetActiveNpcTimer function(){if(this[S[16079]](),this[J[2442]]=0,this[q[288]][J[1054]]&&!(this[a[288]][v[1664]]<=0)){var i=this[Q[288]][o[1664]]-r[R[564]][R[126]]();if(!(i<=0)){var t=1e3*(i+1);this[L[2289]]=r[S[564]][k[896]](t,this[M[41751]],this)}}}
+METHOD shouldRetryFetchActiveNpc function(){return this[g[288]][q[1054]]&&this[a[288]][l[1664]]>0&&this[y[2442]]<i[L[29938]]}
+METHOD scheduleRetryFetchActiveNpc function(){this[R[16079]](),this[Y[11713]]()?(this[Q[2442]]+=1,this[Q[2289]]=r[M[564]][c[896]](i[T[26503]],this[f[41751]],this)):this[S[2442]]=0}
+METHOD clearActiveNpcTimer function(){this[v[2289]]<=0||(r[a[564]][v[2163]](this[o[2289]]),this[d[2289]]=0)}
+METHOD onActiveNpcTimerReached function(){this[g[2289]]=0,r[d[132]][R[4276]]()?this[S[39803]]():this[g[37947]]()}
+METHOD s2cMysteryShopNotify function(i){var t=e[Q[995]][D[2254]][J[65]](i);logger[y[70]](R[21596],t),t&&(this[k[33303]]=!0,this[Q[288]][v[37749]](t),this[Y[21056]](),this[o[20005]](),r[y[31]][v[41]](P[v[7460]]))}
+METHOD c2sGetActiveNPC function(){var i=e[Y[995]][c[28182]][Q[85]]({})[o[265]]();r[d[132]][f[766]](i,u[f[38645]],this[L[19248]][v[289]](this),h[J[5817]])}
+METHOD s2cGetActiveNPCReply function(i){if(i&&i[M[99]]&&0==i[S[774]][y[374]]){var t=e[M[995]][q[20014]][a[65]](i[k[99]]);this[d[33303]]=!0,this[a[288]][g[20006]](t),this[D[21056]](),this[D[20005]](),r[D[31]][M[41]](P[g[7460]])}else logger[T[66]](R[41690],i[o[774]][T[374]])}
+METHOD c2sBuy function(i){var t={};t[l[694]]=i;var n=e[k[995]][Y[28722]][d[85]](t)[S[265]]();r[c[132]][J[766]](n,u[J[21955]],this[f[24061]][v[289]](this),h[S[5817]])}
+METHOD s2cBuyReply function(i){if(i&&i[d[99]]&&0==i[l[774]][S[374]]){var t=e[Q[995]][L[31369]][g[65]](i[y[99]]);this[D[288]][J[27332]](t),t[y[10]]&&t[k[10]][l[7]]>0&&r[T[44]][R[151]](z[f[513]],{rewards:t[c[10]]}),r[q[31]][Q[41]](P[d[16576]],t[J[10]])}else logger[v[66]](k[31436],i[k[774]][R[374]]),r[J[31]][o[41]](P[M[28571]])}
+METHOD c2sAbandon function(){var i=e[R[995]][v[23088]][J[85]]({})[k[265]]();r[S[132]][y[766]](i,u[Y[25350]],this[g[25436]][Q[289]](this),h[y[5817]])}
+METHOD s2cAbandonReply function(i){i&&i[a[99]]&&0==i[R[774]][f[374]]?(this[Y[288]][D[1054]]=!1,r[k[31]][f[41]](P[v[33469]])):logger[y[66]](f[24290],i[g[774]][q[374]])}
+
+MODULE chunks:///_virtual/MysteryShopGoodsConfig.ts EXPORT MysteryShopGoodsConfig METHODS fromJson,fromJsonArray,fromJsonString
+METHOD fromJson function(i){var t={};return t.id=qi()(i.id)||0,t[f[14159]]=qi()(i[R[14159]])||0,t[k[590]]=qi()(i[q[590]])||0,t[d[1448]]=qi()(i[o[1448]])||0,t}
+METHOD fromJsonArray function(i){var t=this;return i[Q[78]]((function(i){return t[y[18]](i)}))}
+METHOD fromJsonString function(i){var t=B()[v[927]](i);return gi()[D[855]](t)?this[v[32]](t):[this[R[18]](t)]}
+
+MODULE chunks:///_virtual/MysteryShopModel.ts EXPORT MysteryShopModel METHODS initFromReply,updateFromNotify,updateFromBuyReply,getFirstGood,getRemainingSeconds
+METHOD initFromReply function(i){this[M[1054]]=i[o[2399]],this[g[32792]]=i[o[8760]],this[Q[1664]]=i[Y[7181]],this[y[748]]=i[q[748]]}
+METHOD updateFromNotify function(i){this[c[748]]=i[R[748]],this[T[1664]]=i[M[7181]],this[l[1054]]=!i[g[3824]]}
+METHOD updateFromBuyReply function(i){if(i[q[9094]]){var t=this[y[748]][D[370]]((function(t){return t[f[694]]===i[J[9094]][g[694]]}));t>=0&&this[a[748]][Q[605]](t,1),this[J[748]][q[7]]<=0&&(this[M[1054]]=!1)}}
+METHOD getFirstGood function(){return this[d[748]][0]}
+METHOD getRemainingSeconds function(){return this[a[1664]]-e[Q[564]][M[126]]()}
+
+MODULE chunks:///_virtual/MysteryShopNPCComp.ts EXPORT MysteryShopNPCComp METHODS length,name,arguments,caller,prototype
+METHOD length function () { [native code] }
+METHOD name function () { [native code] }
+METHOD prototype function () { [native code] }
+
+MODULE chunks:///_virtual/MysteryShopParamsConfig.ts EXPORT MysteryShopParamsConfig METHODS fromJson,fromJsonArray,fromJsonString
+METHOD fromJson function(i){var t={};return t.id=qi()(i.id)||0,t[M[36745]]=mi()(i[o[36745]]||""),t[v[27821]]=qi()(i[T[27821]])||0,t[f[26807]]=qi()(i[v[26807]])||0,t[M[684]]=i[Y[684]],t[f[285]]=mi()(i[a[285]]||""),t[l[368]]=i[D[368]],t}
+METHOD fromJsonArray function(i){var t=this;return i[D[78]]((function(i){return t[y[18]](i)}))}
+METHOD fromJsonString function(i){var t=W()[M[927]](i);return gi()[T[855]](t)?this[c[32]](t):[this[g[18]](t)]}
+
+MODULE chunks:///_virtual/MysteryShopUI.ts EXPORT MysteryShopUI METHODS length,name,arguments,caller,prototype
+METHOD length function () { [native code] }
+METHOD name function () { [native code] }
+METHOD prototype function () { [native code] }
+
+MODULE chunks:///_virtual/NanguaShopItem.ts EXPORT NanguaShopItem METHODS length,name,arguments,caller,prototype
+METHOD length function () { [native code] }
+METHOD name function () { [native code] }
+METHOD prototype function () { [native code] }
+
+MODULE chunks:///_virtual/NanguaShopUI.ts EXPORT NanguaShopUI METHODS length,name,arguments,caller,prototype
+METHOD length function () { [native code] }
+METHOD name function () { [native code] }
+METHOD prototype function () { [native code] }
+
+MODULE chunks:///_virtual/NetNode.ts EXPORT NetNode METHODS getState,connect,send,closeSocket,forceCloseSocket,onMessage,getServiceFunName,getService,onConnected,resetSocketEvent,resetSocketState,onClosed,showSocketClosedPrompt,onError,retryConnect,confirm,showSocketErrorPrompt,onServerNotAvaliable,showTimeoutPrompt,reconnect,checkNetworkTimeout,openWait,closeWait,initSocket,onFrame
+METHOD getState function(){return this[J[351]]}
+METHOD connect function(t,n){logger[J[70]](d[31256],t),this[d[8268]]=n,null!=this[l[3085]]&&(this[g[3085]][d[35317]]!==WebSocket[l[7390]]&&this[y[3085]][f[35317]]!==WebSocket[g[38671]]&&(this[k[11539]](),this[c[3085]][c[304]]()),logger[f[13]](Q[18343],this[y[3085]][S[35317]])),logger[Y[70]](l[32990]),this[Q[3085]]=new WebSocket(t),this[Y[3085]][R[16893]]=f[17016],this[R[36263]](),this[a[351]]=O[l[21737]];var r=[],e={};return e[R[27238]]=i[L[18160]],e[g[39]]=null,e[v[23122]]=null,e[D[37786]]=this[d[2156]],r[Q[19]](e),this[Y[3348]][L[29]](i[q[18160]],r),this[D[4305]]=t,!0}
+METHOD send function(i,t,n,u){if(void 0===u&&(u=J[30695]),!r[v[9506]])return logger[g[66]](a[29939]),!1;if(this[l[351]]!=O[f[35466]])return logger[S[70]](g[38213],t,R[10626],this[S[351]]),!1;var h=this[k[32572]],s=null,C=0,m=H[c[43]];m[J[1049]]?(s=m[Q[33614]](i,h),C=m[v[323]]):s=e[f[43]][D[33614]](i);var F=C>0?d[20375]+C+")":M[33435];F!==this[y[17878]]&&(this[a[17878]]=F,logger[g[70]](S[35467]+F+M[13805],t));var j=null;null==e[k[34214]]||e[o[32142]]?j=e[f[43]][y[19042]]():(j=e[c[34214]],e[J[32142]]=!0);var A={};A[D[7123]]=u,A[o[3318]]=t,A[T[3102]]=P[g[4126]][D[6656]][v[32670]],A[T[3284]]=h,A[g[8102]]=this[J[36299]];var p=A;C>0&&(p[v[7938]]={encrypt_version:z[L[30163]](mi()(C))});var b={};b[S[774]]=p,b[Q[99]]=s,b[k[6563]]=j;var U=P[l[9077]][M[0]](b),V=P[J[9077]][d[85]](U)[k[265]](),w=new ArrayBuffer(V[Q[5783]]),Z=new DataView(w),W=this[l[33730]](u,t),I=this[v[3348]][k[72]](W);I||(I=[],this[Y[3348]][c[29]](W,I)),I[f[19]]({methName:W,data:U,fun:n,sendtime:this[k[2156]]});for(var X=0;X<V[q[5783]];X++)Z[v[26209]](X,V[X]);return this[f[3085]][f[35317]]!==WebSocket[Y[10502]]?(logger[q[66]](D[19420],this[L[3085]][R[35317]]),!1):(this[f[3085]][Y[13111]](w),this[Y[32572]]++,logger[a[70]](D[38213],t),!1)}
+METHOD closeSocket function(i,t){null!=this[v[3085]]?(logger[k[70]](R[41413]),this[J[11539]](),this[T[3085]][L[304]](i,t),this[c[35167]]()):logger[Q[70]](c[21092])}
+METHOD forceCloseSocket function(){this[M[3085]]&&this[S[3085]][l[304]](1e3,Y[21647])}
+METHOD onMessage function(i){if(i instanceof ArrayBuffer){this[Q[4370]]=0;var t=new(Mi())(i),n=P[J[9077]][f[65]](t);if(this[v[36299]]=n[Q[774]][l[8102]],logger[f[70]](Q[34838],n[J[774]][a[7123]],n[a[774]][J[3318]],n[a[774]][M[374]]),n[Y[774]][k[374]]==C[R[15137]][L[23767]])logger[y[70]](y[34838],n[Y[774]][v[547]]),this[q[2619]](),r[v[9506]]=!1,s[D[7568]](""+n[q[774]][o[547]],(function(){u[a[555]][M[813]]()}),"提示",Q[41425]);else if(n[J[774]][Y[374]]<0)logger[S[13]](T[20998],n[a[774]][D[374]],n[k[774]][Y[547]]),this[y[2619]](),this[a[36502]](n[Q[774]][M[374]],n[L[774]][g[547]]),r[g[9506]]=!1;else if(0!=n[v[774]][R[374]]&&(logger[M[13]](l[40628],n[J[774]][D[374]],n[k[774]][R[547]]),u[Y[44]][q[50]](n[y[774]][Q[547]])),n[D[774]][l[3102]]==P[l[4126]][l[6656]][d[2941]])this[k[33165]](v[15539])[a[10302]](n);else{var e=this[D[33730]](n[o[774]][o[7123]],n[S[774]][Y[3318]]);if(e){var h=this[d[3348]][g[72]](e);if(h&&h[M[7]]>0){var z=h[J[3418]]();if(z&&z[g[23122]])try{z[d[23122]][D[60]](null,[n])}catch(i){logger[c[66]](M[21295],i)}0===h[f[7]]&&this[R[3348]][D[373]](e)}}}this[k[15280]]()}}
+METHOD getServiceFunName function(i,t){return i+"."+t}
+METHOD getService function(i){var t=null,n=F[o[11540]][i];return null==n&&(n=m),null==(t=this[g[6343]][S[72]](n))&&(t=new n,this[l[6343]][y[29]](n,t)),t}
+METHOD onConnected function(t){logger[q[70]](a[12656],this[R[351]],t),this[T[351]]=O[g[35466]],this[L[3348]][a[373]](i[k[18160]]),this[S[6148]]&&this[o[31493]](),this[q[8268]]?(this[y[8268]](v[977]),this[c[8268]]=null):logger[Y[13]](c[39819])}
+METHOD resetSocketEvent function(){logger[R[70]](d[20101],this[o[3085]]),this[L[3085]]&&(this[v[3085]][q[17412]]=null,this[k[3085]][c[10433]]=null,this[Y[3085]][f[11675]]=null,this[f[3085]][S[33254]]=null)}
+METHOD resetSocketState function(){logger[y[70]](d[29166]),this[c[351]]=O[L[659]],this[L[32572]]=1,this[D[36299]]=0,this[c[3085]]=null,this[a[3348]][k[46]](),this[R[6343]][Q[46]](),e[f[32142]]=!1}
+METHOD onClosed function(i){logger[Q[13]](k[41900],this[Y[4305]],d[8652],i[v[908]],i[M[8901]],i[k[33025]]);try{this[M[2619]]()}catch(i){logger[f[66]](g[35075],i)}finally{this[Q[351]]=O[Q[8675]]}this[g[21311]]()?logger[c[13]](d[38196],this[g[4370]]):this[M[38979]]()}
+METHOD showSocketClosedPrompt function(){var i=this;u[L[555]][c[6611]]()?(logger[a[70]](k[32204],this[k[351]]),this[Y[3354]](Q[40693],(function(){i[Q[4370]]=0,i[L[9819]]=!1,i[k[9354]]()}),d[16780],(function(){u[D[555]][f[813]]()}),q[3444])):logger[a[70]](d[23702])}
+METHOD onError function(i){var t,n,r=i;logger[q[13]](c[28315],this[y[4305]],null!=(t=null!=(n=r[Q[3961]])?n:r[k[31]])?t:"",i);try{this[l[2619]]()}catch(i){logger[o[66]](f[37486],i)}finally{this[L[351]]=O[f[8675]]}this[D[21311]]()?logger[R[13]](L[36318],this[R[4370]]):this[y[17559]]()}
+METHOD retryConnect function(){return this[l[351]]<=O[f[1511]]?(logger[l[13]](D[33320],this[q[351]]),!0):u[a[555]][c[6611]]()?r[M[9506]]?(this[q[4370]]++,this[J[4370]]>this[c[17606]]?(logger[o[66]](T[33013],this[l[4370]],this[q[17606]]),!1):(this[J[9354]](),!0)):(logger[Y[70]](S[24353]),!0):(logger[J[70]](Q[18077]),!0)}
+METHOD confirm function(i,t,n,e,h){r[T[9506]]?(logger[l[70]](M[19925],i,n,h),u[R[555]][k[3354]](i,t,n,e,h),this[D[9819]]=!0):logger[d[66]](Y[17805])}
+METHOD showSocketErrorPrompt function(){var i=this;u[M[555]][J[6611]]()?(logger[c[70]](J[35668],this[f[351]]),this[y[3354]](c[32517],(function(){i[D[4370]]=0,i[c[9819]]=!1,i[f[9354]]()}),Q[16780],(function(){u[l[555]][Y[813]]()}),y[3444])):logger[o[70]](D[37478])}
+METHOD onServerNotAvaliable function(i,t){s[M[7568]](v[40505]+i+Q[16827]+t+k[37761],(function(){u[d[555]][q[813]]()}),"提示","确定")}
+METHOD showTimeoutPrompt function(){var i=this;logger[D[13]](q[12963],this[D[351]]),this[c[3354]](q[26358],(function(){i[Y[4370]]=0,i[R[9819]]=!1,i[S[9354]]()}),v[16780],(function(){u[l[555]][f[813]]()}),q[3444])}
+METHOD reconnect function(){logger[g[13]](L[16173]+this[Q[4305]]+T[38407]+this[g[351]]+S[37586]+this[M[4370]]),this[Q[11539]](),this[f[35167]](),u[S[1082]][k[194]]=h[L[5586]]}
+METHOD checkNetworkTimeout function(){var i=0,t=null;if(this[k[3348]][R[73]]((function(n){if(n[Y[7]]>0){var r=n[0];(0===i||r[d[37786]]<i)&&(i=r[k[37786]],t=r[D[27238]])}})),i>0){var n=this[k[2156]]-i;n>=this[D[41674]]&&!this[L[9819]]?(this[v[6148]]&&this[c[31493]](),logger[T[13]](T[38519],n,t),this[g[351]]=O[o[659]],this[a[2619]](),this[k[20516]]()):n>=this[o[32390]]&&!this[d[6148]]&&!this[o[9819]]&&(logger[v[70]](d[35958],n,t),logger[v[24517]](t,n),this[d[25242]]())}else this[D[6148]]&&this[o[31493]]()}
+METHOD openWait function(){logger[Y[70]](L[35939]),this[T[6148]]=!0,u[d[44]][c[8956]](2)}
+METHOD closeWait function(){this[a[6148]]=!1,logger[q[70]](Y[36291]),u[d[44]][c[2267]](2)}
+METHOD initSocket function(){var i=this;logger[g[70]](a[41979],this[a[351]]),this[Q[3085]][g[17412]]=function(t){i[k[26869]](t)},this[o[3085]][a[33254]]=function(t){try{i[f[7704]](t[k[39]])}catch(i){logger[a[66]](g[21295],i)}},this[q[3085]][o[10433]]=function(t){i[T[34677]](t)},this[R[3085]][Y[11675]]=function(t){i[Q[2738]](t)},this[Q[351]]=O[M[1511]],logger[f[70]](o[19117])}
+METHOD onFrame function(i){this[D[2235]]+=i,this[Y[2235]]<1||(this[d[2235]]=0,this[Y[15280]]())}
+
+MODULE chunks:///_virtual/Plant.ts EXPORT Plant METHODS getAnimFlag,isAnimNeedWait,markAnimDone,markAnimNeedWait,addNaturalWeed,clearWeeds,addNaturalInsect,clearInsects,isNaturalGrow,applyWeedInsectOwners,isExternalMutant,getZijingResonanceExpBonus,isZijingResonanceActive,setCropSocialEvents,setWeatherWood,getBpFruitLeftNum,getBpFruitIdBySeasonId,getBpFruitNumBySeasonId,init,refreshsocialItemsMap,updateData,loadConfig,getConfig,setStageInfos,setStage,checkMutantByPhaseId,autoGrowth,scheduleNextStage,clearGrowthTimer,harvestPlant,erasePlant,canHarvest,isGrow,isMature,isDead,canErase,canAddBug,canAddGrass,canKillBug,canEraseGrass,canSteal,canFertilize,hasSocialItemByInteractionType,getTotalTime,getRemainingTime,destroy,getPlantName,getSeasonCount,getCurrentSeason,getCurrentStage,getExistDuration,getRemainingGrowthTime,getHarvestItemIcon,getFruitItemIcon,checkHasMutant,checkHasMutantFruitTypeChnage,checkHasMutantFruitNumChange,checkHasMutantPriceChange,getBaseYield,getRemainingYield,parseGrowPhases,getClientPhaseValues,onPlantBorn,onStageChanged,onPlantHarvested,onPlantDestroyed,getcurstageInfo,clearStartedMutants,clearAllStateTimer,getgrowPhasesStrToArr,getCurPlantId,getAnimationName,getCurAll_state_spine,getCurFruitItemAssetName,getCurFruitItemConfig,getCurFruitId,getCurgrowPhasesStrToArr,getCurconfPhaseTypeStr,getSocialItemByItemId,hasAppearanceOverrideSocialItem,hasFootballAppearance,hasBichonAppearance,getAppearanceOverrideSocialItemId,getEraseAllSocialItems,getAutoClearCropSocialItemIds,hasAutoClearCropSocialItem
+METHOD getAnimFlag function(i){var t=this[D[18837]][D[72]](i);return t||(t=new x,this[v[18837]][L[29]](i,t)),t}
+METHOD isAnimNeedWait function(i){return this[T[5579]](i)[D[34174]]}
+METHOD markAnimDone function(i){this[L[5579]](i)[Q[38203]]()}
+METHOD markAnimNeedWait function(i){this[l[5579]](i)[J[11336]]()}
+METHOD addNaturalWeed function(){this[a[317]][q[4015]]||(this[o[317]][o[4015]]=[]),this[v[317]][y[4015]][L[19]](0),H[a[31]][D[41]](j[c[3145]],this,!0,!0)}
+METHOD clearWeeds function(){0!==(this[R[317]][Q[4015]]||[])[M[7]]&&(this[J[317]][o[4015]]=[],H[S[31]][M[41]](j[c[3145]],this,!1,!1,!0))}
+METHOD addNaturalInsect function(){this[Q[317]][l[1920]]||(this[Q[317]][y[1920]]=[]),this[d[317]][D[1920]][R[19]](0),H[J[31]][D[41]](j[R[5539]],this,!0,!0)}
+METHOD clearInsects function(){0!==(this[g[317]][v[1920]]||[])[S[7]]&&(this[L[317]][f[1920]]=[],H[T[31]][M[41]](j[q[5539]],this,!1,!1,!0))}
+METHOD isNaturalGrow function(i,t){for(var n=(i||[])[Q[7]];n<t[R[7]];n++)if(0!==t[n])return!1;return!0}
+METHOD applyWeedInsectOwners function(i,t){var n=this[y[317]][D[4015]],r=this[o[317]][Q[1920]],e=this[L[1442]],u=this[l[2757]];if(this[D[317]][M[4015]]=i,this[v[317]][L[1920]]=t,this[T[1442]]!==e){var h=this[d[1442]]>e,s=h&&this[D[33942]](n,i||[]),f=!h&&this[k[7934]]();H[M[31]][L[41]](j[S[3145]],this,h,s,f)}if(this[o[2757]]!==u){var c=this[T[2757]]>u,a=c&&this[g[33942]](r,t||[]),q=!c&&this[y[7934]]();H[v[31]][g[41]](j[d[5539]],this,c,a,q)}}
+METHOD isExternalMutant function(i){var n=this[M[317]][Q[5410]];if(!n)return!1;for(var r,e=t(n);!(r=e())[R[11]];){var u,h=r[Q[14]];if(qi()(null!=(u=h[g[8060]])?u:0)===i){var s,f=qi()(null!=(s=h[d[9637]])?s:0);return f===$[a[10888]]||f===$[T[26091]]}}return!1}
+METHOD getZijingResonanceExpBonus function(){var i=F[T[35]][J[57]][J[856]](this[M[906]]);return i?i[M[21622]]()/100:0}
+METHOD isZijingResonanceActive function(){if(!this[y[17608]])return!1;if(!this[d[772]][q[407]]((function(i){return U[J[29614]](i)!==e[f[4268]]})))return!1;var i=this[g[16848]]();return qi()[S[3914]](i)&&i>0}
+METHOD setCropSocialEvents function(i){if(i){var t=new(Pi());this[k[317]][y[5262]][d[73]]((function(i){return t[o[29]](i[c[590]],i)}));var n=new(Pi());i[f[73]]((function(i){return n[a[29]](i[f[590]],i)}));var r=[],e=[],u=!1;n[a[73]]((function(i,n){var e=t[T[72]](n);e?e[T[7151]]===i[L[7151]]&&e[l[9116]]===i[S[9116]]&&e[a[906]]===i[k[906]]||(u=!0):(r[M[19]](n),u=!0)})),t[q[73]]((function(i,t){n[a[949]](t)||(e[f[19]](t),u=!0)})),u&&(this[Q[317]][J[5262]]=i,this[J[25669]](),r[L[407]]((function(i){return A[y[5467]](i)}))&&this[c[28168]](I[f[1770]]),H[v[31]][R[41]](j[M[19883]],this,r,e))}}
+METHOD setWeatherWood function(i){var t,n,r;if(i){var e=null!=(t=null==(n=this[l[317]][v[6053]])?void 0:n[R[4349]])?t:0,u=null!=(r=i[v[4349]])?r:0;this[S[317]][Q[6053]]=i,0===e&&u>0&&(this[y[28168]](I[J[4312]]),H[l[31]][f[41]](j[Q[6619]],this))}}
+METHOD getBpFruitLeftNum function(i,t){if(void 0===i&&(i=0),void 0===t&&(t=!1),t&&!W[J[43]][c[53]][f[9117]](i))return 0;if(i<=0)return this[d[317]][Y[2553]][M[7]]>0?this[J[317]][o[2553]][0][y[9441]]:0;var n=this[R[317]][J[2553]][T[919]]((function(t){return t[q[255]]==i}));return n?n[l[9441]]:0}
+METHOD getBpFruitIdBySeasonId function(i,t){if(void 0===i&&(i=0),void 0===t&&(t=!1),t&&!W[a[43]][k[53]][q[9117]](i))return 0;if(this[d[7934]]()){if(i<=0)return this[y[317]][S[2553]][l[7]]>0?this[d[317]][R[2553]][0][c[176]]:0;var n=this[a[317]][a[2553]][S[919]]((function(t){return t[R[255]]==i}));return n?n[Y[176]]:0}var r=this[S[9549]];return A[g[7600]](r,i)}
+METHOD getBpFruitNumBySeasonId function(i,t){if(void 0===i&&(i=0),void 0===t&&(t=!1),t&&!W[d[43]][Y[53]][D[9117]](i))return 0;if(this[c[7934]]()){if(i<=0)return this[o[317]][J[2553]][k[7]]>0?this[v[317]][l[2553]][0][q[1044]]:0;var n=this[Y[317]][d[2553]][y[919]]((function(t){return t[D[255]]==i}));return n?n[Y[1044]]:0}var r=this[T[9549]],e=A[g[6147]](r,i);return e+=e*F[Q[35]][l[57]][y[856]](this[v[906]])[a[34756]]()/1e4,e=U[y[39719]](e,this[v[772]]),(e=Ti()[M[739]](e))<0&&(e=0),e}
+METHOD init function(i){this[L[744]]=i[Y[2538]][0][g[677]],this[v[317]]=i,this[f[23726]]=this[L[35882]]()[o[677]],this[k[9849]]=i[k[31724]],this[D[25669]](),this[Q[135]]=!0,this[D[7459]](),this[S[29226]](),logger[l[70]](y[33837]+this[Y[317]].id+k[9454]+this[c[317]][S[906]]),this[k[26164]](X[d[2248]],this[M[317]][Q[673]])}
+METHOD refreshsocialItemsMap function(){this[o[9263]][k[46]]();for(var i,n=t(this[v[5262]]);!(i=n())[c[11]];){var r=i[y[14]];!r||r[o[590]]<=0||this[v[9263]][q[29]](r[d[590]],r)}}
+METHOD updateData function(i){this[Y[317]][R[2783]]=i[M[2783]],this[l[317]][J[1044]]=i[S[1044]],this[Q[317]][l[176]]=i[Y[176]],this[R[317]][J[9441]]=i[o[9441]],this[q[317]][o[672]]=i[M[672]],this[Y[9849]]=i[a[31724]],this[f[317]][y[6829]]=i[Y[6829]],this[k[317]][g[7760]]=i[f[7760]]||0,this[L[317]][l[5410]]=i[q[5410]],this[J[317]][f[4905]]=i[v[4905]]||[],this[q[772]]=i[q[772]]||[],this[v[317]][l[8423]]=i[q[8423]]||[],this[T[317]][g[6468]]=i[d[6468]]||0,this[a[317]][S[9970]]=i[S[9970]]||0,this[Y[317]][S[1815]]=i[y[1815]]||this[q[676]][k[154]],this[M[317]][d[2469]]=i[a[2469]]||[],this[L[317]][Q[5372]]=i[y[5372]]||[],this[c[317]][f[4650]]=i[q[4650]]||[],this[Q[317]][q[7309]]=i[R[7309]]||0,this[Y[27242]](i[o[5262]]),this[R[317]][y[2553]]=i[y[2553]]||[],this[J[317]][Y[2622]]=i[k[2622]]||0,this[g[17567]](i[v[6053]]),this[T[33323]](i[o[2538]]),this[T[2920]](i[c[673]],i[y[2792]]),this[S[12259]](i[k[4015]],i[M[1920]])}
+METHOD loadConfig function(){this[Q[676]]=H[T[81]][d[22]](R[705])[J[22]](this[a[317]].id),this[S[676]]||logger[l[66]](J[32016]+this[o[317]].id)}
+METHOD getConfig function(){return this[S[676]]}
+METHOD setStageInfos function(i){this[M[317]][c[2538]]=i}
+METHOD setStage function(i,t,n){if(void 0===n&&(n=!0),H[S[564]][L[28911]](),H[y[564]][J[10336]])logger[L[70]](k[16650],this[c[317]][o[673]],i);else{var r=this[g[317]][k[673]],e=this[l[317]][Y[2792]];this[o[317]][l[673]]=i,this[c[317]][v[2792]]=t,this[v[23726]]=H[l[564]][k[126]](),this[S[29226]](),this[Y[26164]](r,i),t!=e&&this[q[41315]](e),e==t&&r==i||n||w[v[43]][v[40112]](this,i,t)}}
+METHOD checkMutantByPhaseId function(i){var t=this[c[317]][g[2538]][D[919]]((function(t){return t[D[946]]===i}));if(t&&t[o[259]]&&0!==t[y[259]][R[7]]){for(var n=H[v[564]][y[126]](),r=t[a[259]]||[],e=!1,u=this[f[772]][o[338]](),h=0;h<r[l[7]];h++){var s=r[h];s[Q[5980]]<=n&&(-1===u[Q[734]](s[Q[8060]])&&(u[R[19]](s[d[8060]]),e=!0,logger[D[70]](c[36332],s[f[8060]],s[Q[5980]],n)),t[k[259]][a[605]](h,1),h--,s[R[8057]]&&-1===this[Y[4650]][q[734]](s[J[8057]])&&(this[d[4650]][y[19]](s[Q[8057]]),e=!0,logger[d[70]](J[16139],s[c[8057]],s[Y[5980]],n)))}e&&(this[o[772]]=u,H[Y[31]][L[41]](j[a[3543]],this))}}
+METHOD autoGrowth function(){this[l[29818]](),this[Y[39161]](),this[D[37167]]()}
+METHOD scheduleNextStage function(){var i=this;if(this[o[676]]){var t=null,n=-1,r=0;if(this[L[317]][T[2538]][Q[73]]((function(e,u){var h,s,f;e[y[357]]==i[o[317]][Q[673]]&&e[T[946]]==i[Y[317]][o[2792]]&&(t=null==(h=i[l[317]][q[2538]][u+1])?void 0:h[l[357]],r=null==(s=i[c[317]][R[2538]][u+1])?void 0:s[M[946]],(n=null==(f=i[J[317]][l[2538]][u])?void 0:f[Q[638]])>0&&(n-=H[D[564]][d[126]]()-e[Q[677]]))})),null!==t&&n>0)return this[Q[3714]]=Ji()((function(){i[Q[2920]](t,r,!1)}),1e3*n),void logger[f[70]](D[5756]+this[o[317]].id+o[9454]+this[S[317]][R[906]]+f[19339]+t+L[30177]+this[k[2792]]+Y[34087]+n+"秒");null!=t&&n<=0&&(logger[M[70]](L[12658],t,n),this[o[2920]](t,r,!1))}}
+METHOD clearGrowthTimer function(){this[f[3714]]&&(vi()(this[y[3714]]),this[Y[3714]]=null)}
+METHOD harvestPlant function(){return this[c[317]][c[673]]!==X[a[4972]]?(logger[T[13]](J[5756]+this[g[317]].id+Q[9454]+this[R[317]][k[906]]+k[41493]),!1):(this[f[2920]](X[S[6919]],u[v[6919]]),this[y[27978]](),!0)}
+METHOD erasePlant function(i){return void 0===i&&(i=!1),i||this[J[317]][d[673]]===X[o[6919]]?(this[Y[2920]](X[J[3046]],0),!0):(logger[d[13]](L[5756]+this[Q[317]].id+M[9454]+this[R[317]][o[906]]+g[20977]),!1)}
+METHOD canHarvest function(){return this[y[7934]]()}
+METHOD isGrow function(){return this[c[317]][R[673]]>=X[y[8797]]&&this[q[317]][M[673]]<X[c[4972]]}
+METHOD isMature function(){return this[T[317]][R[673]]===X[d[4972]]}
+METHOD isDead function(){return this[R[317]][M[673]]===X[L[6919]]}
+METHOD canErase function(){return!0}
+METHOD canAddBug function(){return this[L[1962]]()&&this[c[2757]]<1}
+METHOD canAddGrass function(){return this[D[1962]]()&&this[T[1442]]<1}
+METHOD canKillBug function(){return this[T[1962]]()&&this[c[2757]]>0&&-1==this[k[317]][k[1920]][y[734]](z[J[764]][f[55]])}
+METHOD canEraseGrass function(){return this[q[1962]]()&&this[g[1442]]>0&&-1==this[D[317]][R[4015]][S[734]](z[v[764]][T[55]])}
+METHOD canSteal function(){return this[M[7934]]()&&-1===this[D[317]][l[672]][v[734]](z[d[764]][L[55]])&&this[q[317]][S[6829]]}
+METHOD canFertilize function(){return this[g[317]][v[673]]<X[R[4972]]}
+METHOD hasSocialItemByInteractionType function(i){if(0==this[y[5262]][d[7]])return!1;for(var n,r=t(this[a[5262]]);!(n=r())[Y[11]];){var e=n[Y[14]];if(!(e[J[590]]<=0)){var u=H[k[81]][y[22]](P[L[696]])[M[22]](e[J[590]]);if((null==u?void 0:u[v[8533]])==i)return!0}}return!1}
+METHOD getTotalTime function(){return this[f[9849]]}
+METHOD getRemainingTime function(){var i=this;if(!this[o[317]][y[2538]][D[383]]((function(t){return t[y[946]]>i[Y[317]][J[2792]]})))return 0;var t=0;this[L[317]][J[2538]][f[73]]((function(i){i[T[638]]>0&&(t+=i[S[638]])}));var n=H[y[564]][L[126]]()-this[Q[317]][y[2538]][0][g[677]];return t-n}
+METHOD destroy function(){this[v[32533]](),this[l[29818]](),this[D[39161]](),this[S[2920]](X[k[2248]],0),logger[v[70]](g[36062]+this[g[317]].id+J[9454]+this[J[317]][c[906]]+", "+this[l[28263]]()),this[k[39365]](),this[q[135]]=!1}
+METHOD getPlantName function(){var i;return(null==(i=this[Y[676]])?void 0:i[a[40]])||"植物"+this[a[317]].id}
+METHOD getSeasonCount function(){var i;return(null==(i=this[S[676]])?void 0:i[a[204]])||1}
+METHOD getCurrentSeason function(){return this[Y[317]][o[2783]]}
+METHOD getCurrentStage function(){return this[Q[317]][T[673]]}
+METHOD getExistDuration function(){return H[Q[564]][g[394]]()-this[d[744]]}
+METHOD getRemainingGrowthTime function(){var i=this;if(!this[g[676]])return 0;var t=H[q[564]][a[394]]()-this[T[23726]],n=this[Q[317]][l[2538]][J[919]]((function(t){return t[Q[357]]===i[S[317]][L[673]]}));return n?Ti()[o[967]](0,n[a[638]]-t):(logger[d[66]](g[5756]+this[l[317]].id+f[9454]+this[Q[317]][l[906]]+S[32709]),0)}
+METHOD getHarvestItemIcon function(i){void 0===i&&(i=!1);var t=this[M[6468]]||this[q[41340]];return C[L[1305]](t,i)}
+METHOD getFruitItemIcon function(i){void 0===i&&(i=!1);var t=this[d[3688]]();return t||(t=this[l[41340]]),C[q[1305]](t,i)}
+METHOD checkHasMutant function(){return this[k[772]][q[7]]>0}
+METHOD checkHasMutantFruitTypeChnage function(){var i=!1;return this[c[772]][R[73]]((function(t){var n,r,e=H[a[81]][o[22]](P[a[990]])[D[22]](t);(null!=(n=null==(r=U[J[8968]](e[g[5494]])[0])?void 0:r[a[822]])?n:0)==h[o[14123]]&&(i=!0)})),i}
+METHOD checkHasMutantFruitNumChange function(){var i=!1;return this[a[772]][v[73]]((function(t){var n,r,e=H[D[81]][S[22]](P[Q[990]])[S[22]](t),u=null!=(n=null==(r=U[g[8968]](e[a[5494]])[0])?void 0:r[R[822]])?n:0;u!=h[c[25894]]&&u!=h[Y[8899]]||(i=!0)})),i}
+METHOD checkHasMutantPriceChange function(){var i=!1;return this[d[772]][c[73]]((function(t){var n,r,e=H[q[81]][a[22]](P[Q[990]])[q[22]](t);(null!=(n=null==(r=U[l[8968]](e[f[5494]])[0])?void 0:r[a[822]])?n:0)==h[R[5670]]&&(i=!0)})),i}
+METHOD getBaseYield function(){return this[T[1044]]}
+METHOD getRemainingYield function(){return Ti()[y[967]](0,this[Q[9441]])}
+METHOD parseGrowPhases function(){if(!this[k[676]]||!this[l[676]][a[8237]])return[];var i=this[q[676]][Q[8237]][y[531]](";")[T[383]]((function(i){return""!==i[R[138]]()})),t=[];return i[D[73]]((function(i){var n=i[Y[531]](":")[0];if(n&&""!==n[D[138]]())for(var r in s)if(s[r]===n[y[138]]()){t[v[19]](qi()(r));break}})),t}
+METHOD getClientPhaseValues function(){var i=this;return null==this[M[3069]]&&(this[c[3069]]=[],this[M[676]][g[8237]][f[531]](";")[f[383]]((function(i){return""!==i[k[138]]()}))[M[73]]((function(t){var n=t[Q[531]](":"),r=n[0],e=n[1];r&&""!==r[D[138]]()&&i[c[3069]][Y[19]](qi()(e))}))),this[g[3069]]}
+METHOD onPlantBorn function(){}
+METHOD onStageChanged function(i,t){H[d[31]][Q[41]](j[q[2146]],this,i,t)}
+METHOD onPlantHarvested function(){}
+METHOD onPlantDestroyed function(){}
+METHOD getcurstageInfo function(){var i=this;return this[v[317]][c[2538]][Y[919]]((function(t){return t[v[946]]===i[o[317]][g[2792]]}))}
+METHOD clearStartedMutants function(){this[S[772]]=[]}
+METHOD clearAllStateTimer function(){this[Y[7895]]&&(vi()(this[l[7895]]),this[v[7895]]=null),this[g[6037]]&&(vi()(this[q[6037]]),this[S[6037]]=null),this[q[1799]]&&(vi()(this[q[1799]]),this[a[1799]]=null)}
+METHOD getgrowPhasesStrToArr function(){return L[98]!=ti(this[o[676]][Q[8237]])||""===this[R[676]][k[8237]][c[138]]()?[]:this[L[676]][y[8237]][a[531]](";")[d[383]]((function(i){return i[M[138]]()}))[g[78]]((function(i){var t=i[d[531]](":",2),n=t[0],r=t[1],e=qi()(r)||0,u={};return u[d[38462]]=(null==n?void 0:n[J[138]]())||"",u[y[814]]=e,u}))}
+METHOD getCurPlantId function(){return this[S[317]][g[4650]]&&this[v[317]][k[4650]][M[7]]>0?this[v[317]][k[4650]][this[S[317]][M[4650]][y[7]]-1]:this[o[317]].id}
+METHOD getAnimationName function(){return this[f[1818]]()[T[441]]()}
+METHOD getCurAll_state_spine function(){return this[Q[9549]][D[6896]]||""}
+METHOD getCurFruitItemAssetName function(i,t){var n,r=this[D[27879]](),e=null==r?void 0:r[D[7356]];return e?i==X[c[6919]]?J[30429]:i==X[l[8797]]?D[39354]:g[19738]+e+"_"+i+v[715]:(logger[v[66]](L[5756]+this[q[317]].id+a[10350]+(null==(n=this[a[9549]])?void 0:n[k[7670]].id)+v[16725]),"")}
+METHOD getCurFruitItemConfig function(){var i=this[v[3688]]();return H[L[81]][D[22]](P[o[696]])[S[22]](i)}
+METHOD getCurFruitId function(){if(this[l[7934]]())return this[l[40950]];var i=this[T[9549]],t=null==i?void 0:i[y[7670]].id;return t||(logger[R[13]](y[5756]+this[k[317]].id+T[35647]+this[L[1818]]()+y[22761]),t=this[k[41340]]),t}
+METHOD getCurgrowPhasesStrToArr function(){return R[98]!=ti(this[T[9549]][c[8237]])||""===this[c[9549]][M[8237]][k[138]]()?[]:this[c[9549]][Y[8237]][f[531]](";")[y[383]]((function(i){return i[a[138]]()}))[q[78]]((function(i){var t=i[g[531]](":",2),n=t[0],r=t[1],e=qi()(r)||0,u={};return u[Q[38462]]=(null==n?void 0:n[g[138]]())||"",u[J[814]]=e,u}))}
+METHOD getCurconfPhaseTypeStr function(){var i=s[this[T[2792]]],t=this[d[22]]()[g[8237]][k[531]](";")[R[383]]((function(i){return""!==i[g[138]]()}))[R[370]]((function(t){return-1!==t[l[734]](i)}));if(-1===t)return logger[Y[66]](J[5756]+this[a[317]].id+Q[10711]+this[Y[2792]]+k[38711]),T[19586];var n=this[d[9549]][k[8237]][J[531]](";")[L[383]]((function(i){return""!==i[J[138]]()}));return n[k[7]]>t?n[t][g[531]](":")[0][d[138]]():(logger[S[66]](f[15994]+this[M[9549]].id+Y[39654]+this[D[22]]().id+R[38711]),n[n[a[7]]-1][R[531]](":")[0][Q[138]]())}
+METHOD getSocialItemByItemId function(i){return this[k[9263]][Y[72]](i)}
+METHOD hasAppearanceOverrideSocialItem function(){if(0===this[d[9263]][o[439]])return!1;for(var i,n=t(this[a[9263]][k[69]]());!(i=n())[f[11]];){var r=i[L[14]];if(A[l[5467]](r))return!0}return!1}
+METHOD hasFootballAppearance function(){return this[v[18249]]()}
+METHOD hasBichonAppearance function(){return U[c[2525]](this[c[772]],e[o[19524]])}
+METHOD getAppearanceOverrideSocialItemId function(){if(0===this[Q[9263]][Q[439]])return 0;for(var i,n=t(this[f[9263]][L[69]]());!(i=n())[L[11]];){var r=i[f[14]];if(A[q[5467]](r))return r}return 0}
+METHOD getEraseAllSocialItems function(i){return i!==O[T[39405]]&&i!==O[J[11908]]?[]:gi()[y[612]](this[D[9263]][R[69]]())}
+METHOD getAutoClearCropSocialItemIds function(){if(!F[q[35]][v[57]][Q[330]])return[];var i=this[S[5262]];if(0===i[g[7]])return[];var n=H[d[81]][l[22]](P[L[239]]);if(!n)return[];for(var r,e=new(Z()),u=t(i);!(r=u())[k[11]];){var h,s=r[S[14]];if(!(s[S[590]]<=0)){var f=(null!=(h=n[l[149]](s[S[590]],m[k[590]]))?h:[])[0];f&&f[Y[4394]]&&p[y[2384]](f)&&e[D[693]](s[Y[590]])}}return gi()[M[612]](e)}
+METHOD hasAutoClearCropSocialItem function(i){if(void 0===i&&(i=!1),!F[D[35]][k[57]][v[330]])return!1;var n=this[Y[5262]];if(0===n[R[7]])return!1;var r=H[Y[81]][o[22]](P[Q[239]]);if(!r)return!1;for(var e,u=t(n);!(e=u())[J[11]];){var h,s=e[o[14]];if(!(s[a[590]]<=0)){var f,c=(null!=(h=r[l[149]](s[l[590]],m[S[590]]))?h:[])[0],d=!0;if(i&&(d=null!=(f=null==c?void 0:c[k[4394]])&&f),c&&d&&p[J[2384]](c))return!0}}return!1}
+
+MODULE chunks:///_virtual/PlantAnimEffectComp.ts EXPORT PlantAnimEffectComp METHODS length,name,arguments,caller,prototype
+METHOD length function () { [native code] }
+METHOD name function () { [native code] }
+METHOD prototype function () { [native code] }
+
+MODULE chunks:///_virtual/PlantBugComp.ts EXPORT PlantBugComp METHODS length,name,arguments,caller,prototype
+METHOD length function () { [native code] }
+METHOD name function () { [native code] }
+METHOD prototype function () { [native code] }
+MODULE_ERROR chunks:///_virtual/PlantComp.ts TypeError: ni.default.mark is not a function
+
+MODULE chunks:///_virtual/PlantConfig.ts EXPORT PlantConfig METHODS fromJson,fromJsonArray,fromJsonString
+METHOD fromJson function(i){var t={};return t.id=qi()(i.id)||0,t[c[34865]]=mi()(i[M[34865]]||""),t[J[40]]=mi()(i[L[40]]||""),t[l[7670]]=i[o[7670]],t[v[1871]]=qi()(i[f[1871]])||0,t[R[41503]]=qi()(i[o[41503]])||0,t[c[204]]=qi()(i[d[204]])||0,t[o[8237]]=mi()(i[Y[8237]]||""),t[q[154]]=qi()(i[d[154]])||0,t[l[4674]]=mi()(i[R[4674]]||""),t[a[439]]=qi()(i[y[439]])||0,t[Q[4660]]=i[J[4660]],t[f[41927]]=i[f[41927]],t[l[24165]]=i[L[24165]],t[g[16793]]=oi()(i[J[16793]]),t[S[29304]]=mi()(i[l[29304]]||""),t[l[41291]]=mi()(i[Q[41291]]||""),t[R[32676]]=mi()(i[Q[32676]]||""),t[k[6896]]=mi()(i[k[6896]]||""),t[d[29459]]=mi()(i[q[29459]]||""),t[f[36095]]=i[o[36095]],t[L[21752]]=mi()(i[M[21752]]||""),t[a[2052]]=i[D[2052]],t[Y[31785]]=i[q[31785]],t[L[6445]]=i[y[6445]],t[o[16462]]=i[D[16462]],t}
+METHOD fromJsonArray function(i){var t=this;return i[k[78]]((function(i){return t[v[18]](i)}))}
+METHOD fromJsonString function(i){var t=X()[T[927]](i);return gi()[S[855]](t)?this[o[32]](t):[this[o[18]](t)]}
+MODULE_ERROR chunks:///_virtual/PlantDetailComp.ts TypeError: ni.default.mark is not a function
+
+MODULE chunks:///_virtual/PlantEffectDispatcher.ts EXPORT PlantEffectDispatcher METHODS init,destroy,regEvents,getPlantComp,onCropSocialEventsChanged,onPlantWeatherWoodChanged,onPlantMutantTypeChanged,onInsectsChanged,onWeedsChanged
+METHOD init function(){this[q[687]](!0)}
+METHOD destroy function(){this[q[687]](!1)}
+METHOD regEvents function(i){var t=i?r[q[31]].on[d[289]](r[R[31]]):r[f[31]][Y[24]][Y[289]](r[o[31]]);t(b[L[19883]],this[Q[41523]],this),t(b[v[6619]],this[k[18996]],this),t(b[f[2513]],this[Q[22482]],this),t(b[k[5539]],this[J[37437]],this),t(b[q[3145]],this[l[19593]],this)}
+METHOD getPlantComp function(i){var t,n;return null!=(t=null==(n=u[a[35]])||null==(n=n[g[845]])?void 0:n[T[5997]](i))?t:null}
+METHOD onCropSocialEventsChanged function(i,t,n,r){var e=this[S[4553]](t[J[906]]);if(e){n[T[734]](h[S[3567]])>=0?e[T[9571]](P)[y[785]](O[J[4046]]):r[M[734]](h[Y[3567]])>=0&&e[R[9571]](P)[o[785]](O[v[6437]]),n[y[734]](h[k[1726]])>=0?e[q[9571]](j)[Y[785]](O[T[4046]]):r[Q[734]](h[c[1726]])>=0&&e[T[9571]](j)[T[785]](O[q[6437]]);var u=n[R[407]]((function(i){return U[T[5467]](i)})),s=r[J[407]]((function(i){return U[v[5467]](i)}));u?e[Q[9571]](H)[y[785]](O[l[4046]]):s&&e[l[9571]](H)[v[785]](O[d[6437]])}}
+METHOD onPlantWeatherWoodChanged function(i,t){var n=this[J[4553]](t[R[906]]);n&&n[k[9571]](A)[D[785]](O[c[4046]])}
+METHOD onPlantMutantTypeChanged function(t,n,r,e){var u=this[o[4553]](n[d[906]]);if(u){for(var h=function(){var t=s[c[29614]](r[f]),n=i[c[29875]][l[919]]((function(i){return i[v[9105]]===t}));n&&u[D[9571]](n[v[28894]])[R[785]](O[L[4046]])},f=0;f<r[c[7]];f++)h();e[R[7]]>0&&u[R[9571]](p)[a[785]](O[d[4046]])}}
+METHOD onInsectsChanged function(i,t,n,r,e){void 0===r&&(r=!1),void 0===e&&(e=!1);var u=this[l[4553]](t[a[906]]);u&&(n?u[L[9571]](z)[o[785]](r?O[Y[1511]]:O[Q[4046]]):e?u[L[9571]](z)[q[785]](O[v[1511]]):u[T[9571]](z)[Q[785]](O[Y[6437]]))}
+METHOD onWeedsChanged function(i,t,n,r,e){void 0===r&&(r=!1),void 0===e&&(e=!1);var u=this[o[4553]](t[M[906]]);if(u){var h=u[L[9571]](C);n?h[J[785]](r?O[Y[1511]]:O[L[4046]]):e?h[d[785]](O[k[1511]]):h[S[785]](O[l[6437]])}}
+
+MODULE chunks:///_virtual/PlantFootballComp.ts EXPORT PlantFootballComp METHODS length,name,arguments,caller,prototype
+METHOD length function () { [native code] }
+METHOD name function () { [native code] }
+METHOD prototype function () { [native code] }
+
+MODULE chunks:///_virtual/PlantFrameEventComp.ts EXPORT PlantFrameEventComp METHODS length,name,arguments,caller,prototype
+METHOD length function () { [native code] }
+METHOD name function () { [native code] }
+METHOD prototype function () { [native code] }
+
+MODULE chunks:///_virtual/PlantGoldBugComp.ts EXPORT PlantGoldBugComp METHODS length,name,arguments,caller,prototype
+METHOD length function () { [native code] }
+METHOD name function () { [native code] }
+METHOD prototype function () { [native code] }
+
+MODULE chunks:///_virtual/PlantGrassComp.ts EXPORT PlantGrassComp METHODS length,name,arguments,caller,prototype
+METHOD length function () { [native code] }
+METHOD name function () { [native code] }
+METHOD prototype function () { [native code] }
+
+MODULE chunks:///_virtual/PlantInstantBottleComp.ts EXPORT PlantInstantBottleComp METHODS onPlayInExtra,getAnimClipName,getEffectResDescs,getBottleScale,onEffectNodeRefresh,onEffectInit,onEffectAdd,onEffectRemove,onCleanup,playBottleAnim,onInFinished,beforeDestroyEffectNode,applyBottleOffset
+METHOD onPlayInExtra function(){}
+METHOD getAnimClipName function(i,t){return i?Q[28946]:S[34740]}
+METHOD getEffectResDescs function(i){var t,n,e=null!=(t=null==(n=this[a[7062]]())?void 0:n[q[2176]])?t:"";return e?[{path:e,type:r,isMain:!0}]:[]}
+METHOD getBottleScale function(){return 1}
+METHOD onEffectNodeRefresh function(i){this[L[41762]](i),i[g[47]]=!0}
+METHOD onEffectInit function(){}
+METHOD onEffectAdd function(){this[f[9703]](u[l[4046]])&&(this[L[26412]](u[R[4046]]),this[l[21061]]())}
+METHOD onEffectRemove function(){this[J[9703]](u[Y[6437]])&&this[S[26412]](u[a[6437]])}
+METHOD onCleanup function(){this[D[7724]]()}
+METHOD playBottleAnim function(i){var t,n=null==(t=this[l[8979]])||null==(t=t[v[5572]]())?void 0:t[y[675]],r=this[c[27177]](n,i);this[Q[2036]][d[24]](e[Y[86]][y[656]],this[q[6353]],this),this[f[2036]][R[940]](e[L[86]][L[656]],this[R[6353]],this),this[a[2036]][M[877]](r)}
+METHOD onInFinished function(){this[d[7724]]()}
+METHOD beforeDestroyEffectNode function(){this[S[2036]]&&this[k[2036]][g[24]](e[Q[86]][J[656]],this[l[6353]],this)}
+METHOD applyBottleOffset function(i){var t=this[J[7062]]();if(t){var n,r=null!=(n=this[L[8979]])&&null!=(n=n[q[5572]]())&&n[R[675]]?t[y[3340]]:t[o[913]];r&&this[q[7118]](i,qi()(r.x)||0,qi()(r.y)||0)}var e=this[g[15680]]();1!==e&&i[M[269]](e,e,1)}
+MODULE_ERROR chunks:///_virtual/PlantInteracitveComp.ts TypeError: ni.default.mark is not a function
+
+MODULE chunks:///_virtual/PlantLightningAnomalyBottleComp.ts EXPORT PlantLightningAnomalyBottleComp METHODS length,name,arguments,caller,prototype
+METHOD length function () { [native code] }
+METHOD name function () { [native code] }
+METHOD prototype function () { [native code] }
+
+MODULE chunks:///_virtual/PlantPaginationComp.ts EXPORT PlantPaginationComp METHODS length,name,arguments,caller,prototype
+METHOD length function () { [native code] }
+METHOD name function () { [native code] }
+METHOD prototype function () { [native code] }
+
+MODULE chunks:///_virtual/PlantQueYuLingLuBottleComp.ts EXPORT PlantQueYuLingLuBottleComp METHODS length,name,arguments,caller,prototype
+METHOD length function () { [native code] }
+METHOD name function () { [native code] }
+METHOD prototype function () { [native code] }
+
+MODULE chunks:///_virtual/PlantSocialCloudComp.ts EXPORT PlantSocialCloudComp METHODS length,name,arguments,caller,prototype
+METHOD length function () { [native code] }
+METHOD name function () { [native code] }
+METHOD prototype function () { [native code] }
+
+MODULE chunks:///_virtual/PlantSubComp.ts EXPORT PlantSubComp METHODS getEffectResDescs,getSocialItemLayer,getEffectNodeName,createSocialEffectNode,onExtraAssetsLoaded,onFrameEvent,buildEffectNode,onEffectNodeRefresh,ensureEffectNodeReady,beforeDestroyEffectNode,getAnimFlag,afterDestroyEffectNode,destroyEffectNode,playEffect,dispatchPendingAction,dispatchAction,loadResource,loadEffectAssets,setNodeToPlantWorldPos,cleanup
+METHOD getEffectResDescs function(i){return[]}
+METHOD getSocialItemLayer function(){return C[q[41883]]}
+METHOD getEffectNodeName function(){return this[k[427]][c[40]]}
+METHOD createSocialEffectNode function(i,t){var n=this[k[8979]];if(!n)return null;var r=this[v[3446]](t)[J[370]]((function(i){return i[R[7810]]})),s=i[r>=0?r:0],a=new e(this[v[27640]]());if(!n[L[38208]](a,this[c[6824]]()))return a[y[584]](),null;var S=u(s);n[d[6325]](a,S);var q=S[Y[64]](h);if(!q)return a[l[584]](),null;var Q=i[Y[383]]((function(i,t){return t!==(r>=0?r:0)&&i instanceof z}));return Q[k[7]]>0&&this[f[29397]](Q),a[o[47]]=!0,{node:a,inst:S,anim:q}}
+METHOD onExtraAssetsLoaded function(i){}
+METHOD onFrameEvent function(i){}
+METHOD buildEffectNode function(i,t){var n=this;if(this[g[274]]&&this[Y[274]][Q[79]]&&this[J[2285]]&&this[l[2036]])return!0;var r=this[k[16088]](i,t);return!!r&&(this[y[274]]=r[o[6]],this[a[2285]]=r[v[29665]],this[Q[2036]]=r[D[242]],this[d[2451]]&&F[g[19721]](this[a[2285]],(function(i){return n[o[5103]](i)})),!0)}
+METHOD onEffectNodeRefresh function(i){}
+METHOD ensureEffectNodeReady function(i){var t,n=this,r=this[Q[3446]](i);if(!r||0===r[a[7]])return this[d[1666]]=null,!1;var e=r[D[370]]((function(i){return i[D[7810]]})),u=null!=(t=r[e>=0?e:0][Y[156]])?t:"";if(this[k[274]]&&this[o[274]][v[79]]&&this[q[2285]]&&this[k[2036]]&&this[M[6183]]===u)return this[M[19126]](this[c[274]]),!0;var h=++this[c[32550]];return this[Q[26089]](r,(function(t){h===n[M[32550]]&&(n[Y[274]]&&n[g[274]][S[79]]&&n[J[6183]]!==u&&n[g[7724]](),n[D[37657]](t,i)?(n[a[6183]]=u,n[q[39531]]()):n[q[1666]]=null)})),!1}
+METHOD beforeDestroyEffectNode function(){}
+METHOD getAnimFlag function(){return null}
+METHOD afterDestroyEffectNode function(){var i,t=this[R[5579]]();t&&(null==(i=this[R[8979]])||null==(i=i[M[5572]]())||i[o[6800]](t))}
+METHOD destroyEffectNode function(){this[g[25738]](),this[l[2036]]&&this[D[2036]][Y[79]]&&this[J[2036]][f[404]](),this[J[274]]&&this[d[274]][d[79]]&&this[T[274]][J[584]](),this[Y[274]]=null,this[o[2285]]=null,this[g[2036]]=null,this[o[6183]]="",this[Y[20371]]()}
+METHOD playEffect function(i){this[Q[1666]]=i,this[Q[32868]](i)}
+METHOD dispatchPendingAction function(){var i=this[L[1666]];this[Q[1666]]=null,null!==i&&this[S[32868]](i)}
+METHOD dispatchAction function(i){switch(i){case O[s[1511]]:this[s[27929]]();break;case O[s[4046]]:this[s[25634]]();break;case O[s[6437]]:this[s[25851]]()}}
+METHOD loadResource function(i,t){i()[D[209]]((function(i){i&&t(i)}))[v[153]]((function(){}))}
+METHOD loadEffectAssets function(i,t){this[D[33915]]((function(){return Ri()[S[3095]](i[Q[78]]((function(i){var t;return i[R[8136]]?Ri()[S[3095]](i[M[8136]][Y[78]]((function(i){return i()}))):P[R[504]][Y[755]](null!=(t=i[k[320]])?t:m,i[Q[156]],i[M[88]])})))}),t)}
+METHOD setNodeToPlantWorldPos function(i,t,n){void 0===t&&(t=0),void 0===n&&(n=0);var r=this[l[6]][S[984]]();i[S[343]](r.x+t,r.y+n,r.z)}
+METHOD cleanup function(){this[Y[1666]]=null,this[S[32550]]=0,this[M[25812]]()}
+
+MODULE chunks:///_virtual/PlantThunderLureBottleComp.ts EXPORT PlantThunderLureBottleComp METHODS length,name,arguments,caller,prototype
+METHOD length function () { [native code] }
+METHOD name function () { [native code] }
+METHOD prototype function () { [native code] }
+
+MODULE chunks:///_virtual/PlantVariationTransComp.ts EXPORT PlantVariationTransComp METHODS length,name,arguments,caller,prototype
+METHOD length function () { [native code] }
+METHOD name function () { [native code] }
+METHOD prototype function () { [native code] }
+
+MODULE chunks:///_virtual/QQSVipShopUI.ts EXPORT QQSVipShopUI METHODS length,name,arguments,caller,prototype
+METHOD length function () { [native code] }
+METHOD name function () { [native code] }
+METHOD prototype function () { [native code] }
+
+MODULE chunks:///_virtual/QQVipConfigConfig.ts EXPORT QQVipConfigConfig METHODS fromJson,fromJsonArray,fromJsonString
+METHOD fromJson function(i){var t={};return t.id=qi()(i.id)||0,t[k[88]]=i[Y[88]],t[d[591]]=mi()(i[v[591]]||""),t[R[5779]]=oi()(i[Y[5779]]),t[k[255]]=qi()(i[T[255]])||0,t[y[3280]]=i[T[3280]],t[T[2433]]=i[v[2433]],t[v[4851]]=qi()(i[y[4851]])||0,t}
+METHOD fromJsonArray function(i){var t=this;return i[S[78]]((function(i){return t[S[18]](i)}))}
+METHOD fromJsonString function(i){var t=x()[a[927]](i);return gi()[o[855]](t)?this[L[32]](t):[this[L[18]](t)]}
+
+MODULE chunks:///_virtual/RandShopGoodsInfo.ts EXPORT RandShopGoodsInfo METHODS init,initExchange,initPlantData
+METHOD init function(i){this.id=i[f[694]],this[Q[4314]]=i[v[40]],this[c[30896]]=i[y[120]],this[T[7034]]=i[S[3228]],this[Y[5375]]=i[S[8727]],this[L[189]]=this[M[7034]]-this[S[5375]],this[g[4794]]=i[g[4794]],this[R[42]]=h[y[43]][T[639]](i[L[307]]),this[g[880]]=h[M[43]][k[639]](i[q[942]]),this[a[455]]=this[Q[880]][0].id,this[f[936]]=this[Y[880]][0][L[62]],this[o[745]]=this[T[42]][0].id,this[l[106]]=e[J[81]][v[22]](u[g[696]])[g[22]](this[S[745]]),this[l[8903]]=h[J[43]][R[4175]](this[M[745]],this[k[42]][0][y[62]])}
+METHOD initExchange function(i){var t;this.id=i.id,this[a[42]]=h[o[43]][f[639]](i[g[307]]),this[D[880]]=h[g[43]][Q[639]](i[k[942]]),this[R[7034]]=i[R[4066]],this[o[5375]]=i[J[6365]],this[d[189]]=this[q[7034]]-this[g[5375]],this[R[874]]=i[a[874]],this[k[4314]]=i[c[40]],this[g[30896]]=i[D[120]],this[d[8182]]=i[L[7540]],this[q[745]]=this[T[42]][0].id,this[o[455]]=this[q[880]][0].id,this[v[936]]=this[a[880]][0][S[62]],this[Q[106]]=e[R[81]][a[22]](u[y[696]])[Y[22]](this[R[745]]),this[M[8903]]=h[c[43]][c[4175]](this[d[745]],this[M[42]][0][v[62]]),i[R[120]]&&(this[D[30803]]=$()[Q[927]](i[d[120]]),this[f[3457]]=this[k[30803]][D[504]]),this[o[16152]]=i[g[3338]],this[Y[24106]]=i[a[2412]],this[l[10252]]=null!=(t=i[y[2990]])?t:[],this[Q[5486]]=s[M[5116]],0==this[D[7034]]&&(this[d[189]]=this[o[4712]])}
+METHOD initPlantData function(){this[M[8903]][k[1518]]&&(this[L[8903]][Q[9572]](),this[R[8834]]=this[a[8903]][f[8834]])}
+
+MODULE chunks:///_virtual/RechargeShopUI.ts EXPORT RechargeShopUI METHODS length,name,arguments,caller,prototype
+METHOD length function () { [native code] }
+METHOD name function () { [native code] }
+METHOD prototype function () { [native code] }
+
+MODULE chunks:///_virtual/S2SaijiSkinShopItem.ts EXPORT S2SaijiSkinShopItem METHODS length,name,arguments,caller,prototype
+METHOD length function () { [native code] }
+METHOD name function () { [native code] }
+METHOD prototype function () { [native code] }
+
+MODULE chunks:///_virtual/S2SaijiSkinShopUI.ts EXPORT S2SaijiSkinShopUI METHODS length,name,arguments,caller,prototype
+METHOD length function () { [native code] }
+METHOD name function () { [native code] }
+METHOD prototype function () { [native code] }
+
+MODULE chunks:///_virtual/S3SaijiSkinShopItem.ts EXPORT S3SaijiSkinShopItem METHODS length,name,arguments,caller,prototype
+METHOD length function () { [native code] }
+METHOD name function () { [native code] }
+METHOD prototype function () { [native code] }
+
+MODULE chunks:///_virtual/S3SaijiSkinShopUI.ts EXPORT S3SaijiSkinShopUI METHODS length,name,arguments,caller,prototype
+METHOD length function () { [native code] }
+METHOD name function () { [native code] }
+METHOD prototype function () { [native code] }
+
+MODULE chunks:///_virtual/S4ShopItem.ts EXPORT S4ShopItem METHODS length,name,arguments,caller,prototype
+METHOD length function () { [native code] }
+METHOD name function () { [native code] }
+METHOD prototype function () { [native code] }
+
+MODULE chunks:///_virtual/S4ShopUI.ts EXPORT S4ShopUI METHODS length,name,arguments,caller,prototype
+METHOD length function () { [native code] }
+METHOD name function () { [native code] }
+METHOD prototype function () { [native code] }
+
+MODULE chunks:///_virtual/S4TeaUpLvUIUpLvEffectRecipeAndShopItem.ts EXPORT S4TeaUpLvUIUpLvEffectRecipeAndShopItem METHODS length,name,arguments,caller,prototype
+METHOD length function () { [native code] }
+METHOD name function () { [native code] }
+METHOD prototype function () { [native code] }
+
+MODULE chunks:///_virtual/SaijiDrawShopItem.ts EXPORT SaijiDrawShopItem METHODS length,name,arguments,caller,prototype
+METHOD length function () { [native code] }
+METHOD name function () { [native code] }
+METHOD prototype function () { [native code] }
+
+MODULE chunks:///_virtual/SaijiDrawShopRecordTxt.ts EXPORT SaijiDrawShopRecordTxt METHODS length,name,arguments,caller,prototype
+METHOD length function () { [native code] }
+METHOD name function () { [native code] }
+METHOD prototype function () { [native code] }
+
+MODULE chunks:///_virtual/SaijiDrawShopUI.ts EXPORT SaijiDrawShopUI METHODS length,name,arguments,caller,prototype
+METHOD length function () { [native code] }
+METHOD name function () { [native code] }
+METHOD prototype function () { [native code] }
+
+MODULE chunks:///_virtual/SaijiSkinShopItem.ts EXPORT SaijiSkinShopItem METHODS length,name,arguments,caller,prototype
+METHOD length function () { [native code] }
+METHOD name function () { [native code] }
+METHOD prototype function () { [native code] }
+
+MODULE chunks:///_virtual/SaijiSkinShopUI.ts EXPORT SaijiSkinShopUI METHODS length,name,arguments,caller,prototype
+METHOD length function () { [native code] }
+METHOD name function () { [native code] }
+METHOD prototype function () { [native code] }
+MODULE_ERROR chunks:///_virtual/SeedDetailComp.ts TypeError: ni.default.mark is not a function
+
+MODULE chunks:///_virtual/SeedDetailData.ts EXPORT SeedDetailData METHODS getMaturityTimeText,getLevelText
+METHOD getMaturityTimeText function(){if(this[R[2251]]<=0)return L[20697];if(this[Q[2251]]>60){var i=Ti()[g[809]](10*this[o[2251]]/6)/100;return n[y[2169]](i,2)+"小时"}return n[o[2169]](this[q[2251]],2)+"分钟"}
+METHOD getLevelText function(){return this[y[6856]]>0?this[y[6856]]+"品":this[q[33053]]+"级"}
+MODULE_ERROR chunks:///_virtual/SeedDetailsTipUI.ts TypeError: ni.default.mark is not a function
+
+MODULE chunks:///_virtual/Shop.ts EXPORT Shop METHODS length,name,arguments,caller,prototype
+METHOD length function () { [native code] }
+METHOD name function () { [native code] }
+METHOD prototype function () { [native code] }
+
+MODULE chunks:///_virtual/ShopConfig.ts EXPORT ShopConfig METHODS fromJson,fromJsonArray,fromJsonString
+METHOD fromJson function(i){var t={};return t.id=qi()(i.id)||0,t[c[88]]=i[Q[88]],t[v[40]]=mi()(i[S[40]]||""),t[Q[874]]=qi()(i[a[874]])||0,t}
+METHOD fromJsonArray function(i){var t=this;return i[a[78]]((function(i){return t[y[18]](i)}))}
+METHOD fromJsonString function(i){var t=_()[S[927]](i);return gi()[R[855]](t)?this[a[32]](t):[this[a[18]](t)]}
+
+MODULE chunks:///_virtual/ShopEnterSystem.ts EXPORT ShopEnterComp METHODS length,name,arguments,caller,prototype
+METHOD length function () { [native code] }
+METHOD name function () { [native code] }
+METHOD prototype function () { [native code] }
+
+MODULE chunks:///_virtual/ShopEnterSystem.ts EXPORT ShopEnterSystem METHODS length,name,arguments,caller,prototype
+METHOD length function () { [native code] }
+METHOD name function () { [native code] }
+METHOD prototype function () { [native code] }
+
+MODULE chunks:///_virtual/ShopGoldAlert.ts EXPORT ShopGoldAlert METHODS length,name,arguments,caller,prototype
+METHOD length function () { [native code] }
+METHOD name function () { [native code] }
+METHOD prototype function () { [native code] }
+
+MODULE chunks:///_virtual/ShopGoodsInfo.ts EXPORT ShopGoodsInfo METHODS initData
+METHOD initData function(i){this.id=i[D[694]],this[Q[40]]=i[d[40]],this[J[120]]=i[R[120]],this[D[874]]=i[Q[874]],this[Y[7034]]=i[Q[4066]],this[Y[14987]]=i[L[6365]],this[R[42]]=n[a[43]][Q[639]](i[q[307]]),this[g[880]]=n[y[43]][M[639]](i[Q[942]])}
+
+MODULE chunks:///_virtual/ShopGoodsModel.ts EXPORT ShopGoodsModel METHODS init,update,getUnlockTip,getUnlockTip1
+METHOD init function(i){this.id=i.id,this[D[708]](i),this[D[818]]=u[o[81]][k[22]](h[L[12173]])[D[22]](this.id),this[M[818]]&&(this[o[106]]=u[g[81]][M[22]](h[D[696]])[y[22]](this[l[745]]),this[M[8903]]=s[d[43]][a[4175]](this[J[745]],1),this[l[8903]][D[9572]](),this[q[8834]]=this[o[8903]][a[8834]],this[d[455]]=this[o[818]][v[5499]])}
+METHOD update function(i){if(this[q[5375]]=i[c[6237]],this[c[936]]=i[J[936]],this[T[7034]]=i[d[3228]],this[d[745]]=i[v[590]],this[k[635]]=i[S[635]],this[q[7155]]=i[c[1236]],this[q[1960]]=i[Y[872]],i[v[8696]]&&i[Y[8696]][Y[7]]>0){var t=i[J[8696]][0];t&&1==t[f[88]]&&(this[o[42117]]=t[c[885]])}}
+METHOD getUnlockTip function(){return"达到"+this[L[9378]]+J[8076]+this[S[40]]}
+METHOD getUnlockTip1 function(){return this[D[9378]]+Y[8076]}
+
+MODULE chunks:///_virtual/ShopGoodsSellComp.ts EXPORT ShopGoodsSellComp METHODS length,name,arguments,caller,prototype
+METHOD length function () { [native code] }
+METHOD name function () { [native code] }
+METHOD prototype function () { [native code] }
+MODULE_ERROR chunks:///_virtual/ShopItem.ts TypeError: ni.default.mark is not a function
+
+MODULE chunks:///_virtual/ShopLandItem.ts EXPORT ShopLandItem METHODS length,name,arguments,caller,prototype
+METHOD length function () { [native code] }
+METHOD name function () { [native code] }
+METHOD prototype function () { [native code] }
+
+MODULE chunks:///_virtual/ShopLeaveSystem.ts EXPORT ShopLeaveComp METHODS length,name,arguments,caller,prototype
+METHOD length function () { [native code] }
+METHOD name function () { [native code] }
+METHOD prototype function () { [native code] }
+
+MODULE chunks:///_virtual/ShopLeaveSystem.ts EXPORT ShopLeaveSystem METHODS length,name,arguments,caller,prototype
+METHOD length function () { [native code] }
+METHOD name function () { [native code] }
+METHOD prototype function () { [native code] }
+
+MODULE chunks:///_virtual/ShopModelComp.ts EXPORT ShopModelComp METHODS length,name,arguments,caller,prototype
+METHOD length function () { [native code] }
+METHOD name function () { [native code] }
+METHOD prototype function () { [native code] }
+
+MODULE chunks:///_virtual/ShopOpenEffect.ts EXPORT ShopOpenEffect METHODS length,name,arguments,caller,prototype
+METHOD length function () { [native code] }
+METHOD name function () { [native code] }
+METHOD prototype function () { [native code] }
+
+MODULE chunks:///_virtual/ShopSellItemComp.ts EXPORT ShowItemSellComp METHODS length,name,arguments,caller,prototype
+METHOD length function () { [native code] }
+METHOD name function () { [native code] }
+METHOD prototype function () { [native code] }
+
+MODULE chunks:///_virtual/ShopSourceComp.ts EXPORT ShopSourceComp METHODS length,name,arguments,caller,prototype
+METHOD length function () { [native code] }
+METHOD name function () { [native code] }
+METHOD prototype function () { [native code] }
+
+MODULE chunks:///_virtual/ShopUIComp.ts EXPORT ShopUIComp METHODS length,name,arguments,caller,prototype
+METHOD length function () { [native code] }
+METHOD name function () { [native code] }
+METHOD prototype function () { [native code] }
+
+MODULE chunks:///_virtual/SubTaskUI.ts EXPORT SubTaskUI METHODS length,name,arguments,caller,prototype
+METHOD length function () { [native code] }
+METHOD name function () { [native code] }
+METHOD prototype function () { [native code] }
+
+MODULE chunks:///_virtual/TaskAwardItem.ts EXPORT TaskAwardItem METHODS length,name,arguments,caller,prototype
+METHOD length function () { [native code] }
+METHOD name function () { [native code] }
+METHOD prototype function () { [native code] }
+
+MODULE chunks:///_virtual/TaskCompleteFloatComp.ts EXPORT TaskCompleteFloatComp METHODS length,name,arguments,caller,prototype
+METHOD length function () { [native code] }
+METHOD name function () { [native code] }
+METHOD prototype function () { [native code] }
+
+MODULE chunks:///_virtual/TaskConfig.ts EXPORT TaskConfig METHODS fromJson,fromJsonArray,fromJsonString
+METHOD fromJson function(i){var t={};return t.id=qi()(i.id)||0,t[g[3493]]=i[c[3493]],t[g[120]]=mi()(i[a[120]]||""),t[v[4863]]=i[L[4863]],t[l[273]]=qi()(i[c[273]])||0,t[T[425]]=qi()(i[y[425]])||0,t[T[6650]]=qi()(i[Q[6650]])||0,t}
+METHOD fromJsonArray function(i){var t=this;return i[q[78]]((function(i){return t[a[18]](i)}))}
+METHOD fromJsonString function(i){var t=G()[M[927]](i);return gi()[q[855]](t)?this[y[32]](t):[this[T[18]](t)]}
+
+MODULE chunks:///_virtual/TaskInfoModel.ts EXPORT TaskInfoModel METHODS init,getTaskStatus,isTaskDoing,isCanGetReward,isTaskDone,isRewardGeted
+METHOD init function(i){var t,r,e,u,h,s;this.id=qi()(null!=(t=null==i?void 0:i.id)?t:0),this[y[4435]]=qi()(null!=(r=null==i?void 0:i[L[3493]])?r:0),this[a[8627]]=qi()(null!=(e=null==i?void 0:i[y[4958]])?e:0),this[T[120]]=(null==i?void 0:i[S[120]])||"";var z=null==i?void 0:i[T[482]];if(gi()[o[855]](z))this[T[1235]]=z[l[78]](mi()),this[g[482]]=this[J[1235]][0]||"";else if(null!=z){var H=mi()(z);this[L[1235]]=[H],this[f[482]]=H}else this[T[1235]]=[],this[q[482]]="";this[v[953]]=qi()(null!=(u=null==i?void 0:i[q[953]])?u:0),this[a[5090]]=qi()(null!=(h=null==i?void 0:i[y[273]])?h:0),this[y[6867]]=!(null==i||!i[R[2576]]),this[d[38514]]=!(null==i||!i[J[568]]),this[f[8944]]=qi()(null!=(s=null==i?void 0:i[d[1850]])?s:0),this[R[10]]=n[D[43]][g[639]]((null==i?void 0:i[q[10]])||[])[q[383]]((function(i){return!!i&&i[c[62]]>0}));var P=n[Q[43]][Q[639]]((null==i?void 0:i[R[7623]])||[],!0)[o[383]]((function(i){return!!i&&i[k[62]]>0}));this[l[10]]=this[L[10]][L[28]](P),void 0!==(null==i?void 0:i[L[35875]])?this[a[6459]]=qi()(i[d[35875]]):this[y[10]]&&this[l[10]][y[7]]>0?this[k[6459]]=this[Q[10]][0][c[62]]||0:this[k[6459]]=0,this[g[790]]=void 0!==(null==i?void 0:i[R[425]])?qi()(i[J[425]]):void 0,this[Y[32633]]=(null==i?void 0:i[L[9573]])||(null==i?void 0:i[M[32633]]),this[c[31604]]=void 0!==(null==i?void 0:i[R[35555]])?qi()(i[J[35555]]):void 0,void 0!==(null==i?void 0:i[R[6650]])?this[v[39137]]=!!i[M[6650]]:this[Q[39137]]=qi()(this.id)>=90007}
+METHOD getTaskStatus function(){return this[l[6867]]?this[Q[38514]]?r[Q[952]]:this[a[953]]>=this[o[5090]]?r[J[7700]]:r[q[5013]]:r[v[2491]]}
+METHOD isTaskDoing function(){var i=this[o[5481]]();return i===r[J[5013]]||i===r[o[7700]]}
+METHOD isCanGetReward function(){return this[f[5481]]()===r[f[7700]]}
+METHOD isTaskDone function(){var i=this[l[5481]]();return i===r[J[952]]||i===r[S[7700]]}
+METHOD isRewardGeted function(){return this[f[5481]]()===r[J[952]]}
+
+MODULE chunks:///_virtual/TaskListItem.ts EXPORT TaskListItem METHODS length,name,arguments,caller,prototype
+METHOD length function () { [native code] }
+METHOD name function () { [native code] }
+METHOD prototype function () { [native code] }
+
+MODULE chunks:///_virtual/TaskManager.ts EXPORT TaskManager METHODS init,requestTaskData,backTaskDataHandler,refreshTaskData,normalizeTaskInfo,updateTaskRedPoint,checkAndShowTaskCompleteFloat,captureTaskStatusSnapshot,requestGetReward,backClaimTaskRewardHandler,requestBatchClaimReward,backBatchClaimTaskRewardHandler,requestClaimActiveRewards,backClaimActiveRewardHandler,showTaskCompleteFloat,findTaskById,mergeRewards,showRewardsAndRefresh,onTaskInfoNotify,clientReportHandler,backClientReportProgressHandler,onInviteListEmpty,reportTaskProgressByCondType,isSameMainTask,isMainTaskDone,isMainTaskCanGet,isCurMainTaskCanGet,isMainTaskGeted,clear,destroy
+METHOD init function(){P[M[31]].on(A[L[5568]],this[S[39086]],this)}
+METHOD requestTaskData function(){var i=F[k[834]][Q[8187]][D[0]]();P[a[132]][d[766]](F[k[834]][M[8187]][c[85]](i)[f[265]](),j[D[9558]],this[S[20041]][g[289]](this),O[y[3053]])}
+METHOD backTaskDataHandler function(i){if(i[k[774]]&&0!==i[y[774]][k[374]])logger[v[13]](k[41235],i[k[774]][c[374]],i[c[774]][Y[547]]);else{var t=F[Y[834]][S[33097]][M[65]](i[J[99]])[k[429]];this[f[9904]](t)}}
+METHOD refreshTaskData function(i,t){var n=this[R[53]],r=this[a[39261]](i);n[L[14149]](r),this[L[36542]](),null!=t&&t[D[17324]]?this[d[29426]](n):this[T[19264]](n),P[R[31]][R[41]](X[v[1565]],null==t?void 0:t[L[4344]])}
+METHOD normalizeTaskInfo function(i){var t,r;if(!i)return{};var e=n({},i);if(i[R[9580]]&&i[g[9580]][M[7]]>0){var u=[],h=[],c=[];i[d[9580]][S[73]]((function(i){var t=i[y[3493]]||0;switch(t){case 1:u[s[19]](i);break;case 2:h[s[19]](i);break;case 3:c[s[19]](i);break;case 4:case 5:case 6:break;default:logger[s[13]](s[13968]+t+s[32932]+i.id)}})),e[l[9367]]=u,e[d[9508]]=h,e[a[13182]]=c}else e[v[9367]]=i[T[9367]]||[],e[v[9508]]=i[g[9508]]||[],e[S[13182]]=i[J[13182]]||[];return e[Y[35195]]=i[a[35195]]||[],e[f[33751]]=i[L[33751]]||[],i[D[8856]]&&i[g[8856]][l[7]]>0&&i[d[8856]][Q[73]]((function(i){var t=i[k[88]]||0;1===t?(e[o[8872]]=i[S[953]]||0,e[S[4480]]=i[S[10]]||[]):2===t&&(e[Q[6915]]=i[T[953]]||0,e[T[2230]]=i[d[10]]||[])})),e[l[8872]]=null!=(t=e[g[8872]])?t:0,e[L[6915]]=null!=(r=e[v[6915]])?r:0,e[Y[4480]]=e[J[4480]]||[],e[f[2230]]=e[l[2230]]||[],e}
+METHOD updateTaskRedPoint function(){try{W&&W[J[987]]&&W[f[987]][c[40829]]()}catch(i){logger[l[13]](M[21177],i)}}
+METHOD checkAndShowTaskCompleteFloat function(i){var t=this;if(this[T[20316]]){var n=i[a[6430]]();n&&n[f[8839]]()&&this[v[3600]]&&this[Q[3600]].id===n.id&&this[c[3600]][M[356]]===x[T[5013]]&&this[g[19310]](n,n[y[4435]]);var r=function(i,n){i&&0!==i[M[7]]&&i[J[73]]((function(i){i[R[8839]]()&&n[d[72]](i.id)===x[J[5013]]&&t[L[19310]](i,i[L[4435]])}))};r(i[M[35836]](),this[y[21222]]),r(i[R[8029]](),this[Y[22683]]),this[d[19264]](i)}else this[R[19264]](i)}
+METHOD captureTaskStatusSnapshot function(i){var t=i[R[6430]]();this[y[3600]]=t?{id:t.id,status:t[f[5481]]()}:null;var n=function(i,t){t[q[46]](),i&&i[l[7]]>0&&i[c[73]]((function(i){t[k[29]](i.id,i[T[5481]]())}))};n(i[R[35836]](),this[Q[21222]]),n(i[c[8029]](),this[l[22683]]),this[v[20316]]=!0}
+METHOD requestGetReward function(i){var t=this;if(i&&i[D[810]]){var n=this[D[53]];n[Q[10649]](),n[o[38389]]();var r=this[L[22301]](n,i[q[810]]),e=r?r[D[4435]]:0;i[R[3398]]?this[q[7116]]=null:this[M[7116]]={startPos:i[c[8579]],activePoints:i[q[9539]]},this[J[5075]]=i[R[3398]]||!1,this[y[6173]]=i[D[35690]]||!1;var u={};u.id=i[a[810]],u[D[3952]]=i[f[37900]];var h=F[J[834]][D[9524]][g[0]](u);logger[d[70]](k[16526],h),P[S[31]][k[41]](Z[M[9971]]),P[y[132]][k[766]](F[S[834]][o[9524]][D[85]](h)[l[265]](),j[o[32128]],(function(n){t[l[35429]](n,i[Q[810]],e)}),O[L[3053]])}else logger[l[13]](Y[36509])}
+METHOD backClaimTaskRewardHandler function(i,t,n){if(i[J[774]]&&0!==i[T[774]][v[374]])logger[R[13]](a[34304],i[L[774]][M[374]],i[D[774]][T[547]],l[14168],t);else{var r;r=i[y[99]]?F[o[834]][Y[11199]][S[65]](i[q[99]]):i,logger[y[70]](Q[40271],r);var e=this[L[53]],u=e[g[31556]]();e[a[38389]]();var h=this[q[22301]](e,t);this[S[15593]](r,{extraData:{isMainTaskIdChanged:u,task:h,taskType:n,isMergeLayout:this[Y[5075]],hasShownRewards:this[y[6173]]}}),this[S[5075]]=!1,this[q[6173]]=!1,P[y[31]][M[41]](A[c[41391]])}}
+METHOD requestBatchClaimReward function(i){var t=this;if(i&&i[o[1409]]&&0!==i[Q[1409]][Y[7]]){var n=this[Y[53]];n[Q[10649]](),n[Q[38389]](),i[T[3398]]?this[o[7116]]=null:this[o[7116]]={startPos:i[f[8579]],activePoints:i[o[9539]]},this[a[5075]]=i[f[3398]]||!1;var r={};r[f[807]]=i[Q[1409]];var e=F[M[834]][M[2155]][Y[0]](r);logger[R[70]](q[35214],e),P[Q[31]][J[41]](Z[v[9971]]),P[y[132]][l[766]](F[o[834]][o[2155]][D[85]](e)[Y[265]](),j[a[31950]],(function(i){t[y[32238]](i)}),O[L[3053]])}else logger[d[13]](J[36133])}
+METHOD backBatchClaimTaskRewardHandler function(i){if(i[y[774]]&&0!==i[o[774]][T[374]])logger[Y[13]](c[22156],i[c[774]][q[374]],i[q[774]][Q[547]]);else{var t;t=i[d[99]]?F[a[834]][o[14653]][l[65]](i[L[99]]):i,logger[Q[70]](y[19111],t);var n=this[f[53]],r=n[k[31556]]();n[T[38389]](),this[L[15593]](t,{extraData:{isMainTaskIdChanged:r,isMergeLayout:this[c[5075]]}}),this[g[5075]]=!1}}
+METHOD requestClaimActiveRewards function(i){var t=(null==i?void 0:i[a[4036]])||!1,n=null==i?void 0:i[g[22202]],r=this[o[53]],e=[];if(n)e[d[19]](n);else{var u=r[Y[29621]](t);if(0===u[c[7]])return;e=u[R[78]]((function(i){return i[T[4531]]}))}if(0!==e[q[7]]){var h=t?2:1,s=F[T[834]][c[7204]][Y[0]]({type:h,point_ids:e});P[a[132]][g[766]](F[f[834]][l[7204]][k[85]](s)[l[265]](),j[c[16546]],this[y[34390]][L[289]](this),O[l[3053]])}}
+METHOD backClaimActiveRewardHandler function(i){var t;i[Q[774]]&&0!==i[q[774]][o[374]]?logger[q[13]](f[41667],i[q[774]][q[374]],i[R[774]][a[547]]):i[Q[99]]?(t=F[Y[834]][v[13373]][y[65]](i[q[99]]),this[a[15593]](t)):logger[Q[13]](M[29359])}
+METHOD showTaskCompleteFloat function(i,t){i?i[f[39137]]&&(logger[y[70]](M[39876],{taskId:i.id,taskType:t,desc:i[R[120]],status:i[d[5481]]?i[Q[5481]]():void 0}),P[D[44]][T[151]](p[g[4132]],{task:i,taskType:t})):logger[Q[13]](v[41428])}
+METHOD findTaskById function(i,t){for(var n=0,r=[i[D[7103]],i[Y[3711]],i[g[3706]],i[c[4198]],i[d[8250]]];n<r[Y[7]];n++){var e=r[n];if(e&&e[M[7]]>0){var u=e[S[919]]((function(i){return i.id===t}));if(u)return u}}return null}
+METHOD mergeRewards function(i){var t=[];i[f[42]]&&i[l[42]][y[7]]>0&&t[d[19]][a[60]](t,i[l[42]]),i[v[681]]&&i[T[681]][Y[7]]>0&&t[d[19]][D[60]](t,i[f[681]]);var r=new(Pi());return t[S[73]]((function(i){var t=i.id||i[l[590]]||i[k[745]],e=i[g[62]]||0;if(t&&e>0)if(r[o[949]](t)){var u=r[o[72]](t);u[k[62]]=(u[Q[62]]||0)+e}else r[L[29]](t,n({},i,{id:t,count:e}))})),gi()[f[612]](r[l[881]]())}
+METHOD showRewardsAndRefresh function(i,t){var n,r,e,u=null==t||null==(n=t[L[4344]])?void 0:n[a[33679]],h=2===(null==t||null==(r=t[g[4344]])?void 0:r[L[4435]]),s=(null==t||null==(e=t[g[4344]])?void 0:e[q[3398]])||!1;if(h&&!s&&this[M[7116]]&&this[q[7116]][c[8579]])P[c[31]][f[41]](X[T[23308]],{startPos:this[Q[7116]][R[8579]],activePoints:this[o[7116]][Y[9539]]||(u&&u[l[6459]]?u[g[6459]]:0)}),this[T[7116]]=null;else{var k=this[f[23222]](i);k[L[7]]>0&&P[g[44]][o[151]](p[v[513]],{rewards:k}),this[T[7116]]=null}i[d[429]]&&this[M[9904]](i[R[429]],t)}
+METHOD onTaskInfoNotify function(i){var t={};t[J[17324]]=!0,logger[Y[70]](o[27700],i),this[l[9904]](i[y[19439]],t)}
+METHOD clientReportHandler function(i,t){var n=this;if(t==H[d[24636]]){var r=this[T[53]][v[6430]]();if(r){var e={};e[v[4678]]=r.id,e[a[953]]=1;var u=F[S[834]][k[2256]][T[0]](e);P[y[132]][S[766]](F[f[834]][g[2256]][o[85]](u)[Q[265]](),j[R[1096]],(function(i){n[T[27672]](i)}),O[S[3053]])}}}
+METHOD backClientReportProgressHandler function(i){var t;i[Y[774]]&&0!==i[L[774]][L[374]]?logger[k[13]](Q[38177],i[L[774]][a[374]],i[q[774]][Q[547]]):(t=i[k[99]]?F[c[834]][Q[17991]][J[65]](i[k[99]]):i)[T[429]]&&this[T[9904]](t[g[429]])}
+METHOD onInviteListEmpty function(){var i=this,t=this[c[53]][f[6430]]();if(t&&t[q[8627]]===h[D[7207]]){var n={};n[a[810]]=t.id,n[L[953]]=t[k[5090]],logger[v[70]](l[32404],n);var r={};r[y[4678]]=t.id,r[S[953]]=t[k[5090]];var e=F[a[834]][T[2256]][k[0]](r);P[o[132]][Y[766]](F[f[834]][d[2256]][T[85]](e)[q[265]](),j[R[1096]],(function(t){logger[l[70]](D[40413]),i[o[27672]](t)}),O[Q[3053]])}}
+METHOD reportTaskProgressByCondType function(i){var t=this,n=i[l[8627]],r=i[Q[810]],e=i[Y[953]],u=void 0===e?1:e,h=this[D[53]],s=null;if(r)s=r;else if(void 0!==n){var f=h[c[6430]]();f&&f[g[8627]]===n&&(s=f.id)}if(s){var v=h[d[6430]](),o=v&&v.id===s?v[a[5090]]:u,T=F[D[834]][M[2256]][q[0]]({task_id:s,progress:o});P[L[132]][S[766]](F[D[834]][k[2256]][L[85]](T)[y[265]](),j[L[1096]],(function(i){t[D[27672]](i)}),O[R[3053]])}}
+METHOD isSameMainTask function(i){var t=this[L[53]][R[6430]]();return!!t&&t.id===i}
+METHOD isMainTaskDone function(i){var t=this[o[53]][M[6430]]();return!!t&&(t.id===i&&t[Y[16437]]()||t.id>i)}
+METHOD isMainTaskCanGet function(i){var t=this[L[53]][v[6430]]();return!!t&&t.id===i&&t[Y[8839]]()}
+METHOD isCurMainTaskCanGet function(){var i=this[d[53]][M[6430]]();return i&&i[Q[8839]]()}
+METHOD isMainTaskGeted function(i){var t=this[y[53]][f[6430]]();return!!t&&t.id===i&&t[a[24941]]()}
+METHOD clear function(){P[y[31]][g[24]](A[q[5568]],this[k[39086]],this),this[a[20316]]=!1,this[L[3600]]=null,this[a[21222]][k[46]](),this[c[22683]][d[46]](),this[g[7116]]=null,this[L[5075]]=!1,this[D[6173]]=!1,this[f[288]]=null}
+METHOD destroy function(){}
+
+MODULE chunks:///_virtual/TaskModel.ts EXPORT TaskModel METHODS reset,updateTaskData,createTaskModels,getSideTasks,sortSideTasks,getMainTask,getDailyTask,sortTasksByRule,getDoingTask,isMainTaskFinish,isMainTaskCanGetReward,getGrowthTaskRedDotCount,getMainTaskRedDotCount,getDailyTaskRedDotCount,getRedDotCount,getDailyTaskRedDotCountWithoutActive,getRedDotCountWithoutSideTasks,updateMainTaskId,isMainTaskIdChanged,resetIsMainTaskIdChanged,getClaimableTaskIds,getClaimableSideTaskIds,getClaimableDailyTaskIds,getDailyActiveTasks,getWeeklyActiveTasks,hasClaimableActiveReward,getClaimableActiveRewards,isActiveRewardMaxed
+METHOD reset function(){this[D[3711]]=[],this[J[3706]]=[],this[T[4198]]=[],this[M[8250]]=[],this[g[38119]]=0,this[T[9016]]=0}
+METHOD updateTaskData function(i){if(i){if(this[f[7103]]=this[f[4006]](i[T[9367]]||[]),this[y[3711]]=this[a[4006]](i[y[13182]]||[]),this[d[3706]]=this[a[4006]](i[d[9508]]||[]),this[Q[4198]]=this[l[4006]](i[a[35195]]||[],!1),this[k[8250]]=this[Y[4006]](i[f[33751]]||[],!1),void 0!==i[D[8872]]&&(this[v[38119]]=i[v[8872]]),void 0!==i[o[6915]]&&(this[L[9016]]=i[f[6915]]),i[l[4480]]&&(this[q[8298]]=i[T[4480]]),i[v[2230]]&&(this[R[1813]]=i[R[2230]]),void 0!==i[y[26427]]&&i[l[26427]]>0)this[k[22324]]=i[q[26427]];else{var t=e[d[564]][L[394]](),n=new(ci())(t),r=new(ci())(n);r[q[29327]](r[L[2727]]()+1),r[M[3920]](0,0,0,0),this[Y[22324]]=Ti()[v[739]](r[o[241]]()/1e3)}this[d[35227]]()}else logger[v[13]](y[24881])}
+METHOD createTaskModels function(i,t){void 0===t&&(t=!0);var n=i[g[78]]((function(i){var t=new h;return t[c[897]](i),t}));return t?n[k[383]]((function(i){return i.id>0})):n}
+METHOD getSideTasks function(){return this[d[3711]]&&0!==this[v[3711]][L[7]]?this[J[35227]]():[]}
+METHOD sortSideTasks function(){return this[a[3711]]&&0!==this[v[3711]][y[7]]?this[D[14333]](this[R[3711]]):[]}
+METHOD getMainTask function(){if(!this[g[7103]]||0===this[d[7103]][J[7]])return null;for(var i,n=this[c[14333]](this[M[7103]]),r=t(n);!(i=r())[l[11]];){var e=i[g[14]],h=e[f[5481]]();if(h===u[M[7700]]||h===u[c[5013]]||h===u[q[2491]])return e}return n[a[7]]>0?n[n[D[7]]-1]:null}
+METHOD getDailyTask function(){return this[f[14333]](this[S[3706]])}
+METHOD sortTasksByRule function(i){if(!i||0===i[M[7]])return[];var t=[],n=[],r=[],e=[];i[f[73]]((function(i){var h=i[M[5481]]();h===u[c[7700]]?t[l[19]](i):h===u[M[5013]]?n[S[19]](i):h===u[Y[952]]?r[R[19]](i):e[L[19]](i)}));var h=function(i,t){return i.id-t.id};return t[M[319]](h),n[D[319]](h),r[M[319]](h),e[Q[319]](h),[][Q[28]](t,n,e,r)}
+METHOD getDoingTask function(){var i=this[Q[6430]]();if(i&&i[M[18474]]())return i;i=void 0;for(var t=this[D[8029]](),n=0;n<t[S[7]];n++)if(t[n][c[18474]]()){i=t[n];break}return i}
+METHOD isMainTaskFinish function(){var i=this[k[6430]]();return!i||i[c[5481]]()==u[c[952]]}
+METHOD isMainTaskCanGetReward function(){var i=this[Q[6430]]();return!(!i||!i[y[8839]]())}
+METHOD getGrowthTaskRedDotCount function(){var i=0,t=this[y[6430]]();t&&t[g[8839]]()&&i++;for(var n=this[c[35836]](),r=0;r<n[k[7]];r++){var e=n[r];e&&e[g[8839]]()&&i++}return i}
+METHOD getMainTaskRedDotCount function(){var i=0,t=this[Q[6430]]();return t&&t[J[8839]]()&&i++,i}
+METHOD getDailyTaskRedDotCount function(){var i=this[l[22891]](!1),t=this[l[22891]](!0),n=this[M[14337]](!1),r=this[k[14337]](!0);if(n&&r)return 0;for(var e=0,u=this[y[8029]](),h=0;h<u[d[7]];h++){var s=u[h];s&&s[o[8839]]()&&e++}return i&&e++,t&&e++,e}
+METHOD getRedDotCount function(){return this[D[37752]]()+this[l[11154]]()}
+METHOD getDailyTaskRedDotCountWithoutActive function(){for(var i=0,t=this[v[8029]](),n=0;n<t[y[7]];n++){var r=t[n];r&&r[k[8839]]()&&i++}return i}
+METHOD getRedDotCountWithoutSideTasks function(){return this[Q[20304]]()+this[a[28316]]()}
+METHOD updateMainTaskId function(){var i=this[o[6430]]();this[J[32044]]=i?i.id:void 0}
+METHOD isMainTaskIdChanged function(){var i=this[d[6430]]();return this[J[37798]]=!!i&&this[v[32044]]!==i.id,!!this[y[37798]]}
+METHOD resetIsMainTaskIdChanged function(){this[g[37798]]=!1}
+METHOD getClaimableTaskIds function(){var i=[];return this[q[7103]]&&this[v[7103]][v[73]]((function(t){t[R[8839]]()&&i[o[19]](t.id)})),this[R[3711]]&&this[c[3711]][R[73]]((function(t){t[c[8839]]()&&i[y[19]](t.id)})),this[v[3706]]&&this[R[3706]][k[73]]((function(t){t[k[8839]]()&&i[g[19]](t.id)})),i}
+METHOD getClaimableSideTaskIds function(){var i=[];return this[y[3711]]&&this[L[3711]][c[73]]((function(t){t[o[8839]]()&&i[y[19]](t.id)})),i}
+METHOD getClaimableDailyTaskIds function(){var i=[];return this[J[3706]]&&this[D[3706]][d[73]]((function(t){t[L[8839]]()&&i[T[19]](t.id)})),i}
+METHOD getDailyActiveTasks function(){return this[q[4198]]||[]}
+METHOD getWeeklyActiveTasks function(){return this[v[8250]]||[]}
+METHOD hasClaimableActiveReward function(i){return void 0===i&&(i=!1),this[Q[29621]](i)[l[7]]>0}
+METHOD getClaimableActiveRewards function(i){void 0===i&&(i=!1);var t=i?this[g[9016]]:this[J[38119]],n=i?this[l[1813]]:this[Q[8298]];return n&&0!==n[c[7]]?n[l[383]]((function(i){var n=i[a[6387]]||0,r=i[v[356]]||0;return t>=n&&1===r})):[]}
+METHOD isActiveRewardMaxed function(i){void 0===i&&(i=!1);var t=i?this[g[1813]]:this[g[8298]];return!(!t||0===t[d[7]])&&t[Q[7154]]((function(i){return 2===(i[D[356]]||0)}))}
+MODULE_ERROR chunks:///_virtual/TaskUIComp.ts TypeError: ni.default.mark is not a function
+
+MODULE chunks:///_virtual/UserCryptoManager.ts EXPORT UserCryptoManager METHODS init,getKeyData,ensureKeyForSend,isNonceReady,isFullyReady,waitReady,takeNonce,failBackoff,isKeyBackoff,isNonceBackoff,refreshKey,doFetch,refillNoncePool,reset,resetFailState,encryptData
+METHOD init function(i){return this[v[226]]=!1,this[T[3177]]=null,this[R[8534]]=[],this[c[39585]](),!1}
+METHOD getKeyData function(){return this[l[9505]]?u[Q[11522]](this[d[3177]][M[6873]]):null}
+METHOD ensureKeyForSend function(){return!!this[q[9505]]&&(ci()[a[683]]()>=this[c[3177]][Q[3066]]-i[Q[18720]]&&this[J[35829]](),!0)}
+METHOD isNonceReady function(){return this[d[226]]&&this[a[8534]][L[7]]>0}
+METHOD isFullyReady function(){return this[M[9505]]&&this[J[1765]]()}
+METHOD waitReady function(t){var n=this;if(void 0===t&&(t=i[Q[10504]]),!this[L[226]])return Ri()[q[346]](!1);if(this[q[9505]]&&this[k[1765]]())return Ri()[l[346]](!0);var r=ci()[D[683]]();return e[T[70]](T[23533]),new(Ri())((function(u){!function h(){if(n[s[9505]]&&n[s[1765]]()){var v=ci()[M[683]]()-r;return e[S[70]](f[27362]+v+Y[22006]+n[a[323]]+l[22760]+n[o[8534]][J[7]]),void u(!0)}if(ci()[s[683]]()-r>=t)return e[s[66]](s[34803]+(ci()[s[683]]()-r)+s[14540]+n[s[9505]]+s[22760]+n[s[8534]][s[7]]),void u(!1);n[s[9505]]||n[s[35829]](),n[s[1765]]()||n[s[36412]](),Ji()(h,i[s[37904]])}()}))}
+METHOD takeNonce function(){return this[S[8534]][o[7]]<=i[D[25969]]&&this[R[36412]](),this[y[8534]][l[3418]]()||null}
+METHOD failBackoff function(t){var n=Ti()[v[218]](Ti()[o[967]](0,t-1),10);return Ti()[o[218]](i[L[15530]]*(1<<n),i[v[34381]])}
+METHOD isKeyBackoff function(i){return this[S[1644]]>0&&i-this[R[8443]]<this[S[7929]](this[y[1644]])}
+METHOD isNonceBackoff function(i){return this[d[5919]]>0&&i-this[d[3858]]<this[y[7929]](this[a[5919]])}
+METHOD refreshKey function(){var t=this;if(!this[d[226]])return Ri()[o[346]](null);var n=ci()[l[683]]();return this[R[3177]]&&n-this[y[42102]]<i[L[14419]]||this[y[16742]](n)?Ri()[f[346]](this[T[3177]]):(this[S[8126]]||(this[c[8126]]=this[J[36117]]()[L[209]]((function(i){return t[S[8126]]=null,i}),(function(){return t[o[8126]]=null,null}))),this[g[8126]])}
+METHOD doFetch function(){var t=this,n=ci()[o[683]]();return new(Ri())((function(r){try{var u={};u[c[977]]=function(u){var h=ci()[d[683]]()-n;t[a[42102]]=ci()[Q[683]](),t[l[3177]]=u,t[o[1644]]>0&&e[l[70]](a[10464]+t[M[1644]]+y[11593]),t[T[1644]]=0;var s=Ti()[Y[293]]((u[y[3066]]-ci()[q[683]]())/1e3),L=Ti()[S[739]](3*u[f[6873]][k[7]]/4);h>i[Y[11108]]?e[M[13]](M[11961]+h+d[39501]+u[D[323]]+R[40665]+L+T[11318]+s):e[d[70]](c[32605]+h+Y[39501]+u[v[323]]+f[40665]+L+f[11318]+s),r(u)},u[o[447]]=function(i){var u=ci()[c[683]]()-n;t[g[1644]]++,t[d[8443]]=ci()[q[683]]();var h=t[J[7929]](t[g[1644]]);e[o[13]](g[12275]+u+d[19412]+i[Y[3961]]+a[36616]+t[S[1644]]+S[21257]+h+J[22415]),r(null)},Hi()[v[15052]]()[L[18903]](u)}catch(i){t[Y[1644]]++,t[q[8443]]=ci()[q[683]](),e[k[66]](L[41294]+(ci()[R[683]]()-n)+"ms",i),r(null)}}))}
+METHOD refillNoncePool function(){var t=this;if(this[c[226]]&&!this[l[1296]]&&!this[Q[35445]](ci()[M[683]]())){this[g[1296]]=!0;var n=12*i[d[41201]],r=ci()[l[683]]();try{var u={};u[q[7]]=n,u[S[977]]=function(u){var h=ci()[k[683]]()-r,s=new(Mi())(u[J[19081]]);if(s[o[5783]]===n){for(var v=0;v<i[D[41201]];v++)t[L[8534]][y[19]](s[o[10394]](12*v,12*(v+1)));t[M[5919]]=0,e[k[70]](o[30663]+h+f[17124]+t[D[8534]][a[7]])}else t[R[5919]]++,t[T[3858]]=ci()[J[683]](),e[M[13]](D[40316]+h+f[31497]+s[a[5783]]+k[26097]+n+M[36616]+t[y[5919]]+f[21257]+t[S[7929]](t[y[5919]])+d[22415]);t[q[1296]]=!1},u[L[447]]=function(i){t[f[5919]]++,t[a[3858]]=ci()[M[683]]();var n=t[f[7929]](t[f[5919]]);e[q[13]](c[16375]+(ci()[q[683]]()-r)+y[19412]+i[Y[3961]]+k[36616]+t[y[5919]]+M[21257]+n+a[22415]),t[f[1296]]=!1},Hi()[D[15052]]()[Q[22911]](u)}catch(i){this[k[5919]]++,this[D[3858]]=ci()[Q[683]](),e[Y[66]](a[34023],i),this[a[1296]]=!1}}}
+METHOD reset function(){this[d[3177]]=null,this[q[42102]]=0,this[S[8126]]=null,this[y[8534]]=[],this[M[1296]]=!1,this[M[39585]]()}
+METHOD resetFailState function(){this[Y[1644]]=0,this[M[8443]]=0,this[T[5919]]=0,this[f[3858]]=0}
+METHOD encryptData function(i,t){if(!r[D[676]][f[342]][f[14636]])return i;var n=this[J[19755]](),h=this[q[29080]](),s=i;if(this[q[21142]]()&&null!=n&&null!=h){var v=u[J[17375]](i,h,t,n);s=u[f[30163]](v)}else e[J[66]](M[27345]);return s}
+
+MODULE chunks:///_virtual/WarehouseBottomOneSeedSell.ts EXPORT WarehouseBottomOneSeedSell METHODS length,name,arguments,caller,prototype
+METHOD length function () { [native code] }
+METHOD name function () { [native code] }
+METHOD prototype function () { [native code] }
+
+MODULE chunks:///_virtual/WeakGuideClickTask.ts EXPORT WeakGuideClickTask METHODS init,startGuide,stopGuide,hideGuide,onClickTaskGotoSystem,showHand,doShowHand,getOneKeyStealNode,getZhaiQuNode,hideHand,checkCanGuide,onHarvestPlantCompleted,onAddUIOops,dispose
+METHOD init function(){}
+METHOD startGuide function(){this[y[8736]]=!0,P[k[31]].on(w[g[28304]],this[o[30086]],this),P[l[31]].on(A[l[3722]],this[d[6544]],this),P[q[31]].on(A[D[6509]],this[k[6544]],this),P[R[31]].on(m[l[6854]],this[g[5893]],this)}
+METHOD stopGuide function(){this[T[8736]]=!1,this[o[418]](),P[Q[31]][g[24]](w[v[28304]],this[Y[30086]],this),P[c[31]][q[24]](A[l[3722]],this[S[6544]],this),P[M[31]][k[24]](A[c[6509]],this[T[6544]],this),P[M[31]][a[24]](m[J[6854]],this[a[5893]],this)}
+METHOD hideGuide function(){this[M[3607]]=!1,this[D[6764]]()}
+METHOD onClickTaskGotoSystem function(i,t){var n;if(!this[d[3607]]&&-1!=this[L[41492]][Q[734]](t)&&this[o[8915]]()){var r=O[a[35]][y[57]][d[856]](1),h=null==(n=O[M[35]])||null==(n=n[Y[845]])?void 0:n[g[636]](1);if(e(null==h?void 0:h[T[6]])&&r){V[l[43]][L[418]](),this[Q[3607]]=!0;var s=r[T[9711]]?r[l[3274]]:1,f=O[a[35]][a[57]][M[281]](s);f?f[M[1962]]()?(this[k[3607]]=!1,h[T[9908]](new u(h[S[6]][q[984]]().x,h[T[6]][g[984]]().y))):f[Q[7934]]()&&!f[d[675]]||f[R[7934]]()&&f[a[675]]?this[d[9648]]():this[D[418]]():(this[q[3607]]=!1,h[S[9908]](new u(h[a[6]][g[984]]().x,h[a[6]][L[984]]().y)))}}}
+METHOD showHand function(){var i=this;this[y[842]]?this[a[7555]]():j[a[4479]](F[T[16108]](),P[R[504]][J[776]])[S[209]]((function(t){i[c[842]]=t[f[64]](Z),i[q[7555]]()}))[J[153]]((function(t){i[Q[418]](),C[g[66]](a[34412],t)}))}
+METHOD doShowHand function(){var i,t;if(this[S[8915]]()&&e(null==(i=this[c[842]])?void 0:i[l[6]])&&this[q[2018]]()){var n=O[k[35]][l[57]][f[856]](1),r=null==(t=O[v[35]])||null==(t=t[a[845]])?void 0:t[J[636]](1);if(e(null==r?void 0:r[d[6]])&&n){var u=n[l[9711]]?n[d[3274]]:1,s=O[l[35]][R[57]][Y[281]](u);if(s&&s[M[7934]]()&&!s[o[675]]){var z,H=null==O||null==(z=O[g[35]])||null==(z=z[S[333]])?void 0:z[S[23564]],m=this[D[13689]]();if(!e(H)||!e(m))return void this[M[418]]();C[J[70]](Q[10277]),this[T[842]][L[623]](m,0,0,Q[395],H,h[M[533]][Y[1909]])}else if(s&&s[J[7934]]()&&s[o[675]]){var F=P[o[620]][R[32516]](),j=this[f[30870]]();if(!F||!j)return void this[Y[418]]();C[v[70]](M[10277]),this[a[842]][v[623]](j,0,0,y[395],F,h[g[533]][k[8655]])}else this[M[418]]()}}else this[D[418]]()}
+METHOD getOneKeyStealNode function(){var i,t=s[y[35250]](p);return null==(i=O[k[35]][R[333]])||null==(i=i[y[6564]])||null==(i=i[l[72]](t))||null==(i=i[q[6]])||null==(i=i[L[900]](Q[879]))?void 0:i[f[900]](J[36887])}
+METHOD getZhaiQuNode function(){for(var i,t,r=P[a[620]][Q[33524]](),e=n(r[o[973]]);!(t=e())[k[11]];){var u=t[Y[14]];R[36251]==u[y[40]]&&(null==i||i[l[684]].y<u[S[684]].y)&&(i=u)}return i}
+METHOD hideHand function(){var i;e(null==(i=this[o[842]])?void 0:i[q[6]])&&this[R[842]][g[6]][L[47]]&&this[d[842]][J[839]]()}
+METHOD checkCanGuide function(){return!(!O[v[35]][c[57]][g[330]]||!b[T[43]][k[679]]()||P[M[44]][D[20835]]()||U[a[43]][R[2018]]())}
+METHOD onHarvestPlantCompleted function(){this[l[418]]()}
+METHOD onAddUIOops function(){this[T[418]]()}
+METHOD dispose function(){var i;this[v[6520]](),e(null==(i=this[a[842]])?void 0:i[l[6]])&&(this[Y[842]][v[6]][J[584]](),this[q[842]]=null)}
+
+MODULE chunks:///_virtual/WeakGuidePlantInter.ts EXPORT WeakGuidePlantInter METHODS init,startGuide,stopGuide,hideGuide,checkEnable,onAddUIOops,onClosePlantInteractive,onSingleClickInteration,resetCount,showHand,doShowHand,hideHand,checkCanGuide,getGuideNum,saveGuideNum,dispose
+METHOD init function(){}
+METHOD startGuide function(){this[o[2439]]()?(this[o[8736]]=!0,h[l[31]].on(P[q[6854]],this[q[5893]],this),h[v[31]].on(j[v[8278]],this[k[32304]],this),h[q[31]].on(j[l[5015]],this[D[28728]],this)):this[d[8736]]=!1}
+METHOD stopGuide function(){this[J[8736]]=!1,this[o[418]](),h[T[31]][D[24]](P[v[6854]],this[R[5893]],this),h[l[31]][R[24]](j[c[8278]],this[y[32304]],this),h[q[31]][a[24]](j[c[5015]],this[k[28728]],this)}
+METHOD hideGuide function(){this[l[3607]]=!1,this[k[6764]](),this[a[7170]]()}
+METHOD checkEnable function(){return!(this[M[6598]]()>=this[f[4901]])}
+METHOD onAddUIOops function(i,t){var n=t[Y[310]];n!=C[d[1589]]&&n!=C[T[5104]]&&this[k[418]]()}
+METHOD onClosePlantInteractive function(){var i;logger[y[70]](M[18019]),this[Y[62]]>=this[v[41846]]?(p[o[43]][D[418]](),this[o[3607]]=!0,this[f[9648]]()):e(null==(i=this[g[842]])?void 0:i[k[6]])&&this[S[842]][Y[6]][v[47]]&&(this[S[418]](),this[R[6598]]()>=this[D[4901]]&&this[v[6520]]()),this[Y[37225]]&&(this[D[418]](),this[L[6598]]()>=this[R[4901]]&&this[D[6520]]())}
+METHOD onSingleClickInteration function(i,t){var n=t[y[909]],r=t[v[88]],u=t[M[307]];if(logger[q[70]](q[14229],n,g[41897],r,l[30563],u),n&&r&&e(u))if(-1!=this[T[26484]][o[734]](r)){if(r==O[a[4400]]){var h=u[f[162]];if(!h)return void this[q[7170]]();var s=F[a[12441]](h.id);if(!s||s[M[439]]&&s[Q[439]]>1)return void this[R[7170]]()}this[y[909]]=n,this[R[983]]==r?this[Q[62]]++:(this[Q[983]]=r,this[Y[62]]=1)}else this[a[7170]]();else this[L[7170]]()}
+METHOD resetCount function(){this[a[983]]=null,this[q[62]]=0}
+METHOD showHand function(){logger[o[70]](g[11764]),this[L[16468]](this[k[6598]]()+1),this[a[8105]]=!0,H[M[861]](z[D[9089]],{type:this[J[5136]]}),this[D[37225]]=!0}
+METHOD doShowHand function(){var i,t;if(this[o[8915]]()&&e(null==(i=this[J[842]])?void 0:i[S[6]])&&this[g[909]]&&this[Q[2018]]){var n=4*Ti()[q[739]]((this[c[909]]-1)/4)+1,r=null==(t=m[y[35]])||null==(t=t[D[845]])?void 0:t[R[636]](n);if(e(null==r?void 0:r[v[6]])){this[a[16468]](this[S[6598]]()+1),this[c[8105]]=!0,H[d[861]](z[a[9089]],{type:this[q[5136]]});var h=m[v[35]][a[845]][o[20788]];logger[J[70]](S[32591],this[y[909]],f[22873],n),this[y[842]][R[623]](r[o[5202]](),0,0,h,u[o[533]][T[8655]],2)}else this[R[418]]()}else this[a[418]]()}
+METHOD hideHand function(){var i;this[Q[37225]]=!1,e(null==(i=this[g[842]])?void 0:i[Q[6]])&&this[D[842]][d[6]][a[47]]&&this[R[842]][d[839]]()}
+METHOD checkCanGuide function(){return!(!A[R[43]][l[679]]()||this[S[6598]]()>=this[o[4901]])}
+METHOD getGuideNum function(){var i=h[D[150]][M[2281]](b[R[1525]]);return logger[f[70]](Q[10076],i),i&&!di()(i[d[62]])?i[l[62]]:0}
+METHOD saveGuideNum function(i){logger[Y[70]](v[15030],i),h[a[150]][M[7054]](b[J[1525]],{count:i})}
+METHOD dispose function(){var i;this[f[6520]](),e(null==(i=this[M[842]])?void 0:i[l[6]])&&(this[f[842]][T[6]][k[584]](),this[f[842]]=null)}
+
+MODULE chunks:///_virtual/WeakGuideTask.ts EXPORT WeakGuideTask METHODS init,startGuide,stopGuide,hideGuide,checkEnable,readConfig,resetTime,updateTimer,isCanGuideWhenTimer,doGuideWhenTimer,onGlobalTouchStart,onTaskTouchEnd,showHand,doShowHand,hideHand,checkCanGuide,dispose
+METHOD init function(){}
+METHOD startGuide function(){var i;if(this[M[2439]]()){this[l[8736]]=!0,this[T[6083]]();var t=null==(i=z[v[524]])?void 0:i[S[6]];e(t,!0)&&t.on(u[q[86]][a[668]],this[R[4717]],this,!0)}else this[S[8736]]=!1}
+METHOD stopGuide function(){var i;this[l[8736]]=!1,this[f[418]]();var t=null==(i=z[f[524]])?void 0:i[T[6]];e(t,!0)&&t[k[24]](u[v[86]][q[668]],this[T[4717]],this,!0)}
+METHOD hideGuide function(){this[T[3607]]=!1,this[M[6764]](),this[k[6083]]()}
+METHOD checkEnable function(){return!(s[v[764]][v[75]]>this[L[15552]])}
+METHOD readConfig function(){var i=z[c[81]][M[5856]](H[v[41947]],Y[42136]),t=B()[l[927]](i);this[Y[36634]]=t[J[28867]],this[T[20862]]=t[y[75]]}
+METHOD resetTime function(){this[T[5174]]=0}
+METHOD updateTimer function(){return this[d[5174]]++,this[o[5174]]>=this[v[35400]]}
+METHOD isCanGuideWhenTimer function(){if(s[M[764]][D[75]]>this[Q[15552]])return this[D[6520]](),!1;if(this[o[3607]])return!1;if(!this[Y[8915]]())return!1;var i=U[d[43]][y[41437]]()[k[919]]((function(i){return i[R[5136]]==V[c[21729]]}));if(i){var t=p[l[43]][f[37296]]();this[c[599]]=t?i[R[599]]+1:i[M[599]]-1}return!0}
+METHOD doGuideWhenTimer function(){U[d[43]][S[418]](),this[l[3607]]=!0,this[J[9648]]()}
+METHOD onGlobalTouchStart function(){this[Q[418]]()}
+METHOD onTaskTouchEnd function(){this[q[418]]()}
+METHOD showHand function(){var i=this;this[y[842]]?this[f[7555]]():j[L[4479]](F[g[16108]](),z[M[504]][k[776]])[k[209]]((function(t){i[o[842]]=t[y[64]](w),i[a[7555]]()}))[o[153]]((function(t){P[g[66]](c[28818],t),i[l[418]]()}))}
+METHOD doShowHand function(){var i,t,n;if(this[M[8915]]()&&e(null==(i=this[S[842]])?void 0:i[o[6]])&&this[M[2018]]){var r=null==O||null==(t=O[l[35]])||null==(t=t[o[333]])?void 0:t[S[23564]],u=null==O||null==(n=O[Q[35]])||null==(n=n[L[333]])||null==(n=n[f[5241]])||null==(n=n[S[4151]])?void 0:n[R[6]];e(r)&&e(u)?(m[R[861]](C[g[9089]],{type:this[M[5136]]}),P[J[70]](T[30820]),this[y[842]][D[623]](u,185,5,M[395],r,h[J[533]][M[1909]])):this[T[418]]()}else this[L[418]]()}
+METHOD hideHand function(){var i;e(null==(i=this[R[842]])?void 0:i[k[6]])&&this[a[842]][y[6]][R[47]]&&this[Q[842]][Q[839]]()}
+METHOD checkCanGuide function(){return!(!O[c[35]][o[57]][k[330]]||!A[q[43]][y[679]]()||s[k[764]][M[75]]>this[o[15552]]||z[f[44]][f[20835]]()||b[q[43]][g[2018]]()||U[L[43]][f[29508]](this[f[5136]]))}
+METHOD dispose function(){var i;this[D[6520]](),e(null==(i=this[f[842]])?void 0:i[Y[6]])&&(this[D[842]][v[6]][v[584]](),this[l[842]]=null)}
+
+MODULE chunks:///_virtual/WeatherBottleShopBuyItem.ts EXPORT WeatherBottleShopBuyItem METHODS length,name,arguments,caller,prototype
+METHOD length function () { [native code] }
+METHOD name function () { [native code] }
+METHOD prototype function () { [native code] }
+
+MODULE chunks:///_virtual/WeatherBottleShopItem.ts EXPORT WeatherBottleShopItem METHODS length,name,arguments,caller,prototype
+METHOD length function () { [native code] }
+METHOD name function () { [native code] }
+METHOD prototype function () { [native code] }
+
+MODULE chunks:///_virtual/WeatherBottleShopUI.ts EXPORT WeatherBottleShopUI METHODS length,name,arguments,caller,prototype
+METHOD length function () { [native code] }
+METHOD name function () { [native code] }
+METHOD prototype function () { [native code] }
+
+MODULE chunks:///_virtual/WeatherBottleTaskItem.ts EXPORT WeatherBottleTaskItem METHODS length,name,arguments,caller,prototype
+METHOD length function () { [native code] }
+METHOD name function () { [native code] }
+METHOD prototype function () { [native code] }
+
+MODULE chunks:///_virtual/WeatherBottleTaskLine.ts EXPORT WeatherBottleTaskLine METHODS length,name,arguments,caller,prototype
+METHOD length function () { [native code] }
+METHOD name function () { [native code] }
+METHOD prototype function () { [native code] }
+
+MODULE chunks:///_virtual/WeatherBottleTaskUI.ts EXPORT WeatherBottleTaskUI METHODS length,name,arguments,caller,prototype
+METHOD length function () { [native code] }
+METHOD name function () { [native code] }
+METHOD prototype function () { [native code] }

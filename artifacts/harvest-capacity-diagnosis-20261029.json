@@ -1,0 +1,17 @@
+{
+  "checkedAt": "2026-10-29T18:19:09.0852518+08:00",
+  "errorCode": 1003003,
+  "errorName": "ItemCountLimit",
+  "itemId": 40182,
+  "name": "艳蝶兰",
+  "owned": 999840,
+  "maxOwn": 999990,
+  "capacityRemaining": 150,
+  "minimumLandYield": 560.0,
+  "batchYield": 14000.0,
+  "landCount": 24,
+  "bagUsedGrid": 126,
+  "bagMaxGrid": 210,
+  "cause": "收获产物会超过该物品持有上限，非背包格子不足",
+  "inventoryReadOnly": true
+}

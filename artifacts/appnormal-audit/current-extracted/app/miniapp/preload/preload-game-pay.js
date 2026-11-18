@@ -1,0 +1,1 @@
+"use strict";var e=require("electron");e.contextBridge.exposeInMainWorld("electron",{closeCurrentWindow(){e.ipcRenderer.send("game-ipc-pay-window-close")},payCallback:n=>e.ipcRenderer.sendSync("game-ipc-pay-window-callback",n),shareFriendPayment(n){e.ipcRenderer.send("game-ipc-friend-pay-window-share",n)},openUrl(n){e.ipcRenderer.send("game-ipc-friend-pay-window-open-url",n)}});

@@ -1,0 +1,1 @@
+const fs=require('fs');const s=fs.readFileSync('C:/Users/chank616/AppData/Roaming/QQEX/miniapp/fs/2351686624/1112386029/usr/bridge-rx.jsonl','utf8').trim().split(/\r?\n/).map(x=>{try{return JSON.parse(x)}catch{return null}}).filter(Boolean);for(const e of s.slice(-5))console.log(JSON.stringify(e).slice(0,700));

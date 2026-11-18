@@ -1,0 +1,22 @@
+{
+  "mode": "runtime",
+  "pid": 3888,
+  "qqStarted": false,
+  "farmStarted": false,
+  "diagnostics": [
+    {
+      "state": "runtime-metadata",
+      "pid": 3888,
+      "value": {
+        "pid": 3888,
+        "requireType": "undefined",
+        "hasMainModule": true,
+        "hasBuiltinModule": true,
+        "globalNames": [
+          "process",
+          "qqLocked"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "date": "2026-11-17",
+  "issue": "面板底部一直显示“检查失败 · 查看运行记录”，但日常 3/3、24 块地、作物时钟均正常",
+  "reportedAt": "2026-11-17T21:17:00+08:00",
+  "symptoms": {
+    "footer": "检查失败 · 查看运行记录（Firebrick）",
+    "daily": "3/3 已领取",
+    "vipCell": "会员福利 待检查",
+    "freeFertCell": "免费化肥 待检查",
+    "nextDue": "00:00:00"
+  },
+  "rootCauses": [
+    {
+      "id": "sticky-error",
+      "where": "tools/tray/Program.cs UpdateSnapshot",
+      "detail": "pass-failed 事件写入 LastError 后，只有“当日全部核实”才会清空；2026-11-16 20:00 的 “The operation has timed out.” 一直挂着，面板 footer 只判断 !TodayVerified && LastError.Length > 0，于是显示“检查失败”。",
+      "evidence": "artifacts/m0-code-capture.jsonl 末段 pass-failed @ 2026-11-16T12:00:34Z；同日 11-17 05:41 的 pass-finished status=incomplete 未清错误"
+    },
+    {
+      "id": "unclaimable-free-product",
+      "where": "tools/tray/Native/FarmWorkflow.cs FreeBenefits",
+      "detail": "免费化肥/每日福利要求每个 is_free 化肥商品 verified=已购买或限购计数达上限。SVIP 商城每日免费（1053）对非会员账号 is_available_purchase=false 且 restriction 不显示已用尽，verified 永远为 false → free-fertilizer=unverified、free-benefits=pending → allRequiredComplete=false，当日永不验收。",
+      "evidence": {
+        "report": "deploy-csharp/artifacts/reports/farm-csharp-2026-11-16T21-41-08-206Z-fd506425.json",
+        "freeProducts": [
+          { "id": 1001, "name": "每日福利", "available": false, "exhausted": true, "verified": true },
+          { "id": 1053, "name": "SVIP商城每日免费", "available": false, "exhausted": false, "verified": false }
+        ],
+        "checks": { "free-fertilizer": "unverified", "free-benefits": "pending", "vip-rewards": "not-applicable" },
+        "vip": { "isQqVip": false, "note": "vip-rewards 判定 not-applicable 即服务端 is_qq_vip=false，SVIP 免费品对本账号不可领" }
+      }
+    }
+  ],
+  "fix": [
+    "FarmWorkflow.FreeBenefits：读取 GetQQVipRewardsStatus，对“服务端明确不可领且本账号无资格”的商品（非会员的 SVIP/会员专属免费品、ad_only 广告商品）标记 state=not-applicable，并排除在 required/daily 之外；报告新增 vip.isQqVip/mallFreeCanClaim 与每个商品的 adOnly/membershipOnly/limit/state。",
+    "Program.UpdateSnapshot：pass-finished(verified|incomplete|inspection-only) 且时间不早于 LastErrorAt 时清空 LastError，旧错误不再常驻；新增 Snapshot.LastErrorAt。",
+    "DashboardForm.UpdateData：仅当本轮确有错误才显示“检查失败”；只剩未核实项时显示“未核实 · <项目>”，否则“今日验收未完成”。",
+    "DashboardData.ApplyReport：checks 的 not-applicable 视为已核实，会员福利/免费化肥单元格显示“无需领取”，并附说明性 tooltip。",
+    "DashboardPreview：新增底部文案回归断言（未核实点名、检查失败、已核实三种状态）。",
+    "NativeSelfChecks：新增“本账号不可领的免费商品不阻塞当日验收”用例（fixture 非会员 + SVIP 免费品）。"
+  ],
+  "verification": {
+    "selfTests": "46 native C# checks + 15 scheduler checks passed",
+    "livePass": "2026-11-17 21:30/21:32 两轮真实验收 status=verified, allRequiredComplete=true, free-fertilizer=passed, free-benefits=passed, 1053 state=not-applicable",
+    "ui": "deploy-csharp/artifacts/ui-preview/dashboard.png：会员福利“无需领取”，免费化肥“已核实”，底部“最近检查 21:32:27”无红色告警",
+    "package": "QQFarm-CSharp-win-x64.zip (20261117-213848) 与 deploy-csharp/FarmTray.exe 哈希一致"
+  },
+  "files": {
+    "changed": [
+      "tools/tray/Program.cs",
+      "tools/tray/DashboardForm.cs",
+      "tools/tray/Native/FarmWorkflow.cs",
+      "tools/tray/Native/NativeSelfChecks.cs",
+      "deploy-csharp/README.md"
+    ],
+    "backup": "artifacts/before-free-benefit-fix-20261117/FarmTray.exe"
+  }
+}

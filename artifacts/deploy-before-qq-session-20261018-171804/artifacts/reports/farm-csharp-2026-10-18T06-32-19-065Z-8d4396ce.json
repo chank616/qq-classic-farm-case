@@ -1,0 +1,96 @@
+{
+  "schemaVersion": 1,
+  "runtime": "csharp",
+  "day": "2026-10-18",
+  "mode": "execute",
+  "startedAt": "2026-10-18T06:30:33.5374238\u002B00:00",
+  "account": {
+    "gid": "1079370412",
+    "name": "\u9732\u9732\u5927\u795E",
+    "level": 149
+  },
+  "allRequiredComplete": false,
+  "completed": true,
+  "tasksBefore": [
+    {
+      "id": "101056",
+      "desc": "\u5347\u7EA720\u5757\u7D2B\u6676\u571F\u5730",
+      "cond": 22,
+      "progress": 19,
+      "total": 20,
+      "claimed": false,
+      "unlocked": true
+    },
+    {
+      "id": "200019",
+      "desc": "\u6BCF\u65E5\u767B\u5F55\u6E38\u620F",
+      "cond": 16,
+      "progress": 1,
+      "total": 1,
+      "claimed": true,
+      "unlocked": true
+    },
+    {
+      "id": "200020",
+      "desc": "\u91C7\u64581\u6B21\u679C\u5B9E",
+      "cond": 17,
+      "progress": 1,
+      "total": 1,
+      "claimed": true,
+      "unlocked": true
+    },
+    {
+      "id": "200021",
+      "desc": "\u57281\u4E2A\u597D\u53CB\u519C\u573A\u8FDB\u884C\u4E92\u52A8",
+      "cond": 18,
+      "progress": 1,
+      "total": 1,
+      "claimed": true,
+      "unlocked": true
+    }
+  ],
+  "finishedAt": "2026-10-18T06:32:19.0649168\u002B00:00",
+  "fertilizerDecisionState": null,
+  "status": "incomplete",
+  "checks": [
+    {
+      "id": "login",
+      "status": "passed",
+      "detail": "Login and PlayerLogin accepted by server"
+    },
+    {
+      "id": "farm",
+      "status": "failed",
+      "detail": "QQ bridge request failed: /bridge (500)"
+    },
+    {
+      "id": "daily-tasks",
+      "status": "failed",
+      "detail": "QQ bridge request failed: /bridge (500)"
+    },
+    {
+      "id": "vip-daily",
+      "status": "failed",
+      "detail": "QQ bridge request failed: /bridge (500)"
+    },
+    {
+      "id": "vip-rewards",
+      "status": "failed",
+      "detail": "QQ bridge request failed: /bridge (500)"
+    },
+    {
+      "id": "free-fertilizer",
+      "status": "failed",
+      "detail": "QQ bridge request failed: /bridge (500)"
+    },
+    {
+      "id": "final-state",
+      "status": "failed",
+      "detail": "QQ bridge request failed: /bridge (500)"
+    }
+  ],
+  "operations": [],
+  "runId": "8d4396ce-10a2-4aa3-82b3-6cdfc6a91196",
+  "serverClockOffsetMs": -786,
+  "reportPath": "E:\\workspace\\QQ\u7ECF\u5178\u519C\u573A\u6848\u4F8B\\deploy-csharp\\artifacts\\reports\\farm-csharp-2026-10-18T06-32-19-065Z-8d4396ce.json"
+}

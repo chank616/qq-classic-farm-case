@@ -1,0 +1,902 @@
+[
+  {
+    "path": "165.background.js",
+    "size": 80,
+    "offset": "0"
+  },
+  {
+    "path": "288.background.js",
+    "size": 80,
+    "offset": "80"
+  },
+  {
+    "path": "346.background.js",
+    "size": 80,
+    "offset": "160"
+  },
+  {
+    "path": "357.background.js",
+    "size": 80,
+    "offset": "240"
+  },
+  {
+    "path": "4.background.js",
+    "size": 80,
+    "offset": "320"
+  },
+  {
+    "path": "426.background.js",
+    "size": 80,
+    "offset": "400"
+  },
+  {
+    "path": "482.background.js",
+    "size": 80,
+    "offset": "480"
+  },
+  {
+    "path": "536.background.js",
+    "size": 80,
+    "offset": "560"
+  },
+  {
+    "path": "544.background.js",
+    "size": 80,
+    "offset": "640"
+  },
+  {
+    "path": "549.background.js",
+    "size": 80,
+    "offset": "720"
+  },
+  {
+    "path": "609.background.js",
+    "size": 80,
+    "offset": "800"
+  },
+  {
+    "path": "611.background.js",
+    "size": 80,
+    "offset": "880"
+  },
+  {
+    "path": "648.background.js",
+    "size": 80,
+    "offset": "960"
+  },
+  {
+    "path": "790.background.js",
+    "size": 80,
+    "offset": "1040"
+  },
+  {
+    "path": "825.background.js",
+    "size": 80,
+    "offset": "1120"
+  },
+  {
+    "path": "875.background.js",
+    "size": 80,
+    "offset": "1200"
+  },
+  {
+    "path": "app_launcher/adm-zip.js",
+    "size": 80,
+    "offset": "1280"
+  },
+  {
+    "path": "app_launcher/index.js",
+    "size": 80,
+    "offset": "1360"
+  },
+  {
+    "path": "app_launcher/launcher.js",
+    "size": 80,
+    "offset": "1440"
+  },
+  {
+    "path": "assets/ark-engine/arkeng-engine.js",
+    "size": 354192,
+    "offset": "1520"
+  },
+  {
+    "path": "assets/ark-engine/arkeng-wasmoon.js",
+    "size": 222272,
+    "offset": "355712"
+  },
+  {
+    "path": "assets/ark-engine/arkeng-yoga.js",
+    "size": 329488,
+    "offset": "577984"
+  },
+  {
+    "path": "assets/denoiser-wasm.js",
+    "size": 2136816,
+    "offset": "1160560"
+  },
+  {
+    "path": "assets/gif-render/gif-render.worker.js",
+    "size": 62496,
+    "offset": "3297376"
+  },
+  {
+    "path": "assets/polar.min.js",
+    "size": 32768,
+    "offset": "3363648"
+  },
+  {
+    "path": "assets/rlottie/rlottie-wasm.js",
+    "size": 119616,
+    "offset": "3396416"
+  },
+  {
+    "path": "assets/rlottie/rlottie-wasm.worker.js",
+    "size": 144400,
+    "offset": "3833648"
+  },
+  {
+    "path": "background_ex.js",
+    "size": 305904,
+    "offset": "3978048"
+  },
+  {
+    "path": "background.js",
+    "size": 80,
+    "offset": "4283952"
+  },
+  {
+    "path": "ex-app/ex-guild/main/common-ex-service-BTDkTDCe.js",
+    "size": 1216,
+    "offset": "4284032"
+  },
+  {
+    "path": "ex-app/ex-guild/main/file-ex-service-DH3wsgo0.js",
+    "size": 6576,
+    "offset": "4285248"
+  },
+  {
+    "path": "ex-app/ex-guild/main/index.js",
+    "size": 3920,
+    "offset": "4291824"
+  },
+  {
+    "path": "ex-app/ex-guild/main/screen-service-CWQeRRjH.js",
+    "size": 7408,
+    "offset": "4295744"
+  },
+  {
+    "path": "ex-app/ex-guild/main/test-ex-service-TLghZNw6.js",
+    "size": 464,
+    "offset": "4303152"
+  },
+  {
+    "path": "ex-app/ex-guild/package.json",
+    "size": 3040,
+    "offset": "4303616"
+  },
+  {
+    "path": "ex-app/ex-guild/renderer/aegis.cdn-go.cn/aegis-sdk-v2/latest/aegis.min.js",
+    "size": 124336,
+    "offset": "4306656"
+  },
+  {
+    "path": "ex-app/ex-guild/renderer/pd.qq.com/assets/AgentChat-ByDBkoX4.js",
+    "size": 54512,
+    "offset": "4430992"
+  },
+  {
+    "path": "ex-app/ex-guild/renderer/pd.qq.com/assets/AgentFloatWidget-2-4OwD6u.js",
+    "size": 11264,
+    "offset": "4524112"
+  },
+  {
+    "path": "ex-app/ex-guild/renderer/pd.qq.com/assets/AgentMessage-BqaIqVIb.js",
+    "size": 65872,
+    "offset": "4539280"
+  },
+  {
+    "path": "ex-app/ex-guild/renderer/pd.qq.com/assets/aio-DJl04FHu.js",
+    "size": 99536,
+    "offset": "4672064"
+  },
+  {
+    "path": "ex-app/ex-guild/renderer/pd.qq.com/assets/aio-live-n-voice-layout-DBf5Gp_N.js",
+    "size": 26272,
+    "offset": "4780608"
+  },
+  {
+    "path": "ex-app/ex-guild/renderer/pd.qq.com/assets/at-panel-C5VJ1Cfn.js",
+    "size": 6624,
+    "offset": "4806880"
+  },
+  {
+    "path": "ex-app/ex-guild/renderer/pd.qq.com/assets/browser-QE5B3J6b.js",
+    "size": 23312,
+    "offset": "4879104"
+  },
+  {
+    "path": "ex-app/ex-guild/renderer/pd.qq.com/assets/channel-C65J4qJ-.js",
+    "size": 6480,
+    "offset": "4906912"
+  },
+  {
+    "path": "ex-app/ex-guild/renderer/pd.qq.com/assets/channel-publish-panel-ByLOGH_R.js",
+    "size": 4176,
+    "offset": "4913392"
+  },
+  {
+    "path": "ex-app/ex-guild/renderer/pd.qq.com/assets/ChatReasoning-SmhhG1NF.js",
+    "size": 269024,
+    "offset": "5015568"
+  },
+  {
+    "path": "ex-app/ex-guild/renderer/pd.qq.com/assets/comment-BUxucFzD.js",
+    "size": 15056,
+    "offset": "5284592"
+  },
+  {
+    "path": "ex-app/ex-guild/renderer/pd.qq.com/assets/comment-list-D7q71kxf.js",
+    "size": 43824,
+    "offset": "5299648"
+  },
+  {
+    "path": "ex-app/ex-guild/renderer/pd.qq.com/assets/CreateGuildModal-CLsQNWJF.js",
+    "size": 44112,
+    "offset": "5358368"
+  },
+  {
+    "path": "ex-app/ex-guild/renderer/pd.qq.com/assets/cropper.esm-6uEJLznX.js",
+    "size": 38272,
+    "offset": "5419040"
+  },
+  {
+    "path": "ex-app/ex-guild/renderer/pd.qq.com/assets/cropper2-SGwgqwMS.js",
+    "size": 31504,
+    "offset": "5457312"
+  },
+  {
+    "path": "ex-app/ex-guild/renderer/pd.qq.com/assets/detail-C5crA8pT.js",
+    "size": 15280,
+    "offset": "5488816"
+  },
+  {
+    "path": "ex-app/ex-guild/renderer/pd.qq.com/assets/feed-context-menu-0Zxusa09.js",
+    "size": 8464,
+    "offset": "5521968"
+  },
+  {
+    "path": "ex-app/ex-guild/renderer/pd.qq.com/assets/feed-footer-bar-BUsaE83m.js",
+    "size": 102512,
+    "offset": "5530432"
+  },
+  {
+    "path": "ex-app/ex-guild/renderer/pd.qq.com/assets/feed-options-DwePR737.js",
+    "size": 26944,
+    "offset": "5769648"
+  },
+  {
+    "path": "ex-app/ex-guild/renderer/pd.qq.com/assets/feed-post-DGHuST9M.js",
+    "size": 17136,
+    "offset": "5796592"
+  },
+  {
+    "path": "ex-app/ex-guild/renderer/pd.qq.com/assets/FeedbackPanel-_oDUG8NZ.js",
+    "size": 11648,
+    "offset": "5813728"
+  },
+  {
+    "path": "ex-app/ex-guild/renderer/pd.qq.com/assets/floatAgentCard-Le6EYCz8.js",
+    "size": 67504,
+    "offset": "5839872"
+  },
+  {
+    "path": "ex-app/ex-guild/renderer/pd.qq.com/assets/floatAgentCardInvoker-SrxCVWC2.js",
+    "size": 2160,
+    "offset": "5907376"
+  },
+  {
+    "path": "ex-app/ex-guild/renderer/pd.qq.com/assets/floatUserCard-oSvlosxK.js",
+    "size": 15984,
+    "offset": "5909536"
+  },
+  {
+    "path": "ex-app/ex-guild/renderer/pd.qq.com/assets/guild-DEMSJ-i-.js",
+    "size": 17952,
+    "offset": "5941280"
+  },
+  {
+    "path": "ex-app/ex-guild/renderer/pd.qq.com/assets/guildAgent-a1NtOaqg.js",
+    "size": 9216,
+    "offset": "5963392"
+  },
+  {
+    "path": "ex-app/ex-guild/renderer/pd.qq.com/assets/GuildOperations-BZAfK0Gi.js",
+    "size": 18976,
+    "offset": "5972608"
+  },
+  {
+    "path": "ex-app/ex-guild/renderer/pd.qq.com/assets/icon--1r7_4_f.js",
+    "size": 8128,
+    "offset": "5995456"
+  },
+  {
+    "path": "ex-app/ex-guild/renderer/pd.qq.com/assets/icon-5cVpFh7u.js",
+    "size": 22592,
+    "offset": "6003584"
+  },
+  {
+    "path": "ex-app/ex-guild/renderer/pd.qq.com/assets/icon-agent-colorful.vue_vue_type_script_setup_true_lang-DHQv89bD.js",
+    "size": 15584,
+    "offset": "6026176"
+  },
+  {
+    "path": "ex-app/ex-guild/renderer/pd.qq.com/assets/icon-B5hQbb9A.js",
+    "size": 11408,
+    "offset": "6041760"
+  },
+  {
+    "path": "ex-app/ex-guild/renderer/pd.qq.com/assets/icon-CfT85cNp.js",
+    "size": 11152,
+    "offset": "6098160"
+  },
+  {
+    "path": "ex-app/ex-guild/renderer/pd.qq.com/assets/icon-CWBffL58.js",
+    "size": 7168,
+    "offset": "6109312"
+  },
+  {
+    "path": "ex-app/ex-guild/renderer/pd.qq.com/assets/icon-E-VkILdD.js",
+    "size": 266688,
+    "offset": "6116480"
+  },
+  {
+    "path": "ex-app/ex-guild/renderer/pd.qq.com/assets/icon-LhrGGZq2.js",
+    "size": 12432,
+    "offset": "6383168"
+  },
+  {
+    "path": "ex-app/ex-guild/renderer/pd.qq.com/assets/icon-QMsa74qh.js",
+    "size": 1344,
+    "offset": "6401744"
+  },
+  {
+    "path": "ex-app/ex-guild/renderer/pd.qq.com/assets/icon-ZQM2puzB.js",
+    "size": 417200,
+    "offset": "6409552"
+  },
+  {
+    "path": "ex-app/ex-guild/renderer/pd.qq.com/assets/index--Y3RMz_m.js",
+    "size": 29408,
+    "offset": "6826752"
+  },
+  {
+    "path": "ex-app/ex-guild/renderer/pd.qq.com/assets/index-7TLQqpJ3.js",
+    "size": 19776,
+    "offset": "6856160"
+  },
+  {
+    "path": "ex-app/ex-guild/renderer/pd.qq.com/assets/index-BcJH9fuL.js",
+    "size": 13072,
+    "offset": "6885232"
+  },
+  {
+    "path": "ex-app/ex-guild/renderer/pd.qq.com/assets/index-BmxI98MY.js",
+    "size": 2432,
+    "offset": "6913776"
+  },
+  {
+    "path": "ex-app/ex-guild/renderer/pd.qq.com/assets/index-BrFXUN3I.js",
+    "size": 2736,
+    "offset": "6916208"
+  },
+  {
+    "path": "ex-app/ex-guild/renderer/pd.qq.com/assets/index-ByodcAD_.js",
+    "size": 2544,
+    "offset": "6919280"
+  },
+  {
+    "path": "ex-app/ex-guild/renderer/pd.qq.com/assets/index-C1DO3gxS.js",
+    "size": 11664,
+    "offset": "6921936"
+  },
+  {
+    "path": "ex-app/ex-guild/renderer/pd.qq.com/assets/index-C62eNg5c.js",
+    "size": 12128,
+    "offset": "6940896"
+  },
+  {
+    "path": "ex-app/ex-guild/renderer/pd.qq.com/assets/index-C9Xtrh0X.js",
+    "size": 13568,
+    "offset": "6959568"
+  },
+  {
+    "path": "ex-app/ex-guild/renderer/pd.qq.com/assets/index-Cmkvptv-.js",
+    "size": 17408,
+    "offset": "6979872"
+  },
+  {
+    "path": "ex-app/ex-guild/renderer/pd.qq.com/assets/index-CnmJWpi5.js",
+    "size": 4976,
+    "offset": "6997280"
+  },
+  {
+    "path": "ex-app/ex-guild/renderer/pd.qq.com/assets/index-CrR70ilO.js",
+    "size": 17056,
+    "offset": "7023136"
+  },
+  {
+    "path": "ex-app/ex-guild/renderer/pd.qq.com/assets/index-Ct42PrIt.js",
+    "size": 204800,
+    "offset": "7040192"
+  },
+  {
+    "path": "ex-app/ex-guild/renderer/pd.qq.com/assets/index-D2gRJkBS.js",
+    "size": 7696,
+    "offset": "7269056"
+  },
+  {
+    "path": "ex-app/ex-guild/renderer/pd.qq.com/assets/index-DgnPKrp_.js",
+    "size": 9392,
+    "offset": "7281712"
+  },
+  {
+    "path": "ex-app/ex-guild/renderer/pd.qq.com/assets/index-DhF-0dGj.js",
+    "size": 948192,
+    "offset": "7291104"
+  },
+  {
+    "path": "ex-app/ex-guild/renderer/pd.qq.com/assets/index-DhFQ6vHy.js",
+    "size": 770848,
+    "offset": "8239296"
+  },
+  {
+    "path": "ex-app/ex-guild/renderer/pd.qq.com/assets/index-Dlmoy6QO.js",
+    "size": 7104,
+    "offset": "9088624"
+  },
+  {
+    "path": "ex-app/ex-guild/renderer/pd.qq.com/assets/index-DTpL8iAd.js",
+    "size": 23296,
+    "offset": "9110560"
+  },
+  {
+    "path": "ex-app/ex-guild/renderer/pd.qq.com/assets/index-DU8wwh2I.js",
+    "size": 2448,
+    "offset": "9133856"
+  },
+  {
+    "path": "ex-app/ex-guild/renderer/pd.qq.com/assets/index-DUsZs_7J.js",
+    "size": 2480,
+    "offset": "9136416"
+  },
+  {
+    "path": "ex-app/ex-guild/renderer/pd.qq.com/assets/index-DZTpE3PO.js",
+    "size": 8256,
+    "offset": "9141312"
+  },
+  {
+    "path": "ex-app/ex-guild/renderer/pd.qq.com/assets/index-jLbhZrar.js",
+    "size": 7344,
+    "offset": "9369232"
+  },
+  {
+    "path": "ex-app/ex-guild/renderer/pd.qq.com/assets/index-Jx3xR9M2.js",
+    "size": 25264,
+    "offset": "9376576"
+  },
+  {
+    "path": "ex-app/ex-guild/renderer/pd.qq.com/assets/index-M9sf6n2z.js",
+    "size": 12064,
+    "offset": "9405072"
+  },
+  {
+    "path": "ex-app/ex-guild/renderer/pd.qq.com/assets/index-RkBRVS96.js",
+    "size": 11376,
+    "offset": "9445696"
+  },
+  {
+    "path": "ex-app/ex-guild/renderer/pd.qq.com/assets/index-suHqtqvr.js",
+    "size": 60784,
+    "offset": "9457072"
+  },
+  {
+    "path": "ex-app/ex-guild/renderer/pd.qq.com/assets/index.vue_vue_type_style_index_0_lang-BKB9A0LG.js",
+    "size": 1040,
+    "offset": "9524592"
+  },
+  {
+    "path": "ex-app/ex-guild/renderer/pd.qq.com/assets/index.vue_vue_type_style_index_0_scoped_f41f7eb2_lang-B1QvD7_x.js",
+    "size": 23680,
+    "offset": "9525632"
+  },
+  {
+    "path": "ex-app/ex-guild/renderer/pd.qq.com/assets/input-BuGLz0yK.js",
+    "size": 4848,
+    "offset": "9549312"
+  },
+  {
+    "path": "ex-app/ex-guild/renderer/pd.qq.com/assets/link-group-list-DXXqfz1A.js",
+    "size": 1920,
+    "offset": "9562016"
+  },
+  {
+    "path": "ex-app/ex-guild/renderer/pd.qq.com/assets/list-item-enter-guard-BvdtKyt3.js",
+    "size": 232784,
+    "offset": "9563936"
+  },
+  {
+    "path": "ex-app/ex-guild/renderer/pd.qq.com/assets/LiveActivityItem-62zP4zie.js",
+    "size": 5072,
+    "offset": "9796720"
+  },
+  {
+    "path": "ex-app/ex-guild/renderer/pd.qq.com/assets/main--hrp5qt-.js",
+    "size": 1868368,
+    "offset": "9839024"
+  },
+  {
+    "path": "ex-app/ex-guild/renderer/pd.qq.com/assets/MarkdownRendererPlus.vue_vue_type_style_index_0_lang-Gsf6yLuo.js",
+    "size": 328816,
+    "offset": "11928288"
+  },
+  {
+    "path": "ex-app/ex-guild/renderer/pd.qq.com/assets/MediaItem-CetIQl-a.js",
+    "size": 10032,
+    "offset": "12257104"
+  },
+  {
+    "path": "ex-app/ex-guild/renderer/pd.qq.com/assets/MemberGridItem-cBR2wZxd.js",
+    "size": 2432,
+    "offset": "12269120"
+  },
+  {
+    "path": "ex-app/ex-guild/renderer/pd.qq.com/assets/menu-view-CGD9bpzV.js",
+    "size": 22880,
+    "offset": "12273776"
+  },
+  {
+    "path": "ex-app/ex-guild/renderer/pd.qq.com/assets/message-NX8ghSSb.js",
+    "size": 136224,
+    "offset": "12296656"
+  },
+  {
+    "path": "ex-app/ex-guild/renderer/pd.qq.com/assets/min-win-CVbUmumX.js",
+    "size": 19568,
+    "offset": "12439568"
+  },
+  {
+    "path": "ex-app/ex-guild/renderer/pd.qq.com/assets/mode-convert-BmeK7I6b.js",
+    "size": 6768,
+    "offset": "12459136"
+  },
+  {
+    "path": "ex-app/ex-guild/renderer/pd.qq.com/assets/mpegts-CCYNxnDT.js",
+    "size": 273952,
+    "offset": "12465904"
+  },
+  {
+    "path": "ex-app/ex-guild/renderer/pd.qq.com/assets/msg-BZdfIeVu.js",
+    "size": 3472,
+    "offset": "12739856"
+  },
+  {
+    "path": "ex-app/ex-guild/renderer/pd.qq.com/assets/MsgRecord-DqENGB_s.js",
+    "size": 7408,
+    "offset": "12743328"
+  },
+  {
+    "path": "ex-app/ex-guild/renderer/pd.qq.com/assets/notice-float-card.vue_vue_type_style_index_1_lang-DgUioR5R.js",
+    "size": 22064,
+    "offset": "12776752"
+  },
+  {
+    "path": "ex-app/ex-guild/renderer/pd.qq.com/assets/p-app-search-oQUTgGHE.js",
+    "size": 55024,
+    "offset": "12798816"
+  },
+  {
+    "path": "ex-app/ex-guild/renderer/pd.qq.com/assets/p-app-search-result-DmcvUewn.js",
+    "size": 1216,
+    "offset": "12853840"
+  },
+  {
+    "path": "ex-app/ex-guild/renderer/pd.qq.com/assets/p-av-C5aao0br.js",
+    "size": 220368,
+    "offset": "12855056"
+  },
+  {
+    "path": "ex-app/ex-guild/renderer/pd.qq.com/assets/p-chat-o4No6vA2.js",
+    "size": 63216,
+    "offset": "13075424"
+  },
+  {
+    "path": "ex-app/ex-guild/renderer/pd.qq.com/assets/p-explore-CPzNvxxe.js",
+    "size": 44128,
+    "offset": "13138640"
+  },
+  {
+    "path": "ex-app/ex-guild/renderer/pd.qq.com/assets/p-home-DPFgMd9J.js",
+    "size": 440640,
+    "offset": "13182768"
+  },
+  {
+    "path": "ex-app/ex-guild/renderer/pd.qq.com/assets/p-join-CA1wPdXe.js",
+    "size": 12112,
+    "offset": "13623408"
+  },
+  {
+    "path": "ex-app/ex-guild/renderer/pd.qq.com/assets/p-light-app-C_6kTMOR.js",
+    "size": 51488,
+    "offset": "13635520"
+  },
+  {
+    "path": "ex-app/ex-guild/renderer/pd.qq.com/assets/p-long-feed-editor-BWeOwV_j.js",
+    "size": 167120,
+    "offset": "13687008"
+  },
+  {
+    "path": "ex-app/ex-guild/renderer/pd.qq.com/assets/p-markdown-help-D4aRq6rW.js",
+    "size": 19888,
+    "offset": "13854128"
+  },
+  {
+    "path": "ex-app/ex-guild/renderer/pd.qq.com/assets/p-member-BLggPer0.js",
+    "size": 25984,
+    "offset": "13874016"
+  },
+  {
+    "path": "ex-app/ex-guild/renderer/pd.qq.com/assets/p-notify-guild-B2MjYq04.js",
+    "size": 51296,
+    "offset": "13900000"
+  },
+  {
+    "path": "ex-app/ex-guild/renderer/pd.qq.com/assets/p-notify-interaction-mH9vjnro.js",
+    "size": 12352,
+    "offset": "13951296"
+  },
+  {
+    "path": "ex-app/ex-guild/renderer/pd.qq.com/assets/p-notify-system-CknwsK0J.js",
+    "size": 8128,
+    "offset": "13963648"
+  },
+  {
+    "path": "ex-app/ex-guild/renderer/pd.qq.com/assets/p-post-cLX5bWht.js",
+    "size": 77488,
+    "offset": "13971776"
+  },
+  {
+    "path": "ex-app/ex-guild/renderer/pd.qq.com/assets/p-search-B_fUSTzk.js",
+    "size": 55872,
+    "offset": "14049264"
+  },
+  {
+    "path": "ex-app/ex-guild/renderer/pd.qq.com/assets/p-single-agent-tyNeLKZZ.js",
+    "size": 11456,
+    "offset": "14105136"
+  },
+  {
+    "path": "ex-app/ex-guild/renderer/pd.qq.com/assets/p-streaming-shake-test-Bdd78UDr.js",
+    "size": 61376,
+    "offset": "14116592"
+  },
+  {
+    "path": "ex-app/ex-guild/renderer/pd.qq.com/assets/p-toolbar-DaJQ_5d4.js",
+    "size": 11168,
+    "offset": "14177968"
+  },
+  {
+    "path": "ex-app/ex-guild/renderer/pd.qq.com/assets/p-ui-hoVsbn58.js",
+    "size": 15568,
+    "offset": "14189136"
+  },
+  {
+    "path": "ex-app/ex-guild/renderer/pd.qq.com/assets/p-user-card-BzLKnKa6.js",
+    "size": 11344,
+    "offset": "14204704"
+  },
+  {
+    "path": "ex-app/ex-guild/renderer/pd.qq.com/assets/place-holder-lxiBaxcY.js",
+    "size": 2000,
+    "offset": "14216048"
+  },
+  {
+    "path": "ex-app/ex-guild/renderer/pd.qq.com/assets/publish-Ci-wl7Dd.js",
+    "size": 9664,
+    "offset": "14218992"
+  },
+  {
+    "path": "ex-app/ex-guild/renderer/pd.qq.com/assets/qqex-renderer-DzRcMWPR.js",
+    "size": 337120,
+    "offset": "14228656"
+  },
+  {
+    "path": "ex-app/ex-guild/renderer/pd.qq.com/assets/qrcode-DmMXQrUG.js",
+    "size": 21776,
+    "offset": "14565776"
+  },
+  {
+    "path": "ex-app/ex-guild/renderer/pd.qq.com/assets/reply-content-msg-C9KlPZRO.js",
+    "size": 2640,
+    "offset": "14587552"
+  },
+  {
+    "path": "ex-app/ex-guild/renderer/pd.qq.com/assets/select-xRuBgATF.js",
+    "size": 6080,
+    "offset": "14592608"
+  },
+  {
+    "path": "ex-app/ex-guild/renderer/pd.qq.com/assets/setting-panel-elKBJGpZ.js",
+    "size": 8800,
+    "offset": "14602400"
+  },
+  {
+    "path": "ex-app/ex-guild/renderer/pd.qq.com/assets/share-DtLrsvWL.js",
+    "size": 12160,
+    "offset": "14611200"
+  },
+  {
+    "path": "ex-app/ex-guild/renderer/pd.qq.com/assets/share-options-C-tcfKkB.js",
+    "size": 4144,
+    "offset": "14623360"
+  },
+  {
+    "path": "ex-app/ex-guild/renderer/pd.qq.com/assets/ShareGenImgPanel-CUzgJYn-.js",
+    "size": 73904,
+    "offset": "14680736"
+  },
+  {
+    "path": "ex-app/ex-guild/renderer/pd.qq.com/assets/SidebarToggle-CTPjPgZM.js",
+    "size": 2256,
+    "offset": "14755616"
+  },
+  {
+    "path": "ex-app/ex-guild/renderer/pd.qq.com/assets/sub-menu-DcsKzhfI.js",
+    "size": 4688,
+    "offset": "14757872"
+  },
+  {
+    "path": "ex-app/ex-guild/renderer/pd.qq.com/assets/switch-DiQwwjvG.js",
+    "size": 3376,
+    "offset": "14766160"
+  },
+  {
+    "path": "ex-app/ex-guild/renderer/pd.qq.com/assets/tooltips-BX6nACbP.js",
+    "size": 2048,
+    "offset": "14773888"
+  },
+  {
+    "path": "ex-app/ex-guild/renderer/pd.qq.com/assets/uniqBy-Y4Hp65cv.js",
+    "size": 1024,
+    "offset": "14776912"
+  },
+  {
+    "path": "ex-app/ex-guild/renderer/pd.qq.com/assets/useEditorMode-CDF0cbgc.js",
+    "size": 91120,
+    "offset": "14777936"
+  },
+  {
+    "path": "ex-app/ex-guild/renderer/pd.qq.com/assets/user-card-C6So54Og.js",
+    "size": 29520,
+    "offset": "14875760"
+  },
+  {
+    "path": "ex-app/ex-guild/renderer/pd.qq.com/assets/user-name.vue_vue_type_script_setup_true_lang-N3C5KBW8.js",
+    "size": 848,
+    "offset": "14906608"
+  },
+  {
+    "path": "ex-app/ex-guild/renderer/pd.qq.com/assets/userCardAnchor-CJqXtrHr.js",
+    "size": 9008,
+    "offset": "14907456"
+  },
+  {
+    "path": "ex-app/ex-guild/renderer/pd.qq.com/assets/vendor-DdhxEGb7.js",
+    "size": 490352,
+    "offset": "14916464"
+  },
+  {
+    "path": "ex-app/ex-guild/renderer/pd.qq.com/assets/voice-range-UKbdyXZ_.js",
+    "size": 800,
+    "offset": "15406992"
+  },
+  {
+    "path": "ex-app/ex-guild/renderer/pd.qq.com/assets/voiceRoom-4i1D1a84.js",
+    "size": 97040,
+    "offset": "15407792"
+  },
+  {
+    "path": "ex-app/ex-guild/renderer/pd.qq.com/assets/vue-virtual-scroller.esm-5ba_0Bxa.js",
+    "size": 23792,
+    "offset": "15506720"
+  },
+  {
+    "path": "ex-app/ex-guild/renderer/pd.qq.com/assets/vuedraggable.umd-CujyclB1.js",
+    "size": 176576,
+    "offset": "15530512"
+  },
+  {
+    "path": "ex-app/ex-guild/renderer/pd.qq.com/assets/webUrlReg-DR_-i4Tb.js",
+    "size": 6496,
+    "offset": "15707088"
+  },
+  {
+    "path": "node-plugin.background.js",
+    "size": 96,
+    "offset": "15730400"
+  },
+  {
+    "path": "preload_browserview.js",
+    "size": 304,
+    "offset": "15730496"
+  },
+  {
+    "path": "preload_chatwin.js",
+    "size": 256,
+    "offset": "15730800"
+  },
+  {
+    "path": "preload_ex_browser.js",
+    "size": 80,
+    "offset": "15731056"
+  },
+  {
+    "path": "preload_ex.js",
+    "size": 80,
+    "offset": "15731136"
+  },
+  {
+    "path": "preload_login.js",
+    "size": 256,
+    "offset": "15731216"
+  },
+  {
+    "path": "preload_qq_browser_base.js",
+    "size": 256,
+    "offset": "15731472"
+  },
+  {
+    "path": "preload_qq_browser_mixed.js",
+    "size": 304,
+    "offset": "15731728"
+  },
+  {
+    "path": "preload_qq_browser_simple.js",
+    "size": 320,
+    "offset": "15732032"
+  },
+  {
+    "path": "preload_qzone_view.js",
+    "size": 80,
+    "offset": "15732352"
+  },
+  {
+    "path": "preload_simple.js",
+    "size": 256,
+    "offset": "15732432"
+  },
+  {
+    "path": "preload_webview.js",
+    "size": 80,
+    "offset": "15732688"
+  },
+  {
+    "path": "preload.js",
+    "size": 240,
+    "offset": "15732768"
+  },
+  {
+    "path": "preloadAux.js",
+    "size": 80,
+    "offset": "15733008"
+  },
+  {
+    "path": "renderer/qqfabric.js",
+    "size": 307328,
+    "offset": "29375728"
+  },
+  {
+    "path": "renderer/uploader.js",
+    "size": 229008,
+    "offset": "29810704"
+  }
+]

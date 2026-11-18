@@ -1,0 +1,84 @@
+{
+  "mode": "code",
+  "pid": 3888,
+  "qqStarted": false,
+  "farmStarted": false,
+  "diagnostics": [
+    {
+      "state": "runtime-metadata",
+      "pid": 3888,
+      "value": {
+        "pid": 3888,
+        "files": [
+          {
+            "name": "background.js",
+            "bytes": 54
+          },
+          {
+            "name": "app_launcher/index.js",
+            "bytes": 59
+          },
+          {
+            "name": "node-plugin.background.js",
+            "bytes": 65
+          }
+        ],
+        "factoryCount": 1674,
+        "factories": [],
+        "sample": [
+          {
+            "chunk": "node-plugin.background.js",
+            "id": "20",
+            "length": 31,
+            "related": false
+          },
+          {
+            "chunk": "node-plugin.background.js",
+            "id": "21",
+            "length": 31,
+            "related": false
+          },
+          {
+            "chunk": "node-plugin.background.js",
+            "id": "45",
+            "length": 31,
+            "related": false
+          },
+          {
+            "chunk": "node-plugin.background.js",
+            "id": "355",
+            "length": 32,
+            "related": false
+          },
+          {
+            "chunk": "node-plugin.background.js",
+            "id": "446",
+            "length": 32,
+            "related": false
+          },
+          {
+            "chunk": "node-plugin.background.js",
+            "id": "486",
+            "length": 32,
+            "related": false
+          },
+          {
+            "chunk": "node-plugin.background.js",
+            "id": "502",
+            "length": 32,
+            "related": false
+          },
+          {
+            "chunk": "node-plugin.background.js",
+            "id": "711",
+            "length": 32,
+            "related": false
+          }
+        ],
+        "globals": [
+          "qqLocked"
+        ]
+      }
+    }
+  ]
+}

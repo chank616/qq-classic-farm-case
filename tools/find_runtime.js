@@ -1,0 +1,1 @@
+const s=require('fs').readFileSync('C:/Users/chank616/AppData/Roaming/QQEX/miniapp/temps/miniapp_src/1112386029_3_3443f89042dffbf93d20ced1d652d031/game.js','utf8');for(const x of ['Writer','Reader','LongBits']){let i=s.indexOf(x);console.log(x,i,s.slice(i-800,i+1500).replace(/\n/g,' ').slice(0,2200));}

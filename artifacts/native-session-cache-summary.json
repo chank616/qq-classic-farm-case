@@ -1,0 +1,42 @@
+{
+  "source": "D:\\Program Files\\Tencent\\QQNT\\versions\\9.9.35-52892\\resources\\app\\wmpfsdk\\ams_sdk\\libamssdk.dll",
+  "module": "libamssdk.dll",
+  "evidenceFunctions": [
+    {
+      "name": "GSCacheManager::GetGameSession",
+      "address": "0x18001BA80",
+      "contains": "sub_18001BA80"
+    },
+    {
+      "name": "WmpfEventProcessor event-table initialization",
+      "address": "0x180064A70",
+      "contains": "sub_180064A70"
+    }
+  ],
+  "nativeSessionCache": {
+    "validForSeconds": 604800,
+    "validForDays": 7,
+    "validityConditionExcerpt": " sub_1800213A0(\"last_write_time\", stats, a1 + 16);\n      if ( *(_QWORD *)(a1 + 48) >= v119 )\n      {\nLABEL_15:\n        sub_18001AE40(v9, &v106);\n        v19 = *v9;\n        if ( *v9 != v9[1]\n          && *(_QWORD *)(v19 + 64)\n          && *(_QWORD *)(v19 + 64) + 604800LL >= (unsigned __int64)(Xtime_get_ticks() / 10000000) )\n        {\n          *(_QWORD *)&v75 = \"all of the gs cache is valid, don't need call ginkgo to get session\";\n          *((_QWORD *)&v75 + 1) = 67;\n          *(_QWORD *)&v68 = 0;\n          *((_QWORD *)&v68 ",
+    "fetchThrottleSeconds": 1200,
+    "fetchThrottleMinutes": 20,
+    "throttleConditionExcerpt": "3 = v23;\n        v23[1] = v23;\n        v80[0] = v23;\n        v79[0] = 9001;\n        v79[1] = 0x3FF0000000000000LL;\n        sub_180024460(v22, v79);\n        sub_180025090(v80);\n        if ( (unsigned __int64)(Xtime_get_ticks() / 10000000 - *(_QWORD *)(a1 + 8)) < 0x4B0 )\n        {\n          *(_QWORD *)&v75 = \"Request ignored: Fetching game session too frequently.\";\n          *((_QWORD *)&v75 + 1) = 54;\n          *(_QWORD *)&v70 = 0;\n          *((_QWORD *)&v70 + 1) = v78;\n          v69 = v70;\n          v71 = v75;\n          s",
+    "lastRequestTimestampUpdateExcerpt": "103;\n            *((_QWORD *)&v71 + 1) = v104;\n            v66 = sub_1800261B0(v96, 2080, v65, &v71);\n            sub_180024460(v64, v66);\n            sub_180025090(v97);\n            `eh vector destructor iterator'(v103, 0x40u, 1u, sub_180005280);\n            *(_QWORD *)(a1 + 8) = Xtime_get_ticks() / 10000000;\n            *a2 = v106;\n            a2[1] = si128;\n            si128 = _mm_load_si128((const __m128i *)&xmmword_180118B90);\n            v106.m128i_i8[0] = 0;\n            sub_1800097E0(v110, (unsigned __int8)v109[0]);\n            goto LABEL_50;\n          }\n  "
+  },
+  "wmpfEventNames": [
+    "InitWmpfSdk",
+    "GetLoginCodeStart",
+    "GetLoginCodeResult",
+    "GetLoginParams",
+    "OnBeginLogin",
+    "OnLoginCancel",
+    "OnStartWeApp",
+    "InitResult",
+    "LoginResult",
+    "OnLaunchApplet",
+    "OnChildWndCreate",
+    "OnChildWndClose",
+    "OnAppletClosed"
+  ],
+  "interpretation": "These values belong to the AMS SDK native GSCacheManager game-session cache and request throttle. They do not establish the QQ miniapp wx.login code TTL, the farm AMS token TTL, or the observed three-hour lifetime. The WMPF GetLoginCode events are not proven equivalent to the QQ runtime native login bridge.",
+  "boundary": "Summarized from IDA decompiler output for a local signed QQ SDK DLL. No login API was invoked and no account credentials were extracted."
+}

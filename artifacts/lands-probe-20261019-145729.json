@@ -1,0 +1,2439 @@
+{
+  "generatedAt": "2026-10-19T06:57:28.3312447\u002B00:00",
+  "farmStarted": false,
+  "qqRestarted": false,
+  "qqPid": 3888,
+  "codeLength": 32,
+  "account": {
+    "name": "\u9732\u9732\u5927\u795E",
+    "gid": 1079370412,
+    "level": 149
+  },
+  "serverNowSec": 1792393048,
+  "allLandsDecoded": {
+    "lands": [
+      {
+        "id": 1,
+        "unlocked": true,
+        "level": 5,
+        "max_level": 5,
+        "buff": {
+          "plant_yield_bonus": 30000,
+          "planting_time_reduction": 2000,
+          "plant_exp_bonus": 2500,
+          "plant_mutant_bonus": 12000,
+          "bp_exp_bonus": 4000,
+          "plant_mutant_exp_bonus": 2500
+        },
+        "plant": {
+          "id": 1020102,
+          "name": "\u9A6C\u8E44\u83B2",
+          "phases": [
+            {
+              "phase": 7
+            }
+          ],
+          "season": 2,
+          "fruit_id": 40102,
+          "fruit_num": 800,
+          "grow_sec": 69120,
+          "stealable": true,
+          "left_fruit_num": 800,
+          "exp": 7066,
+          "buff_effects": [
+            {
+              "attr_id": 1001,
+              "attr_value": 500,
+              "extra_info": 1020102
+            }
+          ]
+        },
+        "lands_level": 5
+      },
+      {
+        "id": 2,
+        "unlocked": true,
+        "level": 5,
+        "max_level": 5,
+        "buff": {
+          "plant_yield_bonus": 30000,
+          "planting_time_reduction": 2000,
+          "plant_exp_bonus": 2500,
+          "plant_mutant_bonus": 12000,
+          "bp_exp_bonus": 4000,
+          "plant_mutant_exp_bonus": 2500
+        },
+        "plant": {
+          "id": 1020102,
+          "name": "\u9A6C\u8E44\u83B2",
+          "phases": [
+            {
+              "phase": 7
+            }
+          ],
+          "season": 2,
+          "fruit_id": 40102,
+          "fruit_num": 800,
+          "grow_sec": 69120,
+          "stealable": true,
+          "left_fruit_num": 800,
+          "exp": 7066,
+          "buff_effects": [
+            {
+              "attr_id": 1001,
+              "attr_value": 500,
+              "extra_info": 1020102
+            }
+          ]
+        },
+        "lands_level": 5
+      },
+      {
+        "id": 3,
+        "unlocked": true,
+        "level": 5,
+        "max_level": 5,
+        "buff": {
+          "plant_yield_bonus": 30000,
+          "planting_time_reduction": 2000,
+          "plant_exp_bonus": 2500,
+          "plant_mutant_bonus": 12000,
+          "bp_exp_bonus": 4000,
+          "plant_mutant_exp_bonus": 2500
+        },
+        "plant": {
+          "id": 1020102,
+          "name": "\u9A6C\u8E44\u83B2",
+          "phases": [
+            {
+              "phase": 7
+            }
+          ],
+          "season": 2,
+          "fruit_id": 40102,
+          "fruit_num": 800,
+          "grow_sec": 69120,
+          "stealable": true,
+          "left_fruit_num": 800,
+          "exp": 7066,
+          "buff_effects": [
+            {
+              "attr_id": 1001,
+              "attr_value": 500,
+              "extra_info": 1020102
+            }
+          ]
+        },
+        "lands_level": 5
+      },
+      {
+        "id": 4,
+        "unlocked": true,
+        "level": 5,
+        "max_level": 5,
+        "buff": {
+          "plant_yield_bonus": 30000,
+          "planting_time_reduction": 2000,
+          "plant_exp_bonus": 2500,
+          "plant_mutant_bonus": 12000,
+          "bp_exp_bonus": 4000,
+          "plant_mutant_exp_bonus": 2500
+        },
+        "plant": {
+          "id": 1020102,
+          "name": "\u9A6C\u8E44\u83B2",
+          "phases": [
+            {
+              "phase": 7
+            }
+          ],
+          "season": 2,
+          "fruit_id": 40102,
+          "fruit_num": 800,
+          "grow_sec": 69120,
+          "stealable": true,
+          "left_fruit_num": 800,
+          "exp": 7066,
+          "buff_effects": [
+            {
+              "attr_id": 1001,
+              "attr_value": 500,
+              "extra_info": 1020102
+            }
+          ]
+        },
+        "lands_level": 5
+      },
+      {
+        "id": 5,
+        "unlocked": true,
+        "level": 5,
+        "max_level": 5,
+        "buff": {
+          "plant_yield_bonus": 30000,
+          "planting_time_reduction": 2000,
+          "plant_exp_bonus": 2500,
+          "plant_mutant_bonus": 12000,
+          "bp_exp_bonus": 4000,
+          "plant_mutant_exp_bonus": 2500
+        },
+        "plant": {
+          "id": 1020102,
+          "name": "\u9A6C\u8E44\u83B2",
+          "phases": [
+            {
+              "phase": 7
+            }
+          ],
+          "season": 2,
+          "fruit_id": 40102,
+          "fruit_num": 800,
+          "grow_sec": 69120,
+          "stealable": true,
+          "left_fruit_num": 800,
+          "exp": 7066,
+          "buff_effects": [
+            {
+              "attr_id": 1001,
+              "attr_value": 500,
+              "extra_info": 1020102
+            }
+          ]
+        },
+        "lands_level": 5
+      },
+      {
+        "id": 6,
+        "unlocked": true,
+        "level": 5,
+        "max_level": 5,
+        "buff": {
+          "plant_yield_bonus": 30000,
+          "planting_time_reduction": 2000,
+          "plant_exp_bonus": 2500,
+          "plant_mutant_bonus": 12000,
+          "bp_exp_bonus": 4000,
+          "plant_mutant_exp_bonus": 2500
+        },
+        "plant": {
+          "id": 1020102,
+          "name": "\u9A6C\u8E44\u83B2",
+          "phases": [
+            {
+              "phase": 7
+            }
+          ],
+          "season": 2,
+          "fruit_id": 40102,
+          "fruit_num": 800,
+          "grow_sec": 69120,
+          "stealable": true,
+          "left_fruit_num": 800,
+          "exp": 7066,
+          "buff_effects": [
+            {
+              "attr_id": 1001,
+              "attr_value": 500,
+              "extra_info": 1020102
+            }
+          ]
+        },
+        "lands_level": 5
+      },
+      {
+        "id": 7,
+        "unlocked": true,
+        "level": 5,
+        "max_level": 5,
+        "buff": {
+          "plant_yield_bonus": 30000,
+          "planting_time_reduction": 2000,
+          "plant_exp_bonus": 2500,
+          "plant_mutant_bonus": 12000,
+          "bp_exp_bonus": 4000,
+          "plant_mutant_exp_bonus": 2500
+        },
+        "plant": {
+          "id": 1020102,
+          "name": "\u9A6C\u8E44\u83B2",
+          "phases": [
+            {
+              "phase": 7
+            }
+          ],
+          "season": 2,
+          "fruit_id": 40102,
+          "fruit_num": 800,
+          "grow_sec": 69120,
+          "stealable": true,
+          "left_fruit_num": 800,
+          "exp": 7066,
+          "buff_effects": [
+            {
+              "attr_id": 1001,
+              "attr_value": 500,
+              "extra_info": 1020102
+            }
+          ]
+        },
+        "is_shared": true,
+        "can_share": true,
+        "lands_level": 5
+      },
+      {
+        "id": 8,
+        "unlocked": true,
+        "level": 5,
+        "max_level": 5,
+        "buff": {
+          "plant_yield_bonus": 30000,
+          "planting_time_reduction": 2000,
+          "plant_exp_bonus": 2500,
+          "plant_mutant_bonus": 12000,
+          "bp_exp_bonus": 4000,
+          "plant_mutant_exp_bonus": 2500
+        },
+        "plant": {
+          "id": 1020102,
+          "name": "\u9A6C\u8E44\u83B2",
+          "phases": [
+            {
+              "phase": 7
+            }
+          ],
+          "season": 2,
+          "fruit_id": 40102,
+          "fruit_num": 800,
+          "grow_sec": 69120,
+          "stealable": true,
+          "left_fruit_num": 800,
+          "exp": 7066,
+          "buff_effects": [
+            {
+              "attr_id": 1001,
+              "attr_value": 500,
+              "extra_info": 1020102
+            }
+          ]
+        },
+        "is_shared": true,
+        "can_share": true,
+        "lands_level": 5
+      },
+      {
+        "id": 9,
+        "unlocked": true,
+        "level": 5,
+        "max_level": 5,
+        "buff": {
+          "plant_yield_bonus": 30000,
+          "planting_time_reduction": 2000,
+          "plant_exp_bonus": 2500,
+          "plant_mutant_bonus": 12000,
+          "bp_exp_bonus": 4000,
+          "plant_mutant_exp_bonus": 2500
+        },
+        "plant": {
+          "id": 1020102,
+          "name": "\u9A6C\u8E44\u83B2",
+          "phases": [
+            {
+              "phase": 7
+            }
+          ],
+          "season": 2,
+          "fruit_id": 40102,
+          "fruit_num": 800,
+          "grow_sec": 69120,
+          "stealable": true,
+          "left_fruit_num": 800,
+          "exp": 7066,
+          "buff_effects": [
+            {
+              "attr_id": 1001,
+              "attr_value": 500,
+              "extra_info": 1020102
+            }
+          ]
+        },
+        "is_shared": true,
+        "can_share": true,
+        "lands_level": 5
+      },
+      {
+        "id": 10,
+        "unlocked": true,
+        "level": 5,
+        "max_level": 5,
+        "buff": {
+          "plant_yield_bonus": 30000,
+          "planting_time_reduction": 2000,
+          "plant_exp_bonus": 2500,
+          "plant_mutant_bonus": 12000,
+          "bp_exp_bonus": 4000,
+          "plant_mutant_exp_bonus": 2500
+        },
+        "plant": {
+          "id": 1020102,
+          "name": "\u9A6C\u8E44\u83B2",
+          "phases": [
+            {
+              "phase": 7
+            }
+          ],
+          "season": 2,
+          "fruit_id": 40102,
+          "fruit_num": 800,
+          "grow_sec": 69120,
+          "stealable": true,
+          "left_fruit_num": 800,
+          "exp": 7066,
+          "buff_effects": [
+            {
+              "attr_id": 1001,
+              "attr_value": 500,
+              "extra_info": 1020102
+            }
+          ]
+        },
+        "lands_level": 5
+      },
+      {
+        "id": 11,
+        "unlocked": true,
+        "level": 5,
+        "max_level": 5,
+        "buff": {
+          "plant_yield_bonus": 30000,
+          "planting_time_reduction": 2000,
+          "plant_exp_bonus": 2500,
+          "plant_mutant_bonus": 12000,
+          "bp_exp_bonus": 4000,
+          "plant_mutant_exp_bonus": 2500
+        },
+        "plant": {
+          "id": 1020102,
+          "name": "\u9A6C\u8E44\u83B2",
+          "phases": [
+            {
+              "phase": 7
+            }
+          ],
+          "season": 2,
+          "fruit_id": 40102,
+          "fruit_num": 800,
+          "grow_sec": 69120,
+          "stealable": true,
+          "left_fruit_num": 800,
+          "exp": 7066,
+          "buff_effects": [
+            {
+              "attr_id": 1001,
+              "attr_value": 500,
+              "extra_info": 1020102
+            }
+          ]
+        },
+        "lands_level": 5
+      },
+      {
+        "id": 12,
+        "unlocked": true,
+        "level": 5,
+        "max_level": 5,
+        "buff": {
+          "plant_yield_bonus": 30000,
+          "planting_time_reduction": 2000,
+          "plant_exp_bonus": 2500,
+          "plant_mutant_bonus": 12000,
+          "bp_exp_bonus": 4000,
+          "plant_mutant_exp_bonus": 2500
+        },
+        "plant": {
+          "id": 1020102,
+          "name": "\u9A6C\u8E44\u83B2",
+          "phases": [
+            {
+              "phase": 7
+            }
+          ],
+          "season": 2,
+          "fruit_id": 40102,
+          "fruit_num": 800,
+          "grow_sec": 69120,
+          "stealable": true,
+          "left_fruit_num": 800,
+          "exp": 7066,
+          "buff_effects": [
+            {
+              "attr_id": 1001,
+              "attr_value": 500,
+              "extra_info": 1020102
+            }
+          ]
+        },
+        "lands_level": 5
+      },
+      {
+        "id": 13,
+        "unlocked": true,
+        "level": 5,
+        "max_level": 5,
+        "buff": {
+          "plant_yield_bonus": 30000,
+          "planting_time_reduction": 2000,
+          "plant_exp_bonus": 2500,
+          "plant_mutant_bonus": 12000,
+          "bp_exp_bonus": 4000,
+          "plant_mutant_exp_bonus": 2500
+        },
+        "plant": {
+          "id": 1020102,
+          "name": "\u9A6C\u8E44\u83B2",
+          "phases": [
+            {
+              "phase": 7
+            }
+          ],
+          "season": 2,
+          "fruit_id": 40102,
+          "fruit_num": 800,
+          "grow_sec": 69120,
+          "stealable": true,
+          "left_fruit_num": 800,
+          "exp": 7066,
+          "buff_effects": [
+            {
+              "attr_id": 1001,
+              "attr_value": 500,
+              "extra_info": 1020102
+            }
+          ]
+        },
+        "lands_level": 5
+      },
+      {
+        "id": 14,
+        "unlocked": true,
+        "level": 5,
+        "max_level": 5,
+        "buff": {
+          "plant_yield_bonus": 30000,
+          "planting_time_reduction": 2000,
+          "plant_exp_bonus": 2500,
+          "plant_mutant_bonus": 12000,
+          "bp_exp_bonus": 4000,
+          "plant_mutant_exp_bonus": 2500
+        },
+        "plant": {
+          "id": 1020102,
+          "name": "\u9A6C\u8E44\u83B2",
+          "phases": [
+            {
+              "phase": 7
+            }
+          ],
+          "season": 2,
+          "fruit_id": 40102,
+          "fruit_num": 800,
+          "grow_sec": 69120,
+          "stealable": true,
+          "left_fruit_num": 800,
+          "exp": 7066,
+          "buff_effects": [
+            {
+              "attr_id": 1001,
+              "attr_value": 500,
+              "extra_info": 1020102
+            }
+          ]
+        },
+        "lands_level": 5
+      },
+      {
+        "id": 15,
+        "unlocked": true,
+        "level": 5,
+        "max_level": 5,
+        "buff": {
+          "plant_yield_bonus": 30000,
+          "planting_time_reduction": 2000,
+          "plant_exp_bonus": 2500,
+          "plant_mutant_bonus": 12000,
+          "bp_exp_bonus": 4000,
+          "plant_mutant_exp_bonus": 2500
+        },
+        "plant": {
+          "id": 1020102,
+          "name": "\u9A6C\u8E44\u83B2",
+          "phases": [
+            {
+              "phase": 7
+            }
+          ],
+          "season": 2,
+          "fruit_id": 40102,
+          "fruit_num": 800,
+          "grow_sec": 69120,
+          "stealable": true,
+          "left_fruit_num": 800,
+          "exp": 7066,
+          "buff_effects": [
+            {
+              "attr_id": 1001,
+              "attr_value": 500,
+              "extra_info": 1020102
+            }
+          ]
+        },
+        "lands_level": 5
+      },
+      {
+        "id": 16,
+        "unlocked": true,
+        "level": 5,
+        "max_level": 5,
+        "buff": {
+          "plant_yield_bonus": 30000,
+          "planting_time_reduction": 2000,
+          "plant_exp_bonus": 2500,
+          "plant_mutant_bonus": 12000,
+          "bp_exp_bonus": 4000,
+          "plant_mutant_exp_bonus": 2500
+        },
+        "plant": {
+          "id": 1020102,
+          "name": "\u9A6C\u8E44\u83B2",
+          "phases": [
+            {
+              "phase": 7
+            }
+          ],
+          "season": 2,
+          "fruit_id": 40102,
+          "fruit_num": 2400,
+          "grow_sec": 69120,
+          "stealable": true,
+          "left_fruit_num": 2400,
+          "mutant_config_ids": [
+            2
+          ],
+          "exp": 8425,
+          "buff_effects": [
+            {
+              "attr_id": 1001,
+              "attr_value": 500,
+              "extra_info": 1020102
+            }
+          ],
+          "mutant_infos": [
+            {
+              "mutant_time": 1792324685,
+              "mutant_config_id": 2
+            }
+          ]
+        },
+        "lands_level": 5
+      },
+      {
+        "id": 17,
+        "unlocked": true,
+        "level": 5,
+        "max_level": 5,
+        "buff": {
+          "plant_yield_bonus": 30000,
+          "planting_time_reduction": 2000,
+          "plant_exp_bonus": 2500,
+          "plant_mutant_bonus": 12000,
+          "bp_exp_bonus": 4000,
+          "plant_mutant_exp_bonus": 2500
+        },
+        "plant": {
+          "id": 1020102,
+          "name": "\u9A6C\u8E44\u83B2",
+          "phases": [
+            {
+              "phase": 7
+            }
+          ],
+          "season": 2,
+          "fruit_id": 40102,
+          "fruit_num": 800,
+          "grow_sec": 69120,
+          "stealable": true,
+          "left_fruit_num": 800,
+          "exp": 7066,
+          "buff_effects": [
+            {
+              "attr_id": 1001,
+              "attr_value": 500,
+              "extra_info": 1020102
+            }
+          ]
+        },
+        "lands_level": 5
+      },
+      {
+        "id": 18,
+        "unlocked": true,
+        "level": 5,
+        "max_level": 5,
+        "buff": {
+          "plant_yield_bonus": 30000,
+          "planting_time_reduction": 2000,
+          "plant_exp_bonus": 2500,
+          "plant_mutant_bonus": 12000,
+          "bp_exp_bonus": 4000,
+          "plant_mutant_exp_bonus": 2500
+        },
+        "plant": {
+          "id": 1020102,
+          "name": "\u9A6C\u8E44\u83B2",
+          "phases": [
+            {
+              "phase": 7
+            }
+          ],
+          "season": 2,
+          "fruit_id": 40102,
+          "fruit_num": 800,
+          "grow_sec": 69120,
+          "stealable": true,
+          "left_fruit_num": 800,
+          "exp": 7066,
+          "buff_effects": [
+            {
+              "attr_id": 1001,
+              "attr_value": 500,
+              "extra_info": 1020102
+            }
+          ]
+        },
+        "lands_level": 5
+      },
+      {
+        "id": 19,
+        "unlocked": true,
+        "level": 5,
+        "max_level": 5,
+        "buff": {
+          "plant_yield_bonus": 30000,
+          "planting_time_reduction": 2000,
+          "plant_exp_bonus": 2500,
+          "plant_mutant_bonus": 12000,
+          "bp_exp_bonus": 4000,
+          "plant_mutant_exp_bonus": 2500
+        },
+        "plant": {
+          "id": 1020102,
+          "name": "\u9A6C\u8E44\u83B2",
+          "phases": [
+            {
+              "phase": 7
+            }
+          ],
+          "season": 2,
+          "fruit_id": 40102,
+          "fruit_num": 800,
+          "grow_sec": 69120,
+          "stealable": true,
+          "left_fruit_num": 800,
+          "exp": 7066,
+          "buff_effects": [
+            {
+              "attr_id": 1001,
+              "attr_value": 500,
+              "extra_info": 1020102
+            }
+          ]
+        },
+        "lands_level": 5
+      },
+      {
+        "id": 20,
+        "unlocked": true,
+        "level": 4,
+        "max_level": 5,
+        "upgrade_condition": {
+          "preceeding_lands_count_need": 1,
+          "level_need": 147,
+          "items_need": [
+            {
+              "id": 1001,
+              "count": 430000000
+            },
+            {
+              "id": 1005,
+              "count": 15560
+            }
+          ]
+        },
+        "buff": {
+          "plant_yield_bonus": 30000,
+          "planting_time_reduction": 2000,
+          "plant_exp_bonus": 2000,
+          "bp_exp_bonus": 3000
+        },
+        "plant": {
+          "id": 1020102,
+          "name": "\u9A6C\u8E44\u83B2",
+          "phases": [
+            {
+              "phase": 7
+            }
+          ],
+          "season": 2,
+          "fruit_id": 40102,
+          "fruit_num": 800,
+          "grow_sec": 69120,
+          "stealable": true,
+          "left_fruit_num": 800,
+          "exp": 6795,
+          "buff_effects": [
+            {
+              "attr_id": 1001,
+              "attr_value": 500,
+              "extra_info": 1020102
+            }
+          ]
+        },
+        "lands_level": 4
+      },
+      {
+        "id": 21,
+        "unlocked": true,
+        "level": 4,
+        "max_level": 5,
+        "upgrade_condition": {
+          "preceeding_lands_count_need": 1,
+          "level_need": 150,
+          "items_need": [
+            {
+              "id": 1001,
+              "count": 450000000
+            },
+            {
+              "id": 1005,
+              "count": 18670
+            }
+          ]
+        },
+        "buff": {
+          "plant_yield_bonus": 30000,
+          "planting_time_reduction": 2000,
+          "plant_exp_bonus": 2000,
+          "bp_exp_bonus": 3000
+        },
+        "plant": {
+          "id": 1020102,
+          "name": "\u9A6C\u8E44\u83B2",
+          "phases": [
+            {
+              "phase": 7
+            }
+          ],
+          "season": 2,
+          "fruit_id": 40102,
+          "fruit_num": 800,
+          "grow_sec": 69120,
+          "stealable": true,
+          "left_fruit_num": 800,
+          "exp": 6795,
+          "buff_effects": [
+            {
+              "attr_id": 1001,
+              "attr_value": 500,
+              "extra_info": 1020102
+            }
+          ]
+        },
+        "lands_level": 4
+      },
+      {
+        "id": 22,
+        "unlocked": true,
+        "level": 4,
+        "max_level": 5,
+        "upgrade_condition": {
+          "preceeding_lands_count_need": 1,
+          "level_need": 153,
+          "items_need": [
+            {
+              "id": 1001,
+              "count": 470000000
+            },
+            {
+              "id": 1005,
+              "count": 22400
+            }
+          ]
+        },
+        "buff": {
+          "plant_yield_bonus": 30000,
+          "planting_time_reduction": 2000,
+          "plant_exp_bonus": 2000,
+          "bp_exp_bonus": 3000
+        },
+        "plant": {
+          "id": 1020102,
+          "name": "\u9A6C\u8E44\u83B2",
+          "phases": [
+            {
+              "phase": 7
+            }
+          ],
+          "season": 2,
+          "fruit_id": 40102,
+          "fruit_num": 800,
+          "grow_sec": 69120,
+          "stealable": true,
+          "left_fruit_num": 800,
+          "exp": 6795,
+          "buff_effects": [
+            {
+              "attr_id": 1001,
+              "attr_value": 500,
+              "extra_info": 1020102
+            }
+          ]
+        },
+        "lands_level": 4
+      },
+      {
+        "id": 23,
+        "unlocked": true,
+        "level": 4,
+        "max_level": 5,
+        "upgrade_condition": {
+          "preceeding_lands_count_need": 1,
+          "level_need": 156,
+          "items_need": [
+            {
+              "id": 1001,
+              "count": 490000000
+            },
+            {
+              "id": 1005,
+              "count": 26880
+            }
+          ]
+        },
+        "buff": {
+          "plant_yield_bonus": 30000,
+          "planting_time_reduction": 2000,
+          "plant_exp_bonus": 2000,
+          "bp_exp_bonus": 3000
+        },
+        "plant": {
+          "id": 1020102,
+          "name": "\u9A6C\u8E44\u83B2",
+          "phases": [
+            {
+              "phase": 7
+            }
+          ],
+          "season": 2,
+          "fruit_id": 40102,
+          "fruit_num": 800,
+          "grow_sec": 69120,
+          "stealable": true,
+          "left_fruit_num": 800,
+          "exp": 6795,
+          "buff_effects": [
+            {
+              "attr_id": 1001,
+              "attr_value": 500,
+              "extra_info": 1020102
+            }
+          ]
+        },
+        "lands_level": 4
+      },
+      {
+        "id": 24,
+        "unlocked": true,
+        "level": 4,
+        "max_level": 5,
+        "upgrade_condition": {
+          "preceeding_lands_count_need": 1,
+          "level_need": 159,
+          "items_need": [
+            {
+              "id": 1001,
+              "count": 510000000
+            },
+            {
+              "id": 1005,
+              "count": 32250
+            }
+          ]
+        },
+        "buff": {
+          "plant_yield_bonus": 30000,
+          "planting_time_reduction": 2000,
+          "plant_exp_bonus": 2000,
+          "bp_exp_bonus": 3000
+        },
+        "plant": {
+          "id": 1020102,
+          "name": "\u9A6C\u8E44\u83B2",
+          "phases": [
+            {
+              "phase": 7
+            }
+          ],
+          "season": 2,
+          "fruit_id": 40102,
+          "fruit_num": 800,
+          "grow_sec": 69120,
+          "stealable": true,
+          "left_fruit_num": 800,
+          "exp": 6795,
+          "buff_effects": [
+            {
+              "attr_id": 1001,
+              "attr_value": 500,
+              "extra_info": 1020102
+            }
+          ]
+        },
+        "lands_level": 4
+      }
+    ],
+    "operation_limits": [
+      {
+        "id": 10005,
+        "day_times_lt": 999999999,
+        "day_exp_share_id": 10005
+      },
+      {
+        "id": 10009,
+        "day_times_lt": 999999999
+      },
+      {
+        "id": 10015,
+        "day_times_lt": 100
+      },
+      {
+        "id": 10018,
+        "day_times_lt": 999999999
+      },
+      {
+        "id": 10007,
+        "day_times_lt": 999999999,
+        "day_exp_share_id": 10005
+      },
+      {
+        "id": 10008,
+        "day_times": 1,
+        "day_times_lt": 999999999
+      },
+      {
+        "id": 10016,
+        "day_times_lt": 999999999
+      },
+      {
+        "id": 10017,
+        "day_times_lt": 100,
+        "day_exp_times": 100
+      },
+      {
+        "id": 10004,
+        "day_times_lt": 100,
+        "day_share_id": 10003,
+        "day_exp_share_id": 10003
+      },
+      {
+        "id": 10011,
+        "day_times_lt": 999999999
+      },
+      {
+        "id": 10012,
+        "day_times_lt": 999999999
+      },
+      {
+        "id": 10014,
+        "day_times_lt": 999999999
+      },
+      {
+        "id": 10001,
+        "day_times_lt": 999999999
+      },
+      {
+        "id": 10003,
+        "day_times_lt": 100,
+        "day_share_id": 10003,
+        "day_exp_share_id": 10003
+      },
+      {
+        "id": 10006,
+        "day_times_lt": 999999999,
+        "day_exp_share_id": 10005
+      },
+      {
+        "id": 10010,
+        "day_times_lt": 999999999
+      },
+      {
+        "id": 10013,
+        "day_times_lt": 999999999
+      },
+      {
+        "id": 10019,
+        "day_times_lt": 24
+      },
+      {
+        "id": 10020,
+        "day_times_lt": 999
+      },
+      {
+        "id": 10002,
+        "day_times_lt": 999999999
+      }
+    ]
+  },
+  "allLandsBodyBytes": 2561,
+  "allLandsReplyFields": [
+    "1:bytes[90]=08011001180520054A1308B0EA0110D00F18C41320E05D28A01F30C413523808",
+    "1:bytes[90]=08021001180520054A1308B0EA0110D00F18C41320E05D28A01F30C413523808",
+    "1:bytes[90]=08031001180520054A1308B0EA0110D00F18C41320E05D28A01F30C413523808",
+    "1:bytes[90]=08041001180520054A1308B0EA0110D00F18C41320E05D28A01F30C413523808",
+    "1:bytes[90]=08051001180520054A1308B0EA0110D00F18C41320E05D28A01F30C413523808",
+    "1:bytes[90]=08061001180520054A1308B0EA0110D00F18C41320E05D28A01F30C413523808",
+    "1:bytes[94]=08071001180520054A1308B0EA0110D00F18C41320E05D28A01F30C413523808",
+    "1:bytes[94]=08081001180520054A1308B0EA0110D00F18C41320E05D28A01F30C413523808",
+    "1:bytes[94]=08091001180520054A1308B0EA0110D00F18C41320E05D28A01F30C413523808",
+    "1:bytes[90]=080A1001180520054A1308B0EA0110D00F18C41320E05D28A01F30C413523808",
+    "1:bytes[90]=080B1001180520054A1308B0EA0110D00F18C41320E05D28A01F30C413523808",
+    "1:bytes[90]=080C1001180520054A1308B0EA0110D00F18C41320E05D28A01F30C413523808",
+    "1:bytes[90]=080D1001180520054A1308B0EA0110D00F18C41320E05D28A01F30C413523808",
+    "1:bytes[90]=080E1001180520054A1308B0EA0110D00F18C41320E05D28A01F30C413523808",
+    "1:bytes[90]=080F1001180520054A1308B0EA0110D00F18C41320E05D28A01F30C413523808",
+    "1:bytes[105]=08101001180520054A1308B0EA0110D00F18C41320E05D28A01F30C413524708",
+    "1:bytes[90]=08111001180520054A1308B0EA0110D00F18C41320E05D28A01F30C413523808",
+    "1:bytes[90]=08121001180520054A1308B0EA0110D00F18C41320E05D28A01F30C413523808",
+    "1:bytes[90]=08131001180520054A1308B0EA0110D00F18C41320E05D28A01F30C413523808",
+    "1:bytes[110]=0814100118042005421808011093011A0908E90710808F85CD011A0608ED0710",
+    "1:bytes[111]=0815100118042005421908011096011A0908E9071080E9C9D6011A0708ED0710",
+    "1:bytes[111]=0816100118042005421908011099011A0908E9071080C38EE0011A0708ED0710",
+    "1:bytes[111]=081710011804200542190801109C011A0908E90710809DD3E9011A0708ED0710",
+    "1:bytes[111]=081810011804200542190801109F011A0908E9071080F797F3011A0708ED0710",
+    "2:bytes[12]=08954E18FF93EBDC0338954E",
+    "2:bytes[9]=08994E18FF93EBDC03",
+    "2:bytes[5]=089F4E1864",
+    "2:bytes[9]=08A24E18FF93EBDC03",
+    "2:bytes[12]=08974E18FF93EBDC0338954E",
+    "2:bytes[11]=08984E100118FF93EBDC03",
+    "2:bytes[9]=08A04E18FF93EBDC03",
+    "2:bytes[7]=08A14E18642864",
+    "2:bytes[11]=08944E186420934E38934E",
+    "2:bytes[9]=089B4E18FF93EBDC03",
+    "2:bytes[9]=089C4E18FF93EBDC03",
+    "2:bytes[9]=089E4E18FF93EBDC03",
+    "2:bytes[9]=08914E18FF93EBDC03",
+    "2:bytes[11]=08934E186420934E38934E",
+    "2:bytes[12]=08964E18FF93EBDC0338954E",
+    "2:bytes[9]=089A4E18FF93EBDC03",
+    "2:bytes[9]=089D4E18FF93EBDC03",
+    "2:bytes[5]=08A34E1818",
+    "2:bytes[6]=08A44E18E707",
+    "2:bytes[9]=08924E18FF93EBDC03"
+  ],
+  "perLand": [
+    {
+      "landFields": [
+        "1:varint=1",
+        "2:varint=1",
+        "3:varint=5",
+        "4:varint=5",
+        "9:bytes[19]=08B0EA0110D00F18C41320E05D28A01F30C413",
+        "10:bytes[56]=08C6A13E1209E9A9ACE8B984E88EB222020807280250A6B90258A00678809C04",
+        "16:varint=5"
+      ],
+      "plantFields": [
+        "1:varint=1020102",
+        "2:bytes[9]=E9A9ACE8B984E88EB2",
+        "4:bytes[2]=0807",
+        "5:varint=2",
+        "10:varint=40102",
+        "11:varint=800",
+        "15:varint=69120",
+        "16:varint=1",
+        "18:varint=800",
+        "22:varint=7066",
+        "34:bytes[10]=08E90710F40318C6A13E"
+      ],
+      "plantBytes": 56,
+      "plantDecoded": {
+        "id": 1020102,
+        "name": "\u9A6C\u8E44\u83B2",
+        "phases": [
+          {
+            "phase": 7
+          }
+        ],
+        "season": 2,
+        "fruit_id": 40102,
+        "fruit_num": 800,
+        "grow_sec": 69120,
+        "stealable": true,
+        "left_fruit_num": 800,
+        "exp": 7066,
+        "buff_effects": [
+          {
+            "attr_id": 1001,
+            "attr_value": 500,
+            "extra_info": 1020102
+          }
+        ]
+      },
+      "phaseRaw": [
+        [
+          "1:varint=7"
+        ]
+      ]
+    },
+    {
+      "landFields": [
+        "1:varint=2",
+        "2:varint=1",
+        "3:varint=5",
+        "4:varint=5",
+        "9:bytes[19]=08B0EA0110D00F18C41320E05D28A01F30C413",
+        "10:bytes[56]=08C6A13E1209E9A9ACE8B984E88EB222020807280250A6B90258A00678809C04",
+        "16:varint=5"
+      ],
+      "plantFields": [
+        "1:varint=1020102",
+        "2:bytes[9]=E9A9ACE8B984E88EB2",
+        "4:bytes[2]=0807",
+        "5:varint=2",
+        "10:varint=40102",
+        "11:varint=800",
+        "15:varint=69120",
+        "16:varint=1",
+        "18:varint=800",
+        "22:varint=7066",
+        "34:bytes[10]=08E90710F40318C6A13E"
+      ],
+      "plantBytes": 56,
+      "plantDecoded": {
+        "id": 1020102,
+        "name": "\u9A6C\u8E44\u83B2",
+        "phases": [
+          {
+            "phase": 7
+          }
+        ],
+        "season": 2,
+        "fruit_id": 40102,
+        "fruit_num": 800,
+        "grow_sec": 69120,
+        "stealable": true,
+        "left_fruit_num": 800,
+        "exp": 7066,
+        "buff_effects": [
+          {
+            "attr_id": 1001,
+            "attr_value": 500,
+            "extra_info": 1020102
+          }
+        ]
+      },
+      "phaseRaw": [
+        [
+          "1:varint=7"
+        ]
+      ]
+    },
+    {
+      "landFields": [
+        "1:varint=3",
+        "2:varint=1",
+        "3:varint=5",
+        "4:varint=5",
+        "9:bytes[19]=08B0EA0110D00F18C41320E05D28A01F30C413",
+        "10:bytes[56]=08C6A13E1209E9A9ACE8B984E88EB222020807280250A6B90258A00678809C04",
+        "16:varint=5"
+      ],
+      "plantFields": [
+        "1:varint=1020102",
+        "2:bytes[9]=E9A9ACE8B984E88EB2",
+        "4:bytes[2]=0807",
+        "5:varint=2",
+        "10:varint=40102",
+        "11:varint=800",
+        "15:varint=69120",
+        "16:varint=1",
+        "18:varint=800",
+        "22:varint=7066",
+        "34:bytes[10]=08E90710F40318C6A13E"
+      ],
+      "plantBytes": 56,
+      "plantDecoded": {
+        "id": 1020102,
+        "name": "\u9A6C\u8E44\u83B2",
+        "phases": [
+          {
+            "phase": 7
+          }
+        ],
+        "season": 2,
+        "fruit_id": 40102,
+        "fruit_num": 800,
+        "grow_sec": 69120,
+        "stealable": true,
+        "left_fruit_num": 800,
+        "exp": 7066,
+        "buff_effects": [
+          {
+            "attr_id": 1001,
+            "attr_value": 500,
+            "extra_info": 1020102
+          }
+        ]
+      },
+      "phaseRaw": [
+        [
+          "1:varint=7"
+        ]
+      ]
+    },
+    {
+      "landFields": [
+        "1:varint=4",
+        "2:varint=1",
+        "3:varint=5",
+        "4:varint=5",
+        "9:bytes[19]=08B0EA0110D00F18C41320E05D28A01F30C413",
+        "10:bytes[56]=08C6A13E1209E9A9ACE8B984E88EB222020807280250A6B90258A00678809C04",
+        "16:varint=5"
+      ],
+      "plantFields": [
+        "1:varint=1020102",
+        "2:bytes[9]=E9A9ACE8B984E88EB2",
+        "4:bytes[2]=0807",
+        "5:varint=2",
+        "10:varint=40102",
+        "11:varint=800",
+        "15:varint=69120",
+        "16:varint=1",
+        "18:varint=800",
+        "22:varint=7066",
+        "34:bytes[10]=08E90710F40318C6A13E"
+      ],
+      "plantBytes": 56,
+      "plantDecoded": {
+        "id": 1020102,
+        "name": "\u9A6C\u8E44\u83B2",
+        "phases": [
+          {
+            "phase": 7
+          }
+        ],
+        "season": 2,
+        "fruit_id": 40102,
+        "fruit_num": 800,
+        "grow_sec": 69120,
+        "stealable": true,
+        "left_fruit_num": 800,
+        "exp": 7066,
+        "buff_effects": [
+          {
+            "attr_id": 1001,
+            "attr_value": 500,
+            "extra_info": 1020102
+          }
+        ]
+      },
+      "phaseRaw": [
+        [
+          "1:varint=7"
+        ]
+      ]
+    },
+    {
+      "landFields": [
+        "1:varint=5",
+        "2:varint=1",
+        "3:varint=5",
+        "4:varint=5",
+        "9:bytes[19]=08B0EA0110D00F18C41320E05D28A01F30C413",
+        "10:bytes[56]=08C6A13E1209E9A9ACE8B984E88EB222020807280250A6B90258A00678809C04",
+        "16:varint=5"
+      ],
+      "plantFields": [
+        "1:varint=1020102",
+        "2:bytes[9]=E9A9ACE8B984E88EB2",
+        "4:bytes[2]=0807",
+        "5:varint=2",
+        "10:varint=40102",
+        "11:varint=800",
+        "15:varint=69120",
+        "16:varint=1",
+        "18:varint=800",
+        "22:varint=7066",
+        "34:bytes[10]=08E90710F40318C6A13E"
+      ],
+      "plantBytes": 56,
+      "plantDecoded": {
+        "id": 1020102,
+        "name": "\u9A6C\u8E44\u83B2",
+        "phases": [
+          {
+            "phase": 7
+          }
+        ],
+        "season": 2,
+        "fruit_id": 40102,
+        "fruit_num": 800,
+        "grow_sec": 69120,
+        "stealable": true,
+        "left_fruit_num": 800,
+        "exp": 7066,
+        "buff_effects": [
+          {
+            "attr_id": 1001,
+            "attr_value": 500,
+            "extra_info": 1020102
+          }
+        ]
+      },
+      "phaseRaw": [
+        [
+          "1:varint=7"
+        ]
+      ]
+    },
+    {
+      "landFields": [
+        "1:varint=6",
+        "2:varint=1",
+        "3:varint=5",
+        "4:varint=5",
+        "9:bytes[19]=08B0EA0110D00F18C41320E05D28A01F30C413",
+        "10:bytes[56]=08C6A13E1209E9A9ACE8B984E88EB222020807280250A6B90258A00678809C04",
+        "16:varint=5"
+      ],
+      "plantFields": [
+        "1:varint=1020102",
+        "2:bytes[9]=E9A9ACE8B984E88EB2",
+        "4:bytes[2]=0807",
+        "5:varint=2",
+        "10:varint=40102",
+        "11:varint=800",
+        "15:varint=69120",
+        "16:varint=1",
+        "18:varint=800",
+        "22:varint=7066",
+        "34:bytes[10]=08E90710F40318C6A13E"
+      ],
+      "plantBytes": 56,
+      "plantDecoded": {
+        "id": 1020102,
+        "name": "\u9A6C\u8E44\u83B2",
+        "phases": [
+          {
+            "phase": 7
+          }
+        ],
+        "season": 2,
+        "fruit_id": 40102,
+        "fruit_num": 800,
+        "grow_sec": 69120,
+        "stealable": true,
+        "left_fruit_num": 800,
+        "exp": 7066,
+        "buff_effects": [
+          {
+            "attr_id": 1001,
+            "attr_value": 500,
+            "extra_info": 1020102
+          }
+        ]
+      },
+      "phaseRaw": [
+        [
+          "1:varint=7"
+        ]
+      ]
+    },
+    {
+      "landFields": [
+        "1:varint=7",
+        "2:varint=1",
+        "3:varint=5",
+        "4:varint=5",
+        "9:bytes[19]=08B0EA0110D00F18C41320E05D28A01F30C413",
+        "10:bytes[56]=08C6A13E1209E9A9ACE8B984E88EB222020807280250A6B90258A00678809C04",
+        "11:varint=1",
+        "12:varint=1",
+        "16:varint=5"
+      ],
+      "plantFields": [
+        "1:varint=1020102",
+        "2:bytes[9]=E9A9ACE8B984E88EB2",
+        "4:bytes[2]=0807",
+        "5:varint=2",
+        "10:varint=40102",
+        "11:varint=800",
+        "15:varint=69120",
+        "16:varint=1",
+        "18:varint=800",
+        "22:varint=7066",
+        "34:bytes[10]=08E90710F40318C6A13E"
+      ],
+      "plantBytes": 56,
+      "plantDecoded": {
+        "id": 1020102,
+        "name": "\u9A6C\u8E44\u83B2",
+        "phases": [
+          {
+            "phase": 7
+          }
+        ],
+        "season": 2,
+        "fruit_id": 40102,
+        "fruit_num": 800,
+        "grow_sec": 69120,
+        "stealable": true,
+        "left_fruit_num": 800,
+        "exp": 7066,
+        "buff_effects": [
+          {
+            "attr_id": 1001,
+            "attr_value": 500,
+            "extra_info": 1020102
+          }
+        ]
+      },
+      "phaseRaw": [
+        [
+          "1:varint=7"
+        ]
+      ]
+    },
+    {
+      "landFields": [
+        "1:varint=8",
+        "2:varint=1",
+        "3:varint=5",
+        "4:varint=5",
+        "9:bytes[19]=08B0EA0110D00F18C41320E05D28A01F30C413",
+        "10:bytes[56]=08C6A13E1209E9A9ACE8B984E88EB222020807280250A6B90258A00678809C04",
+        "11:varint=1",
+        "12:varint=1",
+        "16:varint=5"
+      ],
+      "plantFields": [
+        "1:varint=1020102",
+        "2:bytes[9]=E9A9ACE8B984E88EB2",
+        "4:bytes[2]=0807",
+        "5:varint=2",
+        "10:varint=40102",
+        "11:varint=800",
+        "15:varint=69120",
+        "16:varint=1",
+        "18:varint=800",
+        "22:varint=7066",
+        "34:bytes[10]=08E90710F40318C6A13E"
+      ],
+      "plantBytes": 56,
+      "plantDecoded": {
+        "id": 1020102,
+        "name": "\u9A6C\u8E44\u83B2",
+        "phases": [
+          {
+            "phase": 7
+          }
+        ],
+        "season": 2,
+        "fruit_id": 40102,
+        "fruit_num": 800,
+        "grow_sec": 69120,
+        "stealable": true,
+        "left_fruit_num": 800,
+        "exp": 7066,
+        "buff_effects": [
+          {
+            "attr_id": 1001,
+            "attr_value": 500,
+            "extra_info": 1020102
+          }
+        ]
+      },
+      "phaseRaw": [
+        [
+          "1:varint=7"
+        ]
+      ]
+    },
+    {
+      "landFields": [
+        "1:varint=9",
+        "2:varint=1",
+        "3:varint=5",
+        "4:varint=5",
+        "9:bytes[19]=08B0EA0110D00F18C41320E05D28A01F30C413",
+        "10:bytes[56]=08C6A13E1209E9A9ACE8B984E88EB222020807280250A6B90258A00678809C04",
+        "11:varint=1",
+        "12:varint=1",
+        "16:varint=5"
+      ],
+      "plantFields": [
+        "1:varint=1020102",
+        "2:bytes[9]=E9A9ACE8B984E88EB2",
+        "4:bytes[2]=0807",
+        "5:varint=2",
+        "10:varint=40102",
+        "11:varint=800",
+        "15:varint=69120",
+        "16:varint=1",
+        "18:varint=800",
+        "22:varint=7066",
+        "34:bytes[10]=08E90710F40318C6A13E"
+      ],
+      "plantBytes": 56,
+      "plantDecoded": {
+        "id": 1020102,
+        "name": "\u9A6C\u8E44\u83B2",
+        "phases": [
+          {
+            "phase": 7
+          }
+        ],
+        "season": 2,
+        "fruit_id": 40102,
+        "fruit_num": 800,
+        "grow_sec": 69120,
+        "stealable": true,
+        "left_fruit_num": 800,
+        "exp": 7066,
+        "buff_effects": [
+          {
+            "attr_id": 1001,
+            "attr_value": 500,
+            "extra_info": 1020102
+          }
+        ]
+      },
+      "phaseRaw": [
+        [
+          "1:varint=7"
+        ]
+      ]
+    },
+    {
+      "landFields": [
+        "1:varint=10",
+        "2:varint=1",
+        "3:varint=5",
+        "4:varint=5",
+        "9:bytes[19]=08B0EA0110D00F18C41320E05D28A01F30C413",
+        "10:bytes[56]=08C6A13E1209E9A9ACE8B984E88EB222020807280250A6B90258A00678809C04",
+        "16:varint=5"
+      ],
+      "plantFields": [
+        "1:varint=1020102",
+        "2:bytes[9]=E9A9ACE8B984E88EB2",
+        "4:bytes[2]=0807",
+        "5:varint=2",
+        "10:varint=40102",
+        "11:varint=800",
+        "15:varint=69120",
+        "16:varint=1",
+        "18:varint=800",
+        "22:varint=7066",
+        "34:bytes[10]=08E90710F40318C6A13E"
+      ],
+      "plantBytes": 56,
+      "plantDecoded": {
+        "id": 1020102,
+        "name": "\u9A6C\u8E44\u83B2",
+        "phases": [
+          {
+            "phase": 7
+          }
+        ],
+        "season": 2,
+        "fruit_id": 40102,
+        "fruit_num": 800,
+        "grow_sec": 69120,
+        "stealable": true,
+        "left_fruit_num": 800,
+        "exp": 7066,
+        "buff_effects": [
+          {
+            "attr_id": 1001,
+            "attr_value": 500,
+            "extra_info": 1020102
+          }
+        ]
+      },
+      "phaseRaw": [
+        [
+          "1:varint=7"
+        ]
+      ]
+    },
+    {
+      "landFields": [
+        "1:varint=11",
+        "2:varint=1",
+        "3:varint=5",
+        "4:varint=5",
+        "9:bytes[19]=08B0EA0110D00F18C41320E05D28A01F30C413",
+        "10:bytes[56]=08C6A13E1209E9A9ACE8B984E88EB222020807280250A6B90258A00678809C04",
+        "16:varint=5"
+      ],
+      "plantFields": [
+        "1:varint=1020102",
+        "2:bytes[9]=E9A9ACE8B984E88EB2",
+        "4:bytes[2]=0807",
+        "5:varint=2",
+        "10:varint=40102",
+        "11:varint=800",
+        "15:varint=69120",
+        "16:varint=1",
+        "18:varint=800",
+        "22:varint=7066",
+        "34:bytes[10]=08E90710F40318C6A13E"
+      ],
+      "plantBytes": 56,
+      "plantDecoded": {
+        "id": 1020102,
+        "name": "\u9A6C\u8E44\u83B2",
+        "phases": [
+          {
+            "phase": 7
+          }
+        ],
+        "season": 2,
+        "fruit_id": 40102,
+        "fruit_num": 800,
+        "grow_sec": 69120,
+        "stealable": true,
+        "left_fruit_num": 800,
+        "exp": 7066,
+        "buff_effects": [
+          {
+            "attr_id": 1001,
+            "attr_value": 500,
+            "extra_info": 1020102
+          }
+        ]
+      },
+      "phaseRaw": [
+        [
+          "1:varint=7"
+        ]
+      ]
+    },
+    {
+      "landFields": [
+        "1:varint=12",
+        "2:varint=1",
+        "3:varint=5",
+        "4:varint=5",
+        "9:bytes[19]=08B0EA0110D00F18C41320E05D28A01F30C413",
+        "10:bytes[56]=08C6A13E1209E9A9ACE8B984E88EB222020807280250A6B90258A00678809C04",
+        "16:varint=5"
+      ],
+      "plantFields": [
+        "1:varint=1020102",
+        "2:bytes[9]=E9A9ACE8B984E88EB2",
+        "4:bytes[2]=0807",
+        "5:varint=2",
+        "10:varint=40102",
+        "11:varint=800",
+        "15:varint=69120",
+        "16:varint=1",
+        "18:varint=800",
+        "22:varint=7066",
+        "34:bytes[10]=08E90710F40318C6A13E"
+      ],
+      "plantBytes": 56,
+      "plantDecoded": {
+        "id": 1020102,
+        "name": "\u9A6C\u8E44\u83B2",
+        "phases": [
+          {
+            "phase": 7
+          }
+        ],
+        "season": 2,
+        "fruit_id": 40102,
+        "fruit_num": 800,
+        "grow_sec": 69120,
+        "stealable": true,
+        "left_fruit_num": 800,
+        "exp": 7066,
+        "buff_effects": [
+          {
+            "attr_id": 1001,
+            "attr_value": 500,
+            "extra_info": 1020102
+          }
+        ]
+      },
+      "phaseRaw": [
+        [
+          "1:varint=7"
+        ]
+      ]
+    },
+    {
+      "landFields": [
+        "1:varint=13",
+        "2:varint=1",
+        "3:varint=5",
+        "4:varint=5",
+        "9:bytes[19]=08B0EA0110D00F18C41320E05D28A01F30C413",
+        "10:bytes[56]=08C6A13E1209E9A9ACE8B984E88EB222020807280250A6B90258A00678809C04",
+        "16:varint=5"
+      ],
+      "plantFields": [
+        "1:varint=1020102",
+        "2:bytes[9]=E9A9ACE8B984E88EB2",
+        "4:bytes[2]=0807",
+        "5:varint=2",
+        "10:varint=40102",
+        "11:varint=800",
+        "15:varint=69120",
+        "16:varint=1",
+        "18:varint=800",
+        "22:varint=7066",
+        "34:bytes[10]=08E90710F40318C6A13E"
+      ],
+      "plantBytes": 56,
+      "plantDecoded": {
+        "id": 1020102,
+        "name": "\u9A6C\u8E44\u83B2",
+        "phases": [
+          {
+            "phase": 7
+          }
+        ],
+        "season": 2,
+        "fruit_id": 40102,
+        "fruit_num": 800,
+        "grow_sec": 69120,
+        "stealable": true,
+        "left_fruit_num": 800,
+        "exp": 7066,
+        "buff_effects": [
+          {
+            "attr_id": 1001,
+            "attr_value": 500,
+            "extra_info": 1020102
+          }
+        ]
+      },
+      "phaseRaw": [
+        [
+          "1:varint=7"
+        ]
+      ]
+    },
+    {
+      "landFields": [
+        "1:varint=14",
+        "2:varint=1",
+        "3:varint=5",
+        "4:varint=5",
+        "9:bytes[19]=08B0EA0110D00F18C41320E05D28A01F30C413",
+        "10:bytes[56]=08C6A13E1209E9A9ACE8B984E88EB222020807280250A6B90258A00678809C04",
+        "16:varint=5"
+      ],
+      "plantFields": [
+        "1:varint=1020102",
+        "2:bytes[9]=E9A9ACE8B984E88EB2",
+        "4:bytes[2]=0807",
+        "5:varint=2",
+        "10:varint=40102",
+        "11:varint=800",
+        "15:varint=69120",
+        "16:varint=1",
+        "18:varint=800",
+        "22:varint=7066",
+        "34:bytes[10]=08E90710F40318C6A13E"
+      ],
+      "plantBytes": 56,
+      "plantDecoded": {
+        "id": 1020102,
+        "name": "\u9A6C\u8E44\u83B2",
+        "phases": [
+          {
+            "phase": 7
+          }
+        ],
+        "season": 2,
+        "fruit_id": 40102,
+        "fruit_num": 800,
+        "grow_sec": 69120,
+        "stealable": true,
+        "left_fruit_num": 800,
+        "exp": 7066,
+        "buff_effects": [
+          {
+            "attr_id": 1001,
+            "attr_value": 500,
+            "extra_info": 1020102
+          }
+        ]
+      },
+      "phaseRaw": [
+        [
+          "1:varint=7"
+        ]
+      ]
+    },
+    {
+      "landFields": [
+        "1:varint=15",
+        "2:varint=1",
+        "3:varint=5",
+        "4:varint=5",
+        "9:bytes[19]=08B0EA0110D00F18C41320E05D28A01F30C413",
+        "10:bytes[56]=08C6A13E1209E9A9ACE8B984E88EB222020807280250A6B90258A00678809C04",
+        "16:varint=5"
+      ],
+      "plantFields": [
+        "1:varint=1020102",
+        "2:bytes[9]=E9A9ACE8B984E88EB2",
+        "4:bytes[2]=0807",
+        "5:varint=2",
+        "10:varint=40102",
+        "11:varint=800",
+        "15:varint=69120",
+        "16:varint=1",
+        "18:varint=800",
+        "22:varint=7066",
+        "34:bytes[10]=08E90710F40318C6A13E"
+      ],
+      "plantBytes": 56,
+      "plantDecoded": {
+        "id": 1020102,
+        "name": "\u9A6C\u8E44\u83B2",
+        "phases": [
+          {
+            "phase": 7
+          }
+        ],
+        "season": 2,
+        "fruit_id": 40102,
+        "fruit_num": 800,
+        "grow_sec": 69120,
+        "stealable": true,
+        "left_fruit_num": 800,
+        "exp": 7066,
+        "buff_effects": [
+          {
+            "attr_id": 1001,
+            "attr_value": 500,
+            "extra_info": 1020102
+          }
+        ]
+      },
+      "phaseRaw": [
+        [
+          "1:varint=7"
+        ]
+      ]
+    },
+    {
+      "landFields": [
+        "1:varint=16",
+        "2:varint=1",
+        "3:varint=5",
+        "4:varint=5",
+        "9:bytes[19]=08B0EA0110D00F18C41320E05D28A01F30C413",
+        "10:bytes[71]=08C6A13E1209E9A9ACE8B984E88EB222020807280250A6B90258E01278809C04",
+        "16:varint=5"
+      ],
+      "plantFields": [
+        "1:varint=1020102",
+        "2:bytes[9]=E9A9ACE8B984E88EB2",
+        "4:bytes[2]=0807",
+        "5:varint=2",
+        "10:varint=40102",
+        "11:varint=2400",
+        "15:varint=69120",
+        "16:varint=1",
+        "18:varint=2400",
+        "20:bytes[1]=02",
+        "22:varint=8425",
+        "34:bytes[10]=08E90710F40318C6A13E",
+        "41:bytes[8]=08CDE8D2D6061002"
+      ],
+      "plantBytes": 71,
+      "plantDecoded": {
+        "id": 1020102,
+        "name": "\u9A6C\u8E44\u83B2",
+        "phases": [
+          {
+            "phase": 7
+          }
+        ],
+        "season": 2,
+        "fruit_id": 40102,
+        "fruit_num": 2400,
+        "grow_sec": 69120,
+        "stealable": true,
+        "left_fruit_num": 2400,
+        "mutant_config_ids": [
+          2
+        ],
+        "exp": 8425,
+        "buff_effects": [
+          {
+            "attr_id": 1001,
+            "attr_value": 500,
+            "extra_info": 1020102
+          }
+        ],
+        "mutant_infos": [
+          {
+            "mutant_time": 1792324685,
+            "mutant_config_id": 2
+          }
+        ]
+      },
+      "phaseRaw": [
+        [
+          "1:varint=7"
+        ]
+      ]
+    },
+    {
+      "landFields": [
+        "1:varint=17",
+        "2:varint=1",
+        "3:varint=5",
+        "4:varint=5",
+        "9:bytes[19]=08B0EA0110D00F18C41320E05D28A01F30C413",
+        "10:bytes[56]=08C6A13E1209E9A9ACE8B984E88EB222020807280250A6B90258A00678809C04",
+        "16:varint=5"
+      ],
+      "plantFields": [
+        "1:varint=1020102",
+        "2:bytes[9]=E9A9ACE8B984E88EB2",
+        "4:bytes[2]=0807",
+        "5:varint=2",
+        "10:varint=40102",
+        "11:varint=800",
+        "15:varint=69120",
+        "16:varint=1",
+        "18:varint=800",
+        "22:varint=7066",
+        "34:bytes[10]=08E90710F40318C6A13E"
+      ],
+      "plantBytes": 56,
+      "plantDecoded": {
+        "id": 1020102,
+        "name": "\u9A6C\u8E44\u83B2",
+        "phases": [
+          {
+            "phase": 7
+          }
+        ],
+        "season": 2,
+        "fruit_id": 40102,
+        "fruit_num": 800,
+        "grow_sec": 69120,
+        "stealable": true,
+        "left_fruit_num": 800,
+        "exp": 7066,
+        "buff_effects": [
+          {
+            "attr_id": 1001,
+            "attr_value": 500,
+            "extra_info": 1020102
+          }
+        ]
+      },
+      "phaseRaw": [
+        [
+          "1:varint=7"
+        ]
+      ]
+    },
+    {
+      "landFields": [
+        "1:varint=18",
+        "2:varint=1",
+        "3:varint=5",
+        "4:varint=5",
+        "9:bytes[19]=08B0EA0110D00F18C41320E05D28A01F30C413",
+        "10:bytes[56]=08C6A13E1209E9A9ACE8B984E88EB222020807280250A6B90258A00678809C04",
+        "16:varint=5"
+      ],
+      "plantFields": [
+        "1:varint=1020102",
+        "2:bytes[9]=E9A9ACE8B984E88EB2",
+        "4:bytes[2]=0807",
+        "5:varint=2",
+        "10:varint=40102",
+        "11:varint=800",
+        "15:varint=69120",
+        "16:varint=1",
+        "18:varint=800",
+        "22:varint=7066",
+        "34:bytes[10]=08E90710F40318C6A13E"
+      ],
+      "plantBytes": 56,
+      "plantDecoded": {
+        "id": 1020102,
+        "name": "\u9A6C\u8E44\u83B2",
+        "phases": [
+          {
+            "phase": 7
+          }
+        ],
+        "season": 2,
+        "fruit_id": 40102,
+        "fruit_num": 800,
+        "grow_sec": 69120,
+        "stealable": true,
+        "left_fruit_num": 800,
+        "exp": 7066,
+        "buff_effects": [
+          {
+            "attr_id": 1001,
+            "attr_value": 500,
+            "extra_info": 1020102
+          }
+        ]
+      },
+      "phaseRaw": [
+        [
+          "1:varint=7"
+        ]
+      ]
+    },
+    {
+      "landFields": [
+        "1:varint=19",
+        "2:varint=1",
+        "3:varint=5",
+        "4:varint=5",
+        "9:bytes[19]=08B0EA0110D00F18C41320E05D28A01F30C413",
+        "10:bytes[56]=08C6A13E1209E9A9ACE8B984E88EB222020807280250A6B90258A00678809C04",
+        "16:varint=5"
+      ],
+      "plantFields": [
+        "1:varint=1020102",
+        "2:bytes[9]=E9A9ACE8B984E88EB2",
+        "4:bytes[2]=0807",
+        "5:varint=2",
+        "10:varint=40102",
+        "11:varint=800",
+        "15:varint=69120",
+        "16:varint=1",
+        "18:varint=800",
+        "22:varint=7066",
+        "34:bytes[10]=08E90710F40318C6A13E"
+      ],
+      "plantBytes": 56,
+      "plantDecoded": {
+        "id": 1020102,
+        "name": "\u9A6C\u8E44\u83B2",
+        "phases": [
+          {
+            "phase": 7
+          }
+        ],
+        "season": 2,
+        "fruit_id": 40102,
+        "fruit_num": 800,
+        "grow_sec": 69120,
+        "stealable": true,
+        "left_fruit_num": 800,
+        "exp": 7066,
+        "buff_effects": [
+          {
+            "attr_id": 1001,
+            "attr_value": 500,
+            "extra_info": 1020102
+          }
+        ]
+      },
+      "phaseRaw": [
+        [
+          "1:varint=7"
+        ]
+      ]
+    },
+    {
+      "landFields": [
+        "1:varint=20",
+        "2:varint=1",
+        "3:varint=4",
+        "4:varint=5",
+        "8:bytes[24]=08011093011A0908E90710808F85CD011A0608ED0710C879",
+        "9:bytes[13]=08B0EA0110D00F18D00F28B817",
+        "10:bytes[56]=08C6A13E1209E9A9ACE8B984E88EB222020807280250A6B90258A00678809C04",
+        "16:varint=4"
+      ],
+      "plantFields": [
+        "1:varint=1020102",
+        "2:bytes[9]=E9A9ACE8B984E88EB2",
+        "4:bytes[2]=0807",
+        "5:varint=2",
+        "10:varint=40102",
+        "11:varint=800",
+        "15:varint=69120",
+        "16:varint=1",
+        "18:varint=800",
+        "22:varint=6795",
+        "34:bytes[10]=08E90710F40318C6A13E"
+      ],
+      "plantBytes": 56,
+      "plantDecoded": {
+        "id": 1020102,
+        "name": "\u9A6C\u8E44\u83B2",
+        "phases": [
+          {
+            "phase": 7
+          }
+        ],
+        "season": 2,
+        "fruit_id": 40102,
+        "fruit_num": 800,
+        "grow_sec": 69120,
+        "stealable": true,
+        "left_fruit_num": 800,
+        "exp": 6795,
+        "buff_effects": [
+          {
+            "attr_id": 1001,
+            "attr_value": 500,
+            "extra_info": 1020102
+          }
+        ]
+      },
+      "phaseRaw": [
+        [
+          "1:varint=7"
+        ]
+      ]
+    },
+    {
+      "landFields": [
+        "1:varint=21",
+        "2:varint=1",
+        "3:varint=4",
+        "4:varint=5",
+        "8:bytes[25]=08011096011A0908E9071080E9C9D6011A0708ED0710EE9101",
+        "9:bytes[13]=08B0EA0110D00F18D00F28B817",
+        "10:bytes[56]=08C6A13E1209E9A9ACE8B984E88EB222020807280250A6B90258A00678809C04",
+        "16:varint=4"
+      ],
+      "plantFields": [
+        "1:varint=1020102",
+        "2:bytes[9]=E9A9ACE8B984E88EB2",
+        "4:bytes[2]=0807",
+        "5:varint=2",
+        "10:varint=40102",
+        "11:varint=800",
+        "15:varint=69120",
+        "16:varint=1",
+        "18:varint=800",
+        "22:varint=6795",
+        "34:bytes[10]=08E90710F40318C6A13E"
+      ],
+      "plantBytes": 56,
+      "plantDecoded": {
+        "id": 1020102,
+        "name": "\u9A6C\u8E44\u83B2",
+        "phases": [
+          {
+            "phase": 7
+          }
+        ],
+        "season": 2,
+        "fruit_id": 40102,
+        "fruit_num": 800,
+        "grow_sec": 69120,
+        "stealable": true,
+        "left_fruit_num": 800,
+        "exp": 6795,
+        "buff_effects": [
+          {
+            "attr_id": 1001,
+            "attr_value": 500,
+            "extra_info": 1020102
+          }
+        ]
+      },
+      "phaseRaw": [
+        [
+          "1:varint=7"
+        ]
+      ]
+    },
+    {
+      "landFields": [
+        "1:varint=22",
+        "2:varint=1",
+        "3:varint=4",
+        "4:varint=5",
+        "8:bytes[25]=08011099011A0908E9071080C38EE0011A0708ED071080AF01",
+        "9:bytes[13]=08B0EA0110D00F18D00F28B817",
+        "10:bytes[56]=08C6A13E1209E9A9ACE8B984E88EB222020807280250A6B90258A00678809C04",
+        "16:varint=4"
+      ],
+      "plantFields": [
+        "1:varint=1020102",
+        "2:bytes[9]=E9A9ACE8B984E88EB2",
+        "4:bytes[2]=0807",
+        "5:varint=2",
+        "10:varint=40102",
+        "11:varint=800",
+        "15:varint=69120",
+        "16:varint=1",
+        "18:varint=800",
+        "22:varint=6795",
+        "34:bytes[10]=08E90710F40318C6A13E"
+      ],
+      "plantBytes": 56,
+      "plantDecoded": {
+        "id": 1020102,
+        "name": "\u9A6C\u8E44\u83B2",
+        "phases": [
+          {
+            "phase": 7
+          }
+        ],
+        "season": 2,
+        "fruit_id": 40102,
+        "fruit_num": 800,
+        "grow_sec": 69120,
+        "stealable": true,
+        "left_fruit_num": 800,
+        "exp": 6795,
+        "buff_effects": [
+          {
+            "attr_id": 1001,
+            "attr_value": 500,
+            "extra_info": 1020102
+          }
+        ]
+      },
+      "phaseRaw": [
+        [
+          "1:varint=7"
+        ]
+      ]
+    },
+    {
+      "landFields": [
+        "1:varint=23",
+        "2:varint=1",
+        "3:varint=4",
+        "4:varint=5",
+        "8:bytes[25]=0801109C011A0908E90710809DD3E9011A0708ED071080D201",
+        "9:bytes[13]=08B0EA0110D00F18D00F28B817",
+        "10:bytes[56]=08C6A13E1209E9A9ACE8B984E88EB222020807280250A6B90258A00678809C04",
+        "16:varint=4"
+      ],
+      "plantFields": [
+        "1:varint=1020102",
+        "2:bytes[9]=E9A9ACE8B984E88EB2",
+        "4:bytes[2]=0807",
+        "5:varint=2",
+        "10:varint=40102",
+        "11:varint=800",
+        "15:varint=69120",
+        "16:varint=1",
+        "18:varint=800",
+        "22:varint=6795",
+        "34:bytes[10]=08E90710F40318C6A13E"
+      ],
+      "plantBytes": 56,
+      "plantDecoded": {
+        "id": 1020102,
+        "name": "\u9A6C\u8E44\u83B2",
+        "phases": [
+          {
+            "phase": 7
+          }
+        ],
+        "season": 2,
+        "fruit_id": 40102,
+        "fruit_num": 800,
+        "grow_sec": 69120,
+        "stealable": true,
+        "left_fruit_num": 800,
+        "exp": 6795,
+        "buff_effects": [
+          {
+            "attr_id": 1001,
+            "attr_value": 500,
+            "extra_info": 1020102
+          }
+        ]
+      },
+      "phaseRaw": [
+        [
+          "1:varint=7"
+        ]
+      ]
+    },
+    {
+      "landFields": [
+        "1:varint=24",
+        "2:varint=1",
+        "3:varint=4",
+        "4:varint=5",
+        "8:bytes[25]=0801109F011A0908E9071080F797F3011A0708ED0710FAFB01",
+        "9:bytes[13]=08B0EA0110D00F18D00F28B817",
+        "10:bytes[56]=08C6A13E1209E9A9ACE8B984E88EB222020807280250A6B90258A00678809C04",
+        "16:varint=4"
+      ],
+      "plantFields": [
+        "1:varint=1020102",
+        "2:bytes[9]=E9A9ACE8B984E88EB2",
+        "4:bytes[2]=0807",
+        "5:varint=2",
+        "10:varint=40102",
+        "11:varint=800",
+        "15:varint=69120",
+        "16:varint=1",
+        "18:varint=800",
+        "22:varint=6795",
+        "34:bytes[10]=08E90710F40318C6A13E"
+      ],
+      "plantBytes": 56,
+      "plantDecoded": {
+        "id": 1020102,
+        "name": "\u9A6C\u8E44\u83B2",
+        "phases": [
+          {
+            "phase": 7
+          }
+        ],
+        "season": 2,
+        "fruit_id": 40102,
+        "fruit_num": 800,
+        "grow_sec": 69120,
+        "stealable": true,
+        "left_fruit_num": 800,
+        "exp": 6795,
+        "buff_effects": [
+          {
+            "attr_id": 1001,
+            "attr_value": 500,
+            "extra_info": 1020102
+          }
+        ]
+      },
+      "phaseRaw": [
+        [
+          "1:varint=7"
+        ]
+      ]
+    }
+  ],
+  "landCount": 24
+}

@@ -1,0 +1,28 @@
+{
+  "listenerObserved": false,
+  "matchingFrames": [
+    {
+      "htmlSha256": "964850390CA3D553FD3194355D934C2AFDA447A444BD55106A6EF76AD831B24C",
+      "version": "1112386029_3_66f4180dc46b62b3f7db0ecffc1ffdd4",
+      "path": "C:\\Users\\chank616\\AppData\\Roaming\\QQEX\\miniapp\\temps\\miniapp_src\\1112386029_3_66f4180dc46b62b3f7db0ecffc1ffdd4\\out_page-frame.html",
+      "htmlLength": 7171,
+      "inlineScriptSha256": "16BD334E92DBB734495BB63DDD1ED1CA0F258E9811C8A433617FAEAE56B14A5A"
+    },
+    {
+      "htmlSha256": "3A03C428F5FBA9F4B6BF3134C48262BBEE5EB78B2C1F3515708884C4CB456A11",
+      "version": "1112386029_3_3443f89042dffbf93d20ced1d652d031",
+      "path": "C:\\Users\\chank616\\AppData\\Roaming\\QQEX\\miniapp\\temps\\miniapp_src\\1112386029_3_3443f89042dffbf93d20ced1d652d031\\out_page-frame.html",
+      "htmlLength": 7280,
+      "inlineScriptSha256": "16BD334E92DBB734495BB63DDD1ED1CA0F258E9811C8A433617FAEAE56B14A5A"
+    },
+    {
+      "htmlSha256": "523D7450E8DB6F018BEC71BD18664F0636E86B8B2E6206D71DA3F1F72B3C7FEF",
+      "version": "1112386029_3_5165e5963ec361843a2419d0fdce160f",
+      "path": "C:\\Users\\chank616\\AppData\\Roaming\\QQEX\\miniapp\\temps\\miniapp_src\\1112386029_3_5165e5963ec361843a2419d0fdce160f\\out_page-frame.html",
+      "htmlLength": 7172,
+      "inlineScriptSha256": "16BD334E92DBB734495BB63DDD1ED1CA0F258E9811C8A433617FAEAE56B14A5A"
+    }
+  ],
+  "target": "http://127.0.0.1:17841/evt",
+  "checkedUtc": "2026-10-16T20:36:53.6198478Z"
+}

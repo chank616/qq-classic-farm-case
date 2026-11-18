@@ -1,0 +1,12 @@
+[
+  {
+    "name": "QQMain",
+    "address": "0x180211780",
+    "code": "// attributes: thunk\n__int64 QQMain()\n{\n  return ExportedContentMain();\n}\n"
+  },
+  {
+    "name": "ExportedContentMain",
+    "address": "0x180211630",
+    "code": "void ExportedContentMain()\n{\n  JUMPOUT(0x180211632LL);\n}\n"
+  }
+]

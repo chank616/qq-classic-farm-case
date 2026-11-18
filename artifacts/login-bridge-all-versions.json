@@ -1,0 +1,201 @@
+{
+  "generatedAt": "2026-10-16T22:32:57.719Z",
+  "appId": "1112386029",
+  "scope": "Source-only, read-only audit. No host API was invoked and no credentials or code values were collected.",
+  "farmVersions": [
+    {
+      "version": "1112386029_3_04821fd3c97759851eb4b93e8c6e5685",
+      "bytes": 7385431,
+      "sha256": "7bb3f60db031c236398634b5d4999184c67d7bf56faef77433b94b82cdca518d",
+      "literalCounts": {
+        "wxLogin": 0,
+        "checkSession": 0,
+        "refreshSession": 0,
+        "code2Session": 0
+      }
+    },
+    {
+      "version": "1112386029_3_3443f89042dffbf93d20ced1d652d031",
+      "bytes": 9938471,
+      "sha256": "e65c49feea6b7117e3f938a2e32419049877bd88dea66e356230f4d514fbd77b",
+      "literalCounts": {
+        "wxLogin": 0,
+        "checkSession": 0,
+        "refreshSession": 0,
+        "code2Session": 0
+      }
+    },
+    {
+      "version": "1112386029_3_426128027bee4835486005162d0af8d9",
+      "bytes": 8194860,
+      "sha256": "574f464b0ad18683fab5aff5a766b4201512d7492d99c49375c901441aed0733",
+      "literalCounts": {
+        "wxLogin": 0,
+        "checkSession": 0,
+        "refreshSession": 0,
+        "code2Session": 0
+      }
+    },
+    {
+      "version": "1112386029_3_46f49446a560f34d2eb6214ad4bb921e",
+      "bytes": 7728090,
+      "sha256": "6b294217492e07eacadd8a63cf3bcc0a2ff8ffa87dd4dbb3aade9e2e9a1ea0ab",
+      "literalCounts": {
+        "wxLogin": 0,
+        "checkSession": 0,
+        "refreshSession": 0,
+        "code2Session": 0
+      }
+    },
+    {
+      "version": "1112386029_3_5165e5963ec361843a2419d0fdce160f",
+      "bytes": 8543536,
+      "sha256": "720cfe89de40c47719591a102724b703064a822161b0a5e034e3f4d713bee625",
+      "literalCounts": {
+        "wxLogin": 0,
+        "checkSession": 0,
+        "refreshSession": 0,
+        "code2Session": 0
+      }
+    },
+    {
+      "version": "1112386029_3_66f4180dc46b62b3f7db0ecffc1ffdd4",
+      "bytes": 7385178,
+      "sha256": "2e2c2791cfbc8a48154ca16828ba7327a3cadc8e5ae3fa8ec1ee8b2831a005b5",
+      "literalCounts": {
+        "wxLogin": 0,
+        "checkSession": 0,
+        "refreshSession": 0,
+        "code2Session": 0
+      }
+    },
+    {
+      "version": "1112386029_3_67b898be9fed43f96df1108d3f31f25b",
+      "bytes": 7170688,
+      "sha256": "2b8c9da9c4020425d8120baffb114ec6d3e1947126bef955133d4b97f910239c",
+      "literalCounts": {
+        "wxLogin": 0,
+        "checkSession": 0,
+        "refreshSession": 0,
+        "code2Session": 0
+      }
+    },
+    {
+      "version": "1112386029_3_684dfae7157d3e507ac47410fbb0cd62",
+      "bytes": 6771686,
+      "sha256": "96a67b486d2aabc8353182b63d59d48b76216a8efd61fd66223344b7a4537d23",
+      "literalCounts": {
+        "wxLogin": 0,
+        "checkSession": 0,
+        "refreshSession": 0,
+        "code2Session": 0
+      }
+    },
+    {
+      "version": "1112386029_3_6da6fda16dd5afaa6034a6bb5028e167",
+      "bytes": 7105425,
+      "sha256": "856091438f99fb116f81167f63f2a1782f3c6492698d72a62e832f15a56bec6d",
+      "literalCounts": {
+        "wxLogin": 0,
+        "checkSession": 0,
+        "refreshSession": 0,
+        "code2Session": 0
+      }
+    },
+    {
+      "version": "1112386029_3_6f7d5a6b0818442756c84261bc3387eb",
+      "bytes": 7728030,
+      "sha256": "324f7bfd0a7d77c7e9a195895626e6a424fb54afa374fe47904a864db6fde23d",
+      "literalCounts": {
+        "wxLogin": 0,
+        "checkSession": 0,
+        "refreshSession": 0,
+        "code2Session": 0
+      }
+    },
+    {
+      "version": "1112386029_3_6fbecc02132716b907c840f35103622d",
+      "bytes": 8543703,
+      "sha256": "536f72f06e1e425c7c2f9fb81fb2af0ad18ef927d300b00402d5bea6fce99fd6",
+      "literalCounts": {
+        "wxLogin": 0,
+        "checkSession": 0,
+        "refreshSession": 0,
+        "code2Session": 0
+      }
+    },
+    {
+      "version": "1112386029_3_86eee58e10ed64907dd7dc098bc10228",
+      "bytes": 8170524,
+      "sha256": "ee3c0a66f80b1ff15fd2bafcd1d04aa69b60919aad6c6bf65f483c897e2ffd1b",
+      "literalCounts": {
+        "wxLogin": 0,
+        "checkSession": 0,
+        "refreshSession": 0,
+        "code2Session": 0
+      }
+    },
+    {
+      "version": "1112386029_3_ef0ca37481d1620385ac066782e66b41",
+      "bytes": 7365721,
+      "sha256": "6d9c9389879d60e24e1fab72c281e4279600187b30639c78a1eb2d696729080c",
+      "literalCounts": {
+        "wxLogin": 0,
+        "checkSession": 0,
+        "refreshSession": 0,
+        "code2Session": 0
+      }
+    },
+    {
+      "version": "1112386029_3_fc520f9a62046536aac0af97ccca25f2",
+      "bytes": 7466475,
+      "sha256": "ed7879f4970d76ceef5d6c47b6ccc6f7b126b6fd304c1ebc47d2571b5de88e4d",
+      "literalCounts": {
+        "wxLogin": 0,
+        "checkSession": 0,
+        "refreshSession": 0,
+        "code2Session": 0
+      }
+    },
+    {
+      "version": "1112386029_3_fff0d37edf97abe3708d5242b03dd257",
+      "bytes": 6941361,
+      "sha256": "b87cec79d62c789745509a26a2a90c4b63f0fd2e271ee5097491376f896b3dbd",
+      "literalCounts": {
+        "wxLogin": 0,
+        "checkSession": 0,
+        "refreshSession": 0,
+        "code2Session": 0
+      }
+    }
+  ],
+  "runtime": {
+    "package": "pc_miniapp_0.2.11",
+    "qgame": {
+      "file": "C:\\Users\\chank616\\AppData\\Roaming\\QQEX\\miniapp\\temps\\miniapp_jslib\\pc_miniapp_0.2.11\\QGame.js",
+      "sha256": "5aba12e1e661b47c7050d63ec22251d9f1cdf07bcb15fa95336efaa94ee58b25",
+      "loginApi": {
+        "toNativeEventName": "login",
+        "successField": "code",
+        "snippetSha256": "49d102d783fc6a5eee614c269dc44b1094aef9952a4ac922ec6ba3bde9c57126",
+        "sourceSnippet": "rivate._reportAPICall({\n        apiname: 'openGroupRemind'\n      });\n\n      return param;\n    },\n    invokeAfter: function invokeAfter(result, userParams, isSync) {\n      if (isSync) {\n        return;\n      }\n\n      if (result.errMsg) {\n        result.errMsg = result.errMsg.replace('invokeGroupJSApi', 'openGroupNotice');\n      }\n\n      return result;\n    }\n  }\n}]);\nvar tt = __ttObjdec__;\nutil.normalAPIMutations([{\n  login: {\n    canIUse: {\n      '1.0.0': {\n        success: ['code'],\n        object: ['timeout']\n      }\n    },\n    toNativeEventName: 'login'\n  }\n}, {\n  checkSession: {\n    canIUse: {\n      '1.0.0': {\n        success: []\n      }\n    },\n    toNativeEventName: 'refreshSession'\n  }\n}, {\n  authorize: {\n    canIUse: {\n      '1.0.0': {\n        success: [],\n        object: ['scope']\n      }\n    },\n    toNativeEventName: 'authorize'"
+      },
+      "checkSessionApi": {
+        "toNativeEventName": "refreshSession"
+      }
+    },
+    "qlogic": {
+      "file": "C:\\Users\\chank616\\AppData\\Roaming\\QQEX\\miniapp\\temps\\miniapp_jslib\\pc_miniapp_0.2.11\\QLogic.js",
+      "sha256": "b687229f2168bec7e54ba9bac53b1a63b543c81114798ee466cf8bdc67980492",
+      "checkSession": {
+        "clearsPreviousTimer": true,
+        "invokesNativeRefreshSession": true,
+        "schedulesByExpireInSeconds": true,
+        "removesExpireInBeforeCallback": true,
+        "snippetSha256": "4675db9db8beba67f61db5716026cdead4a4e784696a087b053b4a4b3e5c6658",
+        "sourceSnippet": "ice,openGroupRemind:Ae.openGroupRemind,getGroupInfo:Ae.getGroupInfo,getGroupInfoExtra:Ae.getGroupInfoExtra,setBackgroundFetchToken:me.setBackgroundFetchToken,getBackgroundFetchToken:me.getBackgroundFetchToken,getBackgroundFetchData:me.getBackgroundFetchData,getBackgroundFetchDataForContainer:me.getBackgroundFetchDataForContainer,onBackgroundFetchData:me.onBackgroundFetchData,login:function(e){Object(u.z)(\"login\",e)},checkSession:function(e){Pc&&clearTimeout(Pc),Object(u.z)(\"refreshSession\",e,{beforeSuccess:function(e){Pc=setTimeout((function(){Object(u.z)(\"refreshSession\")}),1e3*e.expireIn),delete e.err_code,delete e.expireIn},beforeAll:function(e){e.errMsg=e.errMsg.replace(\"refreshSession\",\"checkSession\")}})},authorize:Rc,getUserInfo:function(){var e=0<arguments.length&&void 0!==arguments[0]?arguments[0]:{},t=Object(u.g)(\"getUserInfo\");Object(u.z)("
+      }
+    }
+  },
+  "conclusion": "All cached farm game.js files lack literal login/checkSession/refreshSession calls. The runtime maps wx.login to native login and wx.checkSession to native refreshSession; the latter schedules another refresh using host-supplied expireIn seconds but does not expose a new wx.login code or prove AMS-token renewal."
+}
